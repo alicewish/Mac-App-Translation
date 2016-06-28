@@ -1,0 +1,3 @@
+### Misc.
+- `⌘S` will create a new version of the current sheet. Select “Browse All Versions…” from the File menu to see how often you invoked that command.
+- Double-clicking a sheet in the sheet list lets you jump to the location of your last edit.

@@ -1,0 +1,69 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading3">### </tag></tags>标记</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘#</element> 标题</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘I</element> <element kind="emph" startTag="_">强调</element></p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘B</element> <element kind="strong" startTag="**">粗体</element></p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘K</element> <element kind="link"><attribute identifier="URL">#</attribute><attribute identifier="title">我只是假装是一个链接。</attribute>链接</element> </p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘L</element> 移除任何类型的标记</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘9</element> 显示标记栏，以防您忘记任何标记</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>智能标签</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>如果启用，结束标记占位符将会在每一个开始标签后自动插入一个字符</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>通过“编辑”›“替换”来启用智能标签</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>结束标记完成</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>按<element kind="code" startTag="`">esc</element>自动输入结束标记占位符</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>接受结束标记，做以下任何一种：</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>按 <element kind="code" startTag="`">↩︎</element> </p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>按 <element kind="code" startTag="`">→</element></p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>按 <element kind="code" startTag="`">↓</element> （如果是最后一张文稿）</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>键入结束标记</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>要消除结束标记，请按<element kind="code" startTag="`">esc</element></p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>转义符</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>为了防止 Ulysses 将任何字符当成标记，只需在它前面添加一个反斜杠（例如，若您真想要方括号而不是链接，则输入 “<escape>\[</escape>内容]”）</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>标记栏</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>显示标记栏（<element kind="code" startTag="`">⌘9</element>）时，您可以点击列出的任何标记，将其应用到当前选择的项目</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>这适用于多个选择（<element kind="code" startTag="`">⌘</element>-点击选择文本的不同部分）</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>多层次的段落，如列表和嵌段引号，在您每次点击时缩进+1</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧</element>-点击可移除标记或凸排多层段落</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>标记语言</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>默认情况下，Ulysses 使用其原生标记语言“Markdown XL”</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>通过“编辑”›“转换标记”切换至“Markdown”、“Textile’d”或“Minimark”</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>通过“偏好设置”›“标记”，您可以创建自己的标记</p>
+<p></p></string>
+</sheet>

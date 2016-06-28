@@ -1,0 +1,44 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>iCloud 对比在我的 Mac 上</p>
+<p></p>
+<p>默认情况下，您的文本将储存在 iCloud 上，方便所有运行 Ulysses 的设备随时使用。当然，您还可以决定储存在本地，或者随意将文本从云移到本地存储器，反之亦然。</p>
+<p></p>
+<p>只要在偏好设置中启用了这两个选项，那就是：</p>
+<p></p>
+<p><element kind="image"><attribute identifier="image">160426ed81da4c19883336e676501f97</attribute><attribute identifier="description">文库设置</attribute></element> <element closed="no" kind="inlineComment" startTag="++"> &lt;- 西蒙说：“双击，不要跳！</element></p>
+<p></p>
+<p>当然，一切都存储“在我的 Mac 上”将不会再提供给您所有的其他设备来使用，但是这并不一定是件坏事，不是吗？</p>
+<p></p></string>
+</sheet>

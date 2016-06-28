@@ -1,0 +1,30 @@
+### Screen Modes
+- `⌥⌘L` to toggle Dark Theme
+- `⌃⌘F` to toggle Full Screen Mode
+- `⌥⌘X` to toggle Dark Mode
+
+### Multiple Windows, Split View
+
+- You can have multiple windows open at the same time (`⌥⌘N`)
+- We support OS X’ Split View, so you can display two windows next to each other in Split View.
+- You can also display a Ulysses sheet next to another app in Split View, or next to its own preview.
+- You can even have the same sheet visible in all open windows, which makes for some fancy show-off while editing, but it’s of not much use, to be honest.
+
+### Sheet List Options
+- The View menu holds several options for personalizing the sheet list:
+	- Set the “Sheet Preview” to anything between 1 and 6 lines
+	- Include Keywords and Goals in the sheet preview
+	- Either sort manually, by date or by first character   
+
+### Editor Options
+- The View menu also holds options for personalizing the editor:
+	- `⌥⌘T` to toggle Typewriter Scrolling
+		- You can set this to top, center or bottom
+		- You can also set this to be fixed or variable
+	- Enable a highlight for the currently selected line
+	- Enable the display of paragraph numbers
+
+### Font Size
+- `⌘+` to increase font size
+- `⌘-` to decrease font size
+- `⌘0` to reset font size to default value

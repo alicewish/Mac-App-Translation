@@ -1,0 +1,11 @@
+## Attachments, Notes & Comments
+
+See the button with the paper-clip on the right of the toolbar? Click it to open a sheet’s “attachment bar”. Attachments allow you to place arbitrary content next to your not-so arbitrary main content: images, text notes, keywords and writing goals. Keywords are especially nice, since you can set up filters which will look for these keywords.
+
+Images and text notes can be attached multiple times, and all attachments can be detached and placed anywhere onscreen. You can even zoom into images, flip through PDFs and use most markup within text notes.
+
+Another way to add notes is to create ￼annotations￼ or inline comments. ++ Double click the annotation’s annotation, please. ++ Comments can also span entire paragraphs.
+
+%% Span.
+%% Entire.
+%% Paragraphs.

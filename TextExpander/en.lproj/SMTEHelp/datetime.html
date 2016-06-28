@@ -1,0 +1,133 @@
+<!-- Localized -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tebasic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <!-- InstanceBeginEditable name="doctitle" -->
+ <title>TextExpander Help: Date, Time, and Math Macros</title>
+ <!-- InstanceEndEditable -->
+ <meta name="AppleTitle" content="TextExpander help">
+ <meta name="AppleIcon" content="SMTEHelp/images/textexpander64.gif">
+ <meta name="Copyright" content="Copyright 2007-2014 SmileOnMyMac, LLC, dba Smile. All Rights Reserved.">
+ <link href="somm_help.css" rel="stylesheet" type="text/css" media="all">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="100%">
+  <tr>
+    <td width="80"><a href="index.html"><img src="images/textexpander.png" alt="TextExpander logo" width="64" height="64" border="0" /></a></td>
+    <td><a href="index.html"><img src="images/logotype.gif" alt="TextExpander" width="307" height="46" border="0" /></a></td>
+    <td width="80"><a href="http://www.smilesoftware.com" target="_blank"><img src="images/sommlogo.gif" alt="Smile logo" width="64" height="80" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <h1><a href="index.html">Help</a>: Date, Time, and Math Macros</h1>
+      <br />
+
+
+      <h3>Date / Time Snippets</h3>
+   <p><strong><a name="createdatesnippet" id="createdatesnippet">Create a date or time snippet using the Insert menu</a></strong></p>
+        <ol>
+          <li>Create a new snippet by clicking New Snippet <img src="images/newsnippet.gif" alt="new snippet button" width="35" height="20" border="0" align="absmiddle" /> in the TextExpander menubar.</li>
+          <li>Click the Insert menu <img src="images/plusbutton.gif" alt="insert menu button" width="29" height="20" border="" align="absmiddle" /> located just above the Abbreviation box. You will see both Date and Time options.</li>
+          <li>Select a series of Year, Month, Day or Hour, Minute, Second options. Include any punctuation you would like.
+           <p>For example, if you want a date to appear in this format &ldquo;January 3, 2012&rdquo;, insert the following:</p>
+            <ul>
+             <li>Choose Date > Month > January. Add a space.</li>
+             <li>Choose Date > Day > 1. Add a comma and a space.</li>
+             <li>Choose Date > Year > 2001</li>
+            </ul>
+          </li>
+          <li>Choose an abbreviation in the Abbreviation box. We like abbreviations like &ldquo;ddate&rdquo; and &ldquo;ttime&rdquo;.</li>
+    </ol>
+     <p><strong>How date / time snippets work</strong></p>
+       <p>TextExpander allows you to create snippets which expand the current time and date. These types of snippets use special codes (<a href="specials.html">macros</a>) to do so, and are easily customizable.</p>
+       <p>For example, TextExpander comes with a sample snippet, &ldquo;ddate&rdquo;, for the current date. Type the abbreviation, &ldquo;ddate&rdquo;, and the current date will appear like this : January 3, 2012  (assuming this is the current date).</p>
+       <p>Each portion of the date is represented by a percentage sign and letter combination (macro), each of which stands for a particular format for showing Month, Day, and Year. In order to change a given date format, change the macros involved and their order. For example:</p>
+        <ul>
+         <p>For this date format &ldquo;January 3, 2012&rdquo;, where Month is a word, Day is a number, and Year is a number, use these characters &ldquo;%B %e, %Y&rdquo;.</p>
+        <p>For this date format &ldquo;12-01-03&rdquo;, where Year is a number, Month is a number, and Day is a number, use these characters &ldquo;%y-%m-%d&rdquo;.</p>
+       </ul>
+       <p>The following is a list of macros that can be used in TextExpander in date and time snippets:</p>
+      <ul>
+        <li><strong>Time</strong>
+       <p>%1H = Hour, 24-hour clock, 1-2 digits (0-23)</p>
+         <p>%H = Hour, 24-hour clock, 2 digits (00-23)</p>
+         <p>%I = Hour, 12-hour clock, 2 digits (00-12)*</p>
+       <p>%1I = Hour, 12-hour clock, 1-2 digits (0-12)*</p>
+         <p>%M = Minute, 2 digits (00-59)</p>
+         <p>%1M = Minute, 1-2 digits (0-59)</p>
+         <p>%S = Second, 2 digits (00-59)</p>
+    <p>%1S = Second, 1-2 digits (0-59)</p>
+         <p>%p = Time, AM/PM</p>
+         <p>%z = GMT offset</p>
+         <p>%Z = timezone</p>
+       </li>
+      </ul>
+   <p>*Note the codes for 12-hour clock use a capital letter i</p>
+   <ul>
+        <li><strong>Date</strong>
+          <p>%Y = Year, 4 digits (2011)</p>
+          <p>%y = Year, 2 digits (11)</p>
+          <p>%B = Month, long name (January)</p>
+          <p>%b = Month, short name (Jan)</p>
+          <p>%m = Month, 2 digits (01-12)</p>
+          <p>%1m = Month, 1-2 digits (1-12)</p>
+          <p>%A = Day, long name (Monday)</p>
+          <p>%a = Day, short name (Mon)</p>
+          <p>%d = Day, 2 digits (01-31)</p>
+          <p>%e = Day, 1 digit (1-31)</p>
+          <p>%j = numerical day of year</p>
+          <p>%date:&lt;Unicode Date Format&gt;% </p>
+        </li>
+      </ul>
+          <p>(where &lt;Unicode Date Format&gt; is defined here: <a href="http://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns">http://unicode.org/reports/tr35/tr35-dates.html#Date_Format_Patterns</a>)</p>
+
+
+      <h3><a name="macromath" id="macromath"></a>Date / Time Math</h3>
+        <p>Make a snippet to show a past or future date or time using math macros. This involves placing a math macro directly in front of a date or time macro. Date/time macros are explained above. For example, say you are in the Accounts Receivable department and routinely need to remind people to pay you in 15 days time. You can create a date snippet that will always expand to a date 15 days in the future.</p>
+  <p><strong>Create a snippet using date / time math:</strong></p>
+         <ol>
+          <li>Create a new snippet by clicking on New Snippet <img src="images/newsnippet.gif" alt="new snippet button" width="35" height="20" border="0" align="absmiddle" /> in the TextExpander menubar.</li>
+          <li>Click on the Insert menu <img src="images/plusbutton.gif" alt="insert menu button" width="29" height="20" border="0" align="absmiddle" /> located just above the Abbreviation box. Navigate to Date/Time Math > Add Day(s).</li>
+          <li>TextExpander inserts the special code %@+1D, aka math macro, into your snippet content. Change &ldquo;1D&rdquo; to &ldquo;15D&rdquo;.</li>
+          <li>Insert the date format you wish to appear using the Insert menu, located just above the Abbreviation box. For example, if you want the date to appear in this format &ldquo;January 3, 2012&rdquo;, insert the following:
+           <ul>
+             <li>Choose Date > Month > January. Add a space.</li>
+             <li>Choose Date > Day > 1. Add a comma and a space.</li>
+             <li>Choose Date > Year > 2001</li>
+            </ul>
+           </li>
+           <li>When you are done, the snippet content should be &ldquo;%@+15D%B %e, %Y&rdquo;, without the quotation marks.</li>
+           <li>Give your snippet an abbreviation, such as &ldquo;d15&rdquo; or &ldquo;payupnow&rdquo;.</li>
+          </ol>
+           <br />
+          <p><img src="images/datemath2.png" alt="date math submenu" width="250" height="195" border="" align="absmiddle" /></p>
+        <p>Here is a list of the math macros used in TextExpander:</p>
+          <ul style="list-style-type: none;">
+           <li>%@+1Y = Add Year(s)</li>
+           <li>%@+1M = Add Month(s)</li>
+           <li>%@+1D = Add Day(s)</li>
+           <li>%@+1h = Add Hour(s)</li>
+           <li>%@+1m = Add Minute(s)</li>
+           <li>%@+1s = Add Second(s)</li>
+          </ul>
+        <p>To subtract the value instead of add, change the plus &ldquo;+&rdquo; to minus &ldquo;-&rdquo;. To change the amount of value, change the &ldquo;1&rdquo; to another number.</p>
+  <p>Date and time math macros apply to all subsequent date and time formats, including to embedded snippets. Date and time math macros are not cumulative. If another date and time math macro appears in a snippet, it replaces the previous date and time math macro. For example, assuming it is now September 2014: "One year from now: %@+1Y%Y, more specifically %B, %Y. Two years from now: %@+2Y%Y." expands to "One year from now: 2015, more specifically September, 2015. Two years from now: 2016."</p>
+        <p>For more information on special characters and macros used in TextExpander, see <a href="specials.html">Advanced Snippet Functions: Macros</a>.</p>
+    <!-- InstanceEndEditable --></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><span class="smalltext"><br />
+      </span><span class="small">&copy;
+ SmileOnMyMac, LLC, dba Smile. All rights reserved.<br />
+    TextExpander is a registered trademark, Smile and the Smile logo are trademarks of SmileOnMyMac, LLC, dba Smile.</span></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

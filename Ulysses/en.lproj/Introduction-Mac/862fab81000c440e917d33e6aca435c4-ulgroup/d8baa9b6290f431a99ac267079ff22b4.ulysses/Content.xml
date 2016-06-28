@@ -1,0 +1,48 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>Search — and Find</p>
+<p></p>
+<p>So many texts, so many words? In case you lose track, Ulysses offers a number of search options.</p>
+<p></p>
+<p>Group search is available at the top of the sheet list and can be restricted to certain text elements, such as headings or comments. In the editor, Find and Find &amp; Replace are also at your disposal.</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Quick Open</p>
+<p></p>
+<p>The fastest way to get to work is Quick Open. Try this:</p>
+<p></p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Hit <element kind="code" startTag="`">⌘O</element> to open the Quick Open panel.</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Enter a search term to scan the current section of your library, e.g. enter “Quick”.</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Click to get back here.</p>
+<p></p></string>
+</sheet>

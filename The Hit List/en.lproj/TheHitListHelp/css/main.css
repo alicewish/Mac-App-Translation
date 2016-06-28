@@ -1,0 +1,337 @@
+/*
+
+ Copyright 2014 Karelia Software LLC. All rights reserved
+
+----------------------------------------------------------------------------------
+CSS Reset
+--------------------------------------------------------------------------------*/
+
+* { padding:0; margin:0; }
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, label, ul, ol, dl, fieldset, address { margin:14px 0; }
+li, dd { margin-left:5%; }
+select option { padding:0 5px; }
+.left { float:left; }
+.right { float:right; }
+.center { text-align: center; }
+.clear { clear:both; height:1px; font-size:1px; line-height:1px; }
+a img { border:none; }
+
+/*--------------------------------------------------------------------------------
+  General
+--------------------------------------------------------------------------------*/
+
+body {
+	font: 13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 1.6;
+	color: #333;
+}
+
+.clear { clear: both; }
+
+/*--------------------------------------------------------------------------------
+  Layout
+--------------------------------------------------------------------------------*/
+
+body { margin: 0; padding: 0; }
+
+body.main { overflow: hidden; }
+
+#navigation {
+	overflow: auto;
+	padding: 19px 10px 0 20px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 170px;
+	border-right: 1px solid #d8d7d7;
+	background-color: #f6f6f6;
+	z-index: 1;
+	font-size: 12px;
+}
+
+#navigation ul { margin-top: 8px; }
+
+#navigation li {
+	line-height: 15px;
+	margin-bottom: 8px;
+}
+
+#navigation hr {
+	height: 1px;
+	margin: 0; padding: 0; border: 0;
+	margin-right: 10px;
+	background-color: #ddd;
+}
+
+#navigation a, #navigation a:visited {
+	text-decoration: none;
+	color: #444;
+}
+
+#navigation a:hover { color: #09c; }
+
+#navigation a:active { color: #006A8D; }
+
+#navigation a.selected { font-weight: bold; }
+
+#pdf {
+	display: inline-block;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+
+#content {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin-left: 200px;
+	padding: 22px 25px;
+	overflow: auto;
+}
+
+/*--------------------------------------------------------------------------------
+  Headers
+--------------------------------------------------------------------------------*/
+
+#menu h1,
+#menu h1 a,
+#menu h1 a:visited {
+	line-height: px;
+	font-size: 16px;
+	font-weight: normal;
+	color: #222;
+	margin: 0;
+	padding: 0;
+	text-shadow: #fff 0 1px 0px;
+	text-decoration: none;
+	position: relative;
+	top: 1px;
+}
+
+h4 {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+h5 {
+	font: 18px  "HelveticaNeue-Medium", Hevetica, Arial, sans-serif;
+	font-weight: normal;
+	margin: 30px 0 20px;
+}
+
+h6 {
+	font: 15px "HelveticaNeue-Medium", Helvetica, Arial, sans-serif;
+	margin: 20px 0;
+}
+
+/*--------------------------------------------------------------------------------
+  Footer
+--------------------------------------------------------------------------------*/
+
+#footer {
+	margin: 25px 0 10px;
+	font-size: 11px;
+	color: #999;
+	clear: both;
+}
+
+/*--------------------------------------------------------------------------------
+  Outline
+--------------------------------------------------------------------------------*/
+
+.outline ul {
+	padding-left: 8px;
+}
+
+.outline li {
+	list-style: none;
+	cursor: auto;
+}
+
+.outline li.open {
+	list-style: url('../images/disclosure-open.png');
+}
+
+.outline li.closed {
+	list-style: url('../images/disclosure-closed.png');
+}
+
+.outline li.closed ul {
+	display: none;
+}
+
+/*--------------------------------------------------------------------------------
+  Index Page
+--------------------------------------------------------------------------------*/
+
+#splash {
+	text-align: center;
+	position: relative;
+	top: -10px;
+}
+
+#splash h2 {
+	color: #444;
+	font: bold 32px Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+#index #footer {
+	margin: 0;
+	padding: 50px 0 0 0;
+	text-align: center;
+}
+
+/*--------------------------------------------------------------------------------
+  Explanation Table
+--------------------------------------------------------------------------------*/
+
+table.explanation {
+	font-size: 13px;
+	margin: 16px 0 20px 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.explanation tr {
+	border-bottom: 1px solid #e4e4e4;
+}
+
+table.explanation tr:first-child {
+	border: none;
+}
+
+table.explanation th:first-child {
+	border-top-left-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-bottom-left-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomleft: 3px;
+}
+
+table.explanation th:last-child {
+	border-top-right-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	border-bottom-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+}
+
+table.explanation tr.h2 {
+	background-color: #f3f3f3;
+	font-weight: bold;
+}
+
+table.explanation tr.h3 {
+	font-weight: bold;
+}
+
+table.explanation tr.lev2 td:first-child {
+	padding-left: 30px;
+}
+
+table.explanation th {
+	background-color: #999;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: left;
+	padding: 4px 8px;
+	margin: 0;
+	border: 0;
+}
+
+table.explanation td {
+	width: 50%;
+	vertical-align: top;
+	padding: 8px 8px;
+	margin: 0;
+	border: 0;
+}
+
+/*--------------------------------------------------------------------------------
+  Keyboard Shortcuts Table
+--------------------------------------------------------------------------------*/
+
+table.shortcuts th:first-child {
+	border-bottom-left-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-moz-border-radius-bottomleft: 0;
+}
+
+table.shortcuts th:last-child {
+	border-bottom-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+	-moz-border-radius-bottomright: 0;
+}
+
+table.shortcuts th,
+table.shortcuts th:first-child {
+	width: 50%;
+}
+
+table.shortcuts td:nth-child(2) {
+	width: 35%;
+}
+
+table.shortcuts td:nth-child(3) {
+	width: 15%;
+	text-align: right;
+}
+
+/*--------------------------------------------------------------------------------
+  Repeating tasks
+--------------------------------------------------------------------------------*/
+
+table.repeat ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+table.repeat li {
+	margin-left: 0;
+	margin-bottom: 6px;
+}
+
+table.repeat li:last-child {
+	margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------------------------
+  Custom URL Scheme
+--------------------------------------------------------------------------------*/
+
+span.token {
+	font-weight: bold;
+}
+
+span.context {
+	font-style: oblique;
+}
+
+code.example {
+	margin: 3px 0;
+	padding: 7px 9px;
+	background-color: #f2f2f2;
+	display: inline-block;
+}
+
+#examples div {
+	margin-bottom: 20px;
+}
+
+table.parameters tr td:first-child {
+	width: 25%
+}
+table.parameters tr td:nth-child(2) {
+	width: 45%
+}
+table.parameters tr td:nth-child(3) {
+	width: 30%;
+}

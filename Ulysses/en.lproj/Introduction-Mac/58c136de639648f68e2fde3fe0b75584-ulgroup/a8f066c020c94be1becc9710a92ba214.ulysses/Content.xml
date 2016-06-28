@@ -1,0 +1,65 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>Export: 360 Degree Semantics</p>
+<p></p>
+<p>Now for the fun part: Ulysses can output your writing to a host of standard formats, such as Plain Text, DOCX, HTML, ePub and even PDF. It does so by translating your <element kind="emph" startTag="_">plain text input</element> based on the definition of the minimal markup. If your brain starts to hurt, here’s a simple example…</p>
+<p></p>
+<p>Let’s assume you want to emphasize a text passage. You select the word “emphasize” (do so), and press the keyboard shortcut <element kind="code" startTag="`">⌘I</element>. Notice the extra characters that were entered around the word.</p>
+<p></p>
+<p>You have just told Ulysses, in its own “plain text language”, that this passage should be an emphasized passage. Now Ulysses knows and will never forget. So when you export your text to, say, a PDF, Ulysses will translate this emphasized passage into what a PDF will understand and display — in this case, it will format your emphasized passage as italicized text.</p>
+<p></p>
+<p>Give it a try:</p>
+<p></p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Open Quick Export (<element kind="code" startTag="`">⌘6</element>).</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Switch to PDF export.</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Click the “Preview…” button.</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>The “emphasize” above should be set in italics.</p>
+<p></p>
+<p><tags><tag kind="heading2">## </tag></tags>Headlines Such as This Will Get a Larger Font</p>
+<p></p>
+<p>If you export to HTML instead, Ulysses will translate the emphasized passage to semantically correct <element kind="code" startTag="`">&lt;em&gt;</element>, and the headline will be tagged with <element kind="code" startTag="`">&lt;h2&gt;</element>.</p>
+<p></p>
+<p>And so on.</p>
+<p></p>
+<p>The beauty of this should be obvious by now: Instead of worrying about how your output <element kind="emph" startTag="_">looks</element>, you can concentrate on what your content is <element kind="emph" startTag="_">supposed to mean</element>. This may be frightening at first, but trust us, it’s not.</p>
+<p></p>
+<p>It’s awesome.</p>
+<p></p>
+<p><tags><tag kind="heading2">## </tag></tags>Share Your Work</p>
+<p></p>
+<p>You can send a PDF via e-mail or save it to iCloud. You can open a DOCX file in Microsoft Word or Pages, or publish your text as draft with your Medium account…</p>
+<p></p>
+<p>Via the respective buttons in the Quick Export panel, you can make use of all available options. They will differ depending on the chosen output and the apps installed on your Mac.</p>
+<p></p></string>
+</sheet>

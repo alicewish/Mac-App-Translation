@@ -1,0 +1,52 @@
+<sheet version="2">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>Attachments, Notes &amp; Comments</p>
+<p></p>
+<p>See the button with the paper-clip on the right of the toolbar? Click it to open a sheet’s “attachment bar”. Attachments allow you to place arbitrary content next to your not-so arbitrary main content: images, text notes, keywords and writing goals. Keywords are especially nice, since you can set up filters which will look for these keywords.</p>
+<p></p>
+<p>Images and text notes can be attached multiple times, and all attachments can be detached and placed anywhere onscreen. You can even zoom into images, flip through PDFs and use most markup within text notes.</p>
+<p></p>
+<p>Another way to add notes is to create <element kind="annotation"><attribute identifier="text"><string xml:space="preserve">
+<p>“You killed my annotation.”</p>
+<p>“No, I AM your annotation.”</p>
+</string></attribute>annotations</element> or inline comments. <element kind="inlineComment" startTag="++"> Double click the annotation’s annotation, please. </element> Comments can also span entire paragraphs.</p>
+<p></p>
+<p><tags><tag kind="comment">%% </tag></tags>Span.</p>
+<p><tags><tag kind="comment">%% </tag></tags>Entire.</p>
+<p><tags><tag kind="comment">%% </tag></tags>Paragraphs.</p>
+<p></p></string>
+<attachment type="note"><string xml:space="preserve">
+<p>Oh, you noticed me! Don’t close me again, please. I haven’t been read in a looooong time. Detach me, I beg you. Please. I want to breathe a little longer.</p>
+</string></attachment>
+</sheet>

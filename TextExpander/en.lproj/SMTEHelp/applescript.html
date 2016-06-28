@@ -1,0 +1,147 @@
+<!-- Localized -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tebasic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <!-- InstanceBeginEditable name="doctitle" -->
+ <title>TextExpander Help: AppleScript, Shell Script, JavaScript Snippets</title>
+ <!-- InstanceEndEditable -->
+ <meta name="AppleTitle" content="TextExpander help">
+ <meta name="AppleIcon" content="SMTEHelp/images/textexpander64.gif">
+ <meta name="Copyright" content="Copyright 2007-2015 SmileOnMyMac, LLC, dba Smile. All Rights Reserved.">
+ <link href="somm_help.css" rel="stylesheet" type="text/css" media="all">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="100%">
+  <tr>
+    <td width="80"><a href="index.html"><img src="images/textexpander.png" alt="TextExpander logo" width="64" height="64" border="0" /></a></td>
+    <td><a href="index.html"><img src="images/logotype.gif" alt="TextExpander" width="307" height="46" border="0" /></a></td>
+    <td width="80"><a href="http://www.smilesoftware.com" target="_blank"><img src="images/sommlogo.gif" alt="Smile logo" width="64" height="80" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <h1><a href="index.html">Help</a>: Script Snippets</h1>
+
+<br />
+
+      <h3>AppleScript Snippets</h3>
+      <p>In the content format drop-down menu, choose &quot;AppleScript&quot; as the format type. In the content field, enter an AppleScript such as this one:</p>
+      <blockquote>
+        <p>
+          <span class="codegray"> -- Adjust values in quotes in the list below to your preferred greeting</span><br>
+          <strong>return some</strong> <span class="codeblue">item</span> <strong>of</strong> {&quot;Sincerely&quot;, &quot;Yours Truly&quot;, &quot;Peace Out&quot;, &quot;Have a good day&quot;, &quot;kthxbai&quot;}</p>
+      </blockquote>
+   <p>The script executes in the context of the TextExpander application. The script can perform various actions such as controlling or requesting information from other applications, but the snippet
+  will expand to whatever text is <code>return</code>ed. The script should not use <code>display dialog</code> or <code>display alert</code> because all keystrokes are buffered while the snippet is expanding.</p>
+
+
+      <h3>Shell Script Snippets</h3>
+      <p>In the content format drop-down menu, choose &quot;Shell Script&quot; as the format type. In the content field, enter a shell script such as this one:</p>
+<code>#!/usr/bin/perl<br />
+print "Hello from Perl!\n";</code>
+ <p>Your shell script must have the &ldquo;shebang&rdquo; (#!) on its first line and that must specify the interpreter to be used for your script.</p>
+ <p>Here is an example of a Unix shell script</p>
+<code>#!/bin/bash<br />
+echo "Hello from Bash!"</code>
+ <p>The snippet will expand to the standard output of the shell script.</p>
+ <p>Shell scripts inherit TextExpander’s environment, so no shell configuration or profile, such as .bashrc / .bash_profile, is executed. TextExpander sets LANG to [current locale].UTF-8 before executing a shell script. The result of a shell script must be encoded in UTF-8.</p>
+
+
+
+      <h3>JavaScript Snippets</h3>
+<p>In the content format drop-down menu, choose &quot;JavaScript&quot; as the format type. In the content field, enter a JavaScript such as the example below.</p>
+<p>In the content field, you may enter:</p>
+ <ul>
+  <li>Plain old JavaScript, as you might write for a web browser, in an environment provided by TextExpander. This script can also operate in TextExpander touch for iOS.</li>
+  <li><a href="https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/">JavaScript for Automation (JSA)</a> which is a superset of JavaScript and can be used to automate OS&nbsp;X applications, but it cannot share context with other embedded script snippets, and the expansion text is always the value of the last statement executed in the script. It cannot operate in TextExpander touch for iOS.</li>
+ </ul>
+<p>TextExpander will automatically detect JSA because almost all JSA scripts must contain some specific keywords. If needed, force the script to execute in JavaScript for Automation by setting the first line to: <code>//JSA</code> or <code>//&nbsp;JSA</code>, (a comment with or without a Space to start).</p>
+<p>Here is an example of plain old JavaScript:</p>
+ <pre>
+ a = "Hello, ";
+ b = "world!";
+ a + b;
+ </pre>
+<p>Here is an example of JavaScript for Automation:</p>
+ <pre>
+ Mail = Application('Mail');
+ firstMessage = Mail.inbox.messages[0];
+ firstMessage.subject();
+ </pre>
+<p>In both cases, the snippet expands to the content of the last expression.</p>
+
+<p>The TextExpander environment includes a global <code>TextExpander</code> variable with the following properties:</p>
+<dl>
+    <dt>appendOutput()</dt>
+        <dd>This function allows the script to build up the text to be expanded, otherwise the expansion will default to the value of the last statement executed in the script (see also <code>TextExpander.ignoreOutput</code>)</dd>
+    <dt>ignoreOutput</dt>
+        <dd>A boolean flag the script can set indicating it will return no text for expansion. Useful in the case where the script only has some side effect. Default value is <code>false</code>.</dd>
+    <dt>triggeringAbbreviation</dt>
+        <dd>A string which tells what abbreviation triggered the expansion of the script. The triggering abbreviation may not be the abbreviation of this snippet if the snippet was embedded as discussed below. The abbreviation may be empty if the snippet was expanded via the TextExpander menu.</dd>
+    <dt>baseDate</dt>
+        <dd>A Date holding the time the snippet is being expanded.</dd>
+    <dt>adjustedDate</dt>
+        <dd>Initially holds the same Date as <code>TextExpander.baseDate</code>, but may hold a different time if a snippet embedding this one used a Date Math macro. The script can modify <code>TextExpander.adjustedDate</code>, then that date will be used for subsequent date and time macros.</dd>
+    <dt>pasteboardText</dt>
+        <dd>A string with the text contents of the pasteboard. The script can modify this to place the specified text on the pasteboard after the expansion is completed.</dd>
+    <dt>expansionContext</dt>
+        <dd>A string with the bundle identifier of the application where the snippet is being expanded. May not always be available. Will be <code>"com.textexpander.preview"</code> when previewing the snippets, or when creating text to be Copied or Shared.</dd>
+    <dt>filledValues</dt>
+        <dd>Holds fill-in field values as properties, or nil when snippet is not a fill-in. Text fields, text areas, and popup menus have string values, conditional parts have values 1 or 0. Values are accessed via their field name. If no field name has been specified, a default name is built with the format string <code>"Variable %d"</code>.</dd>
+</dl>
+<p>If JavaScript snippets are embedded as discussed below, all the scripts share the same context, so global variables created in one snippet are available in following snippets.</p>
+<p>An example TextExpander environment JavaScript snippet, which only adjusts the date used for date macros to four non-weekend days from the current date:</p>
+<blockquote>
+  <p><code>// Find the first non-weekend day four days from now<br />
+var p4bd = new Date();<br />
+p4bd.setDate(TextExpander.baseDate.getDate() + 4); // add 4 days to current<br />
+// skip Saturdays and Sundays<br />
+while (p4bd.getDay() == 6 || p4bd.getDay() == 0) {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;p4bd.setDate(p4bd.getDate() + 1);<br />
+}<br />
+TextExpander.adjustedDate = p4bd; // adjust for all snippets in this expansion<br />
+TextExpander.ignoreOutput = true;
+</code></p>
+</blockquote>
+
+
+
+      <h3>Nesting Script Snippets</h3>
+   <p>Script snippets can be nested within text snippets using the nested snippet macro %snippet:[snippet&nbsp;name]%.</p>
+   <p>Example: if the AppleScript snippet above had the abbreviation &quot;eend&quot;, and the date-adjusting JavaScript had the abbreviation &quot;+4nwd&quot;, you could use them both in a text snippet:</p>
+     <blockquote>
+   <p>Dear Reader,</p>
+   <p>Thank you for your feedback on my book. I will analyze your question in depth and get back to you %snippet:+4nwd%on or before %A, %B %e.</p>
+   <p>%snippet:eend%,</p>
+   <p>- Author</p>
+     </blockquote>
+ <p>which would expand to:<br />
+      </p>
+ <blockquote>
+   <p>Dear Reader,</p>
+   <p>Thank you for your feedback on my book. I will analyze your question in depth and get back to you on or before Monday, March 23.</p>
+   <p>Have a good day,</p>
+   <p>- Author</p>
+   </blockquote>
+ <p>The promised date is four non-weekend days in the future, and the signature is one of the random choices in <em>greetingsList</em>.</p>
+ <p>Feel free to <a href="mailto:support@smilesoftware.com">share your cool scripts with us</a>.</p>
+  <br />
+ <p>For information on other macros used in TextExpander, see <a href="datetime.html">Date, Time, and Math Macros</a> and <a href="specials.html">Advanced Snippet Functions: Macros</a>.</p>
+  <br />
+    <!-- InstanceEndEditable --></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><span class="smalltext"><br />
+      </span><span class="small">&copy;
+ SmileOnMyMac, LLC, dba Smile. All rights reserved.<br />
+    TextExpander is a registered trademark, Smile and the Smile logo are trademarks of SmileOnMyMac, LLC, dba Smile.</span></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

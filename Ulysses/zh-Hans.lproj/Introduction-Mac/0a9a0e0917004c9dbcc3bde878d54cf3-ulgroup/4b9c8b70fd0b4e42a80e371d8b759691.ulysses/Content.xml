@@ -1,0 +1,49 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>导出： 样式</p>
+<p></p>
+<p>在快速导出面板中，有一个选项可以在各种导出样式之间切换。每种样式提供一组预先定义的转换规则。</p>
+<p></p>
+<p>以“Futura Simple”为例，这种样式同时适用于 PDF 和 DOCX：</p>
+<p></p>
+<p>标题 1： Futura Medium，20 磅。</p>
+<p>正文文本： Helvetica Neue Regular，10.5 磅。</p>
+<p>强调： 斜体。</p>
+<p>评论： 删除。</p>
+<p></p>
+<p>以此类推。</p>
+<p></p>
+<p>Ulysses 为每个导出程序提供一些内置样式，您可以在“偏好设定 › 样式”中将它们全部选中。在这里，您可以停用不需要的样式、复制要编辑的样式，甚至通过<element kind="link"><attribute identifier="URL">http://styles.ulyssesapp.com/</attribute><attribute identifier="title">Ulysses Style Exchange</attribute>Ulysses Style Exchange</element>下载和共享新样式。</p>
+<p></p></string>
+</sheet>

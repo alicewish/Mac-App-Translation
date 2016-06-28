@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Working with the Project View</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Working with the Project View."/>
+
+    <link media="all" rel="stylesheet" href="../css/navigation.css" />
+    <link media="all" rel="stylesheet" href="../css/page.css" />
+  </head>
+    <body id="mainbox">
+    
+    <div id="navigation">
+      <ul>
+    	<li class="breadcrumb"><a href="../index.html">Storyist Home</a></li>
+    	<li class="breadcrumb"><a href="toc-content.html">Storyist Users Guide</a></li>
+      </ul>
+      <div class="current-page">
+          <span>Working with the Project View</span>
+      </div>
+    </div>
+    <h1 id="id0291B5E3BA2242F3AF74F2DA583BFF60" class="heading1">Working with the Project View</h1>
+    <p id="id017B703FF2574423B9817CF6BA323D08" class="bodyText">A Storyist project contains your manuscripts and scripts, and your story sheets for plot, character, and setting. </p>
+    <p class="bodyText">It can also hold many types of ancillary information. For example, you might use it to store bits of dialog, clippings, research, or query letters.</p>
+    <p class="bodyText">The Project View—located at the left of the main window—helps you organize and access these project items quickly. </p>
+    <h2 id="id526A5336E57E4FA880F43C9868DB233D" class="heading2">Adding Items to the Project</h2>
+    <p id="idE523E7E9DCE041F5846A101F218C36A3" class="bodyText">There are several ways to add items to your project:</p>
+    <ul>
+      <li>Via the File &gt; New menu.</li>
+      <li>Via the Add button in the toolbar.</li>
+      <li>Via the Add (+) menu at the bottom of the Project view.</li>
+    </ul>
+    <p class="bodyList"></p>
+    <p class="bodyText"><b>Note:</b> If an item is selected in the Project view when you add a new item, Storyist will add the new item after the selected item if possible. If nothing is selected in the Project view, Storyist will add new items to the default location for the item type. </p>
+    <p class="bodyText"><b>Tip</b>: If you select an item in the project view and then click the Add button in the Project view while holding the Option key, a new item of the same type as the selected item is created.</p>
+    <h2 id="id2DD92BA5E6BC4ED28DE0437275067357" class="heading2">Adding Outline Elements to Project Items</h2>
+    <p id="idA1A7C8A5B1E94D0894FB60550CB3B2AC" class="bodyText">In addition to using the Project view to add project items to the project, you can use it to add outline elements (for example, chapters, sections, and scenes) to manuscript or script project items.</p>
+    <p class="bodyText">To add an outline element to a text file:</p>
+    <ol>
+      <li>Select a text outline item (manuscript or script) in the Project view.</li>
+      <li>Click the Add button in the Project view.</li>
+      <li>Select the outline element you want to add from the menu.</li>
+    </ol>
+    <p class="bodyList"></p>
+    <p class="bodyText"><b>Note:</b> Storyist determines whether or not to display a text item’s outline in the Project view by examining the text file's outline template. You can edit the outline template by selecting the File Info pane in the inspector and clicking Edit Outline Template.</p>
+    <p class="bodyText"><b>Note:</b> By default, the Project view displays outlines for text files that have outlining enabled. If you don't want to see the text file outline in the Project view, click the Action button in the Project view and choose "Hide Text File Outlines."</p>
+    <p class="bodyText">You can enable or disable outlining for a text file, using the "Enable outlining for this file" checkbox in the File Info pane in the inspector.</p>
+    <p class="bodyText">Also, the list of outline elements displayed in the menu is generated from the outline template. </p>
+    <h2 id="idA7CA06FE306A487FA6C64720E7BB0520" class="heading2">Deleting Project Items</h2>
+    <p id="idFD50616C92A845F5B7718E4E573E800D" class="bodyText">To delete items from the project:</p>
+    <ol>
+      <li>Select the items you want to delete in the Project View.</li>
+      <li>Click the Action (gear) button in the control bar at the bottom of the Project View.</li>
+      <li>Choose Delete from the pop-up menu.</li>
+    </ol>
+    <p class="bodyList"></p>
+    <p class="bodyText">The items you selected are moved to the project Trash.</p>
+    <p class="bodyText">To view the contents of the project trash, click the View button in the toolbar and choose Show Project Trash.</p>
+    <p class="bodyText">To Empty the Project Trash, click the Empty button at the top of the trash list. Be careful with this. You can’t undo this operation.</p>
+    <h2 id="id9A69264446A1481790520F3663B312E9" class="heading2">Editing Project Item Preferences</h2>
+    <p id="id063452B9FC6D4C0B9C99498B465D90A8" class="bodyText">Storyist provides default settings for project items, but you can edit the settings to specify things like editor behavior and preferred contents of a particular folder.</p>
+    <p class="bodyText">To edit the preferences for a project item, open the inspector and select the File Info pane. </p>
+    <p class="bodyText">The file name and icon appear at the top. Additional preferences are displayed according to the type of item selected. These preferences are detailed below.</p>
+    <p class="bodyText">Text File Preferences</p>
+    <p class="bodyText"><i>Kind</i>—A pop-up menu specifying the editor features enabled for the file. Available values are:</p>
+    <ul>
+      <li>Screenplay—Used for screenplays and stage plays. When selected, this mode enables context-sensitive completion of screenplay elements like scene intros, locations, times, characters, extensions, and transitions. If you choose Screenplay mode, you can edit the available completions by clicking the Edit Completions button.</li>
+      <li>Text File—Used for novels, short stories, and other prose. Context-sensitive completion of screenplay elements is disabled, but the standard completions (invoked using the ESC key) are still available.</li>
+    </ul>
+    <p class="p1"></p>
+    <p class="bodyText"><i>Enable outlining for this file</i>—Clicking this checkbox causes the file's outline elements (that is, the chapters and sections or scenes that make up the file) to appear in the Project and Outline views. This checkbox is checked by default for manuscripts and scripts, but disabled for notebook entries.</p>
+    <p class="bodyText"><i>Include body text elements</i>—Clicking this checkbox causes the file's body text sections to appear in the outline. This checkbox is checked by default for manuscripts and scripts, but disabled for others.</p>
+    <p class="bodyText"><i>Edit Outline Template</i>—Clicking this button brings up a dialog that lets you edit the outline template (level labels and styles) for the file.</p>
+    <p class="bodyText"><i>Create sheets automatically</i>—Clicking this causes Storyist to create a section or scene sheet when new sections or scenes are created.</p>
+    <p class="bodyText"><i>Shortcuts</i>—You can specify whether or not Storyist enables Tab and Return shortcut processing in the file. If you choose "Use the application preferences", Storyist will use the settings you specify in the application preferences (accessed from the Storyist &gt; Preferences window).</p>
+    <p class="bodyText">Folder Preferences</p>
+    <p class="bodyText"><i>Contents</i>—Specifies the preferred contents for the folder. Storyist uses this value to provide keyboard shortcuts (Command-Return and Command-Slash) for the Project view and Outline view, and to decide where to put new files if nothing is selected in the Project view.</p>
+    <p class="bodyText"><b>Note:</b> Preferences for some kinds of project items are not available. For these items, choosing Edit simply displays a dialog showing the item title and kind.</p>
+    <h2 id="id1A31B6FCE6BF49CC96601A665E493E15" class="heading2">Searching the Project</h2>
+    <p id="id9EC92FBD9FC04CFE957B263B57CB37D4" class="bodyText">One of the benefits of having all your project-related writing in one place is that the contents are instantly searchable.</p>
+    <p class="bodyText">To search for text in your project:</p>
+    <ol>
+      <li>Click in the Search field at the top of the Project view. </li>
+      <li>Type the text you are looking for.</li>
+    </ol>
+    <p class="bodyList"></p>
+    <p class="bodyText">Your search results appear in the Project view. To navigate to the file or story element that contains the search text, simply click a search result.</p>
+  </body>
+</html>

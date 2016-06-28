@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <!-- InstanceBeginEditable name="doctitle" -->
+ <title>TextExpander Help: Creating and Using Fill-In Fields</title>
+ <!-- InstanceEndEditable -->
+ <meta name="AppleTitle" content="TextExpander help">
+ <meta name="AppleIcon" content="SMTEHelp/images/textexpander64.gif">
+ <meta name="Copyright" content="Copyright 2012 SmileOnMyMac, LLC, dba Smile. All Rights Reserved.">
+ <link href="somm_help.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+<table width="100%">
+  <tr>
+    <td width="80"><a href="index.html"><img src="images/textexpander.png" alt="TextExpander logo" width="64" height="64" border="0" /></a></td>
+    <td><a href="index.html"><img src="images/logotype.gif" alt="TextExpander" width="307" height="46" border="0" /></a></td>
+    <td width="80"><a href="http://www.smilesoftware.com" target="_blank"><img src="images/sommlogo.gif" alt="Smile logo" width="64" height="80" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>
+      <h1><a href="index.html">Help</a>: Creating and Using Fill-In Fields</h1>
+
+
+      <h3>Introduction to Fill-in fields</h3>
+      <p>You can add fill-in fields to a snippet to make it easy to create customized boilerplate text at the time you expand an abbreviation.</p>
+      <p>Here is an example of a snippet with fill-in fields in action:</p>
+      <p><img src="images/fillin.png" border="0" width="600" height="378" alt="Fill-in field examples" /></p>
+       <br />
+      <p>TextExpander supports four kinds of fill-in fields, as seen above:<p>
+      <ol class="alpha">
+        <li>Single line fields:</li>
+         <p>Type or copy / paste in a customer's name or numerical quantity.</p>
+        <li>Popup menus: <span class="codegreen"> </span></li>
+         <p>Assign a few standard options, like &ldquo;today&rdquo;, &ldquo;tomorrow&rdquo;, &ldquo;in two days.&rdquo;</p>
+        <li>Optional sections:<span class="codegreen"> </span></li>
+         <p>This content will always be the same, but does not have to appear every time.</p>
+        <li>Multi-line fields: <span class="codegreen"> </span></li>
+         <p>Allows for multiple lines of text to appear.</p>
+
+      </ol>
+
+
+      <h3>Creating a Fill-in Snippet</h3>
+       <ol>
+         <li>Create a new snippet by clicking New Snippet <img src="images/newsnippet.gif" alt="new snippet button" width="35" height="20" border="0" align="absmiddle" /> in the TextExpander menubar.</li>
+          <li>Click the Insert menu <img src="images/plusbutton.gif" alt="insert menu button" width="29" height="20" border="" align="absmiddle" /> located just above the Abbreviation box.</li>
+         <li>Go to the Fill-ins option and select one of the four types listed.</li>
+
+         <ul>
+          <li>You will notice a fifth option, &ldquo;Show at top.&rdquo; This will allow all the single-line and popup fields to appear at the top of the fill-in window, useful if you create a very long snippet with lots of fields.</li>
+         </ul>
+         <p><img src="images/fillmenu3.png" alt="Fill-in Menu" width="346" height="250" border="" align="absmiddle" /></p>
+
+         <li>Select a Field Name. (If two different fill-in fields have the same Field Name, the same text will appear in both.)</li>
+         <p><img src="images/popover.png" width="365" height="238" alt="Editing fill-in fields" /></p>
+         <li>Click Done to close the popup window. To edit later, double-click on the field entry text to open the popup. (The field entry text is what will appear in your snippet content, it will look something like this: %filltext:name=field 1%.)</li>
+        </ol>
+        <p><strong>Popup Window</strong></p>
+         <p>All of the fields are optional. The fill-in will work even if you don't change any of the defaults. <strong>Note</strong>: All fill-ins with the same Field Name will have the same value.</p>
+         <ul>
+          <li>Field Name:</li>
+          <p>A descriptive name helps you organize if you have several fields. For example: &ldquo;name&rdquo;, &ldquo;date&rdquo;, &ldquo;quantity&rdquo;, etc.</p>
+          <li>Default Value:</li>
+          <p>Choose what will appear if nothing is added at the time of expansion. If you prefer the field to remain blank if nothing else is added, uncheck this option.</p>
+          <li>Width:</li>
+          <p>The default width is 20, shown in the example snippet above for the &ldquo;customer name&rdquo; field. The quantity field in the example has a specified width of 4.</p>
+         </ul>
+
+
+      <h3>Features</h3>
+        <ul>
+        <li>Access Fill-ins via the insert button <img src="images/plusbutton.gif" align="absmiddle" alt="insert menu button"/> beneath the Content box.</li>
+        <li>Double-click within a field entry to edit in a popup window. <span class="codegreen"> </span> </li>
+        <li>Expand snippets when entering information into fill-in fields. <span class="codegreen"> </span> </li>
+        <li>Switch applications without dismissing the fill-in window. <span class="codegreen"> </span> </li>
+        <li>Text and popup fill-in fields support default values. <span class="codegreen"> </span> </li>
+        <li>&ldquo;Show at top&rdquo;: For longer snippets, set the single-line and popup fields to appear along at the top of the fill-in window to make filling out the fields easier. Turn on this feature in <a href="preferences.html">Preferences</a>. This also works for longer <a href="applescript.html">script snippets</a>.</li>
+         </ul>
+
+
+      <h3>Advanced: Fill-in Syntax</h3>
+      <p>If you want to skip the Insert menu, you can find the syntax for each of the four types of fill-ins below.</p>
+       <ul>
+      <li>Single-line fields</li>
+       <ul>
+      <p>Syntax:</p>
+   <p><code>%filltext[:name=&lt;field name&gt;][:default=&lt;default value&gt;][:width=&lt;width&gt;]%</code></p>
+   <p>Field name, default value, and width are all optional. Default width is 20.</p>
+      <p>Example:</p>
+   <p><code>%filltext:name=quantity:default=1:width=4%</code></p>
+     </ul>
+
+      <li>Multi-line fields</li>
+       <ul>
+      <p>Syntax:</p>
+   <p><code>%fillarea[:name=&lt;area name&gt;][:default=&lt;default value&gt;][:width=&lt;width&gt;][:height=&lt;height&gt;]%</code></p>
+   <p>Area name, default value, width, and height are all optional. Default width is 30. Default height is 5.</p>
+      <p>Example:</p>
+   <p><code>%fillarea:name=custom:default=Thanks for ordering from Acme Widgets. We are a family owned business, established in 1891. We really appreciate your business.:width=40:height=4%</code></p>
+     </ul>
+
+      <li>Popup menus</li>
+       <ul>
+      <p>Syntax:</p>
+   <p><code>%fillpopup[:name=&lt;popup name&gt;]:[default=]&lt;value&gt;:[default=]&lt;value&gt;&hellip;%</code></p>
+   <p>Name is optional. At least one &lt;value&gt; should be specified. Multiple &lt;value&gt;s are encouraged. If no default is specified, the first &lt;value&gt; will be the default.</p>
+      <p>Example:</p>
+   <p><code>%fillpopup:name=ship timeframe:today:default=tomorrow:next week%</code></p>
+     </ul>
+
+      <li>Optional sections</li>
+       <ul>
+      <p>Syntax:</p>
+   <p><code>%fillpart[:name=&lt;section name&gt;]:[default=yes'no]%&lt;content of optional section&gt;%fillpartend%</code></p>
+      <p>Example:</p>
+   <p><code>%fillpart:name=Payment Due:default=yes%You did not include payment information with your order. Please call our office at 555-1212 to provide payment details.%fillpartend%</code></p>
+     <p>Name is optional. Default is optional: yes or no; if not specified, no is used. Content can contain other fill-ins.</p>
+     </ul>
+
+     <li>Show at top</li>
+       <ul>
+          <p>Syntax:</p>
+          <p><code>%filltop%</code></p>
+          <p>Place this macro anywhere in the snippet content, including nested snippets, for it to have the effect of placing single-line and popup fields at the top of the fill-in window upon snippet expansion.</p>
+       </ul>
+    </ul>
+
+
+      <h3>Notes</h3>
+      <p>Fill-in field names and default values cannot contain % (percent sign) or : (colon).</p>
+   <p>If two fill-in fields in a snippet have the same name, their value will be synchronized when you expand the snippet.</p>
+   <p>For information on other macros used in TextExpander, see <a href="datetime.html">Date, Time, and Math Macros</a> and <a href="specials.html">Advanced Snippet Functions: Macros</a>.</p>
+      </td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><span class="smalltext"><br />
+      </span><span class="small">&copy;
+ SmileOnMyMac, LLC, dba Smile. All rights reserved.<br />
+    TextExpander is a registered trademark, Smile and the Smile logo are trademarks of SmileOnMyMac, LLC, dba Smile.</span></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>

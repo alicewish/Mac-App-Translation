@@ -1,0 +1,9 @@
+## Themes
+
+Themes define the colors of your editor’s background, font and markup. Ulysses ships with a couple of built-in themes – go to Preferences › Markup to switch between them. To create your own theme, duplicate an existing theme, then edit away.
+
+Also, check out the themes available on the ￼Style Exchange￼ created by Ulysses users. Of course you can also upload and share the themes you’ve created.
+
+## Dark Theme
+
+Every theme has a light and a dark variant. Use the View menu to switch between the two.

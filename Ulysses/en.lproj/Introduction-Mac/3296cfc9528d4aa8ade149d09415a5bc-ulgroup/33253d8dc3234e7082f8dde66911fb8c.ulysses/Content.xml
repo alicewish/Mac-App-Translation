@@ -1,0 +1,58 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading3">### </tag></tags>Navigation, Library</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">→</element> on groups to open group</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">→</element> on stack to switch focus to sheet list</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Navigation, Sheet List</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">→</element> to switch focus into editor (placing insertion point at last edited location)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">←</element> to switch focus into library</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Navigation, Editor</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>At the start of a sheet:</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Double-tap <element kind="code" startTag="`">↑</element>  to move one sheet up</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>At the end of a sheet:</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Double-tap <element kind="code" startTag="`">↓</element>  to move one sheet down</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Anywhere within a sheet:</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘↑</element> to move one sheet up</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘↓</element> to move to next sheet</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Double-tap <element kind="code" startTag="`">⌘←</element> to switch focus into sheet list</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Copy &amp; Move in Sidebars</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>By default, dragging groups and sheets to and from iCloud or “On My Mac” will always <element kind="emph" startTag="_">move</element>, i.e. contents will get transferred to the new location</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Dragging to and from Daedalus and External Folders will always <element kind="emph" startTag="_">copy</element>, i.e. contents will live in both locations afterwards</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Hold <element kind="code" startTag="`">⌥</element> while dragging, to force <element kind="emph" startTag="_">copy</element> of groups and sheets</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Hold <element kind="code" startTag="`">⌘</element> while dragging, to force <element kind="emph" startTag="_">move</element> of groups and sheets</p>
+<p></p></string>
+</sheet>

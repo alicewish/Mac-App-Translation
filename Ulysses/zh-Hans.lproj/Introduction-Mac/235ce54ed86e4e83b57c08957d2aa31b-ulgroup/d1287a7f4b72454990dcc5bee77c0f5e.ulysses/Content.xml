@@ -1,0 +1,50 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>弹跳窗</p>
+<p></p>
+<p>准备好了解 Ulysses 的高级功能？ 对于眼前的生存来说，它们或许可有可无，但是肯定能为您的写作生活带来便利。</p>
+<p></p>
+<p>Ulysses 的大部分功能都局限于小小的弹跳窗中。这样，除非您真的需要它们，它们是保持隐身的。您可以将大部分弹出窗口撕开，并将它们放在屏幕上任何地方，方便快速引用和/或直接访问。顺便说一句，它们非常适合放在第二个显示器中。</p>
+<p></p>
+<p>当一些弹跳窗只可用在编辑器中，还有些是可以用在文库或文稿列表中的。举个例子，您可以通过上下文菜单对组或过滤器引用快速导出。您也可以这样来检查文本统计信息。</p>
+<p></p>
+<p>专业提示： 快速导出和导航器设有了全键盘导航。所以如果您已经觉得像一个高级用户了，来试试这个...</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>点击<element kind="code" startTag="`">⌘8</element></p>
+<p><tags><tag kind="heading3">### </tag></tags>使用向上/向下箭头来导航</p>
+<p><tags><tag kind="heading3">### </tag></tags>试试选择这个标题</p>
+<p><tags><tag kind="heading3">### </tag></tags>不是，是这个</p>
+<p><tags><tag kind="heading3">### </tag></tags>是这一个!!!</p>
+<p></p></string>
+</sheet>

@@ -1,0 +1,84 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading3">### </tag></tags>Basic Operation</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘N</element> to create a new sheet</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘←</element> to move a sheet to trash</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘B</element> to split sheet at location</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘N</element> to create a new group</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌃⌘N</element> to create a new filter</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Items will always be created in vicinity of the current selection</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Sheets will be created below the currently selected sheet</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Groups and filters will be created inside the currently selected group</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>If there is no selection, or if the selection can’t accept new content, items will be created in the “Inbox” of the top-most category (e.g. iCloud)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Click to select</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Double-click to edit</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Views and Frequently Used Features</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘1</element> to toggle library</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘2</element> to toggle sheet list</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘3</element> to toggle editor-only view</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘4</element> to toggle Attachment Bar</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘5</element> to go to Favorites group (FIVEorites)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘6</element> to show Quick Export (SIXport)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘7</element> to show Statistics</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘8</element> to show Navigator (NavigEIGHTor, get it?)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘9</element> to show Markup Bar</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Quick Open Panel</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘O</element> to look for a sheet in the whole library</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘O</element> to look for a sheet in the current library section (iCloud, On My Mac, etc.)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘O</element> to look for a sheet in the currently selected group</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Global Search</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘F</element> to switch focus to sheet filter</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">esc</element> to leave sheet filter</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Editor Find &amp; Replace</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘F</element> to show Find panel</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘F</element> to show Find &amp; Replace panel</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">esc</element> to close Find/Replace panel</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Favorites</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘D</element> to add a sheet to or remove it from Favorites</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>You can also use a sheet’s context menu for that</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘5</element> to go to Favorites group (will only be displayed when there are favorited sheets)</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Editor Smart Paste</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘V</element> to invoke Smart Paste or</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Hold <element kind="code" startTag="`">⌘V</element> to invoke Smart Paste</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Paste options will vary based on clipboard content and current markup</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Arrow left/right to preview available paste options</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">↩︎</element>  to confirm and paste</p>
+<p></p></string>
+</sheet>

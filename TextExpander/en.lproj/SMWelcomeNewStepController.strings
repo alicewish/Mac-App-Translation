@@ -1,0 +1,33 @@
+
+/* Class = "NSButtonCell"; title = "Look it up"; ObjectID = "0Ck-gl-cgZ"; */
+"0Ck-gl-cgZ.title" = "Look it up";
+
+/* Class = "NSTextFieldCell"; title = "New to TextExpander?"; ObjectID = "83a-m4-bjk"; */
+"83a-m4-bjk.title" = "New to TextExpander?";
+
+/* Class = "NSTextFieldCell"; title = "User of previous version of TextExpander:"; ObjectID = "Bt6-mu-JIq"; */
+"Bt6-mu-JIq.title" = "User of previous version of TextExpander:";
+
+/* Class = "NSTextFieldCell"; title = "It looks like TextExpander 5 isn't registered.\nChoose one of the following:"; ObjectID = "D2E-Fi-QZx"; */
+"D2E-Fi-QZx.title" = "It looks like TextExpander 5 isn't registered.\nChoose one of the following:";
+
+/* Class = "NSButtonCell"; title = "Register with a license"; ObjectID = "P1o-dv-fa1"; */
+"P1o-dv-fa1.title" = "Register with a license";
+
+/* Class = "NSButtonCell"; title = "Try the demo"; ObjectID = "TQe-rb-bIF"; */
+"TQe-rb-bIF.title" = "Try the demo";
+
+/* Class = "NSButtonCell"; title = "Enter your old license to upgrade"; ObjectID = "WQM-Zi-SNE"; */
+"WQM-Zi-SNE.title" = "Enter your old license to upgrade";
+
+/* Class = "NSButtonCell"; title = "Buy a license"; ObjectID = "i7L-3W-BmS"; */
+"i7L-3W-BmS.title" = "Buy a license";
+
+/* Class = "NSButtonCell"; title = "Continue using your older version"; ObjectID = "j6P-cu-7tU"; */
+"j6P-cu-7tU.title" = "Continue using your older version";
+
+/* Class = "NSButtonCell"; title = "Try the demo, there are new features to explore"; ObjectID = "jv8-po-6BP"; */
+"jv8-po-6BP.title" = "Try the demo, there are new features to explore";
+
+/* Class = "NSTextFieldCell"; title = "Lost your license?"; ObjectID = "wLE-jY-Buk"; */
+"wLE-jY-Buk.title" = "Lost your license?";

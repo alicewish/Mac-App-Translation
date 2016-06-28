@@ -1,0 +1,34 @@
+### Markup
+- `⌘\` for Headlines
+- `⌘I` for _emphasize_
+- `⌘B` for **strong**
+- `⌘K` for ￼links￼
+- `⌘L` for removing any sort of Markup
+- `⌘9` to show the Markup Bar, in case you can’t remember any of this
+
+### Smart Tags
+- If enabled, end tag placeholders will automatically be inserted whenever a start tag is followed by a character
+- Enable Smart Tags via “Edit › Substitutions”
+
+### End Tag Completion
+- Press `esc` to automatically enter an end tag placeholder
+- To accept the end tag, do any of the following:
+	- Press `↩︎` 
+	- Press `→`
+	- Press `↓`  (if at the very end of a sheet)
+	- Type in the end tag
+- To dismiss the end tag, press `esc`
+
+### Escape Character
+- To keep Ulysses from treating any character as markup, just add a backslash in front of it (e.g., if you really want a square bracket instead of a link, type “\[something]”)
+
+### Markup Bar
+- When showing the Markup Bar (`⌘9`), you can click on any listed markup to apply it to the current selection
+- This works with multiple selections (`⌘`-Click to select different parts of your text)
+- Multi-level paragraphs, such as lists and block quotes, will get indented +1 every time you click
+- `⇧`-clicking either removes the markup or outdents multi-level paragraphs
+
+### Markup Language
+- By default, Ulysses uses its native markup language “Markdown XL”
+- Switch to “Markdown” or “Textile’d” or “Minimark” via “Edit › Convert Markup”
+- Via “Preferences › Markup” you can create your own markup

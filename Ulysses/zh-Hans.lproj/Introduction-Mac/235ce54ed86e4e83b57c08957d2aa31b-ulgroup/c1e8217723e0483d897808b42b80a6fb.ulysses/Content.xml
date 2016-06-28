@@ -1,0 +1,52 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>我们支持...</p>
+<p></p>
+<p>如果您的问题在本介绍中并未述及，请随时通过 <element kind="link"><attribute identifier="URL">mailto:support@ulyssesapp.com</attribute><attribute identifier="title">Ulyssees 支持</attribute>support@ulyssesapp.com</element> 与我们联系。我们可以随时为您提供帮助。</p>
+<p></p>
+<p><tags><tag kind="heading2">## </tag></tags>...您支持</p>
+<p></p>
+<p>如果您喜欢 Ulysses，请在 <element kind="link"><attribute identifier="URL">macappstore://itunes.apple.com/app/ulysses/id623795237</attribute><attribute identifier="title">Mac App Store: Ulysses for Mac</attribute>Mac App Store</element>上评价它或者留下评论。您的举手之劳，就是对我们独立开发人员的最大支持。这真的会带来巨大的改变。谢谢。</p>
+<p></p>
+<p><tags><tag kind="heading2">## </tag></tags>资源、连接</p>
+<p></p>
+<p>想要了解更多？ 访问 <element kind="link"><attribute identifier="URL">http://ulyssesapp.com/helpcenter</attribute>Ulysses 帮助中心</element>，了解各种 FAQ 以及小贴士和教程。或者访问我们的<element kind="link"><attribute identifier="URL">http://ulyssesapp.com/blog</attribute>博客</element>，了解最新新闻和动态。</p>
+<p></p>
+<p>您还应该浏览 <element kind="link"><attribute identifier="URL">http://styles.ulyssesapp.com</attribute>Ulysses Style Exchange</element> 查看用户创建的样式和主题。</p>
+<p></p>
+<p>如果您想进行社交活动，请通过 <element kind="link"><attribute identifier="URL">http://weibo.com/ulyssesapp</attribute>微博</element> 或 <element kind="link"><attribute identifier="URL">https://www.facebook.com/ulyssesapp</attribute>Facebook</element> 或 <element kind="link"><attribute identifier="URL">https://twitter.com/ulyssesapp</attribute>Twitter</element> 与朋友交流。并且，您可以注册我们的 <element kind="link"><attribute identifier="URL">http://ulyssesapp.com/newsletter</attribute>新闻通讯</element> 随时获得圈内动态。我们保证没有垃圾邮件。</p>
+<p></p>
+<p>现在，开开心心地写作吧！</p>
+<p></p></string>
+</sheet>

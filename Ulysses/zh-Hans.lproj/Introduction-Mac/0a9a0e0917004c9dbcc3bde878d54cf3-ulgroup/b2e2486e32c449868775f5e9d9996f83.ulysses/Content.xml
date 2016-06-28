@@ -1,0 +1,65 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>导出： ## 360 度语义学</p>
+<p></p>
+<p>现在到了有趣的部分了： Ulysses 可以将您的写作输出为一系列标准格式，例如纯文本、DOCX、HTML、ePub 甚至是 PDF。它是通过将您<element kind="emph" startTag="_">纯文本输入</element>转换的基础上来定义的最小标记。如果您的头现在开始疼了，我来举一个简单的例子：</p>
+<p></p>
+<p>让我们假设您想强调一段文本。您选择词语“强调”（照这样做），然后按键盘快捷键<element kind="code" startTag="`">⌘I</element>。请注意字左右的额外字符被输入了。</p>
+<p></p>
+<p>您刚刚告诉 Ulysses，在它的“纯文本语言”中，这段话应该是被强调的。现在 Ulysses 知道了并永远不会忘记的。所以当您导出您的文本时，比如说 PDF，Ulysses 将这种强调转换成 PDF 可以理解和显示的格式 - 在这种情况下，它会将强调通过格式化为斜体文本。</p>
+<p></p>
+<p>试一下吧：</p>
+<p></p>
+<p><tags><tag kind="unorderedList">- </tag></tags>打开快速导出（<element kind="code" startTag="`">⌘6</element>）。</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>切换到 PDF 导出。</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>点击“预览…”按钮。</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>上述“强调”应该显示为斜体。</p>
+<p></p>
+<p><tags><tag kind="heading2">## </tag></tags>类似这样的标题将采用更大字体</p>
+<p></p>
+<p>如果您要导出为 HTML，Ulysses 将这种强调转换成语法上正确的<element kind="code" startTag="`">&lt;em&gt;</element>，标题将带有标记<element kind="code" startTag="`">&lt;h2&gt;</element>。</p>
+<p></p>
+<p>以此类推。</p>
+<p></p>
+<p>现在这个的好处应该是显而易见的： 您不必担心输出内容的<element kind="emph" startTag="_">外观</element>，从而可以专注于写作的<element kind="emph" startTag="_">内容表达</element>上。一开始这可能是令人恐惧的，但请相信我们，事实并非如此。</p>
+<p></p>
+<p>这个真的是很棒。</p>
+<p></p>
+<p><tags><tag kind="heading2">## </tag></tags>共享您的作品</p>
+<p></p>
+<p>您可以通过电子邮件发送 PDF，或者将其保存到 iCloud 中。您可以在 Microsoft Word 或 Pages 中打开 DOCX 文件，或者使用 Medium 帐户将文本发布为草稿…</p>
+<p></p>
+<p>通过快速导出面板上的各个按钮，您可以使用所有可用的选项。这些选项会根据所选择的输出格式和 Mac 上所安装的程序而有所不同。</p>
+<p></p></string>
+</sheet>

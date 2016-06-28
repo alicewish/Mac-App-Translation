@@ -1,0 +1,42 @@
+h1 { 
+  margin-top:8px;
+  margin-bottom:14px;
+  font-size: 14px;
+}
+
+td { 
+  margin-bottom:4px;
+  vertical-align:top;
+}
+
+.sectionName {
+  color: #d49d3e;
+  font-size: 24px;
+}
+
+div td.left {
+  width: 30%;
+}
+
+p {
+  font-size: 12px;
+}
+
+td.right {
+  text-align: right;
+}
+
+td.noteIcon { 
+  width: 32px;
+}
+
+table {
+  width: 100%;
+}
+
+/*
+.storyist-default-text {  
+  color: #7f7f7f;
+  font-family: system; 
+}
+*/

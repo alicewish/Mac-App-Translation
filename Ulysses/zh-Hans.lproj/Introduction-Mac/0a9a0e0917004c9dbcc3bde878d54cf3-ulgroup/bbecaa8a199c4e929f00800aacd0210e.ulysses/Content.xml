@@ -1,0 +1,44 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>文库： 组和过滤器</p>
+<p></p>
+<p>组和过滤器是您保持文库井井有条的主要工具。它们与 Finder 的文件夹和智能文件夹类似。</p>
+<p></p>
+<p>您通过“文件”菜单添加组和过滤器。您可以将组和过滤器放在其他组内。如果您在文库中选择了一个组，其内容会显示在文稿列表中。选择一个文稿，然后它会显示在编辑器中。</p>
+<p></p>
+<p>过滤器是一个特殊的组。一旦设置后，它们将在自己的小组内查看并列出所有符合设定条件的文稿。例如，您可以设置一个过滤器只列出有“奇妙”这个关键词的文稿。如果您把它放在一个深层的嵌套组中，比如说 6 层之下，过滤器将只显示它那组中与它匹配的文稿。</p>
+<p></p>
+<p>您甚至可以选择多个组和过滤器（按住<element kind="code" startTag="`">⌘</element>），使其内容一起显示在文稿列表中。</p>
+<p></p></string>
+</sheet>

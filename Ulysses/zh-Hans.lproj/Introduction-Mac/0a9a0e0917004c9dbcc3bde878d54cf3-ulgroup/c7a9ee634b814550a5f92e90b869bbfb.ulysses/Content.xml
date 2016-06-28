@@ -1,0 +1,52 @@
+<sheet version="2">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>附件、注释与评论</p>
+<p></p>
+<p>看到工具栏右侧显示回形针的按钮吗？ 点击它可以打开文稿的“附件栏”。附件允许您将任意内容放在不那么任意的主要内容旁边：图像、文本说明、关键字和写作目标。关键字特别好用，因为您可以设置过滤器来寻找这些关键字。</p>
+<p></p>
+<p>图像和文本说明可以被多次附加，所有附件都可以被分开，然后放在屏幕上的任何地方。您甚至可以放大图像，翻阅 PDF 和使用最常的标记内的文本说明。</p>
+<p></p>
+<p>另一种添加注释的方法是创建 <element kind="annotation"><attribute identifier="text"><string xml:space="preserve">
+<p>“你杀死了我的批注。”</p>
+<p>“不，我就是你的批注。”</p>
+</string></attribute>批注</element> 或者行内评论。<element kind="inlineComment" startTag="++"> 请轻触两下批注的批注。</element> 评论可以跨越整个段落。</p>
+<p></p>
+<p><tags><tag kind="comment">%% </tag></tags>跨越。</p>
+<p><tags><tag kind="comment">%% </tag></tags>整个。</p>
+<p><tags><tag kind="comment">%% </tag></tags>段落。</p>
+<p></p></string>
+<attachment type="note"><string xml:space="preserve">
+<p>哇，您注意到我了！请不要再将我关闭。我很久很久没有阅读了。将我撕开，求您了。请。我要稍微深呼吸。</p>
+</string></attachment>
+</sheet>

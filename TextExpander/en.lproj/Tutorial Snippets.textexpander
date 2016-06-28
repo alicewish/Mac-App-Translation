@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<!-- Note: these snippets are referenced by UID, so UID must be maintained -->
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Tutorial Snippets</string>
+		<key>isTutorialGroup</key>
+		<integer>1</integer>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>;fbreply</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:45:03Z</date>
+			<key>label</key>
+			<string>Reply - out of stock</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T02:07:08Z</date>
+			<key>plainText</key>
+			<string>Hi,
+
+Thank you for your interest in our flibberty biscuit bottles. Unfortunately we have sold out of our stock of flibberty biscuit bottles and do not expect to have more for a couple weeks. Please let me know if you would like to place your name on our waiting list.
+
+Sincerely,
+Customer Service
+FBB Inc.</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>9043EFF6-E2AB-4EBA-8FDF-1F0445C24EB0</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;sig2</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:41:13Z</date>
+			<key>label</key>
+			<string>Other signature</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:41:13Z</date>
+			<key>plainText</key>
+			<string>Cheers,
+%@
+- - - - - - - - - - - - - - - - - - - -
+President, Springfield Mac Users Group
+Meetings monthly every 2nd Friday
+- - - - - - - - - - - - - - - - - - - - 
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F615B419-291B-41B3-98A7-F65E0C8BE153</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;sig1</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:38:03Z</date>
+			<key>label</key>
+			<string>Default signature</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:38:03Z</date>
+			<key>plainText</key>
+			<string>Best regards,
+%@ %@
+Project Manager
+Acme Inc.</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>F7124F93-0B72-4696-8A2E-E44DB879B49F</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;web</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:29:51Z</date>
+			<key>label</key>
+			<string>My URL</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:29:51Z</date>
+			<key>plainText</key>
+			<string>http://www.smilesoftware.com/</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>4D1EF3A1-9491-4851-93CC-DB47E72001D8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;work</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:29:01Z</date>
+			<key>label</key>
+			<string>Work address</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:29:01Z</date>
+			<key>plainText</key>
+			<string>4321 Main St.
+Suite 700
+Apple Dell, VT 54321
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>E4BFA945-160B-4F83-BE70-944442A509C2</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;home</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:28:22Z</date>
+			<key>label</key>
+			<string>Home address</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:28:22Z</date>
+			<key>plainText</key>
+			<string>123 Main St.
+Fairweather, HI 54321
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>19A04825-34B2-4514-91F3-E9C31ECE7ADC</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;fax</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:28:01Z</date>
+			<key>label</key>
+			<string>Fax number</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:28:01Z</date>
+			<key>plainText</key>
+			<string>(567) 555-1212</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>A101C7F6-B51C-4ADD-BCF1-31F64336DBA8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;ph</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:27:37Z</date>
+			<key>label</key>
+			<string>Phone number</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:27:37Z</date>
+			<key>plainText</key>
+			<string>(555) 555-1212</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>4AEA8CB9-0360-4508-9DAB-EF22D91BB4C4</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;em</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-06-01T00:26:51Z</date>
+			<key>label</key>
+			<string>Email</string>
+			<key>modificationDate</key>
+			<date>2011-06-01T00:27:28Z</date>
+			<key>plainText</key>
+			<string>yourname@smilesoftware.com</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>88A5859C-26A7-4D8D-904D-30AAAE53A5CB</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ttime</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-01-11T23:30:56Z</date>
+			<key>label</key>
+			<string>Current time</string>
+			<key>plainText</key>
+			<string>%1I:%M %p</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>28CFFBFB-3224-4068-9DFB-73B242EFEEAA</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>ddate</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-01-11T23:30:56Z</date>
+			<key>label</key>
+			<string>Today's date</string>
+			<key>plainText</key>
+			<string>%B %e, %Y</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>CE101F5A-C5CC-43C0-B75D-81F13AC134B1</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>;thxdon</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2012-01-13T23:46:02Z</date>
+			<key>label</key>
+			<string>Donation thanks</string>
+			<key>modificationDate</key>
+			<date>2012-01-13T23:49:51Z</date>
+			<key>plainText</key>
+			<string>Dear %filltext:name=person name:width=25%,
+
+Thank you for your donation of $%filltext:name=amount:width=4%. We greatly appreciate your help, and will use the funds for %fillpopup:name=popup 4:default=our educational program:our health clinic:general purposes%.
+
+Since we are a non-profit organization, your donation of $%filltext:name=amount:width=4% should be tax-deductible.
+
+Thank you,
+</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>0</integer>
+			<key>uuidString</key>
+			<string>D69A31C5-D6FB-4DDA-A5EC-BEA639A63BE4</string>
+		</dict>
+	</array>
+</dict>
+</plist>

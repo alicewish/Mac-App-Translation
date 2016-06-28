@@ -1,0 +1,46 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>外部文件夹</p>
+<p></p>
+<p>在外部文件夹中，您可以从任何地方在 Mac 上编辑传统文本和 Markdown 文件。举个例子，您可以将 Ulysses 指定到您 Dropbox 上的文件夹，其内容的使用就像本地组和文稿一样。确保在偏好设置中启用“外部文件夹”，然后通过文库各个节标题中的 <element kind="code" startTag="`">+</element> 按钮添加一个。</p>
+<p></p>
+<p>部分功能将会对外部文件夹受限（没有图像，没有附件）。然而，写作体验仍非常棒。毕竟这是最关键的部分，不是吗？</p>
+<p></p>
+<p><tags><tag kind="divider">----</tag></tags></p>
+<p></p>
+<p>暂时就这么多。现在您应该了解得比较充分了吧 —  那么开始吧，写点东西，试试吧。</p>
+<p></p>
+<p>返回介绍部分了解更多细节，以及提示、技巧和便利的快捷方式。</p>
+<p></p></string>
+</sheet>

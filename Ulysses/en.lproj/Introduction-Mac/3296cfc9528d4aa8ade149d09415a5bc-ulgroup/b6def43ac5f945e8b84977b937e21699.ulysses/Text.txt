@@ -1,0 +1,20 @@
+### Lists
+- `⇥` to increase list indentation
+- `⇧⇥` to decrease list indentation
+
+### Smart Lists
+- If enabled, hitting `↩︎` will automatically add another list item, while `⌥↩︎` will just create a new paragraph
+- Enable Smart Lists via “Edit › Substitutions”
+
+### Media
+- Drag’n’drop images and PDFs into the editor to create a text object which holds the item
+
+### Text Objects
+- `⌘`-Click to select
+- Double-click to open text object popover
+
+### Text Object Popovers
+- `⌘↩︎` to close and move insertion point forward
+- `esc` to close and keep object selected
+- `⇥` to switch between input fields
+- Drag popover to tear it off and place it anywhere on screen

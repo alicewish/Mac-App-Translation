@@ -1,0 +1,9 @@
+## ...and More
+
+Also, look for the following features in the various menus – they should be pretty self-explanatory:
+
+- Version History (“File › Browse All Versions…”)
+- Spelling and Grammar, Substitutions, Dictation etc. (“Edit” menu)
+- Text Zoom (“View › Zoom”)
+- Typewriter Scrolling, Line Highlight (“View” menu)
+- Full Screen Mode (“View › Enter Full Screen”)

@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link href="tetutorial.css" rel="stylesheet" type="text/css">
+	<title>TextExpander Tutorial - Save Time - Signatures</title>
+	<meta name="ROBOTS" content="NOINDEX">
+	<script type="text/javascript">
+		// TE Tutorial script stuff
+
+		function change_status(theForm, status) {
+			// find button and text
+			var button = null;
+			for (var i = 0; i < theForm.elements.length; i++) {
+				var element = theForm.elements[i];
+				if (element.id == "update") { button = element; break; }
+			}
+			if (button == null) { return; }
+			if (status == "changed") {
+				if (button.innerHTML != "Create") {
+					button.innerHTML = "Update";
+				}
+				button.disabled = false;
+				button.style.visibility = "visible";
+			}
+			else if (status == "saved") {
+				button.innerHTML = "Saved.";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+			else if (status == "working") {
+				button.innerHTML = "Working...";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+			else if (status == "error") {
+				button.innerHTML = "Error!";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+		}
+
+		function submit_update(theForm) {
+			// find values
+			var uid = "";
+			var newText = "";
+			var newAbrv = "";
+			for (var i = 0; i < theForm.elements.length; i++) {
+				var element = theForm.elements[i];
+				if (element.name == "uid") { uid = element.value; }
+				if (element.name == "newplaintext") { newText = element.value; }
+				if (element.name == "abrv") { newAbrv = element.value; }
+			}
+			var xmlhttp = new XMLHttpRequest();
+			var url = "textexpander:///;action=editsnippet&vers=1&uid=" + uid + "&newplaintext=" + encodeURIComponent(newText) + "&newabrv=" + encodeURIComponent(newAbrv);
+			xmlhttp.onload = function() {
+				if (this.status == 0) {
+					var statusText = this.responseText;
+					// Trim the "STATUS\tCODE" portion and newline from the front of the string
+					statusText = statusText.replace("STATUS\tCODE","");
+					statusText = statusText.replace(/[\n\r]/mg,"");
+					if (statusText == "OK\t0") {
+						change_status(theForm, "saved");
+					}
+					else {
+						change_status(theForm, "error");
+						// Set the scratch field to the returned status so that we can see it
+						document.getElementById('id:scratch').innerHTML = statusText;
+					}
+				}
+			}
+			xmlhttp.onerror = function() {
+				change_status(theForm, "error");
+			}
+			xmlhttp.open("GET", url);
+			change_status(theForm, "working");
+			xmlhttp.send(null);
+			return false;
+		}
+		
+		function revealrow(revealForm, whichIDstr) {
+			// find button and hide it
+			var button = null;
+			for (var i = 0; i < revealForm.elements.length; i++) {
+				var element = revealForm.elements[i];
+				if (element.id == "revealbutton") { button = element; break; }
+			}
+			if (button == null) { return; }
+			button.disabled = true;
+			//		button.style.visibility = "hidden";
+			revealForm.style.visibility = "hidden";
+			
+			// find hidden form and row and reveal it
+			var matchname = "id:form." + whichIDstr;
+			for (var i = 0; i < document.forms.length; i++) {
+				var theForm = document.forms[i];
+				if (theForm.style.visibility == "hidden" && theForm.id == matchname) {
+					theForm = theForm;
+					theForm.style.visibility = "visible";
+					break;
+				}
+			}
+			var theRow = document.getElementById("id:row." + whichIDstr);
+			theRow.style.visibility = "visible";
+		}
+	</script>
+</head>
+<body>
+<div class="tutorial">
+	<h1>Easily insert email signatures!</h1>
+<p>When you sign off on your emails, it's helpful to have more than one email signature. You can use a different email signature depending on whether the email is business or personal.</p>
+<h2>Let's create an email signature!</h2>
+	<p>Below we've created a sample signature, based on the name in your Address Book card. Edit the name and change the company information to create your own work email signature.</p>
+<table>
+	<tr>
+	 <th width="300">Email Signature</th>
+	 <th width="20">Abbreviation</th>
+     <td></td>
+	</tr>
+
+	<form>	<!-- sig1 -->
+		<tr>
+			<td>
+				<input type="hidden" name="uid" value="F7124F93-0B72-4696-8A2E-E44DB879B49F" />
+				<textarea name="newplaintext" rows="5" cols="50" wrap=HARD onChange="change_status(this.form, 'changed');">[[TEP_snippet_content:uid_F7124F93-0B72-4696-8A2E-E44DB879B49F]]</textarea>
+			</td>
+			<td valign="top" align="left"><input type="text" name="abrv" value="[[TEP_snippet_abrv:uid_F7124F93-0B72-4696-8A2E-E44DB879B49F]]" size="8" onChange="change_status(this.form, 'changed');" /></td>
+			<td><button type="button" id="update" style="visibility: hidden;" onClick="submit_update(this.form);">Update</button></td>
+		</tr>
+	</form>
+
+	<span class="TEP_snippetnotexists" id="uid_F615B419-291B-41B3-98A7-F65E0C8BE153">
+		<!-- only include this entire row if sig2 snippet does not already exist -->
+	  <tr>
+		<td colspan="3">
+		<h2>Add another signature!</h2>
+			<form>
+				Need another signature for another business or personal use? Click the button and edit the resulting snippet.
+				<button type="button" id="revealbutton" onClick="revealrow(this.form, 'revealsig');">Add Signature</button>
+			</form>
+		</td>
+	  </tr>
+	</span>
+	<form id="id:form.revealsig"
+			<span class="TEP_snippetnotexists" id="uid_F615B419-291B-41B3-98A7-F65E0C8BE153">
+				style="visibility: hidden;"
+			</span>
+		>	<!-- sig2 -->
+		<tr id="id:row.revealsig"
+				<span class="TEP_snippetnotexists" id="uid_F615B419-291B-41B3-98A7-F65E0C8BE153">
+					style="visibility: hidden;"
+				</span>
+			>
+			<td>
+				<input type="hidden" name="uid" value="F615B419-291B-41B3-98A7-F65E0C8BE153" />
+				<textarea name="newplaintext" rows="5" cols="50" wrap=HARD onChange="change_status(this.form, 'changed');">[[TEP_snippet_content:uid_F615B419-291B-41B3-98A7-F65E0C8BE153]]</textarea>
+			</td>
+			<td valign="top"><input type="text" name="abrv" value="[[TEP_snippet_abrv:uid_F615B419-291B-41B3-98A7-F65E0C8BE153]]" size="8" onChange="change_status(this.form, 'changed');" /></td>
+			<td valign="top"><button type="button" id="update"
+					<span class="TEP_snippetexists" id="uid_F615B419-291B-41B3-98A7-F65E0C8BE153">
+						style="visibility: hidden;"
+					</span>
+				onClick="submit_update(this.form);"><span class="TEP_snippetnotexists" id="uid_F615B419-291B-41B3-98A7-F65E0C8BE153">Create</span><span class="TEP_snippetexists" id="uid_F615B419-291B-41B3-98A7-F65E0C8BE153">Update</span></button></td>
+		</tr>
+	</form>
+
+</table>
+
+<div class="buttons">
+	<form action="textexpander:///4_letter.html;action=subtext&vers=1" method="GET">
+		<button type="submit" onClick="this.form.action = 'textexpander:///2_time.html;action=subtext&vers=1';">&lt; Back</button>
+		<button type="submit" onClick="this.form.action = 'textexpander:///4_letter.html;action=subtext&vers=1';">Next &gt;</button>
+	</form>
+</div>
+
+<div class="footer"><img src="icon_textexpander_sm.png" alt="TextExpander Icon">
+<p>TextExpander Snippet Creation Assistant</p>
+</div>
+</div>
+</body>
+</html>

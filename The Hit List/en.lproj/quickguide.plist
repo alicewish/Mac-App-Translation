@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>displayOrder</key>
+	<real>0</real>
+	<key>tasks</key>
+	<array>
+		<dict>
+			<key>displayOrder</key>
+			<real>0</real>
+			<key>subtasks</key>
+			<array>
+				<dict>
+					<key>displayOrder</key>
+					<real>0</real>
+					<key>title</key>
+					<string>Hit the Return key to add a task.</string>
+					<key>uid</key>
+					<string>6A965591076182E0</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>1000</integer>
+					<key>title</key>
+					<string>To add the context to a tag, press the &apos;@&apos; key.</string>
+					<key>uid</key>
+					<string>669FE3CB637469A9</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>2000</integer>
+					<key>title</key>
+					<string>Press &apos;/&apos; to add a tag to a task.</string>
+					<key>uid</key>
+					<string>5E5C096216EF9D6F</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>3000</integer>
+					<key>title</key>
+					<string>To add a sub-task, press return to add a task then press the tab key</string>
+					<key>uid</key>
+					<string>278F497F5966F4ED</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>4000</integer>
+					<key>title</key>
+					<string>Hitting &apos;T&apos; sets a task to start today. The task will show up in the Today list.</string>
+					<key>uid</key>
+					<string>4D4983A74944B6B3</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>5000</integer>
+					<key>title</key>
+					<string>Press 1 though 9 to set a priority and 0 to unset it.</string>
+					<key>uid</key>
+					<string>16328D7D6193A369</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>6000</integer>
+					<key>title</key>
+					<string>Press the spacebar to mark a task completed.</string>
+					<key>uid</key>
+					<string>4221C2331DAB9F84</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>7000</integer>
+					<key>title</key>
+					<string>Use the &apos;X&apos; key to cancel or delete with the Delete key.</string>
+					<key>uid</key>
+					<string>5439FF7F359D3F58</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>8000</integer>
+					<key>title</key>
+					<string>To move tasks around, use the w, a, s, and d keys</string>
+					<key>uid</key>
+					<string>1D04E0440C4D9404</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>9000</integer>
+					<key>title</key>
+					<string>The card view lets you focus on just one task at a time. You can quickly enter card view with the ⌘-2 shortcut. To get back to the outline view, press ⌘-1.</string>
+					<key>uid</key>
+					<string>3EC898626416434C</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>10000</integer>
+					<key>title</key>
+					<string>Completed tasks are hidden after 3 days by default. If you want to hide them immediately, press the tilde key (`).</string>
+					<key>uid</key>
+					<string>06A8812D48138D0C</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>The Essentials</string>
+			<key>uid</key>
+			<string>1F2F9DD5099E00F5</string>
+		</dict>
+		<dict>
+			<key>displayOrder</key>
+			<integer>1000</integer>
+			<key>subtasks</key>
+			<array>
+				<dict>
+					<key>displayOrder</key>
+					<integer>0</integer>
+					<key>title</key>
+					<string>Contexts are just tags that start with the &apos;@&apos; character.</string>
+					<key>uid</key>
+					<string>50E7D0433228E72E</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>1000</integer>
+					<key>title</key>
+					<string>You can have tags with spaces in it by starting and ending the tag with the &apos;/&apos; character.</string>
+					<key>uid</key>
+					<string>2A6F30E33FFB4F6C</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>2000</integer>
+					<key>title</key>
+					<string>You can paste text into THL. Each line becomes a task.</string>
+					<key>uid</key>
+					<string>548846C3499ECEB8</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>3000</integer>
+					<key>title</key>
+					<string>You can drag and drop tasks to other lists and to other tabs</string>
+					<key>uid</key>
+					<string>499950613F1E9C54</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>4000</integer>
+					<key>title</key>
+					<string>You can quickly create new tasks from URLs and files by drag and dropping them into The Hit List&apos;s dock icon</string>
+					<key>uid</key>
+					<string>510051993039342C</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>5000</integer>
+					<key>title</key>
+					<string>Press &apos;B&apos; to begin timing a task.</string>
+					<key>uid</key>
+					<string>229305FD2F5C5AFB</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>6000</integer>
+					<key>title</key>
+					<string>When in outline view, you can move the selection with vi cursor movement keys (j,k, h, and l) or Emacs keys (control-n, p, f, and b)</string>
+					<key>uid</key>
+					<string>4728D19B4A224F7C</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>7000</integer>
+					<key>title</key>
+					<string>To quickly select another list, folder, or group of tasks without leaving the keyboard, press &apos;G&apos; to bring up the Go To pane. You can enter just a part of the name and if you want to associate that abbreviation with a particular group, you can use the up and down arrow keys to select the correct group. To go to a tag, type in a &apos;/&apos; followed by the tag name.</string>
+					<key>uid</key>
+					<string>08C34FE814725542</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>8000</integer>
+					<key>title</key>
+					<string>To quickly file away a task to another list, press &apos;F&apos;. This works the same way as the Go To feature.</string>
+					<key>uid</key>
+					<string>1367062F1EF5DD65</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>9000</integer>
+					<key>title</key>
+					<string>You can quickly change the due and start date of a task with keyboard shortcut keys: -, =, [, and ].</string>
+					<key>uid</key>
+					<string>7605F8AB5588C862</string>
+				</dict>
+				<dict>
+					<key>displayOrder</key>
+					<integer>10000</integer>
+					<key>title</key>
+					<string>You can create a new tab by double clicking in an empty area of the tab bar.</string>
+					<key>uid</key>
+					<string>3CA17CEA4A3FF82B</string>
+				</dict>
+			</array>
+			<key>title</key>
+			<string>Advanced Tips</string>
+			<key>uid</key>
+			<string>5E51EF4064C26862</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Learn The Hit List</string>
+	<key>type</key>
+	<string>list</string>
+	<key>uid</key>
+	<string>0C2266C72BE17631</string>
+</dict>
+</plist>

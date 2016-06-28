@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:st="http://storyist.com/odf/1.0/" office:version="1.0" office:mimetype="application/vnd.oasis.opendocument.text">
+  <office:meta>
+    <meta:generator>Storyist/2.3.3b2 (converter:1.3)</meta:generator>
+  </office:meta>
+  <office:settings>
+    <config:config-item-set config:name="st:outlineSettings">
+      <config:config-item-map-indexed config:name="outlineLevelSettings">
+        <config:config-item-map-entry>
+          <config:config-item config:name="defaultStyle" config:type="string">Scene_20_Heading</config:config-item>
+          <config:config-item config:name="displayName" config:type="string">Scene</config:config-item>
+        </config:config-item-map-entry>
+      </config:config-item-map-indexed>
+    </config:config-item-set>
+    <config:config-item-set config:name="st:documentSettings">
+      <config:config-item config:name="returnCommandsEnabled" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="tabCommandsEnabled" config:type="boolean">true</config:config-item>
+      <config:config-item config:name="useApplicationTabAndReturnCommandSettings" config:type="boolean">false</config:config-item>
+      <config:config-item-map-named config:name="completions">
+        <config:config-item-map-indexed config:name="sceneIntros">
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">INT</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">EXT</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">I/E</config:config-item>
+          </config:config-item-map-entry>
+        </config:config-item-map-indexed>
+        <config:config-item-map-indexed config:name="extensions">
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">(O.S.)</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">(CONT'D)</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">(V.O.)</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">(O.C)</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">(SUBTITLE)</config:config-item>
+          </config:config-item-map-entry>
+        </config:config-item-map-indexed>
+        <config:config-item-map-indexed config:name="times">
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">DAY</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">NIGHT</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">AFTERNOON</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">MORNING</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">EVENING</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">LATER</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">MOMENTS LATER</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">CONTINUOUS</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">THE NEXT DAY</config:config-item>
+          </config:config-item-map-entry>
+        </config:config-item-map-indexed>
+        <config:config-item-map-indexed config:name="characters">
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">THE END</config:config-item>
+          </config:config-item-map-entry>
+        </config:config-item-map-indexed>
+        <config:config-item-map-indexed config:name="transitions">
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">CUT TO:</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">FADE IN:</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">FADE OUT.</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">FADE TO:</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">DISSOLVE TO:</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">BACK TO:</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">MATCH CUT TO:</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">JUMP CUT TO:</config:config-item>
+          </config:config-item-map-entry>
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">FADE TO BLACK.</config:config-item>
+          </config:config-item-map-entry>
+        </config:config-item-map-indexed>
+        <config:config-item-map-indexed config:name="locations">
+          <config:config-item-map-entry>
+            <config:config-item config:name="stringValue" config:type="string">FADE IN:</config:config-item>
+          </config:config-item-map-entry>
+        </config:config-item-map-indexed>
+      </config:config-item-map-named>
+      <config:config-item config:name="defaultContentStyle" config:type="string">Action</config:config-item>
+      <config:config-item config:name="shouldCreateSheetAutomatically" config:type="boolean">false</config:config-item>
+    </config:config-item-set>
+  </office:settings>
+  <office:font-face-decls>
+    <style:font-face style:name="Courier" svg:font-family="Courier"/>
+  </office:font-face-decls>
+  <office:styles>
+    <style:default-style style:family="paragraph">
+      <style:paragraph-properties fo:margin-top="0pt" fo:margin-bottom="0pt" fo:margin-left="0pt" fo:margin-right="0pt" fo:text-indent="0pt" fo:text-align="left" fo:line-height="0%" fo:line-height-at-least="0pt" fo:break-before="auto" fo:break-after="auto" fo:keep-with-next="auto" fo:orphans="1" fo:widows="1" st:pagination="normal">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier" fo:font-size="12pt" fo:font-style="normal" fo:font-weight="normal" style:text-underline-type="none" fo:text-transform="none"/>
+    </style:default-style>
+    <style:style style:name="Action" style:family="paragraph" style:next-style-name="Action" st:tab-style-name="Character">
+      <style:paragraph-properties fo:margin-top="12pt" st:pagination="action">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier"/>
+    </style:style>
+    <style:style style:name="Character" style:family="paragraph" style:next-style-name="Dialogue" st:tab-style-name="Transition">
+      <style:paragraph-properties fo:margin-top="12pt" fo:margin-left="144pt" fo:margin-right="-18pt" fo:text-indent="144pt" st:pagination="character">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier" fo:text-transform="uppercase"/>
+    </style:style>
+    <style:style style:name="Dialogue" style:family="paragraph" style:next-style-name="Action" st:tab-style-name="Parenthetical">
+      <style:paragraph-properties fo:margin-left="72pt" fo:margin-right="-108pt" fo:text-indent="72pt" st:pagination="dialogue">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier"/>
+    </style:style>
+    <style:style style:name="Parenthetical" style:family="paragraph" style:next-style-name="Dialogue" st:tab-style-name="Dialogue">
+      <style:paragraph-properties fo:margin-left="108pt" fo:margin-right="-144pt" fo:text-indent="101.01pt" st:pagination="parenthetical">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier"/>
+    </style:style>
+    <style:style style:name="Scene_20_Heading" style:family="paragraph" style:display-name="Scene Heading" style:next-style-name="Action" st:tab-style-name="Action">
+      <style:paragraph-properties fo:margin-top="12pt" st:pagination="scene-heading">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier" fo:text-transform="uppercase"/>
+    </style:style>
+    <style:style style:name="Shot" style:family="paragraph" style:next-style-name="Action" st:tab-style-name="Action">
+      <style:paragraph-properties fo:margin-top="12pt" st:pagination="shot">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier" fo:text-transform="uppercase"/>
+    </style:style>
+    <style:style style:name="Transition" style:family="paragraph" style:next-style-name="Scene_20_Heading" st:tab-style-name="Scene_20_Heading">
+      <style:paragraph-properties fo:margin-top="12pt" fo:margin-left="288pt" fo:margin-right="-27pt" fo:text-indent="288pt" fo:text-align="right" st:pagination="transition">
+        <style:tab-stops/>
+      </style:paragraph-properties>
+      <style:text-properties style:font-name="Courier" fo:text-transform="uppercase"/>
+    </style:style>
+  </office:styles>
+  <office:automatic-styles>
+    <style:page-layout style:name="pm1">
+      <style:page-layout-properties fo:page-width="612pt" fo:page-height="792pt" fo:margin-top="36pt" fo:margin-bottom="36pt" fo:margin-left="108pt" fo:margin-right="72pt" style:print-orientation="portrait" style:print-usage="all"/>
+      <style:header-style>
+        <style:header-footer-properties fo:margin-top="0pt" fo:margin-bottom="55pt" fo:margin-left="0pt" fo:margin-right="0pt" fo:min-height="36pt" style:dynamic-spacing="no"/>
+      </style:header-style>
+      <style:footer-style>
+        <style:header-footer-properties fo:margin-top="55pt" fo:margin-bottom="0pt" fo:margin-left="0pt" fo:margin-right="0pt" fo:min-height="36pt" style:dynamic-spacing="no"/>
+      </style:footer-style>
+    </style:page-layout>
+  </office:automatic-styles>
+  <office:master-styles>
+    <style:master-page style:name="Standard" style:page-layout-name="pm1">
+      <style:header/>
+    </style:master-page>
+  </office:master-styles>
+  <office:body>
+    <office:text>
+      <text:p text:style-name="Scene_20_Heading"><text:user-index-mark-start text:id="id0137D8DD367D4542A3555D8F9C109450" text:index-name="story-outline"/>FADE IN:<text:user-index-mark-end text:id="id0137D8DD367D4542A3555D8F9C109450"/></text:p>
+      <text:p text:style-name="Action"/>
+      <text:p text:style-name="Action"/>
+    </office:text>
+  </office:body>
+</office:document>

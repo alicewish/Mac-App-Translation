@@ -1,0 +1,48 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>搜索 —  和查找</p>
+<p></p>
+<p>如此多文本，如此多字？ 如果您找不到了，Ulysses 可以提供许多搜索选项。</p>
+<p></p>
+<p>文稿列表顶部提供组搜索，它可以限制为特点文本元素，例如标题或评论。在编辑器中，您也可以随时使用“查找”和“查找并替换”。</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>快速打开</p>
+<p></p>
+<p>开始工作的最快方式是使用“快速打开”功能。试试这样：</p>
+<p></p>
+<p><tags><tag kind="unorderedList">- </tag></tags>点击<element kind="code" startTag="`">⌘O</element>打开“快速打开”面板。</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>输入搜索词扫描文库的当前部分，例如输入“快速”。</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>点击可以返回到这里。</p>
+<p></p></string>
+</sheet>

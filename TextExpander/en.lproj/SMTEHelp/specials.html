@@ -1,0 +1,143 @@
+
+
+
+
+<!-- Localized -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tebasic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <!-- InstanceBeginEditable name="doctitle" -->
+ <title>TextExpander Help: Advanced Snippet Functions: Macros</title>
+ <!-- InstanceEndEditable -->
+ <meta name="AppleTitle" content="TextExpander help">
+ <meta name="AppleIcon" content="SMTEHelp/images/textexpander64.gif">
+ <meta name="Copyright" content="Copyright 2007-2014 SmileOnMyMac, LLC, dba Smile. All Rights Reserved.">
+ <link href="somm_help.css" rel="stylesheet" type="text/css" media="all">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="100%">
+  <tr>
+    <td width="80"><a href="index.html"><img src="images/textexpander.png" alt="TextExpander logo" width="64" height="64" border="0" /></a></td>
+    <td><a href="index.html"><img src="images/logotype.gif" alt="TextExpander" width="307" height="46" border="0" /></a></td>
+    <td width="80"><a href="http://www.smilesoftware.com" target="_blank"><img src="images/sommlogo.gif" alt="Smile logo" width="64" height="80" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <h1><a href="index.html">Help</a>: Advanced Snippet Functions: Macros</h1>
+      <br />
+
+
+      <h3>What is a Macro?</h3>
+       <p>In the context of TextExpander, a macro is a short code that begins with a percent sign (%). That code is like a placeholder for information you want to insert in your snippet, like today's date or someone's name. When a snippet that contains a macro is expanded, that code is replaced by the information you specified.</p>
+        <p>TextExpander provides several different macro options to choose from. These macros are accessible in the TextExpander window through the Insert menu <img src="images/plusbutton.gif" alt="new snippet button" width="29" height="20" border="" align="absmiddle" /> located just above the Abbreviation box.</p>
+        <p><strong>Note</strong>: Since TextExpander uses the percent sign (%) to indicate a macro, it will not appear in the expanded snippet text. In order for it to appear in the expanded snippet, it will need to be doubled (%%). For example, if you want your expanded snippet text to be &ldquo;50% discount&rdquo;, enter it as &ldquo;50%% discount&rdquo;.</p>
+         <p><strong>Date / Time Snippets</strong></p>
+    <p>Insert the current date or time with a snippet. Or use date/time math to add a past or future date/time, e.g. the date five days from now. For a full explanation, see <a href="datetime.html">Date, Time, and Math Macros</a>.</p>
+    <p><strong>Clipboard</strong></p>
+     <ul>
+    <p>%clipboard</p>
+   </ul>
+    <p>Have your clipboard contents included as part of your snippet upon expansion. For example, say you want to customize just one portion of a form letter.</p>
+      <ol>
+       <li> Create a snippet with content:</li>
+         <ul>
+        <p>Hello %clipboard,</p>
+        <p>It was a pleasure meeting you! Thank you for coming.</p>
+        <p>Cheers,</p>
+        <p>Ann</p>
+         </ul>
+     <li>Copy something to the clipboard (Command + C), in this case &quot;Bob&quot;.</li>
+     <li>Type the snippet abbreviation. It will expand:</li>
+         <ul>
+         <p>Hello Bob,</p>
+         <p>It was a pleasure meeting you! Thank you for coming.</p>
+         <p>Cheers,</p>
+         <p>Ann</p>
+         </ul>
+      </ol>
+    <p><strong>Fill-in Fields</strong></p>
+     <p>Inserts custom fields into your snippets that can be filled in while expanding the snippet; useful for form letters, e.g. &quot;Dear ____, Thank you for the ____.&quot; For a full explanation of these macros, see <a href="fillins.html">Creating and Using Fill-in Fields</a>.</p>
+   <p><strong>Cursor Position</strong></p>
+    <ul>
+     <p>%| = (Shift + \) Position Cursor Here</p>
+    </ul>
+    <p>Specify where you want the cursor to appear after the snippet is expanded. (The insertion cursor appears at the end of the snippet by default.)</p>
+    <ul>
+     <p>%\ = Select To Here (must appear after %|)</p>
+    </ul>
+    <p>In combination with %|, this specifies a range of text to be selected within the snippet after expansion.</p>
+ <p><strong>Cursor Movement</strong></p>
+     <ul>
+      <p>%&gt; = cursor right</p>
+      <p>%&lt; = cursor left</p>
+      <p>%^ = cursor up</p>
+      <p>%v = (letter v) cursor down</p>
+     </ul>
+ <p>In cases where your editor might automatically add indenting to your snippet, or for other reasons, you can specify up, down, left and right arrow movements to occur after the expansion, relative to the end of the snippet. These codes must be at the end of the snippet, and TextExpander processes them in reverse order. They cannot be used in combination with %| or %\.</p>
+ <p><strong>Delimiter Overrides</strong></p>
+     <ul>
+       <p>%+ = keep delimiter</p>
+       <p>%- = abandon delimiter</p>
+     </ul>
+ <p>These delimiter modifier codes override the <a href="preferences.html">Preferences &gt; Expansion &gt; Expand abbreviations</a> setting. These codes must be at the end of the snippet (after Cursor Movement).</p>
+     <p><strong>Key Presses</strong></p>
+             <ul>
+                <p>%key:tab%</p>
+                <p>%key:esc%</p>
+                <p>%key:return%</p>
+                <p>%key:enter%</p>
+               </ul>
+              <p>Insert the equivalent of the press of a key into a snippet. Available key options are Enter, Escape, Return and Tab. This is useful for web forms where a single snippet can fill in a field, tab to the next field, then submit the form with the Enter key.
+              Also, useful in emails where you want one snippet to fill in the Subject line then tab to the email body and fill it in. That snippet might look like this:</p>
+             <p><img src="images/tabemailtall.png" alt="email example" width="302" height="270" border="" align="absmiddle" /></p>
+                <!-- Optional <img src="images/tabemaillong.png" alt="email example" width="764" height="200" border="" align="absmiddle" /> -->
+
+    <p><strong>Nested Snippets</strong></p>
+         <ul>
+            <p>%snippet:&lt;snippet abbreviation&gt;%</p>
+            <p>(where &lt;snippet abbreviation&gt; is the abbreviation assigned to the snippet you would like to nest.)</p>
+           </ul>
+          <p>Nest a snippet within another snippet. For example, you might want to use your telephone number snippet in your email signature snippet. If your telephone number changes, you only need to update one snippet. Here is a telephone number snippet (ttel) nested in an email signature snippet (ssig):</p>
+          <ul>
+           <p>ssig =</p>
+               <ul>
+                 <p> Ciao,</p>
+                 <p>Lisa</p>
+                 <p>---</p>
+                 <p>Lisa Newton</p>
+                 <p>Acme, Inc.</p>
+                 <p>lisa@acme.com</p>
+                 <p>%snippet:ttel%</p>
+               </ul>
+            <p>The snippet will expand to this:</p>
+             <ul>
+               <p>Ciao,</p>
+                 <p>Lisa</p>
+                 <p>---</p>
+                 <p>Lisa Newton</p>
+                 <p>Acme, Inc.</p>
+                 <p>lisa@acme.com</p>
+                 <p>1-408-996-1010</p>
+                </ul>
+            </ul>
+             <p>Nested snippets also work with <a href="applescript.html">AppleScript, Shell Script, and JavaScript Snippets</a>.</p>
+
+   <br />
+    <!-- InstanceEndEditable --></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><span class="smalltext"><br />
+      </span><span class="small">&copy;
+ SmileOnMyMac, LLC, dba Smile. All rights reserved.<br />
+    TextExpander is a registered trademark, Smile and the Smile logo are trademarks of SmileOnMyMac, LLC, dba Smile.</span></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

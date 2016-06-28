@@ -1,0 +1,17 @@
+## Welcome to Ulysses for Mac - Overview
+
+Nice to see you here! By now you’ve probably skipped this introduction and manically clicked on what few buttons are visible on screen. That’s alright, let it out.
+
+As soon as you’re ready, we should cover some basics:
+
+1. We believe that writing is about content, about what you want to say – not about fancy formatting. This is why writing in Ulysses means writing plain text, but at the same time more than plain text. We call it “plain text enhanced”. We will come back to this later.
+
+2. Ulysses is a single-library app, and all your texts live in this single library. There is no “Open”, no “Save”, no Finder access — it all happens right inside this window.
+
+3. Ulysses fully utilizes iCloud for storing your texts, if you allow it to do so. You can then access your texts from all of your Macs ++and iPads and iPhones, as the case may be++, at home or on the go. They’ll sync automatically as soon (or as long) as you’re connected to the web.
+
+4. Ulysses does not offer WYSIWYG (What You See Is What You Get) styles and formats. Instead, your text will be automatically formatted once you export it as a PDF, a web page, or an ebook.
+
+Most importantly, Ulysses is built to grow and adapt. You can use it as a sophisticated notepad, you can create your next Great American Novel. You can feed your blog, keep everything neatly organized, or mess around at will.
+
+There is no “right” way to do things here, so make yourself comfortable, and make it your own.

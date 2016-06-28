@@ -1,0 +1,234 @@
+
+
+
+
+<!-- Localized -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tebasic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <!-- InstanceBeginEditable name="doctitle" -->
+ <title>TextExpander Help: Creating Snippets</title>
+ <!-- InstanceEndEditable -->
+ <meta name="AppleTitle" content="TextExpander help">
+ <meta name="AppleIcon" content="SMTEHelp/images/textexpander64.gif">
+ <meta name="Copyright" content="Copyright 2007-2014 SmileOnMyMac, LLC, dba Smile. All Rights Reserved.">
+ <link href="somm_help.css" rel="stylesheet" type="text/css" media="all">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="100%">
+  <tr>
+    <td width="80"><a href="index.html"><img src="images/textexpander.png" alt="TextExpander logo" width="64" height="64" border="0" /></a></td>
+    <td><a href="index.html"><img src="images/logotype.gif" alt="TextExpander" width="307" height="46" border="0" /></a></td>
+    <td width="80"><a href="http://www.smilesoftware.com" target="_blank"><img src="images/sommlogo.gif" alt="Smile logo" width="64" height="80" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <h1><a href="index.html">Help</a>: Creating Snippets<br />
+      </h1>
+
+
+      <h3>Three Steps to Creating a Basic Snippet</h3>
+      <ol>
+        <li>Click on <span class="button">New Snippet</span> <img src="images/newsnippet.gif" alt="new snippet button" width="38" height="22 " align="absmiddle" /> in the toolbar or choose <span class="menu">File &gt; New Snippet</span> from the menu.</li>
+        <li>Add the snippet content in to the &quot;Content&quot; box on the right.</li>
+        <li>Assign an abbreviation in the &quot;Abbreviation&quot; box below the content.<br />
+        <p>Optional: Add a label for your snippet in the &quot;Label&quot; box, see <a href="creating.html#label">below</a>.</p></li>
+      </ol>
+      <p><strong>Note:</strong> You can also create new snippets from selected text or from the Clipboard contents. For more details, <a href="#clipboard">see below</a>.</p>
+      <p>If you have TextExpander hidden in the Dock (see <a href="preferences.html#appearance">Preferences: Appearance</a>), you will need to access the snippet creation menus via the <a href="menubar.html">TextExpander menu bar item</a> or via <a href="preferences.html#hotkeys">predefined hotkey shortcuts</a>.</p>
+
+
+      <h3><span class="sidebar">What Makes a Good Abbreviation</span></h3>
+      <p>A good abbreviation is:</p>
+      <ul>
+        <li>short</li>
+        <li>easy to remember</li>
+        <li>unlikely to be typed by accident</li>
+        <li>unique</li>
+      </ul>
+      <p>Duplicating an abbreviation's first character (ddate, ssig, zzip) is one way of creating abbreviations that meet these critieria. Another way is to use a period or other punctuation mark as the first character of your abbreviation (;date, 'sig, /zip).</p>
+
+  <h3 ><a name="conflicts" id="conflicts"></a><span class="sidebar">Conflicting Abbreviations</span></h3>
+  <p>If abbreviations are too similar, they will conflict. A small conflict indicator
+  <img src="images/IconConflict.png" alt="Conflict Indicator" width="20" height="20" align="absmiddle" />
+  or duplicate indicator
+  <img src="images/IconDuplicate.png" alt="Duplicate Indicator" width="20" height="20" align="absmiddle" />
+  will appear at the bottom of the snippet list, and the abbreviation of the snippet will be highlighted in orange
+  in the snippet list, or in blue if the snippet is an exact duplicate of another.</p>
+  <p>Conflicting abbreviations may not expand as desired, as the conflicting snippet may expand instead. (Duplicate snippets do not cause
+  problems.)</p>
+  <p>If the conflict or duplicate indicator appears, you can edit the abbreviation of the snippet you are creating so it is unique,
+  and the indicator will disappear. Or you can click the indicator to display a window showing the conflicting snippet or snippets.
+  There you can resolve the problem by deleting the abbreviation of the other snippet, deleting the other snippet entirely, or editing
+  the other snippet.</p>
+
+
+      <h3><a name="format" id="format"></a> Format</h3>
+      <p>Snippet content has four format options:</p>
+      <ul>
+        <li><strong>Plain Text</strong><br />
+        When expanded, the snippet content conforms to the current text style. This is the standard snippet format, it works best for autocorrection and any other snippets where you want it to fit in with the format of the surrounding text. This can work with the macros listed below, but not with images.</li>
+        <li><strong>Formatted Text, Pictures</strong><br />
+        Color, size, font and alignment can be specified for text and maintained upon expansion. Good for email signatures and graphics, this format can include hyperlinks.</li>
+        <li><strong>AppleScript</strong> <em>(advanced)</em><br />
+        The snippet content can be an AppleScript, which is triggered by the abbreviation. (See <a href="applescript.html">Script Snippets</a>)</li>
+        <li><strong>Shell Script</strong> <em>(advanced)</em><br />
+        The snippet content can be a shell script, which is triggered by the abbreviation. (See <a href="applescript.html">Script Snippets</a>)</li>
+        <li><strong>JavaScript</strong> <em>(advanced)</em><br />
+The snippet content can be a JavaScript or JavaScript for Automation (JSA), which is triggered by the abbreviation. (See <a href="applescript.html">Script Snippets</a>)</li>
+      </ul>
+      <p>To set content format, click on the drop down menu at the top of the Content box.</p>
+
+
+      <h3>Using Formatted Text in Snippets</h3>
+      <ol>
+        <li>Set the content format to Formatted Text, Pictures.</li>
+        <li> Add snippet content in the Content box.</li>
+        <li>Select text to be formatted.</li>
+        <li>Click on the <img src="images/textformat.gif" alt="text format button" width="29" height="20" align="absmiddle" /> button below the Content window to access Font and Text options for fonts, size, color, and alignment.</li>
+      </ol>
+      <p><strong>Note</strong>: Not all fonts have all typeface options. For example, if you want italics you will need to find a font that offers that option.</p>
+
+
+      <h3>Adding Images to Snippets</h3>
+      <ol>
+
+        <li>Set the content format to Formatted Text, Pictures.</li>
+        <li> Drag your image into the Content box or copy it to the Clipboard and use Command + V to paste it into TextExpander.</li>
+        <li>To remove an image, use the Delete key.</li>
+      </ol>
+       <p>A default content format is set in <span class="menu">TextExpander &gt; Preferences</span> under the Expansion tab. </p>
+
+
+      <h3><a name="links" id="links"></a>Adding Hyperlinks to Snippets</h3>
+       <ol>
+         <li>Set the content format to Formatted Text, Pictures.</li>
+         <li>Place a complete web address in the snippet, e.g. http://www.smilesoftware.com/</li>
+         <li>If your link does not appear to be active immediately, then select it and Control-Click on it.</li>
+         <li>In the following menu select &quot;Make Link.&quot;</li>
+       </ol>
+       <p>If you want to edit the visible text to say something else, or include an image in the link:</p>
+       <ol>
+         <li>Arrow your cursor into the active link text.</li>
+         <li>Type or paste in the new text within the text of the active link so that the new text takes on the link properties. If you are adding an image, drag and drop it into the middle of the active link text.</li>
+         <li>Delete the original text from around the new text or image.</li>
+       </ol>
+     <p>You can also perform these steps in a word processor, and then copy/paste the results into the snippet content area.</p>
+
+      <h3><a name="macros" id="macros"></a>Adding Macros to Snippets</h3>
+      <p> Insert predefined macros to snippets via the insert button <img src="images/plusbutton.gif" alt="insert menu button" width="29" height="20" align="absmiddle" /> below the Content box.</p>
+      <p>Predefined macros include:</p>
+      <ul>
+        <li> <strong>Date</strong><br />
+          Inserts the day, month and year of the current date in a variety of formats.</li>
+        <li><strong>Time</strong><br />
+          Inserts the current time in hours, minutes, seconds and AM/PM.</li>
+        <li><strong>Date/Time Math</strong><br />
+          Inserts a date or time that takes the current date/time and adds to or subtracts from it; e.g. five days from today.<br />
+        </li>
+        <li><strong>Snippet</strong><br />
+          Nest a snippet within your snippet. For example, you might want to use your telephone number snippet in your email signature snippet. If your telephone number changes, you need only update one snippet.</li>
+        <li><strong>Key</strong><br />
+        Inserts a key press for Enter, Esc, Return or Tab; useful for web forms.</li>
+        <li><strong>Fill-in</strong><br />
+        Inserts custom fields into your snippets that can be filled in while expanding the snippet; useful for form letters, e.g. &quot;Dear ____, Thank you for the ____.&quot; Other field options include popup menus and optional text sections. (See <a href="fillins.html">Creating and Using Fill-in Fields</a>)</li>
+        <li><strong>Clipboard</strong><br />
+          Inserts whatever is on the Clipboard into your snippet when expanded. </li>
+        <li><strong>Picture...</strong><br />
+          Browse for an image to insert. Images can also be dragged directly into the content box or pasted from the Clipboard. The content menu of the snippet must be set to &ldquo;Formatted Text, Picture.&rdquo; Images can also be made into <a href="#links">hyperlinks</a>.</li>
+        <li><strong>Cursor</strong><br />
+          Specify where you want the cursor to appear after the snippet is expanded. TextExpander repositions the cursor automatically
+   if you use <span class="menu">Position Cursor Here</span>.<br />
+   In cases where your editor might automatically add indenting to your snippet, or for other reasons, you can specify up, down,
+   left and right arrow movements. These codes must be at the end of the snippet, and TextExpander
+   processes them in reverse order.</li>
+      </ul>
+      <p> For more information on Date, Time, and Date/Time Math, see <a href="datetime.html">Date, Time, and Math Macros</a>. For more information on Snippet, Key, Clipboard, and Cursor, see <a href="specials.html">Advanced Snippet Functions: Macros</a>. For more information on Fill-ins, see <a href="fillins.html">Creating and Using Fill-in Fields</a>.</p>
+
+
+
+      <h3><a name="label" id="label"></a>Labeling Snippets</h3>
+      <p> By default, a snippet's label is a shortened version of the snippet contents. You can specify a short, more useful label to appear in the snippet list instead. Enter the label in the Label field below the Content Box.</p>
+
+      <h3><a name="preview" id="preview"></a>Preview Expanded Snippet</h3>
+       <p>Preview a snippet's expanded state in the TextExpander window by clicking the Preview (eye) button next to the Label field. Particularly useful when creating date or time snippets.</p>
+
+      <h3><a name="case" id="case"></a>Setting Case Sensitivity</h3>
+      <p> TextExpander abbreviations can be case sensitive. There are three options:</p>
+      <ul>
+        <li><strong>Case Sensitive (aB, Ab, ab, AB differ)</strong><br />
+          Example: &quot;YT&quot; expands to &quot;Yours Truly&quot;, &quot;yt&quot; does not.</li>
+        <li><strong>Ignore Case (aB, Ab, ab, AB same)</strong><br />
+          Example: either &quot;YT&quot; or &quot;yt&quot; expands to &quot;Yours Truly&quot;</li>
+        <li><strong>Adapt Snippet to Case of Abbreviation</strong><br />
+          Example: &quot;Yt&quot; expands to &quot;Yours truly&quot;, &quot;yt&quot; expands to &quot;yours truly&quot;</li>
+        </ul>
+      <p>A default case sensitivity is set in <span class="menu">TextExpander &gt; Preferences</span> under the Expansion tab. (See <a href="preferences.html#case">Preferences</a>.) You can change the case sensitivity setting on individual snippets by clicking the drop-down menu bar above the Abbreviation box. </p>
+
+      <h3><a name="clipboard" id="clipboard"></a>Create Snippet from Selection or Clipboard</h3>
+      <p>A quick way to add snippets to your collection is to create new snippets based on a text selection or on the Clipboard contents. If you've just typed something and realize that it would be a useful snippet for future use, follow these steps:</p>
+      <ol>
+        <li>Select the text you want for the snippet content.</li>
+        <li>Click the TextExpander menu bar item</li>
+        <li>Click <span class="menu">Create Snippet from Selection...</span> (or <span class="menu">Create Snippet from Clipboard... </span>if you have copied the text to the Clipboard.)</li>
+      </ol>
+      <p>The Create Snippet window opens with your selection (or the Clipboard contents) already entered in the Content field. Assign an abbreviation and a snippet group and click <span class="button">Create</span>.</p>
+      <p>You can also access <span class="menu">Create Snippet from Selection</span> or <span class="menu">Create Snippet from Clipboard</span> via <a href="preferences.html#hotkeys">hotkey</a>.</p>
+
+
+      <h3>Edit last expanded snippet</h3>
+      <p>You can easily edit snippets as you are using them. If you expand a snippet and realize that it needs to be revised (e.g. new phone number in your signature, new product name in your boilerplate), try this:</p>
+      <ol>
+        <li>Click the TextExpander menu bar item</li>
+        <li>Click <span class="menu">Edit Last Expanded Snippet.</span></li>
+        <li>Make your revisions in the Edit Snippet window and click <span class="button">Save</span>.</li>
+      </ol>
+      <p>You can also access <span class="menu">Edit Last Expanded Snippet</span> via <a href="preferences.html#hotkeys">hotkey</a>.</p>
+
+      <h3><a name="suggestions" id="suggestions"></a>Suggest Snippets</h3>
+
+  <p>TextExpander can suggest new snippets based on what you type. After you have typed the same group of characters, letters or words enough times, it will suggest you create a snippet. All the snippet suggestions are collected in a <strong>Suggested Snippets</strong> group where they remain without abbreviations. You may choose to ignore them, add an abbreviation to complete them, or delete them.</p>
+
+ <p><strong><a name="suggestionPolicy">Privacy Details</a></strong></p>
+
+  <p>TextExpander observes your keystrokes, as well as the contents of the pasteboard when you Paste using ⌘V.</p>
+
+  <p>TextExpander will track how many times you repeat the same group of characters and create a new suggestion after a certain amount of repetition. However, it does not save the tracking of what you type so the tracking is lost with each TextExpander restart. Therefore, frequent restarting of TextExpander won't result in many suggestions. None of what you type is saved by TextExpander except for the snippets listed in the Suggested snippets group.</p>
+  <p>&ldquo;Tracking&rdquo; does not mean TextExpander keeps a list of the actual characters you type. Instead, it keeps an encoded record (called a &ldquo;hash&rdquo;) of that group of characters, similar to the way a password is securely stored so that no one reading it knows what it is. You might type &ldquo;yourpetsname&rdquo; but what TextExpander sees and records is &ldquo;1739405847385.&rdquo;</p>
+
+ <p><strong>Notifications</strong></p>
+
+  <p>Once a word or phrase is typed often enough, TextExpander will inform you about this new snippet using Notification Center. From there you can choose: </p>
+
+    <ul>
+   <li><strong>Keep Suggestion</strong>: Assign the suggested snippet an abbreviation.</li>
+   <li><strong>Drop Suggestion</strong>: Never recommend this group of characters as a snippet again.</li>
+    </ul>
+
+  <p>For details on the settings see <a href="preferences.html#suggestions">Preferences > Suggestions</a>.</p>
+
+
+      <h3><a name="delete" id="delete"></a>Deleting a Snippet</h3>
+      <ol>
+        <li> Select the snippet in the Snippet list on the left side of the TextExpander main window. </li>
+        <li> Click on <span class="button">Delete</span> <img src="images/delete.gif" alt="delete button" width="38" height="22" align="absmiddle" /> in the toolbar, or use the Delete key on your keyboard. </li>
+      </ol>
+<p>&nbsp;</p>
+    <!-- InstanceEndEditable --></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><span class="smalltext"><br />
+      </span><span class="small">&copy;
+ SmileOnMyMac, LLC, dba Smile. All rights reserved.<br />
+    TextExpander is a registered trademark, Smile and the Smile logo are trademarks of SmileOnMyMac, LLC, dba Smile.</span></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

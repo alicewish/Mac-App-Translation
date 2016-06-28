@@ -1,0 +1,9 @@
+## Library: Groups & Filters
+
+Groups and filters are your main tools to keep your library organized. They’re similar to Finder’s folders and smart folders.
+
+You add groups and filters via the File menu. You can place groups and filters inside other groups. If you select a group in the library, its contents will show up in the sheet list. Select a sheet, and it shows up in the editor.
+
+Filters are a special kind of group. Once set up, they will look at the group they’re in and list all sheets that match the set criteria. For example, you can set up a filter that only lists sheets with a keyword “fantastic”. If you place it deep within a nested group, say, six levels down, the filter will only show matching sheets within that very group.
+
+You can even select multiple groups and filters (by holding down `⌘`), and get their combined contents listed in the sheet list.

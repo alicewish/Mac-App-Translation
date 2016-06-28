@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Auditory Feedback</key>
+	<true/>
+	<key>Automatic Backup</key>
+	<true/>
+	<key>Client Mode</key>
+	<integer>0</integer>
+	<key>Cross Platform Images</key>
+	<true/>
+	<key>Restore Pasteboard</key>
+	<true/>
+	<key>Snippet Menu Item Width</key>
+	<integer>370</integer>
+	<key>Status Item</key>
+	<true/>
+	<key>checkforupdates</key>
+	<true/>
+	<key>checkfrequency</key>
+	<integer>7</integer>
+	<key>autoCapExceptionApps</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Terminal</string>
+			<key>bundleID</key>
+			<string>com.apple.Terminal</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Xcode</string>
+			<key>bundleID</key>
+			<string>com.apple.dt.Xcode</string>
+		</dict>
+	</array>
+	<key>autoCapExceptionsMode</key>
+	<integer>1</integer>
+	<key>suggestExceptionApps</key>
+	<array>
+		<dict>
+			<key>bundleID</key>
+			<string>com.apple.Terminal</string>
+			<key>name</key>
+			<string>Terminal</string>
+		</dict>
+	</array>
+	<key>suggestExceptionsMode</key>
+	<integer>1</integer>
+	<key>wantsDaemonEnabled</key>
+	<true/>
+	<key>outlineState</key>
+	<array>
+		<string>0EA7C738-0E5C-4349-B26C-D0878D4E5618</string>
+	</array>
+</dict>
+</plist>

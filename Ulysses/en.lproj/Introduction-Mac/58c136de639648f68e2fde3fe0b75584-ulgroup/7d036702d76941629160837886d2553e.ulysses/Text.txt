@@ -1,0 +1,11 @@
+## External Folders
+
+In External Folders, you can edit classic text and markdown files from anywhere on your Mac. As an example, you can point Ulysses to a folder on Dropbox, and have its contents behave just like native groups and sheets. Make sure that “External Folders” are enabled in preferences, then add one via the `+` button in the respective section header of the library.
+
+Some features will be limited for external folders (no images, no attachments). Writing, however, will still be great. And this is what counts after all, isn’t it?
+
+----
+
+So much for the moment. You should now know enough to get around — so start out, write something, settle in.
+
+Head back to the introduction for more details, as well as tips, tricks and handy shortcuts.

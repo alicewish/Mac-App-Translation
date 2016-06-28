@@ -1,0 +1,5 @@
+### Open and Import Files
+- You can use Ulysses to edit or respectively import a couple of different file types:
+	- By default, text and markdown files will appear in the “Open Files” group within your library. All edits and changes will be saved to the original files. 
+	- To _import_ text and markdown files as Ulysses sheets, simply drag them to a group in your library. The original files will stay unaffected from any edits.
+	- RTF, DOCX and HTML files will always be imported as Ulysses sheets, and will therefore be added to the “Inbox” of your topmost library section. You can of course drag them around at will.

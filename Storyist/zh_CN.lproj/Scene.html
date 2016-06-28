@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:st="http://storyist.com/elements/1.0"
+      xmlns:strdf="http://storyist.com/rdf-syntax/1.0/">
+
+  <head>
+    <title>Scene</title>
+    <link href="Section.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <div class="header">
+      <table>
+	<tr>
+	  <td class="sectionName">
+	    <object classid="text-field" type="application/x-storyist-control">  
+	      <param name="resource" value="{$id.stringValue}"/>
+	      <param name="property" value="http://storyist.com/rdf-syntax/1.0/title"/>
+	      <span class="storyist-default-text">Unnamed Scene</span>
+	    </object>
+	  </td>
+	  <td class="right">
+	    <object classid="image-well" type="application/x-storyist-control" height="96" width="96">
+	      <param name="resource" value="{$id.stringValue}"/>
+	      <param name="property" value="http://storyist.com/rdf-syntax/1.0/icon"/>
+	      <param name="default-image" value="SceneSheet.tiff"/>
+	    </object>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <!-- Summary -->
+    <div class="module">
+      <h1>Synopsis</h1>
+      <object classid="text-area" type="application/x-storyist-control">
+	<param name="resource" value="{$id.stringValue}"/>
+	<param name="property" value="http://storyist.com/rdf-syntax/1.0/summary"/>
+	<span class="storyist-default-text">Summarize the scene here.</span>
+      </object>
+    </div>
+
+    <!-- Details -->
+    <div id="sectionDetails" class="module">
+
+      <h1>Scene Details</h1>
+
+      <object classid="property-list" type="application/x-storyist-control">
+
+	<param name="module" value="chrome:/manuscript/content/Section.html#sectionDetails"/>
+	<param name="resource" value="id"/>
+
+	<param name="default-property" value="http://storyist.com/rdf-syntax/1.0/povCharacter"/>
+	<param name="default-property" value="http://storyist.com/rdf-syntax/1.0/setting"/>
+	<param name="default-property" value="http://storyist.com/rdf-syntax/1.0/conflict"/>
+
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/title"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/summary"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/icon"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/note"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/toDo"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/color"/>
+
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/interfaceIcon"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/rating"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/status"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/annotation"/>
+
+      </object>
+
+    </div>
+
+    <!-- Plot Points -->
+    <div class="module">
+
+      <h1>Plot Points</h1>
+
+      <table st:template="for-each" st:select-keypath="$id.plotPoints" st:default-content="plotPointDefault">
+
+	<tr id="plotPointDefault">
+	  <td class="noteIcon">
+	    <p>
+	      <img src="chrome:/global/content/Plot.icns"
+		   onclick="popUpContextMenu(plotPointsMenu, this.getAttribute('point'))"
+		   oncontextmenu="popUpContextMenu(plotPointsMenu, this.getAttribute('point'))" />
+	    </p>
+	  </td>
+
+	  <td>
+	    <p>
+	      <span class="storyist-default-text">
+		There are no plot points associated with this
+		scene. To create one, click on the icon on the
+		left and select &quot;Add Plot Point&quot; from
+		the pop-up menu.</span>
+	    </p>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="noteIcon">
+	    <p>
+	      <img src="chrome:/global/content/Plot.icns" 
+		   point="{$current.stringValue}"
+		   onclick="popUpContextMenu(plotPointsMenu, this.getAttribute('point'))"
+		   oncontextmenu="popUpContextMenu(plotPointsMenu, this.getAttribute('point'))" />
+	    </p>
+	  </td>
+
+	  <td>
+	    <p>
+	      <object classid="resource" type="application/x-storyist-control"
+		      point="{$current.stringValue}"
+		      oncontextmenu="popUpContextMenu(plotPointsMenu, this.getAttribute('point'))">
+		<param name="resource" value="{$current.stringValue}"/>
+		<span>Untitled Plot Point</span>
+	      </object>
+	    </p>
+	    <object classid="text-area" type="application/x-storyist-control">
+	      <param name="resource" value="{$current.stringValue}"/>
+	      <param name="property" value="http://storyist.com/rdf-syntax/1.0/summary"/>
+	      <span class="storyist-default-text">Plot Point Description</span>
+	    </object>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <!-- Character Points -->
+    <div class="module">
+
+      <h1>Character Development Points</h1>
+
+      <table st:template="for-each" st:select-keypath="$id.characterPoints" st:default-content="characterPointDefault">
+
+	<tr id="characterPointDefault">
+	  <td class="noteIcon">
+	    <p>
+	      <img src="chrome:/global/content/Characters.icns"
+		   onclick="popUpContextMenu(characterPointsMenu, this.getAttribute('point'))"
+		   oncontextmenu="popUpContextMenu(characterPointsMenu, this.getAttribute('point'))" />
+	    </p>
+	  </td>
+
+	  <td>
+	    <p>
+	      <span class="storyist-default-text">
+		There are no character development points associated
+		with this scene. To create one, click on the icon on
+		the left and select &quot;Add Character Point For
+		Character&quot; from the pop-up menu.</span>
+	    </p>
+	  </td>
+	</tr>
+
+	<tr>
+	  <td class="noteIcon">
+	    <p>
+	      <img src="chrome:/global/content/Characters.icns" 
+		   point="{$current.stringValue}"
+		   onclick="popUpContextMenu(characterPointsMenu, this.getAttribute('point'))"
+		   oncontextmenu="popUpContextMenu(characterPointsMenu, this.getAttribute('point'))" />
+	    </p>
+	  </td>
+
+	  <td>
+	    <p>
+	      <span>Character:&#160;</span>
+	      <object classid="resource" type="application/x-storyist-control"
+		      point="{$current.stringValue}"
+		      oncontextmenu="popUpContextMenu(characterResourceMenu, this.getAttribute('point'))">
+		<param name="resource" value="{$current.character.stringValue}"/>
+		<span>Unassigned</span>
+	      </object>
+	    </p>
+	    <object classid="text-area" type="application/x-storyist-control">
+	      <param name="resource" value="{$current.stringValue}"/>
+	      <param name="property" value="http://storyist.com/rdf-syntax/1.0/summary"/>
+	      <span class="storyist-default-text">Character Development Point Description</span>
+	    </object>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <!-- Notes -->
+    <div class="module">
+      <h1>Scene Notes</h1>
+
+      <object classid="text-area" type="application/x-storyist-control">
+	<param name="resource" value="{$id.stringValue}"/>
+	<param name="property" value="http://storyist.com/rdf-syntax/1.0/detail"/>
+	<span class="storyist-default-text">There are no notes for
+	this scene. </span>
+      </object>
+
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,108 @@
+
+		body { 
+			color: #3f4040; 
+			background-color: #e4e6e6;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+		.tutorial {
+			background-color: #ffffff;
+			margin: 20px;
+			padding: 5px 10px 5px 10px;
+			border: solid 1px #CCCCCC;
+			height: 420px;
+		}
+		.buttons {
+	position: absolute;
+	bottom: 80px;
+	right: 55px;
+}
+		.footer {
+			
+			
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+		}
+		.footer p {
+	font-size: 16px;
+			font-weight: bold;
+			background-color: #4a7bc0;
+			color: #ffffff;
+			padding: 5px;
+}
+.footer img {
+	float: left;
+	margin-left: 30px;
+}
+
+		p {
+			font-size: 13px;
+			line-height: 19px;
+			margin: 6px 0px 6px 6px;
+		}
+		h1 {
+			font-size: 24px;
+			margin-bottom: 0px;
+			color: #4a7bc0;
+		}
+		h2 {
+			font-size: 16px; 
+			font-weight: bold; 
+			color: #4a7bc0;
+		}
+		h3 {
+			font-size: 15px;
+			font-weight: bold;
+			margin: 10px 0 2px 0;
+		}
+		th {
+			text-align: left;
+		}
+		table {
+			margin-left: 4px;
+		}
+		.subhead {
+			margin-left: 20px;
+		}
+		.small {
+			font-size: 10px;
+		}
+		
+		.hidden {
+			visibility: hidden;
+		}
+		a:link { 
+			color: #36c;
+		}
+		a:visited {
+			color: #36c;
+		}
+		a:hover {
+			color: #090;
+		}
+		a:active {
+			color: #9cf;
+		}		
+		td.toolbar p {
+			margin-top: 0px;
+		}
+		.menu {
+			font-style: italic;
+		}
+		.button {
+			font-weight: bold;
+		}
+		div.acontent {
+			border: #48f solid 3px;
+			clear: left;
+			padding: 1em;
+		}
+		
+		div.acontent.inactive {
+			display: none;
+		}
+		
+textarea::-webkit-input-placeholder {
+	color: #4a525a;
+}

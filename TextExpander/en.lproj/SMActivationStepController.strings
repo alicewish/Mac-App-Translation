@@ -1,0 +1,18 @@
+
+/* Class = "NSTextFieldCell"; title = "Enter your license:"; ObjectID = "8Qs-iS-kHF"; */
+"8Qs-iS-kHF.title" = "Enter your license:";
+
+/* Class = "NSTextFieldCell"; title = "Register TextExpander 5"; ObjectID = "Dqm-JX-CpH"; */
+"Dqm-JX-CpH.title" = "Register TextExpander 5";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "Ock-Kt-uUY"; */
+"Ock-Kt-uUY.title" = "Register";
+
+/* Class = "NSTextFieldCell"; title = "Find your license in the confirmation email sent to you after you purchased."; ObjectID = "Vfx-rU-KGJ"; */
+"Vfx-rU-KGJ.title" = "Find your license in the confirmation email sent to you after you purchased.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "dsn-sP-C5o"; */
+"dsn-sP-C5o.title" = "Cancel";
+
+/* Class = "NSTextFieldCell"; placeholderString = "License Code"; ObjectID = "zQp-Yu-Vbg"; */
+"zQp-Yu-Vbg.placeholderString" = "License Code";

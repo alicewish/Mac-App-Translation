@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>childOrder</key>
+	<array>
+		<string>0a9a0e0917004c9dbcc3bde878d54cf3-ulgroup</string>
+		<string>235ce54ed86e4e83b57c08957d2aa31b-ulgroup</string>
+		<string>e364cb8479fc4f97ace9a7596a3ac3ee-ulgroup</string>
+	</array>
+	<key>displayName</key>
+	<string>ZH</string>
+	<key>resolutionData</key>
+	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>0a9a0e0917004c9dbcc3bde878d54cf3-ulgroup</key>
+			<dict>
+				<key>lastModification</key>
+				<real>478115311.66215903</real>
+				<key>version</key>
+				<dict>
+					<key>c349e5464ea13038faa3cc0be39b09279e4e658d266a14976d8eaf333028c2a7</key>
+					<integer>2</integer>
+				</dict>
+			</dict>
+			<key>235ce54ed86e4e83b57c08957d2aa31b-ulgroup</key>
+			<dict>
+				<key>lastModification</key>
+				<real>478115311.66267902</real>
+				<key>version</key>
+				<dict>
+					<key>c349e5464ea13038faa3cc0be39b09279e4e658d266a14976d8eaf333028c2a7</key>
+					<integer>4</integer>
+				</dict>
+			</dict>
+			<key>e364cb8479fc4f97ace9a7596a3ac3ee-ulgroup</key>
+			<dict>
+				<key>lastModification</key>
+				<real>478115311.66240501</real>
+				<key>version</key>
+				<dict>
+					<key>c349e5464ea13038faa3cc0be39b09279e4e658d266a14976d8eaf333028c2a7</key>
+					<integer>3</integer>
+				</dict>
+			</dict>
+		</dict>
+		<key>displayName</key>
+		<real>478115311.65102798</real>
+	</dict>
+	<key>storeFormatVersion</key>
+	<integer>1</integer>
+	<key>versioning</key>
+	<dict>
+		<key>childOrder</key>
+		<dict>
+			<key>c349e5464ea13038faa3cc0be39b09279e4e658d266a14976d8eaf333028c2a7</key>
+			<integer>4</integer>
+		</dict>
+		<key>displayName</key>
+		<dict>
+			<key>c349e5464ea13038faa3cc0be39b09279e4e658d266a14976d8eaf333028c2a7</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+## Ok, but How Do I…?
+
+Let’s first get you some sense of direction. Here is an UI-overview from left to right:
+
+- LIBRARY
+- SHEET LIST
+- EDITOR
+
+The _library_ lets you access all your texts and is divided into sections. Depending on whether you’ve got iCloud enabled, you will see different sections here.
+
+The _sheet list_ is where all your texts reside.
+
+And this here is the _editor_.
+
+To switch between three pane (library, sheet list and editor), two pane (sheet list and editor) and editor only view, use the shortcuts `⌘1`, `⌘2` and `⌘3`. You can also switch views via the leftmost toolbar button.

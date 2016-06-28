@@ -1,0 +1,13 @@
+This section holds all your stacks from Daedalus Touch. You can add new sheets, edit or delete existing sheets, and do the same with stacks.
+
+All your changes will sync back to Daedalus over iCloud, automatically, in the background.
+
+You can also copy stacks and sheets to other sections in the sidebar, and copy groups and folders *from* the other sections to Daedalus.
+
+Please be aware, though, that all sheets copied to *this* section are bound by the functionality of Daedalus Touch and iOS: No sub-folders, no glueing, no image previews, no videos, no attachments, no Markdown XL.
+
+Also note, that all other sections – iCloud, On My Mac, External Sources – will **not** show up in Daedalus.
+
+This here, this very section, is Daedalus Touch. It’s Daedalus Touch on the desktop, no more, no less.
+
+Have fun.

@@ -1,0 +1,27 @@
+
+/* Class = "NSTextFieldCell"; placeholderString = "Your Email Address"; ObjectID = "AZR-ip-3eX"; */
+"AZR-ip-3eX.placeholderString" = "Your Email Address";
+
+/* Class = "NSTextFieldCell"; title = "Enter your license:"; ObjectID = "CyR-uR-SRn"; */
+"CyR-uR-SRn.title" = "Enter your license:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "FZ6-EV-GDE"; */
+"FZ6-EV-GDE.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Keep up-to-date with new feature notices and discounts"; ObjectID = "GbZ-hu-iUJ"; */
+"GbZ-hu-iUJ.title" = "Keep up-to-date with new feature notices and discounts";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Your Name"; ObjectID = "PS1-sX-BfR"; */
+"PS1-sX-BfR.placeholderString" = "Your Name";
+
+/* Class = "NSTextFieldCell"; placeholderString = "License Code"; ObjectID = "aRZ-bL-o0u"; */
+"aRZ-bL-o0u.placeholderString" = "License Code";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "kMJ-tQ-AAK"; */
+"kMJ-tQ-AAK.title" = "Register";
+
+/* Class = "NSTextFieldCell"; title = "Register TextExpander 5"; ObjectID = "plW-3Z-llK"; */
+"plW-3Z-llK.title" = "Register TextExpander 5";
+
+/* Class = "NSTextFieldCell"; title = "Enter your name and email address to complete the registration."; ObjectID = "wwF-Cc-DtM"; */
+"wwF-Cc-DtM.title" = "Enter your name and email address to complete the registration.";

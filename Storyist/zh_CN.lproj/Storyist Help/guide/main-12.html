@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Exporting and Sharing Your Work</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Exporting and Sharing Your Work."/>
+
+    <link media="all" rel="stylesheet" href="../css/navigation.css" />
+    <link media="all" rel="stylesheet" href="../css/page.css" />
+  </head>
+    <body id="mainbox">
+    
+    <div id="navigation">
+      <ul>
+    	<li class="breadcrumb"><a href="../index.html">Storyist Home</a></li>
+    	<li class="breadcrumb"><a href="toc-content.html">Storyist Users Guide</a></li>
+      </ul>
+      <div class="current-page">
+          <span>Exporting and Sharing Your Work</span>
+      </div>
+    </div>
+    <h1 id="idA9C069221FEF4486B5495636E3E658B6" class="heading1"><a name="exporting-project-items">Exporting and Sharing Your Work</a></h1>
+    <p id="idCA3A0D3E57BA45F1A98A11D7F00C32C7" class="bodyText">Storyist can export project items to disk as individual files or it can combine them and export them as a single eBook.</p>
+    <p class="bodyText">To export project items as either individual files or a single eBook:</p>
+    <ol>
+      <li>Choose File &gt; Export. The Export dialog appears.</li>
+      <li>Select the project items you want to export.</li>
+      <li>Choose the desired export type ("Files" or "eBook") from the Export popup button.</li>
+      <li>Choose the desired export format from the Format popup button.</li>
+      <li>Click the Next button and follow the steps for the export type you selected. These steps are detailed below in the sections titled "Exporting Individual Files" and "Exporting Project Items as a Single eBook."</li>
+    </ol>
+    <p class="bodyList"></p>
+    <p style="text-align:center;" class="p1">
+      <img src="images/ExportDialog.png" alt="ExportDialog" width="311" height="222"></img>
+    </p>
+    <p style="text-align:center;" class="figureCaption">Export Dialog</p>
+    <h2 id="idB2F958FE10DC4449BE2855B7F895823D" class="heading2">Exporting Individual Files</h2>
+    <p id="idFBDF47CD9B194B4DB92CAD731770CCB3" class="bodyText">When you choose the "Files" option in the Export popup button in the export dialog, the Format popup button presents the following file format options:</p>
+    <ul>
+      <li>Rich Text Format (.rtf)—Storyist exports text, formatting information, headers, footers, and style sheets. Use this format if possible.</li>
+      <li>Rich Text with Attachments(.rtfd)—Storyist exports text, images, and formatting information.</li>
+      <li>Microsoft Word (.doc)—Storyist exports text and formatting information.</li>
+      <li>Microsoft Word (.docx)—Storyist exports text and formatting information.</li>
+      <li>Open Document Text (.odt)—Storyist exports text and formatting information.</li>
+      <li>HTML (.html)—Storyist exports text and formatting information.</li>
+      <li>Text Only (.txt)—Storyist exports text information.</li>
+      <li>Final Draft Converter Format (.fcf)—This format is used by Final Draft, a screenplay formatter published by Final Draft, Inc. Storyist exports text and screenplay element information.</li>
+      <li>Final Draft XML Format (.fdx)—This is the default file format for Final Draft version 8. Storyist exports script text, script notes, and screenplay element information.</li>
+      <li>Scrivener Format (.scriv)—Storyist exports formatted text, comments, and index card data as a Scrivener project.</li>
+      <li>Fountain (.fountain)—Storyist exports plain text that follows the Fountain markup guidelines.</li>
+    </ul>
+    <p class="p2"></p>
+    <p class="bodyText"><b>Note:</b> Image items are exported in their native format. That is, they are exported in the format they were in when added to the project.</p>
+    <p class="bodyText">When you click the Next button in the export dialog, Storyist begins the export process.  For the file export process, there is only one step.</p>
+    <h3 id="id39C83D1E15DC425DA062B4F664EC133D" class="heading3">Step 1 of 1: Select Export Options</h3>
+    <p id="id1431F69C46E540EC895C6F77FDFD08A4" class="bodyText">This pane has two check boxes:</p>
+    <ol>
+      <li><i>Export to folders matching the project structure</i>. Select this option to have Storyist create subfolders in the export directory with the same structure as the folders in your project. If you leave this option unchecked, Storyist places all exported items in a single directory.</li>
+      <li><i>Process text files with workflow</i>. Select this option to have Storyist process each text file with the workflow indicated in the workflow popup button next to the checkbox. The workflow popup button displays both the built-in workflows and the ones you create yourself with Automator. </li>
+    </ol>
+    <p class="bodyList"></p>
+    <p class="bodyText">You can optionally have Storyist guide you through the individual steps of the workflow by checking the "Guide me through the workflow steps" checkbox. If you select this option, Storyist adds additional steps (panes) to the export process, one for each workflow action, allowing you to adjust the settings.</p>
+    <p class="p3">The Edit Workflow button opens the selected workflow in Automator for editing. If the selected workflow is a built-in workflow, Storyist first makes a copy of the workflow in the Library/Application Support/Storyist/Workflows/Export folder in your home directory.</p>
+    <p class="p3">The Show Workflow Folder button opens the workflow folder in Finder. Workflows are located in the Library/Application Support/Storyist/Workflows/Export folder in your home directory. If you create your own workflow with Automator, be sure to save the workflow in this folder.</p>
+    <p class="bodyText"><b>Note:</b> Workflows created with Automator must consist only of actions that take "Storyist Styled Text" for input and output. For more information on using Automator, please see the <i>Automator User's Guide</i>.</p>
+    <h2 id="id8141ECA68B594FC4B72A702E8CFDFB88" class="heading2">Exporting an eBook</h2>
+    <p id="idD8A21699248F410DAFFCFABED86EDB92" class="bodyText">To create an eBook,  choose the "eBook" option in the Export popup button in the export dialog. Storyist can create both ePub and Kindle eBooks.</p>
+    <p class="bodyText">When you click the Next button in the export dialog, Storyist begins the export process.  There are two steps in the eBook export process:</p>
+    <ul>
+      <li>Step 1 of 2: Arrange Items in eBook Order</li>
+      <li>Step 2 of 2: Enter Publication Information</li>
+    </ul>
+    <p class="bodyList"></p>
+    <p class="bodyText">These steps are described below.</p>
+    <h3 id="idB49AA3D299B746CE95A4B4D34C8B4F73" class="heading3">Step 1 of 2: Arrange Items in eBook Order</h3>
+    <p id="id484C1D3B1B284183900FE321FCB7DAF6" class="bodyText">Using drag and drop, arrange the project items in the order they should appear in the publication. </p>
+    <p class="bodyText">You can optionally specify the eBook role (a value used by some eBook software to provide additional information to the reader) using the eBook Role popup menu. The options are:</p>
+    <ul>
+      <li>Cover</li>
+      <li>Title Page</li>
+      <li>Dedication</li>
+      <li>Foreword</li>
+      <li>Preface</li>
+      <li>Acknowledgement</li>
+      <li>Book Body</li>
+      <li>Glossary</li>
+      <li>Bibliography</li>
+    </ul>
+    <p class="bodyList"></p>
+    <p class="bodyText">If you're not sure which roles to use, choose "Cover" for the cover image, and "Book Body" for everything else.</p>
+    <h3 id="id6CCE45E6F5E144B9BC526E7EFE7FEE3D" class="heading3">Step 2 of 2: Enter Publication Information</h3>
+    <p id="id3F1E21D3FC5B4DA1A43AB656CC3367C7" class="bodyText">eBooks contain metadata (card catalog) information describing the contents of the eBook. In this step, enter the following:</p>
+    <ul>
+      <li>Title—The title of the eBook as it appears on the cover.</li>
+      <li>Author—The primary creator of the eBook. If there is more than one author, enter additional names in the metadata table as described below.</li>
+      <li>Description—A short summary of the eBook's contents.</li>
+    </ul>
+    <p class="bodyList"></p>
+    <p class="bodyText">You can optionally include other metadata items by clicking the Add button in the metadata table and choosing the metadata item names from the popup. The available items are:</p>
+    <ul>
+      <li>Subject—The eBook's classification.</li>
+      <li>Publisher—The entity responsible for making the eBook available.</li>
+      <li>Author—A primary creator of the eBook.</li>
+      <li>Contributor—A secondary creator of the eBook; for example, "Editor" or "Translator."</li>
+      <li>ISBN—The International Standard Book Number that uniquely identifies the eBook. The ISBN is usually provided by the publisher at the time of publication for sale.</li>
+      <li>Type—The genre of the eBook, (romance, mystery, and so on).</li>
+      <li>Format—The media type of the eBook.</li>
+      <li>Source—Information about the origin of the eBook; for example "Project Gutenberg text."</li>
+      <li>Language—The language of the eBook.</li>
+      <li>Rights—The copyright notice and other description of the rights reserved.</li>
+    </ul>
+    <p class="bodyList"></p>
+    <p class="bodyText"><b>Note:</b> These metadata terms correspond to those specified by the Dublin Core® Metadata Initiative. See http://dublincore.org for more information.</p>
+    <h2 id="id54F296A5D15442CE8A28AF3A6A92297E" class="heading2">Creating and Using Export Presets</h2>
+    <p id="id03FCA816011E4432B3500F40704932BB" class="bodyText">After you've selected the items you want to export and entered the export setting information, you can save your item selection and settings as a preset to use the next time you use the export command.</p>
+    <p class="bodyText">To save export settings as a preset:</p>
+    <ol>
+      <li>Click the Presets popup button at the bottom of the Export dialog and choose "Save as Preset." A new dialog appears.</li>
+      <li>Enter a name for the preset.</li>
+      <li>Click Save.</li>
+    </ol>
+    <p class="bodyList"></p>
+    <p class="bodyText">To restore the item selection and export settings from a preset:</p>
+    <ol>
+      <li>Click the Presets popup button.</li>
+      <li>Select the preset from the list that appears.</li>
+    </ol>
+  </body>
+</html>

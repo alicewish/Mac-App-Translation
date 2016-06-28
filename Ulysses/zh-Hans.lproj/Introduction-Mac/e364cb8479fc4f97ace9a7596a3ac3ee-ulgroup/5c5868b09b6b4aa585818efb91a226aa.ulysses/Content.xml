@@ -1,0 +1,58 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading3">### </tag></tags>导航，文库</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">→</element> 作用于组，则打开组</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">→</element> 作用于文库，则将焦点切换至文稿列表</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>导航，文稿列表</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">→</element> 将焦点切换至编辑器中（将插入点置于最后编辑的位置）</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">←</element> 将焦点切换至文库中</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>导航、编辑器</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>在文稿开始时：</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>双击 <element kind="code" startTag="`">↑</element> 向上移动一个文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>在文稿结束时：</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>双击 <element kind="code" startTag="`">↓</element> 向下移动一个文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>在表内任何地方：</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘↑</element> 移动至上一个文稿</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘↓</element> 移动至下一个文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>双击<element kind="code" startTag="`">⌘←</element>将焦点切换至文稿列表中</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>复制和移动的侧边栏</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>在默认情况下，从 iCloud 或“在我的 Mac 上”拖动组和表将总是<element kind="emph" startTag="_">移动</element>，例如内容将转移到新的位置</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>从 Daedalus 和外部文件夹拖动将总是<element kind="emph" startTag="_">拷贝</element>，例如内容同时存在这两个位置中</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>按住<element kind="code" startTag="`">⌥</element>同时进行拖动，强制<element kind="emph" startTag="_">拷贝</element>组和文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>按住<element kind="code" startTag="`">⌘</element>同时进行拖动，强制<element kind="emph" startTag="_">移动</element>组和文稿</p>
+<p></p></string>
+</sheet>

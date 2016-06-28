@@ -1,0 +1,7 @@
+## Tracking Progress
+
+Did you notice the dashboard button in the toolbar? It holds detailed text statistics. You can also customize the amount of statistics on display: Just tear off the panel and click on the gear icon.
+
+With writing goals, you can track your progress in relation to a word or character limit you determine. This sheet’s goal is “about 550 characters” - open the attachment bar to display it. Now type some words. See?
+
+Tip: Statistics and Goals are also available for entire groups, via their context menu.

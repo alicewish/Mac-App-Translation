@@ -1,0 +1,9 @@
+## iCloud vs. On My Mac
+
+By default, your texts will get stored on iCloud, making it available on all your devices running Ulysses. Of course you can also decide to store locally, or freely move your texts from the cloud to local storage only and vice versa.
+
+As long as both options are enabled in preferences, that is:
+
+￼ ++ <- Simon says: double-click, don’t jump!
+
+Obviously, everything stored in “On My Mac” will no longer be available on all the other devices you own and use, but that’s not necessarily a bad thing, is it?

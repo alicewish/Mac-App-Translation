@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist SYSTEM "file://localhost/System/Library/DTDs/PropertyList.dtd">
+<plist version="0.9">
+<dict>
+	<key>SpecialKeyNames</key>
+	<dict>
+		<key>36</key>
+		<string>return</string>
+		<key>48</key>
+		<string>tab</string>
+		<key>49</key>
+		<string>space</string>
+		<key>51</key>
+		<string>delete</string>
+		<key>53</key>
+		<string>escape</string>
+		<key>65</key>
+		<string>[.]</string>
+		<key>67</key>
+		<string>[*]</string>
+		<key>69</key>
+		<string>[+]</string>
+		<key>71</key>
+		<string>clear</string>
+		<key>75</key>
+		<string>[/]</string>
+		<key>76</key>
+		<string>enter</string>
+		<key>78</key>
+		<string>[-]</string>
+		<key>81</key>
+		<string>[=]</string>
+		<key>82</key>
+		<string>[0]</string>
+		<key>83</key>
+		<string>[1]</string>
+		<key>84</key>
+		<string>[2]</string>
+		<key>85</key>
+		<string>[3]</string>
+		<key>86</key>
+		<string>[4]</string>
+		<key>87</key>
+		<string>[5]</string>
+		<key>88</key>
+		<string>[6]</string>
+		<key>89</key>
+		<string>[7]</string>
+		<key>91</key>
+		<string>[8]</string>
+		<key>92</key>
+		<string>[9]</string>
+		<key>96</key>
+		<string>F5</string>
+		<key>97</key>
+		<string>F6</string>
+		<key>98</key>
+		<string>F7</string>
+		<key>99</key>
+		<string>F3</string>
+		<key>100</key>
+		<string>F8</string>
+		<key>101</key>
+		<string>F9</string>
+		<key>103</key>
+		<string>F11</string>
+		<key>105</key>
+		<string>F13</string>
+		<key>107</key>
+		<string>F14</string>
+		<key>109</key>
+		<string>F10</string>
+		<key>111</key>
+		<string>F12</string>
+		<key>113</key>
+		<string>F15</string>
+		<key>114</key>
+		<string>help</string>
+		<key>115</key>
+		<string>home</string>
+		<key>116</key>
+		<string>page up</string>
+		<key>117</key>
+		<string>forward delete</string>
+		<key>118</key>
+		<string>F4</string>
+		<key>119</key>
+		<string>end</string>
+		<key>120</key>
+		<string>F2</string>
+		<key>121</key>
+		<string>page down</string>
+		<key>122</key>
+		<string>F1</string>
+		<key>123</key>
+		<string>left arrow</string>
+		<key>124</key>
+		<string>right arrow</string>
+		<key>125</key>
+		<string>down arrow</string>
+		<key>126</key>
+		<string>up arrow</string>
+	</dict>
+	<key>ModifierKeyNames</key>
+	<dict>
+		<key>command</key>
+		<string>command + </string>
+		<key>control</key>
+		<string>control + </string>
+		<key>option</key>
+		<string>option + </string>
+		<key>shift</key>
+		<string>shift + </string>
+	</dict>
+</dict>
+</plist>

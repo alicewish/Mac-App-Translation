@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+	<title>Together Bookmarklets</title>
+	<style type="text/css">
+
+	body {
+		font-size: 13pt;
+		font-family:  "%system-font%", "Helvetica";
+	}
+
+	.message-container {
+        position: relative;
+        padding: 10px;
+        min-height: 90px;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 49px;
+    }
+    
+    .icon {
+        position: absolute;
+        top: 11px;
+        left: 7px;
+        width: 90px;
+        height: 90px;
+        margin-right: 12px;
+    }
+    
+    .message-title
+    {
+        color: #888888;
+        font-size: 25px;
+        font-weight: 300;
+        padding-bottom: 0px;
+        margin-top: 7px;
+        margin-bottom: 10px;
+        margin-left: 93px;
+    }
+    
+    .message-text {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        min-height: 23px;
+        padding-right: 23px;
+        margin-left: 93px;
+        font-size: 13px;
+    }
+    
+    a:link, a:visited {
+		font-size: 11px;
+		line-height: 20px;
+		padding-bottom: 2px;
+		padding-top: 2px;
+		padding-left: 10px;
+		padding-right: 10px;
+		text-decoration: none;
+        color: white;
+		background-color: #b3b3b3;
+        border-radius: 4px;
+		-kthml-user-drag: element;
+	}
+
+    </style>
+	</head>
+	<body>
+        <div class="message-container">
+            <img alt="Together Icon" class="icon" src="Together.png">
+            <p class="message-title">Together Bookmarklets</p>
+             <p class="message-text">Use bookmarklets as a quick way to save web pages in Together. %message-text%</p>
+            <div align="center">
+                <p><a href="javascript:location.href='x-together://AddItem?kind=WebArchive&name='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(window.location);" title="Save as Web Archive">Save as Web Archive</a></p>
+                <p><a href="javascript:location.href='x-together://AddItem?kind=Bookmark&name='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(window.location);" title="Save as Bookmark">Save as Bookmark</a></p>
+                <p><a href="javascript:location.href='x-together://AddItem?kind=WebPDF&name='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(window.location);" title="Save as PDF">Save as PDF</a></p>
+	       </div>
+        </div>
+	</body>
+</html>

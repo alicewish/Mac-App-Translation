@@ -1,0 +1,295 @@
+
+
+
+
+<!-- Localized -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tebasic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <!-- InstanceBeginEditable name="doctitle" -->
+ <title>TextExpander Help: Guided Tour: Preferences</title>
+ <!-- InstanceEndEditable -->
+ <meta name="AppleTitle" content="TextExpander help">
+ <meta name="AppleIcon" content="SMTEHelp/images/textexpander64.gif">
+ <meta name="Copyright" content="Copyright 2007-2014 SmileOnMyMac, LLC, dba Smile. All Rights Reserved.">
+ <link href="somm_help.css" rel="stylesheet" type="text/css" media="all">
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<table width="100%">
+  <tr>
+    <td width="80"><a href="index.html"><img src="images/textexpander.png" alt="TextExpander logo" width="64" height="64" border="0" /></a></td>
+    <td><a href="index.html"><img src="images/logotype.gif" alt="TextExpander" width="307" height="46" border="0" /></a></td>
+    <td width="80"><a href="http://www.smilesoftware.com" target="_blank"><img src="images/sommlogo.gif" alt="Smile logo" width="64" height="80" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td><!-- InstanceBeginEditable name="content" -->
+      <h1><a href="index.html">Help</a>: Guided Tour: Preferences</h1>
+      <p><a href="#expand">Expansion</a> ' <a href="#options">Options</a> ' <a href="#suggestions">Suggestions</a> ' <a href="#hotkeys">Hotkeys</a> ' <a href="#appearance">Appearance</a> ' <a href="#sync">Sync</a>
+    ' <a href="#backup">Backup</a> ' <a href="#update">Update</a><br />
+      </p>
+      <img src="images/preferencesbar.png" border="0" alt="Preferences menubar" width="471" height="54" border="" align="absmiddle" />
+
+      <h1><img src="images/expansion.gif" alt="expansion preferences icon" width="32" height="32" align="absmiddle" /> Expansion</h1>
+
+
+
+      <h3><a name="expand" id="expand"></a>Expand abbreviations</h3>
+      <p>TextExpander expansions can be triggered three ways:</p>
+      <ul>
+        <li><strong>immediately when typed</strong><br />
+        When you type an abbreviation, the expansion occurs immediately (depending on <a href="groups.html#expandafter">Group Settings</a> for &quot;Expand after:&quot;)</li>
+        <li><strong>at delimiter (keep delimiter)</strong><br />
+          You must type a &quot;delimiter&quot; key (such as space or tab) to trigger the expansion; the delimiter remains after the expansion</li>
+        <li><strong>at delimiter (abandon delimiter)</strong><br />
+          As with the previous option, a delimiter must be typed to trigger the expansion, but the delimiter does not remain in place after the expansion.</li>
+      </ul>
+      <p>If you choose to use one of the delimiter options, click the button <strong>Set Delimiters...</strong> to select the desired delimiter key. There are over 30 delimiters to choose from, including most punctuation keys, as well as space, return, tab and esc.</p>
+
+
+
+      <h3><strong>When expanding</strong></h3>
+      <p>You can specify what happens when a snippet expands in TextExpander by checking the boxes in this section.</p>
+      <ul>
+        <li><strong>Play sound</strong><br />
+          You can choose the default sound that TextExpander makes when an expansion is triggered. (You can also specify a sound for individual snippet groups in the Snippets pane; see &quot;<a href="groups.html#groupprefs">Grouping Snippets and Importing Groups</a>.&quot;)<br />
+        </li>
+        <li><strong>Use cross-platform compatible images (PNGs)</strong><br />
+          If you use images in your snippets, TextExpander always pastes the image in PNG format when the snippet is expanded. Some programs, like Microsoft Entourage, work much better with PNGs. Other programs, like Microsoft Word and Excel, may have problems with PNGs. Uncheck this option if you want your images to be pasted in their original file format, such as JPG or GIF.</li>
+        <li><strong>Include HTML data</strong><br />
+        This allows TextExpander to paste formatted text and images into web-based tools, such as Gmail. Depending on the application you are expanding your snippets in, you may notice a formatted snippet does not expand as expected. It could be that the enhanced data allowed by this menu option is not being interpreted well, and turning off this option will allow a formatted snippet to expand properly again.</li>
+  <li><p><strong>Run script snippets (AppleScript, shell script, JavaScript)</strong><br />
+This allows TextExpander to run AppleScripts, shell scripts, and JavaScripts when expanding snippets. If you share snippets with others and don&rsquo;t use script snippets yourself, you might choose to turn this off as a safety measure so that you don&rsquo;t inadvertently run someone else&rsquo;s script snippets.</p></li>
+        <li><strong>Restore clipboard</strong><br />
+          In cases where TextExpander must use the clipboard, (e.g. in Carbon applications), TextExpander restores the Clipboard to the contents it had prior to the expansion. Depending on your typing speed you may wish to decrease or increase the time delay between when a snippet expands and the Clipboard is restored.</li>
+      </ul>
+
+
+
+      <h3>Default Snippet Format</h3>
+      <p>Set the default format of newly created snippets to one of these formats: </p>
+      <ul>
+        <li><strong>Plain Text</strong><br />
+          When expanded, the snippet content conforms to the current text style.</li>
+        <li><strong>Formatted Text, Pictures</strong><br />
+          Color, size, font and alignment can be specified for text. Images can be used.</li>
+        <li><strong>AppleScript, Shell Script, and JavaScript</strong><br />
+        These three formats are available only on a per snippet basis (See &quot;<a href="applescript.html">AppleScript, Shell Script, and JavaScript Snippets</a>.&quot;)</li>
+   </ul>
+      <p>The default snippet format is applied to newly-created snippets. Changing the default does not affect the snippets you have already created. </p>
+      <p>You can change the format on a per snippet basis in the main window. (See &quot;<a href="creating.html#format">Creating Snippets: Format</a>.&quot;)</p>
+
+
+
+      <h3><a name="case" id="case"></a>Default Case Sensitivity</h3>
+      <p>Choose whether a snippet will expand, and in what letter case, depending on the case you type the abbreviation with. You can set the default case sensitivity to one of these options:</p>
+      <ul>
+        <li><strong>Case Sensitive (aB, Ab, ab, AB differ)</strong><br />
+          Example: &quot;YT&quot; expands to &quot;Yours Truly&quot;, &quot;yt&quot; does not.</li>
+        <li><strong>Ignore Case (aB, Ab, ab, AB same)</strong><br />
+          Example: either &quot;YT&quot; or &quot;yt&quot; expands to &quot;Yours Truly&quot;</li>
+        <li><strong>Adapt Snippet to Case of Abbreviation</strong><br />
+          Example: &quot;Yt&quot; expands to &quot;Yours truly&quot;, &quot;yt&quot; expands to &quot;yours truly&quot;</li>
+      </ul>
+      <p>The default case sensitivity is applied to newly-created snippets. Changing the default does not affect the snippets you have already created. </p>
+      <p>You can change the case sensitivity on a per snippet basis in the main window. (See &quot;<a href="creating.html#case">Creating Snippets: Setting Case Sensitivity</a>&quot;)</p>
+
+
+
+      <h3><a name="appexclude" id="appexclude"></a>Default is to expand snippet groups in</h3>
+      <p>You can customize which applications work with TextExpander.</p>
+      <ul>
+        <li><strong>all applications</strong><br />
+          By default, TextExpander is enabled for all applications.</li>
+        <li><strong>all applications except...</strong><br />
+        Excludes specified applications from working with TextExpander.</li>
+        <li><strong>only these applications...</strong><br />
+        Specifies which applications work with TextExpander exclusively.</li>
+      </ul>
+      <p>You can change this default on a per group basis in the main window. (See &quot;<a href="groups.html#groupprefs">Snippet Groups: Group Settings</a>&quot;)</p>
+
+
+    <h1><a name="options" id="options"></a><img src="images/prefsoptions.gif" alt="options preferences icon" width="32" height="32" align="absmiddle" />Options </h1>
+
+
+
+      <h3>Capitalize new sentences</h3>
+      <p>The first letter after a period and a space is capitalized automatically.</p>
+
+
+
+      <h3>Double capitals</h3>
+      <p>If two capital letters are typed at the beginning of a word and a third lower case letter is typed, the second letter will be converted to lower case automatically (unless Caps Lock is on).</p>
+       <ul>
+         <li><strong>Eliminate at sentence start</strong><br />
+          Corrects double capitals at the start of a new sentence (after a period and a space.)</li>
+         <li><strong>Eliminate at word start</strong><br />
+          Corrects double capitals at the start of a new word.</li>
+         <li><strong>Do not correct</strong><br />
+          Turns off this feature, all double capitals are left as is.</li>
+       </ul>
+
+
+
+      <h3><a name="capexclude" id="capexclude"></a>Correct capitalization in</h3>
+      <p>You can customize which applications capitalization correction works within.</p>
+      <ul>
+        <li><strong>all applications</strong><br />
+          By default, capitalization correction is enabled for all applications.</li>
+        <li><strong>all applications except...</strong><br />
+        Excludes specified applications from capitalization correction.</li>
+        <li><strong>only these applications...</strong><br />
+        Includes only the selected applications for corrected capitalization.</li>
+      </ul>
+
+<h1><a name="suggestions" id="suggestions"></a>
+ <img src="images/prefssuggestion.gif" alt="suggest snippet icon" width="32" height="32" align="absmiddle" />
+ Suggestions </h1>
+
+  <p>TextExpander can suggest new snippets based on what you type. For more explanation see <a href="creating.html#suggestions">Creating Snippets</a>. TextExpander can also notify you when you forget to use an existing snippet.</p>
+
+    <ul>
+   <li><strong>Suggest snippets based on my typing habits</strong>: Turn on or off the suggest snippets feature. </li>
+   <li><strong>Suggest when typing in</strong>: Limit the applications where TextExpander will observe your typing for suggesting snippets.
+
+   <ul>
+    <li><strong>All Applications</strong><br />
+    By default, TextExpander suggests snippets when typing in all applications. </li>
+    <li><strong>All Applications Except…</strong> <br />
+    Excludes the specified applications from TextExpander suggestions. </li>
+    <li><strong>Only These Applications…</strong> <br />
+    Includes only the specified applications for TextExpander suggestions.</li>
+   </ul>
+   </li>
+   <li><strong>Snippet Reminders</strong>: Notifies you of the snippet abbreviation when you type out the content of a snippet that already exists. See <a href="using.html#notify">Snippet Reminders</a>.</li>
+    </ul>
+
+
+    <h1><a name="hotkeys" id="hotkeys"></a><img src="images/prefshotkeys.gif" alt="hotkeys preferences icon" width="32" height="32" align="absmiddle" /> Hotkeys</h1>
+      <p>To set a hotkey, click the &quot;Push to set Hotkey&quot; button, then press the desired hotkey combination (for example, Control + 1, Option + S). Hotkey combinations must include Control, Option, Shift and/or Command.</p>
+      <ul>
+        <li>
+          <p><strong>Open TextExpander</strong><br />
+            Displays the main TextExpander window. Especially useful if you have the Dock icon hidden and do not have the menubar icon displayed.<br />
+        </p>
+        </li>
+        <li>
+          <p><strong>Enable/Disable Expansion</strong><br />
+            Useful when you want to temporarily disable TextExpander so that you can type without any expansions being triggered. <br />
+        </p>
+        </li>
+        <li>
+          <p><strong>Create New Snippet</strong><br />
+            Opens the Create Snippet window. Enter the snippet content and abbreviation, choose a snippet group to assign it to, and click <span class="button">Create</span>.</p>
+        </li>
+        <li>
+          <p><strong>Create Snippet from Selection</strong><br />
+            Opens the Create Snippet window with the currently selected text as the snippet content. Create an abbreviation, choose a snippet group to assign it to, and click <span class="button">Create</span>.</p>
+        </li>
+        <li>
+          <p><strong>Create Snippet from Clipboard</strong><br />
+            Opens the Create Snippet window with the current content of the Clipboard as the snippet content. Create an abbreviation, choose a snippet group to assign it to, and click <span class="button">Create</span>.</p>
+        </li>
+        <li>
+          <p><strong>Edit Last Expanded Snippet</strong><br />
+            Opens the snippet you expanded last so that you can edit it. After you make the desired changes, click <span class="button">Save</span>.</p>
+        </li>
+        <li><strong>Inline Search<br />
+        </strong>Press this hotkey combination for TextExpander to show an inline search window hovering near where you type. Type a couple letters of any part of a snippet to search. This is useful if you have a large snippet library or have trouble remembering all your abbreviations. (See <a href="using.html#suggest">Expanding Snippets: Inline Search</a>.)</li>
+        <li><strong>Search Snippets </strong><br />
+        Opens the Search Snippets window near the menu bar.</li>
+      </ul>
+
+      <h1><a name="appearance" id="appearance"></a><img src="images/appearance.gif" alt="appearance preferences icon" width="32" height="32" align="absmiddle" /> Appearance</h1>
+
+
+      <h3>Show TextExpander in menu bar</h3>
+       <p>Here you can specify the width of the list of snippets that appears when you click on the TextExpander icon in the menu bar.</p>
+       <p>You can also choose the style of the TextExpander icon itself.</p>
+
+
+      <h3>Hide TextExpander icon in Dock</h3>
+       <p>Check this option if you don't want TextExpander to appear in the Dock or in the task switcher.</p>
+        <ul>
+         <p><strong>Note:</strong> If you opt to hide the TextExpander icon in the Dock, that will also hide the TextExpander main menu from view. You can still access TextExpander by choosing <span class="menu">Open TextExpander</span> from the TextExpander menubar icon, using the Open TextExpander hotkey, or double-clicking the TextExpander application icon in the Finder.</p>
+        </ul>
+
+
+      <h3>Launch at Login</h3>
+       <p>Check this option if you want TextExpander to start up automatically when you login to your computer.</p>
+
+
+      <h3>Show main window at launch</h3>
+       <p>By default, TextExpander opens its main window when the application launches. If you wish the main TextExpander window to remain closed upon startup, uncheck this option.</p>
+
+
+      <h3>Display font for plain text snippets</h3>
+       <p>Select the font for the appearance of your plain text snippets in the TextExpander window. When the snippet expands, it will take on the formatting of the text around it, regardless of how it is displayed in TextExpander.</p>
+
+      <h3>Default font for formatted text snippets</h3>
+       <p>Set the font your formatted text snippets start with. This is the font the snippet will expand with. Edit the format in the Fonts window by going to Format > Font > Show Fonts (Command +T) or by clicking on the Formatted Text button <img src="images/textformat.gif" alt="text format button" width="29" height="20" align="absmiddle" /> located below the Content box.</p>
+
+      <h1><a name="sync" id="sync"></a><img src="images/prefssync.gif" alt="sync preferences icon" width="32" height="32" align="absmiddle" />
+      Sync<br />
+      </h1>
+  <p>Sync your snippets with TextExpander on another Mac, iPad or iPhone using any syncing folder on your Mac. Use Dropbox, iCloud Drive, Google Drive, or any cloud service which provides a syncing folder on your Mac.</p>
+
+  <p>The options you will see depend on whether you currently have sync setup.</p>
+
+  <p><strong>Don't Sync</strong>: Turn off sync. This will move the location of your snippets file to a default location on your hard drive.</p>
+
+  <p><strong>Link to Snippets&hellip;</strong>: Turn on sync and use snippets already synced from another device. You will need to locate the snippet file already in a syncing folder and select it.</p>
+
+  <p><strong>Save Snippets As&hellip;</strong>: Turn on sync by saving your snippet file to a sync folder. Choose this option to setup sync on your first device.</p>
+
+  <p><strong>Sync with TextExpander 4 or TextExpander touch 3.4 (Dropbox only)</strong>: Sync snippets with older versions of TextExpander for Mac, iPad or iPhone. Older versions use a different snippet format that can only use Dropbox in a default Dropbox location. You cannot customize the location of the snippet file in Dropbox.</p>
+
+       <p>For more information on setting up sync with TextExpander, see <a href="sync.html">Syncing Snippets</a>.</p>
+
+      <p><strong>Share groups on a local network</strong></p>
+       <p>You can share your snippets with other devices on your local network, including another Mac, iPod touch, iPhone and iPad. The device must have TextExpander installed.</p>
+        <ul>
+         <p><strong>Note</strong>: When groups are shared, they are not synchronized, but rather copied to the other device.</p>
+        </ul>
+       <p>For more information on setting up a transfer, see <a href="sync.html">Syncing Snippets</a>.</p>
+
+      <h1><a name="backup" id="backup"></a><img src="images/prefsbackup.gif" alt="backup preferences icon" width="32" height="32" align="absmiddle" />
+      Backup </h1>
+
+
+      <h3>Perform automatic backups of TextExpander data</h3>
+      <p>TextExpander can automatically create backup copies of your snippets and settings. The backups are created at the frequency you select from the accompanying popup menu (if you have made changes).</p>
+   <p>If you choose not to have periodic automatic backups, TextExpander updates a single backup each time it starts up.</p>
+
+
+      <h3>Backup to folder</h3>
+      <p>By default TextExpander's automatic backup creates a folder called <em>Backups</em> inside the TextExpander folder within your <em>[home]/Library/Application Support</em> folder. You can specify a different location by dragging a folder to the path control, or by double-clicking the path control.</p>
+
+
+      <h3>Maximum number of backup files</h3>
+   <p>The oldest backup files will be deleted when the number of backup files exceeds this limit during an automatic backup. Specify "No Maximum" if you don't want any backup files automatically deleted.</p>
+
+
+      <h1><a name="update" id="update"></a><img src="images/prefsupdate.gif" alt="update preferences icon" width="32" height="32" align="absmiddle" />
+      Update</h1>
+      <p>TextExpander uses an automatic updating service to alert you when new releases of TextExpander are available. By default, TextExpander will check daily for updates, but you can modify that to hourly, weekly or monthly.</p>
+      <p>The update service also collects anonymous system profile information, which helps us better plan the ongoing development of TextExpander. If you do not wish to share this information, uncheck the box.</p>
+
+
+    <!-- InstanceEndEditable --></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td align="center"><span class="smalltext"><br />
+      </span><span class="small">&copy;
+ SmileOnMyMac, LLC, dba Smile. All rights reserved.<br />
+    TextExpander is a registered trademark, Smile and the Smile logo are trademarks of SmileOnMyMac, LLC, dba Smile.</span></td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</body>
+<!-- InstanceEnd --></html>

@@ -1,0 +1,23 @@
+### Navigation, Library
+- `→` on groups to open group
+- `→` on stack to switch focus to sheet list
+
+### Navigation, Sheet List
+- `→` to switch focus into editor (placing insertion point at last edited location)
+- `←` to switch focus into library
+
+### Navigation, Editor
+- At the start of a sheet:
+	- Double-tap `↑`  to move one sheet up
+- At the end of a sheet:
+	- Double-tap `↓`  to move one sheet down
+- Anywhere within a sheet:
+	- `⌥⌘↑` to move one sheet up
+	- `⌥⌘↓` to move to next sheet
+- Double-tap `⌘←` to switch focus into sheet list
+
+### Copy & Move in Sidebars
+- By default, dragging groups and sheets to and from iCloud or “On My Mac” will always _move_, i.e. contents will get transferred to the new location
+- Dragging to and from Daedalus and External Folders will always _copy_, i.e. contents will live in both locations afterwards
+- Hold `⌥` while dragging, to force _copy_ of groups and sheets
+- Hold `⌘` while dragging, to force _move_ of groups and sheets

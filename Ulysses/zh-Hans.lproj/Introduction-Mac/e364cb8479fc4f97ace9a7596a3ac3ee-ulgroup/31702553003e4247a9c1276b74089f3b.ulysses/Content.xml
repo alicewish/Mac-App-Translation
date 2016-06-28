@@ -1,0 +1,65 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading3">### </tag></tags>屏幕模式</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘L</element> 切换深色主题</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌃⌘F</element> 切换全屏模式</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘X</element> 切换黑暗模式</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>多个窗口，Split View</p>
+<p></p>
+<p><tags><tag kind="unorderedList">- </tag></tags>您可以同时打开多个窗口（<element kind="code" startTag="`">⌥⌘N</element>）</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>我们支持 OS X 的 Split View，所以您可以在 Split View 中显示两个靠在一起的窗口。</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>您还可以在 Split View 中的另一个应用旁边或者在其自己的预览旁边显示 Ulysses 文稿。</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>您甚至可以打开所有的窗口，这使得您在编辑时显得很热闹，说实话，这真的没有什么多大用处。</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>文稿列表选项</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>视图菜单有几个自定义文稿列表等选项：</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>将“文稿预览”设置为 1 行至 6 行之间的任意值</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>在文稿预览中包含关键词和目标</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>按日期或首字符手动排序   </p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>编辑器选项</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>视图菜单还有几个自定义编辑器等选项：</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘T</element> 切换打字机滚动</p>
+<p><tags><tag>	</tag><tag>	</tag><tag kind="unorderedList">- </tag></tags>您可以将它设置在顶部、中心或底部</p>
+<p><tags><tag>	</tag><tag>	</tag><tag kind="unorderedList">- </tag></tags>您还可以将它设置为固定或可变</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>为当前所选行启用突出显示 </p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>启用显示段落号</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>字体大小</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘+</element> 增加字体大小</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘+</element> 减小字体大小</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘0</element> 将字体大小重置为默认值</p>
+<p></p></string>
+</sheet>

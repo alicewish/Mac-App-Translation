@@ -1,0 +1,15 @@
+## Popovers
+
+Ready to learn about Ulysses’ advanced features? They may be dispensable for immediate survival, but will certainly add convenience to your writing life.
+
+Most of Ulysses’ features are tucked away in small popovers. That way, they remain invisible unless you really need them. You can tear off most off the popups and place them anywhere on your screen for quick reference and/or direct access. They make a good fit for a second monitor by the way.
+
+And while some popovers are only available from within the editor, others can also be called in the library or sheet list. As an example, you can invoke Quick Export via the contextual menu on groups or filters. You can also check text statistics that way.
+
+Pro tip: Quick Export and Navigator feature full keyboard navigation. So if you feel like a power user, try this…
+
+### Hit `⌘8`
+### Use up/down arrow to navigate
+### Try to select this headline
+### No, this one
+### THIS ONE!!!

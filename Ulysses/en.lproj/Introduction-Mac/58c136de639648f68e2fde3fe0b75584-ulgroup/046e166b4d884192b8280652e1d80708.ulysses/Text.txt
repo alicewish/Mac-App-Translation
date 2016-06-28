@@ -1,0 +1,14 @@
+## Export: Styles
+
+In the Quick Export panel there’s an option to switch between various export styles. Each style offers a predefined set of conversion rules.
+
+Take “Futura Simple”, a style available for both PDF and DOCX, as an example:
+
+Heading 1: Futura Medium, 20pt.
+Body text: Helvetica Neue Regular, 10.5pt.
+Emphasis: Italic.
+Comments: Delete.
+
+And so on.
+
+Ulysses features a couple of built-in styles for each exporter; you can check them all out in “Preferences › Styles”. Here, you can disable styles you don’t need, duplicate styles for editing, and even download and share new styles via the ￼Ulysses Style Exchange￼.

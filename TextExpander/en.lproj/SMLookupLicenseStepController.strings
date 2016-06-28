@@ -1,0 +1,18 @@
+
+/* Class = "NSTextFieldCell"; placeholderString = "Email Address"; ObjectID = "86x-AY-LYf"; */
+"86x-AY-LYf.placeholderString" = "Email Address";
+
+/* Class = "NSTextFieldCell"; title = "Enter your email address, the one you used to purchase:"; ObjectID = "ELI-Qg-89I"; */
+"ELI-Qg-89I.title" = "Enter your email address, the one you used to purchase:";
+
+/* Class = "NSTextFieldCell"; title = "You will receive an email with all of your licenses attached to this email address.\nIf you do not see the license you want, try a different email address.\nIf you use Spam-blocking software, please allow email from: support@smilesoftware.com."; ObjectID = "Fm7-QP-lat"; */
+"Fm7-QP-lat.title" = "You will receive an email with all of your licenses attached to this email address.\nIf you do not see the license you want, try a different email address.\nIf you use Spam-blocking software, please allow email from: support@smilesoftware.com.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "jFb-YE-nce"; */
+"jFb-YE-nce.title" = "Cancel";
+
+/* Class = "NSTextFieldCell"; title = "License Lookup"; ObjectID = "xJr-eG-czk"; */
+"xJr-eG-czk.title" = "License Lookup";
+
+/* Class = "NSButtonCell"; title = "Lookup Now"; ObjectID = "yjg-bl-MCl"; */
+"yjg-bl-MCl.title" = "Lookup Now";

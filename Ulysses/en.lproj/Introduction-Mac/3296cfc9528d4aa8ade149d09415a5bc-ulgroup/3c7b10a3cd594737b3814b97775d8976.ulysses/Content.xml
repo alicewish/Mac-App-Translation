@@ -1,0 +1,69 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading3">### </tag></tags>Markup</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘\</element> for Headlines</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘I</element> for <element kind="emph" startTag="_">emphasize</element></p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘B</element> for <element kind="strong" startTag="**">strong</element></p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘K</element> for <element kind="link"><attribute identifier="URL">#</attribute><attribute identifier="title">I'm only pretending to be a link.</attribute>links</element></p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘L</element> for removing any sort of Markup</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘9</element> to show the Markup Bar, in case you can’t remember any of this</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Smart Tags</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>If enabled, end tag placeholders will automatically be inserted whenever a start tag is followed by a character</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Enable Smart Tags via “Edit › Substitutions”</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>End Tag Completion</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Press <element kind="code" startTag="`">esc</element> to automatically enter an end tag placeholder</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>To accept the end tag, do any of the following:</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Press <element kind="code" startTag="`">↩︎</element> </p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Press <element kind="code" startTag="`">→</element></p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Press <element kind="code" startTag="`">↓</element>  (if at the very end of a sheet)</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>Type in the end tag</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>To dismiss the end tag, press <element kind="code" startTag="`">esc</element></p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Escape Character</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>To keep Ulysses from treating any character as markup, just add a backslash in front of it (e.g., if you really want a square bracket instead of a link, type “<escape>\[</escape>something]”)</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Markup Bar</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>When showing the Markup Bar (<element kind="code" startTag="`">⌘9</element>), you can click on any listed markup to apply it to the current selection</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>This works with multiple selections (<element kind="code" startTag="`">⌘</element>-Click to select different parts of your text)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Multi-level paragraphs, such as lists and block quotes, will get indented +1 every time you click</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧</element>-clicking either removes the markup or outdents multi-level paragraphs</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>Markup Language</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>By default, Ulysses uses its native markup language “Markdown XL”</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Switch to “Markdown” or “Textile’d” or “Minimark” via “Edit › Convert Markup”</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>Via “Preferences › Markup” you can create your own markup</p>
+<p></p></string>
+</sheet>

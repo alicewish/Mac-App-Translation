@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link href="tetutorial.css" rel="stylesheet" type="text/css">
+	<title>TextExpander Tutorial - Save Time - Letters</title>
+	<meta name="ROBOTS" content="NOINDEX">
+	<script type="text/javascript">
+		// TE Tutorial script stuff
+
+		function change_status(theForm, status) {
+			// find button and text
+			var button = null;
+			for (var i = 0; i < theForm.elements.length; i++) {
+				var element = theForm.elements[i];
+				if (element.id == "update") { button = element; break; }
+			}
+			if (button == null) { return; }
+			if (status == "changed") {
+				button.innerHTML = "Update";
+				button.disabled = false;
+				button.style.visibility = "visible";
+			}
+			else if (status == "saved") {
+				button.innerHTML = "Saved.";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+			else if (status == "working") {
+				button.innerHTML = "Working...";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+			else if (status == "error") {
+				button.innerHTML = "Error!";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+		}
+
+		function submit_update(theForm) {
+			// find values
+			var uid = "";
+			var newText = "";
+			var newAbrv = "";
+			for (var i = 0; i < theForm.elements.length; i++) {
+				var element = theForm.elements[i];
+				if (element.name == "uid") { uid = element.value; }
+				if (element.name == "newplaintext") { newText = element.value; }
+				if (element.name == "abrv") { newAbrv = element.value; }
+			}
+			var xmlhttp = new XMLHttpRequest();
+			var url = "textexpander:///;action=editsnippet&vers=1&uid=" + uid + "&newplaintext=" + encodeURIComponent(newText) + "&newabrv=" + encodeURIComponent(newAbrv);
+			xmlhttp.onload = function() {
+				if (this.status == 0) {
+					var statusText = this.responseText;
+					// Trim the "STATUS\tCODE" portion and newline from the front of the string
+					statusText = statusText.replace("STATUS\tCODE","");
+					statusText = statusText.replace(/[\n\r]/mg,"");
+					if (statusText == "OK\t0") {
+						change_status(theForm, "saved");
+					}
+					else {
+						change_status(theForm, "error");
+						// Set the scratch field to the returned status so that we can see it
+						document.getElementById('id:scratch').innerHTML = statusText;
+					}
+				}
+			}
+			xmlhttp.onerror = function() {
+				change_status(theForm, "error");
+			}
+			xmlhttp.open("GET", url);
+			change_status(theForm, "working");
+			xmlhttp.send(null);
+			return false;
+		}
+	</script>
+</head>
+<body>
+<div class="tutorial">
+	<h1>Quick form letters and boilerplate paragraphs</h1>
+<p>Do you find yourself answering the same question over and over? Make your answer into a snippet and TextExpander will take the drudgery out of replying.</p>
+	<p>Below is a sample reply. Rewrite it to suit your needs and change the abbreviation if you prefer. (Or just click "Next" to skip this.)</p>
+<table>
+	<tr>
+	 <th>Response Body</th>
+	 <th>Abbreviation</th>
+	 <td></td>
+	</tr>
+	
+	<form>	<!-- fbreply -->
+		<tr>
+			<td>
+				<input type="hidden" name="uid" value="9043EFF6-E2AB-4EBA-8FDF-1F0445C24EB0" />
+				<textarea name="newplaintext" rows="20" cols="50" wrap=HARD onChange="change_status(this.form, 'changed');">[[TEP_snippet_content:uid_9043EFF6-E2AB-4EBA-8FDF-1F0445C24EB0]]</textarea>
+			</td>
+			<td valign="top"><input type="text" name="abrv" value="[[TEP_snippet_abrv:uid_9043EFF6-E2AB-4EBA-8FDF-1F0445C24EB0]]" size="8" onChange="change_status(this.form, 'changed');" /></td>
+			<td valign="top"><button type="button" id="update" style="visibility: hidden;" onClick="submit_update(this.form);">Update</button></td>
+		</tr>
+	</form>
+
+</table>
+
+<div class="buttons">
+	<form action="textexpander:///5_predefined.html;action=subtext&vers=1" method="GET">
+		<button type="submit" onClick="this.form.action = 'textexpander:///3_signature.html;action=subtext&vers=1';">&lt; Back</button>
+		<button type="submit" onClick="this.form.action = 'textexpander:///5_predefined.html;action=subtext&vers=1';">Next &gt;</button>
+	</form>
+</div>
+
+<div class="footer"><img src="icon_textexpander_sm.png" alt="TextExpander Icon">
+<p>TextExpander Snippet Creation Assistant</p>
+</div>
+</div>
+</body>
+</html>

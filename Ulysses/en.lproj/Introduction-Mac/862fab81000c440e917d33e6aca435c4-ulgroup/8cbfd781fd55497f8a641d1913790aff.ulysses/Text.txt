@@ -1,0 +1,7 @@
+## Favorites
+
+Instead of searching for a frequently used sheet you can also add it to favorites (File › Add to Favorites). It will appear in the respective group in the topmost section of the library.
+
+## Bookmarks
+
+To make use of bookmarks, first enable paragraph numbers in the View menu. To bookmark a paragraph, double-click on its number, and use the navigator (`⌘8`) to get back there.

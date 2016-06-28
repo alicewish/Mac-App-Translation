@@ -1,0 +1,16 @@
+## Sheets
+
+All writing is done in Ulysses’ sheets. Sheets are somewhat equivalent to classic documents, though they don’t require a “title” or a “file name” or such.
+
+You create sheets via `⌘N` or the new sheet button in toolbar.
+
+Sheets can hold any amount of text, and you can freely move sheets around and sort them at will. You can also select multiple sheets and glue them together (`⌘J`). They will then behave as a single sheet in the editor, which is especially cool if you rather have a lot of small chunks than a single, monolithic wall of text.
+
+You can also split a sheet in two at the current cursor position (Edit › Split at Selection), and merge two or more sheets together to form one (File › Merge Sheets).
+
+
+### Added bonus
+
+Since sheets are likely to live in the vicinity of other sheets, we figured it would be nice if you could easily navigate between them — right from within the editor. There are keyboard shortcuts for this (`⌥⌘↓/↑`).
+
+You should try this now to get the hang of it. Just come back here, as we’re about to look at the cool stuff.

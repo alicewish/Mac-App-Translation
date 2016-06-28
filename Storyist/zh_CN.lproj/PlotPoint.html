@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:st="http://storyist.com/elements/1.0">
+
+  <head>
+    <title>Plot Point</title>
+    <link href="PlotPoint.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <div class="header">
+      <table>
+	<tr>
+	  <td class="plotPointName">
+	    <object classid="text-field" id="plotPointTitle" type="application/x-storyist-control">
+	      <param name="resource" value="{$id.stringValue}"/>
+	      <param name="property" value="http://storyist.com/rdf-syntax/1.0/title"/>
+	      <span class="storyist-default-text">Untitled Plot Point</span>
+	    </object>
+	  </td>
+	  <td class="right">
+	    <object classid="image-well" type="application/x-storyist-control" height="96" width="96">
+	      <param name="resource" value="{$id.stringValue}"/>
+	      <param name="property" value="http://storyist.com/rdf-syntax/1.0/icon"/>
+	      <param name="default-image" value="PlotSheet.tiff"/>
+	    </object>
+	  </td>
+	</tr>
+      </table>
+    </div>
+
+    <!-- Summary -->
+    <div class="module">
+      <h1>Summary</h1>
+      <object classid="text-area" id="summary" type="application/x-storyist-control">
+	<param name="resource" value="{$id.stringValue}"/>
+	<param name="property" value="http://storyist.com/rdf-syntax/1.0/summary"/>
+	<span class="storyist-default-text">Summarize the plot point
+	  here.  What role does the plot point play in the story? How
+	  does it drive the story? How is this plot point essential to
+	  the telling of the story?
+	</span>
+      </object>
+    </div>
+
+    <!-- Section -->
+    <div class="module">
+      <h1>Section Sheet</h1>
+      <p>
+	<object classid="resource" type="application/x-storyist-control"
+		oncontextmenu="popUpContextMenu(sectionMenu, this.getAttribute('section'))">
+	  <param name="resource" value="{$id.stringValue}"/>
+	  <param name="property-keypath" value="section"/>
+	  <span>Unassigned</span>
+	</object>
+      </p>
+    </div>
+
+    <!-- Traits -->
+    <div id="details" class="module">
+
+      <h1>Plot Point Details</h1>
+
+      <object classid="property-list" type="application/x-storyist-control">
+
+	<param name="module" value="chrome:/character/content/PlotPoint.html#details"/>
+	<param name="resource" value="id"/>
+
+	<param name="default-property" value="http://storyist.com/rdf-syntax/1.0/protagonist"/>
+	<param name="default-property" value="http://storyist.com/rdf-syntax/1.0/antagonist"/>
+	<param name="default-property" value="http://storyist.com/rdf-syntax/1.0/conflict"/>
+
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/section"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/title"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/summary"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/icon"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/note"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/toDo"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/characterPoint"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/color"/>
+
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/interfaceIcon"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/rating"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/status"/>
+	<param name="exclude-property" value="http://storyist.com/rdf-syntax/1.0/annotation"/>
+      </object>
+
+    </div>
+
+    <!-- Notes -->
+    <div class="module">
+
+      <h1>Notes</h1>
+
+      <object classid="text-area" type="application/x-storyist-control">
+	<param name="resource" value="{$id.stringValue}"/>
+	<param name="property" value="http://storyist.com/rdf-syntax/1.0/detail"/>
+	<span class="storyist-default-text">There are no notes for
+	this plot point. </span>
+      </object>
+
+    </div>
+
+  </body>
+
+<!-- 	    <p><a href="{$current.stringValue}"> -->
+<!-- 		<span st:template="value-of" st:select-keypath="$current.title">Untitled Note</span></a> -->
+<!-- 	    </p> -->
+
+</html>

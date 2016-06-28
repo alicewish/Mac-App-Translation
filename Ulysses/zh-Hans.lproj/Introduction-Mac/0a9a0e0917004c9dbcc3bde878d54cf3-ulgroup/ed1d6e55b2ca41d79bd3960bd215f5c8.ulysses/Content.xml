@@ -1,0 +1,57 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>编辑器： 增强的纯文本</p>
+<p></p>
+<p>现在您应该已经注意到在标题前和文本内的这些“有趣的字符”。您还应该注意到“这些<element kind="annotation"><attribute identifier="text"><string xml:space="preserve">
+<p>这里看不到任何东西。或听到，看到？</p>
+</string></attribute>彩色</element>气泡”，并想知道它们如何进入到这个无格式的介绍中来的呢。</p>
+<p></p>
+<p>您甚至可能惊叹这一切看起来都多么漂亮，文本设置是多么美丽，头条如何向外突出还有列表的缩排，这一切怎么可能会不使用花哨的格式板，标尺和字体面板。最终，这一切意味着，什么是好的，<element kind="emph" startTag="_">什么是您应该在乎的</element>。</p>
+<p></p>
+<p><tags><tag kind="comment">%% </tag></tags>顺便说一句，标记专家可以略过这个。</p>
+<p></p>
+<p>我们认为作家不应该被排版所困扰。最起码，排版不应该干扰写作过程本身。随便您怎么描述它 - 无需分心，禅宗般的，纯粹的语义，微乎其微，新复古 - 事实上内容创作最好同演示分开，否则后者将变得很碍事。事实上，这就是我们的设计理念。</p>
+<p></p>
+<p>Ulysses 使用所谓的最小的标记来<element kind="emph" startTag="_">定义</element>，不管格式或样式，还是文本段落。可通过<element kind="code" startTag="`">⌘9</element>”查看可用定义的完整列表，并且您应该从左到右查看。从标题列表，图像到脚注，您只需将一些容易记忆的快捷方式输入到文本段落中。</p>
+<p></p>
+<p><tags><tag kind="heading2">## </tag></tags>需要标题吗？ 创建一个标题。</p>
+<p></p>
+<p><tags><tag kind="blockquote">&gt; </tag></tags>需要引述吗?</p>
+<p>创建一个引述。</p>
+<p></p>
+<p>需要脚注吗? 创建一个。<element kind="footnote"><attribute identifier="text"><string xml:space="preserve">
+<p>输入 (fn)，将文本输入到弹跳窗中，点击<element kind="code" startTag="`">⌘↩︎</element>，继续。</p>
+</string></attribute></element> 不需要使用您的鼠标，只需键入。就这样。键入。</p>
+<p></p></string>
+</sheet>

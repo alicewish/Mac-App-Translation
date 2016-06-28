@@ -1,0 +1,84 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading3">### </tag></tags>基本操作</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘N</element> 创建新文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘←</element> 将文稿移动到垃圾箱</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘B</element> 在当前位置分割文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘N</element> 创建新组</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌃⌘N</element> 创建新过滤器</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>项目总是会紧邻当前选择的项目创建</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>文稿会被创建在当前所选的下面</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>组和过滤器会被创建在当前所选的组中</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>如果没有选择，或者这个选项不接受新的内容，项目将建立在最顶层类别的“收件箱”中（例如 iCloud 中）</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>点击进行选择</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>双击进行编辑</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>视图和常用功能</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘1</element> 切换问文库</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘2</element> 切换文稿列表</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘3</element> 切换仅编辑器视图</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘4</element> 切换“附件栏”</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘5</element> 转至“喜爱”组 (FIVEorites)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘6</element> 显示“快速导出”(SIXport)</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘7</element> 显示“统计”</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘8</element> 显示导航器（NavigEIGHTor，获得它？）</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘9</element> 显示标记栏</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>“快速打开”面板</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘O</element> 在整个文库中查找文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘O</element> 当前文库部分（iCloud、在我的 Mac 上等）中查找文稿</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘O</element> 在当前选定的组中查找文稿</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>全文搜索</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘F</element> 将焦点切换至文稿过滤器</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">esc</element> 离开文稿过滤器</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>编辑器中的“查找和替换”</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘F</element> 显示“查找”面板</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌥⌘F</element> 显示“查找和替换”面板</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">esc</element> 关闭“查找/替换”面板</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>喜爱</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘D</element> 将文稿添加到喜爱或者将它从喜爱中移除</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>您也可以使用文稿的上下午菜单进行该操作</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⌘5</element> 前往“喜爱”组（仅在有喜爱的文稿时才显示）</p>
+<p></p>
+<p><tags><tag kind="heading3">### </tag></tags>编辑器智能粘贴</p>
+<p><tags><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">⇧⌘V</element> 调用“智能粘贴”或</p>
+<p><tags><tag kind="unorderedList">- </tag></tags>按住<element kind="code" startTag="`">⌘V</element>调用“智能粘贴”</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>“粘贴”选项随剪贴板内容和当前标记而变</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags>左/右剪头键预览可用到粘贴选项</p>
+<p><tags><tag>	</tag><tag kind="unorderedList">- </tag></tags><element kind="code" startTag="`">↩︎</element> 确认并粘贴</p>
+<p></p></string>
+</sheet>

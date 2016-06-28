@@ -1,0 +1,24 @@
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "7d3-bd-FAo"; */
+"7d3-bd-FAo.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Look it up"; ObjectID = "BdP-rr-WQe"; */
+"BdP-rr-WQe.title" = "Look it up";
+
+/* Class = "NSTextFieldCell"; title = "Enter your old license details to upgrade."; ObjectID = "HK2-3N-Q9P"; */
+"HK2-3N-Q9P.title" = "Enter your old license details to upgrade.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "RbK-gL-uHU"; */
+"RbK-gL-uHU.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Purchased from the Mac App Store"; ObjectID = "Whx-cQ-YYO"; */
+"Whx-cQ-YYO.title" = "Purchased from the Mac App Store";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "ist-dq-5vA"; */
+"ist-dq-5vA.title" = "Name:";
+
+/* Class = "NSTextFieldCell"; title = "Serial #:"; ObjectID = "oed-EE-Sba"; */
+"oed-EE-Sba.title" = "Serial #:";
+
+/* Class = "NSTextFieldCell"; title = "Can't find your license?"; ObjectID = "vaR-qK-Qob"; */
+"vaR-qK-Qob.title" = "Can't find your license?";

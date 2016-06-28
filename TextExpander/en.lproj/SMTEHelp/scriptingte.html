@@ -1,0 +1,215 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/tebasic.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <title>TextExpander Help: AppleScripting TextExpander</title>
+ <meta name="AppleTitle" content="TextExpander help">
+ <meta name="AppleIcon" content="SMTEHelp/images/textexpander64.gif">
+ <meta name="Copyright" content="Copyright 2012-2015 SmileOnMyMac, LLC, dba Smile. All Rights Reserved.">
+ <link href="somm_help.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+ <table width="100%">
+  <tr>
+   <td width="80"><a href="index.html"><img src="images/textexpander.png" alt="TextExpander logo" width="64" height="64" border="0" /></a></td>
+   <td><a href="index.html"><img src="images/logotype.gif" alt="TextExpander" width="307" height="46" border="0" /></a></td>
+   <td width="80"><a href="http://www.smilesoftware.com" target="_blank"><img src="images/sommlogo.gif" alt="Smile logo" width="64" height="80" border="0" /></a></td>
+  </tr>
+  <tr>
+   <td>&nbsp;</td>
+   <td><!-- InstanceBeginEditable name="content" -->
+    <h1><a href="index.html">Help</a>: AppleScripting TextExpander</h1>
+
+<p>You can use AppleScript to change many of TextExpander's preferences, or to add or remove snippets and groups.</p>
+
+
+      <h3>Scriptable Preference Settings</h3>
+<p>The preferences you can access or change via AppleScript include some of the settings available in TextExpander's Preferences window as well
+   as several settings which do not have any corresponding controls.
+</p>
+<dl>
+ <dt>expansion enabled</dt>
+ <dd>A boolean flag controlling whether expansion (and capitalization correction) is enabled.<br />
+  (See <a href="preferences.html#expand">Expansion Preferences</a>)
+ </dd>
+ <dt>include HTML</dt>
+ <dd>A boolean flag controlling whether HTML data is included on the pasteboard when inserting Formatted snippet content.<br />
+  (See <a href="preferences.html#expand">Expansion Preferences</a>)
+ </dd>
+ <dt>restore pasteboard</dt>
+ <dd><p>A boolean flag controlling whether the previous pasteboard contents are restored after Pasting snippet content.<br />
+  (See <a href="preferences.html#expand">Expansion Preferences</a>)</p>
+  <p>Note: If this flag is set, and your clipboard history utility is showing TextExpander expansions in the history, direct the developer to <a href="http://nspasteboard.org/">www.nspasteboard.org</a>.</p>
+ </dd>
+ <dt>capitalize new sentences</dt>
+ <dd>A boolean flag controlling whether capitalization correction automatically capitalizes the first word new sentences.<br />
+  (See <a href="preferences.html#options">Options Preferences</a>)
+ </dd>
+ <dt>suppress double capitals</dt>
+    <dd>An enumeration controlling whether capitalization correction corrects two capital letters at the start of a word to just one.<br />
+  (See <a href="preferences.html#options">Options Preferences</a>)
+ </dd>
+ <dt>restore clipboard regardless</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will restore a clipboard that does not match the snippet content that it placed there to expand a snippet. This is useful if an application or utility modifies the contents of the pasteboard.</p>
+  <p>For example, TextMate 1.5.10 modifies the pasteboard as soon as text is placed on it, resulting in TextExpander not restoring the previous clipboard contents.</p>
+ </dd>
+ <dt>avoid Caching Embedded Snippets</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will cache computed content of an embedded snippet while expanding the containing snippet. If this flag is set, a formatted text snippet which embeds a script snippet will execute the snippet once to compute the plain-text expansion, then execute it again to compute the formatted expansion.</p>
+  <p>The default value is <b>false</b> so that script snippets which may have other side-effects execute only once per expansion.</p>
+ </dd>
+ <dt>notify on Secure Input</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will present a notification when Secure Event Input is engaged outside of a secure text field.</p>
+  <p>The default value is <b>true</b>.</p>
+ </dd>
+ <dt>generate suggested snippets</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will suggest snippets based on analyzing typed text. Corresponds to the "Suggest snippets based on my typing habits" preference.</p>
+  <p>The default value is <b>true</b>.</p>
+ </dd>
+ <dt>notify when suggesting</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will present a notification when suggested snippets are created.</p>
+  <p>The default value is <b>true</b>.</p>
+ </dd>
+ <dt>avoid suggesting in bundles</dt>
+    <dd>A list of text strings with the bundle IDs (ex. <code>com.apple.Terminal</code>) of applications where typing should be excluded from suggested snippet analysis.</dd>
+ <dt>preview executes scripts</dt>
+    <dd><p>A boolean flag controlling whether the snippet preview area will execute script snippets to preview the result.</p>
+  <p>The default value is <b>true</b>.</p>
+ </dd>
+ <dt>tutor Typed Snippets</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will present a notification when you type the contents of a snippet when you could have used the abbreviation instead. Corresponds to the "Notify me of the abbreviation when I type a snippet that already exists" preference.</p>
+  <p>The default value is <b>true</b>.</p>
+ </dd>
+ <dt>tap key up events</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will tap key-up events as well as the key-down events that it normally taps to detect when you type a snippet abbreviation.</p>
+  <p>This can help make TextExpander work better with other applications or hardware drivers that generate artificial keystrokes, such as Nuance's Dragon products, or the Microsoft IntelliPoint mouse driver.</p>
+ </dd>
+ <dt>avoid querying keyboard layout</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will avoid querying the active Input Methods for keyboard layout information.</p>
+  <p>This can help avoid slow typing with certain Input Methods, such as the Sugou IM. However, it also prevents TextExpander from detecting the correct &apos;V&apos; key
+     (for sending Command-V to Paste in snippet expansions) when using, for example, the Dvorak keyboard layout.</p>
+ </dd>
+ <dt>always pause before Pasting</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will pause briefly before Pasting, regardless of which application is active while expanding a snippet.</p>
+     <p>TextExpander places the snippet expansion on the clipboard, then immediately sends Command-V to Paste it in. Some applications seem
+  to require a short delay in order for the new clipboard contents to "register" and the expansion to work as desired. A pause before Pasting can
+  help overcome problems with the pasteboard contents appearing instead of a snippet expansion, possibly because some clipboard utility is modifying or
+  otherwise slowing the change of the pasteboard.</p>
+  <p>By default, TextExpander pauses before Pasting in: Pages, Numbers, Keynote, Mail, Spotlight, Fantastical, Xcode, and most Microsoft applications.</p>
+ </dd>
+ <dt>pause before Pasting bundles</dt>
+    <dd>A list of text strings with the bundle IDs (ex. <code>com.apple.Safari</code>) of additional applications to pause before Pasting into (the default applications are listed above).</dd>
+ <dt>pause before Pasting time</dt>
+    <dd>A real number controlling the number of seconds TextExpander will pause before Pasting (when pause applies). The default value is 0.2 seconds.</dd>
+ <dt>pause after Pasting bundles</dt>
+    <dd><p>A list of text strings with the bundle IDs (eg. <code>com.apple.Safari</code>) of additional applications to
+  pause after Pasting into.</p>
+  <p>After TextExpander sends Command-V to Paste in snippet content, it may send additional keystrokes very quickly immediately afterwards.
+  If you are expanding with delimiters, or your snippet contains Tab, Return, etc. keystrokes, or arrow keys are required to place the
+  insertion cursor at some location within the snippet, some applications seem to require a short delay to process the Paste before
+  receiving subsequent keystrokes. If snippet parts are appearing in the wrong order or wrong locations, try adding the application to this list.</p>
+  <p>By default, TextExpander pauses after Pasting into: Pages, Numbers, Keynote, Microsoft Word, Microsoft Powerpoint, Safari, Google Chrome, Firefox, Camino, and SeaMonkey.</p>
+ </dd>
+ <dt>pause after Pasting time</dt>
+    <dd>A real number controlling the number of seconds TextExpander will pause after Pasting (when pause applies). The default value is 0.2 seconds.</dd>
+ <dt>pasteboard data types to avoid accessing</dt>
+    <dd><p>A list of text strings of pasteboard data types that TextExpander should avoid accessing when saving and restoring the pasteboard.</p>
+  <p>Some pasteboard data types represent data that is "promised" to the pasteboard, but not actually present on the pasteboard. When TextExpander tries to copy the pasteboard before inserting a snippet, some of these "promised" data types take a long time to actually be provided, sometimes slowing expansion or causing instability.</p>
+  <p>If <b>restore pasteboard</b> is enabled, data types in this list will not be restored to the pasteboard after TextExpander expands a snippet.</p>
+ </dd>
+ <dt>avoid expansion bundle prefixes</dt>
+    <dd><p>A list of text strings with the bundle IDs (or partial prefixes, eg. <code>com.mozilla</code> will cover <code>com.mozilla.firefox</code>
+  and <code>com.mozilla.camino</code>, etc.) of applications to avoid expanding or correcting capitalization in.</p>
+  <p>By default, TextExpander avoids expanding into applications where the bundle ID begins with <code>com.parallels</code> or <code>com.vmware.</code></p>
+  <p>This can be useful to prevent TextExpander from interacting with certain applications or Java applets which do not appear in the "all applications, except..." listing in <a href="preferences.html#expand">Expansion Preferences</a>.
+  (To prevent expansion in Java applets, add <code>com.apple.javajdk16.cmd</code> to this list (change appropriately for different versions of the JDK).)</p>
+ </dd>
+ <dt>allowed computation time</dt>
+    <dd>Seconds before snippet content computation times out. By default, TextExpander allows script snippets 5 seconds to compute. This value can be adjusted up to 28 seconds if some of your script snippets take a long time to execute.</dd>
+ <dt>unibar bundle_role_identifier triplets</dt>
+    <dd><p>A list of strings in triplets:</p>
+  <ul>
+   <li>Bundle ID - application bundle identifier such as <code>com.google.Chrome</code> (used in a case-insensitive comparison)</li>
+   <li>AXRole - the Accessibility Role of a focused text item, such as <code>AXTextField</code>, or an empty string for both this and AXIdentifier to match any typing in the given Bundle ID</li>
+   <li>AXIdentifier - the Accessibility Identifier of a focused text item, such as <code>WEB_BROWSER_ADDRESS_AND_SEARCH_FIELD</code> (note, if an empty string is provided, all areas with the given AXRole will be matched)</li>
+  </ul>
+  <p>These triplets define text areas within applications where Shift-Left-Arrow keystrokes will be used to remove/replace the snippet abbreviation instead of the usual Backspace. (Browser "unibars" and other auto-completed text areas respond better to Shift-Left-Arrow keystrokes.)</p>
+ </dd>
+ <dt>ignore clicks in bundles</dt>
+    <dd><p>A list of text strings with the bundle IDs of applications to allow mouse clicks in without resetting the typing log (eg. virtual keyboards).
+  That is, usually any mouse click will clear the typing log, so if you type part of an abbreviation, click the mouse, then finish the abbreviation, TextExpander will not expand the snippet.</p>
+  <p>By default, TextExpander ignores clicks in: the system's KeyboardViewer, KeyStrokes (by AssistiveWare), and VirtualKeyboard (by Corallo Software).</p>
+ </dd>
+ <dt>expand with repeated keys</dt>
+    <dd>A boolean flag controlling whether TextExpander will expand snippets when keys are held down to repeat letters. By default, repeated keys do not trigger expansion or capitalization correction.</dd>
+ <dt>wait for modifier release</dt>
+    <dd>A boolean flag controlling whether TextExpander will wait for shift/option/control/command modifier keys to be released before expanding snippets. By default, TextExpander waits for these keys to be released before expanding in case they affect how snippet content is Pasted in.</dd>
+ <dt>non expanding language codes</dt>
+    <dd><p>A list of text strings with the two-letter language codes of Input Methods where expansion is disabled.</p>
+  <p>By default, TextExpander does not expand when using Input Methods identified with any of the following language codes: "ja", "zh", "sa", "ar", "hi" (Japanese, Chinese, Sanskrit, Arabic, Hindi).</p>
+ </dd>
+ <dt>additional contraction characters</dt>
+    <dd>A text string containing punctuation characters in addition to apostrophe and right single quotation mark to be treated as letters by capitalization correction. (eg. "i'm" corrects to "I'm")</dd>
+ <dt>adjust linebreaks after empty optional parts</dt>
+    <dd>A boolean flag controlling whether TextExpander will try to remove what will seem like an extra blank line if an optional section
+  of a fill-in snippet is not included. That is, if an optional section which starts on a new line is not checked, and there is a line break just afterwards, that linebreak will not be expanded in the snippet. TextExpander defaults to performing this adjustment.</dd>
+ <dt>adjust linebreaks after linebreak keystrokes</dt>
+    <dd>A boolean flag controlling whether TextExpander will avoid expanding what may be an extra blank line if a
+  <code>%key:return%</code> or <code>%enter%</code> is followed by a line break. TextExpander defaults to performing this adjustment.</dd>
+ <dt>include paragraphs in HTML</dt>
+    <dd><p>A boolean flag controlling whether TextExpander will include <code>&lt;P&gt;</code> tags and associated styles with HTML data. <code>&lt;P&gt;</code> tags are only included if the snippet contains linebreaks.</p>
+  <p>TextExpander defaults to including paragraph tags for multi-line snippets.</p>
+ </dd>
+</dl>
+
+
+
+      <h3>Scripting Groups and Snippets</h3>
+<p>You can use AppleScript to access snippet groups by name, or you can enumerate through all the groups. Once you access a group, you can enumerate the snippets it contains. Group and snippet properties can be edited. You can create or delete groups or snippets.</p>
+<p>Here is a sample script which changes any Formatted text snippets in the My Snippets group to be Plain Text snippets instead:</p>
+<p>
+ <strong>tell</strong> <span class="codeblue"><i>application</i></span> <span class="codegray">"TextExpander"</span><br>
+ <span style="white-space:pre"> </span><strong>set</strong> <span class="codegreen">theGroup</span> <strong>to</strong> <span class="codeblue"><i>group</i></span> "My Snippets"<br>
+ <span style="white-space:pre"> </span><strong>set</strong> <span class="codegreen">theSnippets</span> <strong>to</strong> <span class="codeblue"><i>snippets</i></span> <strong>of</strong> <span class="codegreen">theGroup</span><br>
+ <span style="white-space:pre"> </span><strong>repeat with</strong> <span class="codegreen">theSnip</span> <strong>in</strong> <span class="codegreen">theSnippets</span><br>
+ <span style="white-space:pre"> </span><strong>if</strong> ((</span><span class="codepurple">content type</span> <strong>of</strong> <span class="codegreen">theSnip</span>) = <span class="codepurple">rich_text</span>) <strong>then</strong><br>
+ <span style="white-space:pre"> </span><strong>set the</strong> <span class="codepurple">content type</span> <strong>of</strong> <span class="codegreen">theSnip</span> <strong>to</strong> <span class="codepurple">plain_text</span><br>
+ <span style="white-space:pre"> </span><strong>end if</strong><br>
+ <span style="white-space:pre"> </span><strong>end repeat</strong><br>
+ <strong>end tell</strong>
+</p>
+
+
+
+      <h3>Expanding Snippets</h3>
+<p>You can use TextExpander's <code>expand</code> command to expand a snippet into the currently active application. You can either
+    specify a snippet reference (<span class="codeblue"><strong>expand</strong> snippet</span> <span class="codegreen">aSnippet</span>),
+    or you can provide a snippet abbreviation (<span class="codeblue"><strong>expand</strong> abbreviation</span> <span class="codegreen">"abbreviation"</span>).</p>
+<p>Here is a sample script that creates a reply to the currently selected message in Mail and inserts a snippet as the reply text:</p>
+    <p>
+    <span class="codegray">-- create a reply to the currently selected Mail message with a snippet</span><br>
+    <strong>tell</strong> <span class="codeblue"><i>application</i></span> "Mail"<br>
+    <span style="white-space:pre"> </span><span class="codeblue"><strong>activate</strong></span><br>
+    <span style="white-space:pre"> </span><strong>set</strong> <span class="codegreen">current_messages</span> <strong>to</strong> <span class="codepurple">selected messages</span> <strong>of</strong> <span class="codeblue"><i>message viewer</i></span> 1<br>
+    <span style="white-space:pre"> </span><strong>set</strong> <span class="codegreen">theMessage</span> <strong>to</strong> <strong>last</strong> <span class="codeblue"><i>item</i></span> <strong>of</strong> <span class="codegreen">current_messages</span><br>
+    <span style="white-space:pre"> </span><strong>set</strong> <span class="codegreen">new_message</span> <strong>to</strong> <strong>reply</strong> <span class="codegreen">theMessage</span> <strong>with</strong> <span class="codeblue">opening window</span> <strong>and</strong> <span class="codeblue">reply to all</span><br>
+    <span style="white-space:pre"> </span><br>
+    <span style="white-space:pre"> </span><strong>tell</strong> <span class="codeblue"><i>application</i></span> "TextExpander"<br>
+    <span style="white-space:pre"> </span><span class="codeblue"><strong>expand</strong> abbreviation</span> ";fbreply"<br>
+    <span style="white-space:pre"> </span><strong>end</strong> <strong>tell</strong><br>
+    <strong>end</strong> <strong>tell</strong>
+    </p>
+
+    <!-- InstanceEndEditable --></td>
+   <td>&nbsp;</td>
+  </tr>
+  <tr>
+   <td>&nbsp;</td>
+   <td align="center"><span class="smalltext"><br />
+   </span><span class="small">&copy;
+ SmileOnMyMac, LLC, dba Smile. All rights reserved.<br />
+    TextExpander is a registered trademark, Smile and the Smile logo are trademarks of SmileOnMyMac, LLC, dba Smile.</span></td>
+   <td>&nbsp;</td>
+  </tr>
+ </table>
+</body>
+</html>

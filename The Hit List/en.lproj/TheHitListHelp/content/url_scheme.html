@@ -1,0 +1,137 @@
+<div>
+<h4>Custom URL scheme</h4>
+<p>
+	The Hit List supports a custom URL scheme for controlling some aspects of the application.
+</p>
+
+<h5>Look up by UID</h5>
+
+<code class="example">thehitlist:///<span class="token">UID</span></code>
+
+<p>
+	Every group and task in The Hit List is internally given a unique ID. Clients that know such an ID can request the group or task be opened. On the Mac, you can get this kind of URL for a task by choosing &ldquo;Copy as Link&rdquo; in the Edit menu.
+</p>
+<p>
+	Availability: Mac
+</p>
+
+<h5>Look up lists or folders by name</h5>
+
+<code class="example">thehitlist:///<span class="token">path</span>/<span class="token">to</span>/<span class="token">group</span></code>
+
+<p>The route to a list is specified as a path in the URL, using the name of each group. Some examples:</p>
+
+<table class="explanation nobreak-inside">
+	<tr>
+		<th>URL</th>
+		<th>Explanation</th>
+	</tr>
+	<tr>
+		<td><code>thehitlist:///Inbox</code></td>
+		<td>Opens the Inbox</td>
+	</tr>
+	<tr>
+		<td><code>thehitlist:///Bucket%20List</code></td>
+		<td>Opens a list or folder named “Bucket List”</td>
+	</tr>
+	<tr>
+		<td><code>thehitlist:///Projects/Shed</code></td>
+		<td>Opens a list or folder named “Shed”, inside of the folder “Projects”</td>
+	</tr>
+</table>
+<p>
+	Names are handled case-insensitively, so you can specify either <code>inbox</code> or <code>Inbox</code>, for example. Non-URL path characters — such as spaces — need to be percent encoded. See “Bucket List” above, for example.
+</p>
+<p>
+	Availability: Mac
+</p>
+
+<h5>Create tasks</h5>
+
+<code class="example">thehitlist:///<span class="token">folder</span>/<span class="token">list</span>/tasks?method=POST&amp;<span class="token">title</span>=<span class="token">Reach+88mph</span></code>
+
+<p>
+	As above, the URL path specifies which list the task should be created in. The URL query begins at the <code>?</code> character. The query is composed of a series of parameter names and values separated by &lsquo;<code>&amp;</code>&rsquo; symbols. A &lsquo;<code>=</code>&rsquo; character is used to separate parameter name and value.
+</p>
+<p>
+	Spaces are accepted as either a &lsquo;<code>+</code>&rsquo; symbol for convenience, or as the full <code>%20</code> sequence. Consequently, if you require an actual &lsquo;<code>+</code>&rsquo; character, it must be encoded as <code>%2B</code>.
+</p>
+<p>
+	Parameter names are case-insensitive. Parameters may appear in any order. Unrecognized parameter names or values are ignored. The result of duplicate parameter names is undefined. If the specified list does not exist, the request goes ignored.
+</p>
+
+<table class="parameters explanation nobreak-inside">
+	<tr>
+		<th>Parameter</th>
+		<th>Explanation</th>
+		<th>Availability</th>
+	</tr>
+	<tr>
+		<td><code>title</code></td>
+		<td>Title of the new task. As when typing in a task, <code>/</code> or <code>@</code> may be used to specify a tag.</td>
+		<td>Mac and iOS</td>
+	</tr>
+	<tr>
+		<td><code>notes</code></td>
+		<td>Notes to include in the task</td>
+		<td>Mac and iOS</td>
+	</tr>
+	<tr>
+		<td><code>url</code></td>
+		<td>The URL to include in the task notes</td>
+		<td>Mac and iOS</td>
+	</tr>
+	<tr>
+		<td><code>urlTitle</code></td>
+		<td>The name of the link for the URL</td>
+		<td>Mac</td>
+	</tr>
+	<tr>
+		<td><code>startDate</code>, <code>dueDate</code></td>
+		<td>Dates can be specified using the shorthand values that The Hit List application understands. For
+			example, &ldquo;6/4&rdquo;, &ldquo;June 4, 2010&rdquo;, &ldquo;4&rdquo; (4th of the next month), &ldquo;wed&rdquo;, &ldquo;4d&rdquo; (in four days),
+			&ldquo;today&rdquo;, &ldquo;t&rdquo; (today), and so on and so on. If you add a task to the Today group, the start date
+			gets automatically set to today.</td>
+		<td>Mac and iOS, although iOS only supports a limited range of date formats</td>
+	</tr>
+	<tr>
+		<td><code>estimatedTime</code></td>
+		<td>Example values are 30m, 0.5h 1d, and so on</td>
+		<td>Mac and iOS. Time estimates aren’t visible in the iOS app, but they will show up when synced back to a Mac.</td>
+	</tr>
+	<tr>
+		<td><code>priority</code></td>
+		<td>Priority can range from 0 to 9 where 0 is no priority. In the iOS app, priorities 1 &amp; 2 are red, 3 &amp; 4 yellow, 5 grey, 6 &amp; 7 blue, and 8 &amp; 9 green.</td>
+		<td>Mac and iOS</td>
+	</tr>
+	<tr>
+		<td><code>index</code></td>
+		<td>An index value of <code>n</code> will insert to that index in the list. Index of <code>-1</code> is a special case where it will add to the end of the list. The default is </code>0</code>.</td>
+		<td>Mac</td>
+	</tr>
+</table>
+<div id="examples">
+	<h6>Examples</h6>
+	<div>
+		<p><code class="example">thehitlist:///inbox/tasks?method=POST</code></p>
+		<p>Creates an empty task in the Inbox.</p>
+	</div>
+	<div>
+		<p><code class="example">thehitlist:///Bucket%20List?method=POST&amp;title=Swim+with+dolphins&amp;notes=Perhaps+in+Mexico?</code></p>
+		<p>Creates a task named “Swim with dolphins” in “Bucket List”. Notes are filled in with “Perhaps in Mexico?”</p>
+	</div>
+	<div>
+		<p><code class="example">thehitlist:///inbox/tasks?method=POST&amp;title=+@work</code></p>
+		<p>Creates a task tagged with <span class="context">@work</span>. On iOS, the leading space places the text insertion point at the start of the title, ready to type. You can specify a trailing space instead to automatically start typing <em>after</em> the tag.</p>
+	</div>
+	<div>
+		<p><code class="example">thehitlist:///inbox/tasks?method=POST&amp;title=Buy+Mike+a+present&amp;dueDate=2015-06-24</code></p>
+		<p>Creates a task with the due date 24 June 2015.</p>
+	</div>
+</div>
+
+
+<div id="footer">
+	&copy; 2016 Karelia Software LLC. All rights reserved.
+</div>
+</div>

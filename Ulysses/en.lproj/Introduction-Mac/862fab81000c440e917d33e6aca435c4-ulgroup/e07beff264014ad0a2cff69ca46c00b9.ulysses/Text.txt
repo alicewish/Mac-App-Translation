@@ -1,0 +1,3 @@
+## Backup & Restore
+
+If everything goes as planned, you should not have to care about this. If – for whatever reason – it does not go as planned, and if you believe you’ve lost content, keep your cool: Your entire library gets backed up on a regular basis. Go to “File › Browse Backups…” to restore single sheets or whole groups with just a few clicks (or drags and drops).

@@ -1,0 +1,46 @@
+<sheet version="1">
+<markup version="1" identifier="markdownxl" displayName="Markdown XL">
+	<tag definition="heading1" pattern="#"></tag>
+	<tag definition="heading2" pattern="##"></tag>
+	<tag definition="heading3" pattern="###"></tag>
+	<tag definition="heading4" pattern="####"></tag>
+	<tag definition="heading5" pattern="#####"></tag>
+	<tag definition="heading6" pattern="######"></tag>
+	<tag definition="codeblock" pattern="''"></tag>
+	<tag definition="comment" pattern="%%"></tag>
+	<tag definition="divider" pattern="----"></tag>
+	<tag definition="nativeblock" pattern="~~"></tag>
+	<tag definition="blockquote" pattern="&gt;"></tag>
+	<tag definition="orderedList" pattern="\d."></tag>
+	<tag definition="unorderedList" pattern="*"></tag>
+	<tag definition="unorderedList" pattern="+"></tag>
+	<tag definition="unorderedList" pattern="-"></tag>
+	<tag definition="code" startPattern="`" endPattern="`"></tag>
+	<tag definition="delete" startPattern="||" endPattern="||"></tag>
+	<tag definition="emph" startPattern="*" endPattern="*"></tag>
+	<tag definition="emph" startPattern="_" endPattern="_"></tag>
+	<tag definition="inlineComment" startPattern="++" endPattern="++"></tag>
+	<tag definition="inlineNative" startPattern="~" endPattern="~"></tag>
+	<tag definition="mark" startPattern="::" endPattern="::"></tag>
+	<tag definition="strong" startPattern="__" endPattern="__"></tag>
+	<tag definition="strong" startPattern="**" endPattern="**"></tag>
+	<tag definition="annotation" startPattern="{" endPattern="}"></tag>
+	<tag definition="link" startPattern="[" endPattern="]"></tag>
+	<tag definition="footnote" pattern="(fn)"></tag>
+	<tag definition="image" pattern="(img)"></tag>
+	<tag definition="video" pattern="(vid)"></tag>
+</markup>
+<string xml:space="preserve">
+<p><tags><tag kind="heading2">## </tag></tags>专注写作</p>
+<p></p>
+<p>Ulysses 为整个写作过程提供必不可少的工具以及无干扰的工作环境。以下功能旨在帮助您顺利完成各种创作。</p>
+<p></p>
+<p>首先，设有<element kind="emph" startTag="_">全屏模式</element> （“视图 › 进入全屏”），确保隐藏文库和文稿列表 (<element kind="code" startTag="`">⌘3</element>) 以阻止一切内容。</p>
+<p></p>
+<p><element kind="emph" startTag="_">最小模式</element>可以在您开始输入或滚动时让工具栏在窗口模式渐隐。如果需要，还可以让工具栏一直显示，甚至在全屏模式下（“视图 › 总是显示工具栏”）。</p>
+<p></p>
+<p><element kind="emph" startTag="_">打字机滚动</element> 让当前输入行垂直固定在屏幕上。它有几种变化形式（“视图 › 打字机滚动”）。</p>
+<p></p>
+<p><element kind="emph" startTag="_">行突出显示</element>可以突出显示当前输入行（“视图 › 突出显示当前行”）。</p>
+<p></p></string>
+</sheet>

@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link href="tetutorial.css" rel="stylesheet" type="text/css">
+	<title>TextExpander Tutorial - Save Time - Write Better</title>
+	<meta name="ROBOTS" content="NOINDEX">
+	<script type="text/javascript">
+		// TE Tutorial script stuff
+		
+		function change_status(theForm, status) {
+			// find button and text
+			var button = null;
+			for (var i = 0; i < theForm.elements.length; i++) {
+				var element = theForm.elements[i];
+				if (element.id == "addgroup") { button = element; break; }
+			}
+			if (button == null) { return; }
+			if (status == "downloading") {
+				button.innerHTML = "Downloading...";
+				button.disabled = true;
+				button.style.visibility = "visible";
+				window.setTimeout(function() { button.style.visibility = "hidden"; window.location.replace(window.location.pathname); }, 5000);
+			}
+			else if (status == "error") {
+				button.innerHTML = "Error!";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+			else if (status == "working") {
+				button.innerHTML = "Working...";
+				button.disabled = true;
+				button.style.visibility = "visible";
+			}
+		}
+		
+		function submit_addgroup(theForm) {
+			// find values
+			var url = "";
+			for (var i = 0; i < theForm.elements.length; i++) {
+				var element = theForm.elements[i];
+				if (element.name == "url") { url = element.value; }
+			}
+			var xmlhttp = new XMLHttpRequest();
+			var url = "textexpander:///;action=addgroup&vers=1?url=" + url;
+			xmlhttp.onload = function() {
+				if (this.status == 0) {
+					var statusText = this.responseText;
+					// Should get "ID\tB1A23372-23-etc". If we got "STATUS\tCODE" that is probably an error.
+					if (statusText.indexOf("ID", 0) == 0) {
+						change_status(theForm, "downloading");
+					}
+					else {
+						change_status(theForm, "error");
+					}
+				}
+			}
+			xmlhttp.onerror = function() {
+				change_status(theForm, "error");
+			}
+			xmlhttp.open("GET", url);
+			change_status(theForm, "working");
+			xmlhttp.send(null);
+			return false;
+		}
+		</script>
+</head>
+<body>
+<div class="tutorial">
+	<h1>Add special predefined groups of snippets</h1>
+<p>We put together a number of snippet groups that you can easily add to your snippet library and start using. Here are a few of the most popular groups:</p>
+<h2>AutoCorrection</h2>
+	<p>Do you ever type "taht" when you meant "that" or forget if "accommodate" has one "m" or two? The TextExpander AutoCorrect group can fix over 100 commonly misspelled words.</p>
+	<table>
+		<tr>
+			<td><span class="groupname">AutoCorrect</span> group:</td>
+			<td>
+				<span class="TEP_groupexists" id="url_http://www.smilesoftware.com/te4/autocorrect.textexpander"><i>(already installed)</i></span>
+				<span class="TEP_groupnotexists" id="url_http://www.smilesoftware.com/te4/autocorrect.textexpander">
+					<form>
+						<input type="hidden" name="url" value="http://www.smilesoftware.com/te4/autocorrect.textexpander" />
+						<button type="button" id="addgroup" onClick="submit_addgroup(this.form);">Add Group</button>
+					</form>
+				</span>
+			</td>
+			<td>&nbsp;</td>
+			<td></td>
+			<td>
+			
+			</td>
+		</tr>
+	</table>
+	<h2>Accented Words</h2>
+	<p>Another group adds the correct accents to words like clich&eacute; -- you type "crepe" and TextExpander converts it to "cr&ecirc;pe".</p>
+	<table>
+		<tr>
+			<td><span class="groupname">Accented Words</span> group.</td>
+			<td>
+				<span class="TEP_groupexists" id="url_http://www.smilesoftware.com/te4/accentedwords.textexpander"><i>(already installed)</i></span>
+				<span class="TEP_groupnotexists" id="url_http://www.smilesoftware.com/te4/accentedwords.textexpander">
+					<form>
+						<input type="hidden" name="url" value="http://www.smilesoftware.com/te4/accentedwords.textexpander" />
+						<button type="button" id="addgroup" onClick="submit_addgroup(this.form);">Add Group</button>
+					</form>
+				</span>
+			</td>
+		</tr>
+	</table>
+	<h2>HTML and CSS</h2>
+	<p>This group gives you frequently-used HTML and CSS tags to make creating your web pages a snap.</p>
+	<table>
+		<tr>
+			<td><span class="groupname">HTML and CSS</span> group</td>
+			<td>
+				<span class="TEP_groupexists" id="url_http://www.smilesoftware.com/te4/HTML_CSS.textexpander"><i>(already installed)</i></span>
+				<span class="TEP_groupnotexists" id="url_http://www.smilesoftware.com/te4/HTML_CSS.textexpander">
+					<form>
+						<input type="hidden" name="url" value="http://www.smilesoftware.com/te4/HTML_CSS.textexpander" />
+						<button type="button" id="addgroup" onClick="submit_addgroup(this.form);">Add Group</button>
+					</form>
+				</span>
+			</td>
+		</tr>
+	</table>
+
+<div class="buttons">
+	<form action="textexpander:///6_fillin.html;action=subtext&vers=1" method="GET">
+		<button type="submit" onClick="this.form.action = 'textexpander:///4_letter.html;action=subtext&vers=1';">&lt; Back</button>
+		<button type="submit" onClick="this.form.action = 'textexpander:///6_fillin.html;action=subtext&vers=1';">Next &gt;</button>
+	</form>
+</div>
+
+<div class="footer"><img src="icon_textexpander_sm.png" alt="TextExpander Icon">
+<p>TextExpander Snippet Creation Assistant</p>
+</div>
+</div>
+</body>
+</html>

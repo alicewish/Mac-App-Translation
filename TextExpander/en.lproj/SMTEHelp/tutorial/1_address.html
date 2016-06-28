@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"><link href="tetutorial.css" rel="stylesheet" type="text/css">
+	<title>TextExpander Tutorial - Save Time - Contact Info</title>
+	<meta name="ROBOTS" content="NOINDEX">
+	<script type="text/javascript">
+	// TE Tutorial script stuff
+
+	function change_status(theForm, status) {
+		// find button and text
+		var button = null;
+		for (var i = 0; i < theForm.elements.length; i++) {
+			var element = theForm.elements[i];
+			if (element.id == "update") { button = element; break; }
+		}
+		if (button == null) { return; }
+		if (status == "changed") {
+			if (button.innerHTML != "Create") {
+				button.innerHTML = "Update";
+			}
+			button.disabled = false;
+			button.style.visibility = "visible";
+		}
+		else if (status == "saved") {
+			button.innerHTML = "Saved.";
+			button.disabled = true;
+			button.style.visibility = "visible";
+		}
+		else if (status == "working") {
+			button.innerHTML = "Working...";
+			button.disabled = true;
+			button.style.visibility = "visible";
+		}
+		else if (status == "error") {
+			button.innerHTML = "Error!";
+			button.disabled = true;
+			button.style.visibility = "visible";
+		}
+	}
+
+	function submit_update(theForm) {
+		// find values
+		var uid = "";
+		var newText = "";
+		var newAbrv = "";
+		for (var i = 0; i < theForm.elements.length; i++) {
+			var element = theForm.elements[i];
+			if (element.name == "uid") { uid = element.value; }
+			if (element.name == "newplaintext") { newText = element.value; }
+			if (element.name == "abrv") { newAbrv = element.value; }
+		}
+		var xmlhttp = new XMLHttpRequest();
+		var url = "textexpander:///;action=editsnippet&vers=1&uid=" + uid + "&newplaintext=" + encodeURIComponent(newText) + "&newabrv=" + encodeURIComponent(newAbrv);
+		xmlhttp.onload = function() {
+			if (this.status == 0) {
+				var statusText = this.responseText;
+				// Trim the "STATUS\tCODE" portion and newline from the front of the string
+				statusText = statusText.replace("STATUS\tCODE","");
+				statusText = statusText.replace(/[\n\r]/mg,"");
+				if (statusText == "OK\t0") {
+					change_status(theForm, "saved");
+				}
+				else {
+					change_status(theForm, "error");
+					// Set the scratch field to the returned status so that we can see it
+					document.getElementById('id:scratch').innerHTML = statusText;
+				}
+			}
+		}
+		xmlhttp.onerror = function() {
+			change_status(theForm, "error");
+		}
+		xmlhttp.open("GET", url);
+		change_status(theForm, "working");
+		xmlhttp.send(null);
+		return false;
+	}
+		
+	function revealrow(revealForm, whichIDstr) {
+		// find button and hide it
+		var button = null;
+		for (var i = 0; i < revealForm.elements.length; i++) {
+			var element = revealForm.elements[i];
+			if (element.id == "revealbutton") { button = element; break; }
+		}
+		if (button == null) { return; }
+		button.disabled = true;
+//		button.style.visibility = "hidden";
+		revealForm.style.visibility = "hidden";
+		
+		// find hidden form and row and reveal it
+		var matchname = "id:form." + whichIDstr;
+		for (var i = 0; i < document.forms.length; i++) {
+			var theForm = document.forms[i];
+			if (theForm.style.visibility == "hidden" && theForm.id == matchname) {
+				theForm = theForm;
+				theForm.style.visibility = "visible";
+				break;
+			}
+		}
+		var theRow = document.getElementById("id:row." + whichIDstr);
+		theRow.style.visibility = "visible";
+	}
+	</script>
+	<script type="text/javascript">
+	// Get the textarea of single-line items sized down to make page look nicer, fit better
+	function countLines(strtocount, cols) {
+		var lines = 1;
+		var last = 0;
+		var next = 0;
+		var lineLen = 0;
+		while ( true ) {
+			next = strtocount.indexOf("\n", last);
+			if (next == -1) { next = strtocount.indexOf("\r", last); }
+			if (next == -1) { lineLen = strtocount.length - last; }
+			else { lineLen = next - last; }
+			if (lineLen > cols) { lines = lines + Math.round(lineLen / cols - 0.49); }
+			if (next == -1 || next >= strtocount.length) { break; }
+			lines ++;
+			last = next + 1;
+		}
+		return lines;
+	}
+
+	function shrinkTextAreas() {
+		for (var i = 0; i < document.forms.length; i++) {
+			var theForm = document.forms[i];
+			if (theForm.visibility != "hidden") {
+				for (var j = 0; j < theForm.elements.length; j++) {
+					var element = theForm.elements[j];
+					if (element.name == "newplaintext") {
+						var rows = countLines(element.innerHTML, element.cols);
+						if (rows < 3) { element.rows = rows; }
+						break;
+					}
+				}
+			}
+		}
+	}
+	
+	// Multiple onload function created by: Simon Willison
+	// http://simon.incutio.com/archive/2004/05/26/addLoadEvent
+	function addLoadEvent(func) {
+	  var oldonload = window.onload;
+	  if (typeof window.onload != 'function') {
+	    window.onload = func;
+	  } else {
+	    window.onload = function() {
+	      if (oldonload) {
+	        oldonload();
+	      }
+	      func();
+	    }
+	  }
+	}
+
+	addLoadEvent(shrinkTextAreas);
+	</script>
+</head>
+<body>
+<div class="tutorial">
+	<h1>Use snippets for all your contact info</h1>
+<p>How many times each day do you type your own email address, phone number or mailing address? Create TextExpander snippets for this info, and you'll cut down on unnecessary typing!</p>
+	<p>Based on the info in Contacts, TextExpander has created the following snippets for you. You can edit the info in the snippet, as well as the assigned abbreviation.</p>
+<table>
+	<tr>
+	 <th>Item</th>
+	 <th>Your Info</th>
+	 <th>Abbreviation</th>
+     <td></td>
+	</tr>
+	<form>	<!-- email -->
+		<tr>
+			<td>[[TEP_snippet_label:uid_88A5859C-26A7-4D8D-904D-30AAAE53A5CB]]<input type="hidden" name="uid" value="88A5859C-26A7-4D8D-904D-30AAAE53A5CB" /></td>
+			<td><textarea name="newplaintext" rows="1" cols="40" wrap=HARD onChange="change_status(this.form, 'changed');">[[TEP_snippet_content:uid_88A5859C-26A7-4D8D-904D-30AAAE53A5CB]]</textarea></td>
+			<td><input type="text" name="abrv" value="[[TEP_snippet_abrv:uid_88A5859C-26A7-4D8D-904D-30AAAE53A5CB]]" size="8" onChange="change_status(this.form, 'changed');" /></td>
+			<td><button type="button" id="update" style="visibility: hidden;" onClick="submit_update(this.form);">Update</button></td>
+		</tr>
+	</form>
+	<form>	<!-- phone -->
+		<tr>
+			<td>[[TEP_snippet_label:uid_4AEA8CB9-0360-4508-9DAB-EF22D91BB4C4]]<input type="hidden" name="uid" value="4AEA8CB9-0360-4508-9DAB-EF22D91BB4C4" /></td>
+			<td><textarea name="newplaintext" rows="1" cols="40" wrap=HARD onChange="change_status(this.form, 'changed');">[[TEP_snippet_content:uid_4AEA8CB9-0360-4508-9DAB-EF22D91BB4C4]]</textarea></td>
+			<td><input type="text" name="abrv" value="[[TEP_snippet_abrv:uid_4AEA8CB9-0360-4508-9DAB-EF22D91BB4C4]]" size="8" onChange="change_status(this.form, 'changed');" /></td>
+			<td><button type="button" id="update" style="visibility: hidden;" onClick="submit_update(this.form);">Update</button></td>
+		</tr>
+	</form>
+	<form>	<!-- home address -->
+		<tr>
+			<td>[[TEP_snippet_label:uid_19A04825-34B2-4514-91F3-E9C31ECE7ADC]]<input type="hidden" name="uid" value="19A04825-34B2-4514-91F3-E9C31ECE7ADC" /></td>
+			<td><textarea name="newplaintext" rows="3" cols="40" wrap=HARD onChange="change_status(this.form, 'changed');">[[TEP_snippet_content:uid_19A04825-34B2-4514-91F3-E9C31ECE7ADC]]</textarea></td>
+			<td><input type="text" name="abrv" value="[[TEP_snippet_abrv:uid_19A04825-34B2-4514-91F3-E9C31ECE7ADC]]" size="8" onChange="change_status(this.form, 'changed');" /></td>
+			<td><button type="button" id="update" style="visibility: hidden;" onClick="submit_update(this.form);">Update</button></td>
+		</tr>
+	</form>
+</table>
+<h2>Let's try out your new snippets!</h2>
+<p>We've created a snippet test area below. Try typing the abbreviations to see how TextExpander works:</p>
+<form>
+<p><textarea name="scratch" rows="4" cols="60" wrap="soft" id="id:scratch" placeholder="Type your snippet abbreviations here." onfocus="this.placeholder='';"></textarea></p>
+</form>
+
+<div class="buttons">
+	<form action="textexpander:///2_time.html;action=subtext&vers=1" method="GET">
+		<button type="submit" onClick="this.form.action = 'textexpander:///index.html;action=subtext&vers=1';">&lt; Back</button>
+		<button type="submit" onClick="this.form.action = 'textexpander:///2_time.html;action=subtext&vers=1';">Next &gt;</button>
+	</form>
+</div>
+<div class="footer"><img src="icon_textexpander_sm.png" alt="TextExpander Icon">
+<p>TextExpander Snippet Creation Assistant</p>
+</div>
+</div>
+</body>
+</html>

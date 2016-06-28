@@ -1,0 +1,11 @@
+## Focused Writing
+
+Ulysses offers the essential tools for the entire writing process _and_ a distraction-free working environment. The following features specifically aim to help keep you in the flow.
+
+First-off, there is _Full Screen Mode_ (“View › Enter Full Screen”) – make sure to hide the library and the sheet list (`⌘3`) to block out everything.
+
+_Minimal Mode_ makes the toolbar fade out in windowed mode as soon as you start typing or scrolling. If you prefer, you can also keep the toolbar visible at all times, even in Full Screen (“View › Always Show Toolbar”).
+
+_Typewriter Scrolling_ keeps the line you’re currently typing in vertically fixed on your screen. It is available in several variants (“View › Typewriter Scrolling”).
+
+_Line Highlight_, well, highlights the line you’re currently typing in (“View › Highlight Current Line”).
