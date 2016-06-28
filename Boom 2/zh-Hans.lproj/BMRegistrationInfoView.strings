@@ -1,0 +1,33 @@
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "0TY-Kh-U0q"; */
+"0TY-Kh-U0q.title" = "注册";
+
+/* Class = "NSTextFieldCell"; title = "Register"; ObjectID = "COJ-VC-eQG"; */
+"COJ-VC-eQG.title" = "注册";
+
+/* Class = "NSTextFieldCell"; title = "< Registration Code >"; ObjectID = "PJ1-hG-yyc"; */
+"PJ1-hG-yyc.title" = "<注册码>";
+
+/* Class = "NSTextFieldCell"; title = "Registration Code :"; ObjectID = "Ppy-0M-pml"; */
+"Ppy-0M-pml.title" = "注册码：";
+
+/* Class = "NSButtonCell"; title = "Unregister"; ObjectID = "VUY-O4-Vgu"; */
+"VUY-O4-Vgu.title" = "注销";
+
+/* Class = "NSButtonCell"; title = "Purchase"; ObjectID = "WFU-nt-fPc"; */
+"WFU-nt-fPc.title" = "购买";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "drJ-Uh-S7t"; */
+"drJ-Uh-S7t.title" = "标签";
+
+/* Class = "NSTextFieldCell"; title = "Email :"; ObjectID = "mj7-gQ-t7O"; */
+"mj7-gQ-t7O.title" = "电子邮件：";
+
+/* Class = "NSButtonCell"; title = "Check for Update"; ObjectID = "rWu-Wz-jO6"; */
+"rWu-Wz-jO6.title" = "检查更新";
+
+/* Class = "NSTextFieldCell"; title = "< Email Id >"; ObjectID = "xlL-9l-igD"; */
+"xlL-9l-igD.title" = "<电子邮件 ID>";
+
+/* Class = "NSButtonCell"; title = "Check for Update"; ObjectID = "y7A-mO-IVJ"; */
+"y7A-mO-IVJ.title" = "检查更新";
+

@@ -1,0 +1,12 @@
+/* Class = "NSButtonCell"; title = "Enable Password Protection"; ObjectID = "5"; */
+"5.title" = "启用密码保护";
+
+/* Class = "NSButtonCell"; title = "Change Password..."; ObjectID = "7"; */
+"7.title" = "修改密码……";
+
+/* Class = "NSButtonCell"; title = "Lock after minutes of system inactivity"; ObjectID = "9"; */
+"9.title" = "系统不活动数分钟后锁定";
+
+/* Class = "NSButtonCell"; title = "Lock when sleeping"; ObjectID = "11"; */
+"11.title" = "睡眠时锁定";
+

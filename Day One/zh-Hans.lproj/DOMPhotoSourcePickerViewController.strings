@@ -1,0 +1,18 @@
+/* Class = "NSTextFieldCell"; title = "View Photo"; ObjectID = "4tO-3r-ThQ"; */
+"4tO-3r-ThQ.title" = "查看照片";
+
+/* Class = "NSTextFieldCell"; title = "Move Photo to Trash"; ObjectID = "6bm-vM-IcF"; */
+"6bm-vM-IcF.title" = "把照片移至垃圾箱";
+
+/* Class = "NSTextFieldCell"; title = "Cancel"; ObjectID = "7yr-jy-qOw"; */
+"7yr-jy-qOw.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Take Picture"; ObjectID = "JGg-9W-bd4"; */
+"JGg-9W-bd4.title" = "拍照";
+
+/* Class = "NSTextFieldCell"; title = "Choose from Finder"; ObjectID = "O9Q-GH-exQ"; */
+"O9Q-GH-exQ.title" = "从Finder中选择";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "VZ9-R7-Uj8"; */
+"VZ9-R7-Uj8.title" = "文本框";
+

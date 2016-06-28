@@ -1,0 +1,12 @@
+/* Class = "NSTextFieldCell"; title = "Color:"; ObjectID = "FKO-zg-Vem"; */
+"FKO-zg-Vem.title" = "颜色：";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "RVM-uz-Zhd"; */
+"RVM-uz-Zhd.title" = "文本框";
+
+/* Class = "NSTableColumn"; headerCell.title = "Journal"; ObjectID = "cOi-3O-eE2"; */
+"cOi-3O-eE2.headerCell.title" = "日记本";
+
+/* Class = "NSTextFieldCell"; title = "Journal Name:"; ObjectID = "gZs-XN-VwN"; */
+"gZs-XN-VwN.title" = "日志名称：";
+

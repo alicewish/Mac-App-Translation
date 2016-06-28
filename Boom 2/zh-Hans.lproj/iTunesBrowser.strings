@@ -1,0 +1,69 @@
+/* Class = "NSTableCellView"; ibExternalAccessibilityDescription = "artist"; ObjectID = "0RR-Rb-UJt"; */
+"0RR-Rb-UJt.ibExternalAccessibilityDescription" = "艺术家";
+
+/* Class = "NSWindow"; title = "Boom - iTunes Browser"; ObjectID = "1"; */
+"1.title" = "Boom - iTunes 浏览器";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "2Bp-MJ-6S9"; */
+"2Bp-MJ-6S9.title" = "表格视图单元格";
+
+/* Class = "NSTableColumn"; headerCell.title = "Album"; ObjectID = "3RH-rr-o5K"; */
+"3RH-rr-o5K.headerCell.title" = "专辑";
+
+/* Class = "NSTableCellView"; ibExternalAccessibilityDescription = "copy right"; ObjectID = "6LD-xa-cAo"; */
+"6LD-xa-cAo.ibExternalAccessibilityDescription" = "copy right";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "choose"; ObjectID = "16"; */
+"16.ibExternalAccessibilityDescription" = "选择";
+
+/* Class = "NSButtonCell"; title = "Choose"; ObjectID = "17"; */
+"17.title" = "选择";
+
+/* Class = "NSTableCellView"; ibExternalAccessibilityDescription = "song name"; ObjectID = "22M-HB-gjC"; */
+"22M-HB-gjC.ibExternalAccessibilityDescription" = "";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "preview"; ObjectID = "51"; */
+"51.ibExternalAccessibilityDescription" = "预览";
+
+/* Class = "NSSearchField"; ibExternalAccessibilityDescription = "search"; ObjectID = "55"; */
+"55.ibExternalAccessibilityDescription" = "";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "BwJ-cg-AR5"; */
+"BwJ-cg-AR5.title" = "文本单元";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Csz-cG-fSn"; */
+"Csz-cG-fSn.title" = "文本单元";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "HF8-J6-tjQ"; */
+"HF8-J6-tjQ.title" = "表格视图单元格";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "OmX-jp-VcV"; */
+"OmX-jp-VcV.title" = "表格视图单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Qvp-Ow-EQq"; */
+"Qvp-Ow-EQq.title" = "文本单元";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "song name"; ObjectID = "avC-yf-0el"; */
+"avC-yf-0el.ibExternalAccessibilityDescription" = "姓名";
+
+/* Class = "NSTableCellView"; ibExternalAccessibilityDescription = "album"; ObjectID = "edX-Vg-Ef0"; */
+"edX-Vg-Ef0.ibExternalAccessibilityDescription" = "专辑";
+
+/* Class = "NSTextFieldCell"; title = "HEADER CELL"; ObjectID = "g2e-8F-VZG"; */
+"g2e-8F-VZG.title" = "标题单元格";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "nKU-PQ-4VI"; */
+"nKU-PQ-4VI.title" = "文本单元";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "nkC-7N-74e"; */
+"nkC-7N-74e.title" = "文本单元";
+
+/* Class = "NSTableColumn"; headerCell.title = "Artist"; ObjectID = "ny2-gD-54K"; */
+"ny2-gD-54K.headerCell.title" = "艺术家";
+
+/* Class = "NSTableColumn"; headerCell.title = "Name"; ObjectID = "wU6-KG-iUh"; */
+"wU6-KG-iUh.headerCell.title" = "姓名";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "zUx-Cb-nU7"; */
+"zUx-Cb-nU7.title" = "表格视图单元格";
+

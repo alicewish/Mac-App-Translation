@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Are you sure you want to delete %lu entries in this journal?</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>Are you sure you want to delete %#@num_entries@ this journal?</string>
+		<key>num_entries</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lu</string>
+			<key>zero</key>
+			<string></string>
+			<key>one</key>
+			<string>one entry in</string>
+			<key>other</key>
+			<string>%lu entries in</string>
+		</dict>
+	</dict>
+	<key>%d entries and %d photos have been imported.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_entries@ and %#@num_photos@ have been imported.</string>
+		<key>num_entries</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d entry</string>
+			<key>other</key>
+			<string>%d entries</string>
+		</dict>
+		<key>num_photos</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%d photo</string>
+			<key>other</key>
+			<string>%d photos</string>
+		</dict>
+	</dict>
+	<key>%d additional duplicate entries were detected and not imported.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_dups@ detected and not imported.</string>
+		<key>num_dups</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>One duplicate entry was</string>
+			<key>other</key>
+			<string>%d duplicate entries were</string>
+		</dict>
+	</dict>
+	<key>%d entries had errors and could not be imported.</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@num_entries@ had errors and could not be imported.</string>
+		<key>num_entries</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>One entry</string>
+			<key>other</key>
+			<string>%d entries</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

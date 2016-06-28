@@ -1,0 +1,12 @@
+/* Class = "NSMenu"; title = "Menu Preferences"; ObjectID = "68"; */
+"68.title" = "菜单设置";
+
+/* Class = "NSMenuItem"; title = "Lock Journal"; ObjectID = "98"; */
+"98.title" = "锁定日志";
+
+/* Class = "NSMenuItem"; title = "Preferences"; ObjectID = "99"; */
+"99.title" = "偏好设置";
+
+/* Class = "NSMenuItem"; title = "New Entry"; ObjectID = "100"; */
+"100.title" = "新条目";
+

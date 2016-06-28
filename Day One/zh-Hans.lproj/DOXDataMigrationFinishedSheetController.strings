@@ -1,0 +1,15 @@
+/* Class = "NSTextFieldCell"; title = "Import Finished"; ObjectID = "1OS-d1-RLP"; */
+"1OS-d1-RLP.title" = "导入完成";
+
+/* Class = "NSTextFieldCell"; title = "N entries and N photo have been imported."; ObjectID = "Bft-Bm-bLi"; */
+"Bft-Bm-bLi.title" = "N个条目和N张照片已导入。";
+
+/* Class = "NSButtonCell"; title = "Show Errors"; ObjectID = "FLn-LZ-UQA"; */
+"FLn-LZ-UQA.title" = "显示错误";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "Sqp-EC-qyK"; */
+"Sqp-EC-qyK.title" = "确认";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "mpV-cv-hE6"; */
+"mpV-cv-hE6.title" = "窗口";
+

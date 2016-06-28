@@ -1,0 +1,45 @@
+/* Class = "NSButtonCell"; title = " Sign me up for Boom 2 Newsletters"; ObjectID = "1Ew-zz-Tei"; */
+"1Ew-zz-Tei.title" = " 注册接收 Boom 2 业务通讯";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "5Vk-k5-VFQ"; */
+"5Vk-k5-VFQ.title" = "取消";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "completed registration"; ObjectID = "6JX-to-Ffp"; */
+"6JX-to-Ffp.ibExternalAccessibilityDescription" = "现在您的注册已完成。";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "24N-YB-kix"; */
+"24N-YB-kix.title" = "注册";
+
+/* Class = "NSVisualEffectView"; ibExternalAccessibilityDescription = "registration in progress"; ObjectID = "FET-nx-m3k"; */
+"FET-nx-m3k.ibExternalAccessibilityDescription" = "registration in progress";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "registration progress"; ObjectID = "QoP-0m-FCj"; */
+"QoP-0m-FCj.ibExternalAccessibilityDescription" = "registration progress";
+
+/* Class = "NSButtonCell"; title = "Let's Start Booming"; ObjectID = "TZg-Nz-Uyh"; */
+"TZg-Nz-Uyh.title" = "我们开始增强音量吧";
+
+/* Class = "NSTextFieldCell"; title = "Registering you for Boom 2"; ObjectID = "UvW-dH-124"; */
+"UvW-dH-124.title" = "注册以获得 Boom 2";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "WFH-g2-DOS"; */
+"WFH-g2-DOS.title" = "取消";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Name"; ObjectID = "c63-zS-Y5E"; */
+"c63-zS-Y5E.placeholderString" = "姓名";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Email Address Provided During Purchase"; ObjectID = "dlJ-tV-tZ9"; */
+"dlJ-tV-tZ9.placeholderString" = "购买时提供的电子邮件地址";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Registration Code"; ObjectID = "fnV-vk-azN"; */
+"fnV-vk-azN.placeholderString" = "注册码";
+
+/* Class = "NSTextFieldCell"; title = "Your registration is now complete."; ObjectID = "qqq-aB-kya"; */
+"qqq-aB-kya.title" = "现在您的注册已完成。";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "Registration VIew"; ObjectID = "s4E-Ow-Q2q"; */
+"s4E-Ow-Q2q.ibExternalAccessibilityDescription" = "注册信息";
+
+/* Class = "NSVisualEffectView"; ibExternalAccessibilityDescription = "registration completed"; ObjectID = "vN1-89-sL2"; */
+"vN1-89-sL2.ibExternalAccessibilityDescription" = "现在您的注册已完成。";
+

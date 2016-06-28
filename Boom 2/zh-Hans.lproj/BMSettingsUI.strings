@@ -1,0 +1,66 @@
+/* Class = "NSTextFieldCell"; title = "Updating..."; ObjectID = "1Eh-Wf-YOi"; */
+"1Eh-Wf-YOi.title" = "正在更新...";
+
+/* Class = "NSButtonCell"; title = "\n  Keep Boom Helper running when\n  I quit Boom"; ObjectID = "9hl-pq-FGL"; */
+"9hl-pq-FGL.title" = "\n  我退出 Boom 时 让\n  Boom Helper 一直运行 ";
+
+/* Class = "NSTextFieldCell"; title = "BOOM 2"; ObjectID = "9ob-fV-5iI"; */
+"9ob-fV-5iI.title" = "BOOM 2";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "35j-3Z-XW2"; */
+"35j-3Z-XW2.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "Skip Version"; ObjectID = "Ab1-ce-N6Q"; */
+"Ab1-ce-N6Q.title" = "跳过版本";
+
+/* Class = "NSScrollView"; ibExternalAccessibilityDescription = "settings and registration info"; ObjectID = "BnW-Lr-ubP"; */
+"BnW-Lr-ubP.ibExternalAccessibilityDescription" = "设置与注册信息";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "EoP-d6-MMf"; */
+"EoP-d6-MMf.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Copyright © 2008 - 2015, Global Delight Technologies Pvt. Ltd. All rights reserved."; ObjectID = "G2U-M8-xpJ"; */
+"G2U-M8-xpJ.title" = "版权 © 2008 - 2016, Global Delight Technologies Pvt. Ltd. 保留所有权利";
+
+/* Class = "NSButtonCell"; title = "  Start Boom 2 at login"; ObjectID = "NvI-dV-hMt"; */
+"NvI-dV-hMt.title" = "  登录时启动 Boom 2";
+
+/* Class = "NSTextFieldCell"; title = "Version 1.0"; ObjectID = "Q1t-Vi-RtG"; */
+"Q1t-Vi-RtG.title" = "版本 1.0";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "general preferences"; ObjectID = "QeD-nt-cGL"; */
+"QeD-nt-cGL.ibExternalAccessibilityDescription" = "通用首选项";
+
+/* Class = "NSButtonCell"; title = "Uninstall Boom 2"; ObjectID = "Rey-Hy-yAo"; */
+"Rey-Hy-yAo.title" = "卸载 Boom 2";
+
+/* Class = "NSImageView"; ibExternalAccessibilityDescription = "Boom2"; ObjectID = "W9q-os-KLR"; */
+"W9q-os-KLR.ibExternalAccessibilityDescription" = "Boom 2 ";
+
+/* Class = "NSTextFieldCell"; title = "A new version of Boom 2 is available"; ObjectID = "Ya3-P0-kgZ"; */
+"Ya3-P0-kgZ.title" = "发现新版本 Boom 2";
+
+/* Class = "NSButtonCell"; title = "\n  Play feedback when Boom audio\n  Level is changed"; ObjectID = "bsK-K2-XIr"; */
+"bsK-K2-XIr.title" = "\n  Boom 音频大小更改时\n  播放反馈";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "boom remote"; ObjectID = "cCW-hH-tSM"; */
+"cCW-hH-tSM.ibExternalAccessibilityDescription" = "Boom2 远程";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "info"; ObjectID = "eD6-0G-Sbk"; */
+"eD6-0G-Sbk.ibExternalAccessibilityDescription" = "";
+
+/* Class = "NSButtonCell"; title = "Update"; ObjectID = "jOe-si-9vl"; */
+"jOe-si-9vl.title" = "更新";
+
+/* Class = "NSButtonCell"; title = "  Play feedback when Boom audio level is changed"; ObjectID = "qHK-Fn-WT8"; */
+"qHK-Fn-WT8.title" = " Boom 音频大小更改时播放反馈";
+
+/* Class = "NSButtonCell"; title = "  Keep Boom Helper running when I quit Boom"; ObjectID = "qfa-XE-DHj"; */
+"qfa-XE-DHj.title" = " 我退出 Boom 时让 Boom Helper 一直运行 ";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "registration info"; ObjectID = "rfD-jQ-MfI"; */
+"rfD-jQ-MfI.ibExternalAccessibilityDescription" = "注册信息";
+
+/* Class = "NSTextFieldCell"; title = "General Preferences"; ObjectID = "was-Nb-yvE"; */
+"was-Nb-yvE.title" = "通用首选项";
+

@@ -1,0 +1,21 @@
+/* Class = "NSButtonCell"; title = "Purchase"; ObjectID = "6xA-ky-iWw"; */
+"6xA-ky-iWw.title" = "购买";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "greetings"; ObjectID = "Fjm-CR-0P3"; */
+"Fjm-CR-0P3.ibExternalAccessibilityDescription" = "开始增强音量吧！";
+
+/* Class = "NSTextFieldCell"; title = "Get Booming!"; ObjectID = "KQi-jT-1Wy"; */
+"KQi-jT-1Wy.title" = "开始增强音量吧！";
+
+/* Class = "NSTextFieldCell"; title = "This is a 7 days trial of Boom 2. Warning! Prolonged use may cause addiction!\n\nClick on Purchase to buy Boom 2. If you have already done so, then click on Register and use the registration code."; ObjectID = "Qew-By-5Tk"; */
+"Qew-By-5Tk.title" = "Boom 2 提供 7 天的试用期。警告！过多使用可能会导致沉迷！\n\n点击“购买”买下 Boom 2。如果您已经购买了，点击“注册”，然后使用注册码。";
+
+/* Class = "NSButtonCell"; title = "Trial"; ObjectID = "wVb-3a-dXU"; */
+"wVb-3a-dXU.title" = "试用";
+
+/* Class = "NSWindow"; title = "Welcome to Boom2"; ObjectID = "yhY-bS-0pD"; */
+"yhY-bS-0pD.title" = "欢迎使用 Boom 2";
+
+/* Class = "NSButtonCell"; title = "Register"; ObjectID = "zYI-Ug-LF5"; */
+"zYI-Ug-LF5.title" = "注册";
+

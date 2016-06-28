@@ -1,0 +1,72 @@
+/* Class = "NSButtonCell"; title = "Account Info..."; ObjectID = "0c9-PM-WeK"; */
+"0c9-PM-WeK.title" = "账户信息……";
+
+/* Class = "NSTextFieldCell"; title = "On Startup"; ObjectID = "2YM-ON-o9Y"; */
+"2YM-ON-o9Y.title" = "启动时显示";
+
+/* Class = "NSButtonCell"; title = "Sync Now"; ObjectID = "5Zh-n6-T6k"; */
+"5Zh-n6-T6k.title" = "现在同步";
+
+/* Class = "NSTextFieldCell"; title = "Global Menu Bar Shortcut"; ObjectID = "6Us-Wd-wf1"; */
+"6Us-Wd-wf1.title" = "全局菜单栏快捷键";
+
+/* Class = "NSButtonCell"; title = "Production"; ObjectID = "CDm-qX-bU3"; */
+"CDm-qX-bU3.title" = "生产";
+
+/* Class = "NSTextFieldCell"; title = "Auto-split Dual-pane"; ObjectID = "Cd6-Ki-Xai"; */
+"Cd6-Ki-Xai.title" = "自动切换双栏显示";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "EeK-PW-j8K"; */
+"EeK-PW-j8K.title" = "完成";
+
+/* Class = "NSMenuItem"; title = "Calendar"; ObjectID = "ILp-1M-SUD"; */
+"ILp-1M-SUD.title" = "日历";
+
+/* Class = "NSButtonCell"; title = "Custom: "; ObjectID = "Jl4-XU-Mjz"; */
+"Jl4-XU-Mjz.title" = "定制：";
+
+/* Class = "NSButtonCell"; title = "Sign In"; ObjectID = "Ki6-gv-vyk"; */
+"Ki6-gv-vyk.title" = "登录";
+
+/* Class = "NSTextFieldCell"; title = "Choose a sync server"; ObjectID = "LKZ-Vu-hYi"; */
+"LKZ-Vu-hYi.title" = "选择一个同步服务器";
+
+/* Class = "NSTextFieldCell"; title = "(Must be enabled for Reminders)"; ObjectID = "MLH-Nn-F8a"; */
+"MLH-Nn-F8a.title" = "（必须为提醒而启用）";
+
+/* Class = "NSTextFieldCell"; title = "Sync Status"; ObjectID = "Mf4-ef-3it"; */
+"Mf4-ef-3it.title" = "同步状态";
+
+/* Class = "NSTextFieldCell"; title = "Auto Add Location"; ObjectID = "OFB-FG-o8y"; */
+"OFB-FG-o8y.title" = "自动添加位置";
+
+/* Class = "NSMenuItem"; title = "Last Selected View"; ObjectID = "TwQ-RS-KxD"; */
+"TwQ-RS-KxD.title" = "最后选择的视图";
+
+/* Class = "NSButtonCell"; title = "Staging"; ObjectID = "YOi-cR-48q"; */
+"YOi-cR-48q.title" = "正在酝酿";
+
+/* Class = "NSTextFieldCell"; title = "(If window is wider than 750 pt)"; ObjectID = "aSr-sl-lTL"; */
+"aSr-sl-lTL.title" = "（如果窗口宽度大于750 pt）";
+
+/* Class = "NSMenuItem"; title = "Map"; ObjectID = "b1i-Vs-WKe"; */
+"b1i-Vs-WKe.title" = "地图";
+
+/* Class = "NSMenuItem"; title = "Timeline List"; ObjectID = "ffl-SB-woX"; */
+"ffl-SB-woX.title" = "时间线列表";
+
+/* Class = "NSMenuItem"; title = "New Entry"; ObjectID = "jBl-1e-joi"; */
+"jBl-1e-joi.title" = "新条目";
+
+/* Class = "NSTextFieldCell"; title = "Show Menu Bar Entry"; ObjectID = "nHz-GM-d40"; */
+"nHz-GM-d40.title" = "显示菜单栏条目";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "nLu-pe-FLn"; */
+"nLu-pe-FLn.title" = "其他视图";
+
+/* Class = "NSTextFieldCell"; title = "Restart the app after making changes."; ObjectID = "w0q-Pb-Mer"; */
+"w0q-Pb-Mer.title" = "在修改后重启应用。";
+
+/* Class = "NSMenuItem"; title = "Photo Timeline"; ObjectID = "wsq-Yj-m7Y"; */
+"wsq-Yj-m7Y.title" = "照片时间线";
+

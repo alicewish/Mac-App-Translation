@@ -1,0 +1,42 @@
+/* Class = "NSTextFieldCell"; title = " Introducing The Boom 2 Remote App!"; ObjectID = "GDk-uf-P5E"; */
+"GDk-uf-P5E.title" = "介绍 Boom 2 远程应用程序！";
+
+/* Class = "NSViewController"; title = "SecondView"; ObjectID = "GjV-oR-NLE"; */
+"GjV-oR-NLE.title" = "";
+
+/* Class = "NSViewController"; title = "FourthScene"; ObjectID = "Hgf-ld-R1T"; */
+"Hgf-ld-R1T.title" = "";
+
+/* Class = "NSTextFieldCell"; title = " Control Boom 2 and select Mac media apps from your iPhone or iPad"; ObjectID = "SCO-yw-5ur"; */
+"SCO-yw-5ur.title" = "使用iPhone或iPad控制 Boom 2 并选择 Mac 媒体应用程序";
+
+/* Class = "NSViewController"; title = "thirdScene"; ObjectID = "Sa3-Qu-vuH"; */
+"Sa3-Qu-vuH.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "Ambience"; ObjectID = "Xz0-5X-1BR"; */
+"Xz0-5X-1BR.title" = "Ambience";
+
+/* Class = "NSViewController"; title = "FirstView"; ObjectID = "aG2-tn-hHu"; */
+"aG2-tn-hHu.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "Boom Volume 75%"; ObjectID = "bhu-7u-Cxq"; */
+"bhu-7u-Cxq.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "Fidelity"; ObjectID = "fYm-8L-uUv"; */
+"fYm-8L-uUv.title" = "Fidelity";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "next"; ObjectID = "lkB-OX-xG3"; */
+"lkB-OX-xG3.ibExternalAccessibilityDescription" = "";
+
+/* Class = "NSViewController"; title = "Five"; ObjectID = "mph-PF-Jc4"; */
+"mph-PF-Jc4.title" = "";
+
+/* Class = "NSButtonCell"; title = "Remind me Later"; ObjectID = "nEf-7b-dX8"; */
+"nEf-7b-dX8.title" = "";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "download from appstore"; ObjectID = "rKa-L5-emd"; */
+"rKa-L5-emd.ibExternalAccessibilityDescription" = "";
+
+/* Class = "NSTextFieldCell"; title = "Mac Volume 50%"; ObjectID = "tSP-QL-7Vg"; */
+"tSP-QL-7Vg.title" = "";
+

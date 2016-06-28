@@ -1,0 +1,18 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "窗口";
+
+/* Class = "NSButtonCell"; title = "Current Date"; ObjectID = "8"; */
+"8.title" = "现在日期";
+
+/* Class = "NSButtonCell"; title = "Change"; ObjectID = "9"; */
+"9.title" = "修改";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "10"; */
+"10.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Change entry date"; ObjectID = "11"; */
+"11.title" = "改变条目日期";
+
+/* Class = "NSTextFieldCell"; title = "Moutain Time"; ObjectID = "Bj5-sp-ik8"; */
+"Bj5-sp-ik8.title" = "北美山地标准时间";
+

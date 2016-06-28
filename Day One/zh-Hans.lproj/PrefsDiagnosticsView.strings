@@ -1,0 +1,45 @@
+/* Class = "NSTextFieldCell"; title = "Test failed"; ObjectID = "1Bd-wj-ck8"; */
+"1Bd-wj-ck8.title" = "测试失败";
+
+/* Class = "NSButtonCell"; title = "Contact Support"; ObjectID = "Hh2-xb-WXh"; */
+"Hh2-xb-WXh.title" = "联系支持团队";
+
+/* Class = "NSTextFieldCell"; title = "Push Notifications"; ObjectID = "MdU-KR-E78"; */
+"MdU-KR-E78.title" = "推送通知";
+
+/* Class = "NSTextFieldCell"; title = "Push notifications are used to ensure fast sync between your devices. If your entries are taking a while to sync, try this test."; ObjectID = "SkT-bN-scg"; */
+"SkT-bN-scg.title" = "推送通知可确保设备间的快速同步。如果你的条目需要一段时间才能同步，可以尝试这个测试。";
+
+/* Class = "NSButtonCell"; title = "Test Push Notifications"; ObjectID = "X6A-DG-2Z1"; */
+"X6A-DG-2Z1.title" = "测试推送通知";
+
+/* Class = "NSButtonCell"; title = "Email Diagnostics"; ObjectID = "a1H-jP-ExA"; */
+"a1H-jP-ExA.title" = "通过电子邮件发送诊断";
+
+/* Class = "NSTextFieldCell"; title = "Diagnostics"; ObjectID = "aRj-PR-mIB"; */
+"aRj-PR-mIB.title" = "诊断";
+
+/* Class = "NSTextFieldCell"; title = "Testing..."; ObjectID = "eb2-7U-abu"; */
+"eb2-7U-abu.title" = "正在测试……";
+
+/* Class = "NSTextFieldCell"; title = "Diagnostics help our support team solve problems you may be having. Don't worry, the content of your journal is private and is not included in this report."; ObjectID = "gX0-Ox-zSa"; */
+"gX0-Ox-zSa.title" = "诊断报告帮助我们的支持团队解决您可能遇到的问题。别担心，日记内容是保密的，不会出现在报告中。";
+
+/* Class = "NSButtonCell"; title = "Send Anonymous Usage Data"; ObjectID = "glD-iU-BZJ"; */
+"glD-iU-BZJ.title" = "发送匿名使用数据";
+
+/* Class = "NSButtonCell"; title = "Show Backups"; ObjectID = "kaz-Bh-0HZ"; */
+"kaz-Bh-0HZ.title" = "显示备份";
+
+/* Class = "NSTextFieldCell"; title = "Generating report..."; ObjectID = "na3-UV-2iy"; */
+"na3-UV-2iy.title" = "生成报告……";
+
+/* Class = "NSButtonCell"; title = "Detailed Logging"; ObjectID = "qQd-7n-iVi"; */
+"qQd-7n-iVi.title" = "详细的日志记录";
+
+/* Class = "NSTextFieldCell"; title = "Test succeeded"; ObjectID = "voo-kn-5dD"; */
+"voo-kn-5dD.title" = "测试成功";
+
+/* Class = "NSButtonCell"; title = "Search Knowledge Base"; ObjectID = "zzU-8j-hyY"; */
+"zzU-8j-hyY.title" = "搜索知识基础";
+

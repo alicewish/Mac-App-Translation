@@ -1,0 +1,21 @@
+/* Class = "NSTextFieldCell"; title = "3"; ObjectID = "3SI-pv-sBq"; */
+"3SI-pv-sBq.title" = "3";
+
+/* Class = "NSButtonCell"; title = "Calibrate"; ObjectID = "LXH-Wr-T5Z"; */
+"LXH-Wr-T5Z.title" = "校准";
+
+/* Class = "NSTextFieldCell"; title = "Please disengage any audio-enhancing hardware/device like external speakers, woofers or headphones before calibrating."; ObjectID = "Sq3-ct-eUO"; */
+"Sq3-ct-eUO.title" = "校准前，请断开音频增强硬件/设备，例如外置扬声器、低音音响或耳机。";
+
+/* Class = "NSTextFieldCell"; title = "Detecting Your Device"; ObjectID = "WWY-dq-kv4"; */
+"WWY-dq-kv4.title" = "正在检测您的设备";
+
+/* Class = "NSTextFieldCell"; title = "1"; ObjectID = "Ws9-Rk-WeM"; */
+"Ws9-Rk-WeM.title" = "1";
+
+/* Class = "NSTextFieldCell"; title = "2"; ObjectID = "iRB-DB-I1K"; */
+"iRB-DB-I1K.title" = "2";
+
+/* Class = "NSTextFieldCell"; title = "Pair Your"; ObjectID = "vTv-yx-3Nm"; */
+"vTv-yx-3Nm.title" = "配对您的";
+

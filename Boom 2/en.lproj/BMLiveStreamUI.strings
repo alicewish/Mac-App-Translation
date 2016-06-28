@@ -1,0 +1,196 @@
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Treble ~ Modify Equalizer Settings in the Treble Frequency Range”"; ObjectID = "2pm-6D-MWJ"; */
+"2pm-6D-MWJ.ibExternalAccessibilityDescription" = "Treble ~ Modify Equalizer Settings in the Treble Frequency Range”";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset"; ObjectID = "2xY-FZ-fYR"; */
+"2xY-FZ-fYR.ibExternalAccessibilityDescription" = "reset";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "Equalizer ~ Main Equalizer Panel, Equalizer Frequency Constrain Slider, Bass Vocals and Treble"; ObjectID = "3AM-2R-0ai"; */
+"3AM-2R-0ai.ibExternalAccessibilityDescription" = "Equalizer ~ Main Equalizer Panel, Equalizer Frequency Constrain Slider, Bass Vocals and Treble";
+
+/* Class = "NSScrollView"; ibExternalAccessibilityDescription = "preset list"; ObjectID = "3Ea-Vz-5CA"; */
+"3Ea-Vz-5CA.ibExternalAccessibilityDescription" = "preset list";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "equallizer on / off"; ObjectID = "3Xp-f5-jHT"; */
+"3Xp-f5-jHT.ibExternalAccessibilityDescription" = "equallizer on / off";
+
+/* Class = "NSTextFieldCell"; title = "Equalizer"; ObjectID = "4fb-NR-gXb"; */
+"4fb-NR-gXb.title" = "Equalizer";
+
+/* Class = "NSTextFieldCell"; title = "AirPlay is ON"; ObjectID = "5Hu-08-Ri3"; */
+"5Hu-08-Ri3.title" = "AirPlay is ON";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset"; ObjectID = "685-Os-qzA"; */
+"685-Os-qzA.ibExternalAccessibilityDescription" = "reset";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "volume booster controls"; ObjectID = "7ib-8I-NYv"; */
+"7ib-8I-NYv.ibExternalAccessibilityDescription" = "volume booster controls";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "hot keys"; ObjectID = "9Dk-A3-EzQ"; */
+"9Dk-A3-EzQ.ibExternalAccessibilityDescription" = "hot keys";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "hot keys"; ObjectID = "9Pl-Zz-igb"; */
+"9Pl-Zz-igb.ibExternalAccessibilityDescription" = "hot keys";
+
+/* Class = "NSTextFieldCell"; title = "Boost Level Down :"; ObjectID = "B9c-re-ya7"; */
+"B9c-re-ya7.title" = "Boost Level Down :";
+
+/* Class = "NSTextFieldCell"; title = "My Preset"; ObjectID = "Cwn-aY-qz2"; */
+"Cwn-aY-qz2.title" = "My Preset";
+
+/* Class = "NSTextFieldCell"; title = "Boom 2 shall be back in action once you are done using AirPlay."; ObjectID = "CzP-jY-sSr"; */
+"CzP-jY-sSr.title" = "Boom 2 shall be back in action once you are done using AirPlay.";
+
+/* Class = "NSImageView"; ibExternalAccessibilityDescription = "boom"; ObjectID = "DU5-uz-zVw"; */
+"DU5-uz-zVw.ibExternalAccessibilityDescription" = "boom";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "boom volume"; ObjectID = "EAM-CR-hce"; */
+"EAM-CR-hce.ibExternalAccessibilityDescription" = "boom volume";
+
+/* Class = "NSButtonCell"; title = "Install"; ObjectID = "Edq-1d-7ef"; */
+"Edq-1d-7ef.title" = "Install";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "advanced"; ObjectID = "EoE-OD-mue"; */
+"EoE-OD-mue.ibExternalAccessibilityDescription" = "advanced";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset"; ObjectID = "GKo-tV-npo"; */
+"GKo-tV-npo.ibExternalAccessibilityDescription" = "reset";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset"; ObjectID = "JJg-1e-Gu1"; */
+"JJg-1e-Gu1.ibExternalAccessibilityDescription" = "reset";
+
+/* Class = "NSTableView"; ibExternalAccessibilityDescription = "preset list"; ObjectID = "K4g-qa-yKr"; */
+"K4g-qa-yKr.ibExternalAccessibilityDescription" = "preset list";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "equallizer band"; ObjectID = "K4y-d9-BDz"; */
+"K4y-d9-BDz.ibExternalAccessibilityDescription" = "equallizer band";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "preset"; ObjectID = "Knu-5w-ALH"; */
+"Knu-5w-ALH.ibExternalAccessibilityDescription" = "preset";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset"; ObjectID = "KpH-AS-Qgx"; */
+"KpH-AS-Qgx.ibExternalAccessibilityDescription" = "reset";
+
+/* Class = "NSTextFieldCell"; title = "Switch EQ Preset :"; ObjectID = "NMw-37-6FQ"; */
+"NMw-37-6FQ.title" = "Switch EQ Preset :";
+
+/* Class = "NSSlider"; ibExternalAccessibilityDescription = " Equalizer Frequency Constrain "; ObjectID = "NWH-zi-FCc"; */
+"NWH-zi-FCc.ibExternalAccessibilityDescription" = " Equalizer Frequency Constrain ";
+
+/* Class = "NSButtonCell"; title = "Done"; ObjectID = "Nui-s6-Hb9"; */
+"Nui-s6-Hb9.title" = "Done";
+
+/* Class = "NSTextFieldCell"; title = "Click ‘Install’ to set your Mac up for the Boom 2 experience"; ObjectID = "Ozv-eU-Wte"; */
+"Ozv-eU-Wte.title" = "Click ‘Install’ to set your Mac up for the Boom 2 experience";
+
+/* Class = "NSTextFieldCell"; title = "Boom 2 for your Mac"; ObjectID = "PLd-tB-2Bg"; */
+"PLd-tB-2Bg.title" = "Boom 2 for your Mac";
+
+/* Class = "NSButtonCell"; title = "Continue"; ObjectID = "PpH-SG-0np"; */
+"PpH-SG-0np.title" = "Continue";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Qbd-Ma-ggk"; */
+"Qbd-Ma-ggk.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "The system hot keys cannot be overriden. Please customize your hotkeys to use them."; ObjectID = "QrU-o8-ibj"; */
+"QrU-o8-ibj.title" = "The system hot keys cannot be overriden. Please customize your hotkeys to use them.";
+
+/* Class = "NSButtonCell"; title = " Let Boom 2 use any key as a hotkey"; ObjectID = "SQg-JV-Phz"; */
+"SQg-JV-Phz.title" = " Let Boom 2 use any key as a hotkey";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "boost level down"; ObjectID = "SSN-v8-RsI"; */
+"SSN-v8-RsI.ibExternalAccessibilityDescription" = "boost level down";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "preset list"; ObjectID = "XSh-Rr-Lz0"; */
+"XSh-Rr-Lz0.ibExternalAccessibilityDescription" = "preset list";
+
+/* Class = "NSTextFieldCell"; title = "Equalizer On/Off :"; ObjectID = "YTt-Zn-dPz"; */
+"YTt-Zn-dPz.title" = "Equalizer On/Off :";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "apply"; ObjectID = "YbQ-El-aYE"; */
+"YbQ-El-aYE.ibExternalAccessibilityDescription" = "apply";
+
+/* Class = "NSTextFieldCell"; title = "Set up Boom 2 and enjoy music and movies like never before.\nNo more frustration due to lack of volume!"; ObjectID = "Yck-zz-4MH"; */
+"Yck-zz-4MH.title" = "Set up Boom 2 and enjoy music and movies like never before.\nNo more frustration due to lack of volume!";
+
+/* Class = "NSTextFieldCell"; title = "Advanced Equalizer changes may be lost. For best results switch to Advanced mode."; ObjectID = "ZLN-T4-Idh"; */
+"ZLN-T4-Idh.title" = "Advanced Equalizer changes may be lost. For best results switch to Advanced mode.";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "boost level up"; ObjectID = "aAq-MW-jlf"; */
+"aAq-MW-jlf.ibExternalAccessibilityDescription" = "boost level up";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "boom volume on / off"; ObjectID = "aYm-kn-cRm"; */
+"aYm-kn-cRm.ibExternalAccessibilityDescription" = "boom volume on / off";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "cancel"; ObjectID = "bOU-59-5OA"; */
+"bOU-59-5OA.ibExternalAccessibilityDescription" = "cancel";
+
+/* Class = "NSButtonCell"; title = "Know more"; ObjectID = "baP-XW-wrm"; */
+"baP-XW-wrm.title" = "Learn more";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "done"; ObjectID = "but-BX-rdg"; */
+"but-BX-rdg.ibExternalAccessibilityDescription" = "done";
+
+/* Class = "NSButtonCell"; title = " Close"; ObjectID = "c7j-CJ-SEh"; */
+"c7j-CJ-SEh.title" = " Close";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "delete"; ObjectID = "d21-6d-PVq"; */
+"d21-6d-PVq.ibExternalAccessibilityDescription" = "delete";
+
+/* Class = "NSButtonCell"; title = " Advanced"; ObjectID = "eWf-cS-DFf"; */
+"eWf-cS-DFf.title" = " Advanced";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "click install to set your Mac  to for the boom 2 experience"; ObjectID = "eXZ-sN-nQz"; */
+"eXZ-sN-nQz.ibExternalAccessibilityDescription" = "click install to set your Mac  to for the boom 2 experience";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Bass ~ “Modify Equalizer Settings in the Bass Frequency Range\""; ObjectID = "f4m-3o-tye"; */
+"f4m-3o-tye.ibExternalAccessibilityDescription" = "Bass ~ “Modify Equalizer Settings in the Bass Frequency Range\"";
+
+/* Class = "NSTextFieldCell"; title = "Boom 2 for your Mac"; ObjectID = "fvm-33-ogU"; */
+"fvm-33-ogU.title" = "Boom 2 for your Mac";
+
+/* Class = "NSTextFieldCell"; title = "Boom Volume On/Off :"; ObjectID = "iTd-zz-5fh"; */
+"iTd-zz-5fh.title" = "Boom Volume On/Off :";
+
+/* Class = "NSTextFieldCell"; title = "Boom Volume"; ObjectID = "j7d-5R-u9b"; */
+"j7d-5R-u9b.title" = "Boom Volume";
+
+/* Class = "NSButtonCell"; title = "Edit"; ObjectID = "lSu-Uf-2pi"; */
+"lSu-Uf-2pi.title" = "Edit";
+
+/* Class = "NSTextFieldCell"; title = "Boost Level Up :"; ObjectID = "lsE-do-NCe"; */
+"lsE-do-NCe.title" = "Boost Level Up :";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset"; ObjectID = "nZA-Z0-P3g"; */
+"nZA-Z0-P3g.ibExternalAccessibilityDescription" = "reset";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "s0f-X4-jg9"; */
+"s0f-X4-jg9.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "My Preset"; ObjectID = "sTh-Vg-9kW"; */
+"sTh-Vg-9kW.title" = "My Preset";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Vocals ~ “Modify Equalizer Settings in the Vocals Frequency Range”"; ObjectID = "spm-68-1Hx"; */
+"spm-68-1Hx.ibExternalAccessibilityDescription" = "Vocals ~ “Modify Equalizer Settings in the Vocals Frequency Range”";
+
+/* Class = "NSButtonCell"; title = "Continue"; ObjectID = "tOc-IM-bmt"; */
+"tOc-IM-bmt.title" = "Continue";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "switch equallizer preset"; ObjectID = "tlS-Hk-Z2Y"; */
+"tlS-Hk-Z2Y.ibExternalAccessibilityDescription" = "switch equallizer preset";
+
+/* Class = "NSTextFieldCell"; title = "Hotkey"; ObjectID = "wLJ-UG-Bmr"; */
+"wLJ-UG-Bmr.title" = "Hotkey";
+
+/* Class = "NSButtonCell"; title = "  Hotkey"; ObjectID = "xQ3-aO-65v"; */
+"xQ3-aO-65v.title" = "  Hotkey";
+
+/* Class = "NSTextField"; ibExternalAccessibilityHelp = "enter new shortcut to change existing"; ObjectID = "xkW-dR-K5d"; */
+"xkW-dR-K5d.ibExternalAccessibilityHelp" = "enter new shortcut to change existing";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "y91-4M-krc"; */
+"y91-4M-krc.title" = "Label";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "boom 2 for your mac"; ObjectID = "yBN-dG-Joy"; */
+"yBN-dG-Joy.ibExternalAccessibilityDescription" = "boom 2 for your mac";
+

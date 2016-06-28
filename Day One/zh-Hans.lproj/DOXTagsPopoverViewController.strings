@@ -1,0 +1,24 @@
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "11"; */
+"11.title" = "文本框";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "40"; */
+"40.title" = "表格视图框";
+
+/* Class = "NSButtonCell"; title = "Clear All"; ObjectID = "46"; */
+"46.title" = "清除全部";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "77"; */
+"77.title" = "文本框";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Search / Add"; ObjectID = "89"; */
+"89.placeholderString" = "搜索/添加";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "97"; */
+"97.title" = "表格视图框";
+
+/* Class = "NSTextFieldCell"; title = "All Tags"; ObjectID = "106"; */
+"106.title" = "所有标签";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "Kec-EF-Vyx"; */
+"Kec-EF-Vyx.title" = "表格视图框";
+

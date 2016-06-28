@@ -1,0 +1,84 @@
+/* Class = "NSButton"; ibShadowedToolTip = "Clear All Filters"; ObjectID = "2Ck-sz-JlJ"; */
+"2Ck-sz-JlJ.ibShadowedToolTip" = "清除所有过滤器";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Options"; ObjectID = "2g8-NI-j4X"; */
+"2g8-NI-j4X.ibExternalAccessibilityDescription" = "选项";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "3J9-V0-2ax"; */
+"3J9-V0-2ax.title" = "偏好设置…";
+
+/* Class = "NSMenuItem"; title = "Oldest First"; ObjectID = "6eX-SN-3DG"; */
+"6eX-SN-3DG.title" = "最旧的排在最前";
+
+/* Class = "NSMenuItem"; title = "Newest First"; ObjectID = "9ai-iL-g2t"; */
+"9ai-iL-g2t.title" = "最新的排在最前";
+
+/* Class = "NSTextFieldCell"; title = "Popover Label"; ObjectID = "Bdy-Us-QfA"; */
+"Bdy-Us-QfA.title" = "弹出标签";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "HoK-PN-zfs"; */
+"HoK-PN-zfs.title" = "偏好设置…";
+
+/* Class = "NSButtonCell"; alternateTitle = "CALENDAR"; ObjectID = "HsD-7R-o6w"; */
+"HsD-7R-o6w.alternateTitle" = "日历";
+
+/* Class = "NSButtonCell"; title = "CALENDAR"; ObjectID = "HsD-7R-o6w"; */
+"HsD-7R-o6w.title" = "日历";
+
+/* Class = "NSMenuItem"; title = "New Journal"; ObjectID = "L7M-YL-UBU"; */
+"L7M-YL-UBU.title" = "新日志";
+
+/* Class = "NSTextFieldCell"; title = "ENTRIES"; ObjectID = "N9K-q4-Cu0"; */
+"N9K-q4-Cu0.title" = "条目";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "New journal"; ObjectID = "PSv-NC-RW9"; */
+"PSv-NC-RW9.ibExternalAccessibilityDescription" = "新日志";
+
+/* Class = "NSMenuItem"; title = "New Journal"; ObjectID = "RNa-ed-e3d"; */
+"RNa-ed-e3d.title" = "新日志";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Toggle Journal list"; ObjectID = "Rwf-gd-sm0"; */
+"Rwf-gd-sm0.ibExternalAccessibilityDescription" = "设置日志列表";
+
+/* Class = "NSTextFieldCell"; title = "PHOTOS"; ObjectID = "S1k-M5-KrA"; */
+"S1k-M5-KrA.title" = "照片";
+
+/* Class = "NSMenuItem"; title = "Lock Journal"; ObjectID = "T9j-Uz-uRL"; */
+"T9j-Uz-uRL.title" = "锁定日志";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Toggle journal list"; ObjectID = "cDs-wx-JSU"; */
+"cDs-wx-JSU.ibExternalAccessibilityDescription" = "设置日志列表";
+
+/* Class = "NSButtonCell"; alternateTitle = "TIMELINE"; ObjectID = "dRM-pO-Uru"; */
+"dRM-pO-Uru.alternateTitle" = "时间线";
+
+/* Class = "NSButtonCell"; title = "TIMELINE"; ObjectID = "dRM-pO-Uru"; */
+"dRM-pO-Uru.title" = "时间线";
+
+/* Class = "NSButtonCell"; alternateTitle = "PHOTOS"; ObjectID = "iBs-ZO-19P"; */
+"iBs-ZO-19P.alternateTitle" = "照片";
+
+/* Class = "NSButtonCell"; title = "PHOTOS"; ObjectID = "iBs-ZO-19P"; */
+"iBs-ZO-19P.title" = "照片";
+
+/* Class = "NSMenuItem"; title = "New Entry"; ObjectID = "ikn-cX-ode"; */
+"ikn-cX-ode.title" = "新条目";
+
+/* Class = "NSButtonCell"; alternateTitle = "MAP"; ObjectID = "kKH-w7-cnz"; */
+"kKH-w7-cnz.alternateTitle" = "地图";
+
+/* Class = "NSButtonCell"; title = "MAP"; ObjectID = "kKH-w7-cnz"; */
+"kKH-w7-cnz.title" = "地图";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "lcO-i7-m5w"; */
+"lcO-i7-m5w.title" = "其他视图";
+
+/* Class = "NSMenuItem"; title = "Show Sidebar"; ObjectID = "lv8-D7-LXP"; */
+"lv8-D7-LXP.title" = "显示边框";
+
+/* Class = "NSMenuItem"; title = "Lock Journal"; ObjectID = "n74-HG-LGR"; */
+"n74-HG-LGR.title" = "锁定日志";
+
+/* Class = "NSMenuItem"; title = "New Entry"; ObjectID = "vYR-wo-a3l"; */
+"vYR-wo-a3l.title" = "新条目";
+

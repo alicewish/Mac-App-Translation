@@ -1,0 +1,39 @@
+/* Class = "NSButtonCell"; title = "Enable Reminders"; ObjectID = "5"; */
+"5.title" = "启用提醒";
+
+/* Class = "NSButtonCell"; title = "Start of Month"; ObjectID = "BPc-EM-Z5V"; */
+"BPc-EM-Z5V.title" = "月初";
+
+/* Class = "NSTextFieldCell"; title = "Enabling reminders will also enable the Day One menu bar item"; ObjectID = "I84-l4-9z6"; */
+"I84-l4-9z6.title" = "启用提醒也将启用 Day One 的菜单栏入口";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Reminder Name"; ObjectID = "JjV-b7-TFF"; */
+"JjV-b7-TFF.placeholderString" = "提醒名称";
+
+/* Class = "NSButtonCell"; title = "Fri"; ObjectID = "LRm-wK-BMz"; */
+"LRm-wK-BMz.title" = "星期五";
+
+/* Class = "NSButtonCell"; title = "Tues"; ObjectID = "MW7-In-kUS"; */
+"MW7-In-kUS.title" = "星期二";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "NBU-Nh-iin"; */
+"NBU-Nh-iin.title" = "文本框";
+
+/* Class = "NSTextFieldCell"; title = "Tag"; ObjectID = "S2k-4s-bAz"; */
+"S2k-4s-bAz.title" = "标签";
+
+/* Class = "NSButtonCell"; title = "End of Month"; ObjectID = "axF-4o-mYk"; */
+"axF-4o-mYk.title" = "月末";
+
+/* Class = "NSTextFieldCell"; title = "Time"; ObjectID = "iim-p6-0CG"; */
+"iim-p6-0CG.title" = "时间";
+
+/* Class = "NSTextFieldCell"; title = "Message"; ObjectID = "mKr-09-AN4"; */
+"mKr-09-AN4.title" = "信息";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "w0h-2u-A2j"; */
+"w0h-2u-A2j.title" = "文本框";
+
+/* Class = "NSTextFieldCell"; title = "Repeat"; ObjectID = "wxa-jS-8Kg"; */
+"wxa-jS-8Kg.title" = "重复";
+

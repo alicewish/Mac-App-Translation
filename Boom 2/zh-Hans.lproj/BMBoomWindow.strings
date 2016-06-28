@@ -1,0 +1,198 @@
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "File Boost Tab"; ObjectID = "1RW-e4-jsH"; */
+"1RW-e4-jsH.ibExternalAccessibilityDescription" = "文件推进选项卡 ";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "tell a friend about boom"; ObjectID = "1zf-8u-fCC"; */
+"1zf-8u-fCC.ibExternalAccessibilityDescription" = "告诉好友 Boom 2";
+
+/* Class = "NSTextFieldCell"; title = "Send feedback / queries"; ObjectID = "6ha-PP-AWR"; */
+"6ha-PP-AWR.title" = "发送反馈/问题";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "clear list"; ObjectID = "7EA-Sm-JC7"; */
+"7EA-Sm-JC7.ibExternalAccessibilityDescription" = "清空列表";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "customize"; ObjectID = "7oW-eQ-sLh"; */
+"7oW-eQ-sLh.ibExternalAccessibilityDescription" = "  自定义";
+
+/* Class = "NSMenuItem"; title = "iTunes..."; ObjectID = "50G-IN-hVR"; */
+"50G-IN-hVR.title" = "iTunes...";
+
+/* Class = "NSButtonCell"; title = "Need help? Download your help file here"; ObjectID = "98w-dd-aH1"; */
+"98w-dd-aH1.title" = "需要帮助？在这里下载帮助文件";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "quit"; ObjectID = "Az8-rx-yhO"; */
+"Az8-rx-yhO.ibExternalAccessibilityDescription" = "退出";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Quit"; ObjectID = "Az8-rx-yhO"; */
+"Az8-rx-yhO.ibShadowedToolTip" = "退出";
+
+/* Class = "NSButtonCell"; title = "  Customize"; ObjectID = "B2R-jh-B6L"; */
+"B2R-jh-B6L.title" = "  自定义";
+
+/* Class = "NSTextFieldCell"; title = "iMessage"; ObjectID = "BLp-CL-CVA"; */
+"BLp-CL-CVA.title" = "iMessage";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "Save Files To : Select a folder to save all the boosted files to"; ObjectID = "Ca3-fH-JOU"; */
+"Ca3-fH-JOU.ibExternalAccessibilityDescription" = "文件保存至 -- “选择保存所有已推进文件的文件夹";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "close"; ObjectID = "E5L-rs-5QA"; */
+"E5L-rs-5QA.ibExternalAccessibilityDescription" = "关闭";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "send feedback"; ObjectID = "FXV-1D-Ry0"; */
+"FXV-1D-Ry0.ibExternalAccessibilityDescription" = "发送反馈/问题";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "open file"; ObjectID = "Fv0-Oz-fZo"; */
+"Fv0-Oz-fZo.ibExternalAccessibilityDescription" = "打开已推进的文件";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "follow us on twitter"; ObjectID = "GmU-6A-thF"; */
+"GmU-6A-thF.ibExternalAccessibilityDescription" = "在 Twitter 上关注我们";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "Volume Booster, Equalizer and Effects"; ObjectID = "HmN-12-C7e"; */
+"HmN-12-C7e.ibExternalAccessibilityDescription" = "音量增强器、平衡器和效果选项卡";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "IE7-fo-zVS"; */
+"IE7-fo-zVS.title" = "标签";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "twitter"; ObjectID = "INL-So-0Tv"; */
+"INL-So-0Tv.ibExternalAccessibilityDescription" = "Twitter";
+
+/* Class = "NSWindow"; title = "Boom 2"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "Boom 2";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "add file"; ObjectID = "Jkp-l4-hXn"; */
+"Jkp-l4-hXn.ibExternalAccessibilityDescription" = "添加文件";
+
+/* Class = "NSButtonCell"; title = " Close"; ObjectID = "KO3-4Z-Sdk"; */
+"KO3-4Z-Sdk.title" = " 关闭";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "share"; ObjectID = "LrO-z0-FUB"; */
+"LrO-z0-FUB.ibExternalAccessibilityDescription" = "";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "change file location"; ObjectID = "ORG-SH-9K4"; */
+"ORG-SH-9K4.ibExternalAccessibilityDescription" = "更改文件位置";
+
+/* (No Commment) */
+"P5X-kS-3hO.ibExternalAccessibilityDescription" = "音量增强版文件";
+
+/* Class = "NSButtonCell"; title = "Boost Files"; ObjectID = "P6S-Xj-N4B"; */
+"P6S-Xj-N4B.title" = "音量增强版文件";
+
+/* Class = "NSTextFieldCell"; title = "Save All files"; ObjectID = "PBC-u9-ZhA"; */
+"PBC-u9-ZhA.title" = "保存所有文件";
+
+/* Class = "NSTextFieldCell"; title = "Tell a friend about Boom 2"; ObjectID = "PX4-kq-482"; */
+"PX4-kq-482.title" = "告诉好友 Boom 2";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset location"; ObjectID = "QwQ-77-2HI"; */
+"QwQ-77-2HI.ibExternalAccessibilityDescription" = "重置位置";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "RYF-d7-8gw"; */
+"RYF-d7-8gw.title" = "文本单元";
+
+/* Class = "NSTextFieldCell"; title = ".boosted"; ObjectID = "UgO-QT-jug"; */
+"UgO-QT-jug.title" = ".boosted";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "download your help file here"; ObjectID = "V5t-vJ-qv1"; */
+"V5t-vJ-qv1.ibExternalAccessibilityDescription" = "在此处下载帮助文件";
+
+/* Class = "NSButtonCell"; ibExternalAccessibilityDescription = "effect"; ObjectID = "V9O-iW-pIZ"; */
+"V9O-iW-pIZ.ibExternalAccessibilityDescription" = "效果";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "preview"; ObjectID = "VEa-7e-D36"; */
+"VEa-7e-D36.ibExternalAccessibilityDescription" = "预览";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "facebook"; ObjectID = "VaA-wr-nf6"; */
+"VaA-wr-nf6.ibExternalAccessibilityDescription" = "facebook";
+
+/* Class = "NSTextFieldCell"; title = "Mail"; ObjectID = "XeV-ka-lw0"; */
+"XeV-ka-lw0.title" = "邮件";
+
+/* Class = "NSScrollView"; ibExternalAccessibilityDescription = "Media list view"; ObjectID = "a2a-md-5cj"; */
+"a2a-md-5cj.ibExternalAccessibilityDescription" = "媒体列表";
+
+/* Class = "NSButtonCell"; title = "Clear List"; ObjectID = "aFa-9n-b2t"; */
+"aFa-9n-b2t.title" = "清空列表";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "reset extension"; ObjectID = "cx4-Ky-7DD"; */
+"cx4-Ky-7DD.ibExternalAccessibilityDescription" = "重置延伸";
+
+/* Class = "NSButtonCell"; title = " Add files to the Boom 2 iTunes playlist"; ObjectID = "eWn-lx-ewW"; */
+"eWn-lx-ewW.title" = " 将文件添加到 Boom 2 iTunes 播放列表";
+
+/* Class = "NSTextFieldCell"; title = "Follow us on Twitter"; ObjectID = "eg4-nA-gOl"; */
+"eg4-nA-gOl.title" = "在 Twitter 上关注我们";
+
+/* Class = "NSTextFieldCell"; title = "Suffix boosted file with"; ObjectID = "hef-rx-4tO"; */
+"hef-rx-4tO.title" = "为音量增强版文件添加后缀";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "file boost settings"; ObjectID = "hrp-Go-ePa"; */
+"hrp-Go-ePa.ibExternalAccessibilityDescription" = "文件推进设置";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "Suffix Boosted File With ~ “Add a fixed suffix to the boosted file’s name for easy identification”"; ObjectID = "iWm-1s-79q"; */
+"iWm-1s-79q.ibExternalAccessibilityDescription" = "为已推进文件添加后缀 -- 为已推进文件名添加固定的后缀以便识别";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "imessage"; ObjectID = "iXe-cN-E08"; */
+"iXe-cN-E08.ibExternalAccessibilityDescription" = "iMessage";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Volume Booster, Equalizer and Effects Tab"; ObjectID = "j06-dT-wit"; */
+"j06-dT-wit.ibExternalAccessibilityDescription" = "音量增强器、平衡器和效果选项卡";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "mail"; ObjectID = "jKT-Bo-GJj"; */
+"jKT-Bo-GJj.ibExternalAccessibilityDescription" = "mail";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Contact and Social Media"; ObjectID = "jhD-ha-qQi"; */
+"jhD-ha-qQi.ibExternalAccessibilityDescription" = "联系方式和社交媒体";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "Contact and Social Media"; ObjectID = "lTg-4U-KAy"; */
+"lTg-4U-KAy.ibExternalAccessibilityDescription" = "联系方式和社交媒体";
+
+/* Class = "NSMenuItem"; title = "Files..."; ObjectID = "lpz-1j-qfx"; */
+"lpz-1j-qfx.title" = "文件...";
+
+/* Class = "NSTextFieldCell"; title = "Twitter"; ObjectID = "luG-uk-4CN"; */
+"luG-uk-4CN.title" = "Twitter";
+
+/* Class = "NSTextFieldCell"; title = "1"; ObjectID = "lxn-kd-c53"; */
+"lxn-kd-c53.title" = "1";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "settings and registration info"; ObjectID = "mqJ-OY-Bgs"; */
+"mqJ-OY-Bgs.ibExternalAccessibilityDescription" = "设置与";
+
+/* Class = "NSTextFieldCell"; title = "Facebook"; ObjectID = "nFz-nf-r8Q"; */
+"nFz-nf-r8Q.title" = "Facebook";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "like us on facebook"; ObjectID = "p0h-4E-bEz"; */
+"p0h-4E-bEz.ibExternalAccessibilityDescription" = "在 Facebook 上赞我们";
+
+/* Class = "NSTextFieldCell"; title = "Stay in touch with us!"; ObjectID = "ppm-A5-FdM"; */
+"ppm-A5-FdM.title" = "保持联系！";
+
+/* Class = "NSTextFieldCell"; title = "Like us on Facebook"; ObjectID = "sbv-Ig-aND"; */
+"sbv-Ig-aND.title" = "在 Facebook 上赞我们";
+
+/* Class = "NSTextFieldCell"; title = "Set Boost Level"; ObjectID = "siz-kL-Joo"; */
+"siz-kL-Joo.title" = "设置增强等级";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "file boost settings"; ObjectID = "t8x-eX-Qk1"; */
+"t8x-eX-Qk1.ibExternalAccessibilityDescription" = "文件推进设置";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "whv-lM-uBj"; */
+"whv-lM-uBj.title" = "表格视图单元格";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Settings and registration info"; ObjectID = "x8F-qK-6rP"; */
+"x8F-qK-6rP.ibExternalAccessibilityDescription" = "设置与注册信息";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "remove file"; ObjectID = "xSy-GX-TPV"; */
+"xSy-GX-TPV.ibExternalAccessibilityDescription" = "移除";
+
+/* Class = "NSTextFieldCell"; title = "File Boosting"; ObjectID = "ySq-6E-Mli"; */
+"ySq-6E-Mli.title" = "文件音量增强";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "File Boosting Tab ~ Drag and Drop music and video files to increase volume level"; ObjectID = "yVt-ac-Cqc"; */
+"yVt-ac-Cqc.ibExternalAccessibilityDescription" = "文件推进选项卡——拖放音乐和视频文件即可增加音量";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "boost files"; ObjectID = "yZX-5M-zdq"; */
+"yZX-5M-zdq.ibExternalAccessibilityDescription" = "音量增强版文件";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "share"; ObjectID = "zsY-hv-K8U"; */
+"zsY-hv-K8U.ibExternalAccessibilityDescription" = "";
+

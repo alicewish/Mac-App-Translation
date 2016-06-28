@@ -1,0 +1,15 @@
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Journal export options"; ObjectID = "48j-mG-tW7"; */
+"48j-mG-tW7.ibExternalAccessibilityDescription" = "日志导出选项";
+
+/* Class = "NSTextFieldCell"; title = "Entries"; ObjectID = "Y07-5j-FbV"; */
+"Y07-5j-FbV.title" = "条目";
+
+/* Class = "NSTextFieldCell"; title = "Published"; ObjectID = "nef-zW-0Q9"; */
+"nef-zW-0Q9.title" = "已发布";
+
+/* Class = "NSTextFieldCell"; title = "Photos"; ObjectID = "uy4-SY-44i"; */
+"uy4-SY-44i.title" = "照片";
+
+/* Class = "NSTextFieldCell"; title = "Tags"; ObjectID = "zy9-pJ-qAW"; */
+"zy9-pJ-qAW.title" = "标签";
+

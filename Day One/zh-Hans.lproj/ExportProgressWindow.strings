@@ -1,0 +1,6 @@
+/* Class = "NSWindow"; title = "Window"; ObjectID = "1"; */
+"1.title" = "窗口";
+
+/* Class = "NSTextFieldCell"; title = "Processing entries for export…"; ObjectID = "12"; */
+"12.title" = "处理条目，准备导出……";
+

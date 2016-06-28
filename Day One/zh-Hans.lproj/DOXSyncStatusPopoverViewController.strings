@@ -1,0 +1,39 @@
+/* Class = "NSTextFieldCell"; title = "It looks like you changed your password on another device. Sign in and we can get sync going again."; ObjectID = "0oY-cH-RgY"; */
+"0oY-cH-RgY.title" = "你可能在另一台设备上修改了密码。登入后我们可以再次进行同步。";
+
+/* Class = "NSTextFieldCell"; title = "Details"; ObjectID = "54O-Q4-1c2"; */
+"54O-Q4-1c2.title" = "细节";
+
+/* Class = "NSTextFieldCell"; title = "Details"; ObjectID = "BH2-RG-8sS"; */
+"BH2-RG-8sS.title" = "细节";
+
+/* Class = "NSTextFieldCell"; title = "Hm, we're having trouble syncing right now. This is temporary, and we'll try again automatically in a little while."; ObjectID = "Ll5-4x-44W"; */
+"Ll5-4x-44W.title" = "嗯，目前同步出现问题。这个问题是暂时的，我们随后很快就会自动再次尝试。";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "MVR-DR-0gc"; */
+"MVR-DR-0gc.title" = "帮助";
+
+/* Class = "NSTextFieldCell"; title = "As soon as an Internet connection is available we'll start syncing again."; ObjectID = "Tje-e4-AOR"; */
+"Tje-e4-AOR.title" = "一旦互联网连接恢复，我们就开始再次同步。";
+
+/* Class = "NSTextFieldCell"; title = "Sorry about this, but something unexpected happened while syncing. Please contact our support team for help."; ObjectID = "UDY-wh-epg"; */
+"UDY-wh-epg.title" = "抱歉，同步过程发生意外。请联系我们的支持团队以获得帮助。";
+
+/* Class = "NSButtonCell"; title = "Help"; ObjectID = "k5n-lV-sdt"; */
+"k5n-lV-sdt.title" = "帮助";
+
+/* Class = "NSButtonCell"; title = "Sync Now"; ObjectID = "kBq-Z4-JSK"; */
+"kBq-Z4-JSK.title" = "现在同步";
+
+/* Class = "NSButtonCell"; title = "Sign In"; ObjectID = "lsq-A6-POU"; */
+"lsq-A6-POU.title" = "登录";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vHP-e5-7Xv"; */
+"vHP-e5-7Xv.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Offline"; ObjectID = "yud-XD-HXr"; */
+"yud-XD-HXr.title" = "离线";
+
+/* Class = "NSButtonCell"; title = "Sync Now"; ObjectID = "zus-TF-NG6"; */
+"zus-TF-NG6.title" = "现在同步";
+

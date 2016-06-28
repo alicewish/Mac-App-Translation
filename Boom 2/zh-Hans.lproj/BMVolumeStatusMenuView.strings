@@ -1,0 +1,12 @@
+/* Class = "NSMenuItem"; ibExternalAccessibilityDescription = "boom 2"; ObjectID = "qPp-cG-247"; */
+"qPp-cG-247.ibExternalAccessibilityDescription" = "Boom 2";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "qPp-cG-247"; */
+"qPp-cG-247.title" = "项目 1";
+
+/* Class = "NSView"; ibExternalAccessibilityDescription = "boom volume"; ObjectID = "vWe-oG-jgi"; */
+"vWe-oG-jgi.ibExternalAccessibilityDescription" = "Boom 音量";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "open boom window"; ObjectID = "xY3-UC-q8P"; */
+"xY3-UC-q8P.ibExternalAccessibilityDescription" = "打开 Boom 2 窗口";
+
