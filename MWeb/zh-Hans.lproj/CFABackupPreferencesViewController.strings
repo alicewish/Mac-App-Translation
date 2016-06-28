@@ -1,0 +1,55 @@
+
+/* Class = "NSTextFieldCell"; title = "Backup for:"; ObjectID = "01g-S5-mfm"; */
+"01g-S5-mfm.title" = "备份间隔:";
+
+/* Class = "NSButtonCell"; title = "Select..."; ObjectID = "3QN-ZI-zTI"; */
+"3QN-ZI-zTI.title" = "选择...";
+
+/* Class = "NSButtonCell"; title = "Select..."; ObjectID = "7jY-na-5tb"; */
+"7jY-na-5tb.title" = "选择...";
+
+/* Class = "NSMenuItem"; title = "Every 30 Minutes"; ObjectID = "9Y7-Us-voS"; */
+"9Y7-Us-voS.title" = "每 30 分钟";
+
+/* Class = "NSTextFieldCell"; title = "Backup Location 1:"; ObjectID = "9lX-Tp-6eW"; */
+"9lX-Tp-6eW.title" = "备份位置 1:";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "Ef0-W9-vDf"; */
+"Ef0-W9-vDf.title" = "取消";
+
+/* Class = "NSMenuItem"; title = "Every  Minute"; ObjectID = "GDF-Rc-G9I"; */
+"GDF-Rc-G9I.title" = "每分钟";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "OlC-92-bot"; */
+"OlC-92-bot.title" = "取消";
+
+/* Class = "NSMenuItem"; title = "Every 10 Minutes"; ObjectID = "RXc-jh-riy"; */
+"RXc-jh-riy.title" = "每 10 分钟";
+
+/* Class = "NSTextFieldCell"; title = "Backup Location 2:"; ObjectID = "XgV-V9-WQb"; */
+"XgV-V9-WQb.title" = "备份位置 2:";
+
+/* Class = "NSButtonCell"; title = "Remove"; ObjectID = "ZUO-EV-xC6"; */
+"ZUO-EV-xC6.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Backup Location 3:"; ObjectID = "ZsX-c9-hmD"; */
+"ZsX-c9-hmD.title" = "备份位置 3:";
+
+/* Class = "NSButtonCell"; title = "Select..."; ObjectID = "Zwh-lU-eW0"; */
+"Zwh-lU-eW0.title" = "选择...";
+
+/* Class = "NSMenuItem"; title = "Every Hour"; ObjectID = "b2z-cZ-JTx"; */
+"b2z-cZ-JTx.title" = "每小时";
+
+/* Class = "NSMenuItem"; title = "Every 20 Minutes"; ObjectID = "dv3-pf-ArI"; */
+"dv3-pf-ArI.title" = "每 20 分钟";
+
+/* Class = "NSTextFieldCell"; title = "You can backup your Library to three locations:"; ObjectID = "oZv-cO-Bhs"; */
+"oZv-cO-Bhs.title" = "你可以把文档库备份至三个不同的位置:";
+
+/* Class = "NSTextFieldCell"; title = "Last Backup: 2015-8-24 10:24:01"; ObjectID = "ye9-yE-FBm"; */
+"ye9-yE-FBm.title" = "Last Backup: 2015-8-24 10:24:01";
+
+/* Class = "NSButtonCell"; title = "Restore From Backup..."; ObjectID = "1n2-hO-W9l"; */
+"1n2-hO-W9l.title" = "从备份中恢复...";
+

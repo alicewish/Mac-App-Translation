@@ -1,0 +1,51 @@
+
+/* Class = "NSTextFieldCell"; title = "Local Images Upload Service:"; ObjectID = "BNk-gP-knb"; */
+"BNk-gP-knb.title" = "选择本地图片自动上传服务:";
+
+/* Class = "NSButtonCell"; title = "Add New Service"; ObjectID = "HCk-Km-5jI"; */
+"HCk-Km-5jI.title" = "新增服务";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "K0F-rA-nCO"; */
+"K0F-rA-nCO.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "NSt-mL-sQk"; */
+"NSt-mL-sQk.title" = "Item 1";
+
+/* Class = "NSButtonCell"; title = "Copy HTML"; ObjectID = "RO3-vJ-1A2"; */
+"RO3-vJ-1A2.title" = "复制 HTML";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "RoN-t0-Xno"; */
+"RoN-t0-Xno.title" = "关闭";
+
+/* Class = "NSButtonCell"; title = "Copy Markdown"; ObjectID = "S6g-ly-lzV"; */
+"S6g-ly-lzV.title" = "复制 Markdown";
+
+/* Class = "NSTextFieldCell"; title = "Local:"; ObjectID = "Ugq-Bu-8zi"; */
+"Ugq-Bu-8zi.title" = "本地:";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "apR-Lp-ADP"; */
+"apR-Lp-ADP.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "New Document"; ObjectID = "dzy-yv-y64"; */
+"dzy-yv-y64.title" = "新建文档";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "e6e-PS-hbI"; */
+"e6e-PS-hbI.title" = "Label";
+
+/* Class = "NSButtonCell"; title = "Upload Images"; ObjectID = "eUI-jT-a1G"; */
+"eUI-jT-a1G.title" = "上传本地图片";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "mmx-qH-Ksp"; */
+"mmx-qH-Ksp.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "myY-tN-SLQ"; */
+"myY-tN-SLQ.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "rsF-bd-wQ7"; */
+"rsF-bd-wQ7.title" = "Label";
+
+/* Class = "NSTextFieldCell"; title = "Remote:"; ObjectID = "tPX-An-IIF"; */
+"tPX-An-IIF.title" = "远程:";
+
+/* Class = "NSButtonCell"; title = "Copy"; ObjectID = "wxh-H9-NbO"; */
+"wxh-H9-NbO.title" = "复制";

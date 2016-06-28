@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "Knowing that Photos is the only application permitted to remove photos from its libraries, Gemini has placed your duplicates into the corresponding albums:"; ObjectID = "5n2-eX-YqD"; */
+"5n2-eX-YqD.title" = "Knowing that Photos is the only application permitted to remove photos from its libraries, Gemini has placed your duplicates into the corresponding albums:";
+
+/* Class = "NSTextFieldCell"; title = "One last step to do in Photos"; ObjectID = "EHd-QN-2Q1"; */
+"EHd-QN-2Q1.title" = "One last step to do in Photos";
+
+/* Class = "NSButtonCell"; title = "Do not show this again"; ObjectID = "I6j-AR-c88"; */
+"I6j-AR-c88.title" = "Do not show this again";
+
+/* Class = "NSTextFieldCell"; title = "Please find these albums in all of your cleaned libraries\nand permanently delete the photos from there."; ObjectID = "jLt-zV-q9G"; */
+"jLt-zV-q9G.title" = "Please find these albums in all of your cleaned libraries\nand permanently delete the photos from there.";
+
+/* Class = "NSButtonCell"; title = "Got It"; ObjectID = "sVJ-ca-Yx4"; */
+"sVJ-ca-Yx4.title" = "Got It";

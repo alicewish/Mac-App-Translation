@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Demo_Expiration_Button</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>zero</key>
+			<string>Demo Expired</string>
+			<key>one</key>
+			<string>%tu Demo Day Left</string>
+			<key>other</key>
+			<string>%tu Demo Days Left</string>
+		</dict>
+	</dict>
+	<key>Demo_Extension_Button</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@days@</string>
+		<key>days</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>one</key>
+			<string>Try for %tu More Day</string>
+			<key>other</key>
+			<string>Try for %tu More Days</string>
+		</dict>
+	</dict>
+	<key>Stats_Characters</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@chars@</string>
+		<key>chars</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>one</key>
+			<string>%tu Character</string>
+			<key>other</key>
+			<string>%tu Characters</string>
+		</dict>
+	</dict>
+	<key>Stats_Words</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@words@</string>
+		<key>words</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>one</key>
+			<string>%tu Word</string>
+			<key>other</key>
+			<string>%tu Words</string>
+		</dict>
+	</dict>
+	<key>Stats_Sentences</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@sentences@</string>
+		<key>sentences</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>tu</string>
+			<key>one</key>
+			<string>%tu Sentence</string>
+			<key>other</key>
+			<string>%tu Sentences</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

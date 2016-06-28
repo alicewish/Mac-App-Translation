@@ -1,0 +1,604 @@
+/* Specify the media type for this CSS */
+@media screen {
+/* Now, everything gets nested within this @media call */
+
+/* This sets the bounds of the entire page */
+#help-wrapper {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	-webkit-scrollbar-display: none;
+}
+
+/* This section builds the navigation menu */
+#omnimenu-wrapper {
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: scroll;
+	overflow-x: hidden;
+	-webkit-scrollbar-display: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	height: 100%;
+	background: #4E1180;
+}
+
+#omnimenu,
+#omnimenu ul,
+#omnimenu ul li,
+#omnimenu ul li a {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+	line-height: 1;
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#omnibrand {
+	position: fixed;
+	display: block;
+	z-index: 404;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 150px;
+	background: #4E1180;
+	border-bottom: 1px solid #4C3560;
+	border-left: 1px solid #4C3560;
+	border-right: 1px solid #4C3560;
+	box-shadow: 0 2px 2px rgba(255, 255, 255, 0.25);
+	vertical-align: center;
+	text-align: center;
+}
+
+#omnimenu {
+	width: 200px;
+	font-family: HelveticaNeue-Light;
+	color: #ffffff;
+	-webkit-scrollbar-display: none;
+}
+
+.navicon {
+	padding-top: 15px;
+}
+
+#omniprint {
+	position: fixed;
+	display: block;
+	z-index: 404;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 35px;
+	background: #FC7432;
+	border-top: 1px solid #FC7432;
+	border-left: 1px solid #FF7C00;
+	border-right: 1px solid #FF7C00;
+	box-shadow: 3px 0 3px rgba(255, 255, 255, 0.25);
+	text-align: right;
+}
+
+#printbutton {
+	padding: 10px;
+}
+
+#omnimenu {
+	width: 200px;
+	font-family: HelveticaNeue-Light;
+	color: #FFF;
+	-webkit-scrollbar-display: none;
+}
+
+#omnimenu ul ul {
+	display: none;
+}
+
+.align-right {
+	float: right;
+}
+
+#omnimenu > ul > li > a {
+	padding: 10px 20px 10px 10px;
+	border-left: 1px solid #623885;
+	border-right: 1px solid #623885;
+	border-top: 1px solid #623885;
+	cursor: pointer;
+	z-index: 2;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #ffffff;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+	background: #4E1180;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+#omnimenu > ul:nth-of-type(2n+1) {
+	padding-top: 150px;
+}
+
+#omnimenu > ul:last-of-type {
+	padding-bottom: 35px;
+}
+
+#omnimenu > ul > li > a:hover,
+#omnimenu > ul > li.active > a,
+#omnimenu > ul > li.open > a {
+	color: #eeeeee;
+	background: #672A9A;
+}
+
+#omnimenu > ul > li.open > a {
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.15);
+	border-bottom: 1px solid #534361;
+}
+
+#omnimenu > ul > li:last-child > a,
+#omnimenu > ul > li.last > a {
+	border-bottom: 1px solid #623885;
+}
+
+.holder {
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.holder::after,
+.holder::before {
+	display: block;
+	position: absolute;
+	content: "";
+	width: 6px;
+	height: 6px;
+	right: 10px;
+	z-index: 10;
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+
+.holder::after {
+	top: 13px;
+	border-top: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+}
+
+#omnimenu > ul > li > a:hover > span::after,
+#omnimenu > ul > li.active > a > span::after,
+#omnimenu > ul > li.open > a > span::after {
+	border-color: #eeeeee;
+}
+
+.holder::before {
+	top: 14px;
+	border-top: 2px solid;
+	border-left: 2px solid;
+	border-top-color: inherit;
+	border-left-color: inherit;
+}
+
+#omnimenu ul ul li a {
+	cursor: pointer;
+	border-bottom: 1px solid #32373e;
+	border-left: 1px solid #32373e;
+	border-right: 1px solid #32373e;
+	padding: 10px 20px 10px 10px;
+	z-index: 1;
+	text-decoration: none;
+	font-size: 13px;
+	color: #eeeeee;
+	background: #686F7A;
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+#omnimenu ul ul li:hover > a,
+#omnimenu ul ul li.open > a,
+#omnimenu ul ul li.active > a {
+	background: #525862;
+	color: #ffffff;
+}
+
+#omnimenu ul ul li:first-child > a {
+	box-shadow: none;
+}
+
+#omnimenu ul ul ul li:first-child > a {
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+#omnimenu ul ul ul li a {
+	padding-left: 20px;
+}
+
+#omnimenu > ul > li > ul > li:last-child > a,
+#omnimenu > ul > li > ul > li.last > a {
+	border-bottom: 0;
+}
+
+#omnimenu > ul > li > ul > li.open:last-child > a,
+#omnimenu > ul > li > ul > li.last.open > a {
+	border-bottom: 1px solid #32373e;
+}
+
+#omnimenu > ul > li > ul > li.open:last-child > ul > li:last-child > a {
+	border-bottom: 0;
+}
+
+#omnimenu ul ul li.has-sub > a::after {
+	display: block;
+	position: absolute;
+	content: "";
+	width: 5px;
+	height: 5px;
+	right: 10px;
+	z-index: 10;
+	top: 11.5px;
+	margin-left: 5px;
+	border-top: 2px solid #eeeeee;
+	border-left: 2px solid #eeeeee;
+	-webkit-transform: rotate(-135deg);
+	transform: rotate(-135deg);
+}
+
+#omnimenu ul ul li.active > a::after,
+#omnimenu ul ul li.open > a::after,
+#omnimenu ul ul li > a:hover::after {
+	border-color: #ffffff;
+}
+
+/* ------------ THE STYLES THAT FOLLOW ARE FOR THE CONTENT VIEW ------------ */
+
+/* #content butts the content view right up against the nav menu */
+#content {
+	display: block;
+	clear: both;
+	position: absolute;
+	top: 0;
+	left: 200px;
+	width: 500px;
+	margin: 0 30px 30px 20px;
+	padding: 0 30px 0 30px;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-scrollbar-display: none;
+}
+
+#book {
+	font-family: "Iowan Old Style", serif;
+    font-size: 13pt; 
+    color: #333333;
+    background: #ffffff;
+}
+
+#titlepage, #copyright {
+	display: none;
+}
+
+
+/* ---------- LINK STYLES ---------- */
+
+#book > a, a:visited {
+	color: #4E1180;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#book > a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+/* The following offsets links 18px from the top of the screen. */
+:target::before {
+	display: block; 
+	content: " "; 
+	margin-top: -18px; 
+	height: 18px;
+}
+
+/* ---------- FIGURE STYLES ---------- */
+figure {
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+img.fig {
+	max-width: 80%;
+}
+
+div.float-right, .floatR {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+
+/*
+img.inline_image_heading {
+	height: 28px;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+img.inline_image_body {
+	width: 14px;
+	vertical-align: baseline;
+	padding: 0 10px;
+}
+*/
+
+/* use this for inline images, such as icons and buttons */
+img.inline {
+	height: 18px;
+	vertical-align: middle;
+}
+
+img.inline-big {
+	max-height: 2em;
+	vertical-align: middle;
+	padding-top: 2px;
+}
+
+img.inline-head {
+	max-height: 1.25em;
+	vertical-align: middle;
+	padding-top: 1px;
+}
+
+.appicon {
+	text-align: center;
+	padding: 70px 0 0 0;
+	margin: 0 0 0 0;
+}
+
+.apphero {
+	float: right;
+	padding: 10px 0 20px 20px;
+	width: 25%;
+}
+
+/* ---------- HEADING STYLES ---------- */
+
+h1,h2,h3,h4 {
+	font-family: "HelveticaNeue-Thin";
+	font-weight: normal;
+	color: #4E1180;
+}
+
+h1 {
+	font-size: 32pt;
+	line-height: 36pt;
+	margin: 1em 0 -0.3em 0;
+}
+
+span.subtitle {
+	font-size: 20pt;
+	text-align: center;
+}
+
+span.title {
+	font-family: "HelveticaNeue-UltraLight";
+	font-weight: normal;
+	font-size: 38pt;
+	text-align: center;
+}
+
+h1.title {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-size: 24pt;
+	margin: 1em 0 -0.5em 0;
+}
+
+h3 {
+	font-size: 18pt;
+	margin: 1em 0 -0.5em 0;
+}
+
+h4 {
+	font-size: 14pt;
+	margin: 1em 0 -0.5em 0;
+}
+
+#welcome {
+	font-size: 15pt;
+	color: #FFF;
+	line-height: 1.3em;
+}
+
+
+/* BODY STYLES, INCLUDING NOTES AND SIDEBARS */
+
+p {
+	margin-bottom: 1em;
+}
+
+div.code {
+	font-family: "Menlo-Bold" monospace !important;
+	font-size: 9pt;
+	white-space: pre-wrap;
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+span.superscript {
+    font-size: .83em;
+    line-height: 0.5em;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+/* ---------- NOTES, TIPS, AND WARNINGS ---------- */
+
+.note {
+	max-width: 85%;
+	background: #f2f2f2;
+	font-family: "HelveticaNeue-Light" !important;
+	font-size: 11pt;
+	line-height: 13pt;
+	padding: 5px 10px 5px 20px;
+	margin: 14px 40px;
+	border-radius: 0 5px 5px 0;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+	border-left: 6px solid #3A8EEC;
+}
+
+.tip {
+	max-width: 85%;
+	background: #f2f2f2;
+	font-family: "HelveticaNeue-Light" !important;
+	font-size: 11pt;
+	line-height: 13pt;
+	padding: 5px 10px 5px 20px;
+	margin: 14px 40px;
+	border-radius: 0 5px 5px 0;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+	border-left: 6px solid #67BB35;
+}
+
+.warning {
+	max-width: 85%;
+	background: #f2f2f2;
+	font-family: "HelveticaNeue-Light" !important;
+	font-size: 11pt;
+	line-height: 13pt;
+	padding: 5px 10px 5px 20px;
+	margin: 14px 40px;
+	border-radius: 0 5px 5px 0;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+	border-left: 6px solid #ff0000;
+}
+
+/* ---------- SIDEBARS ---------- */
+
+div.sidebar {
+	width: 85%;
+	border-radius: 5px 20px 20px 5px;
+	border: 4px solid #CCC;
+	color: #333;
+	padding: 20px;
+	font-family: "HelveticaNeue-Light";
+	font-size: 13pt;
+	line-height: 18pt;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+}
+
+h2.sidebarhead {
+	font-size: 150%;
+	line-height: normal;
+	color: #333;
+	margin: 0 0 -0.5em 0 !important;
+}
+
+div.profeature {
+	border-radius: 5px 20px 5px 20px;
+	border: 4px solid #CCC;
+	background: #FFF;
+	margin: 10px 0;
+	padding: 0 15px;
+	font-family: "Iowan Old Style", serif;
+	line-height: normal;
+}
+
+div.copyright {
+	width: 85%;
+	font-family: "HelveticaNeue-Light" !important;
+	font-size: 11pt;
+	line-height: 16pt;
+	padding: 3px 0;
+	margin: 20px 40px;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+	page-break-before: always !important;
+	break-before: always !important;
+}
+
+
+/* ---------- LIST STYLES: INCLUDING UL, OL, AND DL ---------- */
+
+ol {
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin: 1em;
+}
+
+ol li {
+	margin-top: 1em;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul li {
+    margin-top: 1em;
+}
+
+/* The next two handle line spacing for nested lists to tighten up the spacing */
+ol ul li {
+	margin-top: 0.25em;
+}
+
+ul ol li {
+	margin-top: 0.25em;
+}
+
+/* Definition List styles */
+
+dt {
+	margin-top: 0.75em;
+}
+
+dd {
+	margin-left: 1.5em;
+}
+
+/* ---------- TABLES ---------- */
+
+table {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+	border-collapse: collapse;
+}
+
+th,td {
+	border: solid 2px #CCC;
+	padding: 4px 0 4px 8px;
+	font-family: "HelveticaNeue-Light";
+}
+
+th {
+	font-size: 12pt;
+	line-height: 14pt;
+	color: #FFF;
+	background-color: #1568a6;
+}
+
+td {
+	font-size: 11pt;
+	line-height: 14pt;
+}
+
+} /* This closes the @media call located at the top of the CSS -- DO NOT DELETE */

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>关于 OmniFocus</title>
+    <link rel="stylesheet" href="../gratitude.css" />
+
+    <style>
+    .OmniStoreOnly { display: none }
+    .MacAppStoreOnly { display: none }
+    .ProOnly { display: none }
+    .PurchasedOnly { display: none }
+    </style>
+
+<script>
+
+    showingBuildDetails = false;
+
+    targetWidth = 590;
+    targetHeight = 300;
+    hero.minWidth = targetWidth;
+    hero.maxWidth = targetWidth;
+    hero.minHeight = targetHeight;
+    hero.maxHeight = targetHeight;
+    hero.preventScrolling();
+
+    function setDisplayStyleOnNodesOfClass(className, displayStyle) {
+        var buildDetailsNodeList = document.getElementsByClassName(className);
+        for (var elementIndex=0; elementIndex < buildDetailsNodeList.length; elementIndex++) {
+            var buildDetailsElement = buildDetailsNodeList[elementIndex];
+            var style = buildDetailsElement.style;
+            style.display = displayStyle;
+        }
+    }
+
+    function aboutOnLoad()
+    {
+        if (hero.isAppStoreEdition()) {
+            setDisplayStyleOnNodesOfClass("MacAppStoreOnly", "inline");
+        } else {
+            setDisplayStyleOnNodesOfClass("OmniStoreOnly", "inline");
+        }
+
+        if (hero.isProUnlocked()) {
+            setDisplayStyleOnNodesOfClass("ProOnly", "inline");
+        }
+
+        if (!hero.isInTrialMode()) {
+            setDisplayStyleOnNodesOfClass("PurchasedOnly", "inline");
+        }
+    }
+
+    function toggleBuildDetails()
+    {
+        showingBuildDetails = !showingBuildDetails;
+
+        var displayStyle;
+        if (showingBuildDetails) {
+            displayStyle = "inline";
+        } else {
+            displayStyle = "none";
+        }
+
+        setDisplayStyleOnNodesOfClass("build-details", displayStyle);
+    }
+
+    </script>
+</head>
+<body onload="aboutOnLoad()">
+	<div class="app-info">
+		<img src="../AppIcon.icns" id="app-icon" />
+
+		<p class="app-title">OmniFocus</p>
+		<p class="tagline">透视反映您的生活</p>
+		<p class="version" onclick="toggleBuildDetails();"><script>document.write(hero.versionString())</script></p>
+	</div>
+	
+	<div class="app-details">
+		<p>
+			支持 — <a href="mailto:omnifocus@omnigroup.com">omnifocus@omnigroup.com</a><br/> <span class="OmniStoreOnly">销售 — <a href="http://store.omnigroup.com">store.omnigroup.com</a></span> <span class="MacAppStoreOnly">App Store — <a href="macappstore://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?id=867299399">写评论</a></span>
+		</p>
+		<p>
+			感谢 <a href="help:anchor:shortcutrecorder">Shortcut Recorder</a>
+		</p>
+		<p>
+			<span class="company-name">THE OMNI GROUP</span><br/> 1000 Dexter Ave N Suite 400<br/> Seattle, WA 98109-3582<br/> +1 800 315-OMNI &bull; +1 206 523-4152
+		</p>
+		<p>
+			<script>document.write(hero.copyrightString())</script>
+		</p>
+		<div id="pro-unlocked" class="ProOnly" onclick="window.location='help:anchor:profeatures';">
+			已购买并安装 <span class="more-oomph">OmniFocus 专业升级版</span>。<br/><span class="PurchasedOnly"></span>谢谢！
+		</div>
+	</div>
+
+    <iframe src="../Versions.txt" class="build-details" style="display: none;"></iframe>
+
+	</div>
+</body>
+</html>

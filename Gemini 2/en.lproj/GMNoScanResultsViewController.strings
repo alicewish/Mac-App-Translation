@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "No duplicates found"; ObjectID = "OFo-W8-0yF"; */
+"OFo-W8-0yF.title" = "No duplicates found";
+
+/* Class = "NSTextFieldCell"; title = "You can start over and scan other locations.\nDon’t forget about connected drives too!"; ObjectID = "Pvs-9f-ZWh"; */
+"Pvs-9f-ZWh.title" = "You can start over with a new scan.\nDon’t forget about connected drives!";
+
+/* Class = "NSTextFieldCell"; title = "Neat!"; ObjectID = "e4a-pb-NGS"; */
+"e4a-pb-NGS.title" = "All Neat!";
+
+/* Class = "NSButtonCell"; title = "Start Over"; ObjectID = "jOe-Ga-QB9"; */
+"jOe-Ga-QB9.title" = "Start Over";
+
+/* Class = "NSTextFieldCell"; title = "No duplicates found"; ObjectID = "om9-ih-U2R"; */
+"om9-ih-U2R.title" = "No duplicates found";

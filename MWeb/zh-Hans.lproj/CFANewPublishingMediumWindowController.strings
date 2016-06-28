@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Ig8-bY-EDu"; */
+"Ig8-bY-EDu.title" = "取消";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "oCi-T3-Wno"; */
+"oCi-T3-Wno.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "lb Note"; ObjectID = "qKR-bx-h4D"; */
+"qKR-bx-h4D.title" = "lb Note";
+
+/* Class = "NSTextFieldCell"; title = "Integration Token:"; ObjectID = "xwc-1c-oKZ"; */
+"xwc-1c-oKZ.title" = "Integration Token:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "y1T-bg-6zF"; */
+"y1T-bg-6zF.title" = "确定";

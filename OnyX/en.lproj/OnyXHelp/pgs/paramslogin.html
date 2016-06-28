@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>Login</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content="mode, login, startup, users, window, option, safe, Finder, Apple, background"/>
+        <meta name="description" content="Personalize the login window, choose a startup mode, lock screen at startup, turn on/off the startup sound, and more in the Login pane."/>
+        <link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body id="apple-pd">
+        
+        <div id="navbox">
+            <div id="navleftbox">
+                <a class="navlink_left" href="../OnyXHelp.html">Home</a>
+            </div>
+            <div id="navrightbox">
+                <a class="navlink_right" href="../xpgs/xall.html">Index</a>
+            </div>
+        </div>
+        
+        <div id="headerbox">
+            <div id="iconbox">
+                <img id="iconimg" src="../gfx/xicnonyx.png" alt="OnyX icon" height="32" width="32"/>
+            </div>
+            <div id="pagetitle">
+                <h1>Login</h1>
+            </div>
+        </div>
+        
+        <div id="introbox">
+            <div class="introprimtext">
+                <p class="introprimtextlongtext">You can use the Login pane of the Parameters toolbar item to set parameters for the miscellaneous options of the login window.</p>
+            </div>
+        </div>
+        
+        <div id="taskbox">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>Appearance:</h2>
+                        <p class="taskprimtextlongtext">You can change the background image of the login window.</p>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Background:</strong> By default, the image background of the login window is the same as the Desktop picture, but it is blurred. You can use the Select button to select a replacement image. (The application directs you to the folder containing the desktop pictures of OS X.) <br /><br />These formats are accepted: BMP, GIF, JPEG, JPEG 2000, PNG, PSD, TGA, and TIFF.<br /><br />You can use the Restore option to put the original background image in the login window (the Desktop blurred picture). However, the login window and the preview in OnyX will display the default image installed by the system (El Capitan). A restart is required to display the correct image.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+        
+        <div id="taskbox1">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>Options:</h2>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Hide the Sleep, Restart, and Shut Down commands in the login window:</strong> This option hides the Sleep, Restart, and Shut Down buttons located at the bottom of the login window.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Show message in the login window:</strong> You can use this option to display text in the login window. Select this option; then enter the text in the field located below, and click the Apply button. <strong>Warning:</strong> This function doesn't accept certain special characters.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Show in the list of users:</strong> You can use this option to show or hide the users (Administrator, Local, and Network) in the list of users in the login window. <br /><br /><strong>Warning:</strong><br />- If the kiosk setting is turned on, don't deselect the administrator accounts in the list of the users. The kiosk mode makes the Restart, Shut Down, and Log Out commands unavailable in the Apple menu (). (See the Finder tab.)<br />- Turning off the local users in the list of users will display only the Guest account in the login window. To redisplay the local users, restart in single-user mode (Command-S at startup), and enter the three following commands (QWERTY keyboard):<br /><br /><code>/sbin/mount -uw /<br />rm /Library/Preferences/com.apple.loginwindow.plist<br />reboot</code></p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+         
+        <div id="taskbox2">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>Startup mode:</h2>
+                        <p class="taskprimtextlongtext">You can use this menu to set the startup mode of the computer.</p> 
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Normal:</strong> Normal mode displays a dark gray Apple logo (the apple) on a light gray background or a white Apple logo on a black background, shows a progress indicator (a moving bar) while various initializations are carried out, and then displays the desktop in the Finder.</p> 
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Safe mode:</strong> Safe mode is the state OS X is in after a Safe Boot. Starting up into Safe mode forces a directory check of the startup disk, loads only required kernel extensions, runs only Apple&#8211;installed startup items, turns off all fonts other than those installed by the system, moves all font caches to the Trash, and turns off any login items. Safe mode can be useful for troubleshooting. However, certain OS X features do not work when you are started up in Safe mode. For example, you can't use DVD Player, capture video in iMovie, use an AirPort card, use audio input or output devices, or use an internal or external USB modem.</p> 
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Verbose:</strong> Verbose mode displays a black screen with white text that shows details of the startup process line by line then displays the desktop in the Finder.</p> 
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Single-user:</strong> Single-user mode displays a black screen with white text that shows details of the startup process line by line then displays a command prompt; to switch back to the OS X interface, enter the command <code>nvram boot-args = ""</code> . From the single-user mode, you can load the Finder by typing the command <code>exit</code> and thus switch back to the OS X interface.</p> 
+                            </div>
+                        </div>
+                        
+                        <p class="taskprimtextlongtext"><strong>WARNING:</strong> Your Mac can't start up in single-user or verbose mode if the computer owner or administrator has set a firmware password.<br />If FileVault is enabled, you need to unlock the startup disk as part of this process. White text appears briefly before the FileVault login screen is shown. After selecting a user and entering the user’s password, the single-user mode or verbose mode startup process continues.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+        
+        <div id="taskbox3">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>Startup sound:</h2>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Startup sound:</strong> You can use this option to turn on or turn off the sound played at startup of the computer.<br /><br /><strong>Warning: </strong>The startup sound provides information about the computer's hardware status.<br /><br /><strong>Note: </strong>Some applications and system extensions (Soundflower, for example) can automatically turn on the startup sound again.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+        
+        <div id="taskbox4">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>Power button:</h2>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                ■
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext"><strong>Show the Shutdown dialog when the power button is pressed:</strong> By default, when the power button is pressed about one second, the computer falls into Sleep mode. You can use this option to instead display a Shutdown dialog from which you can restart, sleep, or shut down your Mac.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+        
+        <div id="outrobox">
+            <div class="outroprimtext">
+                <p class="outroprimtextlongtext">Click the Restore Defaults button to cancel all modifications caused by OnyX or by any other application. After execution, all parameters will be reset and display as they did when the system and the applications were first installed.</p>
+            </div>
+        </div>
+        
+    </body>
+</html>

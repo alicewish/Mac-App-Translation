@@ -1,0 +1,88 @@
+{
+	toolbarIdentifier = "Preferences";
+	hideToolbarButton = "YES";
+
+	itemInfoByIdentifier = {
+
+		general = {
+			imageName = "Pref_General_legacy";
+			label = "General";
+			action = "toolbarSelect:";
+		};
+
+		alert = {
+			imageName = "Pref_Alert";
+			label = "Alert";
+			action = "toolbarSelect:";
+		};
+
+		monitor = {
+			imageName = "Pref_Monitor";
+			label = "Monitor";
+			action = "toolbarSelect:";
+		};
+
+		profileswitching = {
+			imageName = "Pref_APS";
+			label = "APS";
+			action = "toolbarSelect:";
+		};
+
+		update = {
+			imageName = "Pref_SoftwareUpdate";
+			label = "Update";
+			action = "toolbarSelect:";
+		};
+
+		advanced = {
+			imageName = "Pref_Advanced_legacy";
+			label = "Advanced";
+			action = "toolbarSelect:";
+		};
+
+		security = {
+			imageName = "LockClosed";
+			label = "Security";
+			action = "toolbarSelect:";
+		};
+        
+        registration = {
+			imageName = "Pref_Registration";
+			label = "Registration";
+			action = "toolbarSelect:";
+		};
+	};
+
+	selectableItemIdentifiers = (
+		general,
+		alert,
+		monitor,
+		profileswitching,
+		security,
+		advanced,
+		update,
+        registration,
+	);
+
+	defaultItemIdentifiers = (
+		general,
+		alert,
+		monitor,
+		profileswitching,
+		security,
+		advanced,
+		update,
+        registration,
+	);
+
+	allowedItemIdentifiers = (
+		general,
+		alert,
+		monitor,
+		profileswitching,
+		security,
+		advanced,
+		update,
+        registration,
+	);
+}

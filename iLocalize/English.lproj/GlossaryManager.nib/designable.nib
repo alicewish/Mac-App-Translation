@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="GlossaryManagerWC">
+            <connections>
+                <outlet property="glassView" destination="139" id="265"/>
+                <outlet property="mGlossaryController" destination="219" id="236"/>
+                <outlet property="mGlossaryMenu" destination="160" id="252"/>
+                <outlet property="mGlossaryOutlineView" destination="223" id="235"/>
+                <outlet property="mPathController" destination="175" id="180"/>
+                <outlet property="mPathMenu" destination="151" id="251"/>
+                <outlet property="mPathOutlineView" destination="114" id="218"/>
+                <outlet property="mSplitViewThumbView" destination="146" id="202"/>
+                <outlet property="search" destination="279" id="283"/>
+                <outlet property="searchField" destination="279" id="282"/>
+                <outlet property="window" destination="109" id="149"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Browse Glossaries" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" frameAutosaveName="Browse Glossaries" animationBehavior="default" id="109" userLabel="Glossaries">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" unifiedTitleAndToolbar="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="539" y="426" width="649" height="351"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <value key="minSize" type="size" width="649" height="351"/>
+            <view key="contentView" id="110">
+                <rect key="frame" x="0.0" y="0.0" width="649" height="351"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <splitView dividerStyle="thin" vertical="YES" id="150">
+                        <rect key="frame" x="0.0" y="0.0" width="649" height="351"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <customView id="147">
+                                <rect key="frame" x="0.0" y="0.0" width="186" height="351"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <subviews>
+                                    <scrollView borderType="none" autohidesScrollers="YES" horizontalLineScroll="20" horizontalPageScroll="10" verticalLineScroll="20" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="111">
+                                        <rect key="frame" x="0.0" y="24" width="186" height="327"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <clipView key="contentView" id="Uwl-oy-AF9">
+                                            <rect key="frame" x="0.0" y="0.0" width="186" height="327"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <outlineView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" selectionHighlightStyle="sourceList" multipleSelection="NO" autosaveColumns="NO" rowHeight="20" indentationPerLevel="14" autoresizesOutlineColumn="YES" outlineTableColumn="116" id="114">
+                                                    <rect key="frame" x="0.0" y="0.0" width="186" height="327"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <size key="intercellSpacing" width="3" height="0.0"/>
+                                                    <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                                    <tableColumns>
+                                                        <tableColumn identifier="Path" editable="NO" width="183" minWidth="16" maxWidth="1000" id="116">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Path">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </tableHeaderCell>
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="119">
+                                                                <font key="font" metaFont="system"/>
+                                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES"/>
+                                                            <connections>
+                                                                <binding destination="175" name="value" keyPath="arrangedObjects.title" id="184"/>
+                                                            </connections>
+                                                        </tableColumn>
+                                                    </tableColumns>
+                                                    <connections>
+                                                        <outlet property="dataSource" destination="-2" id="214"/>
+                                                        <outlet property="delegate" destination="-2" id="215"/>
+                                                    </connections>
+                                                </outlineView>
+                                            </subviews>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </clipView>
+                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="113">
+                                            <rect key="frame" x="-100" y="-100" width="223" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                        <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="112">
+                                            <rect key="frame" x="128" y="1" width="15" height="268"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                    </scrollView>
+                                    <popUpButton verticalHuggingPriority="750" id="140">
+                                        <rect key="frame" x="-1" y="0.0" width="39" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <popUpButtonCell key="cell" type="smallSquare" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" pullsDown="YES" selectedItem="143" id="141" customClass="AZGlassPopUpButtonCell">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="menu"/>
+                                            <menu key="menu" title="OtherViews" id="142">
+                                                <items>
+                                                    <menuItem state="on" image="action" hidden="YES" id="143"/>
+                                                    <menuItem title="Item 2" id="144"/>
+                                                    <menuItem title="Item 3" id="145"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <outlet property="menu" destination="151" id="261"/>
+                                        </connections>
+                                    </popUpButton>
+                                    <customView id="146" customClass="AZSplitViewThumbView">
+                                        <rect key="frame" x="38" y="0.0" width="148" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    </customView>
+                                </subviews>
+                            </customView>
+                            <customView id="148">
+                                <rect key="frame" x="187" y="0.0" width="462" height="351"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <scrollView horizontalLineScroll="22" horizontalPageScroll="10" verticalLineScroll="22" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" id="220">
+                                        <rect key="frame" x="-1" y="23" width="463" height="329"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <clipView key="contentView" id="Bfq-pZ-cUt">
+                                            <rect key="frame" x="1" y="17" width="445" height="311"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <outlineView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="firstColumnOnly" columnReordering="NO" autosaveColumns="NO" rowHeight="20" headerView="224" indentationPerLevel="10" autoresizesOutlineColumn="YES" outlineTableColumn="225" id="223">
+                                                    <rect key="frame" x="0.0" y="0.0" width="445" height="311"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <size key="intercellSpacing" width="3" height="2"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                                    <tableColumns>
+                                                        <tableColumn identifier="Name" editable="NO" width="88" minWidth="16" maxWidth="1000" id="225">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Name">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </tableHeaderCell>
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="228">
+                                                                <font key="font" metaFont="system"/>
+                                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                            <connections>
+                                                                <binding destination="219" name="value" keyPath="arrangedObjects.name" id="245"/>
+                                                            </connections>
+                                                        </tableColumn>
+                                                        <tableColumn identifier="base" editable="NO" width="140" minWidth="40" maxWidth="1000" id="226">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Base Language">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
+                                                            </tableHeaderCell>
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="227">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                            <connections>
+                                                                <binding destination="219" name="value" keyPath="arrangedObjects.sourceLanguage" id="238"/>
+                                                            </connections>
+                                                        </tableColumn>
+                                                        <tableColumn identifier="target" editable="NO" width="122" minWidth="10" maxWidth="3.4028229999999999e+38" id="229">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Target Language">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                            </tableHeaderCell>
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="230">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                            <connections>
+                                                                <binding destination="219" name="value" keyPath="arrangedObjects.targetLanguage" id="240"/>
+                                                            </connections>
+                                                        </tableColumn>
+                                                        <tableColumn identifier="items" editable="NO" width="83" minWidth="10" maxWidth="3.4028229999999999e+38" id="231">
+                                                            <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Items">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                                            </tableHeaderCell>
+                                                            <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="Text Cell" id="232">
+                                                                <font key="font" metaFont="smallSystem"/>
+                                                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                            </textFieldCell>
+                                                            <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                                            <connections>
+                                                                <binding destination="219" name="value" keyPath="arrangedObjects.items" id="243"/>
+                                                            </connections>
+                                                        </tableColumn>
+                                                    </tableColumns>
+                                                    <connections>
+                                                        <outlet property="delegate" destination="-2" id="244"/>
+                                                    </connections>
+                                                </outlineView>
+                                            </subviews>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </clipView>
+                                        <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="222">
+                                            <rect key="frame" x="-100" y="-100" width="445" height="15"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                        <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="221">
+                                            <rect key="frame" x="446" y="17" width="16" height="311"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </scroller>
+                                        <tableHeaderView key="headerView" id="224">
+                                            <rect key="frame" x="0.0" y="0.0" width="445" height="17"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableHeaderView>
+                                    </scrollView>
+                                    <customView id="139" customClass="AZGlassView">
+                                        <rect key="frame" x="38" y="0.0" width="424" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                    </customView>
+                                    <popUpButton verticalHuggingPriority="750" id="133">
+                                        <rect key="frame" x="-1" y="0.0" width="39" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <popUpButtonCell key="cell" type="smallSquare" bezelStyle="smallSquare" imagePosition="overlaps" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" pullsDown="YES" selectedItem="138" id="134" customClass="AZGlassPopUpButtonCell">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="menu"/>
+                                            <menu key="menu" title="OtherViews" id="135">
+                                                <items>
+                                                    <menuItem state="on" image="action" hidden="YES" id="138"/>
+                                                    <menuItem title="Item 2" id="137"/>
+                                                    <menuItem title="Item 3" id="136"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <outlet property="menu" destination="160" id="262"/>
+                                        </connections>
+                                    </popUpButton>
+                                </subviews>
+                            </customView>
+                        </subviews>
+                        <holdingPriorities>
+                            <real value="250"/>
+                            <real value="250"/>
+                        </holdingPriorities>
+                        <connections>
+                            <outlet property="delegate" destination="-2" id="203"/>
+                        </connections>
+                    </splitView>
+                </subviews>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="CE130159-81F6-4467-9C07-B756E9F29832" autosavesConfiguration="NO" allowsUserCustomization="NO" displayMode="iconOnly" sizeMode="regular" id="271">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="272"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="273"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSeparatorItem" id="274"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="275"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="276"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="277"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarCustomizeToolbarItem" id="278"/>
+                    <toolbarItem implicitItemIdentifier="5C95C79D-BF0E-405D-AE3C-865E23C79891" label="Search" paletteLabel="Search" id="281">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="96" height="22"/>
+                        <size key="maxSize" width="292" height="22"/>
+                        <searchField key="view" verticalHuggingPriority="750" id="279">
+                            <rect key="frame" x="0.0" y="14" width="292" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" usesSingleLineMode="YES" bezelStyle="round" recentsAutosaveName="glossary-manager" id="280">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </searchFieldCell>
+                            <connections>
+                                <action selector="search:" target="-2" id="284"/>
+                            </connections>
+                        </searchField>
+                    </toolbarItem>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="277"/>
+                    <toolbarItem reference="281"/>
+                </defaultToolbarItems>
+            </toolbar>
+        </window>
+        <menu id="151" userLabel="Path">
+            <items>
+                <menuItem image="NSActionTemplate" id="152">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Reveal in Finder" id="157">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="pathRevealInFinder:" target="-2" id="204"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="207"/>
+                <menuItem title="Add…" id="263">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="pathAdd:" target="-2" id="264"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="270"/>
+                <menuItem title="Remove" id="206">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="pathRemove:" target="-2" id="209"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+        <menu id="160" userLabel="Glossary">
+            <items>
+                <menuItem image="NSActionTemplate" id="168">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                </menuItem>
+                <menuItem title="Open" id="172">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="glossaryOpen:" target="-2" id="210"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Reveal in Finder" id="201">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="glossaryRevealInFinder:" target="-2" id="211"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="171"/>
+                <menuItem title="Merge…" id="169">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="glossaryMerge:" target="-2" id="212"/>
+                    </connections>
+                </menuItem>
+                <menuItem isSeparatorItem="YES" id="269"/>
+                <menuItem title="Delete" id="170">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="glossaryDelete:" target="-2" id="213"/>
+                    </connections>
+                </menuItem>
+            </items>
+        </menu>
+        <treeController objectClassName="GMSidebarNode" editable="NO" childrenKeyPath="children" avoidsEmptySelection="NO" selectsInsertedObjects="NO" id="175" userLabel="SidebarController">
+            <declaredKeys>
+                <string>title</string>
+            </declaredKeys>
+        </treeController>
+        <treeController objectClassName="GMGlossaryNode" editable="NO" childrenKeyPath="children" avoidsEmptySelection="NO" selectsInsertedObjects="NO" id="219" userLabel="GlossaryController">
+            <declaredKeys>
+                <string>name</string>
+                <string>sourceLanguage</string>
+                <string>targetLanguage</string>
+                <string>entries.@count</string>
+                <string>items</string>
+            </declaredKeys>
+        </treeController>
+    </objects>
+    <resources>
+        <image name="NSActionTemplate" width="14" height="14"/>
+        <image name="action" width="18" height="10"/>
+    </resources>
+</document>

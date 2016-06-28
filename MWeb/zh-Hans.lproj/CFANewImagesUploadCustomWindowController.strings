@@ -1,0 +1,45 @@
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "18J-b4-vUL"; */
+"18J-b4-vUL.title" = "关闭";
+
+/* Class = "NSTextFieldCell"; title = "Response URL Path:"; ObjectID = "6gF-vp-vhk"; */
+"6gF-vp-vhk.title" = "图片URL路径:";
+
+/* Class = "NSTextFieldCell"; placeholderString = "URL = Prefix + URL Path when is filled (option)."; ObjectID = "9wa-if-AET"; */
+"9wa-if-AET.placeholderString" = "(可选)，当填入时，URL = 前缀 + 图片URL路径值。";
+
+/* Class = "NSTextFieldCell"; title = "API URL:"; ObjectID = "M8B-yL-N0i"; */
+"M8B-yL-N0i.title" = "API 地址:";
+
+/* Class = "NSBox"; title = "Basic Info"; ObjectID = "Mis-tg-BEg"; */
+"Mis-tg-BEg.title" = "基本信息";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "VhQ-5A-EQD"; */
+"VhQ-5A-EQD.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "Add POST Header Fields"; ObjectID = "Zdx-PF-Ti9"; */
+"Zdx-PF-Ti9.title" = "增加 POST Header 字段";
+
+/* Class = "NSTextFieldCell"; title = "Response URL Prefix:"; ObjectID = "cUG-o9-jnU"; */
+"cUG-o9-jnU.title" = "图片URL前缀:";
+
+/* Class = "NSButtonCell"; title = "Add POST Body Fields"; ObjectID = "dwF-9t-2Ll"; */
+"dwF-9t-2Ll.title" = "增加 POST Body 字段";
+
+/* Class = "NSTextFieldCell"; title = "POST File Name:"; ObjectID = "el9-sd-DmD"; */
+"el9-sd-DmD.title" = "POST File Name:";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "kba-88-tjr"; */
+"kba-88-tjr.title" = "名称:";
+
+/* Class = "NSBox"; title = "POST Header and Body Data"; ObjectID = "lRa-Yf-a8n"; */
+"lRa-Yf-a8n.title" = "POST Header and Body 数据";
+
+/* Class = "NSButtonCell"; title = "Validate"; ObjectID = "mz6-Rl-trv"; */
+"mz6-Rl-trv.title" = "验证";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Separate by \"/\", for example: data/url"; ObjectID = "tQd-kL-g4U"; */
+"tQd-kL-g4U.placeholderString" = "返回JSON中的图片URL的字段的路径，如: data/url";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "uOi-RY-YIt"; */
+"uOi-RY-YIt.title" = "确定";

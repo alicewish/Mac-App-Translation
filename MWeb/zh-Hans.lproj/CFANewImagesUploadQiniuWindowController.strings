@@ -1,0 +1,33 @@
+
+/* Class = "NSTextFieldCell"; title = "Secret Key:"; ObjectID = "Col-WV-rJQ"; */
+"Col-WV-rJQ.title" = "Secret Key:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "Fn1-EH-nXY"; */
+"Fn1-EH-nXY.title" = "确认";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "J6h-IH-ejo"; */
+"J6h-IH-ejo.title" = "名称:";
+
+/* Class = "NSButtonCell"; title = "Validate"; ObjectID = "Kzg-Zp-Dyw"; */
+"Kzg-Zp-Dyw.title" = "验证";
+
+/* Class = "NSTextFieldCell"; title = "http://upload.qiniu.com/"; ObjectID = "Lb7-gm-KMe"; */
+"Lb7-gm-KMe.title" = "http://upload.qiniu.com/";
+
+/* Class = "NSTextFieldCell"; title = "API URL:"; ObjectID = "PRL-hp-10l"; */
+"PRL-hp-10l.title" = "API 地址:";
+
+/* Class = "NSTextFieldCell"; title = "Access Key:"; ObjectID = "VqA-hv-mli"; */
+"VqA-hv-mli.title" = "Access Key:";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "glz-QV-WSA"; */
+"glz-QV-WSA.title" = "关闭";
+
+/* Class = "NSTextFieldCell"; title = "Bucket Name:"; ObjectID = "hHP-1b-q8U"; */
+"hHP-1b-q8U.title" = "空间名称:";
+
+/* Class = "NSTextFieldCell"; title = "Image URL Prefix:"; ObjectID = "psh-gQ-p0I"; */
+"psh-gQ-p0I.title" = "图片URL前缀:";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "yRq-23-Zpy"; */
+"yRq-23-Zpy.title" = "Window";

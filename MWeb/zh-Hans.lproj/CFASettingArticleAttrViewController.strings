@@ -1,0 +1,48 @@
+
+/* Class = "NSTextFieldCell"; title = "Date:"; ObjectID = "0Ur-dy-NsW"; */
+"0Ur-dy-NsW.title" = "时间:";
+
+/* Class = "NSTextFieldCell"; title = "Extension for"; ObjectID = "2Nr-Y1-ouN"; */
+"2Nr-Y1-ouN.title" = "当前网站:";
+
+/* Class = "NSTabViewItem"; label = "Base"; ObjectID = "2cl-AR-MXM"; */
+"2cl-AR-MXM.label" = "基本";
+
+/* Class = "NSButtonCell"; title = "Title"; ObjectID = "5k6-cv-23m"; */
+"5k6-cv-23m.title" = "标题";
+
+/* Class = "NSTabViewItem"; label = "Extension"; ObjectID = "Dv0-29-Tql"; */
+"Dv0-29-Tql.label" = "扩展";
+
+/* Class = "NSTextField"; ibShadowedToolTip = "HTML Name"; ObjectID = "Kfj-cI-R6P"; */
+"Kfj-cI-R6P.ibShadowedToolTip" = "HTML 名称";
+
+/* Class = "NSTextFieldCell"; title = "Categories:"; ObjectID = "QLN-fJ-xrt"; */
+"QLN-fJ-xrt.title" = "分类:";
+
+/* Class = "NSTextFieldCell"; title = "HTML File Name:"; ObjectID = "Twy-Qh-6L9"; */
+"Twy-Qh-6L9.title" = "HTML 的文档名:";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "WAp-ZD-EFv"; */
+"WAp-ZD-EFv.title" = "Text Cell";
+
+/* Class = "NSTabViewItem"; label = "Media"; ObjectID = "WUH-Sw-paf"; */
+"WUH-Sw-paf.label" = "图片&文件";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "b77-6a-p9y"; */
+"b77-6a-p9y.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Copy Path"; ObjectID = "bhs-Ii-Nxa"; */
+"bhs-Ii-Nxa.title" = "复制地址";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "dT1-6c-cN8"; */
+"dT1-6c-cN8.title" = "删除";
+
+/* Class = "NSButtonCell"; title = "Markdown"; ObjectID = "jWz-7n-2Um"; */
+"jWz-7n-2Um.title" = "Markdown";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "knW-RL-rJ7"; */
+"knW-RL-rJ7.title" = "Label";
+
+/* Class = "NSButtonCell"; title = "Is Page"; ObjectID = "vsf-Yd-ve1"; */
+"vsf-Yd-ve1.title" = "是否为页面(Page)";

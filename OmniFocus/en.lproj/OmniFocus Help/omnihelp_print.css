@@ -1,0 +1,445 @@
+/*
+	print.css
+	Copyright (c) 2013-2014, The Omni Group. All rights reserved.
+*/
+
+/*
+This is a general reset block. It hasn't been tested with the other stuff, so holding off on actually using this for a bit. Keeping it here until I can get back to testing.
+--------------------------------------------------------------------------------
+address,
+blockquote, 
+body, dd, div, 
+dl, dt, 
+form,
+h1, h2, h3, h4, 
+h5, h6, 
+object, ol, p, 
+ul,
+hr, pr e        { display: block }
+li              { display: list-item }
+head            { display: none }
+th              { font-weight: bolder; text-align: center }
+caption         { text-align: center }
+body            { padding: 8px; line-height: 1.33 }
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .83em 0 }
+h3              { font-size: 1.17em; margin: 1em 0 }
+h4, p,
+blockquote, ul,
+form,
+h5              { font-size: .83em; line-height: 1.17em; margin: 1.67em 0 }
+h6              { font-size: .67em; margin: 2.33em 0 }
+h1, h2, h3, h4,
+h5, h6, b,
+strong          { font-weight: bolder }
+blockquote      { margin-left: 40px; margin-right: 40px }
+i, cite, em,
+var, address    { font-style: italic }
+pre, tt, code,
+kbd, samp       { font-family: monospace }
+pre             { white-space: pre }
+big             { font-size: 1.17em }
+small, sub, sup { font-size: .83em }
+hr              { border: 1px  }
+ol, ul, dd      { margin-left: 40px }
+ol              { list-style-type: decimal }
+ol ul, ul ol,
+ul ul, ol ol    { margin-top: 0; margin-bottom: 0 }
+br       { content: "\A" }
+
+@media print {
+  @page         { margin: 10% }
+  blockquote, 
+  pre           { page-break-inside: avoid }
+}
+*/
+
+body { 
+	font-family: "Iowan Old Style", serif;
+    font-size: 12pt; 
+    color: #333333;
+    background: #ffffff;
+    widows: 3;
+    orphans: 3;
+}
+
+@page {
+	size: auto;
+	margin: 10%;
+	
+	:left {
+		@bottom-left {
+			content: counter(page)" "string(Booktitle);
+		}
+	}
+	
+	:right {
+		@bottom-right {
+			content: counter(page);
+		}
+	}
+  
+	@top-center {
+		content: "OmniFocus 2 for Mac User Manual";
+	}
+
+	@bottom-center {
+		content: "Copyright &#169; 2010-2014, The Omni Group. All rights reserved.";
+	}
+}
+
+
+#titlepage, #chapter {
+	width: auto;
+	margin: 20% 5% 10% 5%;
+	float: none !important;
+	page-break-after: right !important;
+	break-after: recto !important;
+	break-after: right !important;
+}
+
+#book > a, a:visited { 
+	color: #4E1180; 
+	background: transparent; 
+	font-weight: bold; 
+	text-decoration: underline; 
+}
+
+#omnimenu {
+	display: none;
+}
+
+/* Not sure that we want to do this, but will leave this here for now. */
+/*
+#pagewrap a:link:after, 
+#pagewrap a:visited:after { 
+	content: " (" attr(href) ") "; 
+	font-size: 90%; 
+}
+	
+#pagewrap a[href^="/"]:after { 
+	content: " (http://www.omnigroup.com" attr(href) ") "; 
+}
+*/
+
+/*
+Stuff for the HTML file:
+
+Link to the CSS in the header:
+<link rel="stylesheet" href="omnidocs_print.css" type="text/css" media="print" />
+
+The button:
+<a href="javascript:window.print()"><img src="print.jpg" alt="print this page" id="print-button" /></a>
+
+CSS for the Button:
+#print-button {
+	display: none;
+}
+
+*/
+
+/* Section Styles */
+
+section#book {
+	margin: 0.5in;
+}
+
+section#titlepage {
+	page-break-before: avoid !important;
+	break-before: avoid !important;
+}
+
+section#copyright {
+	page-break-before: always !important;
+	break-before: always !important;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p.copyright {
+	font-family: "HelveticaNeue-Regular", Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 10pt;
+	color: #333333;
+	text-align: justify;
+}
+
+section#chapter {
+	padding: 1.5em .5em;
+	margin: 1.5em .5em;
+	page-break-before: always !important;
+	break-before: always !important;
+}
+
+/* Figure Styles */
+
+/* Work in Progress
+
+span.cover {
+	content: url(cover.png);
+	max-width: 800px;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+*/
+
+figure {
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+figure > img {
+	width: 80%;
+	max-width: 70%;
+}
+
+div.float-right, .floatR {
+	float: right;
+	padding: 0 0 10px 10px;
+}
+
+img.inline_image_heading {
+	width: 25px;
+	vertical-align: baseline;
+	padding-left: 10px;
+}
+
+img.inline_image_body {
+	width: 14px;
+	vertical-align: baseline;
+	padding: 0 10px;
+}
+
+span.covericon {
+	width: 50%;
+	max-width: 50%;
+	padding-left: 50px;
+	text-align: center;
+}
+
+.apphero {
+	float: right;
+	padding: 10px 0 20px 20px;
+	width: 25%;
+}
+
+
+/* Heading Styles */
+
+h1#title {
+	font-family: "HelveticaNeue-UltraLight", Helvetica, sans-serif;
+	font-size: 44pt;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+	font-weight: normal;
+	color: #4E1180;
+/*	visibility: hidden;  Temporary while testing the cover image */
+}
+
+h1 {
+	font-family: "HelveticaNeue-UltraLight", Helvetica, sans-serif;
+	font-size: 36pt;
+	margin: 4em 0 4em 0;
+	text-align: right;
+	font-weight: normal;
+	color: #4E1180;
+}
+
+h2,h3,h4 {
+	font-family: "HelveticaNeue-Light", Helvetica, sans-serif;
+	font-weight: normal;
+	color: #4E1180;
+	page-break-after: avoid !important; /* Doesn't appear to work */
+	break-after: avoid !important; /* Doesn't appear to work */
+}
+
+/*
+Can't seem to get this to work. What I'm trying to do here is to have CSS "group" H2 and H3 headings together with the first paragraph that follows and then force a page-break behavior. Essentially, to keep from having orphaned headings at the bottom of a page; however, nothing seems to work.
+
+I've tried page-break-inside and page-break-before, assuming that -inside would stop a break from happening between the two elements, and -before would stop a page break from happening before the paragraph (or after the heading, depending on how you look at it). I've also tried using + and > between the two, but nothing gives. I'm chalking this up to a WebKit error.
+
+I really wish CSS had XSLT's keep-with-next. Grrr!
+*/
+
+h2,h3 + p::nth-of-type(1) {
+	page-break-before: avoid !important;
+	break-before: avoid !important;
+}
+
+
+h2 {
+	font-size: 20pt;
+	margin: 1em 0 -0.5em 0;
+}
+
+h3 {
+	font-size: 18pt;
+	margin: 1em 0 -0.5em 0;
+}
+
+h4 {
+	font-size: 14pt;
+	margin: 1em 0 -0.5em 0;
+}
+
+/* BODY STYLES, INCLUDING NOTES AND SIDEBARS */
+
+p {
+	margin-bottom: 1em;
+}
+
+.filepath {
+	font-family: "Menlo-Bold" monospace !important;
+	font-size: 10pt;
+	line-height: 8pt;
+	width: 80%;
+	white-space: pre-wrap;
+	background-color: #f3f3f3;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+
+/* ---------- NOTES AND WARNINGS ---------- */
+
+div#note, div#tip, div#warning {
+	width: 85%;
+	padding: 3px 0;
+	margin: 20px 40px;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+}
+
+p.note, p.tip, p.warning {
+	font-family: "HelveticaNeue-Light" !important;
+	font-size: 11pt;
+	line-height: 14pt;
+}
+
+span.note-glyph, span.tip-glyph, span.warning-glyph {
+	float: left;
+}
+
+/* Glyphs for Notes, Tips, and Warnings */
+span.note-glyph:before {
+	content: url(HelpImages/note.png);
+	position: absolute;
+	left: 20px;
+	opacity: 0.1;
+	vertical-align: middle;
+}
+
+span.tip-glyph:before {
+	content: url(HelpImages/tip.png);
+	position: absolute;
+	left: 40px;
+	opacity: 0.1;
+}
+
+span.warning-glyph:before {
+	content: url(HelpImages/warning.png);
+	position: absolute;
+	left: 20px;
+	opacity: 0.1;
+}
+
+div.sidebar {
+	width: 85%;
+	border-radius: 5px 20px 20px 5px;
+	border: 4px solid #CCC;
+	color: #333;
+	padding: 20px;
+	font-family: "HelveticaNeue-Light";
+	font-size: 13pt;
+	line-height: 18pt;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+}
+
+h2.sidebarhead {
+	font-size: 150%;
+	line-height: normal;
+	color: #333;
+	margin: 0 0 -0.5em 0 !important;
+}
+
+div.profeature {
+	border-radius: 5px 20px 5px 20px;
+	border: 4px solid #CCC;
+	background: #FFF;
+	margin: 10px 0;
+	padding: 0 15px;
+	font-family: "Iowan Old Style", serif;
+	line-height: normal;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+}
+
+/* LIST STYLES: INCLUDING UL, OL, AND DL */
+
+ol {
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin: 1em;
+}
+
+ol li {
+	margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul li {
+    margin-bottom: 0.5em;
+}
+
+#contents {
+	clear: both;
+	line-height: 1.5em;
+	padding-bottom: 100px;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 0.75em;
+	page-break-after: avoid !important;
+}
+
+dd {
+	margin-left: 1.5em;
+}
+
+/* TABLE STYLES */
+
+table {
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	page-break-inside: avoid !important;
+	break-inside: avoid !important;
+	border-collapse: collapse;
+}
+
+th,td {
+	border: solid 2px #CCC;
+	padding: 4px 0 4px 8px;
+	font-family: "HelveticaNeue-Light";
+}
+
+th {
+	font-size: 12pt;
+	line-height: 14pt;
+	color: #FFF;
+	background-color: #4E1180;
+}
+
+td {
+	font-size: 11pt;
+	line-height: 14pt;
+}
+

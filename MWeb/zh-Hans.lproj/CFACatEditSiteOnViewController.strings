@@ -1,0 +1,117 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Custom Theme require Jquery library"; ObjectID = "07A-a2-L4n"; */
+"07A-a2-L4n.ibShadowedToolTip" = "自定模板需要引入 Jquery 库";
+
+/* Class = "NSTextFieldCell"; title = "Order by:"; ObjectID = "2i2-WF-6l6"; */
+"2i2-WF-6l6.title" = "顺序:";
+
+/* Class = "NSButtonCell"; title = "Show in Finder"; ObjectID = "5cE-lx-JeB"; */
+"5cE-lx-JeB.title" = "在 Finder 打开";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "5cn-lU-lBg"; */
+"5cn-lU-lBg.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Comment & Share Code:"; ObjectID = "6W4-MO-L2a"; */
+"6W4-MO-L2a.title" = "评论和分享代码:";
+
+/* Class = "NSButtonCell"; title = "Advanced Settings"; ObjectID = "9dV-Jg-hrm"; */
+"9dV-Jg-hrm.title" = "高级设置";
+
+/* Class = "NSTextFieldCell"; title = "Site Description:"; ObjectID = "ABx-yE-WNh"; */
+"ABx-yE-WNh.title" = "网站描述:";
+
+/* Class = "NSButtonCell"; title = "Clear and Rebuild Site"; ObjectID = "ADI-fB-wAb"; */
+"ADI-fB-wAb.title" = "清理并重新生成网站";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "AOG-bq-Umi"; */
+"AOG-bq-Umi.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "BJc-N7-E0f"; */
+"BJc-N7-E0f.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Build Path:"; ObjectID = "Bxc-DS-i6c"; */
+"Bxc-DS-i6c.title" = "生成位置:";
+
+/* Class = "NSButtonCell"; title = "Reload"; ObjectID = "FSt-a2-ygH"; */
+"FSt-a2-ygH.title" = "刷新";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "HhW-by-Bo4"; */
+"HhW-by-Bo4.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Site Date Format Type:"; ObjectID = "NNp-X8-R4R"; */
+"NNp-X8-R4R.title" = "网站日期格式:";
+
+/* Class = "NSButtonCell"; title = "Set to Library"; ObjectID = "Ok4-4y-MrU"; */
+"Ok4-4y-MrU.title" = "设置为文档库";
+
+/* Class = "NSTextFieldCell"; title = "Site Name:"; ObjectID = "RNs-WI-7uz"; */
+"RNs-WI-7uz.title" = "网站名称:";
+
+/* Class = "NSTextFieldCell"; title = "Site URL:"; ObjectID = "RiI-qS-bal"; */
+"RiI-qS-bal.title" = "网站网址:";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "WIq-5c-H35"; */
+"WIq-5c-H35.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "WJF-yp-ThH"; */
+"WJF-yp-ThH.title" = "名称:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Ws9-I8-FDF"; */
+"Ws9-I8-FDF.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "YG5-pN-vDi"; */
+"YG5-pN-vDi.title" = "Item 3";
+
+/* Class = "NSButtonCell"; title = "Preview Site"; ObjectID = "Ya6-qQ-p62"; */
+"Ya6-qQ-p62.title" = "预览网站";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Znn-TG-S2Z"; */
+"Znn-TG-S2Z.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Enable MathJax & Chart:"; ObjectID = "anl-2z-7Df"; */
+"anl-2z-7Df.title" = "启用 MathJax & 画图:";
+
+/* Class = "NSButtonCell"; title = "Edit..."; ObjectID = "cKj-mb-3Th"; */
+"cKj-mb-3Th.title" = "编辑...";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "dap-bf-eqx"; */
+"dap-bf-eqx.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "Site Page Size:"; ObjectID = "fUI-bV-Iku"; */
+"fUI-bV-Iku.title" = "每页显示文章数:";
+
+/* Class = "NSButtonCell"; title = "Build Site"; ObjectID = "jPv-oP-atQ"; */
+"jPv-oP-atQ.title" = "生成网站";
+
+/* Class = "NSButtonCell"; title = "MathJax"; ObjectID = "k20-5s-kfU"; */
+"k20-5s-kfU.title" = "MathJax";
+
+/* Class = "NSButtonCell"; title = "Sequence & Flow Chart"; ObjectID = "kXQ-pQ-sIt"; */
+"kXQ-pQ-sIt.title" = "顺序图和流程图";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "mM6-1w-5PK"; */
+"mM6-1w-5PK.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "qS6-Hw-xg5"; */
+"qS6-Hw-xg5.title" = "Item 1";
+
+/* Class = "NSTextFieldCell"; title = "Site Other Code:"; ObjectID = "qdI-9P-mQ8"; */
+"qdI-9P-mQ8.title" = "网站其他代码:";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "sQz-Co-3k7"; */
+"sQz-Co-3k7.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "saO-mU-rFu"; */
+"saO-mU-rFu.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Used in RSS must end with / "; ObjectID = "y7j-ab-SuV"; */
+"y7j-ab-SuV.placeholderString" = "用于 RSS，请以 / 结尾";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "yoq-ds-mxU"; */
+"yoq-ds-mxU.title" = "Label";
+
+/* Class = "NSButtonCell"; title = "Change"; ObjectID = "yxI-eC-6B6"; */
+"yxI-eC-6B6.title" = "修改";
+
+/* Class = "NSTextFieldCell"; title = "Theme:"; ObjectID = "zLh-7a-Y3K"; */
+"zLh-7a-Y3K.title" = "模板:";

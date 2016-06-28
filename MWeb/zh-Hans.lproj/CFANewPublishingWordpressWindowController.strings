@@ -1,0 +1,39 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "1Lc-s9-HQj"; */
+"1Lc-s9-HQj.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "5Sa-uI-Elu"; */
+"5Sa-uI-Elu.title" = "确定";
+
+/* Class = "NSMenuItem"; title = "Metaweblog API"; ObjectID = "5cE-4S-XdJ"; */
+"5cE-4S-XdJ.title" = "Metaweblog API";
+
+/* Class = "NSMenuItem"; title = "Wordpress.org"; ObjectID = "8vv-9N-ewh"; */
+"8vv-9N-ewh.title" = "Wordpress.org";
+
+/* Class = "NSTextFieldCell"; title = "Blog URL:"; ObjectID = "Eyg-x4-gqG"; */
+"Eyg-x4-gqG.title" = "博客网址:";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Fo7-Ei-0Hu"; */
+"Fo7-Ei-0Hu.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "Validate"; ObjectID = "J8a-vH-cNU"; */
+"J8a-vH-cNU.title" = "验证";
+
+/* Class = "NSTextFieldCell"; title = "Publish URL:"; ObjectID = "Y1m-GW-dY5"; */
+"Y1m-GW-dY5.title" = "API 地址:";
+
+/* Class = "NSTextFieldCell"; title = "Account:"; ObjectID = "aXD-as-dYe"; */
+"aXD-as-dYe.title" = "帐号:";
+
+/* Class = "NSTextFieldCell"; title = "Password:"; ObjectID = "d8r-ug-P6X"; */
+"d8r-ug-P6X.title" = "密码:";
+
+/* Class = "NSTextFieldCell"; title = "Blog Name:"; ObjectID = "eBR-J8-KbD"; */
+"eBR-J8-KbD.title" = "博客名称:";
+
+/* Class = "NSTextFieldCell"; title = "Blog Type:"; ObjectID = "fvB-Ak-1ek"; */
+"fvB-Ak-1ek.title" = "博客类型:";

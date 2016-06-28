@@ -1,0 +1,24 @@
+
+/* Class = "NSTextFieldCell"; title = "Input Field Height:"; ObjectID = "1pR-zx-dfc"; */
+"1pR-zx-dfc.title" = "输入框高度:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "34h-WD-2Q0"; */
+"34h-WD-2Q0.title" = "确定";
+
+/* Class = "NSTextFieldCell"; title = "Template Variables Name (ext_ + name):"; ObjectID = "BfJ-qQ-luW"; */
+"BfJ-qQ-luW.title" = "模板变量名 (ext_ + 模板变量名):";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Title:"; ObjectID = "I5C-Ap-2n8"; */
+"I5C-Ap-2n8.title" = "标题:";
+
+/* Class = "NSTextFieldCell"; title = "22"; ObjectID = "Ig9-F3-C0N"; */
+"Ig9-F3-C0N.title" = "22";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "LR1-YJ-g26"; */
+"LR1-YJ-g26.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Example Text:"; ObjectID = "SYE-ij-bz9"; */
+"SYE-ij-bz9.title" = "相关说明:";

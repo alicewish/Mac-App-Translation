@@ -1,0 +1,117 @@
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "0Ja-jM-YTc"; */
+"0Ja-jM-YTc.title" = "Item 3";
+
+/* Class = "NSButtonCell"; title = "Reload"; ObjectID = "2gd-Zo-c3e"; */
+"2gd-Zo-c3e.title" = "刷新";
+
+/* Class = "NSTextFieldCell"; title = "Line Spacing:"; ObjectID = "6uB-3W-zPp"; */
+"6uB-3W-zPp.title" = "行距:";
+
+/* Class = "NSButtonCell"; title = "Reload"; ObjectID = "7oz-Bb-TEL"; */
+"7oz-Bb-TEL.title" = "刷新";
+
+/* Class = "NSTextFieldCell"; title = "List Date Format:"; ObjectID = "9F0-OP-mes"; */
+"9F0-OP-mes.title" = "文档列表日期格式:";
+
+/* Class = "NSTextFieldCell"; title = "X"; ObjectID = "Axc-1V-jNA"; */
+"Axc-1V-jNA.title" = "X";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "D23-mM-A64"; */
+"D23-mM-A64.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "DAb-OK-i6Y"; */
+"DAb-OK-i6Y.title" = "Item 3";
+
+/* Class = "NSButtonCell"; title = "Enable sequence & flow chart"; ObjectID = "DoV-e2-Cao"; */
+"DoV-e2-Cao.title" = "启用顺序图和流程图";
+
+/* Class = "NSButtonCell"; title = "Translate newlines to <br> tags"; ObjectID = "FKm-2M-PRE"; */
+"FKm-2M-PRE.title" = "把换行转为 <br> 标签";
+
+/* Class = "NSButtonCell"; title = "Enable TOC (Table of Contents)"; ObjectID = "Hny-XH-gPs"; */
+"Hny-XH-gPs.title" = "启用 TOC (Table of Contents)";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "Iyr-9T-Qh2"; */
+"Iyr-9T-Qh2.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "Editor Line Width:"; ObjectID = "Jlq-YG-g8e"; */
+"Jlq-YG-g8e.title" = "编辑器行的最大宽度:";
+
+/* Class = "NSButtonCell"; title = "Edit..."; ObjectID = "K1N-XE-bUP"; */
+"K1N-XE-bUP.title" = "编辑...";
+
+/* Class = "NSButtonCell"; title = "Edit..."; ObjectID = "L30-cM-5iq"; */
+"L30-cM-5iq.title" = "编辑...";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "Nb1-8c-thU"; */
+"Nb1-8c-thU.title" = "Item 1";
+
+/* Class = "NSTextFieldCell"; title = "Editor Dark Themes:"; ObjectID = "Nw5-qw-2mz"; */
+"Nw5-qw-2mz.title" = "编辑器暗主题:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "P15-DV-lhc"; */
+"P15-DV-lhc.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Enable MathJax"; ObjectID = "PCx-md-QcM"; */
+"PCx-md-QcM.title" = "启用 MathJax";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "Sni-rw-C8f"; */
+"Sni-rw-C8f.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "TVh-vg-M74"; */
+"TVh-vg-M74.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "Ut7-Wm-RJn"; */
+"Ut7-Wm-RJn.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "Text Insets:"; ObjectID = "a7g-lH-d5y"; */
+"a7g-lH-d5y.title" = "编辑器边距:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "aXL-bh-LRY"; */
+"aXL-bh-LRY.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "cqU-An-quM"; */
+"cqU-An-quM.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "eND-aA-qoA"; */
+"eND-aA-qoA.title" = "Item 3";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "hLU-nn-XC5"; */
+"hLU-nn-XC5.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "iZy-Et-vP9"; */
+"iZy-Et-vP9.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "jFP-xc-VAv"; */
+"jFP-xc-VAv.title" = "Item 2";
+
+/* Class = "NSButtonCell"; title = "Smartypants"; ObjectID = "kIx-r4-ydU"; */
+"kIx-r4-ydU.title" = "Smartypants";
+
+/* Class = "NSTextFieldCell"; title = "Preview CSS:"; ObjectID = "lBN-Do-3Co"; */
+"lBN-Do-3Co.title" = "预览样式(CSS):";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "mkZ-yU-uKh"; */
+"mkZ-yU-uKh.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Base Font:"; ObjectID = "sRi-p6-o0k"; */
+"sRi-p6-o0k.title" = "字体:";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "tAO-Qz-E9X"; */
+"tAO-Qz-E9X.title" = "Item 1";
+
+/* Class = "NSTextFieldCell"; title = "Editor Light Themes:"; ObjectID = "ua8-18-cVS"; */
+"ua8-18-cVS.title" = "编辑器亮主题:";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "vGe-x4-gCC"; */
+"vGe-x4-gCC.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "Size:"; ObjectID = "xM3-Bp-cHm"; */
+"xM3-Bp-cHm.title" = "大小:";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "xq5-mb-owb"; */
+"xq5-mb-owb.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "zmT-mA-KJI"; */
+"zmT-mA-KJI.title" = "Item 2";

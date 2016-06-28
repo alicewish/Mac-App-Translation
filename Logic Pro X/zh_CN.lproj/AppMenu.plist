@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Title</key>
+			<string>提供 Logic Pro 反馈</string>
+			<key>URL</key>
+			<string>http://www.apple.com/feedback/logicpro.html</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>URL</key>
+		<string>itms://itunes.apple.com/app/logic-remote/id638394624?mt=8</string>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Title</key>
+			<string>下载 Logic Remote…</string>
+		</dict>
+	</dict>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Title</key>
+			<string>了解 MainStage…</string>
+			<key>URL</key>
+			<string>http://www.apple.com/cn/logicpro/mainstage</string>
+		</dict>
+	</dict>
+</array>
+</plist>

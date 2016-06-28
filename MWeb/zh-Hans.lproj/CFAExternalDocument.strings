@@ -1,0 +1,42 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "3Yc-PR-OE3"; */
+"3Yc-PR-OE3.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Copy HTML"; ObjectID = "4fd-iY-Y1K"; */
+"4fd-iY-Y1K.title" = "复制 HTML";
+
+/* Class = "NSSearchFieldCell"; placeholderString = " Search this Folder"; ObjectID = "EQe-iB-oHt"; */
+"EQe-iB-oHt.placeholderString" = " 搜索当前文件夹";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "ISi-xq-eI8"; */
+"ISi-xq-eI8.title" = "Label";
+
+/* Class = "NSButtonCell"; title = "S"; ObjectID = "KVx-U3-AsM"; */
+"KVx-U3-AsM.title" = "S";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Lla-yf-EqT"; */
+"Lla-yf-EqT.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "Live Preview..."; ObjectID = "Mu9-1M-xSo"; */
+"Mu9-1M-xSo.title" = "实时预览/编辑器";
+
+/* Class = "NSButtonCell"; title = "+"; ObjectID = "NXT-Pu-dey"; */
+"NXT-Pu-dey.title" = "+";
+
+/* Class = "NSMenuItem"; title = "Add External Source..."; ObjectID = "Z6e-xa-ZdX"; */
+"Z6e-xa-ZdX.title" = "引入文件夹...";
+
+/* Class = "NSButtonCell"; title = "N"; ObjectID = "aLS-Wj-d1u"; */
+"aLS-Wj-d1u.title" = "N";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "bde-5X-oGK"; */
+"bde-5X-oGK.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Label"; ObjectID = "cGN-K3-84R"; */
+"cGN-K3-84R.title" = "Label";
+
+/* Class = "NSMenuItem"; title = "New Folder"; ObjectID = "j5y-9l-auj"; */
+"j5y-9l-auj.title" = "新增文件夹";
+
+/* Class = "NSButtonCell"; title = "-"; ObjectID = "oO6-Pr-lP5"; */
+"oO6-Pr-lP5.title" = "-";

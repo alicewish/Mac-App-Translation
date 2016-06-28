@@ -1,0 +1,102 @@
+
+/* Class = "NSTabViewItem"; label = "Document Extension"; ObjectID = "0fe-b2-nOg"; */
+"0fe-b2-nOg.label" = "文档扩展";
+
+/* Class = "NSTabViewItem"; label = "Site Setting"; ObjectID = "1Mn-CP-1HR"; */
+"1Mn-CP-1HR.label" = "网站扩展设置";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "2GO-7A-SII"; */
+"2GO-7A-SII.title" = "OtherViews";
+
+/* Class = "NSTabViewItem"; label = "Site Extension"; ObjectID = "3Dg-Da-h7f"; */
+"3Dg-Da-h7f.label" = "网站扩展";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "4KZ-7V-qta"; */
+"4KZ-7V-qta.title" = "删除";
+
+/* Class = "NSButtonCell"; title = "Export"; ObjectID = "4LS-14-aca"; */
+"4LS-14-aca.title" = "导出";
+
+/* Class = "NSButtonCell"; title = "Export"; ObjectID = "62C-z3-1ot"; */
+"62C-z3-1ot.title" = "导出";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "6Lw-eE-tD4"; */
+"6Lw-eE-tD4.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Delete"; ObjectID = "AK8-BK-ISP"; */
+"AK8-BK-ISP.title" = "删除";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "ANL-OE-3eV"; */
+"ANL-OE-3eV.title" = "Item 3";
+
+/* Class = "NSTableColumn"; headerCell.title = "Example Text"; ObjectID = "ATl-3u-ThA"; */
+"ATl-3u-ThA.headerCell.title" = "说明文字";
+
+/* Class = "NSTableColumn"; headerCell.title = "Variable Name"; ObjectID = "B3l-4v-guo"; */
+"B3l-4v-guo.headerCell.title" = "变量名";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "B8e-zM-ISD"; */
+"B8e-zM-ISD.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "BdC-N1-lwg"; */
+"BdC-N1-lwg.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Height"; ObjectID = "Bq6-WX-T1x"; */
+"Bq6-WX-T1x.headerCell.title" = "高度";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "I0y-Fc-N9O"; */
+"I0y-Fc-N9O.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "Jcq-h6-hkX"; */
+"Jcq-h6-hkX.title" = "Item 1";
+
+/* Class = "NSButtonCell"; title = "Add"; ObjectID = "L4c-8C-7qc"; */
+"L4c-8C-7qc.title" = "增加";
+
+/* Class = "NSButtonCell"; title = "Import"; ObjectID = "RkS-Ws-2KF"; */
+"RkS-Ws-2KF.title" = "导入";
+
+/* Class = "NSTextFieldCell"; title = "Setting Site:"; ObjectID = "WCn-jo-oRg"; */
+"WCn-jo-oRg.title" = "设置的网站:";
+
+/* Class = "NSTableColumn"; headerCell.title = "Variable Name"; ObjectID = "WHN-GH-hdk"; */
+"WHN-GH-hdk.headerCell.title" = "变量名";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "aBr-Qy-lCg"; */
+"aBr-Qy-lCg.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ajC-7W-QFy"; */
+"ajC-7W-QFy.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Add"; ObjectID = "ay1-YE-S5O"; */
+"ay1-YE-S5O.title" = "增加";
+
+/* Class = "NSTableColumn"; headerCell.title = "Example Text"; ObjectID = "eaC-28-kly"; */
+"eaC-28-kly.headerCell.title" = "说明文字";
+
+/* Class = "NSTableColumn"; headerCell.title = "Title"; ObjectID = "ejm-nM-1Ka"; */
+"ejm-nM-1Ka.headerCell.title" = "标题";
+
+/* Class = "NSButtonCell"; title = "Edit"; ObjectID = "fAl-v1-UL9"; */
+"fAl-v1-UL9.title" = "编辑";
+
+/* Class = "NSButtonCell"; title = "Edit"; ObjectID = "g7N-q6-OBq"; */
+"g7N-q6-OBq.title" = "编辑";
+
+/* Class = "NSTableColumn"; headerCell.title = "Title"; ObjectID = "ltn-m9-Jbi"; */
+"ltn-m9-Jbi.headerCell.title" = "标题";
+
+/* Class = "NSTableColumn"; headerCell.title = "Height"; ObjectID = "ojG-9Y-eDB"; */
+"ojG-9Y-eDB.headerCell.title" = "高度";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "oqj-66-IGi"; */
+"oqj-66-IGi.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "qWF-gJ-B4J"; */
+"qWF-gJ-B4J.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Import"; ObjectID = "tzs-Eg-oBw"; */
+"tzs-Eg-oBw.title" = "导入";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "ulc-hi-II1"; */
+"ulc-hi-II1.title" = "Text Cell";

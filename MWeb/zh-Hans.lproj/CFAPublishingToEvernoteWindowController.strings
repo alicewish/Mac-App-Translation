@@ -1,0 +1,45 @@
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "5NL-8o-1Lr"; */
+"5NL-8o-1Lr.title" = "Item 3";
+
+/* Class = "NSButtonCell"; title = "Publish"; ObjectID = "6Ks-w3-e3b"; */
+"6Ks-w3-e3b.title" = "发布";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "7cV-85-8er"; */
+"7cV-85-8er.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Title:"; ObjectID = "B03-IP-T3E"; */
+"B03-IP-T3E.title" = "标题:";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "EXO-48-rpd"; */
+"EXO-48-rpd.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "Hr2-iV-lOt"; */
+"Hr2-iV-lOt.title" = "Item 2";
+
+/* Class = "NSTextFieldCell"; title = "URL:"; ObjectID = "IwF-Ox-2lw"; */
+"IwF-Ox-2lw.title" = "网址:";
+
+/* Class = "NSButtonCell"; title = "With Attachments"; ObjectID = "MdV-vz-4fp"; */
+"MdV-vz-4fp.title" = "同时发布附件";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Wu6-AV-Rq7"; */
+"Wu6-AV-Rq7.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Update published document ( published in 2015-1-1 10:10 )"; ObjectID = "ec3-jC-brN"; */
+"ec3-jC-brN.title" = "Update published document ( published in 2015-1-1 10:10 )";
+
+/* Class = "NSTextFieldCell"; title = "Tags:"; ObjectID = "gyy-6X-5Gz"; */
+"gyy-6X-5Gz.title" = "标签(Tags):";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "iCB-G3-FdD"; */
+"iCB-G3-FdD.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Notebook:"; ObjectID = "pdt-Bq-GrS"; */
+"pdt-Bq-GrS.title" = "笔记本:";
+
+/* Class = "NSTextFieldCell"; title = "Publish To: "; ObjectID = "uEp-XY-Bjo"; */
+"uEp-XY-Bjo.title" = "发布到: ";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "vlG-pA-jGd"; */
+"vlG-pA-jGd.title" = "取消";

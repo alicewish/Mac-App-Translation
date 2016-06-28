@@ -1,0 +1,45 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "7cc-nC-LFp"; */
+"7cc-nC-LFp.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Publish"; ObjectID = "9aD-zC-ae4"; */
+"9aD-zC-ae4.title" = "发布";
+
+/* Class = "NSButtonCell"; title = "Update published document ( published in 2015-1-1 10:10 )"; ObjectID = "BSp-ZQ-Huq"; */
+"BSp-ZQ-Huq.title" = "Update published document ( published in 2015-1-1 10:10 )";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "DBL-0c-dIZ"; */
+"DBL-0c-dIZ.title" = "取消";
+
+/* Class = "NSMenuItem"; title = "Published"; ObjectID = "FgI-Hu-7nv"; */
+"FgI-Hu-7nv.title" = "已发布";
+
+/* Class = "NSTextFieldCell"; title = "Tags:"; ObjectID = "Gf2-Wk-LNY"; */
+"Gf2-Wk-LNY.title" = "标签(Tags):";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "GnT-bW-xbP"; */
+"GnT-bW-xbP.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "URL:"; ObjectID = "VIO-Xw-7tS"; */
+"VIO-Xw-7tS.title" = "网址:";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "XNO-iu-jRw"; */
+"XNO-iu-jRw.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "ZTf-XO-1Nu"; */
+"ZTf-XO-1Nu.title" = "状态:";
+
+/* Class = "NSButtonCell"; title = "Open & Preview the blog when published."; ObjectID = "hn9-9w-k92"; */
+"hn9-9w-k92.title" = "发布后在浏览器中打开。";
+
+/* Class = "NSMenuItem"; title = "Draft"; ObjectID = "nYq-ai-YX1"; */
+"nYq-ai-YX1.title" = "草稿";
+
+/* Class = "NSTextFieldCell"; title = "Publish Date:"; ObjectID = "rFw-XC-9CW"; */
+"rFw-XC-9CW.title" = "发布日期:";
+
+/* Class = "NSTextFieldCell"; title = "Title:"; ObjectID = "wXt-iX-LmD"; */
+"wXt-iX-LmD.title" = "标题:";
+
+/* Class = "NSTextFieldCell"; title = "Publish To: "; ObjectID = "yJY-Ua-YSl"; */
+"yJY-Ua-YSl.title" = "发布到: ";

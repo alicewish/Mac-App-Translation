@@ -1,0 +1,33 @@
+
+/* Class = "NSButtonCell"; title = "Sync"; ObjectID = "0hb-c5-p2c"; */
+"0hb-c5-p2c.title" = "同步";
+
+/* Class = "NSTextFieldCell"; title = "CSS:"; ObjectID = "2KZ-4p-hOR"; */
+"2KZ-4p-hOR.title" = "样式:";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "CIm-MF-b2d"; */
+"CIm-MF-b2d.title" = "Item 1";
+
+/* Class = "NSWindow"; title = "Live Preview"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "实时预览";
+
+/* Class = "NSButtonCell"; title = "Back"; ObjectID = "GaX-Cr-RQw"; */
+"GaX-Cr-RQw.title" = "返回";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "M1c-AC-ILe"; */
+"M1c-AC-ILe.title" = "Item 2";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Pgs-zD-62p"; */
+"Pgs-zD-62p.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Info"; ObjectID = "qkC-jb-AH9"; */
+"qkC-jb-AH9.title" = "Info";
+
+/* Class = "NSButtonCell"; title = "Above"; ObjectID = "tux-Bn-a7w"; */
+"tux-Bn-a7w.title" = "顶置";
+
+/* Class = "NSButtonCell"; title = "Refresh"; ObjectID = "uhb-Pf-rMa"; */
+"uhb-Pf-rMa.title" = "Refresh";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "xHx-lB-ISQ"; */
+"xHx-lB-ISQ.title" = "Item 3";

@@ -1,0 +1,42 @@
+
+/* Class = "NSButtonCell"; title = "Review Results"; ObjectID = "00Z-hT-lw0"; */
+"00Z-hT-lw0.title" = "Review Results";
+
+/* Class = "NSTextFieldCell"; title = "no_trans"; ObjectID = "0zy-jS-UrO"; */
+"0zy-jS-UrO.title" = "no_trans";
+
+/* Class = "NSTextFieldCell"; title = "Please review your duplicates before \nselecting them for removal."; ObjectID = "4WO-qF-KJh"; */
+"4WO-qF-KJh.title" = "Please review your duplicates before \nselecting them for removal.";
+
+/* Class = "NSTextFieldCell"; title = "Nothing to select automatically"; ObjectID = "6UK-EK-3JL"; */
+"6UK-EK-3JL.title" = "Nothing to select automatically";
+
+/* Class = "NSTextFieldCell"; title = "Scan Completed"; ObjectID = "EGh-BJ-IHL"; */
+"EGh-BJ-IHL.title" = "Scan Completed";
+
+/* Class = "NSTextFieldCell"; title = "What will be removed:"; ObjectID = "LG2-jU-PXv"; */
+"LG2-jU-PXv.title" = "What will be removed:";
+
+/* Class = "NSTextFieldCell"; title = "Scan Completed"; ObjectID = "NUb-bp-dF5"; */
+"NUb-bp-dF5.title" = "Scan Completed";
+
+/* Class = "NSTextFieldCell"; title = "no_trans"; ObjectID = "NYb-4S-FTc"; */
+"NYb-4S-FTc.title" = "no_trans";
+
+/* Class = "NSTextFieldCell"; title = "no_trans"; ObjectID = "NbG-su-BeZ"; */
+"NbG-su-BeZ.title" = "no_trans";
+
+/* Class = "NSButtonCell"; title = "Review Duplicates"; ObjectID = "Q0X-nj-vuo"; */
+"Q0X-nj-vuo.title" = "Review Duplicates";
+
+/* Class = "NSTextFieldCell"; title = "no_trans"; ObjectID = "e0Q-wI-Li7"; */
+"e0Q-wI-Li7.title" = "no_trans";
+
+/* Class = "NSTextFieldCell"; title = "no_trans"; ObjectID = "mIN-J1-4Th"; */
+"mIN-J1-4Th.title" = "no_trans";
+
+/* Class = "NSTextFieldCell"; title = "no_trans"; ObjectID = "rjZ-hT-bIw"; */
+"rjZ-hT-bIw.title" = "no_trans";
+
+/* Class = "NSButtonCell"; title = "no_trans"; ObjectID = "uAF-5g-fzQ"; */
+"uAF-5g-fzQ.title" = "no_trans";

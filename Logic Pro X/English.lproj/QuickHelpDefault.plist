@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>QuickHelpDefaultFooter</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Title</key>
+			<string>Quick Help Key Command</string>
+			<key>Text</key>
+			<string>Press %@ for more information.</string>
+		</dict>
+	</dict>
+	<key>QuickHelpDefaultText</key>
+	<dict>
+		<key>_LOCALIZABLE_</key>
+		<dict>
+			<key>Title</key>
+			<string>Welcome to Quick Help</string>
+			<key>Text</key>
+			<string>Move the pointer over an item to show its name and function. To hide or show Quick Help, choose Help &gt; Quick Help or use the key command.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

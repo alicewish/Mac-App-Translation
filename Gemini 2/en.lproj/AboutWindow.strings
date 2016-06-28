@@ -1,0 +1,42 @@
+
+/* Class = "NSWindow"; title = "CleanMyMac"; ObjectID = "367"; */
+"367.title" = "CleanMyMac";
+
+/* Class = "NSTextFieldCell"; title = "Version 2.0 Beta 2"; ObjectID = "896"; */
+"896.title" = "Version 2.0 Beta 2";
+
+/* Class = "BindingConnection"; ibShadowedDisplayPattern = "Version %{value1}@"; ObjectID = "937"; */
+"937.ibShadowedDisplayPattern" = "Version %{value1}@";
+
+/* Class = "NSTextFieldCell"; title = "CleanMyMac 3"; ObjectID = "965"; */
+"965.title" = "CleanMyMac 3";
+
+/* Class = "NSTextFieldCell"; title = "Mac Cleanup Software"; ObjectID = "969"; */
+"969.title" = "Mac Cleanup Software";
+
+/* Class = "NSTextFieldCell"; title = "Encrypting App"; ObjectID = "C7Z-qT-vsR"; */
+"C7Z-qT-vsR.title" = "Encrypting App";
+
+/* Class = "NSTextFieldCell"; title = "External Drives Cleaner"; ObjectID = "CZD-OY-8vz"; */
+"CZD-OY-8vz.title" = "External Drives Cleaner";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "DNU-nv-gkw"; */
+"DNU-nv-gkw.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "CleanMyDrive 2"; ObjectID = "FJQ-rR-s8W"; */
+"FJQ-rR-s8W.title" = "CleanMyDrive 2";
+
+/* Class = "NSTextFieldCell"; title = "Mac Security Software"; ObjectID = "OTx-Nz-2dd"; */
+"OTx-Nz-2dd.title" = "Mac Security Software";
+
+/* Class = "NSTextFieldCell"; title = "Try our products:"; ObjectID = "W67-cX-qc0"; */
+"W67-cX-qc0.title" = "Try our products:";
+
+/* Class = "NSTextFieldCell"; title = "Hider 2"; ObjectID = "gjL-qt-m4U"; */
+"gjL-qt-m4U.title" = "Hider 2";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "tc6-f3-bju"; */
+"tc6-f3-bju.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Encrypto"; ObjectID = "wE3-ui-Gms"; */
+"wE3-ui-Gms.title" = "Encrypto";

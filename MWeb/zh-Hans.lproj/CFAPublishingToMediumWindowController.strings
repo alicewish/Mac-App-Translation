@@ -1,0 +1,87 @@
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "19V-BK-sDV"; */
+"19V-BK-sDV.title" = "取消";
+
+/* Class = "NSMenuItem"; title = "Unlisted"; ObjectID = "2yX-AC-G8a"; */
+"2yX-AC-G8a.title" = "Unlisted";
+
+/* Class = "NSTextFieldCell"; title = "Canonical URL (optional):"; ObjectID = "6Z5-xM-fIa"; */
+"6Z5-xM-fIa.title" = "来源网址 (可选):";
+
+/* Class = "NSMenuItem"; title = "cc-40-by-sa"; ObjectID = "88F-JE-HaI"; */
+"88F-JE-HaI.title" = "cc-40-by-sa";
+
+/* Class = "NSMenuItem"; title = "public-domain"; ObjectID = "AOF-qb-xPw"; */
+"AOF-qb-xPw.title" = "public-domain";
+
+/* Class = "NSMenuItem"; title = "Public"; ObjectID = "Bk7-jI-mSR"; */
+"Bk7-jI-mSR.title" = "公开";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Dr4-ba-Rgy"; */
+"Dr4-ba-Rgy.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "Eiy-E3-PKx"; */
+"Eiy-E3-PKx.title" = "状态:";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "Ery-fy-Utk"; */
+"Ery-fy-Utk.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "cc-40-zero"; ObjectID = "GAl-Hy-k3o"; */
+"GAl-Hy-k3o.title" = "cc-40-zero";
+
+/* Class = "NSTextFieldCell"; title = "License:"; ObjectID = "GBb-5v-YI4"; */
+"GBb-5v-YI4.title" = "许可:";
+
+/* Class = "NSButtonCell"; title = "Upload local images to Google Picasa "; ObjectID = "HxD-cD-eBr"; */
+"HxD-cD-eBr.title" = "本地图片自动上传到 Google Picasa ";
+
+/* Class = "NSMenuItem"; title = "cc-40-by-nc-sa"; ObjectID = "LBx-uC-siZ"; */
+"LBx-uC-siZ.title" = "cc-40-by-nc-sa";
+
+/* Class = "NSButtonCell"; title = "Open & Preview the blog when published."; ObjectID = "MRS-DQ-Pdd"; */
+"MRS-DQ-Pdd.title" = "发布后在浏览器中打开。";
+
+/* Class = "NSMenuItem"; title = "cc-40-by-nd"; ObjectID = "Me5-CD-Oqc"; */
+"Me5-CD-Oqc.title" = "cc-40-by-nd";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "O6x-n3-ela"; */
+"O6x-n3-ela.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Draft"; ObjectID = "Rj6-c9-Sc8"; */
+"Rj6-c9-Sc8.title" = "草稿";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "UL5-G9-56A"; */
+"UL5-G9-56A.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Tags (optional):"; ObjectID = "Vd9-zz-6xI"; */
+"Vd9-zz-6xI.title" = "标签 (可选):";
+
+/* Class = "NSTextFieldCell"; title = "Title:"; ObjectID = "WnL-Sv-Wqb"; */
+"WnL-Sv-Wqb.title" = "标题:";
+
+/* Class = "NSButtonCell"; title = "Update published document ( published in 2015-1-1 10:10 )"; ObjectID = "beD-Lm-cxR"; */
+"beD-Lm-cxR.title" = "Update published document ( published in 2015-1-1 10:10 )";
+
+/* Class = "NSMenuItem"; title = "cc-40-by-nc"; ObjectID = "eJg-4c-Leu"; */
+"eJg-4c-Leu.title" = "cc-40-by-nc";
+
+/* Class = "NSMenuItem"; title = "cc-40-by"; ObjectID = "f4U-c0-RyC"; */
+"f4U-c0-RyC.title" = "cc-40-by";
+
+/* Class = "NSMenuItem"; title = "cc-40-by-nc-nd"; ObjectID = "iwc-O0-u89"; */
+"iwc-O0-u89.title" = "cc-40-by-nc-nd";
+
+/* Class = "NSButtonCell"; title = "Publish"; ObjectID = "k55-Ng-CDa"; */
+"k55-Ng-CDa.title" = "发布";
+
+/* Class = "NSTextFieldCell"; title = "URL:"; ObjectID = "pAn-G4-kDh"; */
+"pAn-G4-kDh.title" = "网址:";
+
+/* Class = "NSTextFieldCell"; title = "Publish To: "; ObjectID = "uOr-jm-eG8"; */
+"uOr-jm-eG8.title" = "发布到: ";
+
+/* Class = "NSMenuItem"; title = "all-rights-reserved"; ObjectID = "xKF-Q2-9ip"; */
+"xKF-Q2-9ip.title" = "all-rights-reserved";
+
+/* Class = "NSTextFieldCell"; title = "(Available when the Blogger publishing service added)."; ObjectID = "zf6-8d-XE7"; */
+"zf6-8d-XE7.title" = "(当增加了 Blogger 发布服务时才有效)";

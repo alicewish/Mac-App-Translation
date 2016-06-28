@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>Error while checking the startup disk</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content="disk, startup, repair, error, utility, errors, restart, volume, fsck"/>
+        <meta name="description" content="If OnyX detects an error while verifying the structure of the disk, try these suggestions."/>
+        <link href="../sty/task_numbered.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body id="apple-pd">
+        
+        <div id="navbox">
+            <div id="navleftbox">
+                <a class="navlink_left" href="../OnyXHelp.html">Home</a>
+            </div>
+            <div id="navrightbox">
+                <a class="navlink_right" href="../xpgs/xall.html">Index</a>
+            </div>
+        </div>
+        
+        <div id="headerbox">
+            <div id="iconbox">
+                <img id="iconimg" src="../gfx/xicnonyx.png" alt="OnyX icon" height="32" width="32"/>
+            </div>
+            <div id="pagetitle">
+                <h1>Error while checking the startup disk</h1>
+            </div>
+        </div>
+        
+        <div id="introbox">
+            <div class="introprimtext">
+                <p class="introprimtextlongtext">If the disk name contains an ampersand ("&amp;"), remove it. This character sometimes creates an error.<br /><br /> If OnyX detects an error while verifying the structure of the disk, be sure to repair it as soon as possible.</p>
+            </div>
+        </div>
+        
+        <div id="taskbox">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>To repair a disk:</h2>
+                        
+                         <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_1.gif" alt="1" class="bullet1"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">Quit OnyX.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_2.gif" alt="2" class="bullet2"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">Restart the computer while holding down Command-R until the OS X Utilities pane appears.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_3.gif" alt="3" class="bullet3"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">In the OS X Utilities window, select Disk Utility, and click the Continue button.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_4.gif" alt="4" class="bullet4"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">In the left column, select your startup disk.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_5.gif" alt="5" class="bullet5"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">In the First Aid tab located at right, click the Repair Disk button and wait.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_6.gif" alt="6" class="bullet6"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">Then restart normally.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+         
+        <div id="outrobox">
+            <div class="outroprimtext">
+                <p class="outroprimtextlongtext">The errors are often not serious, and they are usually corrected by Disk Utility. Nevertheless, more serious errors can require that you use a third&#8211;party application (Drive Genius, DiskWarrior, TechTool Pro, and so on).</p>
+            </div>
+        </div>
+        
+        <div id="introbox2">
+            <div class="introprimtext">
+                <p class="introprimtextlongtext"><strong>IMPORTANT:</strong> Sometimes, the disk needs to be repaired, but when attempting to repair it, the Disk Utility application finds no problem. This is due to a Disk Utility issue that does not recognize all errors. Then you will need to repair the disk using the <code>fsck</code> command in single-user mode.</p><br />
+            </div>
+        </div>
+        
+        <div id="taskbox2">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>To repair a disk with <code>fsck</code>:</h2>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_1.gif" alt="1" class="bullet1"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">Start up your computer in single-user mode by holding down Command-S.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_2.gif" alt="1" class="bullet2"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">At the command-line prompt enter:<br /><br /><code> /sbin/fsck -fy </code><br /><br />Press Return. <code>fsck</code> will go through five "phases" and then return information about your disk's use. After it finishes, it will display this message if no issue is found:<br /><br /><code>** The volume (name_of_volume) appears to be OK.</code><br /><br />If <code>fsck</code> finds issues and alters, repairs, or fixes anything, it displays this message:<br /><br /><code>***** FILE SYSTEM WAS MODIFIED *****</code><br /><br />If this message appears, repeat the <code>fsck</code> command until <code>fsck</code> tells you that your volume appears to be OK. (First-pass repairs may uncover additional issues, so this is a normal thing to do.)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_3.gif" alt="1" class="bullet3"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">When <code>fsck</code> reports that your volume is OK, enter:<br /><br /><code>reboot</code><br /><br />at the prompt, and then press Return to restart normally.</p>
+                            </div>
+                        </div>
+                        
+                        <p class="taskprimtextlongtext"><strong>WARNING:</strong> Your Mac can't start up in single-user mode if the computer owner or administrator has set a firmware password.<br />If FileVault is enabled, you need to unlock the startup disk as part of this process. White text appears briefly before the FileVault login screen is shown. After selecting a user and entering the user’s password, the single-user mode startup process continues.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+        
+        <div id="linkinternalbox">
+            <h3>Related Topics</h3>
+            <br />
+        </div>
+        
+        <div class="taskprimtext">
+            <div class="taskprimcontent">
+                <p class="taskprimtextlongtext"><a href="../pgs/maintaindisk.html">Verify the startup disk</a></p> 
+            </div>
+        </div>
+        
+    </body>
+</html>

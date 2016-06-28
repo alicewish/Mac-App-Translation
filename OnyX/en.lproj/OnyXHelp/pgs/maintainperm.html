@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>Repair permissions</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content="permissions, file, files, folder, repair, OnyX, bom, package, system, password"/>
+        <meta name="description" content="Learn about disk permissions and how to repair them using the Permissions pane in OnyX."/>
+        <link href="../sty/task_numbered.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body id="apple-pd">
+        
+        <div id="navbox">
+            <div id="navleftbox">
+                <a class="navlink_left" href="../OnyXHelp.html">Home</a>
+            </div>
+            <div id="navrightbox">
+                <a class="navlink_right" href="../xpgs/xall.html">Index</a>
+            </div>
+        </div>
+        
+        <div id="headerbox">
+            <div id="iconbox">
+                <img id="iconimg" src="../gfx/xicnonyx.png" alt="OnyX icon" height="32" width="32"/>
+            </div>
+            <div id="pagetitle">
+                <h1>Repair permissions</h1>
+            </div>
+        </div>
+        
+        <div id="introbox">
+            <div class="introprimtext">
+                <p class="introprimtextlongtext">OS X incorporates a subsystem based on a UNIX&#8211;style operating system. In this kind of system, every file and folder on your hard disk has an associated set of permissions that determines who can read, write to, or execute it.<br /><br />Many things that you install in OS X are installed from package files (.pkg ). Each time something is installed from a package, a file (.bom) is stored in a folder of the system or in a receipt file (.pkg). Each of those .bom files contains a list of the files installed by that package and the correct permissions for every file. When you use OnyX to verify and repair disk permissions, it reviews every .bom file and compares its list to the actual permissions of each listed file. If the permissions differ, OnyX corrects the difference.<br /><br />Note: If you turn off SIP (System Integrity Protection) and if you remove receipts or .bom files from /System/Library/Receipts/, the files installed by the packages can neither be verified nor repaired. This is why you should not delete things from /System/Library/Receipts/.<br /><br />Repairing permissions is the first thing to do as soon as you notice any issues with apps opening, have file access issues, or if your computer seems to be running unusually slow.</p>
+            </div>
+        </div>
+        
+        <div id="taskbox">
+            <div class="border_top">
+                <div class="border_topleft"></div>
+                <div class="border_topright"></div>
+            </div>
+            <div class="border_left">
+                <div class="border_right">
+                    <div class="content">
+                        <h2>To repair the permissions:</h2>
+                        
+                         <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_1.gif" alt="1" class="bullet1"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">Open OnyX. It will ask for your administrator password.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_2.gif" alt="2" class="bullet2"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">Select the Maintenance toolbar button, and click the Permissions tab.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="taskprimtext">
+                            <div class="taskprimbullet">
+                                <img src="../gfx/step_3.gif" alt="3" class="bullet3"/>
+                            </div>
+                            <div class="taskprimcontent">
+                                <p class="taskprimtextlongtext">Click the Execute button.</p>
+                            </div>
+                        </div>
+                        
+                        <p class="taskprimtextlongtext">After the repair is completed, the result will appear in the text field present for this purpose.</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="border_bottom">
+                <div class="border_bottomleft"></div>
+                <div class="border_bottomright"></div>
+            </div>
+        </div>
+        
+        <div id="outrobox">
+            <div class="outroprimtext">
+                <p class="outroprimtextlongtext">You can use the Automation pane to repair permissions, but the result will not appear.</p>
+            </div>
+        </div>
+        
+        <div id="linkinternalbox">
+            <h3>Related Topics</h3>
+            <br />
+        </div>
+        
+        <div class="taskprimtext">
+            <div class="taskprimcontent">
+                <p class="taskprimtextlongtext"><a href="../pgs/sip.html">Information about SIP (System Integrity Protection)</a></p>
+            </div>
+        </div>
+        
+    </body>
+</html>

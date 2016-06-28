@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Genres</key>
+	<dict>
+		<key>Alternative</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Name</key>
+				<string>Alternative</string>
+			</dict>
+		</dict>
+		<key>Rock</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Name</key>
+				<string>Rock</string>
+			</dict>
+		</dict>
+		<key>SingerSongwriter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Name</key>
+				<string>Songwriter</string>
+			</dict>
+		</dict>
+		<key>R&amp;B</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Name</key>
+				<string>R&amp;B</string>
+			</dict>
+		</dict>
+		<key>Electronic</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Name</key>
+				<string>Electronic</string>
+			</dict>
+		</dict>
+		<key>Hip Hop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>Name</key>
+				<string>Hip Hop</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Characters</key>
+	<dict>
+		<key>Alternative - Brooklyn</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Brooklyn</string>
+				<key>Description</key>
+				<string>Although worried that his music school training will ruin his street cred, Gavin plays complex indie rock beats on a gritty-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Complex indie rock beats on a gritty-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Although worried that his music school training will ruin his street cred, Gavin plays complex indie rock beats on a gritty-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Alternative - Portland</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Portland</string>
+				<key>Description</key>
+				<string>Although an exceptional drummer, Aidan insists on restraint and plays intentionally simple, indie rock beats on a natural kit.</string>
+				<key>ShortDescription</key>
+				<string>Restrained, simple, indie rock beats on a natural kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Although an exceptional drummer, Aidan insists on restraint and plays intentionally simple, indie rock beats on a natural kit.</string>
+			</dict>
+		</dict>
+		<key>Alternative - Disco</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Four On the Floor</string>
+				<key>Description</key>
+				<string>Inspired by a love of disco and years as a DJ, Nikki plays bouncy, rock-infused dance beats on a processed, hard-hitting kit.</string>
+				<key>ShortDescription</key>
+				<string>Bouncy, rock-infused dance beats on a hard-hitting kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Inspired by a love of disco and years as a DJ, Nikki plays bouncy, rock-infused dance beats on a processed, hard-hitting kit.</string>
+			</dict>
+		</dict>
+		<key>Alternative - Garage</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Detroit Garage</string>
+				<key>Description</key>
+				<string>Zak&apos;s spirited, explosive style is influenced by stripped-down, no-nonsense rock. He plays driving beats on a raw-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>No-nonsense rock beats on a raw-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Zak&apos;s spirited, explosive style is influenced by stripped-down, no-nonsense rock. He plays driving beats on a raw-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Rock - Classic Rock</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Retro Rock</string>
+				<key>Description</key>
+				<string>Inspired by legendary drum heroes of the past, Logan plays sparse, hard-hitting rock beats and fills on a retro-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Sparse, hard-hitting rock beats on a retro-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Inspired by legendary drum heroes of the past, Logan plays sparse, hard-hitting rock beats and fills on a retro-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Rock - PopRock</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>SoCal</string>
+				<key>Description</key>
+				<string>Influenced by modern rock, but comfortable with most genres, Kyle plays straightforward rock beats on a natural, versatile kit.</string>
+				<key>ShortDescription</key>
+				<string>Straightforward rock beats on a natural, versatile kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Influenced by modern rock, but comfortable with most genres, Kyle plays straightforward rock beats on a natural, versatile kit.</string>
+			</dict>
+		</dict>
+		<key>Rock - Heavy Rock</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Heavy</string>
+				<key>Description</key>
+				<string>Influenced by heavy, riffing rock bands, Anders plays grinding beats on a massive-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Heavy, grinding beats on a massive-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Influenced by heavy, riffing rock bands, Anders plays grinding beats on a massive-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Rock - Punk</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>East Bay</string>
+				<key>Description</key>
+				<string>Hailing from Berkeley, Max is influenced by fast, hyperactive punk rock. He plays tight, energetic beats on a punchy kit.</string>
+				<key>ShortDescription</key>
+				<string>Hyperactive, energetic punk rock on a punchy kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Hailing from Berkeley, Max is influenced by fast, hyperactive punk rock. He plays tight, energetic beats on a punchy kit.</string>
+			</dict>
+		</dict>
+		<key>Rock - Funk Smash</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Smash</string>
+				<key>Description</key>
+				<string>Inspired by hard rock bands and funk pioneers, Jesse plays in-your-face beats on a tight-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Funky, in-your-face rock beats on a tight-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Inspired by hard rock bands and funk pioneers, Jesse plays in-your-face beats on a tight-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Rock - Psychedelic</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Smash</string>
+				<key>Description</key>
+				<string>Drawing influences from psychedelic rock and modern pop, Ian plays grooving, intricate beats on a big, arena kit.</string>
+				<key>ShortDescription</key>
+				<string>Grooving, intricate beats on a big, arena kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Drawing influences from psychedelic rock and modern pop, Ian plays grooving, intricate beats on a big, arena kit.</string>
+			</dict>
+		</dict>
+		<key>Singer Songwriter - Funky</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Sunset</string>
+				<key>Description</key>
+				<string>Inspired by laid-back, sun-soaked modern pop, Levi plays funky pop beats on a natural-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Funky pop beats on a natural-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Inspired by laid-back, sun-soaked modern pop, Levi plays funky pop beats on a natural-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Singer Songwriter - Modern</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Bluebird</string>
+				<key>Description</key>
+				<string>Tasteful, restrained, and dedicated to serving the song, Darcy plays simple, tasteful pop beats on a natural-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Simple, tasteful pop beats on a natural-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Tasteful, restrained, and dedicated to serving the song, Darcy plays simple, tasteful pop beats on a natural-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Singer Songwriter - Experimental</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Scientific Method</string>
+				<key>Description</key>
+				<string>Experimental and virtuosic, Graham combines multiple influences to create genre-bending beats on a processed-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Genre-bending beats on a processed-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Experimental and virtuosic, Graham combines multiple influences to create genre-bending beats on a processed-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Singer Songwriter - Roots</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Roots</string>
+				<key>Description</key>
+				<string>Inspired by Americana and classic R&amp;B artists, Mason plays loose, swaggering beats on a vintage kit.</string>
+				<key>ShortDescription</key>
+				<string>Loose, swaggering beats on a vintage kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Inspired by Americana and classic R&amp;B artists, Mason plays loose, swaggering beats on a vintage kit.</string>
+			</dict>
+		</dict>
+		<key>Singer Songwriter - 60s</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Roots</string>
+				<key>Description</key>
+				<string>Influenced by British Invasion artists, Parker plays classic rock beats and bombastic tom fills on a muted, vintage kit.</string>
+				<key>ShortDescription</key>
+				<string>Classic rock beats and bombastic tom fills on a muted, vintage kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Influenced by British Invasion artists, Parker plays classic rock beats and bombastic tom fills on a muted, vintage kit.</string>
+			</dict>
+		</dict>
+		<key>R&amp;B - Motown</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Motown Revisited</string>
+				<key>Description</key>
+				<string>Benny’s style pays homage to classic Motown. He plays tight, funky beats with minimal fills on a vintage kit.</string>
+				<key>ShortDescription</key>
+				<string>Tight, funky beats with minimal fills on a vintage kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Benny’s style pays homage to classic Motown. He plays tight, funky beats with minimal fills on a vintage kit.</string>
+			</dict>
+		</dict>
+		<key>R&amp;B - Downtempo</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Slow Jam</string>
+				<key>Description</key>
+				<string>Influenced by new soul and classic R&amp;B, Rose plays laid-back, cross-stick-driven grooves on a dry, natural kit.</string>
+				<key>ShortDescription</key>
+				<string>Laid-back, cross-stick-driven R&amp;B grooves on a dry, natural kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Influenced by new soul and classic R&amp;B, Rose plays laid-back, cross-stick-driven grooves on a dry, natural kit.</string>
+			</dict>
+		</dict>
+		<key>R&amp;B - Uptempo</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>Neo Soul</string>
+				<key>Description</key>
+				<string>Using his jazz skills to put a twist on modern R&amp;B and hip-hop, Curtis plays tight beats and unique fills on a hard-hitting kit.</string>
+				<key>ShortDescription</key>
+				<string>Tight R&amp;B beats and unique fills on a hard-hitting kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Using his jazz skills to put a twist on modern R&amp;B and hip-hop, Curtis plays tight beats and unique fills on a hard-hitting kit.</string>
+			</dict>
+		</dict>
+		<key>Electronic - EDM</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>A popular dance music festival headliner, Magnus creates thunderous electro house beats to compliment anthemic synth leads and bass drops.</string>
+				<key>ShortDescription</key>
+				<string>Thunderous electro house beats to compliment anthemic synth leads and bass drops.</string>
+				<key>DescriptionHelpTag</key>
+				<string>A popular dance music festival headliner, Magnus creates thunderous electro house beats to compliment anthemic synth leads and bass drops.</string>
+			</dict>
+		</dict>
+		<key>Electronic - TechHouse Intensity</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Leah embraces a lean, minimal production style to create nuanced, subtly-evolving tech house beats with a tight, synthetic-sounding kit.</string>
+				<key>ShortDescription</key>
+				<string>Nuanced, subtly-evolving tech house beats with a tight, synthetic-sounding kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Leah embraces a lean, minimal production style to create nuanced, subtly-evolving tech house beats with a tight, synthetic-sounding kit.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Mainstream Dubstep</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Inspired by underground sounds from London and years as a heavy metal drummer, Jasper creates bombastic dubstep beats and explosive fills.</string>
+				<key>ShortDescription</key>
+				<string>Bombastic dubstep beats and explosive fills.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Inspired by underground sounds from London and years as a heavy metal drummer, Jasper creates bombastic dubstep beats and explosive fills.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Electro-Trap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Ronnie blends underground dubstep sounds from his native London with southern hip hop to create earth-shaking, electro-infused trap beats.</string>
+				<key>ShortDescription</key>
+				<string>Earth-shaking, electro-infused trap beats.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Ronnie blends underground dubstep sounds from his native London with southern hip hop to create earth-shaking, electro-infused trap beats.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Modern House</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Julian combines modern technology with vintage drum machines to create contemporary house beats that pay homage to classic club tracks.</string>
+				<key>ShortDescription</key>
+				<string>Contemporary house beats that pay homage to classic club tracks.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Julian combines modern technology with vintage drum machines to create contemporary house beats that pay homage to classic club tracks.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Trap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Drawing inspiration from southern hip hop, Dez creates raw-sounding trap beats featuring trunk-rattling kicks and rapid-fire hi-hats.</string>
+				<key>ShortDescription</key>
+				<string>Raw-sounding trap beats featuring trunk-rattling kicks and rapid-fire hi-hats.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Drawing inspiration from southern hip hop, Dez creates raw-sounding trap beats featuring trunk-rattling kicks and rapid-fire hi-hats.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Modern Hip Hop</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Rap icon, fashion mogul, and producer Anton creates polished, modern hip hop beats with mainstream commercial appeal.</string>
+				<key>ShortDescription</key>
+				<string>Modern hip hop beats with mainstream commercial appeal.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Rap icon, fashion mogul, and producer Anton creates polished, modern hip hop beats with mainstream commercial appeal.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Boom Bap</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Maurice is a hip hop purist, creating chopped-up, boom bap drum beats out of sampled breaks from classic funk and soul vinyl records.</string>
+				<key>ShortDescription</key>
+				<string>Chopped-up, boom bap drum beats created from sampled funk and soul breaks.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Maurice is a hip hop purist, creating chopped-up, boom bap drum beats out of sampled breaks from classic funk and soul vinyl records.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Modern 80s</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Maya’s signature sound is a flashback to the ‘80s. She uses vintage drum machines to create retro-sounding, reverb-soaked beats.</string>
+				<key>ShortDescription</key>
+				<string>Retro-sounding, reverb-soaked beats created using vintage ‘80s drum machines.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Maya’s signature sound is a flashback to the ‘80s. She uses vintage drum machines to create retro-sounding, reverb-soaked beats.</string>
+			</dict>
+		</dict>
+		<key>Electronic - Indie Songwriter</key>
+		<dict>
+			<key>_LOCALIZABLE_</key>
+			<dict>
+				<key>DrumKitName</key>
+				<string>DrumKitName</string>
+				<key>Description</key>
+				<string>Duncan layers acoustic and electronic drum samples to create tight, energetic beats that propel electronic pop songs and Top 40 hits.</string>
+				<key>ShortDescription</key>
+				<string>Tight, energetic electronic pop and Top 40 beats with a layered acoustic and electronic kit.</string>
+				<key>DescriptionHelpTag</key>
+				<string>Duncan layers acoustic and electronic drum samples to create tight, energetic beats that propel electronic pop songs and Top 40 hits.</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "Her-3O-db4"; */
+"Her-3O-db4.title" = "Text Cell";
+
+/* Class = "NSTextFieldCell"; title = "Characters:"; ObjectID = "Pfk-1T-Gnw"; */
+"Pfk-1T-Gnw.title" = "字数:";
+
+/* Class = "NSTextFieldCell"; title = "Words:"; ObjectID = "QPg-5V-PaN"; */
+"QPg-5V-PaN.title" = "词数:";
+
+/* Class = "NSTextFieldCell"; title = "Title"; ObjectID = "vVm-Ie-QPd"; */
+"vVm-Ie-QPd.title" = "Title";

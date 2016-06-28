@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "File Name:"; ObjectID = "1GQ-5f-4N1"; */
+"1GQ-5f-4N1.title" = "文件名:";
+
+/* Class = "NSButtonCell"; title = "Enable MathJax"; ObjectID = "N0j-Kx-7Id"; */
+"N0j-Kx-7Id.title" = "启用 MathJax";
+
+/* Class = "NSButtonCell"; title = "Add syntax highlighting support"; ObjectID = "fvw-zr-psR"; */
+"fvw-zr-psR.title" = "增加语法高亮支持";
+
+/* Class = "NSButtonCell"; title = "Enable sequence and flow chart"; ObjectID = "ibM-1d-x03"; */
+"ibM-1d-x03.title" = "启用顺序图和流程图";
+
+/* Class = "NSButtonCell"; title = "Overwrite Exsit File"; ObjectID = "n78-55-jfo"; */
+"n78-55-jfo.title" = "覆盖已有文件";

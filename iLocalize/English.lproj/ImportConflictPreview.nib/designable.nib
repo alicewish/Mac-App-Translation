@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1060" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ImportLocalizedResolveConflictsOVC">
+            <connections>
+                <outlet property="mPreviewController" destination="42" id="53"/>
+                <outlet property="mTableView" destination="8" id="52"/>
+                <outlet property="sourcePathControl" destination="115" id="136"/>
+                <outlet property="targetPathControl" destination="117" id="137"/>
+                <outlet property="view" destination="113" id="114"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <arrayController selectsInsertedObjects="NO" id="42" userLabel="Files">
+            <declaredKeys>
+                <string>file</string>
+                <string>useSource</string>
+                <string>sourceCreationDate</string>
+                <string>sourceModificationDate</string>
+                <string>source</string>
+                <string>project</string>
+                <string>projectModificationDate</string>
+                <string>projectCreationDate</string>
+                <string>sourceExists</string>
+                <string>projectExists</string>
+                <string>projectURL</string>
+                <string>sourceURL</string>
+            </declaredKeys>
+        </arrayController>
+        <customView id="113">
+            <rect key="frame" x="0.0" y="0.0" width="840" height="362"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView focusRingType="none" autohidesScrollers="YES" horizontalLineScroll="22" horizontalPageScroll="10" verticalLineScroll="22" verticalPageScroll="10" usesPredominantAxisScrolling="NO" id="7">
+                    <rect key="frame" x="20" y="89" width="800" height="211"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <clipView key="contentView" id="m58-o3-dZ0">
+                        <rect key="frame" x="1" y="17" width="798" height="193"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="firstColumnOnly" selectionHighlightStyle="sourceList" columnReordering="NO" columnSelection="YES" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" rowHeight="20" headerView="112" id="8">
+                                <rect key="frame" x="0.0" y="0.0" width="798" height="193"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <size key="intercellSpacing" width="3" height="2"/>
+                                <color key="backgroundColor" name="_sourceListBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <tableViewGridLines key="gridStyleMask" vertical="YES"/>
+                                <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
+                                <tableColumns>
+                                    <tableColumn identifier="file" editable="NO" width="629" minWidth="40" maxWidth="1000" id="14">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="File">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableHeaderCell>
+                                        <textFieldCell key="dataCell" lineBreakMode="truncatingTail" selectable="YES" editable="YES" alignment="left" title="8" id="109" customClass="ImageAndTextCell">
+                                            <font key="font" metaFont="system"/>
+                                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                        </textFieldCell>
+                                        <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
+                                        <connections>
+                                            <binding destination="42" name="value" keyPath="arrangedObjects.file" id="44">
+                                                <dictionary key="options">
+                                                    <bool key="NSConditionallySetsEditable" value="YES"/>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </tableColumn>
+                                    <tableColumn identifier="direction" editable="NO" width="75" minWidth="40" maxWidth="1000" id="12">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Use Source">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" white="0.33333299" alpha="1" colorSpace="calibratedWhite"/>
+                                        </tableHeaderCell>
+                                        <buttonCell key="dataCell" type="radio" bezelStyle="regularSquare" imagePosition="left" alignment="center" inset="2" id="47">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="cellTitle"/>
+                                        </buttonCell>
+                                        <sortDescriptor key="sortDescriptorPrototype" selector="compare:" sortKey="direction"/>
+                                        <connections>
+                                            <binding destination="42" name="value" keyPath="arrangedObjects.useSource" id="49"/>
+                                        </connections>
+                                    </tableColumn>
+                                    <tableColumn editable="NO" width="84.561040000000006" minWidth="63.39893" maxWidth="1000" id="9">
+                                        <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" alignment="left" title="Use Project">
+                                            <font key="font" metaFont="smallSystem"/>
+                                            <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
+                                            <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
+                                        </tableHeaderCell>
+                                        <buttonCell key="dataCell" type="radio" bezelStyle="regularSquare" imagePosition="left" alignment="center" inset="2" id="48">
+                                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                            <font key="font" metaFont="cellTitle"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <binding destination="42" name="value" keyPath="arrangedObjects.useSource" id="57">
+                                                <dictionary key="options">
+                                                    <string key="NSValueTransformerName">NSNegateBoolean</string>
+                                                </dictionary>
+                                            </binding>
+                                        </connections>
+                                    </tableColumn>
+                                </tableColumns>
+                                <connections>
+                                    <outlet property="delegate" destination="-2" id="138"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </clipView>
+                    <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="111">
+                        <rect key="frame" x="1" y="195" width="783" height="15"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="110">
+                        <rect key="frame" x="784" y="17" width="15" height="178"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </scroller>
+                    <tableHeaderView key="headerView" id="112">
+                        <rect key="frame" x="0.0" y="0.0" width="798" height="17"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </tableHeaderView>
+                </scrollView>
+                <textField verticalHuggingPriority="750" id="17">
+                    <rect key="frame" x="17" y="308" width="619" height="34"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" id="90">
+                        <font key="font" metaFont="system"/>
+                        <string key="title">The following files are conflicting because they cannot be merged.
+Choose the merging direction for each of them:</string>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <button toolTip="This will select to use the Source file for all files in the list below" verticalHuggingPriority="750" id="81">
+                    <rect key="frame" x="652" y="306" width="68" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="smallSquare" title="All Source" bezelStyle="smallSquare" alignment="center" controlSize="mini" borderStyle="border" inset="2" id="107">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="miniSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="allSource:" target="-2" id="83"/>
+                    </connections>
+                </button>
+                <button toolTip="This will select to use the Project file for all files in the list below" verticalHuggingPriority="750" id="82">
+                    <rect key="frame" x="731" y="306" width="69" height="16"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="smallSquare" title="All Project" bezelStyle="smallSquare" alignment="center" controlSize="mini" borderStyle="border" inset="2" id="108">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="miniSystem"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="allProject:" target="-2" id="84"/>
+                    </connections>
+                </button>
+                <pathControl focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="115">
+                    <rect key="frame" x="474" y="41" width="346" height="20"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <pathCell key="cell" controlSize="small" selectable="YES" focusRingType="none" alignment="left" id="116">
+                        <font key="font" metaFont="smallSystem"/>
+                        <url key="url" string="file://localhost/Users/bovet/Documents/Oracle/Patents/"/>
+                    </pathCell>
+                    <connections>
+                        <binding destination="42" name="value" keyPath="selection.sourceURL" id="135"/>
+                    </connections>
+                </pathControl>
+                <pathControl focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" id="117">
+                    <rect key="frame" x="474" y="20" width="346" height="20"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <pathCell key="cell" controlSize="small" selectable="YES" focusRingType="none" alignment="left" id="118">
+                        <font key="font" metaFont="smallSystem"/>
+                        <url key="url" string="file://localhost/Users/bovet/Documents/Oracle/Patents/"/>
+                    </pathCell>
+                    <connections>
+                        <binding destination="42" name="value" keyPath="selection.projectURL" id="134"/>
+                    </connections>
+                </pathControl>
+                <textField verticalHuggingPriority="750" id="28">
+                    <rect key="frame" x="82" y="43" width="198" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" title="Dec 28, 2005, 11:03:20 AM" id="96">
+                        <dateFormatter key="formatter" formatterBehavior="custom10_4" dateStyle="medium" timeStyle="medium" id="68"/>
+                        <font key="font" metaFont="label"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="42" name="value" keyPath="selection.sourceCreationDate" id="62"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="38">
+                    <rect key="frame" x="82" y="22" width="198" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" title="Dec 28, 2005, 11:03:20 AM" id="104">
+                        <dateFormatter key="formatter" formatterBehavior="custom10_4" dateStyle="medium" timeStyle="medium" id="70"/>
+                        <font key="font" metaFont="label"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="42" name="value" keyPath="selection.projectCreationDate" id="67"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="29">
+                    <rect key="frame" x="282" y="43" width="190" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" title="Dec 28, 2005, 11:03:20 AM" id="97">
+                        <dateFormatter key="formatter" formatterBehavior="custom10_4" dateStyle="medium" timeStyle="medium" id="69"/>
+                        <font key="font" metaFont="label"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="42" name="value" keyPath="selection.sourceModificationDate" id="63"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="34">
+                    <rect key="frame" x="282" y="22" width="190" height="13"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" title="Dec 28, 2005, 11:03:20 AM" id="100">
+                        <dateFormatter key="formatter" formatterBehavior="custom10_4" dateStyle="medium" timeStyle="medium" id="71"/>
+                        <font key="font" metaFont="label"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                    <connections>
+                        <binding destination="42" name="value" keyPath="selection.projectModificationDate" id="66"/>
+                    </connections>
+                </textField>
+                <textField verticalHuggingPriority="750" id="119">
+                    <rect key="frame" x="17" y="43" width="63" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Source:" id="120">
+                        <font key="font" metaFont="systemBold"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="121">
+                    <rect key="frame" x="17" y="22" width="63" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Project:" id="122">
+                        <font key="font" metaFont="systemBold"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="123">
+                    <rect key="frame" x="82" y="67" width="54" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Created" id="124">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <textField verticalHuggingPriority="750" id="125">
+                    <rect key="frame" x="282" y="67" width="59" height="14"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES"/>
+                    <textFieldCell key="cell" controlSize="small" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Modified" id="126">
+                        <font key="font" metaFont="smallSystem"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <box autoresizesSubviews="NO" verticalHuggingPriority="750" title="Box" boxType="separator" titlePosition="noTitle" id="129">
+                    <rect key="frame" x="85" y="62" width="735" height="5"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                    <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                    <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+            </subviews>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,102 @@
+{
+	toolbarIdentifier = "RulesWindow";
+
+	itemInfoByIdentifier = {
+
+		Delete = {
+			imageName = "DeleteRule";
+			label = "Delete";
+			paletteLabel = "Delete Rule";
+			toolTip = "Delete selected rules";
+			action = "delete:";
+		};
+
+		Edit = {
+			imageName = "EditRule";
+			label = "Edit";
+			paletteLabel = "Edit Rule";
+			toolTip = "Edit selected rule";
+			action = "edit:";
+		};
+
+		Info = {
+			imageName = "Info";
+			label = "Info";
+			action = "toggleInfoSidebar:";
+		};
+
+		Lock = {
+			imageName = "LockClosed";
+			label = "Changes";
+			action = "toggleRuleEditingEnabled:";
+		};
+
+		Preferences = {
+			imageName = "Pref_General_legacy";
+			label = "Preferences";
+			toolTip = "Open preferences window";
+			action = "showPreferencesWindow:";
+		};
+
+		New = {
+			imageName = "AddRule";
+			label = "New";
+			paletteLabel = "New Rule";
+			toolTip = "Create a new rule";
+			action = "newRule:";
+		};
+
+		Search = {
+			view = {
+				class = "NSSearchField";
+				minSize = "{ 80, 22 }";
+				maxSize = "{ 180, 22 }";
+				placeholderString = "Search";
+				binding = {
+					name = "value";
+					keyPath = "filterString";
+				};
+				menu = {
+					action = "changeFilterStringScope:";
+					itemTitles = ("All", "", "Process", "Process (exact match)", "Rule", "Enclosing Folders", "Bundle Identifier", "Notes");
+				};
+			};
+			label = "Search";
+		};
+
+		ToggleDisabledRulesVisibility = {
+			imageName = "DisabledRulesVisibilityOff";
+			action = "toggleDisabledRulesVisibility:";
+			label = "Disabled Rules";
+		};
+	};
+
+	defaultItemIdentifiers = (
+		ToggleDisabledRulesVisibility,
+		NSToolbarSeparatorItemIdentifier,
+		New,
+		Edit,
+		Delete,
+		NSToolbarFlexibleSpaceItemIdentifier,
+		Lock,
+		Preferences,
+		NSToolbarFlexibleSpaceItemIdentifier,
+		Search,
+		Info,
+	);
+
+	allowedItemIdentifiers = (
+		New,
+		Delete,
+		Edit,
+		ToggleDisabledRulesVisibility,
+		Info,
+		Preferences,
+		Lock,
+		Search,
+		NSToolbarSpaceItemIdentifier,
+		NSToolbarFlexibleSpaceItemIdentifier,
+		NSToolbarSeparatorItemIdentifier,
+		NSToolbarCustomizeToolbarItemIdentifier,
+	);
+}

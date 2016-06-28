@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+    <head>
+        <title>Erasing</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="keywords" content="option, data, random, files, overwrite, file, standard, erase, algorithm"/>
+        <meta name="description" content="You can permanently erase files and folders using using powerful algorithms from the Erasing pane."/>
+        <link href="../sty/task_bulleted.css" rel="stylesheet" type="text/css"/>
+    </head>
+    
+    <body id="apple-pd">
+        
+        <div id="navbox">
+            <div id="navleftbox">
+                <a class="navlink_left" href="../OnyXHelp.html">Home</a>
+            </div>
+            <div id="navrightbox">
+                <a class="navlink_right" href="../xpgs/xall.html">Index</a>
+            </div>
+        </div>
+        
+        <div id="headerbox">
+            <div id="iconbox">
+                <img id="iconimg" src="../gfx/xicnonyx.png" alt="OnyX icon" height="32" width="32"/>
+            </div>
+            <div id="pagetitle">
+                <h1>Erasing</h1>
+            </div>
+        </div>
+        
+        <div id="introbox">
+            <div class="introprimtext">
+                <div class="introprimtextlongtext">From the Finder, when you delete a file and empty the Trash, the file is not really deleted.<br /><br />This option permanently erases the selected file or the folder and its content using powerful algorithms. This operation is irreversible, and the erased items are not recoverable even with an undelete tool.<br /><br />
+                    
+                    <div class="taskprimtext">
+                        <div class="taskprimbullet">
+                            ■
+                        </div>
+                        <div class="taskprimcontent">
+                            <p class="taskprimtextlongtext"><strong>1 pass, write zero</strong><br />This option overwrites with binary zeros (0x00).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="taskprimtext">
+                        <div class="taskprimbullet">
+                            ■
+                        </div>
+                        <div class="taskprimcontent">
+                            <p class="taskprimtextlongtext"><strong>1 pass, random data</strong><br />This option overwrites with a single pass of random data.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="taskprimtext">
+                        <div class="taskprimbullet">
+                            ■
+                        </div>
+                        <div class="taskprimcontent">
+                            <p class="taskprimtextlongtext"><strong>3 passes, overwrite 3 times before deleting</strong><br />This option overwrites regular files before deleting them. Files are overwritten three times, first with the byte pattern 0xff, then 0x00, and then 0xff again, before they are deleted.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="taskprimtext">
+                        <div class="taskprimbullet">
+                            ■
+                        </div>
+                        <div class="taskprimcontent">
+                            <p class="taskprimtextlongtext"><strong>7 passes, U.S. Department of Defense standard</strong><br />This option meets the U.S. Department of Defense (DOD) 5220-22 M standard for securely erasing magnetic media. It erases the information used to access your files and writes over the data seven times (0xF6, 0x00, 0xFF, random data, 0x00, 0xFF, and random data).</p>
+                        </div>
+                    </div>
+                    
+                    <div class="taskprimtext">
+                        <div class="taskprimbullet">
+                            ■
+                        </div>
+                        <div class="taskprimcontent">
+                            <p class="taskprimtextlongtext"><strong>35 passes, Gutmann algorithm</strong><br /></p>
+                        </div>
+                    </div>
+                    
+                    <div id="taskbox">
+                        <div class="border_top">
+                            <div class="border_topleft"></div>
+                            <div class="border_topright"></div>
+                        </div>
+                        <div class="border_left">
+                            <div class="border_right">
+                                <div class="content">
+                                    <p class="taskprimtextlongtext"><strong>Warning: These operations are not recommended on a solid-state drive or a Fusion Drive because the operations can reduce the lifespan of those drives.</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="border_bottom">
+                            <div class="border_bottomleft"></div>
+                            <div class="border_bottomright"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>

@@ -1,0 +1,72 @@
+
+/* Class = "NSTextFieldCell"; title = "Order by:"; ObjectID = "0p3-g1-bN6"; */
+"0p3-g1-bN6.title" = "排序:";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "2gM-3u-G6k"; */
+"2gM-3u-G6k.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "EYI-7z-LTP"; */
+"EYI-7z-LTP.title" = "Item 1";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "FnE-uN-5at"; */
+"FnE-uN-5at.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "HTg-MA-JJa"; */
+"HTg-MA-JJa.title" = "Item 1";
+
+/* Class = "NSButtonCell"; title = "Load Sub Folder Documents"; ObjectID = "Jln-9v-ItE"; */
+"Jln-9v-ItE.title" = "显示子文件夹文档";
+
+/* Class = "NSTextFieldCell"; title = "Display Name:"; ObjectID = "L0X-PP-4DI"; */
+"L0X-PP-4DI.title" = "显示名称:";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "O15-AW-mrS"; */
+"O15-AW-mrS.title" = "Item 2";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Quj-RT-DMw"; */
+"Quj-RT-DMw.title" = "OtherViews";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "RLt-kO-TyH"; */
+"RLt-kO-TyH.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "Rsq-Hb-Bvh"; */
+"Rsq-Hb-Bvh.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "Sja-rw-2NN"; */
+"Sja-rw-2NN.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "WOR-dy-Nzn"; */
+"WOR-dy-Nzn.title" = "Item 2";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "WPp-Ww-uJS"; */
+"WPp-Ww-uJS.title" = "Item 1";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "XGJ-dt-Vzy"; */
+"XGJ-dt-Vzy.title" = "Item 3";
+
+/* Class = "NSTextFieldCell"; title = "File Extension for New Document:"; ObjectID = "YHu-0q-11l"; */
+"YHu-0q-11l.title" = "新建文档默认扩展名:";
+
+/* Class = "NSTextFieldCell"; title = "Translate newlines to <br> tags:"; ObjectID = "aBY-1u-V9J"; */
+"aBY-1u-V9J.title" = "把换行转为 <br> 标签:";
+
+/* Class = "NSTextFieldCell"; title = "Media Save Path:"; ObjectID = "c7O-pY-yxX"; */
+"c7O-pY-yxX.title" = "拖入的图片的保存位置:";
+
+/* Class = "NSTextFieldCell"; title = "Media Folder Name:"; ObjectID = "cwm-Rd-HQd"; */
+"cwm-Rd-HQd.title" = "保存拖入的图片的文件夹名称:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "i6T-fA-zxa"; */
+"i6T-fA-zxa.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "m66-Gj-ekm"; */
+"m66-Gj-ekm.title" = "Item 3";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "mnc-RT-sBr"; */
+"mnc-RT-sBr.title" = "Item 1";
+
+/* Class = "NSTextFieldCell"; title = "Relative: Media save to \"Current Document's Folder + Media Folder + Media File\"\nAbsolute: Media save to \"External Source's Folder + Media Folder + Media File\""; ObjectID = "oIu-Fl-VWq"; */
+"oIu-Fl-VWq.title" = "相对位置: 图片会保存到文档所在文件夹下的 \"保存拖入的图片的文件夹名称\" 文件夹。\n绝对位置: 图片会保存到引入 MWeb 的文件夹下的  \"保存拖入的图片的文件夹名称\" 文件夹";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "wd5-8h-Rdn"; */
+"wd5-8h-Rdn.title" = "Item 2";

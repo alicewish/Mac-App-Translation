@@ -1,0 +1,57 @@
+
+/* Class = "NSTextFieldCell"; title = "Publish Date:"; ObjectID = "2GN-i9-Sxa"; */
+"2GN-i9-Sxa.title" = "发布日期:";
+
+/* Class = "NSTextFieldCell"; title = "Title:"; ObjectID = "4E5-p1-KiV"; */
+"4E5-p1-KiV.title" = "标题:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "4ln-UV-x7Q"; */
+"4ln-UV-x7Q.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Categories:"; ObjectID = "8zF-Db-aBz"; */
+"8zF-Db-aBz.title" = "分类:";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "A4Q-hD-HRq"; */
+"A4Q-hD-HRq.title" = "状态:";
+
+/* Class = "NSTextFieldCell"; title = "URL:"; ObjectID = "DVc-6X-K3s"; */
+"DVc-6X-K3s.title" = "网址:";
+
+/* Class = "NSButtonCell"; title = "Update published document ( published in 2015-1-1 10:10 )"; ObjectID = "DxY-Em-eOv"; */
+"DxY-Em-eOv.title" = "Update published document ( published in 2015-1-1 10:10 )";
+
+/* Class = "NSButtonCell"; title = "Title"; ObjectID = "Eef-JG-l1p"; */
+"Eef-JG-l1p.title" = "标题";
+
+/* Class = "NSTextFieldCell"; title = "Tags:"; ObjectID = "HVj-FF-G0P"; */
+"HVj-FF-G0P.title" = "标签(Tags):";
+
+/* Class = "NSButtonCell"; title = "Open & Preview the blog when published."; ObjectID = "KA7-zS-SGh"; */
+"KA7-zS-SGh.title" = "发布后在浏览器中打开。";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "OQV-UN-5uZ"; */
+"OQV-UN-5uZ.title" = "OtherViews";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "Pv3-Zi-I36"; */
+"Pv3-Zi-I36.title" = "Window";
+
+/* Class = "NSMenuItem"; title = "Published"; ObjectID = "PwC-Vc-tYc"; */
+"PwC-Vc-tYc.title" = "已发布";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "V68-4q-61l"; */
+"V68-4q-61l.title" = "Text Cell";
+
+/* Class = "NSButtonCell"; title = "Publish"; ObjectID = "XYS-y9-kHJ"; */
+"XYS-y9-kHJ.title" = "发布";
+
+/* Class = "NSTextFieldCell"; title = "Publish To: "; ObjectID = "dnY-47-yPv"; */
+"dnY-47-yPv.title" = "发布到: ";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "ofD-MP-OVf"; */
+"ofD-MP-OVf.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Custom URL:"; ObjectID = "x3A-1w-gRx"; */
+"x3A-1w-gRx.title" = "自定网址:";
+
+/* Class = "NSMenuItem"; title = "Draft"; ObjectID = "z8a-94-YZh"; */
+"z8a-94-YZh.title" = "草稿";

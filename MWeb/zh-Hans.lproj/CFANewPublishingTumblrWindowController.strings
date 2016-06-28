@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "You Tumblr URL:"; ObjectID = "7TI-Cu-NlL"; */
+"7TI-Cu-NlL.title" = "Tumblr 网址:";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Window";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "Oep-x3-v1e"; */
+"Oep-x3-v1e.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Blog Name:"; ObjectID = "bHX-SE-cAL"; */
+"bHX-SE-cAL.title" = "博客名称:";
+
+/* Class = "NSTextFieldCell"; title = "Tumblr Post Email:"; ObjectID = "jxH-vr-oUv"; */
+"jxH-vr-oUv.title" = "Tumblr 发布 Email:";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "kGo-lu-B7c"; */
+"kGo-lu-B7c.title" = "确定";
+
+/* Class = "NSTextFieldCell"; placeholderString = "xxx@tumblr.com"; ObjectID = "yBd-kM-Wtx"; */
+"yBd-kM-Wtx.placeholderString" = "xxx@tumblr.com";

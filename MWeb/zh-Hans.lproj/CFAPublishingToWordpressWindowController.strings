@@ -1,0 +1,57 @@
+
+/* Class = "NSTextFieldCell"; title = "Publish To: "; ObjectID = "1W6-vM-waa"; */
+"1W6-vM-waa.title" = "发布到: ";
+
+/* Class = "NSMenuItem"; title = "Draft"; ObjectID = "55m-B6-f9w"; */
+"55m-B6-f9w.title" = "草稿";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "5zJ-En-zHX"; */
+"5zJ-En-zHX.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Open & Preview the blog when published."; ObjectID = "6FO-Ti-Cm3"; */
+"6FO-Ti-Cm3.title" = "发布后在浏览器中打开。";
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "9ic-nQ-G9f"; */
+"9ic-nQ-G9f.title" = "Window";
+
+/* Class = "NSTextFieldCell"; title = "Tags:"; ObjectID = "D0F-FU-53M"; */
+"D0F-FU-53M.title" = "标签(Tags):";
+
+/* Class = "NSMenuItem"; title = "Published"; ObjectID = "EPb-kU-DWW"; */
+"EPb-kU-DWW.title" = "已发布";
+
+/* Class = "NSTextFieldCell"; title = "Custom URL:"; ObjectID = "FeU-il-GBY"; */
+"FeU-il-GBY.title" = "自定网址:";
+
+/* Class = "NSButtonCell"; title = "Update published document ( published in 2015-1-1 10:10 )"; ObjectID = "P6s-6F-zgD"; */
+"P6s-6F-zgD.title" = "Update published document ( published in 2015-1-1 10:10 )";
+
+/* Class = "NSTextFieldCell"; title = "URL:"; ObjectID = "P9g-Lk-lRv"; */
+"P9g-Lk-lRv.title" = "网址:";
+
+/* Class = "NSTextFieldCell"; title = "Status:"; ObjectID = "Q3M-NM-KVl"; */
+"Q3M-NM-KVl.title" = "状态:";
+
+/* Class = "NSTextFieldCell"; title = "Categories:"; ObjectID = "QhQ-fN-CI2"; */
+"QhQ-fN-CI2.title" = "分类:";
+
+/* Class = "NSTextFieldCell"; title = "Title:"; ObjectID = "V1H-9N-0Mh"; */
+"V1H-9N-0Mh.title" = "标题:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "YR2-kJ-ofM"; */
+"YR2-kJ-ofM.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "Publish Date:"; ObjectID = "e4Z-XQ-him"; */
+"e4Z-XQ-him.title" = "发布日期:";
+
+/* Class = "NSButtonCell"; title = "Title"; ObjectID = "fnB-IL-MXD"; */
+"fnB-IL-MXD.title" = "标题";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "hu2-Lr-YPR"; */
+"hu2-Lr-YPR.title" = "Text Cell";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "oKw-Q5-BkF"; */
+"oKw-Q5-BkF.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Publish"; ObjectID = "vWP-Is-pck"; */
+"vWP-Is-pck.title" = "发布";

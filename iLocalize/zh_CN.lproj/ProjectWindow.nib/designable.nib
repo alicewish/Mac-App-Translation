@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none">
+    <dependencies>
+        <deployment version="1050" defaultVersion="1070" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="5056"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="ProjectWC">
+            <connections>
+                <outlet property="mFileEditorIgnoreView" destination="598" id="1117"/>
+                <outlet property="mFileEditorNoView" destination="338" id="1114"/>
+                <outlet property="mFileEditorNotApplicableView" destination="399" id="1116"/>
+                <outlet property="mFileEditorNotEditableView" destination="339" id="1115"/>
+                <outlet property="mLanguagePopUp" destination="443" id="452"/>
+                <outlet property="mLanguageToolbarItem" destination="864" id="1150"/>
+                <outlet property="mLanguagesController" destination="59" id="63"/>
+                <outlet property="mProjectController" destination="58" id="62"/>
+                <outlet property="mProjectLabels" destination="921" id="7Aw-lg-s45"/>
+                <outlet property="mSearchField" destination="881" id="1125"/>
+                <outlet property="mSearchToolbarItem" destination="863" id="1156"/>
+                <outlet property="mToolbar" destination="826" id="1159"/>
+                <outlet property="window" destination="825" id="883"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customObject id="921" userLabel="ProjectLabels" customClass="ProjectLabels"/>
+        <objectController objectClassName="ProjectController" id="58" userLabel="ProjectController">
+            <declaredKeys>
+                <string>languageControllers</string>
+                <string>currentLanguageIndex</string>
+                <string>percentCompleted</string>
+            </declaredKeys>
+        </objectController>
+        <arrayController objectClassName="LanguageController" clearsFilterPredicateOnInsertion="NO" id="59" userLabel="Languages">
+            <declaredKeys>
+                <string>filteredFileControllers</string>
+                <string>selfValue</string>
+                <string>fileInfo</string>
+                <string>language</string>
+                <string>languageInfo</string>
+                <string>displ</string>
+                <string>displayLanguage</string>
+            </declaredKeys>
+            <connections>
+                <binding destination="58" name="contentArray" keyPath="selection.languageControllers" id="69"/>
+            </connections>
+        </arrayController>
+        <window title="Project" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" visibleAtLaunch="NO" frameAutosaveName="Project" animationBehavior="default" id="825" userLabel="Project" customClass="ProjectWindow">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" unifiedTitleAndToolbar="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="562" y="312" width="816" height="564"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <value key="minSize" type="size" width="816" height="564"/>
+            <view key="contentView" id="827">
+                <rect key="frame" x="0.0" y="0.0" width="816" height="564"/>
+                <autoresizingMask key="autoresizingMask"/>
+            </view>
+            <toolbar key="toolbar" implicitIdentifier="74128D11-DC29-4D9F-B2B0-BBFB35E13B8D" displayMode="iconAndLabel" sizeMode="regular" id="826">
+                <allowedToolbarItems>
+                    <toolbarItem implicitItemIdentifier="B478F23C-2249-4791-855E-E61207CDC6A0" label="Language" paletteLabel="Language" id="884">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="100" height="25"/>
+                        <size key="maxSize" width="150" height="26"/>
+                        <popUpButton key="view" verticalHuggingPriority="750" id="443">
+                            <rect key="frame" x="0.0" y="14" width="128" height="26"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                            <popUpButtonCell key="cell" type="squareTextured" title="Item 1" bezelStyle="texturedSquare" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" inset="2" selectedItem="447" id="799">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="menu"/>
+                                <menu key="menu" title="OtherViews" id="444">
+                                    <items>
+                                        <menuItem title="Item 1" state="on" id="447"/>
+                                        <menuItem title="Item 2" id="446"/>
+                                        <menuItem title="Item 3" id="445"/>
+                                    </items>
+                                </menu>
+                            </popUpButtonCell>
+                            <connections>
+                                <binding destination="59" name="contentValues" keyPath="arrangedObjects.displayLanguage" id="1143"/>
+                                <binding destination="58" name="selectedIndex" keyPath="selection.currentLanguageIndex" previousBinding="1143" id="1144"/>
+                            </connections>
+                        </popUpButton>
+                        <connections>
+                            <action selector="languageAction:" target="-1" id="1133"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="3B9FF96C-81E1-495E-B6F8-BC26D86FBADD" label="Progress" paletteLabel="Progress" id="864">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="96" height="18"/>
+                        <size key="maxSize" width="142" height="18"/>
+                        <levelIndicator key="view" verticalHuggingPriority="750" id="879">
+                            <rect key="frame" x="0.0" y="14" width="142" height="18"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <levelIndicatorCell key="cell" alignment="left" doubleValue="80" maxValue="100" warningValue="200" criticalValue="200" levelIndicatorStyle="continuousCapacity" id="880"/>
+                            <connections>
+                                <binding destination="59" name="value" keyPath="selection.percentCompleted" id="1147"/>
+                            </connections>
+                        </levelIndicator>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="7F9914D1-1017-4C9F-B1DB-9D404E8CFC8F" label="Launch" paletteLabel="Launch" image="_launch" id="1157">
+                        <connections>
+                            <action selector="launch:" target="-1" id="1158"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="D82392F2-885D-4C70-92BB-1C3D0ACC8D1A" label="Glossaries" paletteLabel="Glossaries" tag="-1" image="_glossary" id="1152">
+                        <connections>
+                            <action selector="manageGlossary:" target="-1" id="1153"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="868"/>
+                    <toolbarItem implicitItemIdentifier="8B0CD03B-9B43-4034-A1DC-9B1003D4397B" label="Search" paletteLabel="Search" id="863">
+                        <nil key="toolTip"/>
+                        <size key="minSize" width="180" height="22"/>
+                        <size key="maxSize" width="334" height="22"/>
+                        <searchField key="view" verticalHuggingPriority="750" id="881">
+                            <rect key="frame" x="0.0" y="14" width="308" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" bezelStyle="round" sendsWholeSearchString="YES" id="882">
+                                <font key="font" metaFont="system"/>
+                                <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            </searchFieldCell>
+                        </searchField>
+                        <connections>
+                            <action selector="search:" target="-1" id="1121"/>
+                        </connections>
+                    </toolbarItem>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSeparatorItem" id="870"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="869"/>
+                    <toolbarItem implicitItemIdentifier="NSToolbarCustomizeToolbarItem" id="867"/>
+                </allowedToolbarItems>
+                <defaultToolbarItems>
+                    <toolbarItem reference="884"/>
+                    <toolbarItem reference="864"/>
+                    <toolbarItem reference="1152"/>
+                    <toolbarItem reference="868"/>
+                    <toolbarItem reference="1157"/>
+                    <toolbarItem reference="868"/>
+                    <toolbarItem reference="863"/>
+                </defaultToolbarItems>
+            </toolbar>
+            <connections>
+                <outlet property="delegate" destination="-2" id="1126"/>
+            </connections>
+        </window>
+        <customView id="338" userLabel="nofile">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" id="340">
+                    <rect key="frame" x="17" y="20" width="407" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="No Selected File" id="795">
+                        <font key="font" metaFont="system" size="36"/>
+                        <color key="textColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+        </customView>
+        <customView id="339" userLabel="not editable">
+            <rect key="frame" x="0.0" y="0.0" width="524" height="159"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <customView id="346">
+                    <rect key="frame" x="20" y="20" width="484" height="119"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" id="342">
+                            <rect key="frame" x="149" y="12" width="187" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="push" title="Open in External Editor" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="797">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="openFilesInExternalEditor:" target="-1" id="1149"/>
+                            </connections>
+                        </button>
+                        <textField verticalHuggingPriority="750" id="341">
+                            <rect key="frame" x="17" y="50" width="450" height="49"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Not editable" id="796">
+                                <font key="font" metaFont="system" size="36"/>
+                                <color key="textColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                </customView>
+            </subviews>
+        </customView>
+        <customView id="399" userLabel="not applicable">
+            <rect key="frame" x="0.0" y="0.0" width="441" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" id="403">
+                    <rect key="frame" x="17" y="20" width="407" height="52"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Not applicable" id="798">
+                        <font key="font" metaFont="system" size="36"/>
+                        <color key="textColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+        </customView>
+        <customView id="598" userLabel="ignored">
+            <rect key="frame" x="0.0" y="0.0" width="530" height="169"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <customView id="602">
+                    <rect key="frame" x="20" y="20" width="490" height="129"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button verticalHuggingPriority="750" id="600">
+                            <rect key="frame" x="157" y="12" width="187" height="32"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <buttonCell key="cell" type="push" title="Open in External Editor" bezelStyle="rounded" alignment="center" borderStyle="border" inset="2" id="805">
+                                <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                <font key="font" metaFont="system"/>
+                            </buttonCell>
+                            <connections>
+                                <action selector="openFilesInExternalEditor:" target="-1" id="1151"/>
+                            </connections>
+                        </button>
+                        <textField verticalHuggingPriority="750" id="599">
+                            <rect key="frame" x="20" y="60" width="450" height="49"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                            <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Ignored" id="804">
+                                <font key="font" metaFont="system" size="36"/>
+                                <color key="textColor" red="0.49803922" green="0.49803922" blue="0.49803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                </customView>
+            </subviews>
+        </customView>
+    </objects>
+    <resources>
+        <image name="_glossary" width="7.679999828338623" height="7.679999828338623"/>
+        <image name="_launch" width="128" height="128"/>
+    </resources>
+</document>
