@@ -1,0 +1,144 @@
+
+/* Class = "BlackTitleBarWindow"; title = "Snagit"; ObjectID = "1"; */
+"1.title" = "Snagit";
+
+/* Class = "NSPanel"; title = "1024"; ObjectID = "240"; */
+"240.title" = "1024";
+
+/* Class = "NSSlider"; ibShadowedToolTip = "Zoom scale"; ObjectID = "321"; */
+"321.ibShadowedToolTip" = "Zoom scale";
+
+/* Class = "NSTextFieldCell"; title = "0000 x 0000"; ObjectID = "393"; */
+"393.title" = "0000 x 0000";
+
+/* Class = "NSButtonCell"; title = "Effects"; ObjectID = "598"; */
+"598.title" = "Effects";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "599"; */
+"599.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Tools"; ObjectID = "600"; */
+"600.title" = "Tools";
+
+/* Class = "NSTextFieldCell"; title = "x 0,"; ObjectID = "763"; */
+"763.title" = "x 0,";
+
+/* Class = "NSTextFieldCell"; title = "y 0"; ObjectID = "767"; */
+"767.title" = "y 0";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous"; ObjectID = "778"; */
+"778.ibShadowedToolTip" = "Previous";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next"; ObjectID = "780"; */
+"780.ibShadowedToolTip" = "Next";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show/Hide Tray"; ObjectID = "782"; */
+"782.ibShadowedToolTip" = "Show/Hide Tray";
+
+/* Class = "NSView"; ibShadowedToolTip = "Delete style"; ObjectID = "899"; */
+"899.ibShadowedToolTip" = "Delete style";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Remove style"; ObjectID = "944"; */
+"944.ibShadowedToolTip" = "Remove style";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Close"; ObjectID = "1059"; */
+"1059.ibShadowedToolTip" = "Close";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open autosaved captures folder"; ObjectID = "1072"; */
+"1072.ibShadowedToolTip" = "Open autosaved captures folder";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Remove style"; ObjectID = "1141"; */
+"1141.ibShadowedToolTip" = "Remove style";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Shape"; ObjectID = "1167"; */
+"1167.ibShadowedToolTip" = "Shape";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Highlighter"; ObjectID = "1168"; */
+"1168.ibShadowedToolTip" = "Highlighter";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Arrow"; ObjectID = "1169"; */
+"1169.ibShadowedToolTip" = "Arrow";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Pen"; ObjectID = "1170"; */
+"1170.ibShadowedToolTip" = "Pen";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Eraser"; ObjectID = "1171"; */
+"1171.ibShadowedToolTip" = "Eraser";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Line"; ObjectID = "1172"; */
+"1172.ibShadowedToolTip" = "Line";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Callout and Text"; ObjectID = "1173"; */
+"1173.ibShadowedToolTip" = "Callout and Text";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Stamp"; ObjectID = "1174"; */
+"1174.ibShadowedToolTip" = "Stamp";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Fill"; ObjectID = "1175"; */
+"1175.ibShadowedToolTip" = "Fill";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Blur"; ObjectID = "1176"; */
+"1176.ibShadowedToolTip" = "Blur";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "1177"; */
+"1177.title" = "Radio";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Object Selector"; ObjectID = "1178"; */
+"1178.ibShadowedToolTip" = "Object Selector";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Selection"; ObjectID = "1179"; */
+"1179.ibShadowedToolTip" = "Selection";
+
+/* Class = "NSTextFieldCell"; title = "Properties"; ObjectID = "1183"; */
+"1183.title" = "Properties";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Back"; ObjectID = "1187"; */
+"1187.ibShadowedToolTip" = "Back";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Forward"; ObjectID = "1188"; */
+"1188.ibShadowedToolTip" = "Forward";
+
+/* Class = "NSTextFieldCell"; title = "Coming Soon..."; ObjectID = "1220"; */
+"1220.title" = "Coming Soon...";
+
+/* Class = "NSTextFieldCell"; title = "png"; ObjectID = "1234"; */
+"1234.title" = "png";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Crop"; ObjectID = "1244"; */
+"1244.ibShadowedToolTip" = "Crop";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show/Hide zoom controls"; ObjectID = "1246"; */
+"1246.ibShadowedToolTip" = "Show/Hide zoom controls";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "1263"; */
+"1263.title" = "Box";
+
+/* Class = "NSButton"; ibShadowedToolTip = "More output buttons"; ObjectID = "1300"; */
+"1300.ibShadowedToolTip" = "More output buttons";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Output Preferences"; ObjectID = "1320"; */
+"1320.ibShadowedToolTip" = "Output Preferences";
+
+/* Class = "NSTextFieldCell"; title = "Need effects, tools, and other video editing options?"; ObjectID = "1409"; */
+"1409.title" = "Need effects, tools, and other video editing options?";
+
+/* Class = "NSTextFieldCell"; title = "for video editing."; ObjectID = "1416"; */
+"1416.title" = "for video editing.";
+
+/* Class = "NSButtonCell"; title = "Try Camtasia"; ObjectID = "1446"; */
+"1446.title" = "Try Camtasia";
+
+/* Class = "NSButtonCell"; title = "Canvas"; ObjectID = "1468"; */
+"1468.title" = "Canvas";
+
+/* Class = "NSTextFieldCell"; title = "Show Canvas Options"; ObjectID = "1481"; */
+"1481.title" = "Show Canvas Options";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Cutout"; ObjectID = "1484"; */
+"1484.ibShadowedToolTip" = "Cutout";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "b08-ea-es8"; */
+"b08-ea-es8.title" = "Box";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Notifications"; ObjectID = "oSY-OK-Up2"; */
+"oSY-OK-Up2.ibShadowedToolTip" = "Notifications";

@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Sometimes, AppleScript prevents Script Debugger from opening a compiled script file, or shows the file’s contents with raw Apple event codes." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Opening a Compiled Script as Text</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../openinga.html">Opening and Saving Scripts</a>&#160;&gt; <a href="../open.html">Open</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Opening a Compiled Script as Text</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../save.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Sometimes, AppleScript <strong>prevents Script Debugger from opening</strong> a <a href="../../referencfolder/helpglossaryfolder/compiledscriptfile.html">compiled script file</a>, or shows the file&#8217;s contents with <strong><a href="../../developfolder/editfolder/scriptwifolder/viewfolder/chevron.html">raw Apple event codes</a></strong>. This indicates that something has gone wrong with the <a href="../../referencfolder/helpglossaryfolder/bytecode.html">decompilation</a> process. For example, an application or scripting addition <a href="../../referencfolder/helpglossaryfolder/dictionarydef.html">needed by the script</a> is <a href="../manifest.html">missing</a>, or a script&#8217;s internal alias to an application has broken.</p>
+
+    <p>If the script was originally saved with Script Debugger, you can <strong>open the script as text</strong>. To do so:</p>
+
+    <ul>
+      <li>Choose File &#62; Recover Damaged Script.</li>
+    </ul>
+
+    <p>This feature works because when Script Debugger saves a compiled script, it saves not only the compiled <a href="../../referencfolder/helpglossaryfolder/bytecode.html">bytecode</a> but also the uncompiled text. The uncompiled text is placed in the file&#8217;s <a href="../../referencfolder/helpglossaryfolder/fork.html">resource fork</a> (or, if the file is a <a href="../../referencfolder/helpglossaryfolder/bundledef.html">bundle</a>, in a file within the bundle). </p>
+
+    <blockquote>
+      <p><strong>Warning</strong>: If you edit a script with some other script editor application, the stored uncompiled text may no longer match the current state of the bytecode.</p>
+    </blockquote>
+
+    <h3 id="open-as-text-instead-of-launching-an-application">Open As Text Instead of Launching an Application</h3>
+
+    <p>Script Debugger may <em>automatically</em> let you open a script as text, if you attempt to open a compiled script that <strong>targets an application which <a href="../../referencfolder/faqfolder/appsopen.html">must be launched</a></strong> in order for AppleScript to <a href="../../referencfolder/helpglossaryfolder/bytecode.html">decompile</a> it.</p>
+
+    <p>For example, suppose AppleScript Editor is not running and you open a compiled script that targets AppleScript Editor. If AppleScript Editor isn&#8217;t already running, AppleScript wants to launch it in order to display the script. Script Debugger detects this and can optionally intervene:</p>
+
+    <ul>
+      <li>
+        <p>If your choice in Script Debugger&#8217;s <a href="../../referencfolder/preferencfolder/general.html">General preferences</a> is &#8220;Warn when applications may be launched,&#8221; Script Debugger presents this dialog:</p>
+
+        <div style="text-align:center"><img src="../../../images/launchquery.png" width="364" height="169" alt="image" /></div>
+
+        <p>You can proceed to open the script (and allow AppleScript Editor to launch) if you wish, but perhaps the overhead of launching an application just to read a script seems unwarranted. If this script was saved with Script Debugger, it contains a text version, and you can click Open As Text to open that instead. Thus you can read the script without launching AppleScript Editor. (But to <em>compile</em> the script you will have to let AppleScript launch AppleScript Editor.)</p>
+
+        <blockquote>
+          <p>If the script does <em>not</em> contain a text version, the Open As Text button will not be present.</p>
+        </blockquote>
+      </li>
+      <li>
+        <p>If your choice in Script Debugger&#8217;s <a href="../../referencfolder/preferencfolder/general.html">General preferences</a> is &#8220;Always open as text without launching applications,&#8221; then, if the script <em>can</em> be opened as text, Script Debugger <em>will</em> open it as text, without bothering to display the dialog.</p>
+      </li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="compatib.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="compatib.html">Compatibility</a>
+</td>
+<td align="right" style="width:50%" valign="top" />
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle" />
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

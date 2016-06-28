@@ -1,0 +1,40 @@
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Select callout shape"; ObjectID = "101"; */
+"101.ibShadowedToolTip" = "Select callout shape";
+
+/* Class = "NSMenuItem"; title = "Shape"; ObjectID = "104"; */
+"104.title" = "Shape";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Select step tool shape"; ObjectID = "111"; */
+"111.ibShadowedToolTip" = "Select step tool shape";
+
+/* Class = "NSButtonCell"; title = "_toolController.stepStyle"; ObjectID = "112"; */
+/* PLEASE DONT LOCACLIZE */
+"112.title" = "_toolController.stepStyle";
+
+/* Class = "NSTextFieldCell"; title = "Shadow"; ObjectID = "238"; */
+"238.title" = "Shadow";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "240"; */
+"240.title" = "Opacity:";
+
+/* Class = "NSTextFieldCell"; title = "Restart"; ObjectID = "278"; */
+"278.title" = "Restart";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "352"; */
+"352.title" = "Color";
+
+/* Class = "NSMenuItem"; title = "a... b... c..."; ObjectID = "1dE-JG-DzJ"; */
+"1dE-JG-DzJ.title" = "a... b... c...";
+
+/* Class = "NSTextFieldCell"; title = "Type:"; ObjectID = "di8-rT-Hho"; */
+"di8-rT-Hho.title" = "Type:";
+
+/* Class = "NSMenuItem"; title = "1... 2... 3..."; ObjectID = "hlJ-by-10w"; */
+"hlJ-by-10w.title" = "1... 2... 3...";
+
+/* Class = "NSMenuItem"; title = "A... B... C..."; ObjectID = "mgW-HP-bnV"; */
+"mgW-HP-bnV.title" = "A... B... C...";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Restart the numbering to 1 or A."; ObjectID = "uuq-wM-UAz"; */
+"uuq-wM-UAz.ibShadowedToolTip" = "Restart the numbering to 1 or A.";

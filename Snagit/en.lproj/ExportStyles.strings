@@ -1,0 +1,54 @@
+
+/* Class = "NSWindow"; title = "Window"; ObjectID = "18"; */
+"18.title" = "Window";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Shape"; ObjectID = "73"; */
+"73.ibShadowedToolTip" = "Shape";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Highlighter"; ObjectID = "74"; */
+"74.ibShadowedToolTip" = "Highlighter";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Arrow"; ObjectID = "75"; */
+"75.ibShadowedToolTip" = "Arrow";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Pen"; ObjectID = "76"; */
+"76.ibShadowedToolTip" = "Pen";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Eraser"; ObjectID = "77"; */
+"77.ibShadowedToolTip" = "Eraser";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Line"; ObjectID = "78"; */
+"78.ibShadowedToolTip" = "Line";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Callout and Text"; ObjectID = "79"; */
+"79.ibShadowedToolTip" = "Callout and Text";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Stamp"; ObjectID = "80"; */
+"80.ibShadowedToolTip" = "Stamp";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Fill"; ObjectID = "81"; */
+"81.ibShadowedToolTip" = "Fill";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Blur"; ObjectID = "82"; */
+"82.ibShadowedToolTip" = "Blur";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Object Selector"; ObjectID = "84"; */
+"84.ibShadowedToolTip" = "Object Selector";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Selection"; ObjectID = "85"; */
+"85.ibShadowedToolTip" = "Selection";
+
+/* Class = "NSButtonCell"; title = "Export Selected"; ObjectID = "87"; */
+"87.title" = "Export Selected";
+
+/* Class = "NSButtonCell"; title = "Export All"; ObjectID = "89"; */
+"89.title" = "Export All";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "91"; */
+"91.title" = "Cancel";
+
+/* Class = "NSButtonCell"; ibShadowedToolTip = "Callout and Text"; ObjectID = "98"; */
+"98.ibShadowedToolTip" = "Callout and Text";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "117"; */
+"117.title" = "Box";

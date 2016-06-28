@@ -1,0 +1,42 @@
+
+/* Class = "NSWindow"; title = "Batch Export"; ObjectID = "1"; */
+"1.title" = "Batch Export";
+
+/* Class = "NSButtonCell"; title = "Export"; ObjectID = "27"; */
+"27.title" = "Export";
+
+/* Class = "NSSegmentedCell"; HFZ-0c-xOY.ibShadowedLabels[0] = "Open"; ObjectID = "HFZ-0c-xOY"; */
+"HFZ-0c-xOY.ibShadowedLabels[0]" = "Open";
+
+/* Class = "NSSegmentedCell"; HFZ-0c-xOY.ibShadowedLabels[1] = "All"; ObjectID = "HFZ-0c-xOY"; */
+"HFZ-0c-xOY.ibShadowedLabels[1]" = "All";
+
+/* Class = "NSToolbarItem"; label = "Captures"; ObjectID = "NW1-jv-1P7"; */
+"NW1-jv-1P7.label" = "Captures";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Captures"; ObjectID = "NW1-jv-1P7"; */
+"NW1-jv-1P7.paletteLabel" = "Captures";
+
+/* Class = "NSToolbarItem"; label = "Search"; ObjectID = "RUV-qi-YLT"; */
+"RUV-qi-YLT.label" = "Search";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Search"; ObjectID = "RUV-qi-YLT"; */
+"RUV-qi-YLT.paletteLabel" = "Search";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "Sz1-fm-Tbe"; */
+"Sz1-fm-Tbe.title" = "OtherViews";
+
+/* Class = "NSToolbarItem"; label = "Sort By"; ObjectID = "VC4-ff-eOr"; */
+"VC4-ff-eOr.label" = "Sort By";
+
+/* Class = "NSToolbarItem"; paletteLabel = "Sort By"; ObjectID = "VC4-ff-eOr"; */
+"VC4-ff-eOr.paletteLabel" = "Sort By";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "f8K-A7-bzE"; */
+"f8K-A7-bzE.title" = "Date";
+
+/* Class = "NSMenuItem"; title = "Name"; ObjectID = "flE-LN-0BR"; */
+"flE-LN-0BR.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "zti-fI-JRU"; */
+"zti-fI-JRU.title" = "Cancel";

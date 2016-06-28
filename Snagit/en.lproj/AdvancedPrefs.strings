@@ -1,0 +1,63 @@
+
+/* Class = "NSButtonCell"; title = "Restore Gallery Styles"; ObjectID = "12"; */
+"12.title" = "Restore Gallery Styles";
+
+/* Class = "NSTextFieldCell"; title = "Height:"; ObjectID = "17"; */
+"17.title" = "Height:";
+
+/* Class = "NSTextFieldCell"; title = "Width:"; ObjectID = "18"; */
+"18.title" = "Width:";
+
+/* Class = "NSButtonCell"; title = "Always create new canvas at this size"; ObjectID = "19"; */
+"19.title" = "Always create new canvas at this size";
+
+/* Class = "NSTextFieldCell"; title = "Drag and paste format:"; ObjectID = "66"; */
+"66.title" = "Drag and paste format:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "69"; */
+"69.title" = "OtherViews";
+
+/* Class = "NSButtonCell"; title = "Choose..."; ObjectID = "101"; */
+"101.title" = "Choose...";
+
+/* Class = "NSBox"; title = "AutoSave "; ObjectID = "132"; */
+"132.title" = "AutoSave ";
+
+/* Class = "NSTextFieldCell"; title = "Autosave Location:"; ObjectID = "134"; */
+"134.title" = "Autosave Location:";
+
+/* Class = "NSButtonCell"; title = "Scale down retina images when sharing"; ObjectID = "157"; */
+"157.title" = "Scale down retina images when sharing";
+
+/* Class = "NSTextFieldCell"; title = "Mobile Sharing: Off"; ObjectID = "167"; */
+"167.title" = "Mobile Sharing: Off";
+
+/* Class = "NSTextFieldCell"; title = "Mobile Sharing is off.   Mobile devices cannot send files to Snagit."; ObjectID = "171"; */
+"171.title" = "Mobile Sharing is off.   Mobile devices cannot send files to Snagit.";
+
+/* Class = "NSButtonCell"; title = "Turn On Sharing"; ObjectID = "177"; */
+"177.title" = "Turn On Sharing";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "182"; */
+"182.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "1234"; ObjectID = "184"; */
+"184.title" = "1234";
+
+/* Class = "NSTextFieldCell"; title = "Port:"; ObjectID = "186"; */
+"186.title" = "Port:";
+
+/* Class = "NSTextFieldCell"; title = "Friendly name"; ObjectID = "213"; */
+"213.title" = "Friendly name";
+
+/* Class = "NSTextFieldCell"; title = " Connection Name:"; ObjectID = "219"; */
+"219.title" = " Connection Name:";
+
+/* Class = "NSButtonCell"; title = "Keep original image dimensions"; ObjectID = "226"; */
+"226.title" = "Keep original image dimensions";
+
+/* Class = "NSButtonCell"; title = "Always use black and white menu bar icon"; ObjectID = "IrV-Gi-PCK"; */
+"IrV-Gi-PCK.title" = "Always use black and white menu bar icon";
+
+/* Class = "NSButtonCell"; title = "Restore 2.X Styles"; ObjectID = "NjH-rg-X9b"; */
+"NjH-rg-X9b.title" = "Restore 2.X Styles";

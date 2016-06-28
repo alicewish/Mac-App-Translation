@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger supports both Spotlight and Quick Look access to saved compiled script files." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Spotlight and Quick Look</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../openinga.html">Opening and Saving Scripts</a>&#160;&gt; <a href="../save.html">Save</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Spotlight and Quick Look</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../descript.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger supports both Spotlight and Quick Look access to saved compiled script files.</p>
+
+    <h3 id="spotlight">Spotlight</h3>
+
+    <p>Spotlight is an indexing technology, introduced in Mac OS X 10.4 (Tiger). It keeps track of files and their contents and allows you to search rapidly for a file based on its name or its contents. If you can remember a word or two used in your file, you can find it quickly, rather than having to remember what folder it&#8217;s in.</p>
+
+    <p>Script Debugger contains a &#8220;Spotlight importer&#8221; for compiled script files. This means that if Script Debugger is present on your computer, AppleScript compiled scripts are searchable with Spotlight. You can search for a script file by name or contents (including its <a href="../descript.html">description</a>).</p>
+
+    <p>Script Debugger provides direct access to <strong>search for a file and open it using Spotlight</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose File &gt; Open Quickly.</p>
+
+        <p>In the dialog, type some words to search for; the search include the file&#8217;s name, contents, and <a href="../descript.html">description</a>, as well as any Finder comments attached to the file (in the Finder&#8217;s Get Info dialog). Matching script files are listed, along with their pathname.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/openQuickly.png" width="252" height="153" alt="image" /></div>
+
+    <!--
+
+> If Spotlight stops finding the contents of compiled scripts on your machine, it is likely that the Spotlight indexing system has become confused. You can compel your primary hard disk to rebuild its Spotlight index by saying `sudo`&#160;`mdutil`&#160;`-E`&#160;`/` in the Terminal; for more information, see the <a href="x-man-page://mdutil">mdutil</a> documentation.
+
+-->
+
+    <h3 id="quick-look">Quick Look</h3>
+
+    <p>Quick Look is a technology, introduced in Mac OS X 10.5 (Leopard), for viewing a preview of the contents of a file without the overhead of opening that file in the application that <a href="fileowne.html">owns</a> it.</p>
+
+    <p>Script Debugger contains a &#8220;Quick Look generator&#8221; for <a href="formatsfolder/compiled.html">compiled script files</a> and <a href="formatsfolder/applicat.html">applets</a>. This means that the system is provided with the information it needs to translate your file into a preview that Quick Look can present. If a script has been saved with Script Debugger, it will be viewable with Quick Look &#8220;in color&#8221; (that is, with all the AppleScript compiled script <a href="../../referencfolder/preferencfolder/applescript.html">text formatting</a>); otherwise, it will appear in Quick Look as plain text.</p>
+
+    <div style="text-align:center"><img src="../../../images/quicklook.png" width="285" height="160" alt="image" /></div>
+
+    <p>Note that because you&#8217;re just &#8220;peeking&#8221; at the script&#8217;s text with Quick Look, there is none of the overhead involved with actually opening the script: there is no <a href="../../referencfolder/helpglossaryfolder/bytecode.html">decompilation</a> and therefore there is no need to <a href="../../referencfolder/faqfolder/appsopen.html">launch</a> any targeted applications.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="fileowne.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="fileowne.html">File Owner</a>
+</td>
+<td align="right" style="width:50%" valign="top" />
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle" />
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="If your script terminates with an input-output pipe left open, Script Debugger offers you the chance to close it." />
+<meta name="keywords" content="leaked, resources, leaked resources" />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Leaks</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../run.html">Run</a>&#160;&gt; <a href="../errors.html">Errors</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Leaks</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../log.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>If your script terminates with an input-output <strong>pipe left open</strong>, Script Debugger offers you the chance to close it. This situation can arise in two situations:</p>
+
+    <ul>
+      <li>
+        <p>The script has called the <code>open for access</code> Scripting Addition command without calling <code>close access</code> on the same file.</p>
+      </li>
+      <li>
+        <p>The script has initiated a transaction (<code>with transaction</code>) but never completed the transaction, either by committing it or by rolling it back.</p>
+      </li>
+    </ul>
+
+    <p>When the script is terminated in this situation, Script Debugger presents its Leaks dialog. The dialog contains a <strong>list of open files</strong> (&#8220;Leaked Resources&#8221;).</p>
+
+    <div style="text-align:center"><img src="../../../../images/leaksNew.png" width="415" height="176" alt="image" /></div>
+
+    <p>Your options are:</p>
+
+    <ul>
+      <li>
+        <p><strong>Close All</strong>. All open files are closed (and transactions are committed), and the dialog is closed. This will be your usual choice.</p>
+      </li>
+      <li>
+        <p><strong>Close</strong>. The selected open file is closed (or the transaction is committed).</p>
+      </li>
+      <li>
+        <p><strong>Abort</strong>. The selected transaction is rolled back.</p>
+      </li>
+      <li>
+        <p><strong>Forget</strong>. The selected leak is removed from the list with no action taken. This would be a very unusual thing to do, as the leak is left open.</p>
+      </li>
+    </ul>
+
+    <p>If the script terminates because of an error, the <a href="../errors.html">error dialog</a> is shown instead of the Leaks dialog. To close a leak left open by the termination of the script, <strong>summon the Leaks dialog manually</strong>:</p>
+
+    <ul>
+      <li>Choose Script &gt; Show Leaks.</li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,209 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="You can enter, view, and select delimiters in pairs." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Delimiters</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../edit.html">Edit</a>&#160;&gt; <a href="../editinga.html">Editing and Navigation</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Delimiters</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="completion.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>You can enter, view, and select <strong>delimiters in pairs</strong>. Possible delimiter pairs include:</p>
+
+    <ul>
+      <li>
+        <p>Opening and closing double-quotes <code>""</code> (some delimiter commands ignore these)</p>
+      </li>
+      <li>
+        <p>Left and right parentheses <code>()</code></p>
+      </li>
+      <li>
+        <p>Left and right square brackets <code>[]</code></p>
+      </li>
+      <li>
+        <p>Left and right curly braces <code>{}</code></p>
+      </li>
+      <li>
+        <p>Left and right chevrons <code>«»</code> (rarely used)</p>
+      </li>
+    </ul>
+
+    <h3 id="delimiter-entry-auto-pairing">Delimiter Entry (Auto-Pairing)</h3>
+
+    <p><strong>Auto-pairing</strong> means that when you type the <em>first</em> of a pair of delimiters, the <strong>second delimiter is automatically typed</strong> for you.</p>
+
+    <p>When you type an opening delimiter with auto-pairing on, the second delimiter appears, and the insertion point is positioned between them, ready for you to type the delimited contents.</p>
+
+    <p>To <strong>pick an auto-pairing policy</strong>:</p>
+
+    <ul>
+      <li>In the <a href="../../../referencfolder/preferencfolder/editor.html">Editor preferences</a>, check or uncheck &#8220;Auto-pair delimiters <code>([{""}])</code>.&#8221;</li>
+    </ul>
+
+    <p>Auto-pairing is intelligent:</p>
+
+    <ul>
+      <li>
+        <p><strong>Type closing delimiter to skip closing delimiter</strong>: When the insertion point is before a closing delimiter that was entered automatically through auto-pairing, if you type the closing delimiter, Script Debugger knows that this is the same closing delimiter that is <em>already</em> present, and <strong>skips past</strong> the closing delimiter, positioning the insertion point after it.</p>
+      </li>
+      <li>
+        <p><strong>Surround the selection</strong>: Optionally, when text is selected, if you type an opening delimiter with auto-pairing on, the selected text is not replaced; instead, the selected text is <strong>surrounded</strong> with opening and closing delimiters. This feature is governed by a preference:</p>
+
+        <ul>
+          <li>In the <a href="../../../referencfolder/preferencfolder/editor.html">Editor preferences</a>, check or uncheck &#8220;Wrap selection with delimiters.&#8221;</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 id="delimiter-checking-as-you-type-auto-hilite">Delimiter Checking As You Type (Auto-hilite)</h3>
+
+    <p><strong>Auto-hilite</strong> means that when you type the <em>second</em> of a pair of delimiters, the <strong>first delimiter is momentarily highlighted</strong>. This confirms that you&#8217;re balancing delimiters as intended.</p>
+
+    <div style="text-align:center">
+<img src="../../../../images/autohilite.png" width="135" height="37" style="border:1px solid black" alt="image" />
+</div>
+
+    <p>If there is <strong>no prior matching first delimiter</strong>, Script Debugger beeps. This alerts you that the closing delimiter is unbalanced.</p>
+
+    <p>To <strong>pick an auto-hilite policy</strong>:</p>
+
+    <ul>
+      <li>
+        <p>In the <a href="../../../referencfolder/preferencfolder/editor.html">Editor preferences</a>, check or uncheck &#8220;Auto-hilite opening <code>([{</code> when typing closing <code>}])</code>.&#8221;</p>
+
+        <p>Use the slider to set how much <strong>delay</strong> there should be before the opening delimiter is highlighted.</p>
+
+        <p>Check &#8220;Scroll if necessary&#8221; checkbox if you want Script Debugger to <strong>scroll backwards momentarily</strong>, if needed, to reveal a balancing opening delimiter that&#8217;s not currently visible.</p>
+      </li>
+    </ul>
+
+    <h3 id="delimiter-selection-balance">Delimiter Selection (Balance)</h3>
+
+    <p><strong>Balance</strong> means that you <strong>select everything within a pair of delimiters</strong>. Script Debugger starts with the current selection or insertion point and <strong>looks outward</strong> until it reaches a pair of balanced delimiters. To balance:</p>
+
+    <ul>
+      <li>
+        <p>Choose Edit &gt; Balance.</p>
+      </li>
+      <li>
+        <p>Or, choose Balance from the contextual menu.</p>
+      </li>
+    </ul>
+
+    <p>To determine whether balancing should incorporate <strong>the delimiters themselves</strong> in the selection:</p>
+
+    <ul>
+      <li>
+        <p>In the <a href="../../../referencfolder/preferencfolder/editor.html">Editor preferences</a>, check or uncheck &#8220;Balance includes enclosing <code>([{ }])</code> delimiters.&#8221;</p>
+
+        <p>If <strong>checked</strong>, Balance selects everything <strong>including</strong> the surrounding delimiters.</p>
+
+        <p>If <strong>unchecked</strong>, Balance selects everything <strong>within</strong> the surrounding delimiters.</p>
+      </li>
+    </ul>
+
+    <p>Balance considers a <strong>comment</strong> to be a delimited thing. If you choose Balance when the selection is within a single-line or multi-line comment, the comment will be selected.</p>
+
+    <p>Balance considers a <strong><a href="block.html">block</a></strong> to be a delimited thing. If you choose Balance when the selection is within a code block, the block will be selected.</p>
+
+    <p>Balance <strong>repeatedly</strong> to keep selecting outwards.</p>
+
+    <blockquote>
+      <p>Balance is the same feature used for <a href="block.html">block selection</a>.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="block.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="block.html">Block Structure</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="completion.html">Text Completion</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="completion.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

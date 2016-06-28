@@ -1,0 +1,80 @@
+
+/* Class = "NSMenuItem"; title = "10 seconds"; ObjectID = "18"; */
+"18.title" = "10 seconds";
+
+/* Class = "NSMenuItem"; title = "5 seconds"; ObjectID = "19"; */
+"19.title" = "5 seconds";
+
+/* Class = "NSMenuItem"; title = "3 seconds"; ObjectID = "20"; */
+"20.title" = "3 seconds";
+
+/* Class = "NSMenuItem"; title = "1 second"; ObjectID = "21"; */
+"21.title" = "1 second";
+
+/* Class = "NSButtonCell"; title = "Delay capture by:"; ObjectID = "22"; */
+"22.title" = "Delay capture by:";
+
+/* Class = "NSButtonCell"; title = "Capture cursor"; ObjectID = "26"; */
+"26.title" = "Capture cursor";
+
+/* Class = "NSButtonCell"; title = "Always copy captures to clipboard"; ObjectID = "27"; */
+"27.title" = "Always copy captures to clipboard";
+
+/* Class = "NSButtonCell"; title = "Preview in Editor"; ObjectID = "28"; */
+"28.title" = "Preview in Editor";
+
+/* Class = "NSButtonCell"; title = "Hide Snagit when capturing"; ObjectID = "29"; */
+"29.title" = "Hide Snagit when capturing";
+
+/* Class = "NSTextFieldCell"; title = "• Restart your web browser
+• Stop and delete the current video recording"; ObjectID = "73"; */
+"73.title" = "• Restart your web browser
+• Stop and delete the current video recording";
+
+/* Class = "NSTextFieldCell"; title = "Fixing scrolling capture may require you to:"; ObjectID = "104"; */
+"104.title" = "Fixing scrolling capture may require you to:";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "105"; */
+"105.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Scrolling Capture"; ObjectID = "107"; */
+"107.title" = "Scrolling Capture";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "108"; */
+"108.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Capture Settings"; ObjectID = "110"; */
+"110.title" = "Capture Settings";
+
+/* Class = "NSTextFieldCell"; title = "Firefox Scrolling Capture is enabled."; ObjectID = "8eK-2f-WOz"; */
+"8eK-2f-WOz.title" = "Firefox Scrolling Capture is enabled.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Dq6-ZU-0SE"; */
+"Dq6-ZU-0SE.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Enable"; ObjectID = "JDm-IF-V3v"; */
+"JDm-IF-V3v.title" = "Enable";
+
+/* Class = "NSButtonCell"; title = "Install component"; ObjectID = "a91-59-qbX"; */
+"a91-59-qbX.title" = "Install component";
+
+/* Class = "NSTextFieldCell"; title = "System Audio"; ObjectID = "aFA-yH-x4K"; */
+"aFA-yH-x4K.title" = "System Audio";
+
+/* Class = "NSTextFieldCell"; title = "Audio Settings"; ObjectID = "du1-oI-BbX"; */
+"du1-oI-BbX.title" = "Audio Settings";
+
+/* Class = "NSTextFieldCell"; title = "Firefox Scrolling Capture is disabled."; ObjectID = "euh-ez-y5z"; */
+"euh-ez-y5z.title" = "Firefox Scrolling Capture is disabled.";
+
+/* Class = "NSButtonCell"; title = "Install Plugin"; ObjectID = "fFU-pw-qKy"; */
+"fFU-pw-qKy.title" = "Install Plugin";
+
+/* Class = "NSTextFieldCell"; title = "Scrolling in applications is disabled."; ObjectID = "hUW-wK-1NA"; */
+"hUW-wK-1NA.title" = "Scrolling in applications is disabled.";
+
+/* Class = "NSTextFieldCell"; title = "Scrolling in applications is enabled."; ObjectID = "tJq-hT-CWS"; */
+"tJq-hT-CWS.title" = "Scrolling in applications is enabled.";
+
+/* Class = "NSButtonCell"; title = "Show video countdown"; ObjectID = "ub8-5F-bd7"; */
+"ub8-5F-bd7.title" = "Show video countdown";

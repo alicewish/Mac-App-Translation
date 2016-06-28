@@ -1,0 +1,269 @@
+/* Tell the browser to render HTML5 elements as block */
+header, section, footer, aside, nav, article, figure {
+	display: block;
+}
+
+body {
+	margin: 2px 12px 12px
+	}
+	
+nav {
+	background-color: #D9D9D9; 
+	background-repeat: no-repeat; 
+	padding: 2px 6px 0; 
+	position: fixed; top: 0; left: 0; 
+	width: 100%; 
+	height: 1.2em; 
+	float: left; 
+	border: solid 1px #919191
+}
+
+h1 {
+	font-size: 13pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	margin-top: 32px;
+	}
+
+
+h2 {
+	font-size: 11pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	margin-top: 1%;
+	margin-bottom: 1%
+	}
+
+h3,  {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: -4px;
+	margin-bottom: -4px
+	}
+
+p {
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	text-decoration: none;
+	}
+
+
+ol, #taskbox ol, #taskprimcontent ol {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	list-style-position: outside;
+    list-style-image: url(gfx/bullet.png);
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: -18px;
+	padding-left: 40px
+	}
+
+
+ol li, #taskbox ol li, #taskprimcontent ol li {
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+
+ol p, #taskbox ol p, #taskprimcontent ol p {
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+
+ul, #taskbox  ul, #taskprimcontent ul {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	/*list-style-type: square;*/
+	list-style-position: outside;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: -24px;
+	padding-left: 40px
+	}
+
+
+/*#taskbox ul li, #taskprimcontent ul li {*/
+ul li {
+	list-style-type: square;
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+
+ul p, #taskbox ul p, #taskprimcontent ul p {
+	margin-top: 6px;
+	margin-bottom: 6px
+	}
+
+ul.seealso {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	}
+
+a, #taskbox a, #taskprimcontent a {
+	color: #005a8c;
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	line-height: 12pt;
+	text-decoration: none
+	}
+
+
+a:hover    {
+	color: #005a8c;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	text-decoration: underline
+	}
+
+hr, #taskbox hr {
+	text-decoration: none;
+	border: solid 1px #bfbfbf
+	}
+
+td, #taskbox td, td.blue {
+	padding: 6px
+	}
+
+#fancybox-wrap {
+	clear: both;
+}
+
+#fancybox-wrap ul li, ul.seealso li {
+	list-style-type: none;
+}
+
+#caticon	         {
+margin-top: 3px;
+	margin-bottom: -3px;
+	margin-right: 5px;
+	float: left;
+	}
+
+title	            {
+	margin-top: 12px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	width: 88%;
+	border: solid 1px #fff
+	}
+
+
+#mainbox	         {
+	margin-top: 36px;
+	padding-right: 6px
+	}
+
+.taskbox  	                     {
+	background-color: #FFFFFF;
+	list-style-type: decimal;
+	list-style-position: outside;
+	margin: 12px 0;
+	padding: 2px 12px;
+	border: solid 1px #bfbfbf
+	}
+
+
+#taskbox  h2 {
+	margin-top: 8;
+	margin-bottom: -4px
+	}
+    
+.taskprimcontent {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+}
+
+.taskprimbullet  {
+	float: left;
+	color: #778FBD;
+	font-size: 7pt;
+	line-height: 12pt;
+	font-family: "Lucida Grande";
+	margin-top: 1px;
+	margin-left: 6px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.taskbullet {
+	font-size: 9pt;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	/*margin-left: -24px;*/
+	/*padding-left: 40px;*/
+	padding-left: 16px;
+	vertical-align: top;
+}
+
+#machelp   { position: absolute; top: 2px; left: 10px }
+
+#index      {background-color: #C0C0C0; padding-right: 25px; top: 2px; right: 12px; width: auto; float: right }
+
+#next  {
+	position: absolute;
+	top: 49px;
+	left: 88%
+	}
+	
+#asindent {
+        margin-left: 22px;
+	font-size: 9pt;
+	font-family: Verdana, Courier, sans-serif;
+        }
+        
+.bread   {
+	color: #005a8c;
+    text-decoration: bold;
+	font-size: 8pt;
+	margin: -9px 0 -6px
+	}
+
+.leftborder    {
+	color: #006A71;
+	font-size: 8pt;
+	margin: -9px 0 -6px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	border-left: 1px solid #bfbfbf
+	}
+
+.rightfloater
+{
+    float: right;
+    margin-left: 15px;
+}
+	
+#hiddencontent {
+	display:none
+	}
+
+.seealso  {
+	margin-top: 4px;
+	margin-bottom: 4px
+	}
+	
+.surveyLink {
+	margin-left:20;
+	margin-right:20;
+	width:200px;
+}
+
+code       {
+	color: black;
+	font-size: 9pt;
+	font-family: Verdana, Courier, sans-serif;
+	}
+
+

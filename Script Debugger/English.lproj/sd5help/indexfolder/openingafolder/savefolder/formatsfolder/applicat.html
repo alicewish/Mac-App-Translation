@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="A compiled script can be saved as an application, traditionally known as an applet." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Application</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../openinga.html">Opening and Saving Scripts</a>&#160;&gt; <a href="../../save.html">Save</a>&#160;&gt; <a href="../formats.html">Formats</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Application</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="text.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>A <a href="../../../developfolder/runfolder/compile.html">compiled</a> script can be saved as an application, traditionally known as an <strong>applet</strong>. An applet is a stand-alone application. When opened in the Finder, the script runs.</p>
+
+    <p>An applet&#8217;s script can be edited in Script Debugger by opening it in any of the <a href="../../open.html">usual ways</a>.</p>
+
+    <p>You can save a script as an applet and leave the script open in Script Debugger. This allows you to test the script from the Finder and then easily edit it in Script Debugger.</p>
+
+    <blockquote>
+      <p>Script Debugger has some further features for helping you test a script that is destined to be saved as an applet. You can test individual <a href="../../../developfolder/runfolder/executefolder/handlers.html">handlers</a> in the applet, and you can debug the applet <a href="../../../developfolder/debugfolder/external.html">while it is running.</a></p>
+    </blockquote>
+
+    <p>To <strong>save a script as an application</strong> (if it isn&#8217;t an application already):</p>
+
+    <ul>
+      <li>
+        <p>Choose File &gt; Save As and select Application from the Format pop-up menu.</p>
+
+        <p>An applet is always saved as a <a href="../../../referencfolder/helpglossaryfolder/bundledef.html">bundle</a>; this has the advantage that you can store ancillary files inside the bundle.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/appletIcon.png" width="104" height="92" alt="image" /></div>
+
+    <p>Besides the format, you can also set further options for the behavior of the resulting application. To do so, use the checkboxes in the Save dialog, or choose from the hierarchical File &#62; Application Options menu. (You can also add Stay Open and Show Startup buttons to the script window&#8217;s <a href="../../../referencfolder/windowsfolder/toolbar.html">toolbar</a>. They change their names and icons to indicate whether the setting is on or off.)</p>
+
+    <ul>
+      <li>
+        <p><b>Show Startup Screen</b>. The script&#8217;s <a href="../../descript.html">description</a> is used as a &#8220;splash screen&#8221; when the applet starts up. This splash screen also contains buttons allowing the user to quit or run the applet.</p>
+      </li>
+      <li>
+        <p><b>Stay Open</b>. The distinction being made here is as follows:</p>
+
+        <ul>
+          <li>
+            <p>An applet that <em>does not</em> stay open runs its script when opened and then automatically quits. </p>
+          </li>
+          <li>
+            <p>An applet that <em>does</em> stay open does <em>not</em> automatically quit after running its script (the user can choose its Quit menu item to quit it later). This is useful if, for example, the applet runs a handler periodically at idle time.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>32-Bit Only</strong>. This is identical to checking &#8220;Open in 32-bit mode&#8221; in the application&#8217;s Get Info dialog in the Finder. The application will open in 32-bit mode even in a 64-bit context. This option might rarely be useful for compatibility with 32-bit scripting additions.</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p><strong>Warning</strong>: An application saved in <a href="../../../developfolder/debug.html">debug mode</a> will not run normally (when launched, it will initiate an <a href="../../../developfolder/debugfolder/external.html">external debugging</a> session in Script Debugger). Unless that&#8217;s what you intend, be sure to save the application in normal mode when you&#8217;re finished debugging it.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="compiled.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="compiled.html">Compiled Script</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="text.html">Text</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="text.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

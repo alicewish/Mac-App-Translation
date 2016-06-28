@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="You can use an alternative text-editing application to edit a script." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>External Editor</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../edit.html">Edit</a>&#160;&gt; <a href="../editinga.html">Editing and Navigation</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>External Editor</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../../run.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>You can use an alternative text-editing application to edit a script. Possible choices are:</p>
+
+    <ul>
+      <li>
+        <p><a href="http://www.barebones.com/products/bbedit/" class="external">BBEdit</a></p>
+      </li>
+      <li>
+        <p><a href="http://www.barebones.com/products/textwrangler/" class="external">TextWrangler</a></p>
+      </li>
+      <li>
+        <p><a href="http://macromates.com/" class="external">TextMate</a></p>
+      </li>
+    </ul>
+
+    <p>This feature works seamlessly:</p>
+
+    <ol>
+      <li>
+        <p>Start with a <a href="../scriptwi.html">script window</a> open in Script Debugger.</p>
+      </li>
+      <li>
+        <p>Open the same script in an external editor and edit it there. To do so:</p>
+
+        <ul>
+          <li>Choose File &gt; Edit With XXX. A temporary text copy of the script is created, and is opened in the external editor application.</li>
+        </ul>
+
+        <blockquote>
+          <p>The application name (&#8220;XXX&#8221;) depends on which applications you have and which ones are running. Script Debugger will prefer a running application to one that is not running, and among running applications or non-running applications it will prefer the order BBEdit, TextWrangler, TextMate.</p>
+        </blockquote>
+
+        <p>While the external editor is editing the script, Script Debugger&#8217;s version of the script remains <strong>open but locked</strong>. You&#8217;ll see a dialog advising you that the script is being edited elsewhere, and a &#8220;Locked&#8221; watermark at the lower right of the script window.</p>
+
+        <div style="text-align:center"><img src="../../../../images/editWithBBEditNew.png" width="315" height="132" alt="image" /></div>
+      </li>
+      <li>
+        <p>In the external editor application, <strong>save and close the document</strong>. Script Debugger automatically adopts the changes you made in the external editor.</p>
+
+        <ul>
+          <li>
+            <p>Whenever you <strong>save</strong> the document in the external editing application, the Script Debugger copy is updated to match.</p>
+          </li>
+          <li>
+            <p>When you <strong>close</strong> the document in the external editing application, the warning dialog is removed from the Script Debugger script window (and Script Debugger comes to the front). This is the normal way in which an external editing session ends in good order.</p>
+          </li>
+        </ul>
+
+        <p>Alternatively, you might change your mind and decide to <strong>break off the external editing session</strong> prematurely without reflecting the changes from the external editing application back into the Script Debugger document. To do so:</p>
+
+        <ul>
+          <li>Switch back to Script Debugger and click Cancel in the warning dialog.</li>
+        </ul>
+
+        <blockquote>
+          <p>The temporary text copy of the script remains open in the external application, but it no longer has any connection to Script Debugger.</p>
+        </blockquote>
+      </li>
+    </ol>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="navigate.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="navigate.html">Navigate</a>
+</td>
+<td align="right" style="width:50%" valign="top" />
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle" />
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

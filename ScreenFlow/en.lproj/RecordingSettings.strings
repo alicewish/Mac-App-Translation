@@ -1,0 +1,36 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Sets or removes the timer for the next recording."; ObjectID = "1Rl-d7-Ubo"; */
+"1Rl-d7-Ubo.ibShadowedToolTip" = "Sets or removes the timer for the next recording.";
+
+/* Class = "NSButtonCell"; title = "Record Desktop from:"; ObjectID = "3LH-sh-Y4r"; */
+"3LH-sh-Y4r.title" = "Record Desktop from:";
+
+/* Class = "NSButtonCell"; title = "Record Video from:"; ObjectID = "3i5-m0-Uvq"; */
+"3i5-m0-Uvq.title" = "Record Video from:";
+
+/* Class = "NSButtonCell"; title = "Record Audio from:"; ObjectID = "4jX-qm-fKi"; */
+"4jX-qm-fKi.title" = "Record Audio from:";
+
+/* Class = "NSTextFieldCell"; title = "minutes"; ObjectID = "R9H-oA-ZhC"; */
+"R9H-oA-ZhC.title" = "minutes";
+
+/* Class = "NSTextFieldCell"; title = "Record Desktop Framerate:"; ObjectID = "YBA-zT-kDm"; */
+"YBA-zT-kDm.title" = "Record Desktop Framerate:";
+
+/* Class = "NSTextFieldCell"; title = "Stop recording after:"; ObjectID = "boX-7c-hRm"; */
+"boX-7c-hRm.title" = "Stop recording after:";
+
+/* Class = "NSTextFieldCell"; title = "Format:"; ObjectID = "eoV-gO-Sa2"; */
+"eoV-gO-Sa2.title" = "Format:";
+
+/* Class = "NSTextFieldCell"; title = "seconds"; ObjectID = "hUl-5P-1zs"; */
+"hUl-5P-1zs.title" = "seconds";
+
+/* Class = "NSButtonCell"; title = "Button"; ObjectID = "lP8-gK-1vj"; */
+"lP8-gK-1vj.title" = "Button";
+
+/* Class = "NSButtonCell"; title = "Record Computer Audio"; ObjectID = "pWg-WH-oT6"; */
+"pWg-WH-oT6.title" = "Record Computer Audio";
+
+/* Class = "NSButtonCell"; title = "Record Screen from:"; ObjectID = "wQI-s1-xm0"; */
+"wQI-s1-xm0.title" = "Record Screen from:";

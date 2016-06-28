@@ -1,0 +1,12 @@
+
+/* Class = "NSMenuItem"; title = "Grayscale"; ObjectID = "150"; */
+"150.title" = "Grayscale";
+
+/* Class = "NSMenuItem"; title = "Sepia Tone"; ObjectID = "159"; */
+"159.title" = "Sepia Tone";
+
+/* Class = "NSMenuItem"; title = "Invert"; ObjectID = "170"; */
+"170.title" = "Invert";
+
+/* Class = "NSTextFieldCell"; title = "Intensity:"; ObjectID = "176"; */
+"176.title" = "Intensity:";

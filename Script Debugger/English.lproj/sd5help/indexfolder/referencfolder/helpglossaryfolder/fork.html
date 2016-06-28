@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Definition of &#8220;fork&#8221;" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Glossary: Fork</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../helpglossary.html">Glossary</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Glossary: Fork</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="objectmodel.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>In the earliest days of the Macintosh file system, an architecture was devised whereby a file could have two pieces, the data fork and the resource fork. The data fork was a single thing, and was just for data (like the text of a TeachText / SimpleText file). The resource fork was for secondary information, and could contain many resources, accessible by category and name or number, as in a kind of miniature database (so, for example, style information in a TeachText / SimpleText file).</p>
+
+    <p>When Mac OS X was introduced, Apple undertook a concerted effort to deprecate the resource fork, because it wasn&#8217;t a standard Unix file system thing. As part of this effort, a new format for <a href="compiledscriptfile.html">compiled script files</a> was devised, where the <a href="bytecode.html">bytecode</a> was kept in the data fork instead of the resource fork.</p>
+
+    <p>Ironically, Apple subsequently realized that resource forks were a good thing (because they provide a place to put file metadata) and reversed course completely, modifying the file system so that a file can have <em>multiple</em> extra forks! Forks are now called <em>extended attributes</em>. The <code>ls</code> command-line tool will list a file&#8217;s extended attributes if you include the <code>@</code> switch, and the <code>xattr</code> command-line tool will display the contents of a file&#8217;s extended attributes.</p>
+
+    <p>Not every file system, and not every form of copying, understands extended attributes, so certain rare actions, such as moving a script to a Windows machine and back again, can strip off the resource fork.</p>
+
+    <p>For a plain compiled script file, Script Debugger stores some <a href="../../openingafolder/savefolder/whatissaved.html">secondary information</a> in the file&#8217;s resource fork. In a <a href="../../openingafolder/bundle.html">bundle</a> format file, however, no resource forks are used; secondary information is saved in separate files. (The <a href="../../openingafolder/descript.html">description</a> is saved in an <em>.rtfd</em> file, the <a href="../../openingafolder/openfolder/importre.html">recovery</a> text is saved in an <em>.rtf</em> file, and the other secondary information is saved in a <em>.plist</em> file.) For this reason, a bundle format file is the most compatible with version control systems, non-Mac filesystems, and so on.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="dictionarydef.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="dictionarydef.html">Glossary: Dictionary</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="objectmodel.html">Glossary: Object Model</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="objectmodel.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,15 @@
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "1as-HU-cva"; */
+"1as-HU-cva.title" = "Cancel";
+
+/* Class = "NSTextFieldCell"; title = "Width:"; ObjectID = "fGI-a1-Bos"; */
+"fGI-a1-Bos.title" = "Width:";
+
+/* Class = "NSTextFieldCell"; title = "Preset:"; ObjectID = "ipt-SG-Dsu"; */
+"ipt-SG-Dsu.title" = "Preset:";
+
+/* Class = "NSButtonCell"; title = "Update"; ObjectID = "m9O-DW-50A"; */
+"m9O-DW-50A.title" = "Update";
+
+/* Class = "NSTextFieldCell"; title = "Height:"; ObjectID = "msh-hx-xIk"; */
+"msh-hx-xIk.title" = "Height:";

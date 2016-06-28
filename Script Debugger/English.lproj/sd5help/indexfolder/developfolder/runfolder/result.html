@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Viewing the result of a script is often a primary reason for running the script; viewing the result of a particular line of a script is often a ..." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Result</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../run.html">Run</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Result</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="times.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Viewing the <strong>result</strong> of a script is often a primary reason for <a href="execute.html">running</a> the script; viewing the result of a particular line of a script is often a primary reason for <a href="../debug.html">debugging</a> the script. Script Debugger provides several ways to view a result:</p>
+
+    <ul>
+      <li>
+        <p>The <strong>result pane</strong>. This is part of the <a href="../editfolder/scriptwi.html">script window</a>. It is an <a href="../../explorefolder/explorer.html">explorer</a>, which means you have the power to see the result value using different views, including <a href="../../explorefolder/explorerfolder/best.html">Best view</a>, which will be an interactive <a href="../../explorefolder/explorerfolder/bestfolder/outliner.html">outliner</a> if the value is an object or collection.</p>
+
+        <p>To <strong>see the result pane</strong>: </p>
+
+        <ul>
+          <li>
+            <p>Choose View &gt; Result &amp; Variables Tab.</p>
+          </li>
+          <li>
+            <p>Or, click Result &amp; Variables in the <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a>.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/resultPaneAndScript.png" width="514" height="246" alt="image" /></div>
+
+    <ul>
+      <li>
+        <p>The <strong>result explorer window</strong>. This shows the result in exactly the same way as the result pane; the difference is that it&#8217;s a <a href="../../explorefolder/explorerfolder/explorerwindows.html">separate window</a>, not part of the script window. This can be a good choice if (for example) you want to save space within the script window, or if you want to keep viewing the result while switching the script window&#8217;s tabs to see something else (such as the Inspectors tab).</p>
+
+        <p>To <strong>see the result explorer window</strong>, choose Script &gt; Show Result Explorer Window (or choose Show Result Explorer Window from the contextual menu that appears when you Control-click on the grey area at the top of the result pane).</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/resultWindow.png" width="321" height="232" alt="image" /></div>
+
+    <ul>
+      <li>
+        <p>The <strong>result bar</strong>. It&#8217;s just a bar (at the top of the text area), so all there&#8217;s room for is the result in <a href="../../explorefolder/explorerfolder/source.html">Source view</a>. But that&#8217;s the point: this is the most space-saving way to view the result.</p>
+
+        <p>To <strong>see the result bar</strong>, choose View &gt; Show Result Bar. To dismiss the result bar, choose View &gt; Hide Result Bar or click the &#8220;x&#8221; in the result bar.</p>
+
+        <div style="text-align:center"><img src="../../../images/resultBar.png" width="429" height="20" alt="image" /></div>
+
+        <blockquote>
+          <p>In the <a href="../debugfolder/mini.html">Mini Debugger</a>, the result bar is always present and is the only way to see the result (without switching back to Script Debugger).</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> If the <strong>result has changed</strong> since the previous execution of the script, the result pane and result explorer window will display a <strong>red bar</strong> at the top, and the result bar will display the word &#8220;Result:&#8221; <strong>in red</strong>. This is particularly useful in <a href="../debug.html">debug mode</a>, where an individual line of code might or might not generate a changed result. (After you <a href="execute.html">run</a> a script all the way through in normal mode, if there&#8217;s a result, it is <em>always</em> new, so the red indicator will appear by default.)</p>
+    </blockquote>
+
+    <p>Although you can always <em>manually</em> see the result in any of those ways, the result is so important that Script Debugger would like to show it to you <em>automatically</em> every time there&#8217;s a result. An <a href="../../referencfolder/preferencfolder/debugger.html">Execution preference</a>, &#8220;Show result when scripts pause or end&#8221;, determines <em>which way</em> the result is displayed automatically:</p>
+
+    <ul>
+      <li>
+        <p><strong>No</strong>. No attempt is made to display the result automatically; if it isn&#8217;t showing already, you&#8217;ll have to summon it manually if you want to see it.</p>
+      </li>
+      <li>
+        <p><strong>Show Result Inspector</strong>. It&#8217;s as if you&#8217;d chosen View &gt; Result &amp; Variable Tab. This can be abrupt if you were looking at a different tab, but it has the advantage of being an excellent view of the result right in the script window, plus you are also shown such addition information as <a href="variable.html">variable values</a> (and, when debugging, the <a href="../debugfolder/callchain.html">call stack</a>).</p>
+      </li>
+      <li>
+        <p><strong>Show Result Bar</strong>. The result bar is shown, as if you&#8217;d chosen View &gt; Show Result Bar.</p>
+      </li>
+      <li>
+        <p><strong>Show Result Explorer Window</strong>. A separate <a href="../../explorefolder/explorerfolder/explorerwindows.html">explorer window</a> is opened, as if you&#8217;d chosen Script &gt; Show Result Explorer Window.</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> This preference is meaningful only if <em>the result is not already showing</em>. If the result <em>is</em> already showing — for example, the result bar or the result pane is visible — then the new result is simply displayed there, as if this preference were set to No.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="execute.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="execute.html">Execute</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="times.html">Times</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="times.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

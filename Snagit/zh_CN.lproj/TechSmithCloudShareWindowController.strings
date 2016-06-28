@@ -1,0 +1,24 @@
+
+/* Class = "NSWindow"; title = "Share"; ObjectID = "1"; */
+"1.title" = "Share";
+
+/* Class = "NSTextFieldCell"; title = "Folder:"; ObjectID = "172"; */
+"172.title" = "Folder:";
+
+/* Class = "NSTextFieldCell"; title = "Title:"; ObjectID = "178"; */
+"178.title" = "Title:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "297"; */
+"297.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Upload"; ObjectID = "298"; */
+"298.title" = "Upload";
+
+/* Class = "NSButtonCell"; title = "Ask for filename and location each time"; ObjectID = "351"; */
+"351.title" = "Ask for filename and location each time";
+
+/* Class = "NSTextFieldCell"; title = "Account:"; ObjectID = "369"; */
+"369.title" = "Account:";
+
+/* Class = "NSButtonCell"; title = "Browse..."; ObjectID = "atN-ve-hVE"; */
+"atN-ve-hVE.title" = "Browse...";

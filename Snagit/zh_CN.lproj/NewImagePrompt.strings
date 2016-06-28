@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "Height:"; ObjectID = "12"; */
+"12.title" = "Height:";
+
+/* Class = "NSTextFieldCell"; title = "Width:"; ObjectID = "13"; */
+"13.title" = "Width:";
+
+/* Class = "NSButtonCell"; title = "Always use this size"; ObjectID = "21"; */
+"21.title" = "Always use this size";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "30"; */
+"30.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "32"; */
+"32.title" = "Cancel";
+
+/* Class = "NSWindow"; title = "New Canvas"; ObjectID = "42"; */
+"42.title" = "New Canvas";
+
+/* Class = "NSTextFieldCell"; title = "Canvas Color:"; ObjectID = "71"; */
+"71.title" = "Canvas Color:";

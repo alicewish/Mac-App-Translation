@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger provides clippings corresponding to all commonly used AppleScript control structures, and you can add your own clippings." />
+
+<link rel="stylesheet" href="../../../../../stylesheets/styles.css" type="text/css" />
+
+<title>How Clippings Work</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../../develop.html">Develop</a>&#160;&gt; <a href="../../../edit.html">Edit</a>&#160;&gt; <a href="../../editinga.html">Editing and Navigation</a>&#160;&gt; <a href="../clipping.html">Clippings</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>How Clippings Work</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../dragdrop.html"><img src="../../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger provides <a href="../clipping.html">clippings</a> corresponding to all commonly used AppleScript control structures, and you can add your own clippings. Clippings are <strong>text files</strong> in <em>~/Library/Application Support/Script Debugger 5/Clippings</em>; you are free to add text files here.</p>
+
+    <h3 id="clipping-names-and-menu-order">Clipping Names and Menu Order</h3>
+
+    <p>The name of a clipping file (stripped of its file extension suffix) is the name of the clipping, and clippings appear in alphabetical order in the <a href="../../../../referencfolder/menusfolder/clippingsmenu.html">Clippings menu</a> and <a href="../clipping.html">clippings inspector</a>. To allow modification of this order, the following rules apply:</p>
+
+    <p>A file will appear as a menu item. A folder will appear as a hierarchical menu, and the files inside it will be its menu items. The name of a file (or folder) is the name that will appear in the menu, except that certain names or part-names are hidden and used for determining the order of the menu, as follows:</p>
+
+    <ul>
+      <li>
+        <p>If a name starts with the prefix <code>##)</code>, where <code>##</code> is a two-digit number (00-99), these digits are used to determine the position of this item in the menu and the prefix does not appear in the menu item&#8217;s name. </p>
+      </li>
+      <li>
+        <p>A name <code>##)-***</code> will appear as a menu separator, again with its order determined by the two-digit number <code>##</code>.</p>
+      </li>
+    </ul>
+
+    <h3 id="clippings-actions">Clippings Actions</h3>
+
+    <p>To <strong>edit a clipping</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose it from the <a href="../../../../referencfolder/menusfolder/clippingsmenu.html">Clippings menu</a>, or double-click it in the <a href="../clipping.html">clippings inspector</a>, while holding down the Option key.</p>
+      </li>
+      <li>
+        <p>Or, click the select the clipping in the <a href="../clipping.html">clippings inspector</a> and click Edit Clipping.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>reveal a clipping file</strong> in the Finder:</p>
+
+    <ul>
+      <li>
+        <p>Choose it from the <a href="../../../../referencfolder/menusfolder/clippingsmenu.html">Clippings menu</a>, or double-click it in the <a href="../clipping.html">clippings inspector</a>, while holding down the Shift key.</p>
+      </li>
+      <li>
+        <p>Or, in the <a href="../clipping.html">clippings inspector</a>, select the clipping and choose Reveal in Finder from the contextual menu.</p>
+      </li>
+    </ul>
+
+    <h3 id="expansion-tags">Expansion Tags</h3>
+
+    <p>A clipping&#8217;s text is pasted literally into your script, except for the following <strong>expansion tags</strong> which are interpreted intelligently:</p>
+
+    <dl>
+      <dt>[[template:text]]</dt>
+      <dd>This tag displays <em>text</em> as a placeholder. Alternatively, wrap the text in delimiters <code>#~...~#</code>; behind the scenes, that&#8217;s what a placeholder&#8217;s text really looks like in a script.</dd>
+      <dt>[[selected-lines:default text]]</dt>
+      <dd>This tag displays the complete lines containing the script&#8217;s current selection.  If the current selection is just an insertion point in an empty line, <em>default text</em> is used, and is displayed as a placeholder.</dd>
+      <dt>[[selection:default text]]</dt>
+      <dd>This tag displays the script&#8217;s current selection. If the current selection is just an insertion point, <em>default text</em> is used, and is displayed as a placeholder.</dd>
+      <dt>[[select:text]]</dt>
+      <dd>This tag displays <em>text</em> also selects it.</dd>
+      <dt>[[user]]</dt>
+      <dd>This tag displays as the user&#8217;s full name, as shown in the Accounts preference pane.</dd>
+      <dt>[[account]]</dt>
+      <dd>This tag displays as the user&#8217;s short name, as shown in the Accounts preference pane.</dd>
+      <dt>[[organization]]</dt>
+      <dd>This tag displays the user&#8217;s company name, as shown in the Company field in the user&#8217;s Address Book entry. (If that field is blank, displays &#8220;MyCompanyName&#8221;.)</dd>
+      <dt>[[date:format]]</dt>
+      <dd>This tag displays the current date and time, where <em>format</em> is an unquoted <a href="https://developer.apple.com/library/mac/#documentation/Darwin/Reference/ManPages/man3/strftime.3.html" class="external">strftime()</a> format string. Alternatively, just say <em>[[date]]</em> and a standard format (<code>mm/dd/yy hh:mm:ss</code>) will be used.</dd>
+      <dt>[[VARNAME]]</dt>
+      <dd>This tag displays the value of the <em>VARNAME</em> environment variable. So, for example, <em>[[SHELL]]</em> would be expanded to something like <code>/bin/bash</code>. Anything in double brackets that doesn&#8217;t match one of the preceding tag types is taken to be the name of an environment variable. If there is no matching environment variable name, the tag is left unchanged; for example, <em>[[howdy]]</em> becomes <code>[[howdy]]</code>.</dd>
+    </dl>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

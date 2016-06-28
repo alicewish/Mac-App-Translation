@@ -1,0 +1,33 @@
+
+/* Class = "NSWindow"; title = "Resize"; ObjectID = "1"; */
+"1.title" = "Resize";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "6"; */
+"6.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "7"; */
+"7.title" = "Apply";
+
+/* Class = "NSTextFieldCell"; title = "Width:"; ObjectID = "18"; */
+"18.title" = "Width:";
+
+/* Class = "NSTextFieldCell"; title = "Height:"; ObjectID = "20"; */
+"20.title" = "Height:";
+
+/* Class = "NSButtonCell"; title = "Lock aspect ratio"; ObjectID = "22"; */
+"22.title" = "Lock aspect ratio";
+
+/* Class = "NSButtonCell"; title = "Points"; ObjectID = "24"; */
+"24.title" = "Points";
+
+/* Class = "NSButtonCell"; title = "%"; ObjectID = "25"; */
+"25.title" = "%";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "26"; */
+"26.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Reset"; ObjectID = "48"; */
+"48.title" = "Reset";
+
+/* Class = "NSTextFieldCell"; title = "Image size:"; ObjectID = "53"; */
+"53.title" = "Image size:";

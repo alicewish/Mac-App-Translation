@@ -1,0 +1,21 @@
+
+/* Class = "NSTextFieldCell"; title = "Scrolling capture setup"; ObjectID = "10"; */
+"10.title" = "Scrolling capture setup";
+
+/* Class = "NSTextFieldCell"; title = "Scrolling in applications is enabled."; ObjectID = "51"; */
+"51.title" = "Scrolling in applications is enabled.";
+
+/* Class = "NSTextFieldCell"; title = "Install Firefox plugin."; ObjectID = "53"; */
+"53.title" = "Install Firefox plugin.";
+
+/* Class = "NSTextFieldCell"; title = "Firefox scrolling capture is disabled."; ObjectID = "55"; */
+"55.title" = "Firefox scrolling capture is disabled.";
+
+/* Class = "NSTextFieldCell"; title = "Scrolling in applications is disabled."; ObjectID = "64"; */
+"64.title" = "Scrolling in applications is disabled.";
+
+/* Class = "NSButtonCell"; title = "Install Firefox plugin"; ObjectID = "85"; */
+"85.title" = "Install Firefox plugin";
+
+/* Class = "NSButtonCell"; title = "Enable Scrolling Capture"; ObjectID = "87"; */
+"87.title" = "Enable Scrolling Capture";

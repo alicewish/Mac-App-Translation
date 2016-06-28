@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="If a scriptable application or scripting addition on which a compiled script depends is missing, the script might not run, or could refuse to open ..." />
+
+<link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" />
+
+<title>Manifest</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../openinga.html">Opening and Saving Scripts</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Manifest</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="bundle.html"><img src="../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>If a scriptable application or scripting addition on which a <a href="../referencfolder/helpglossaryfolder/compiledscriptfile.html">compiled script</a> depends is missing, the script might not run, or could <a href="../referencfolder/helpglossaryfolder/bytecode.html">refuse to open</a> for reading and editing.</p>
+
+    <p>To help with this problem, Script Debugger can generate a <strong>manifest</strong> for your script — a list of the scriptable applications and scripting additions on which it depends. That way, if you intend to move the script to another machine or send it to another user, you&#8217;ll  be forewarned about the script&#8217;s dependencies.</p>
+
+    <p>To <b>see a script&#8217;s dependencies</b> in the Manifest dialog:</p>
+
+    <ul>
+      <li>Choose File &gt; Show Manifest. (You can also add a Manifest button to the script window&#8217;s <a href="../referencfolder/windowsfolder/toolbar.html">toolbar</a>.)</li>
+    </ul>
+
+    <p>The script&#8217;s dependencies are listed by category (<strong>Application Dependencies</strong> and <strong>Scripting Addition Dependencies</strong>), along with commands that the script directs at each one. For example, this script:</p>
+
+    <pre><code>    tell application "Finder" to beep
+</code></pre>
+
+    <p>would list the Finder in the Application Dependencies category, and would list StandardAdditions.osax in the Scripting Addition Dependencies category along with the <code>beep</code> command. (To see the <code>beep</code> command listing, click the triangle next to the StandardAdditions.osax listing, to open the triangle.)</p>
+
+    <div style="text-align:center"><img src="../../images/manifest.png" width="329" height="261" alt="image" /></div>
+
+    <ul>
+      <li>
+        <p>You can <strong>reveal</strong> a required application or scripting addition in the Finder:</p>
+
+        <ul>
+          <li>Select the application or scripting addition and press Reveal.</li>
+        </ul>
+      </li>
+      <li>
+        <p>You can <strong>view the <a href="../explorefolder/dictiona.html">dictionary</a></strong> for a required application or scripting addition:</p>
+
+        <ul>
+          <li>
+            <p>Select the application or scripting addition and press Dictionary. </p>
+
+            <p>If you select a command before pressing the Dictionary button, the dictionary displays the information for that command.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>A special situation can arise when a script depends on a scripting addition which is now missing. The scripting addition&#8217;s terminology can&#8217;t be resolved during <a href="../referencfolder/helpglossaryfolder/bytecode.html">decompilation</a>, so raw Apple event codes appear, and AppleScript has no way to tell you what the trouble is or what scripting addition is missing (because, unlike applications, scripting additions are not explicitly targeted by name). To help with this problem, the manifest also lists Apple events in your script that can&#8217;t be resolved (<strong>Unknown Apple Events</strong>). You can select such an Apple event in the list and Script Debugger will search for the Apple event code in the online database at <a href="http://www.osaxen.com" class="external">www.osaxen.com</a> in an attempt to identify the missing scripting addition.</p>
+
+    <blockquote>
+      <p>(Another solution to this problem, if the script was last saved with Script Debugger, might be to <a href="openfolder/importre.html">open the script as text</a>; this will show the English-like terminology for the missing command, which might help you work out what scripting addition it comes from.)</p>
+    </blockquote>
+
+    <p>The dialog also lets you <strong>export and save as a text file</strong> the information it presents, in either XML (<strong>Save XML Report</strong>) or plain text format (<strong>Save Text Report</strong>).</p>
+
+    <blockquote>
+      <p><strong>Technical Note:</strong> Script Debugger cannot detect <strong>coercions</strong> provided by scripting additions.  That&#8217;s because <i>nothing</i> can detect them. They do not involve any terminology and are not documented in a scripting addition&#8217;s dictionary. This is an AppleScript flaw. Fortunately, the situation is unlikely to arise.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="library.html"><img src="../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="library.html">Library</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="bundle.html">Bundle</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="bundle.html"><img src="../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

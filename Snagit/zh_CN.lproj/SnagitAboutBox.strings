@@ -1,0 +1,18 @@
+
+/* Class = "NSWindow"; title = "About Snagit"; ObjectID = "1"; */
+"1.title" = "About Snagit";
+
+/* Class = "NSTextFieldCell"; title = "appname"; ObjectID = "8"; */
+"8.title" = "appname";
+
+/* Class = "NSTextFieldCell"; title = "copyright"; ObjectID = "20"; */
+"20.title" = "copyright";
+
+/* Class = "NSTextFieldCell"; title = "regkey"; ObjectID = "45"; */
+"45.title" = "regkey";
+
+/* Class = "NSButtonCell"; title = "Acknowledgments"; ObjectID = "7cu-fq-52s"; */
+"7cu-fq-52s.title" = "Acknowledgments";
+
+/* Class = "NSButtonCell"; title = "License Agreement"; ObjectID = "b1f-QX-z27"; */
+"b1f-QX-z27.title" = "License Agreement";

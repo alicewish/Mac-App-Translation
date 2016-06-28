@@ -1,0 +1,132 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Scripts menu reference" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Scripts Menu</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../menus.html">Menus</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Scripts Menu</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../preferenc.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>The Scripts menu <span style="white-space:nowrap">(<img src="../../../images/ScriptMenu.png" width="24" height="22" style="vertical-align:-30%" alt="image" />)</span> accesses auxiliary scripts. Each menu item represents a file (or folder) in the Scripts folder.</p>
+
+    <p>Scripts to go in the Scripts menu should live in <em>~/Library/Application Support/Script Debugger 5/Scripts/</em>. </p>
+
+    <p>A file will appear as a menu item. A folder will appear as a hierarchical menu, and the files inside it will be its menu items. The name of a file (or folder) is the name that will appear in the menu, except that certain names or part-names are hidden and used for determining the order of the menu, as follows:</p>
+
+    <ul>
+      <li>
+        <p>If a name starts with the prefix <code>##)</code>, where <code>##</code> is a two-digit number (00-99), these digits are used to determine the position of this item in the menu and the prefix does not appear in the menu item&#8217;s name. </p>
+      </li>
+      <li>
+        <p>A name <code>##)-***</code> will appear as a menu separator, again with its order determined by the two-digit number <code>##</code>.</p>
+      </li>
+    </ul>
+
+    <p>Here are the actions you can perform with the menu items in the Scripts menu:</p>
+
+    <ul>
+      <li>Choose a menu item to run that script.</li>
+      <li>Hold down the Option key while choosing a menu item to open that script file for editing.</li>
+      <li>Hold down the Shift key while choosing a menu item to reveal the script file in the Finder.</li>
+    </ul>
+
+    <p>Scripts intended for the Script menu may be AppleScript scripts, shell scripts, Automator workflows, or applications. A shell script must have an identifying filename extension (this will usually be <em>.sh</em>).</p>
+
+    <p>A script in the Scripts menu can <a href="../faqfolder/scriptab.html">drive Script Debugger itself</a>. Such a script does <em>not</em> need to include a tell block targeting Script Debugger; Script Debugger is implicitly the tell target.</p>
+
+    <p>You can debug a script in the Scripts menu by opening it in Script Debugger and putting it into <a href="../../developfolder/debug.html">debug mode</a>. <em>Leave the script open in Script Debugger</em> and choose it from the Scripts menu to run it. It will pause at a breakpoint if there is one.</p>
+
+    <p>If a script initiated from the Scripts menu takes a long time to execute, a progress dialog appears. This dialog contains a Stop button that you can use to abort the script if you think something has gone wrong (or if you just don&#8217;t feel like waiting — you cannot do anything else in Script Debugger while a script is running from the Scripts menu).</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="clippingsmenu.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="clippingsmenu.html">Clippings Menu</a>
+</td>
+<td align="right" style="width:50%" valign="top" />
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle" />
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show properties"; ObjectID = "55"; */
+"55.ibShadowedToolTip" = "Show properties";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add style to gallery"; ObjectID = "67"; */
+"67.ibShadowedToolTip" = "Add style to gallery";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Remove style from gallery"; ObjectID = "68"; */
+"68.ibShadowedToolTip" = "Remove style from gallery";

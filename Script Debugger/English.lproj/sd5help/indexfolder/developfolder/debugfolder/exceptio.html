@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="A handled runtime error (an exception) can cause a pause when debugging, like a breakpoint." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Exceptions</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../debug.html">Debug</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Exceptions</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="codecove.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>A handled <a href="../runfolder/errors.html">runtime error</a> (an <strong>exception</strong>) can cause a <a href="pause.html">pause</a> when <a href="../debug.html">debugging</a>, like a breakpoint.</p>
+
+    <p>A <strong>handled runtime error</strong> is an error that occurs within a try block. It would <em>not</em> normally cause any break in the action, because AppleScript will continue execution in the <code>on error</code> clause, or (if there is no <code>on error</code> clause) after the try block. But Script Debugger can optionally pause when it detects a handled runtime exception.</p>
+
+    <blockquote>
+      <p>An <strong>unhandled runtime error</strong> causes execution to abort entirely, so there is no question about pausing there — the script will do more than pause, it will <a href="pause.html">stop</a>.</p>
+    </blockquote>
+
+    <p>To <strong>pause at handled runtime errors</strong>:</p>
+
+    <ul>
+      <li>Choose Script &gt; Break on Exceptions so that it is <strong>checked</strong>.</li>
+    </ul>
+
+    <blockquote>
+      <p>Optionally, you can add an Exceptions button to the script window&#8217;s <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a> that toggles breaking on exceptions (and reflects the state of that toggle).</p>
+    </blockquote>
+
+    <p>If Break on Exceptions is checked and a handled runtime error is encountered while debugging, execution pauses much as if this were a breakpoint, just <em>before</em> the exception is actually thrown. <a href="variablesdebug.html">Variables</a> and <a href="expressi.html">expressions</a> are evaluated at that point. A red arrow marks the line where the error occurs.</p>
+
+    <p>To <strong>learn what the error was</strong>, while paused at the error:</p>
+
+    <ul>
+      <li>
+        <p>Look at the <a href="../editfolder/scriptwi.html">status bar</a>; it contains the error message, as is usual for <a href="../runfolder/errors.html">errors</a>.</p>
+      </li>
+      <li>
+        <p>Choose Script &gt; Show Last Error; or, click the red arrow. This summons the normal <a href="../runfolder/errors.html">error dialog</a>. </p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p>Optionally, you can add a Show Last Error button to the script window&#8217;s <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a>.</p>
+    </blockquote>
+
+    <p>Even if Break on Exceptions is <strong>unchecked</strong>, and a handled runtime error does not cause a pause, you can <em>still</em> learn, at the <strong>first pause <em>after</em> the error is encountered</strong>, <em>where</em> the error was (the red arrow is still present) and <em>what</em> the error was (choose Script &gt; Show Last Error, or click the red arrow).</p>
+
+    <div style="text-align:center"><img src="../../../images/handledError.png" width="158" height="79" alt="image" /></div>
+
+    <p>Once you <a href="executew.html">resume execution</a> of the script, the exception mark is removed (and Show Last Error will no longer recover it).</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="expressi.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="expressi.html">Expressions</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="codecove.html">Code Coverage</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="codecove.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

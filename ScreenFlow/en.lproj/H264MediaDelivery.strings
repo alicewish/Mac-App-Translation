@@ -1,0 +1,39 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Will insert black around the edges of the output to ensure that the content maintains its aspect ratio.  This is important if the width/height you have entered is not the same ratio as the canvas width/height."; ObjectID = "3"; */
+"3.ibShadowedToolTip" = "Will insert black around the edges of the output to ensure that the content maintains its aspect ratio.  This is important if the width/height you have entered is not the same ratio as the canvas width/height.";
+
+/* Class = "NSButtonCell"; title = "Letterbox Content"; ObjectID = "4"; */
+"4.title" = "Letterbox Content";
+
+/* Class = "NSTextFieldCell"; title = "Options:"; ObjectID = "10"; */
+"10.title" = "Options:";
+
+/* Class = "NSTextFieldCell"; title = "Video Encoding:"; ObjectID = "99"; */
+"99.title" = "Video Encoding:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "113"; */
+"113.title" = "OtherViews";
+
+/* Class = "NSButton"; ibShadowedToolTip = "If checked, Motion Blur will be used on the output.  This will make the output very high quality when you have used Video Actions to rotate or move clips."; ObjectID = "132"; */
+"132.ibShadowedToolTip" = "If checked, Motion Blur will be used on the output.  This will make the output very high quality when you have used Video Actions to rotate or move clips.";
+
+/* Class = "NSButtonCell"; title = "Use Motion Blur"; ObjectID = "133"; */
+"133.title" = "Use Motion Blur";
+
+/* Class = "NSButtonCell"; title = "Location..."; ObjectID = "1MH-pc-d31"; */
+"1MH-pc-d31.title" = "Location...";
+
+/* Class = "NSButtonCell"; title = "Save copy to disk"; ObjectID = "BFB-eq-ijq"; */
+"BFB-eq-ijq.title" = "Save copy to disk";
+
+/* Class = "NSButtonCell"; title = "Add Captions Track"; ObjectID = "akP-kl-PXa"; */
+"akP-kl-PXa.title" = "Add Captions Track";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "csZ-Fd-qHP"; */
+"csZ-Fd-qHP.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Media File:"; ObjectID = "mHQ-fP-MDJ"; */
+"mHQ-fP-MDJ.title" = "Media File:";
+
+/* Class = "NSTextFieldCell"; title = "Frame rate:"; ObjectID = "sfL-Xx-YZN"; */
+"sfL-Xx-YZN.title" = "Frame rate:";

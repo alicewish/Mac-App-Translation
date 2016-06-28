@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+    <title>Set up audio recording</title>
+	<meta name="description" content="Learn how record microphone audio or system audio with a video capture.">
+	<meta name="keywords" content="sound, narration, narrate">
+    
+    <link rel="stylesheet" href="../css/topicPage2.css"> 
+    <script src="../scrpt/snagit.js"></script>  
+</head>
+
+<body>
+<header>
+<nav>
+<a class="bread" href="help:anchor=access%20bookID=Snagit%20Help">Home</a><a id="install"></a>
+</nav>
+<h1><img src="../gfx/icon.png" alt="Snagit 3 Icon">Record system audio</h1>
+<p>System audio is the sound from your computer such as mouse clicks, application alerts, audio playing from your speakers, etc. </p>
+<p>To record system audio, you must install the latest version of the <a href="http://www.techsmith.com/redirect.asp?target=downloadsysaudio&ver=3.1.*&lang=enu&os=mac&product=snagit ">TechSmith Audio Capture Component</a><a href="http://www.techsmith.com/redirect.asp?target=downloadsysaudio&ver=3.1.*&lang=enu&os=mac&product=snagit "></a>. This component is an audio device that allows audio to pass between applications.</p>
+<ul>
+                  <li><a href="systemaudio.html#install">Install or uninstall the TechSmith Audio Capture Component</a></li>
+                  <li><a href="systemaudio.html#recaudio">Record system audio</a></li>
+                  <li><a href="systemaudio.html#troubleshoot">Troubleshooting tips and best practices</a></li>
+                </ul>
+</header>
+
+<section>
+<div class="taskbox">
+<h2><a id="install"></a>Install the TechSmith Audio Capture Component</h2>
+<ol>
+	  <li>After selecting an area to capture for a video, the video recording toolbar appears. If you do not have the TechSmith Audio Capture Component installed, the toolbar will look like this:<br>
+	    <img src="../gfx/systemaudio-notinstalled.jpg" width="612" height="55" alt="System audio not installed on video toolbar"><br>
+	    Click the Install System Audio button to install this component.<br>
+      <img src="../gfx/systemaudio-install.jpg" width="77" height="26" alt="install system audio button">	  </li>
+				  <li>From here, the steps for installing the component are different depending on the version of Snagit you are running and your internet connection.
+				    <ul>
+				      <li>If you <strong>did not</strong> install Snagit from the App Store, you will be prompted to run the TechSmith Audio Capture Component installer. Click Install.</li>
+				      <li>If you <strong>did</strong> install Snagit directly from the App Store and have an internet connection, Snagit will launch <a href="http://www.techsmith.com/redirect.asp?target=downloadsysaudio&ver=3.1.*&lang=enu&os=mac&product=snagit">this download page</a> in a web browser. Download the installer, then navigate to your Downloads folder and run the installer.</li>
+				      <li>If the Need System Audio help button from the Recorder directed you to this topic, you do not have an established internet connection. Make sure you are connected to the internet, then <a href="http://www.techsmith.com/redirect.asp?target=downloadsysaudio&ver=3.1.*&lang=enu&os=mac&product=snagit"> click here</a> or return to the Need System Audio help button to download the installer.<br>
+				        <br>
+				        Note: The location of the installed component is MacHD/System/Library/Extentions/TACC.kext.</li>
+			        </ul>
+			      </li>
+				  <li>Restart your computer. 
+				  </li>
+</ol>
+</div>
+</section>
+
+<section>
+<div class="taskbox">
+<h2>Uninstall the TechSmith Audio Capture Component</h2>
+<ol>
+			  <li>Open Snagit.</li>
+			  <li>Open Preferences from the Snagit menu.</li>
+			  <li>On the Capture tab, click  Uninstall component.</li>
+  </ol></div>
+</section>
+
+<section>
+<div class="taskbox">
+<h2>Record system audio</h2>
+<ol>
+				  <li><a href="videoselection.html">Select an area to record</a> and click Video Capture.</li>
+				  <li>The video toolbar appears. Click to enable the System Audio button.<br>
+				    <img src="../gfx/systemaudiobutton.jpg" width="609" height="54" alt="System Audio button"><br>
+				    If that button is unavailable and you have successfully <a href="systemaudio.html#install">installed</a> the TechSmith Audio Capture Component, refer to the troubleshooting tips below.</li>
+				  <li>Click the Record button or press Option-Shift-Command-S to start recording.<br>
+				  </li>
+  </ol></div>
+</section>
+
+<section> 
+<div class="taskbox">
+<a id="troubleshoot"></a><h2>Troubleshooting tips and best practices:</h2>            
+  <ul>
+            <li><strong>Test your setup ahead of time.</strong> <br>
+            A few minutes of verifying your settings and making a short test recording can save time later or mean the difference between capturing or missing audio from a one-time event.</li>
+            <li><strong>Quit and relaunch programs after changing sound settings.</strong> <br>
+            Snagit and other programs may not play sound through the expected output after changing sound settings. Make the system-level changes first and then quit and relaunch Snagit or other applications if you are getting unexpected playback results.</li>
+            <li><strong>Update OS X, Camtasia, device drivers, and your application programs.</strong> <br>
+            We recommend installing the latest updates to your version of OS X via the built-in Software Update mechanism. You can install the latest updates to Camtasia for Mac via its built-in Update feature. Check with the vendor of your third-party sound hardware or application program to see if any updates are available.</li>
+            <li><strong>Update the TechSmith Audio Capture Component.</strong> <br>
+            Snagit currently requires this component, which you may have already installed, but you can check the <a href="http://www.techsmith.com/redirect.asp?target=downloadsysaudio&ver=3.1.*&lang=enu&os=mac&product=snagit">TechSmith Audio Capture Component</a> product page to see if updates are available.</li>
+            <li><strong>Disable alert sounds.</strong> <br>
+            OS X and programs can generate error and alert sounds for various events. In System Preferences/Sound/Sound Effects you can disable or mute system sound effects. Check with your application vendor for directions on disabling error and alert sounds in third-party software.</li>
+            <li><strong>Some programs or devices may route their audio in a manner where Snagit cannot record it.</strong> <br>
+            In those cases, we recommend contacting the device manufacturer or software publisher for assistance. Unfortunately, we do not have a way to test every audio device or program available.</li>
+  </ul></div>
+  </section>
+
+</body>
+</html>

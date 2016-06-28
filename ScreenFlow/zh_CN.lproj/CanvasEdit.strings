@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "54"; */
+"54.title" = "应用";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "56"; */
+"56.title" = "取消";
+
+/* Class = "NSButtonCell"; title = "Snap to Front Window"; ObjectID = "58"; */
+"58.title" = "转到最前窗口";
+
+/* Class = "NSButtonCell"; title = "Reset"; ObjectID = "74"; */
+"74.title" = "重置";
+
+/* Class = "NSTextFieldCell"; title = "1920"; ObjectID = "86"; */
+"86.title" = "1920";
+
+/* Class = "NSTextFieldCell"; title = "x"; ObjectID = "88"; */
+"88.title" = "x";
+
+/* Class = "NSTextFieldCell"; title = "1200"; ObjectID = "90"; */
+"90.title" = "1200";
+
+/* Class = "NSTextFieldCell"; title = "Canvas:"; ObjectID = "92"; */
+"92.title" = "画布:";
+
+/* Class = "NSColorWell"; ibShadowedToolTip = "Change the background color of the canvas"; ObjectID = "110"; */
+"110.ibShadowedToolTip" = "改变画布背景颜色";

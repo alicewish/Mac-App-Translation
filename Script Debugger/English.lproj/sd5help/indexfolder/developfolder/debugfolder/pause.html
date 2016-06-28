@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="The key feature of debug mode is that your script can pause in the middle of execution." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Pause</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../debug.html">Debug</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Pause</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="executew.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>The key feature of <a href="../debug.html">debug mode</a> is that your script can <strong>pause in the middle of execution</strong>.</p>
+
+    <p>When a script is <strong>paused in debug mode</strong>:</p>
+
+    <ul>
+      <li>
+        <p>The Execute command becomes the <strong>Resume command</strong>.</p>
+
+        <p>Thus, Script &gt; Execute becomes Script &gt; Resume, and the Execute button in the toolbar becomes the Resume button.</p>
+      </li>
+      <li>
+        <p>Script &gt; Pause is disabled and <strong>checked</strong>.</p>
+      </li>
+      <li>
+        <p>The &#8220;paused&#8221; icon appears at the right end of the title bar (and, if this script is in a <a href="../../openingafolder/openfolder/tabs.html">tab</a>, at the right side of the tab).</p>
+
+        <div style="text-align:center"><img src="../../../images/pausedIcon.png" width="55" height="23" alt="image" /></div>
+      </li>
+      <li>
+        <p>The <a href="../editfolder/scriptwi.html">status bar</a> reports &#8220;Paused&#8221; and possibly the pause location.</p>
+      </li>
+      <li>
+        <p>A <strong>green arrow</strong> in the <a href="../editfolder/scriptwi.html">gutter</a> indicates the line at which your script is paused.</p>
+
+        <div style="text-align:center">
+  <img src="../../../images/paused.png" width="188" height="25" alt="image" />
+  </div>
+
+        <p><strong>NOTE: The line pointed to by the green arrow has <em>not yet been executed</em></strong>.</p>
+      </li>
+    </ul>
+
+    <h3 id="why-pause">Why Pause</h3>
+
+    <p>The point of pausing (and of debugging) is that while your script is paused, you can <strong>examine its state</strong>.</p>
+
+    <p>For example, you can study the <a href="callchain.html">call stack</a>, the values of your <a href="variablesdebug.html">variables</a>, the values of <a href="expressi.html">expressions</a>, and the <a href="../runfolder/log.html">event log</a>. </p>
+
+    <p>Then you can make your script <a href="executew.html">proceed</a> again (and possibly pause again).</p>
+
+    <h3 id="rules-for-pausing">Rules for Pausing</h3>
+
+    <p>The most important thing to understand about debugging is <em>when your script will pause</em>. The rules for pausing depend, in the first place, on <strong>path of execution</strong>.</p>
+
+    <p>As your script runs, one line is executed, then another, then another. There are branches, so some code might not be executed. There are loops and handlers, so some code might be executed several times. Like a mouse running in a maze, the computer traces a <strong>path of execution</strong> through your code. (You can actually <strong>watch this happening</strong> in debug mode, by <a href="trace.html">tracing</a>.)</p>
+
+    <p>The rules for pausing are:</p>
+
+    <ul>
+      <li>
+        <p>Execution will pause automatically if <strong>the path of execution comes to an enabled <a href="breakpoi.html">breakpoint</a></strong>. Execution pauses with the green arrow pointing <em>at</em> the breakpointed line, and <em>before executing</em> the breakpointed line.</p>
+
+        <p>You can suspend this rule by choosing Script &gt; Break on Breakpoints so that it is <strong>unchecked</strong>. Otherwise, enabled breakpoints take priority over everything else.</p>
+      </li>
+      <li>
+        <p>The <strong><a href="step.html">step</a></strong> commands cause execution to <strong>proceed by a limited amount and then pause</strong>.</p>
+
+        <p>Each step command has its own rule for what &#8220;a limited amount&#8221; means (discussed <a href="step.html">here</a>).</p>
+
+        <p>But remember, unless you&#8217;ve suspended breakpoints, breakpoints take priority. If a step command is in process and the path of execution hits an enabled breakpoint, the step command is cancelled and execution pauses at the breakpoint.</p>
+      </li>
+      <li>
+        <p>If you&#8217;ve elected to <a href="exceptio.html">break on exceptions</a>, <strong>encountering a runtime error will pause your script</strong> — even if your script catches and handles the error.</p>
+      </li>
+      <li>
+        <p>During a lengthy bout of execution (or <a href="trace.html">tracing</a>), you can <strong>manually pause the script</strong>:</p>
+
+        <ul>
+          <li>
+            <p>Choose Script &gt; Pause.</p>
+          </li>
+          <li>
+            <p>Or, click Pause in the toolbar.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p><strong>Tip:</strong> If your script is paused but you can&#8217;t see where (because you&#8217;ve scrolled to examine some other region of the script), choose Edit &gt; Go to Current Line to bring the line containing the green arrow into view.</p>
+    </blockquote>
+
+    <h3 id="pausing-vs-stopping">Pausing vs. Stopping</h3>
+
+    <p>Distinguish pausing from stopping!</p>
+
+    <ul>
+      <li>
+        <p><strong>Pausing</strong> is possible <strong>only in debug mode</strong>. It leaves you somewhere <strong>in the middle of execution</strong>. From here, you can proceed further, even completing the script normally if you want to.</p>
+
+        <p>When paused, you <em>cannot <a href="../debug.html">turn off debug mode</a></em>. You must stop the script in order to turn off debug mode.</p>
+
+        <p>When paused, you <em>cannot edit your script</em>. You must stop the script in order to edit it.</p>
+      </li>
+      <li>
+        <p>You can <strong>stop</strong> a script <strong>at any time</strong>. Stopping <strong>aborts execution</strong> immediately and returns everything to neutral state. If you execute the script from here, you&#8217;ll be starting at the very beginning.</p>
+
+        <p>To <strong>stop a script</strong>:</p>
+
+        <ul>
+          <li>
+            <p>Choose Script &gt; Stop.</p>
+          </li>
+          <li>
+            <p>Or, click Stop in the toolbar.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle" />
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top" />
+<td align="right" style="width:50%" valign="top">
+<a href="executew.html">Execute When Debugging</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="executew.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

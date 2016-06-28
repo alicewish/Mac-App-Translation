@@ -1,0 +1,2458 @@
+div.AIAnchorImage
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 10.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.AIAnchorImage_outer
+{
+  margin-bottom: 10.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.AIAnchorImage_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.AIFAnchorImageFull
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 18.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.AIFAnchorImageFull_outer
+{
+  margin-bottom: 18.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.AIFAnchorImageFull_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.ASHAnchorSidehead
+{
+  color: #000000;
+  float: left;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 6.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Right;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.ASHAnchorSidehead_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.ASHAnchorSidehead_inner
+{
+  color: #000000;
+  float: left;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 6.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Right;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.ATAnchorTable
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: -8px;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.ATAnchorTable_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: -8px;
+}
+
+.ATAnchorTable_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.ATFAnchorTableFull
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: -8px;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.ATFAnchorTableFull_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: -8px;
+}
+
+.ATFAnchorTableFull_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 5.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.Body
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 7.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.Body_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 7.0pt;
+}
+
+.Body_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.COCallout
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.COCallout_outer
+{
+  margin-bottom: 2.0pt;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+}
+
+.COCallout_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.CRCalloutRight
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+  text-align: Right;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.CRCalloutRight_outer
+{
+  margin-bottom: 2.0pt;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+}
+
+.CRCalloutRight_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Right;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.FCFigureCaption
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.FCFigureCaption_outer
+{
+  margin-bottom: 2.0pt;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+}
+
+.FCFigureCaption_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.FFFigureCaptionFull
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.FFFigureCaptionFull_outer
+{
+  margin-bottom: 2.0pt;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+}
+
+.FFFigureCaptionFull_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.FNFootnote
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.5pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 120px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: -24px;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.FNFootnote_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.FNFootnote_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.5pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.GDGlossDef
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.GDGlossDef_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.GDGlossDef_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.GTGlossTerm
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 5.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 5.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.GTGlossTerm_outer
+{
+  margin-bottom: 5.0pt;
+  margin-right: 0pt;
+  margin-top: 5.0pt;
+}
+
+.GTGlossTerm_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.H0Heading
+{
+  color: #3d5b99;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 34.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 72.0pt;
+  margin-left: 90pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Right;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.H0Heading_outer
+{
+  margin-bottom: 72.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.H0Heading_inner
+{
+  color: #3d5b99;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 34.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Right;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.H1Heading
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 20.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 20.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.H1Heading_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 20.0pt;
+}
+
+.H1Heading_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 20.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.H2Heading
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 17.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 19.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.H2Heading_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 19.0pt;
+}
+
+.H2Heading_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 17.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.H3Heading
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 14.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 15.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.H3Heading_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 15.0pt;
+}
+
+.H3Heading_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 14.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.H4Heading
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 11.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.H4Heading_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 11.0pt;
+}
+
+.H4Heading_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.L1BLBulletedList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 120px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: -10.8pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.L1BLBulletedList_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.L1BLBulletedList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.L1Body
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 120px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.L1Body_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.L1Body_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.L1NumberedList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 120px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: -24px;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.L1NumberedList_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.L1NumberedList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.L2AlphaList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2.0pt;
+  margin-left: 144px;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+  text-align: Left;
+  text-indent: -24px;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.L2AlphaList_outer
+{
+  margin-bottom: 2.0pt;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+}
+
+.L2AlphaList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.L2BLBulletedList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 144px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: -10.8pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.L2BLBulletedList_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.L2BLBulletedList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.L2Body
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 144px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.L2Body_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.L2Body_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.LCBCheckboxList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 113px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: -12.24pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.LCBCheckboxList_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.LCBCheckboxList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.LCCheckList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 113px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: -12.24pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.LCCheckList_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.LCCheckList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.LTTopicList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 113px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: -10.8pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.LTTopicList_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.LTTopicList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.NCaution
+{
+  border-bottom-color: Black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: Black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-left: 96px;
+  margin-right: 0px;
+  margin-top: 6px;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.NCaution_outer
+{
+  border-bottom-color: Black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: Black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 2px;
+  margin-right: 0px;
+  margin-top: 6px;
+}
+
+.NCaution_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.NEdnote
+{
+  color: #ff00ff;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 6px;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.NEdnote_outer
+{
+  margin-bottom: 2px;
+  margin-right: 0pt;
+  margin-top: 6px;
+}
+
+.NEdnote_inner
+{
+  color: #ff00ff;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.NNote
+{
+  border-bottom-color: Black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: Black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-left: 96px;
+  margin-right: 4.68pt;
+  margin-top: 6px;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.NNote_outer
+{
+  border-bottom-color: Black;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-top-color: Black;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin-bottom: 2px;
+  margin-right: 4.68pt;
+  margin-top: 6px;
+}
+
+.NNote_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.NPlatform
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 5.0pt;
+  margin-left: 0px;
+  margin-right: -4px;
+  margin-top: -6px;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.NPlatform_outer
+{
+  margin-bottom: 5.0pt;
+  margin-right: -4px;
+  margin-top: -6px;
+}
+
+.NPlatform_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.NWarning
+{
+  border-bottom-color: Transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-top-color: Transparent;
+  border-top-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 2px;
+  margin-left: 96px;
+  margin-right: 0px;
+  margin-top: 6px;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.NWarning_outer
+{
+  border-bottom-color: Transparent;
+  border-bottom-style: solid;
+  border-bottom-width: 0px;
+  border-top-color: Transparent;
+  border-top-style: solid;
+  border-top-width: 0px;
+  margin-bottom: 2px;
+  margin-right: 0px;
+  margin-top: 6px;
+}
+
+.NWarning_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.TBTableBullet
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 7.2pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: -7.2pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.TBTableBullet_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.TBTableBullet_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.TCBTableCellBody
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.TCBTableCellBody_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.TCBTableCellBody_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.TCFTableCaptionFull
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.TCFTableCaptionFull_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+}
+
+.TCFTableCaptionFull_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.TCHTableCellHeading
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.TCHTableCellHeading_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.TCHTableCellHeading_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.TCTableCaption
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.TCTableCaption_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 13.0pt;
+}
+
+.TCTableCaption_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.TFTableFootnote
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.5pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+  padding-left: 104px;
+  text-align: Left;
+  text-indent: -12.024pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.TFTableFootnote_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 2.0pt;
+  padding-left: 104px;
+}
+
+.TFTableFootnote_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.5pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.TNTableNumList
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 4.0pt;
+  margin-left: 15px;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+  text-align: Left;
+  text-indent: -15px;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.TNTableNumList_outer
+{
+  margin-bottom: 4.0pt;
+  margin-right: 0pt;
+  margin-top: 4.0pt;
+}
+
+.TNTableNumList_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cFooterLeft
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cFooterLeft_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cFooterLeft_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cFooterRight
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cFooterRight_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cFooterRight_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cHeaderLeft
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cHeaderLeft_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cHeaderLeft_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cHeaderLeft2
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cHeaderLeft2_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cHeaderLeft2_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cHeaderRight
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Right;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cHeaderRight_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cHeaderRight_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Right;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cHeaderRight2
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Right;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cHeaderRight2_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cHeaderRight2_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-align: Right;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cPageNumLeft
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Right;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cPageNumLeft_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cPageNumLeft_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Right;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+div.N_007cPageNumRight
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  margin-bottom: 0.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  text-align: Left;
+  text-indent: 0pt;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+.N_007cPageNumRight_outer
+{
+  margin-bottom: 0.0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+}
+
+.N_007cPageNumRight_inner
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  text-align: Left;
+  text-transform: none;
+  vertical-align: baseline;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0pt;
+  margin-bottom: 0pt;
+  padding-left: 0pt;
+  padding-right: 0pt;
+  padding-top: 0pt;
+  padding-bottom: 0pt;
+}
+
+span.Bold
+{
+  font-variant: normal;
+  font-weight: bold;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Emphasis
+{
+  font-style: italic;
+}
+
+span.Keyboard
+{
+  color: #000000;
+  font-family: "Courier New";
+  font-size: 10.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.LinkText
+{
+  color: #0066ff;
+  font-variant: normal;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.Subscript
+{
+  vertical-align: sub;
+}
+
+span.Superscript
+{
+  vertical-align: super;
+}
+
+span.N_007cAlert
+{
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-weight: bold;
+}
+
+span.N_007cBulletSymbol
+{
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-size: 12.0pt;
+  font-style: normal;
+  font-weight: bold;
+  vertical-align: baseline;
+}
+
+span.N_007cCheckboxLeader
+{
+  font-family: Wingdings;
+}
+
+span.N_007cDocumentName
+{
+  color: #000000;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+}
+
+span.N_007cNumberedLeader
+{
+  font-family: "Myriad Pro";
+  font-size: 11.0pt;
+  font-weight: bold;
+}
+
+span.N_007cTopicLeader
+{
+  color: #000000;
+  font-family: Wingdings;
+  font-size: 9.0pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-transform: none;
+  vertical-align: baseline;
+}
+
+span.N_007cWarning
+{
+  color: #000000;
+  font-family: 'Myriad Pro', 'Myriad Web', Tahoma, Arial, 'Microsoft Sans Serif', Sans-Serif;
+  font-size: 11.0pt;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: baseline;
+}
+
+table.Format_A
+{
+  border-collapse: collapse;
+  margin-bottom: 12.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 12.0pt;
+  padding-bottom: 4pt;
+  padding-left: 6pt;
+  padding-right: 6pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.Format_B
+{
+  border-collapse: collapse;
+  margin-bottom: 12.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 12.0pt;
+  padding-bottom: 4pt;
+  padding-left: 6pt;
+  padding-right: 6pt;
+  padding-top: 6pt;
+  text-align: center;
+}
+
+table.OpSys_content
+{
+  border-collapse: collapse;
+  margin-bottom: 14.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 0pt;
+  padding-right: 2pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.Note
+{
+  border-collapse: collapse;
+  margin-bottom: 14.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 0pt;
+  padding-right: 2pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.Warning
+{
+  border-collapse: collapse;
+  margin-bottom: 16.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 0pt;
+  padding-right: 2pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.Caution
+{
+  border-collapse: collapse;
+  margin-bottom: 14.0pt;
+  margin-left: 0pt;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 0pt;
+  padding-right: 2pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.InlineNoVRules_KeyPair
+{
+  border-collapse: collapse;
+  margin-bottom: 12.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.Full_3_column
+{
+  border-collapse: collapse;
+  margin-bottom: 12.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.Full_NoVRules_3_col
+{
+  border-collapse: collapse;
+  margin-bottom: 12.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+
+table.Inline_3_column
+{
+  border-collapse: collapse;
+  margin-bottom: 12.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 0px;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 2px;
+  text-align: left;
+}
+
+table.Inline_NoVRules_3_col
+{
+  border-collapse: collapse;
+  margin-bottom: 12.0pt;
+  margin-left: 96px;
+  margin-right: 0pt;
+  margin-top: 0.0pt;
+  padding-bottom: 4pt;
+  padding-left: 4pt;
+  padding-right: 4pt;
+  padding-top: 6pt;
+  text-align: left;
+}
+

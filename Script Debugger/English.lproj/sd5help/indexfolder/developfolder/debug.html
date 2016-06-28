@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Meet Script Debugger’s debug mode! Debugging a script is like running it, except that in debug mode your script can pause in the middle." />
+
+<link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" />
+
+<title>Debug</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../develop.html">Develop</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Debug</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="debugfolder/pause.html"><img src="../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Meet Script Debugger&#8217;s debug mode! Debugging a script is like <a href="run.html">running</a> it, except that in debug mode <strong>your script can pause in the middle</strong>.</p>
+
+    <p>Debugging is a separate mode; it&#8217;s a feature of your script. A script is either in debug mode or it isn&#8217;t. To <strong>turn on debug mode</strong> for a script:</p>
+
+    <ul>
+      <li>
+        <p>Choose Script &gt; Enable Debugging. If the menu item is <strong>checked</strong>, debug mode is <strong>on</strong>.</p>
+      </li>
+      <li>
+        <p>Or, click the Debugging button in the <a href="editfolder/scriptwi.html">script window</a> <a href="../referencfolder/windowsfolder/toolbar.html">toolbar</a> so that it says ON.</p>
+      </li>
+    </ul>
+
+    <p>In debug mode, a <a href="editfolder/scriptwi.html">script window&#8217;s</a> appearance changes slightly:</p>
+
+    <div style="text-align:center"><img src="../../images/debuggingWindowNumbered.png" width="599" height="412" alt="image" /></div>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> In the above screen shot, the <a href="../referencfolder/windowsfolder/toolbar.html">toolbar icons</a> are small and the names of the buttons have been removed, to save space.</p>
+    </blockquote>
+
+    <p>In debug mode:</p>
+
+    <ol>
+      <li>
+        <p>The <strong>Debugging button</strong> in the toolbar says ON.</p>
+      </li>
+      <li>
+        <p>The <strong>Step buttons</strong> (Trace, Step Over, Step Into, Step Out) and <strong>Breakpoints button</strong> appear in the toolbar (by default).</p>
+      </li>
+      <li>
+        <p>The <a href="editfolder/scriptwi.html">gutter</a> is wider (in order to accomodate <a href="debugfolder/breakpoi.html">breakpoints</a> and <a href="debugfolder/codecove.html">code coverage markers</a>), and displays <strong>pause arrows</strong> next to every line of the script where it&#8217;s possible to set a <a href="debugfolder/breakpoi.html">breakpoint</a>.</p>
+      </li>
+      <li>
+        <p>In the <a href="runfolder/result.html">Result &amp; Variables tab</a>, two additional panes appear: the <a href="debugfolder/callchain.html">call stack</a> and the <a href="debugfolder/breakpoifolder/breakpointsinsp.html">breakpoints inspector</a>.</p>
+      </li>
+    </ol>
+
+    <p>To <strong>turn off debug mode</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose Script &gt; Enable Debugging. If the menu item is <strong>unchecked</strong>, debug mode is <strong>off</strong>.</p>
+      </li>
+      <li>
+        <p>Or, click the Debugging button in the <a href="editfolder/scriptwi.html">script window</a> <a href="../referencfolder/windowsfolder/toolbar.html">toolbar</a> so that it says OFF.</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> You might have to <strong>stop your script</strong> (choose Script &gt; Stop, or click Stop in the toolbar) before you can turn off debug mode. <em>You can&#8217;t turn off debug mode if your script is running or <a href="debugfolder/pause.html">paused</a>.</em></p>
+    </blockquote>
+
+    <p>Debug mode is a script feature; it is saved as part of a script file. It is also <em>unique to Script Debugger</em>.
+A script saved in debug mode <strong>is unusable except in Script Debugger</strong>. Therefore, when you&#8217;re finished debugging, you will probably want to <strong>save your script <em>not</em> in debug mode</strong>.</p>
+
+    <blockquote>
+      <p>There is, however, one good reason for deliberately saving a script in debug mode and running it elsewhere — so that you can <a href="debugfolder/external.html">debug externally</a>.</p>
+    </blockquote>
+
+    <p>Debug mode gives your script (and you) many new powers.</p>
+
+    <ul>
+      <li>
+        <p>Your script can <a href="debugfolder/pause.html">pause</a> in the middle of execution.</p>
+
+        <p>A major concern during debugging will be: <em>where</em> will your script pause? The answer involves chiefly the interplay between <a href="debugfolder/breakpoi.html">breakpoints</a> and the <a href="debugfolder/step.html">stepping</a> commands.</p>
+      </li>
+      <li>
+        <p>While paused, you can see (and alter) the values of your script&#8217;s <a href="debugfolder/variablesdebug.html">variables</a>, along with <a href="debugfolder/expressi.html">other AppleScript values</a>, as they change during the course of execution.</p>
+      </li>
+      <li>
+        <p>You can see <a href="debugfolder/codecove.html">what code is executed</a> and what <a href="debugfolder/step.html">choices</a> your code makes. You can also run your code in <a href="debugfolder/trace.html">slow motion</a>, watching its path of execution.</p>
+      </li>
+      <li>
+        <p>You can observe how <a href="debugfolder/callchain.html">one handler calls another</a>.</p>
+      </li>
+    </ul>
+
+    <p>If your script involves driving a scriptable application&#8217;s interface, it may help you to work in the <a href="debugfolder/mini.html">Mini Debugger</a>, where you can interact with breakpoints and pauses in your script while keeping the scriptable application frontmost.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+<table width="100%">
+<tr>
+<td align="left">
+<table>
+<tr>
+<td class="further" colspan="2">
+<b>Further Details:</b>
+</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td class="subs">
+<a href="debugfolder/pause.html">Pause</a><br /><a href="debugfolder/executew.html">Execute When Debugging</a><br /><a href="debugfolder/breakpoi.html">Breakpoints</a><br /><a href="debugfolder/step.html">Step</a><br /><a href="debugfolder/trace.html">Trace</a><br /><a href="debugfolder/callchain.html">Call Stack</a><br /><a href="debugfolder/variablesdebug.html">Variables (Debug Mode)</a><br /><a href="debugfolder/expressi.html">Expressions</a><br /><a href="debugfolder/exceptio.html">Exceptions</a><br /><a href="debugfolder/codecove.html">Code Coverage</a><br /><a href="debugfolder/external.html">External Debugging</a><br /><a href="debugfolder/mini.html">The Mini Debugger</a><br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="run.html"><img src="../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="run.html">Run</a>
+</td>
+<td align="right" style="width:50%" valign="top" />
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle" />
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

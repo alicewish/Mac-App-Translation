@@ -1,0 +1,171 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="The variables pane displays the values of your script’s variables." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Variables</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../run.html">Run</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Variables</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="errors.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>The <strong>variables pane</strong> displays the values of your script&#8217;s variables.</p>
+
+    <ul>
+      <li>
+        <p>When you simply <a href="execute.html">run</a> a script, the variables pane displays the script&#8217;s <strong>persistent variables</strong> (top-level entities — script objects, script properties, and globals) after execution. It doesn&#8217;t show local variables, because when the script finishes executing, local variables have gone out of scope.</p>
+      </li>
+      <li>
+        <p>When you <a href="../debug.html">debug</a> a script, the variables pane also displays <a href="../debugfolder/variablesdebug.html">local variables</a>.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>see the variables pane</strong>: </p>
+
+    <ul>
+      <li>
+        <p>Choose View &gt; Result &amp; Variables Tab.</p>
+      </li>
+      <li>
+        <p>Or, click Result &amp; Variables in the <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a>.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/variablesPaneNew.png" width="285" height="90" alt="image" /></div>
+
+    <p>Variables are displayed in alphabetical order, grouped into the following categories:</p>
+
+    <ol>
+      <li>
+        <p>Inherited variables (blue background).</p>
+
+        <p>A script&#8217;s persistent variables include those acquired through AppleScript&#8217;s script object inheritance mechanism.</p>
+
+        <p>By default, a script&#8217;s parent is the AppleScript scripting component. Therefore, the variables pane will usually display this object and its variables <em>twice</em> — once by virtue of being the script&#8217;s parent, and again by virtue of being the global script object <code>AppleScript</code>.</p>
+      </li>
+      <li>
+        <p>Top-level entities.</p>
+      </li>
+    </ol>
+
+    <p>The variables pane is an <a href="../../explorefolder/explorerfolder/bestfolder/outliner.html">outliner</a>, with <a href="../../explorefolder/explorerfolder/bestfolder/outlinermore.html">all that this entails</a>. For example:</p>
+
+    <ul>
+      <li>
+        <p>You can double-click a line of the variables pane to see that value displayed in a <strong>separate <a href="../../explorefolder/explorerfolder/explorerwindows.html">explorer window</a></strong>.</p>
+      </li>
+      <li>
+        <p>You can <strong>edit the value</strong> of persistent top-level entities (such as properties and globals) shown in the variables pane; you might use this feature to experiment with your script&#8217;s behavior under different initial values of your persistent entities.</p>
+      </li>
+      <li>
+        <p>You can <strong>filter</strong> the outline by showing and working with the scope bar.</p>
+
+        <p>To show the scope bar, Control-click in the variables pane and choose Show Scope Bar from the contextual menu.</p>
+
+        <blockquote>
+          <p><strong>No variables appearing?</strong> Show the scope bar and make sure you&#8217;re not filtering them all out.</p>
+        </blockquote>
+      </li>
+      <li>
+        <p>Recently <strong>changed values</strong> are displayed in red.</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p>Script Debugger <a href="../../referencfolder/faqfolder/sediffs.html">preserves</a> the value of persistent top-level entities when a script is saved and re-opened.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="times.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="times.html">Times</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="errors.html">Errors</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="errors.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

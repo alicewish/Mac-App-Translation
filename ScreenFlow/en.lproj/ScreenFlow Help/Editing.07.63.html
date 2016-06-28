@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <!-- MOTW-DISABLED saved from url=(0014)about:internet -->
+    <title>Configuring Touch Callouts</title>
+    <link rel="StyleSheet" href="css/Editing.css" type="text/css" media="all" />
+    <link rel="StyleSheet" href="css/webworks.css" type="text/css" media="all" />
+    <script type="text/javascript" language="JavaScript1.2" src="scripts/expand.js"></script>
+    <script type="text/javascript" language="JavaScript1.2">
+      <!--
+        var  WebWorksRootPath = "";
+      // -->
+    </script>
+  </head>
+  <body>
+    <div style="text-align: left;">
+      <table cellspacing="0" summary="">
+        <tr>
+          <td>
+            <a href="toc.html"><img src="images/toc.gif" alt="Table of Contents" border="0" /></a>
+          </td>
+          <td>
+            <a href="Editing.07.62.html"><img src="images/prev.gif" alt="Previous" border="0" /></a>
+          </td>
+          <td>
+            <a href="Editing.07.64.html"><img src="images/next.gif" alt="Next" border="0" /></a>
+          </td>
+          <td>
+            <a href="ix.html"><img src="images/index.gif" alt="Index" border="0" /></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <div class="WebWorks_Breadcrumbs" style="text-align: left;">
+      <a class="WebWorks_Breadcrumb_Link" href="Editing.07.01.html#1353177">Editing ScreenFlow Projects</a> : Configuring Touch Callouts</div>
+    <hr align="left" />
+    <blockquote>
+      <div class="H1Heading"><a name="1353177">Configuring Touch Callouts</a></div>
+      <div class="Body"><a name="1353178">When running on OS X 10.10 (Yosemite), ScreenFlow can capture directly from the </a>screen of an iOS device over a USB connection. This opens up new workflow opportunities for ScreenFlow. Unfortunately there is no way to automatically receive <span class="Emphasis">touch</span> events from the iOS device, so the application cannot know where the user touched on the iOS device. The solution is to allow the user to manually specify touch overlays. These are <span class="Emphasis">Touch Callouts</span>, and they are added through the Actions menu.  </div>
+      <div class="Body"><a name="1347238">Select </a><span class="Emphasis">Add Touch Callout</span>.</div>
+      <div class="AIAnchorImage"><a name="1333025"><img class="Default" src="images/Editing.07.63.1.png" style="display: inline; float: none; left: 0.0; top: 0.0" alt="" /></a></div>
+      <div class="Body"><a name="1332865">The touch callouts are configured through a new tab in the ScreenFlow inspector </a>where the touch callouts can also be added. </div>
+      <div class="AIAnchorImage"><a name="1333078"><img class="Default" src="images/Editing.07.63.2.png" style="display: inline; float: none; left: 0.0; top: 0.0" alt="" /></a></div>
+      <div class="Body"><a name="1333071">Touch callouts work in a similar fashion to freehand callouts. When the action is </a>selected in the timeline, the video view enters a modal editing state, which is represented by the timeline. Only the currently selected clip and some editing controls in the top right corner of the video view are highlighted. This modal editing state can be exited by clicking away from the touch callout, or by clicking the close button on the editing tools.</div>
+      <div class="Body"><a name="1332728">When in editing mode, you can click the touch callout and it them around the screen as </a>needed. You can increase the number of callouts (representing finger presses). You can also specify a fill or outline on the callout independently.</div>
+      <div class="Body"><a name="1332732">By default, the touch callout only has a start state. If you wish to have a movable callout,  </a>click the ‘Callout has end state’ checkbox.  This will display the end state callout. As you move the timeline over the action, you will see the <span class="Emphasis">touch callout </span>move from the starting to the ending point. </div>
+      <div class="Body"><a name="1332737">If you have specified an end state, you can also tell the </a><span class="Emphasis">touch callout</span> to wait for a number of seconds before starting the movement / animation to the end state. This is enabled using the <span class="Emphasis">Wait - seconds before starting</span> option. The timing curve can be specified for the interpolation to the end state. These are the same options as the <span class="Emphasis">Video </span><span class="Emphasis">action - Linear, Ease In, Ease Out,</span> and <span class="Emphasis">Ease In &amp; Out</span>.</div>
+      <div class="Body"><a name="1332743">If you want the callout to animate its size, spacing, opacity, or rotation parameters, you </a>can select the <span class="Emphasis">Animates values to end state </span>checkbox. The first time this is checked, it fills the end state values from the current starting state values. </div>
+      <div class="AIAnchorImage"><a name="1333518"><img class="Default" src="images/Editing.07.63.3.png" style="display: inline; float: none; left: 0.0; top: 0.0" alt="" /></a></div>
+      <div class="Body"><a name="1332747">When you are editing the touch callouts in the main canvas, the start state touch </a>callout has a crosshair in the middle, and the end state has a little circle. This helpsyou to determine which state you are in. </div>
+      <div class="NNote">
+        <span class="Bold">Note:&nbsp;</span><a name="1332751">Touch Callouts are not restricted to iOS recordings - they can be added to any </a>clip that a regular callout can be.</div>
+    </blockquote>
+  </body>
+</html>

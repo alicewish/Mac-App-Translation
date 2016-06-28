@@ -1,0 +1,12 @@
+
+/* Class = "NSTextFieldCell"; title = "Preparing..."; ObjectID = "21"; */
+"21.title" = "Preparing...";
+
+/* Class = "NSTextFieldCell"; title = "Estimated time remaining:"; ObjectID = "26"; */
+"26.title" = "Estimated time remaining:";
+
+/* Class = "NSTextFieldCell"; title = "seconds"; ObjectID = "28"; */
+"28.title" = "seconds";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "41"; */
+"41.title" = "Cancel";

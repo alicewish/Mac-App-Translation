@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>replace</key>
+		<string>ta</string>
+		<key>with</key>
+		<string>tell application &quot;[[template:Finder]]&quot;
+	[[template:-- your code goes here...]]
+end tell</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>utf</string>
+		<key>with</key>
+		<string>using terms from application &quot;[[template:Finder]]&quot;
+	[[template:-- your code goes here...]]
+end tell</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>dd</string>
+		<key>with</key>
+		<string>display dialog &quot;[[template:message]]&quot; buttons {[[template:&quot;Cancel&quot;, &quot;OK&quot;]]} default button [[template:&quot;OK&quot;]]</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>idd</string>
+		<key>with</key>
+		<string>if button returned of (display dialog &quot;[[template:message]]&quot; buttons {&quot;OK&quot;, &quot;Cancel&quot;}) is &quot;OK&quot; then
+  	[[select:-- your code goes here...]]
+end if</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>teh</string>
+		<key>with</key>
+		<string>the</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>!=</string>
+		<key>with</key>
+		<string>≠</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>=!</string>
+		<key>with</key>
+		<string>≠</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>&lt;&gt;</string>
+		<key>with</key>
+		<string>≠</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>&lt;=</string>
+		<key>with</key>
+		<string>≤</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>&gt;=</string>
+		<key>with</key>
+		<string>≥</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>&lt;&lt;</string>
+		<key>with</key>
+		<string>«</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>&gt;&gt;</string>
+		<key>with</key>
+		<string>»</string>
+		<key>enabled</key>
+		<true/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>(c)</string>
+		<key>with</key>
+		<string>©</string>
+		<key>enabled</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>(r)</string>
+		<key>with</key>
+		<string>®</string>
+		<key>enabled</key>
+		<false/>
+	</dict>
+	<dict>
+		<key>replace</key>
+		<string>TM</string>
+		<key>with</key>
+		<string>™</string>
+		<key>enabled</key>
+		<false/>
+	</dict>
+</array>
+</plist>

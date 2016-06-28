@@ -1,0 +1,27 @@
+
+/* Class = "NSTextFieldCell"; title = "Window Capture:"; ObjectID = "23"; */
+"23.title" = "Window Capture:";
+
+/* Class = "NSTextFieldCell"; title = "All-in-One Capture:"; ObjectID = "24"; */
+"24.title" = "All-in-One Capture:";
+
+/* Class = "NSTextFieldCell"; title = "Keyboard Shortcuts"; ObjectID = "25"; */
+"25.title" = "Keyboard Shortcuts";
+
+/* Class = "NSButtonCell"; title = "Restore Shortcuts"; ObjectID = "54"; */
+"54.title" = "Restore Shortcuts";
+
+/* Class = "NSTextFieldCell"; title = "Pause & Resume Recording:"; ObjectID = "64"; */
+"64.title" = "Pause & Resume Recording:";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "83"; */
+"83.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Menu Capture:"; ObjectID = "90"; */
+"90.title" = "Menu Capture:";
+
+/* Class = "NSTextFieldCell"; title = "Video Capture:"; ObjectID = "1sI-7M-5dn"; */
+"1sI-7M-5dn.title" = "Video Capture:";
+
+/* Class = "NSTextFieldCell"; title = "Image Capture:"; ObjectID = "mzy-E0-jLz"; */
+"mzy-E0-jLz.title" = "Image Capture:";

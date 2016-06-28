@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger makes it easy to create, view, and check your code’s block structure." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Block Structure</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../edit.html">Edit</a>&#160;&gt; <a href="../editinga.html">Editing and Navigation</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Block Structure</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="balance.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger makes it easy to create, view, and check your code&#8217;s <strong>block structure</strong>. Blocks are a characteristic and pervasive feature of AppleScript: a <code>tell</code> line is balanced by an <code>end tell</code> line (forming a tell block), a <code>repeat</code> line is balanced by an <code>end repeat</code> line (forming a repeat block), and so forth, and blocks are nested inside each other to form the logic of your script. </p>
+
+    <h3 id="block-entry-auto-closing">Block Entry (Auto-Closing)</h3>
+
+    <p><strong>Auto-closing</strong> is a text entry feature where, when you type Return in the opening line of a block, Script Debugger <strong>automatically generates the <code>end</code> line</strong> of the block for you.</p>
+
+    <p>For example, if you type <code>repeat</code> and press Return with auto-closing turned on, Script Debugger creates a corresponding <code>end</code> line (which will compile to <code>end repeat</code>), and positions the insertion point in between, ready for you to enter the content of the block. This works also for lines beginning with <code>tell</code>, <code>on</code>, <code>script</code>, <code>if</code>, <code>try</code>, <code>using</code>, <code>considering</code>, and <code>ignoring</code>. Script Debugger&#8217;s auto-closing feature is intelligent; if there is already a corresponding <code>end</code> line, Script Debugger won&#8217;t create one.</p>
+
+    <p>You can turn on auto-closing in general, or use it on single occasions. To <strong>pick an auto-closing policy</strong>:</p>
+
+    <ul>
+      <li>
+        <p>In the <a href="../../../referencfolder/preferencfolder/editor.html">Editor preferences</a>, check or uncheck &#8220;Auto-close AppleScript blocks (end tell, etc.).&#8221;</p>
+
+        <p>If <strong>checked</strong>, auto-closing is turned <strong>on</strong> in general. To turn auto-closing <strong>off</strong> on a single occasion, hold Control as you press Return at the end of a block-starting line.</p>
+
+        <p>If <strong>unchecked</strong>, auto-closing is turned <strong>off</strong> in general. To turn auto-closing <strong>on</strong> on a single occasion, hold Control as you press Return at the end of a block-starting line.</p>
+      </li>
+    </ul>
+
+    <h3 id="block-selection-balance">Block Selection (Balance)</h3>
+
+    <p>To <strong>select a block</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose Edit &gt; Balance.</p>
+      </li>
+      <li>
+        <p>Or, choose Balance from the contextual menu.</p>
+      </li>
+    </ul>
+
+    <p>Each time you choose Balance, Script Debugger selects <strong>the block enclosing the current selection</strong>. Thus, if you choose Balance repeatedly, you select the block enclosing the selection, then the block enclosing that block, then the block enclosing <em>that</em> block, and so on.</p>
+
+    <p>The Balance command selects other things besides blocks. If the initial selection is between <a href="balance.html">a pair of delimiters</a>, the delimiters and everything between them will be selected first. If the initial selection is <a href="balance.html">within a comment</a>, the comment will be selected first.</p>
+
+    <h3 id="block-viewing-and-selection">Block Viewing and Selection</h3>
+
+    <p>To clarify the block structure of your script visually, you can hover the mouse in the <a href="../scriptwi.html">gutter</a> (the area to the left of the script text). Script Debugger outlines the nested block structure, starting with the block to the right of the mouse, in successively darker shades of grey.</p>
+
+    <div style="text-align:center">
+<img src="../../../../images/blockShading.png" width="206" height="127" alt="image" />
+</div>
+
+    <p>To <strong>turn on block structure shading</strong>:</p>
+
+    <ul>
+      <li>In the <a href="../../../referencfolder/preferencfolder/editor.html">Editor preferences</a>, check or uncheck &#8220;Highlight blocks when mouse hovers in gutter.&#8221; If checked, block structure shading is turned on.</li>
+    </ul>
+
+    <p>When this feature is turned on, you can also <strong>select a block</strong>. To do so, click the mouse in the gutter when you see the nested block structure outlined. Click successively to select the next block outwards. This is similar to choosing Balance repeatedly.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle" />
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top" />
+<td align="right" style="width:50%" valign="top">
+<a href="balance.html">Delimiters</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="balance.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

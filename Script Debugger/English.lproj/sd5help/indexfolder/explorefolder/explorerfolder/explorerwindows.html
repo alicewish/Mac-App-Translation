@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="An explorer can be generated as a separate window — an explorer window." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Explorer Windows</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../explore.html">Explore</a>&#160;&gt; <a href="../explorer.html">Explorer</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Explorer Windows</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="best.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>An <a href="../explorer.html">explorer</a> can be generated as a <strong>separate window</strong> — an <strong>explorer window</strong>. For example:</p>
+
+    <ul>
+      <li>
+        <p>The <a href="../../developfolder/runfolder/result.html">result</a> associated with <a href="../../developfolder/editfolder/scriptwi.html">script window</a> can appear as a separate explorer window.</p>
+
+        <ul>
+          <li>
+            <p>You can set an <a href="../../referencfolder/preferencfolder/debugger.html">Execution preference</a> so that this happens automatically (&#8220;Show result when scripts pause or end&#8221; &gt; &#8220;Show Result Explorer Window&#8221;).</p>
+          </li>
+          <li>
+            <p>Or, choose Script &gt; Show Result Explorer Window.</p>
+          </li>
+          <li>
+            <p>Or, Control-click in the grey bar at the top of the result pane and choose Show Result Explorer Window from the contextual menu.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>The result of an Apple event recorded in the <a href="../../developfolder/runfolder/log.html">event log</a> can appear as a separate explorer window.</p>
+
+        <ul>
+          <li>
+            <p>Double-click an event in the log to open its result as an explorer window.</p>
+          </li>
+          <li>
+            <p>Or, choose Script &gt; Show Result Explorer Window.</p>
+          </li>
+          <li>
+            <p>Or, Control-click the event and choose Show Event Log Result Explorer.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>A value within the <a href="bestfolder/outliner.html">outliner</a> of <em>any</em> explorer can appear as a separate explorer window. This includes an outliner in an explorer window! Thus, it&#8217;s possible to generate a series, or <em>cascade</em>, of explorer windows.</p>
+
+        <ul>
+          <li>
+            <p>Control-click the value and choose Open Explorer Window from the contextual menu.</p>
+          </li>
+          <li>
+            <p>Or, select the value and choose File &gt; Open Explorer Window.</p>
+          </li>
+        </ul>
+
+        <blockquote>
+          <p>In a <a href="whereexplorers.html">partial explorer</a>, you can alternatively double-click the value. (In a full-fledged explorer, double-clicking a value <a href="bestfolder/outliner.html#navigating-an-outliner">hoists</a> it.)</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <p>A separate explorer window, or a cascade of separate explorer windows, can be a way to focus more easily on the information that interests you. This is demonstrated in the illustration below, which shows three explorer windows spawned successively from a dictionary explorer: <code>folders</code> within the application explorer &gt; <code>folders</code> as a separate list window &gt; <code>folder "sd5help"</code> &gt; <code>creation date of folder "sd5help"</code>.</p>
+
+    <div style="text-align:center">
+<img src="../../../images/cascadeNewNew.png" width="631" height="374" alt="image" />
+</div>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> An explorer window has a <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a>, but the toolbars are hidden in the above screen shot, to save space.</p>
+    </blockquote>
+
+    <p>An explorer window maintains its linkage back to the explorer from which it was spawned. This linkage expresses the full identity of the value being explored. To <strong>see an explorer window&#8217;s identity</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Control-click the explorer window&#8217;s title.</p>
+
+        <p>A pop-up menu appears. Each successive item in the menu is a step up the object model, as if there were an implicit <code>of</code> between them. For example, in the illustration below, the explorer window is showing the <code>creation date <i>of</i> folder "sdhelp5"</code> (of the application &#8220;Finder&#8221;).</p>
+
+        <p>Moreover,  each menu item itself has a hierarchical menu exploring the entire object model of that object! This is exactly parallel to the <a href="../../developfolder/editfolder/editingafolder/tell.html">hierarchical menu</a> attached to the <a href="../../referencfolder/menusfolder/editmenu.html">Paste Tell</a> menu item.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/cascadeMenu.png" width="600" height="234" alt="image" /></div>
+
+    <p>An explorer window remains &#8220;live&#8221;: it changes if the value being explored changes, provided Script Debugger &#8220;knows&#8221; about the change. For example, an explorer window spawned off from a script window&#8217;s <a href="../../developfolder/runfolder/result.html">result pane</a> or <a href="../../developfolder/runfolder/variable.html">variables pane</a> may change its value spontaneously, because Script Debugger &#8220;knows&#8221; when these values need to be refreshed (e.g., you ran the script again). In other cases, you might need to ask Script Debugger to reload an explorer: choose Dictionary &gt; Reload.</p>
+
+    <blockquote>
+      <p>An explorer window may also close spontaneously if the value being explored ceases to exist. For instance, an explorer window that is exploring a variable from the <a href="../../developfolder/runfolder/variable.html">variables pane</a> will close when the variable goes out of scope. Similarly, an explorer window that is exploring an element of a class will close if that class is refreshed and the element no longer exists.</p>
+    </blockquote>
+
+    <p>To <strong>set defaults</strong> for the <strong>size, view, and display options</strong> of explorer windows:</p>
+
+    <ul>
+      <li>Summon an explorer window, set its size and display options as desired, and choose Window &gt; Set Default Explorer Size &amp; State.</li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="whereexplorers.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="whereexplorers.html">Where Explorers Appear</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="best.html">Best</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="best.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

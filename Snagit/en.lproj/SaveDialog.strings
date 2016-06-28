@@ -1,0 +1,36 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "4"; */
+"4.title" = "OtherViews";
+
+/* Class = "NSTabViewItem"; label = "Tab"; ObjectID = "103"; */
+"103.label" = "Tab";
+
+/* Class = "NSTabViewItem"; label = "View"; ObjectID = "104"; */
+"104.label" = "View";
+
+/* Class = "NSTabViewItem"; label = "View"; ObjectID = "107"; */
+"107.label" = "View";
+
+/* Class = "NSTextFieldCell"; title = "Format:"; ObjectID = "114"; */
+"114.title" = "Format:";
+
+/* Class = "NSTextFieldCell"; title = "Quality:"; ObjectID = "116"; */
+"116.title" = "Quality:";
+
+/* Class = "NSTextFieldCell"; title = "Compression:"; ObjectID = "119"; */
+"119.title" = "Compression:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "121"; */
+"121.title" = "OtherViews";
+
+/* Class = "NSMenuItem"; title = "PackBits"; ObjectID = "122"; */
+"122.title" = "PackBits";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "123"; */
+"123.title" = "None";
+
+/* Class = "NSMenuItem"; title = "LZW"; ObjectID = "124"; */
+"124.title" = "LZW";
+
+/* Class = "NSButtonCell"; title = "Save using Retina size"; ObjectID = "150"; */
+"150.title" = "Save using Retina size";

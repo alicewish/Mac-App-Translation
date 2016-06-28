@@ -1,0 +1,12 @@
+
+/* Class = "NSWindow"; title = "Rotate"; ObjectID = "1"; */
+"1.title" = "Rotate";
+
+/* Class = "NSTextFieldCell"; title = "Angle: "; ObjectID = "8"; */
+"8.title" = "Angle: ";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "12"; */
+"12.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Apply"; ObjectID = "14"; */
+"14.title" = "Apply";

@@ -1,0 +1,37 @@
+
+/* Class = "NSTextFieldCell"; title = "Line width:"; ObjectID = "17"; */
+"17.title" = "Line width:";
+
+/* Class = "NSPopUpButton"; ibShadowedToolTip = "Select callout shape"; ObjectID = "101"; */
+"101.ibShadowedToolTip" = "Select callout shape";
+
+/* Class = "NSMenuItem"; title = "Shape"; ObjectID = "104"; */
+"104.title" = "Shape";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Select callout shape"; ObjectID = "111"; */
+"111.ibShadowedToolTip" = "Select callout shape";
+
+/* Class = "NSButtonCell"; title = "_toolController.bodyStyleNum"; ObjectID = "112"; */
+/* PLEASE DONT LOCACLIZE */
+"112.title" = "_toolController.bodyStyleNum";
+
+/* Class = "NSTextFieldCell"; title = "Line style:"; ObjectID = "178"; */
+"178.title" = "Line style:";
+
+/* Class = "NSTextFieldCell"; title = "Shadow"; ObjectID = "238"; */
+"238.title" = "Shadow";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "240"; */
+"240.title" = "Opacity:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Open the Fonts panel"; ObjectID = "275"; */
+"275.ibShadowedToolTip" = "Open the Fonts panel";
+
+/* Class = "NSTextFieldCell"; title = "Font"; ObjectID = "278"; */
+"278.title" = "Font";
+
+/* Class = "NSTextFieldCell"; title = "Padding:"; ObjectID = "324"; */
+"324.title" = "Padding:";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "352"; */
+"352.title" = "Color";

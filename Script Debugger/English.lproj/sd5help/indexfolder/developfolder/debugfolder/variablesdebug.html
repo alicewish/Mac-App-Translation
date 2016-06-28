@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="When a script is paused while debugging, the variables pane displays all variables currently in scope in the selected stack frame." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Variables (Debug Mode)</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../debug.html">Debug</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Variables (Debug Mode)</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="expressi.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>When a script is <a href="pause.html">paused</a> while <a href="../debug.html">debugging</a>, the <a href="../runfolder/variable.html">variables pane</a> displays <em>all</em> variables currently in scope in the <a href="callchain.html">selected stack frame</a>.</p>
+
+    <p><strong>Important:</strong> This includes <em>local variables</em> — but <strong>local variables must be <em>explicitly declared local</em></strong> (with a <code>local</code> statement), or they won&#8217;t be shown.</p>
+
+    <p>Variables are displayed in alphabetical order, grouped into the following categories:</p>
+
+    <ol>
+      <li>
+        <p>Inherited variables (blue background).</p>
+
+        <p>A script&#8217;s persistent variables include those acquired through AppleScript&#8217;s script object inheritance mechanism.</p>
+
+        <p>By default, a script&#8217;s parent is the AppleScript scripting component. Therefore, the variables pane will usually display this object and its variables <em>twice</em> — once by virtue of being the script&#8217;s parent, and again by virtue of being the global script object <code>AppleScript</code>.</p>
+      </li>
+      <li>
+        <p>Local parameters (green background). These are incoming parameter values, and are shown if the currently selected <a href="callchain.html">stack frame</a> is a handler with parameters.</p>
+      </li>
+      <li>
+        <p>Local variables (yellow background). These are local to the currently selected <a href="callchain.html">stack frame</a>. You probably won&#8217;t see these unless you <strong>explicitly declare your locals</strong>.</p>
+      </li>
+      <li>
+        <p>Top-level entities.</p>
+      </li>
+    </ol>
+
+    <div style="text-align:center">
+<img src="../../../images/variablesPaneDebug.png" width="306" height="207" alt="image" />
+</div>
+
+    <p>The variables pane is an <a href="../runfolder/variable.html">outliner, with all that this entails</a>.</p>
+
+    <p>The ability to <a href="../runfolder/variable.html">edit a variable value</a> is especially useful when <a href="pause.html">paused</a> while debugging, because you can experiment with a different value <em>after</em> the pause than arrived <em>before</em> the pause, altering the behavior of your script as it proceeds to the next line.</p>
+
+    <blockquote>
+      <p>Another way to see variable values is through tooltips that appear when you hover the mouse over an expression in your script. An <a href="../../referencfolder/preferencfolder/debugger.html">Execution preference</a>, &#8220;Show expression tooltips,&#8221; sets the conditions under which these appear.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="callchain.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="callchain.html">Call Stack</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="expressi.html">Expressions</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="expressi.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

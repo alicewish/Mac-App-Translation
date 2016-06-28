@@ -1,0 +1,18 @@
+
+/* Class = "NSButtonCell"; title = "Automatically check for updates"; ObjectID = "50"; */
+"50.title" = "Automatically check for updates";
+
+/* Class = "NSMenuItem"; title = "Monthly"; ObjectID = "53"; */
+"53.title" = "Monthly";
+
+/* Class = "NSMenuItem"; title = "Weekly"; ObjectID = "54"; */
+"54.title" = "Weekly";
+
+/* Class = "NSMenuItem"; title = "Daily"; ObjectID = "55"; */
+"55.title" = "Daily";
+
+/* Class = "NSMenuItem"; title = "Hourly"; ObjectID = "56"; */
+"56.title" = "Hourly";
+
+/* Class = "NSButtonCell"; title = "Automatically download updates"; ObjectID = "58"; */
+"58.title" = "Automatically download updates";

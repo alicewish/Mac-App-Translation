@@ -1,0 +1,12 @@
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "20f-AB-kSp"; */
+"20f-AB-kSp.title" = "OtherViews";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "dXX-5U-tsj"; */
+"dXX-5U-tsj.title" = "Name:";
+
+/* Class = "NSButtonCell"; title = "Sequence File Name"; ObjectID = "gTs-cv-JAc"; */
+"gTs-cv-JAc.title" = "Sequence File Name";
+
+/* Class = "NSTextFieldCell"; title = "Format:"; ObjectID = "ifJ-AQ-7Gs"; */
+"ifJ-AQ-7Gs.title" = "Format:";

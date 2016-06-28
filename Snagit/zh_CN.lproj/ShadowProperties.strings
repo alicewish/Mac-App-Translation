@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "Blur:"; ObjectID = "14"; */
+"14.title" = "Blur:";
+
+/* Class = "NSTextFieldCell"; title = "Offset:"; ObjectID = "15"; */
+"15.title" = "Offset:";
+
+/* Class = "NSTextFieldCell"; title = "Opacity:"; ObjectID = "36"; */
+"36.title" = "Opacity:";
+
+/* Class = "NSTextFieldCell"; title = "Angle"; ObjectID = "56"; */
+"56.title" = "Angle";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "58"; */
+"58.title" = "Color";

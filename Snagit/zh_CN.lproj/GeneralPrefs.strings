@@ -1,0 +1,27 @@
+
+/* Class = "NSButtonCell"; title = "Always keep Snagit running in the background"; ObjectID = "83"; */
+"83.title" = "Always keep Snagit running in the background";
+
+/* Class = "NSButtonCell"; title = "Radio"; ObjectID = "112"; */
+"112.title" = "Radio";
+
+/* Class = "NSButtonCell"; title = "Capture Window & Menu Bar Icon"; ObjectID = "113"; */
+"113.title" = "Capture Window & Menu Bar Icon";
+
+/* Class = "NSButtonCell"; title = "Capture Window"; ObjectID = "114"; */
+"114.title" = "Capture Window";
+
+/* Class = "NSButtonCell"; title = "Menu Bar Icon"; ObjectID = "115"; */
+"115.title" = "Menu Bar Icon";
+
+/* Class = "NSBox"; title = "Snagit Shows"; ObjectID = "140"; */
+"140.title" = "Snagit Shows";
+
+/* Class = "NSButtonCell"; title = "Send anonymous usage information"; ObjectID = "4dG-tg-UH8"; */
+"4dG-tg-UH8.title" = "Send anonymous usage information";
+
+/* Class = "NSButtonCell"; title = "Show Notifications"; ObjectID = "dNX-Io-bw5"; */
+"dNX-Io-bw5.title" = "Show Notifications";
+
+/* Class = "NSButtonCell"; title = "More info"; ObjectID = "kI1-Ni-ywQ"; */
+"kI1-Ni-ywQ.title" = "More info";

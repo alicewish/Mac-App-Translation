@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Options in the General preferences pane." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Preferences: General</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../preferenc.html">Preferences</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Preferences: General</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="editor.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <div class="menus">
+
+      <p>The General <a href="../preferenc.html">preferences pane</a> collects a number of options having mostly to do with Script Debugger&#8217;s startup behavior and how Script Debugger opens and saves <a href="../../openinga.html">script files</a>.</p>
+
+      <h3 id="on-startup">On Startup:</h3>
+
+      <dl>
+        <dt>Remember open scripts</dt>
+        <dd>
+          <p>If checked, then when Script Debugger quits, all open scripts are remembered and will be reopened automatically the next time Script Debugger starts up.</p>
+        </dd>
+        <dt>Create new script if nothing else is open</dt>
+        <dd>
+          <p>If checked, then when Script Debugger starts up, if no other window opens, a new script window will be created.</p>
+        </dd>
+      </dl>
+
+      <h3 id="on-reopen">On Reopen:</h3>
+
+      <dl>
+        <dt>Create new script if nothing else is open</dt>
+        <dd>
+          <p>If checked, then when Script Debugger gets a Reopen event when no window is open, a new script window will be created. A Reopen event is sent, for example, when you click on Script Debugger&#8217;s Dock icon (but <em>not</em> when you press Command-Tab to switch to Script Debugger).</p>
+        </dd>
+      </dl>
+
+      <h3 id="for-new-documents">For New Documents:</h3>
+
+      <dl>
+        <dt>Show Template Chooser</dt>
+        <dd>
+          <p>When you choose File &gt; New Script or File &gt; New Script Tab, Script Debugger will behave as if you had chosen File &gt; New Script From Template or File &gt; New Script Tab From Template, presenting the <a href="../../openingafolder/openfolder/chooser.html">template chooser</a>.</p>
+        </dd>
+        <dt>Use template</dt>
+        <dd>
+          <p>When you choose File &gt; New Script or File &gt; New Script Tab, Script Debugger will use the <a href="../../openingafolder/openfolder/chooser.html">template</a> listed here as the default basis for the new script.</p>
+
+          <dl>
+            <dt>Choose Template</dt>
+            <dd>
+              <p>This button summons the <a href="../../openingafolder/openfolder/chooser.html">template chooser</a> so that you can pick a different template to be the default basis for new scripts.</p>
+            </dd>
+          </dl>
+        </dd>
+      </dl>
+
+      <h3 id="opening-documents">Opening Documents:</h3>
+
+      <dl>
+        <dt>Open in Tabs</dt>
+        <dd>
+          <p>If checked, then when an existing script is opened, it will be displayed in a <a href="../../openingafolder/openfolder/tabs.html">tab</a> in the frontmost <a href="../../developfolder/editfolder/scriptwi.html">script window</a> if there is one. Otherwise, it will be displayed as a separate script window.</p>
+
+          <p>As the note beneath this checkbox explains, you can hold Shift while opening a script to reverse this behavior on a particular occasion. So, for example, if the checkbox is checked and you open a script while holding Shift, the script will be displayed as a separate script window.</p>
+        </dd>
+        <dt>Warn when applications may be launched</dt>
+        <dd>
+          <p>If checked, then when Script Debugger begins opening a script file that might cause AppleScript to <a href="../faqfolder/appsopen.html">launch</a> an targeted application, it puts up a &#8220;Launch Applications?&#8221; <a href="../../openingafolder/openfolder/importre.html">dialog</a>.</p>
+
+          <dl>
+            <dt>Always open as text without launching applications</dt>
+            <dd>
+              <p>If checked, then when Script Debugger begins opening a script file that might cause AppleScript to <a href="../faqfolder/appsopen.html">launch</a> an targeted application, Script Debugger <a href="../../openingafolder/openfolder/importre.html">opens the script as text</a> if possible — thus bypassing AppleScript altogether and so preventing the targeted application from launching (and so there is no &#8220;Launch Applications?&#8221; dialog). AppleScript may <em>still</em> subsequently launch the targeted application if you later <a href="../../developfolder/runfolder/compile.html">compile</a> the script.</p>
+            </dd>
+          </dl>
+        </dd>
+      </dl>
+
+      <h3 id="mac-os-settings">Mac OS Settings:</h3>
+
+      <dl>
+        <dt>Respond to applescript:// URLs in web pages</dt>
+        <dd>
+          <p>The <code>applescript:</code> URL scheme permits a hyperlink (in a web browser, a PDF document, and so forth) to contain AppleScript code, to be displayed by a script editor application when the link is clicked. (The script editor application does not automatically <em>run</em> the code, as that would be a security violation.) By default, the protocol sends its messages to Apple&#8217;s AppleScript Editor, and Apple provides no interface for changing this target. This checkbox is provided so that you can switch the routing of the protocol to Script Debugger.</p>
+        </dd>
+        <dt>Default editor for OSA scripts, applets, and droplets</dt>
+        <dd>
+          <p>Mac OS X determines from a document&#8217;s filename extension <a href="../../openingafolder/savefolder/fileowne.html">what application</a> opens the file. This checkbox lets you associate the relevant filename extensions (<em>.scpt</em> and so on) with Script Debugger. (It also causes Script Debugger to be the editor that responds to the Edit button in an <a href="../../openingafolder/savefolder/formatsfolder/applicat.html">applet&#8217;s</a> runtime error dialog.)</p>
+        </dd>
+        <dd>
+          <blockquote>
+            <p>In theory, you could accomplish the same thing by choosing Script Debugger in the Default Script Editor pop-up menu of Apple&#8217;s own AppleScript Editor&#8217;s preferences. </p>
+          </blockquote>
+        </dd>
+      </dl>
+
+    </div>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle" />
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top" />
+<td align="right" style="width:50%" valign="top">
+<a href="editor.html">Preferences: Editor</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="editor.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

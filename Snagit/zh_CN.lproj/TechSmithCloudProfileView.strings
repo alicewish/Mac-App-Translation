@@ -1,0 +1,15 @@
+
+/* Class = "NSTextFieldCell"; title = "Account:"; ObjectID = "22"; */
+"22.title" = "Account:";
+
+/* Class = "NSTextFieldCell"; title = "Folder:"; ObjectID = "198"; */
+"198.title" = "Folder:";
+
+/* Class = "NSButtonCell"; title = "Ask for filename and location each time"; ObjectID = "211"; */
+"211.title" = "Ask for filename and location each time";
+
+/* Class = "NSButtonCell"; title = "Browse..."; ObjectID = "316"; */
+"316.title" = "Browse...";
+
+/* Class = "NSTextFieldCell"; title = "Description:"; ObjectID = "KFG-rN-a9F"; */
+"KFG-rN-a9F.title" = "Description:";

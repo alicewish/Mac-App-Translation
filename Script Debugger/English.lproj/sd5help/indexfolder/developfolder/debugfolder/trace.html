@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Tracing is like executing, only it’s slower — slow enough that you can actually see the green arrow moving along the path of execution." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Trace</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../debug.html">Debug</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Trace</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="callchain.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Tracing is like <a href="executew.html">executing</a>, only it&#8217;s slower — slow enough that you can actually see the green arrow moving along the <a href="pause.html">path of execution</a>.</p>
+
+    <p><strong>To trace</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose Script &gt; Trace.</p>
+      </li>
+      <li>
+        <p>Or, click Trace in the toolbar.</p>
+      </li>
+    </ul>
+
+    <p>The <strong>speed of tracing</strong> is determined by the trace speed slider. To <strong>see the trace speed slider</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose Script &gt; Trace. The slider is in the hierarchical menu (the <a href="../runfolder/executefolder/handlers.html">Event Handler menu</a>).</p>
+      </li>
+      <li>
+        <p>Or, hold down Trace in the toolbar. The slider is in the pop-up menu (the <a href="../runfolder/executefolder/handlers.html">Event Handler menu</a>).</p>
+
+        <blockquote>
+          <p>This gesture can be a little finicky, because you have to get the Event Handler menu to remain open. Hold the mouse down in the Trace button in the toolbar, until the <a href="../runfolder/executefolder/handlers.html">Event Handler menu</a> appears. <em>Still holding the mouse down</em>, slide the pointer until it is <em>over the menu</em>. Now release the mouse. The Event Handler menu stays. Now you can manipulate the trace speed slider.</p>
+        </blockquote>
+      </li>
+      <li>
+        <p>Or, having <a href="../../referencfolder/windowsfolder/toolbar.html">customized the toolbar</a> so that it includes the trace speed slider, use the slider in the toolbar.</p>
+      </li>
+    </ul>
+
+    <p>The trace speed slider ranges between &#8220;tortoise&#8221; at the left and &#8220;hare&#8221; at the right.</p>
+
+    <div style="text-align:center"><img src="../../../images/tortoiseAndHare.png" width="168" height="48" alt="image" /></div>
+
+    <p>Tracing is in one sense just a slower form of execution, and will <a href="pause.html">pause</a> for the same reasons (e.g., because a <a href="breakpoi.html">breakpoint</a> is encountered, or because you issue the <a href="pause.html">Pause</a> command). However, what&#8217;s really happening is that Script Debugger is pausing and resuming after <em>every</em> executed line. This means that you can see more than the green arrow moving — you can also see the <a href="callchain.html">call stack</a> growing and shrinking, and the <a href="variablesdebug.html">variable values</a> changing, and successive <a href="../runfolder/result.html">results</a> appearing, just as you would if you if were repeatedly issuing the <a href="step.html">Step Into</a> command.</p>
+
+    <blockquote>
+      <p>Trace has the same <a href="../runfolder/executefolder/handlers.html">options for executing handlers</a> as Execute.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="step.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="step.html">Step</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="callchain.html">Call Stack</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="callchain.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

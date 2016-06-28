@@ -1,0 +1,27 @@
+
+/* Class = "NSButton"; ibShadowedToolTip = "Previous Frame"; ObjectID = "26"; */
+"26.ibShadowedToolTip" = "Previous Frame";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Next Frame"; ObjectID = "28"; */
+"28.ibShadowedToolTip" = "Next Frame";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture frame to new image"; ObjectID = "30"; */
+"30.ibShadowedToolTip" = "Capture frame to new image";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "58"; */
+"58.title" = "00:00:00";
+
+/* Class = "NSTextFieldCell"; title = "00:00:00"; ObjectID = "62"; */
+"62.title" = "00:00:00";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture frame to new image"; ObjectID = "5RM-vy-QOm"; */
+"5RM-vy-QOm.ibShadowedToolTip" = "Capture frame to new image";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Capture frame to new image"; ObjectID = "dNT-fZ-bM7"; */
+"dNT-fZ-bM7.ibShadowedToolTip" = "Capture frame to new image";
+
+/* Class = "NSButtonCell"; title = "CUT"; ObjectID = "uB4-Ex-AAB"; */
+"uB4-Ex-AAB.title" = "CUT";
+
+/* Class = "NSPanel"; title = "1024"; ObjectID = "zru-87-ZVw"; */
+"zru-87-ZVw.title" = "1024";

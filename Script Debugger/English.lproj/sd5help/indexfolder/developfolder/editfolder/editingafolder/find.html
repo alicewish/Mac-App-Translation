@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="To search (and replace) within a script, you’ll use the find bar and the Search menu." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Find</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../edit.html">Edit</a>&#160;&gt; <a href="../editinga.html">Editing and Navigation</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:120px">
+
+<a href="../../../../toc.html">Contents</a>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Find</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="goto.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>To search (and replace) within a script, you&#8217;ll use the find bar and the Search menu.</p>
+
+    <p>To <strong>summon the find bar</strong>:</p>
+
+    <ul>
+      <li>Choose Search &gt; Find.</li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/findBar.png" width="410" height="48" alt="image" /></div>
+
+    <p>To <strong>dismiss the find bar</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Click Done in the find bar.</p>
+      </li>
+      <li>
+        <p>Or, press Esc.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>configure a search</strong> in the find bar, use the checkboxes:</p>
+
+    <ul>
+      <li>
+        <p><strong>RegEx</strong>. If checked, the search string (and replace string) will be interpreted as a regular expression. Script Debugger uses the <a href="http://icu-project.org/userguide/regexp.html" class="external">ICU flavor</a> of regular expression syntax. </p>
+
+        <blockquote>
+          <p>By default, <code>.</code> doesn&#8217;t match the return character at the end of a line; you can reverse this with the <code style="white-space:nowrap">(?s)</code> flag.</p>
+        </blockquote>
+      </li>
+      <li>
+        <p><strong>Match Word</strong>. If checked, the search string is sought between word boundaries.</p>
+      </li>
+      <li>
+        <p><strong>Ignore Case</strong>. If checked, the search is case-insensitive.</p>
+      </li>
+      <li>
+        <p><strong>Wrap</strong>. If checked, successive Find Again commands loop around the document. If unchecked, Replace All affects text only after the start of the current selection.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>perform a search</strong>:</p>
+
+    <ul>
+      <li>
+        <p>The search is initially performed automatically as you edit the search string.</p>
+      </li>
+      <li>
+        <p>To search forward or backward, choose Search &gt; Find Again (Backwards), or click the arrow buttons in the find bar.</p>
+
+        <blockquote>
+          <p>The Wrap checkbox affects the behavior of this command.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <p>To <strong>perform a search-and-replace</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Click the <strong><code>&amp; Replace</code></strong> button to reveal the replace string and Replace buttons.</p>
+      </li>
+      <li>
+        <p>Click a Replace button or choose a Replace command from the Search menu.</p>
+
+        <blockquote>
+          <p>The Wrap checkbox affects the behavior of Replace All (and Replace &amp; Find).</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <p>You can use <strong>selected text</strong> as the search or replace term; choose Search &gt; Find Selection (Backwards) or Use Selection for Find/Replace.</p>
+
+    <p>To <strong>recall a recent search</strong>, click the magnifying-glass icon in the search field.</p>
+
+    <p>An <a href="../../../referencfolder/preferencfolder/editor.html">Editor preference</a>, &#8220;Share Find string with other applications,&#8221; determines whether the search string is shared with the system-wide Find pasteboard.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="split.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="split.html">Splitting the Editor</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="goto.html">Go To Line</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="goto.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+
+/* Class = "NSTextFieldCell"; title = "kbits/sec"; ObjectID = "67"; */
+"67.title" = "kbits/sec";
+
+/* Class = "NSTextFieldCell"; title = "Datarate:"; ObjectID = "68"; */
+"68.title" = "Datarate:";
+
+/* Class = "NSTextFieldCell"; title = "kHz"; ObjectID = "71"; */
+"71.title" = "kHz";
+
+/* Class = "NSTextFieldCell"; title = "Sample rate:"; ObjectID = "72"; */
+"72.title" = "Sample rate:";
+
+/* Class = "NSTextFieldCell"; title = "kbits/sec"; ObjectID = "74"; */
+"74.title" = "kbits/sec";
+
+/* Class = "NSTextFieldCell"; title = "fps"; ObjectID = "75"; */
+"75.title" = "fps";
+
+/* Class = "NSTextFieldCell"; title = "Profile:"; ObjectID = "76"; */
+"76.title" = "Profile:";
+
+/* Class = "NSTextFieldCell"; title = "Datarate:"; ObjectID = "77"; */
+"77.title" = "Datarate:";
+
+/* Class = "NSTextFieldCell"; title = "Framerate:"; ObjectID = "78"; */
+"78.title" = "Framerate:";
+
+/* Class = "NSButtonCell"; title = "AAC Audio"; ObjectID = "79"; */
+"79.title" = "AAC Audio";
+
+/* Class = "NSButtonCell"; title = "H.264 Video"; ObjectID = "80"; */
+"80.title" = "H.264 Video";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "82"; */
+"82.title" = "OK";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "122"; */
+"122.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "Automatic"; ObjectID = "8FC-wT-ixI"; */
+"8FC-wT-ixI.title" = "Automatic";
+
+/* Class = "NSTextFieldCell"; title = "Channels:"; ObjectID = "AN9-o8-GRh"; */
+"AN9-o8-GRh.title" = "Channels:";
+
+/* Class = "NSTextFieldCell"; title = "frames"; ObjectID = "PYe-Xl-JIs"; */
+"PYe-Xl-JIs.title" = "frames";
+
+/* Class = "NSTextFieldCell"; title = "Keyframe Rate:"; ObjectID = "WUi-YL-C7G"; */
+"WUi-YL-C7G.title" = "Keyframe Rate:";
+
+/* Class = "NSButtonCell"; title = "Stereo"; ObjectID = "XMB-ie-gZA"; */
+"XMB-ie-gZA.title" = "Stereo";
+
+/* Class = "NSButtonCell"; title = "Fixed every"; ObjectID = "ZPf-ht-Saq"; */
+"ZPf-ht-Saq.title" = "Fixed every";
+
+/* Class = "NSButtonCell"; title = "Mono"; ObjectID = "zzX-Ng-MP1"; */
+"zzX-Ng-MP1.title" = "Mono";
