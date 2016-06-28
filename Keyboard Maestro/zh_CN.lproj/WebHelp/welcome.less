@@ -1,0 +1,113 @@
+@height: 530px;
+
+div#main {
+
+	width: 75%;
+	float: left;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#FFF), color-stop(0.4, #FFF), color-stop(0.405, #E8E8E8), color-stop(0.53, #FFF));
+	height: @height;
+
+	div#screenshot {
+		text-align: center;
+		margin: 20px auto 0 auto;
+	}
+	
+	h1 {
+		font-weight: bold;
+		font-size: 28px;
+		text-align: center;
+		color: black;
+		-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.4)), to(rgba(0,0,0,1)));
+		text-shadow: 2px 2px 1px rgba(0,0,0,0.3);
+		margin-top: 10px;
+	}
+	
+	h2 {
+		font-weight: bold;
+		font-size: 18px;
+		text-align: center;
+		padding: 10px 0 0 0;
+		color: #444;
+	}
+	
+	p {
+		margin: 0 auto 0 auto;
+		width: 75%;
+		font-size: 15px;
+		text-align: center;
+		padding: 10px 0 0 0;
+		color: #444;
+	}
+	
+	button {
+		height: 40px;
+		-webkit-border-radius:20px;
+		font-size: 15px;
+		margin-top: 7px;
+		border: 2px solid #DDD;
+		background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#333));
+		color: #EEE;
+	}
+	
+	button:first-child {
+		padding: 0 20px 0 20px;
+	}
+	
+}
+
+div#side {
+	height: @height;
+	width: 25%;
+	float: right;
+	background: #EEEEEE;
+	border-left: 1px solid #E5E5E5;
+		
+	p.sideicon {
+		margin-top: 25px;
+		margin-left: 20px;
+	}
+	
+	h2 {
+		font-size: 18px;
+		padding: 3px 0 0 0;
+		margin-left: 20px;
+		color: #444;
+	}
+	
+	span.triangle {
+		color: #008ACE;
+	}
+	
+	p {
+		font-size: 13px;
+		padding: 0 0 0 0;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #444;
+		line-height: 1.5;
+	}
+	
+}
+
+div#footerwrap {
+	clear: both;
+	border-top: 1px solid #666;
+}
+
+div#footer {
+	height: 50px;
+	background: -webkit-gradient(linear, left top, left bottom, from(#C4C4C4), to(#979797));
+	border-top: 1px solid #E2E2E2;
+	font-size: 10px;
+}
+
+div#footercheckbox {
+	padding-top: 12px;
+	padding-left: 12px;
+
+	label {
+		font-size: 13px;
+	}
+}
+
+

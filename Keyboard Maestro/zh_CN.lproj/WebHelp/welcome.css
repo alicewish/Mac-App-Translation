@@ -1,0 +1,85 @@
+div#main {
+  width: 75%;
+  float: left;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff), color-stop(0.4, #ffffff), color-stop(0.405, #e8e8e8), color-stop(0.53, #ffffff));
+  height: 530px;
+}
+div#main div#screenshot {
+  text-align: center;
+  margin: 20px auto 0 auto;
+}
+div#main h1 {
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  color: black;
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(#000000));
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+}
+div#main h2 {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  color: #444444;
+}
+div#main p {
+  margin: 0 auto 0 auto;
+  width: 75%;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px 0 0 0;
+  color: #444444;
+}
+div#main button {
+  height: 40px;
+  -webkit-border-radius: 20px;
+  font-size: 15px;
+  margin-top: 7px;
+  border: 2px solid #dddddd;
+  background: -webkit-gradient(linear, left top, left bottom, from(#999999), to(#333333));
+  color: #eeeeee;
+}
+div#main button:first-child { padding: 0 20px 0 20px; }
+div#side {
+  height: 530px;
+  width: 24.89%;
+  float: right;
+  background: #eeeeee;
+  border-left: 1px solid #e5e5e5;
+}
+div#side p.sideicon {
+  margin-top: 25px;
+  margin-left: 20px;
+}
+div#side h2 {
+  font-size: 18px;
+  padding: 3px 0 0 0;
+  margin-left: 20px;
+  color: #444444;
+}
+div#side span.triangle { color: #008ace; }
+div#side p {
+  font-size: 13px;
+  padding: 0 0 0 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #444444;
+  line-height: 1.5;
+}
+div#footerwrap {
+  clear: both;
+  border-top: 1px solid #666666;
+}
+div#footer {
+  height: 50px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c4c4c4), to(#979797));
+  border-top: 1px solid #e2e2e2;
+  font-size: 10px;
+}
+div#footercheckbox {
+  padding-top: 12px;
+  padding-left: 12px;
+}
+div#footercheckbox label { font-size: 13px; }
