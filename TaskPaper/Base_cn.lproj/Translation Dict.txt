@@ -1,0 +1,247 @@
+Bigger
+Bigger
+Branch Left
+Branch Left
+Promote Children
+Promote Children
+Line Up
+Line Up
+Quit Birch
+Quit Birch
+About Birch
+About Birch
+Redo
+Redo
+Correct Spelling Automatically
+Correct Spelling Automatically
+Fold
+Fold
+Column 80
+Column 80
+Column 40
+Column 40
+Adjectives
+Adjectives
+Smart Copy/Paste
+Smart Copy/Paste
+Save As…
+Save As…
+Underline
+Underline
+Close
+Close
+Birch Help
+Birch Help
+Column 120
+Column 120
+Select All
+Select All
+Text Replacement
+Text Replacement
+Show Spelling and Grammar
+Show Spelling and Grammar
+Open…
+Open…
+Revert to Saved
+Revert to Saved
+Show All
+Show All
+Bring All to Front
+Bring All to Front
+Line Right
+Line Right
+Branch Down
+Branch Down
+Minimize
+Minimize
+Hide Birch
+Hide Birch
+Find Previous
+Find Previous
+Stop Speaking
+Stop Speaking
+Group
+Group
+Wrap to Window
+Wrap to Window
+Zoom
+Zoom
+Jump to Selection
+Jump to Selection
+Verbs
+Verbs
+Capitalize
+Capitalize
+Demote Trailing Siblings
+Demote Trailing Siblings
+Bold
+Bold
+Select Branch
+Select Branch
+Hide Others
+Hide Others
+Sentance
+Sentance
+Find…
+Find…
+Find and Replace…
+Find and Replace…
+Start Speaking
+Start Speaking
+Contract Selection
+Contract Selection
+Unfocus
+Unfocus
+Search
+Search
+Duplicate
+Duplicate
+Print…
+Print…
+Nouns
+Nouns
+Use Selection for Find
+Use Selection for Find
+Column 200
+Column 200
+Column 60
+Column 60
+Expand Selection
+Expand Selection
+Smart Links
+Smart Links
+Column 66
+Column 66
+Make Lower Case
+Make Lower Case
+Undo
+Undo
+Decrease Folding Level
+Decrease Folding Level
+Paste
+Paste
+Select Sentence
+Select Sentence
+Select Paragraph
+Select Paragraph
+Smart Quotes
+Smart Quotes
+Check Document Now
+Check Document Now
+Line Down
+Line Down
+Italic
+Italic
+Focus
+Focus
+Branch Up
+Branch Up
+Check Grammar With Spelling
+Check Grammar With Spelling
+Delete
+Delete
+Search by Tag
+Search by Tag
+Save…
+Save…
+Find Next
+Find Next
+Page Setup…
+Page Setup…
+Smaller
+Smaller
+Select Word
+Select Word
+Check Spelling While Typing
+Check Spelling While Typing
+Smart Dashes
+Smart Dashes
+Fold Completely
+Fold Completely
+Adverbs
+Adverbs
+Data Detectors
+Data Detectors
+Branch Right
+Branch Right
+Column 90
+Column 90
+Focus by Project
+Focus by Project
+Clear Menu
+Clear Menu
+Make Upper Case
+Make Upper Case
+Line Left
+Line Left
+Copy
+Copy
+Column 50
+Column 50
+Show Substitutions
+Show Substitutions
+Increase Folding Level
+Increase Folding Level
+Main Menu
+Main Menu
+Birch
+Birch
+Birch
+Services
+Services
+Services
+File
+File
+File
+Open Recent
+Open Recent
+Open Recent
+Edit
+Edit
+Edit
+Selection
+Selection
+Selection
+Find
+Find
+Find
+Spelling and Grammar
+Spelling and Grammar
+Spelling
+Spelling
+Speech
+Speech
+Speech
+Format
+Format
+Format
+Line Wrap Width
+Line Wrap Width
+Line Wrap Width
+Line Wrap Width
+View
+View
+View
+Focus
+Focus
+Organize
+Organize
+Organize
+Move
+Move
+Move
+Window
+Window
+Window
+Help
+Help
+Help
+System
+TextView
+Window
+Window
+Space
+Search
+Search
+Search
+Flexible Space
