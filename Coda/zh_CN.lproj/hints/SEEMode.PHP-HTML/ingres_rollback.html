@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ingres_rollback</title>
+	<script>	
+		var exampleText = "bool ingres_rollback ( resource $link )";
+	</script>
+</head>
+
+<body class="html ingres_rollback">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ingres_rollback</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">ingres_rollback</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ingres_rollback() rolls back the currently open transaction, actually cancelling all changes made to the database during the transaction. This closes the transaction. A new transaction can be opened by sending a query with ingres_query().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_escape_literal</title>
+	<script>	
+		var exampleText = "string pg_escape_literal ([ resource $connection ], string $data )";
+	</script>
+</head>
+
+<body class="html pg_escape_literal">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_escape_literal</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">pg_escape_literal</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ], <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_escape_literal() escapes a literal for querying the PostgreSQL database. It returns an escaped literal in the PostgreSQL format. pg_escape_literal() adds quotes before and after data. Users should not add quotes. Use of this function is recommended instead of pg_escape_string(). If the type of the column is bytea, pg_escape_bytea() must be used instead. For escaping identifiers (e.g. table, field names), pg_escape_identifier() must be used. Note: This function has internal escape code and can also be used with PostgreSQL 8.4 or less.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A string containing the escaped data.</p>	</section>
+
+	
+
+</body>
+</html>

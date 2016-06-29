@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>current</title>
+	<script>	
+		var exampleText = "mixed current ( array &$array )";
+	</script>
+</head>
+
+<body class="html current">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>current</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">current</span> ( <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">array</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Every array has an internal pointer to its &quot;current&quot; element, which is initialized to the first element inserted into the array.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The current() function simply returns the value of the array element that&#039;s currently being pointed to by the internal pointer. It does not move the pointer in any way. If the internal pointer points beyond the end of the elements list or the array is empty, current() returns FALSE. Warning: This function may return Boolean FALSE, but may also return a non-Boolean value which evaluates to FALSE, such as 0 or &quot;&quot;. Please read the section on Booleans for more information. Use the === operator for testing the return value of this function.</p>	</section>
+
+	
+
+</body>
+</html>

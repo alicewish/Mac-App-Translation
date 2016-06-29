@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>min</title>
+	<script>	
+		var exampleText = "mixed min ( array $values )";
+	</script>
+</head>
+
+<body class="html min">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>min</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">min</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">values</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>If the first and only parameter is an array, min() returns the lowest value in that array. If at least two parameters are provided, min() returns the smallest of these values. Note: PHP will evaluate a non-numeric string as 0 if compared to integer, but still return the string if it&#039;s seen as the numerically lowest value. If multiple arguments evaluate to 0, min() will return the lowest alphanumerical string value if any strings are given, else a numeric 0 is returned.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>min() returns the numerically lowest of the parameter values.</p>	</section>
+
+	
+
+</body>
+</html>

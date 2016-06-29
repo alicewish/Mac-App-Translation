@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>preg_quote</title>
+	<script>	
+		var exampleText = "string preg_quote ( string $str [, string $delimiter = NULL ] )";
+	</script>
+</head>
+
+<body class="html preg_quote">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>preg_quote</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">preg_quote</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">delimiter</span></span> = <span class="identifier">NULL</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>preg_quote() takes str and puts a backslash in front of every character that is part of the regular expression syntax. This is useful if you have a run-time string that you need to match in some text and the string may contain special regex characters. The special regular expression characters are: . \ + * ? [ ^ ] $ ( ) { } = ! &lt;<code> </code>&gt; | : -</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the quoted string.</p>	</section>
+
+	
+
+</body>
+</html>

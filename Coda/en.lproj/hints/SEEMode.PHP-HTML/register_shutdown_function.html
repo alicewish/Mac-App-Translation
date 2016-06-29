@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>register_shutdown_function</title>
+	<script>	
+		var exampleText = "void register_shutdown_function ( callback $callback [, mixed $parameter [, mixed $... ]] )";
+	</script>
+</head>
+
+<body class="html register_shutdown_function">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>register_shutdown_function</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">void</span> <span class="identifier">register_shutdown_function</span> ( <span class="identifier">callback</span> <span class="tag">$<span class="identifier">callback</span></span> [, <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">parameter</span></span> [, <span class="identifier">mixed</span> <span class="tag">$</span>... ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Registers a callback to be executed after script execution finishes or exit() is called. Multiple calls to register_shutdown_function() can be made, and each will be called in the same order as they were registered. If you call exit() within one registered shutdown function, processing will stop completely and no other registered shutdown functions will be called.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>No value is returned.</p>	</section>
+
+	
+
+</body>
+</html>

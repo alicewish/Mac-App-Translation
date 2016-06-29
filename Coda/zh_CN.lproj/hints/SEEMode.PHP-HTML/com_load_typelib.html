@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>com_load_typelib</title>
+	<script>	
+		var exampleText = "bool com_load_typelib ( string $typelib_name [, bool $case_insensitive = true ] )";
+	</script>
+</head>
+
+<body class="html com_load_typelib">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>com_load_typelib</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">com_load_typelib</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">typelib_name</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">case_insensitive</span></span> = <span class="keyword literal">true</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Loads a type-library and registers its constants in the engine, as though they were defined using define(). Note that it is much more efficient to use the configuration setting to pre-load and register the constants, although not so flexible. If you have turned on , then PHP will attempt to automatically register the constants associated with a COM object when you instantiate it. This depends on the interfaces provided by the COM object itself, and may not always be possible.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

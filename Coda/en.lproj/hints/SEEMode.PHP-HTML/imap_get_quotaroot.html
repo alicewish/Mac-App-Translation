@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_get_quotaroot</title>
+	<script>	
+		var exampleText = "array imap_get_quotaroot ( resource $imap_stream , string $quota_root )";
+	</script>
+</head>
+
+<body class="html imap_get_quotaroot">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_get_quotaroot</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">imap_get_quotaroot</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">imap_stream</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">quota_root</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Retrieve the quota settings per user. The limit value represents the total amount of space allowed for this user&#039;s total mailbox usage. The usage value represents the user&#039;s current total mailbox capacity.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of integer values pertaining to the specified user mailbox. All values contain a key based upon the resource name, and a corresponding array with the usage and limit values within. This function will return FALSE in the case of call failure, and an array of information about the connection upon an un-parsable response from the server.</p>	</section>
+
+	
+
+</body>
+</html>

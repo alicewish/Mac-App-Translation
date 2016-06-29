@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ingres_unbuffered_query</title>
+	<script>	
+		var exampleText = "mixed ingres_unbuffered_query ( resource $link , string $query [, array $params [, string $types ]] )";
+	</script>
+</head>
+
+<body class="html ingres_unbuffered_query">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ingres_unbuffered_query</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">ingres_unbuffered_query</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> [, <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">params</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">types</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ingres_unbuffered_query() sends the given query to the Ingres server. The query becomes part of the currently open transaction. If there is no open transaction, ingres_unbuffered_query() opens a new transaction. To close the transaction, you can call either ingres_commit() to commit the changes made to the database or ingres_rollback() to cancel these changes. When the script ends, any open transaction is rolled back (by calling ingres_rollback()). You can also use ingres_autocommit() before opening a new transaction to have every SQL query immediately committed. Ingres allows only a single unbuffered statement to be active at any one time. The extension will close any active unbuffered statements before executing any SQL. In addition you cannot use ingres_result_seek() to position the row before fetching. <br> Note: Related Configurations See also the ingres.describe and ingres.utf8 directives in Runtime Configuration.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>ingres_unbuffered_query() returns a query result identifier when there are rows to fetch; else it returns FALSE when there are no rows, as is the case of an INSERT, UPDATE, or DELETE statement. To see if an error occurred, use ingres_errno(), ingres_error(), or ingres_errsqlstate().</p>	</section>
+
+	
+
+</body>
+</html>

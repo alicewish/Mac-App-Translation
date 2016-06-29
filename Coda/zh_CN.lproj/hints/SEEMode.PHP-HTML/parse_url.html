@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>parse_url</title>
+	<script>	
+		var exampleText = "mixed parse_url ( string $url [, int $component = -1 ] )";
+	</script>
+</head>
+
+<body class="html parse_url">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>parse_url</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">parse_url</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">url</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">component</span></span> = -<span class="number">1</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function parses a URL and returns an associative array containing any of the various components of the URL that are present. This function is not meant to validate the given URL, it only breaks it up into the above listed parts. Partial URLs are also accepted, parse_url() tries its best to parse them correctly.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>On seriously malformed URLs, parse_url() may return FALSE. If the component parameter is omitted, an associative array is returned. At least one element will be present within the array. Potential keys within this array are: scheme - e.g. http host port user pass path query - after the question mark ? fragment - after the hashmark # If the component parameter is specified, parse_url() returns a string (or an integer, in the case of PHP_URL_PORT) instead of an array. If the requested component doesn&#039;t exist within the given URL, NULL will be returned.</p>	</section>
+
+	
+
+</body>
+</html>

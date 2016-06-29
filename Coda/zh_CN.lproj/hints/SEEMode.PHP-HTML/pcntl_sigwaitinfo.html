@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pcntl_sigwaitinfo</title>
+	<script>	
+		var exampleText = "int pcntl_sigwaitinfo ( array $set [, array &$siginfo ] )";
+	</script>
+</head>
+
+<body class="html pcntl_sigwaitinfo">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pcntl_sigwaitinfo</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">pcntl_sigwaitinfo</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">set</span></span> [, <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">siginfo</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>The pcntl_sigwaitinfo() function suspends execution of the calling script until one of the signals given in set are delivered. If one of the signal is already pending (e.g. blocked by pcntl_sigprocmask()), pcntl_sigwaitinfo() will return immediately.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>On success, pcntl_sigwaitinfo() returns a signal number.</p>	</section>
+
+	
+
+</body>
+</html>

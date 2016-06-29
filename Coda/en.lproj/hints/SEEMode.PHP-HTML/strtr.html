@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>strtr</title>
+	<script>	
+		var exampleText = "string strtr ( string $str , string $from , string $to )";
+	</script>
+</head>
+
+<body class="html strtr">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>strtr</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">strtr</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">from</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">to</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>If given three arguments, this function returns a copy of str where all occurrences of each (single-byte) character in from have been translated to the corresponding character in to, i.e., every occurrence of $from[$n] has been replaced with $to[$n], where $n is a valid offset in both arguments. If from and to have different lengths, the extra characters in the longer of the two are ignored. The length of str will be the same as the return value&#039;s. If given two arguments, the second should be an array in the form array(&#039;from&#039; =&gt; &#039;to&#039;, ...). The return value is a string where all the occurrences of the array keys have been replaced by the corresponding values. The longest keys will be tried first. Once a substring has been replaced, its new value will not be searched again. In this case, the keys and the values may have any length, provided that there is no empty key; additionaly, the length of the return value may differ from that of str. However, this function will be the most efficient when all the keys have the same size.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the translated string. If replace_pairs contains a key which is an empty string (&quot;&quot;), FALSE will be returned.</p>	</section>
+
+	
+
+</body>
+</html>

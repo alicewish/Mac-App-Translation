@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>max</title>
+	<script>	
+		var exampleText = "mixed max ( array $values )";
+	</script>
+</head>
+
+<body class="html max">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>max</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">max</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">values</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>If the first and only parameter is an array, max() returns the highest value in that array. If at least two parameters are provided, max() returns the biggest of these values. Note: PHP will evaluate a non-numeric string as 0 if compared to integer, but still return the string if it&#039;s seen as the numerically highest value. If multiple arguments evaluate to 0, max() will return a numeric 0 if given, else the alphabetical highest string value will be returned.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>max() returns the numerically highest of the parameter values. If multiple values can be considered of the same size, the one that is listed first will be returned. When max() is given multiple arrays, the longest array is returned. If all the arrays have the same length, max() will use lexicographic ordering to find the return value. When given a string it will be cast as an integer when comparing.</p>	</section>
+
+	
+
+</body>
+</html>

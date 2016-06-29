@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>get_html_translation_table</title>
+	<script>	
+		var exampleText = "array get_html_translation_table ([ int $table = HTML_SPECIALCHARS [, int $quote_style = ENT_COMPAT [, string $charset_hint ]]] )";
+	</script>
+</head>
+
+<body class="html get_html_translation_table">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>get_html_translation_table</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">get_html_translation_table</span> ([ <span class="keyword type">int</span> <span class="tag">$<span class="identifier">table</span></span> = <span class="identifier">HTML_SPECIALCHARS</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">quote_style</span></span> = <span class="identifier">ENT_COMPAT</span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">charset_hint</span></span> ]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>get_html_translation_table() will return the translation table that is used internally for htmlspecialchars() and htmlentities() with the default charset. Note: Special characters can be encoded in several ways. E.g. &quot; can be encoded as &amp;quot;, &amp;#34; or &amp;#x22. get_html_translation_table() returns only the form used by htmlspecialchars() and htmlentities().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the translation table as an array.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_create_functionSQLiteDatabase-createFunction</title>
+	<script>	
+		var exampleText = "void sqlite_create_function ( resource $dbhandle , string $function_name , callback $callback [, int $num_args = -1 ] )";
+	</script>
+</head>
+
+<body class="html sqlite_create_functionSQLiteDatabase-createFunction">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_create_functionSQLiteDatabase-createFunction</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">void</span> <span class="identifier">sqlite_create_function</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">dbhandle</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">function_name</span></span> , <span class="identifier">callback</span> <span class="tag">$<span class="identifier">callback</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">num_args</span></span> = -<span class="number">1</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Object oriented style (method): void SQLiteDatabase::createFunction ( string $function_name , callback $callback [, int $num_args = -1 ] )<br> sqlite_create_function() allows you to register a PHP function with SQLite as an UDF (User Defined Function), so that it can be called from within your SQL statements. The UDF can be used in any SQL statement that can call functions, such as SELECT and UPDATE statements and also in triggers.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>No value is returned.</p>	</section>
+
+	
+
+</body>
+</html>

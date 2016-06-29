@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>readline_callback_handler_install</title>
+	<script>	
+		var exampleText = "bool readline_callback_handler_install ( string $prompt , callback $callback )";
+	</script>
+</head>
+
+<body class="html readline_callback_handler_install">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>readline_callback_handler_install</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">readline_callback_handler_install</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">prompt</span></span> , <span class="identifier">callback</span> <span class="tag">$<span class="identifier">callback</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sets up a readline callback interface then prints prompt and immediately returns. Calling this function twice without removing the previous callback interface will automatically and conveniently overwrite the old interface. The callback feature is useful when combined with stream_select() as it allows interleaving of IO and user input, unlike readline().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

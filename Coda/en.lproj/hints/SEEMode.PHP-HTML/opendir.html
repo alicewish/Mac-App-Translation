@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>opendir</title>
+	<script>	
+		var exampleText = "resource opendir ( string $path [, resource $context ] )";
+	</script>
+</head>
+
+<body class="html opendir">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>opendir</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">opendir</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">path</span></span> [, <span class="identifier">resource</span> <span class="tag">$<span class="identifier">context</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Opens up a directory handle to be used in subsequent closedir(), readdir(), and rewinddir() calls.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a directory handle resource on success, or FALSE on failure. If path is not a valid directory or the directory can not be opened due to permission restrictions or filesystem errors, opendir() returns FALSE and generates a PHP error of level E_WARNING. You can suppress the error output of opendir() by prepending &#039;@&#039; to the front of the function name.</p>	</section>
+
+	
+
+</body>
+</html>

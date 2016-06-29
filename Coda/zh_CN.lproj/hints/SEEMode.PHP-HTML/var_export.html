@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>var_export</title>
+	<script>	
+		var exampleText = "mixed var_export ( mixed $expression [, bool $return = false ] )";
+	</script>
+</head>
+
+<body class="html var_export">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>var_export</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">var_export</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">expression</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">return</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>var_export() gets structured information about the given variable. It is similar to var_dump() with one exception: the returned representation is valid PHP code.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the variable representation when the return parameter is used and evaluates to TRUE. Otherwise, this function will return NULL.</p>	</section>
+
+	
+
+</body>
+</html>

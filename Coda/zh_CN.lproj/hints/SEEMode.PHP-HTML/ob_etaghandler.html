@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ob_etaghandler</title>
+	<script>	
+		var exampleText = "string ob_etaghandler ( string $data , int $mode )";
+	</script>
+</head>
+
+<body class="html ob_etaghandler">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ob_etaghandler</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">ob_etaghandler</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">mode</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ETag output handler</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>For use with ob_start().  Output buffer handler generating an ETag with the hash algorithm specified with the INI setting http.etag.mode.  This output handler is used by http_cache_etag().
+
+</p>	</section>
+
+	
+
+</body>
+</html>

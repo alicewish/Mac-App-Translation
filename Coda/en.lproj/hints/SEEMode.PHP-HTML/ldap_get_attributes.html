@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ldap_get_attributes</title>
+	<script>	
+		var exampleText = "array ldap_get_attributes ( resource $link_identifier , resource $result_entry_identifier )";
+	</script>
+</head>
+
+<body class="html ldap_get_attributes">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ldap_get_attributes</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ldap_get_attributes</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> , <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result_entry_identifier</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Reads attributes and values from an entry in the search result. Having located a specific entry in the directory, you can find out what information is held for that entry by using this call. You would use this call for an application which &quot;browses&quot; directory entries and/or where you do not know the structure of the directory entries. In many applications you will be searching for a specific attribute such as an email address or a surname, and won&#039;t care what other data is held. <br> return_value[&quot;count&quot;] = number of attributes in the entry return_value[0] = first attribute return_value[n] = nth attribute<br> return_value[&quot;attribute&quot;][&quot;count&quot;] = number of values for attribute return_value[&quot;attribute&quot;][0] = first value of the attribute return_value[&quot;attribute&quot;][i] = (i+1)th value of the attribute</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a complete entry information in a multi-dimensional array on success and FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

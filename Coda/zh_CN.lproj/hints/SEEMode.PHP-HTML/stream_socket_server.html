@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>stream_socket_server</title>
+	<script>	
+		var exampleText = "resource stream_socket_server ( string $local_socket [, int &$errno [, string &$errstr [, int $flags = STREAM_SERVER_BIND | STREAM_SERVER_LISTEN [, resource $context ]]]] )";
+	</script>
+</head>
+
+<body class="html stream_socket_server">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>stream_socket_server</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">stream_socket_server</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">local_socket</span></span> [, <span class="keyword type">int</span> &amp;<span class="tag">$<span class="identifier">errno</span></span> [, <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">errstr</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">flags</span></span> = <span class="identifier">STREAM_SERVER_BIND</span> | <span class="identifier">STREAM_SERVER_LISTEN</span> [, <span class="identifier">resource</span> <span class="tag">$<span class="identifier">context</span></span> ]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Creates a stream or datagram socket on the specified local_socket. This function only creates a socket, to begin accepting connections use stream_socket_accept().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the created stream, or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

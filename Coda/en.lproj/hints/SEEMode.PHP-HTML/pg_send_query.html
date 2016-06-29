@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_send_query</title>
+	<script>	
+		var exampleText = "bool pg_send_query ( resource $connection , string $query )";
+	</script>
+</head>
+
+<body class="html pg_send_query">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_send_query</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">pg_send_query</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_send_query() sends a query or queries asynchronously to the connection. Unlike pg_query(), it can send multiple queries at once to PostgreSQL and get the results one by one using pg_get_result(). Script execution is not blocked while the queries are executing. Use pg_connection_busy() to check if the connection is busy (i.e. the query is executing). Queries may be cancelled using pg_cancel_query(). Although the user can send multiple queries at once, multiple queries cannot be sent over a busy connection. If a query is sent while the connection is busy, it waits until the last query is finished and discards all its results.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure. Use pg_get_result() to determine the query result.</p>	</section>
+
+	
+
+</body>
+</html>

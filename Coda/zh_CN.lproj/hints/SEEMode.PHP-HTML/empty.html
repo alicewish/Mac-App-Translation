@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>empty</title>
+	<script>	
+		var exampleText = "bool empty ( mixed $var )";
+	</script>
+</head>
+
+<body class="html empty">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>empty</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="keyword builtin">empty</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">var</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Determine whether a variable is considered to be empty.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns FALSE if var has a non-empty and non-zero value. The following things are considered to be empty: &quot;&quot; (an empty string) 0 (0 as an integer) 0.0 (0 as a float) &quot;0&quot; (0 as a string) NULL FALSE array() (an empty array) var $var; (a variable declared, but without a value in a class)</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ldap_next_attribute</title>
+	<script>	
+		var exampleText = "string ldap_next_attribute ( resource $link_identifier , resource $result_entry_identifier )";
+	</script>
+</head>
+
+<body class="html ldap_next_attribute">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ldap_next_attribute</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">ldap_next_attribute</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> , <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result_entry_identifier</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Retrieves the attributes in an entry. The first call to ldap_next_attribute() is made with the result_entry_identifier returned from ldap_first_attribute().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the next attribute in an entry on success and FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

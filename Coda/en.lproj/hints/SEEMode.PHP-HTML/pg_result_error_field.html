@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_result_error_field</title>
+	<script>	
+		var exampleText = "string pg_result_error_field ( resource $result , int $fieldcode )";
+	</script>
+</head>
+
+<body class="html pg_result_error_field">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_result_error_field</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">pg_result_error_field</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">fieldcode</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_result_error_field() returns one of the detailed error message fields associated with result resource. It is only available against a PostgreSQL 7.4 or above server. The error field is specified by the fieldcode. Because pg_query() and pg_query_params() return FALSE if the query fails, you must use pg_send_query() and pg_get_result() to get the result handle. If you need to get additional error information from failed pg_query() queries, use pg_set_error_verbosity() and pg_last_error() and then parse the result.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A string containing the contents of the error field, NULL if the field does not exist or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

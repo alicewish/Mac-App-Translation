@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_libencoding</title>
+	<script>	
+		var exampleText = "string sqlite_libencoding ( void )";
+	</script>
+</head>
+
+<body class="html sqlite_libencoding">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_libencoding</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">sqlite_libencoding</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>The SQLite library may be compiled in either ISO-8859-1 or UTF-8 compatible modes. This function allows you to determine which encoding scheme is used by your version of the library. Warning The default PHP distribution builds libsqlite in ISO-8859-1 encoding mode. However, this is a misnomer; rather than handling ISO-8859-1, it operates according to your current locale settings for string comparisons and sort ordering. So, rather than ISO-8859-1, you should think of it as being &#039;8-bit&#039; instead. When compiled with UTF-8 support, sqlite handles encoding and decoding of UTF-8 multi-byte character sequences, but does not yet do a complete job when working with the data (no normalization is performed for example), and some comparison operations may still not be carried out correctly. Warning It is not recommended that you use PHP in a web-server configuration with a version of the SQLite library compiled with UTF-8 support, since libsqlite will abort the process if it detects a problem with the UTF-8 encoding.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the library encoding.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>http_send_content_type</title>
+	<script>	
+		var exampleText = "bool http_send_content_type ([ string $content_type = \"application/x-octetstream\" ] )";
+	</script>
+</head>
+
+<body class="html http_send_content_type">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>http_send_content_type</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">http_send_content_type</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">content_type</span></span> = <span class="string">"application/x-octetstream"</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Send the Content-Type of the sent entity. Note: This function should be used in conjunction with http_send_data(), http_send_file() and http_send_stream().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

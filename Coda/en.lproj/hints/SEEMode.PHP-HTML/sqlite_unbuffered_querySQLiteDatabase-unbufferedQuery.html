@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_unbuffered_querySQLiteDatabase-unbufferedQuery</title>
+	<script>	
+		var exampleText = "resource sqlite_unbuffered_query ( resource $dbhandle , string $query [, int $result_type = SQLITE_BOTH [, string &$error_msg ]] )";
+	</script>
+</head>
+
+<body class="html sqlite_unbuffered_querySQLiteDatabase-unbufferedQuery">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_unbuffered_querySQLiteDatabase-unbufferedQuery</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">sqlite_unbuffered_query</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">dbhandle</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">result_type</span></span> = <span class="identifier">SQLITE_BOTH</span> [, <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">error_msg</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>resource sqlite_unbuffered_query ( string $query , resource $dbhandle [, int $result_type = SQLITE_BOTH [, string &$error_msg ]] )<br> Object oriented style (method): SQLiteUnbuffered SQLiteDatabase::unbufferedQuery ( string $query [, int $result_type = SQLITE_BOTH [, string &$error_msg ]] )<br> sqlite_unbuffered_query() is identical to sqlite_query() except that the result that is returned is a sequential forward-only result set that can only be used to read each row, one after the other. This function is ideal for generating things such as HTML tables where you only need to process one row at a time and don&#039;t need to randomly access the row data. Note: Functions such as sqlite_seek(), sqlite_rewind(), sqlite_next(), sqlite_current(), and sqlite_num_rows() do not work on result handles returned from sqlite_unbuffered_query().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a result handle or FALSE on failure. sqlite_unbuffered_query() returns a sequential forward-only result set that can only be used to read each row, one after the other.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>strcoll</title>
+	<script>	
+		var exampleText = "int strcoll ( string $str1 , string $str2 )";
+	</script>
+</head>
+
+<body class="html strcoll">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>strcoll</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">strcoll</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str1</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">str2</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Note that this comparison is case sensitive, and unlike strcmp() this function is not binary safe. strcoll() uses the current locale for doing the comparisons. If the current locale is C or POSIX, this function is equivalent to strcmp().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns &lt; 0 if str1 is less than str2; &gt; 0 if str1 is greater than str2, and 0 if they are equal.</p>	</section>
+
+	
+
+</body>
+</html>

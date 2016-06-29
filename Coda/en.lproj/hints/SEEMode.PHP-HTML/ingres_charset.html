@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ingres_charset</title>
+	<script>	
+		var exampleText = "string ingres_charset ( resource $link )";
+	</script>
+</head>
+
+<body class="html ingres_charset">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ingres_charset</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">ingres_charset</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ingres_charset() is called to determine the character set being used by the Ingres client, from II_CHARSETxx (where xx is the installation code). Note: You can override the value returned by using the function putenv(). Changing the value of II_CHARSETxx in a running Ingres installation can cause data corruption.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string with the value for II_CHARSETxx or returns NULL if the value could not be determined.</p>	</section>
+
+	
+
+</body>
+</html>

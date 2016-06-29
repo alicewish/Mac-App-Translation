@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>HttpResponse::setCache</title>
+	<script>	
+		var exampleText = "static bool HttpResponse::setCache ( bool $cache )";
+	</script>
+</head>
+
+<body class="html HttpResponse::setCache">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>HttpResponse::setCache</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword">static</span> <span class="identifier">bool</span> <span class="identifier">HttpResponse</span>::<span class="identifier">setCache</span> ( <span class="identifier">bool</span> <span class="tag">$<span class="identifier">cache</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Whether it should be attempted to cache the entity. This will result in necessary caching headers and checks of clients If-Modified-Since and If-None-Match headers. If one of those headers matches a 304 Not Modified status code will be issued. Note: If you&#039;re using sessions, be sure that you set session.cache_limiter to something more appropriate than &quot;no-cache&quot;!</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

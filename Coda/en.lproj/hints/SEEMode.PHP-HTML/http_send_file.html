@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>http_send_file</title>
+	<script>	
+		var exampleText = "bool http_send_file ( string $file )";
+	</script>
+</head>
+
+<body class="html http_send_file">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>http_send_file</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">http_send_file</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">file</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sends a file with support for (multiple) range requests. This functions behaviour and further action is dependent on the following INI settings: http.send.not_found_404 and http.log.not_found. If the INI setting http.send.not_found_404 is enabled and the INI setting http.log.not_found points to a writable file, a log message is written when the file was not found.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

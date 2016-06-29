@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>openssl_sign</title>
+	<script>	
+		var exampleText = "bool openssl_sign ( string $data , string &$signature , mixed $priv_key_id [, int $signature_alg = OPENSSL_ALGO_SHA1 ] )";
+	</script>
+</head>
+
+<body class="html openssl_sign">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>openssl_sign</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">openssl_sign</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> , <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">signature</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">priv_key_id</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">signature_alg</span></span> = <span class="identifier">OPENSSL_ALGO_SHA1</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>openssl_sign() computes a signature for the specified data by using SHA1 for hashing followed by encryption using the private key associated with priv_key_id. Note that the data itself is not encrypted.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

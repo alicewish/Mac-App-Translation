@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ldap_connect</title>
+	<script>	
+		var exampleText = "resource ldap_connect ([ string $hostname = NULL [, int $port = 389 ]] )";
+	</script>
+</head>
+
+<body class="html ldap_connect">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ldap_connect</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">ldap_connect</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">hostname</span></span> = <span class="identifier">NULL</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">port</span></span> = <span class="number">389</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Establishes a connection to a LDAP server on a specified hostname and port.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a positive LDAP link identifier on success, or FALSE on error. When OpenLDAP 2.x.x is used, ldap_connect() will always return a resource as it does not actually connect but just initializes the connecting parameters. The actual connect happens with the next calls to ldap_* funcs, usually with ldap_bind(). If no arguments are specified then the link identifier of the already opened link will be returned.</p>	</section>
+
+	
+
+</body>
+</html>

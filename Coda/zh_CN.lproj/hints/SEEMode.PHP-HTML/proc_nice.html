@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>proc_nice</title>
+	<script>	
+		var exampleText = "bool proc_nice ( int $increment )";
+	</script>
+</head>
+
+<body class="html proc_nice">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>proc_nice</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">proc_nice</span> ( <span class="keyword type">int</span> <span class="tag">$<span class="identifier">increment</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>proc_nice() changes the priority of the current process by the amount specified in increment. A positive increment will lower the priority of the current process, whereas a negative increment will raise the priority. proc_nice() is not related to proc_open() and its associated functions in any way.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure. If an error occurs, like the user lacks permission to change the priority, an error of level E_WARNING is also generated.</p>	</section>
+
+	
+
+</body>
+</html>

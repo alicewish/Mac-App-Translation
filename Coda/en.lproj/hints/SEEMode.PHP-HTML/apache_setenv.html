@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>apache_setenv</title>
+	<script>	
+		var exampleText = "bool apache_setenv ( string $variable , string $value [, bool $walk_to_top = false ] )";
+	</script>
+</head>
+
+<body class="html apache_setenv">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>apache_setenv</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">apache_setenv</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">variable</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">value</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">walk_to_top</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>apache_setenv() sets the value of the Apache environment variable specified by variable. Note: When setting an Apache environment variable, the corresponding $_SERVER variable is not changed.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

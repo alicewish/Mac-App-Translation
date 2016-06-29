@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_getmailboxes</title>
+	<script>	
+		var exampleText = "array imap_getmailboxes ( resource $imap_stream , string $ref , string $pattern )";
+	</script>
+</head>
+
+<body class="html imap_getmailboxes">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_getmailboxes</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">imap_getmailboxes</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">imap_stream</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">ref</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">pattern</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gets information on the mailboxes.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of objects containing mailbox information. Each object has the attributes name, specifying the full name of the mailbox; delimiter, which is the hierarchy delimiter for the part of the hierarchy this mailbox is in; and attributes. Attributes is a bitmask that can be tested against: LATT_NOINFERIORS - This mailbox contains, and may not contain any &quot;children&quot; (there are no mailboxes below this one). Calling imap_createmailbox() will not work on this mailbox. LATT_NOSELECT - This is only a container, not a mailbox - you cannot open it. LATT_MARKED - This mailbox is marked. This means that it may contain new messages since the last time it was checked. Not provided by all IMAP servers. LATT_UNMARKED - This mailbox is not marked, does not contain new messages. If either MARKED or UNMARKED is provided, you can assume the IMAP server supports this feature for this mailbox.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>is_scalar</title>
+	<script>	
+		var exampleText = "bool is_scalar ( mixed $var )";
+	</script>
+</head>
+
+<body class="html is_scalar">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>is_scalar</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">is_scalar</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">var</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Finds whether the given variable is a scalar. Scalar variables are those containing an integer, float, string or boolean. Types array, object and resource are not scalar. Note: is_scalar() does not consider resource type values to be scalar as resources are abstract datatypes which are currently based on integers. This implementation detail should not be relied upon, as it may change.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if var is a scalar FALSE otherwise.</p>	</section>
+
+	
+
+</body>
+</html>

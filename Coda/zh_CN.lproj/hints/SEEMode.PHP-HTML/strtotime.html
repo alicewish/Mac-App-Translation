@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>strtotime</title>
+	<script>	
+		var exampleText = "int strtotime ( string $time [, int $now = time() ] )";
+	</script>
+</head>
+
+<body class="html strtotime">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>strtotime</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">strtotime</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">time</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">now</span></span> = <span class="identifier">time</span>() ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>The function expects to be given a string containing an English date format and will try to parse that format into a Unix timestamp (the number of seconds since January 1 1970 00:00:00 UTC), relative to the timestamp given in now, or the current time if now is not supplied. Each parameter of this function uses the default time zone unless a time zone is specified in that parameter. Be careful not to use different time zones in each parameter unless that is intended. See date_default_timezone_get() on the various ways to define the default time zone.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a timestamp on success, FALSE otherwise. Previous to PHP 5.1.0, this function would return -1 on failure.</p>	</section>
+
+	
+
+</body>
+</html>

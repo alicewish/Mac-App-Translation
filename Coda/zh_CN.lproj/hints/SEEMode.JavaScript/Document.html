@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>Document</title>
+	<script>
+		var exampleText = "";
+	</script>
+</head>
+
+<body class="javascript Document">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1 title="">Document</h1>
+	</header>
+
+	<section id="example" class="hide" onclick="Coda.copyExample(exampleText);">
+		<h2>Example</h2>
+		<code class="codeblock" title="Click to insert code sample."><pre class="source-code css">1</pre></code>
+	</section>		
+
+	<section id="description" class="hide">
+
+		<h2>Description</h2>
+		
+		<p></p>
+		
+		<p></p>		
+	</section>
+
+
+	
+	<section id="properties" >
+		<h2>Properties</h2>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Property Name</th>
+
+					<th>Description</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+		<tr>
+<td class="col-name">anchors</td>
+<td class="col-description">array of all the anchors in the document</td></tr>
+<tr>
+<td class="col-name">cookie</td>
+<td class="col-description"></td></tr>
+<tr>
+<td class="col-name">doctype</td>
+<td class="col-description"></td></tr>
+<tr>
+<td class="col-name">documentElement</td>
+<td class="col-description">the root node of the document</td></tr>
+<tr>
+<td class="col-name">documentMode</td>
+<td class="col-description">returns the mode used by the browser to render the document</td></tr>
+<tr>
+<td class="col-name">domain</td>
+<td class="col-description">the domain name of the server that loaded the document</td></tr>
+<tr>
+<td class="col-name">forms</td>
+<td class="col-description">array of all the forms in the document</td></tr>
+<tr>
+<td class="col-name">images</td>
+<td class="col-description">array of all the images in the document</td></tr>
+<tr>
+<td class="col-name">implementation</td>
+<td class="col-description">the DOMImplementation object for the document</td></tr>
+<tr>
+<td class="col-name">lastModified</td>
+<td class="col-description">date and time the document was last modified</td></tr>
+<tr>
+<td class="col-name">links</td>
+<td class="col-description">array of all the links in the document</td></tr>
+<tr>
+<td class="col-name">readyState</td>
+<td class="col-description">the loading/ready status of the document</td></tr>
+<tr>
+<td class="col-name">referrer</td>
+<td class="col-description">URL of the document that loaded the current document</td></tr>
+<tr>
+<td class="col-name">title</td>
+<td class="col-description">title of the document</td></tr>
+<tr>
+<td class="col-name">URL</td>
+<td class="col-description">full URL of this document</td></tr>
+							
+			</tbody>
+		</table>
+	</section>			
+		
+				
+		<section id="methods" >
+
+		
+		<h2>Methods</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Method Name</th>
+					<th>Description</th>
+					<th>Values</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+			<tr>
+<td class="col-name">createAttribute()</a></td>
+<td class="col-description">Returns a new attribute node with the given name.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createAttributeNS()</a></td>
+<td class="col-description">Returns a new attribute node with the given name in the given namespace.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createCDATASection()</a></td>
+<td class="col-description">Returns a new CDATASection object.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createComment()</a></td>
+<td class="col-description">Returns a new Comment object containing the supplied text.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createDocumentFragment()</a></td>
+<td class="col-description">Returns a new DocumentFragment object.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createElement()</a></td>
+<td class="col-description">Returns a new Element object for the given element name.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createElementNS()</a></td>
+<td class="col-description">Returns a new Element object for the given element name in the specified namespace.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createEntityReference()</a></td>
+<td class="col-description">Returns a new EntityReference object with the given name.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createProcessingInstruction()</a></td>
+<td class="col-description">Returns a new ProcessingInstruction object with the specified target name and data string.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">createTextNode()</a></td>
+<td class="col-description">Returns a new Text object with the specified string.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getElementById()</a></td>
+<td class="col-description">Returns the first element with the given ID.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getElementsByClassName()</a></td>
+<td class="col-description">Returns a NodeList of Elements with the given class name.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getElementsByName()</a></td>
+<td class="col-description">Returns a NodeList of Elements with the specified name.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getElementsByTagName()</a></td>
+<td class="col-description">Returns a NodeList of Elements with the specified tag name.  &quot;*&quot; returns all descendants.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getElementsByTagNameNS()</a></td>
+<td class="col-description">Returns a NodeList of Elements with the specified tag name in the specified namespace.  &quot;*&quot; returns all descendants.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">importNode()</a></td>
+<td class="col-description">Returns a copy of a node from an external document that can be inserted into the current document. If deep = true, all of the node's children will also be copied.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">open()</a></td>
+<td class="col-description">Returns a new Document for writing.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">write()</a></td>
+<td class="col-description">Appends the HTML string to the document.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">writeln()</a></td>
+<td class="col-description">Appends the HTML string, followed by a newline character, to the document.</td>
+<td class="col-values"></td>
+</tr>
+		
+							
+			</tbody>
+		</table>
+	</section>
+	</body>
+</html>

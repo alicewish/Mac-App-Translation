@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>strtok</title>
+	<script>	
+		var exampleText = "string strtok ( string $str , string $token )";
+	</script>
+</head>
+
+<body class="html strtok">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>strtok</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">strtok</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">token</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>strtok() splits a string (str) into smaller strings (tokens), with each token being delimited by any character from token. That is, if you have a string like &quot;This is an example string&quot; you could tokenize this string into its individual words by using the space character as the token. Note that only the first call to strtok uses the string argument. Every subsequent call to strtok only needs the token to use, as it keeps track of where it is in the current string. To start over, or to tokenize a new string you simply call strtok with the string argument again to initialize it. Note that you may put multiple tokens in the token parameter. The string will be tokenized when any one of the characters in the argument are found.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A string token.</p>	</section>
+
+	
+
+</body>
+</html>

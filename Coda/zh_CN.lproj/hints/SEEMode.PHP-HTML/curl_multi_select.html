@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>curl_multi_select</title>
+	<script>	
+		var exampleText = "int curl_multi_select ( resource $mh [, float $timeout = 1.0 ] )";
+	</script>
+</head>
+
+<body class="html curl_multi_select">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>curl_multi_select</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">curl_multi_select</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">mh</span></span> [, <span class="identifier">float</span> <span class="tag">$<span class="identifier">timeout</span></span> = <span class="number">1.0</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Blocks until there is activity on any of the curl_multi connections.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>On success, returns the number of descriptors contained in the descriptor sets. On failure, this function will return -1 on a select failure or timeout (from the underlying select system call).</p>	</section>
+
+	
+
+</body>
+</html>

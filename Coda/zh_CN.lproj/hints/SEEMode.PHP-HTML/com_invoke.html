@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>com_invoke</title>
+	<script>	
+		var exampleText = "mixed com_invoke ( resource $com_object , string $function_name [, mixed $function_parameters ] )";
+	</script>
+</head>
+
+<body class="html com_invoke">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>com_invoke</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">com_invoke</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">com_object</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">function_name</span></span> [, <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">function_parameters</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>com_invoke() invokes the method named function_name of the COM component referenced by com_object. com_invoke() returns FALSE on error, returns the function_name&#039;s return value on success. All the extra parameters function_parameters are passed to the method function_name. Example #1 Don&#039;t use com_invoke(), use OO syntax instead <br> &lt;<code>?php//&nbsp;do&nbsp;this$val&nbsp;=&nbsp;$obj-</code>&gt;method($one,&nbsp;$two);//&nbsp;instead&nbsp;of&nbsp;this:$val&nbsp;=&nbsp;com_invoke($obj,&nbsp;'method',&nbsp;$one,&nbsp;$two);?&gt;</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p></p>	</section>
+
+	
+
+</body>
+</html>

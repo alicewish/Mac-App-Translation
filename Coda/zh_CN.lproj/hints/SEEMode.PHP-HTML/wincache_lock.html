@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>wincache_lock</title>
+	<script>	
+		var exampleText = "bool wincache_lock ( string $key [, bool $isglobal = false ] )";
+	</script>
+</head>
+
+<body class="html wincache_lock">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>wincache_lock</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">wincache_lock</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">key</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">isglobal</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Obtains an exclusive lock on a given key. The execution of the current script will be blocked until the lock can be obtained. Once the lock is obtained, the other scripts that try to request the lock by using the same key will be blocked, until the current script releases the lock by using wincache_unlock(). Warning Using of the wincache_lock() and wincache_unlock() can cause deadlocks when executing PHP scripts in a multi-process environment like FastCGI. Do not use these functions unless you are absolutely sure you need to use them. For the majority of the operations on the user cache it is not necessary to use these functions.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

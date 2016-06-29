@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ftp_mdtm</title>
+	<script>	
+		var exampleText = "int ftp_mdtm ( resource $ftp_stream , string $remote_file )";
+	</script>
+</head>
+
+<body class="html ftp_mdtm">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ftp_mdtm</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">ftp_mdtm</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">ftp_stream</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">remote_file</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ftp_mdtm() gets the last modified time for a remote file. Note: Not all servers support this feature! Note: ftp_mdtm() does not work with directories.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the last modified time as a Unix timestamp on success, or -1 on error.</p>	</section>
+
+	
+
+</body>
+</html>

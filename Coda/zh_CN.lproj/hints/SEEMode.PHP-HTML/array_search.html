@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>array_search</title>
+	<script>	
+		var exampleText = "mixed array_search ( mixed $needle , array $haystack [, bool $strict = false ] )";
+	</script>
+</head>
+
+<body class="html array_search">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>array_search</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">array_search</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">needle</span></span> , <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">haystack</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">strict</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Searches haystack for needle.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the key for needle if it is found in the array, FALSE otherwise. If needle is found in haystack more than once, the first matching key is returned. To return the keys for all matching values, use array_keys() with the optional search_value parameter instead. Warning: This function may return Boolean FALSE, but may also return a non-Boolean value which evaluates to FALSE, such as 0 or &quot;&quot;. Please read the section on Booleans for more information. Use the === operator for testing the return value of this function.</p>	</section>
+
+	
+
+</body>
+</html>

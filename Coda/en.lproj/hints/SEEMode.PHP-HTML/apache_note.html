@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>apache_note</title>
+	<script>	
+		var exampleText = "string apache_note ( string $note_name [, string $note_value ] )";
+	</script>
+</head>
+
+<body class="html apache_note">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>apache_note</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">apache_note</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">note_name</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">note_value</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function is a wrapper for Apache&#039;s table_get and table_set. It edits the table of notes that exists during a request. The table&#039;s purpose is to allow Apache modules to communicate. The main use for apache_note() is to pass information from one module to another within the same request.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If called with one argument, it returns the current value of note note_name. If called with two arguments, it sets the value of note note_name to note_value and returns the previous value of note note_name. If the note cannot be retrieved, FALSE is returned.</p>	</section>
+
+	
+
+</body>
+</html>

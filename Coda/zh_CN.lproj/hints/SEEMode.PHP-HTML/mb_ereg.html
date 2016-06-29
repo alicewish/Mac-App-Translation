@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mb_ereg</title>
+	<script>	
+		var exampleText = "int mb_ereg ( string $pattern , string $string [, array $regs ] )";
+	</script>
+</head>
+
+<body class="html mb_ereg">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mb_ereg</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">mb_ereg</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">pattern</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">string</span></span> [, <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">regs</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Regular expression match with multibyte support</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Executes the regular expression match with multibyte support, and returns 1 if matches are found. If the optional regs parameter was specified, the function returns the byte length of matched part, and the array regs will contain the substring of matched string. The function returns 1 if it matches with the empty string. If no matches are found or an error happens, FALSE will be returned.</p>	</section>
+
+	
+
+</body>
+</html>

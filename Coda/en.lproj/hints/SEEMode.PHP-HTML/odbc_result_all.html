@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>odbc_result_all</title>
+	<script>	
+		var exampleText = "int odbc_result_all ( resource $result_id [, string $format ] )";
+	</script>
+</head>
+
+<body class="html odbc_result_all">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>odbc_result_all</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">odbc_result_all</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result_id</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">format</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Prints all rows from a result identifier produced by odbc_exec(). The result is printed in HTML table format.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the number of rows in the result or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

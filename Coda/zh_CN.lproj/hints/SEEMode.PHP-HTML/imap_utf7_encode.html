@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_utf7_encode</title>
+	<script>	
+		var exampleText = "string imap_utf7_encode ( string $data )";
+	</script>
+</head>
+
+<body class="html imap_utf7_encode">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_utf7_encode</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">imap_utf7_encode</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Converts data to modified UTF-7 text. This is needed to encode mailbox names that contain certain characters which are not in range of printable ASCII characters.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns data encoded with the modified UTF-7 encoding as defined in &raquo;&nbsp;RFC 2060, section 5.1.3 (original UTF-7 was defined in &raquo;&nbsp;RFC1642).</p>	</section>
+
+	
+
+</body>
+</html>

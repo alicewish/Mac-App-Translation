@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>bindec</title>
+	<script>	
+		var exampleText = "number bindec ( string $binary_string )";
+	</script>
+</head>
+
+<body class="html bindec">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>bindec</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">number</span> <span class="identifier">bindec</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">binary_string</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns the decimal equivalent of the binary number represented by the binary_string argument. bindec() converts a binary number to an integer or, if needed for size reasons, float. bindec() interprets all binary_string values as unsigned integers. This is because bindec() sees the most significant bit as another order of magnitude rather than as the sign bit.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The decimal value of binary_string</p>	</section>
+
+	
+
+</body>
+</html>

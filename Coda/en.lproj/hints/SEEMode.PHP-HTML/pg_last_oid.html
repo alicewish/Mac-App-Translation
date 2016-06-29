@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_last_oid</title>
+	<script>	
+		var exampleText = "string pg_last_oid ( resource $result )";
+	</script>
+</head>
+
+<body class="html pg_last_oid">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_last_oid</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">pg_last_oid</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_last_oid() is used to retrieve the OID assigned to an inserted row. OID field became an optional field from PostgreSQL 7.2 and will not be present by default in PostgreSQL 8.1. When the OID field is not present in a table, the programmer must use pg_result_status() to check for successful insertion. To get the value of a SERIAL field in an inserted row, it is necessary to use the PostgreSQL CURRVAL function, naming the sequence whose last value is required. If the name of the sequence is unknown, the pg_get_serial_sequence PostgreSQL 8.0 function is necessary. PostgreSQL 8.1 has a function LASTVAL that returns the value of the most recently used sequence in the session. This avoids the need for naming the sequence, table or column altogether. Note: This function used to be called pg_getlastoid().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A string containing the OID assigned to the most recently inserted row in the specified connection, or FALSE on error or no available OID.</p>	</section>
+
+	
+
+</body>
+</html>

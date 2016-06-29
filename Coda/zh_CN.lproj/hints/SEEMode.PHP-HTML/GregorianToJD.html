@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>GregorianToJD</title>
+	<script>	
+		var exampleText = "int gregoriantojd ( int $month , int $day , int $year )";
+	</script>
+</head>
+
+<body class="html GregorianToJD">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>GregorianToJD</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">gregoriantojd</span> ( <span class="keyword type">int</span> <span class="tag">$<span class="identifier">month</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">day</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">year</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Valid Range for Gregorian Calendar 4714 B.C. to 9999 A.D. Although this function can handle dates all the way back to 4714 B.C., such use may not be meaningful. The Gregorian calendar was not instituted until October 15, 1582 (or October 5, 1582 in the Julian calendar). Some countries did not accept it until much later. For example, Britain converted in 1752, The USSR in 1918 and Greece in 1923. Most European countries used the Julian calendar prior to the Gregorian.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The julian day for the given gregorian date as an integer.</p>	</section>
+
+	
+
+</body>
+</html>

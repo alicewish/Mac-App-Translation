@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ingres_fetch_array</title>
+	<script>	
+		var exampleText = "array ingres_fetch_array ( resource $result [, int $result_type ] )";
+	</script>
+</head>
+
+<body class="html ingres_fetch_array">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ingres_fetch_array</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ingres_fetch_array</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">result_type</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function is an extended version of ingres_fetch_row(). In addition to storing the data in the numeric indices of the result array, it also stores the data in associative indices, using the field names as keys. If two or more columns of the result have the same field names, the last column will take precedence. To access the another column or columns of the same name, you must use the numeric index of the column or make an alias for the column. For example: <br> &lt;<code>?php$result&nbsp;=&nbsp;ingres_query($link,&nbsp;"select&nbsp;ap_place&nbsp;as&nbsp;city,&nbsp;ap_ccode&nbsp;as&nbsp;country&nbsp;from&nbsp;airport&nbsp;where&nbsp;ap_iatacode&nbsp;=&nbsp;'VLL'");&nbsp;$result&nbsp;=&nbsp;ingres_fetch_array($result);$foo&nbsp;=&nbsp;$result["city"];$bar&nbsp;=&nbsp;$result["country"];?</code>&gt;<br> <br> With regard to speed, the function is identical to ingres_fetch_object(), and almost as quick as ingres_fetch_row() (the difference is insignificant). By default, arrays created by ingres_fetch_array() start from position 1 and not 0 as with other DBMS extensions. The starting position can be adjusted to 0 using the configuration parameter ingres.array_index_start. Note: Related Configurations See also the ingres.array_index_start, ingres.fetch_buffer_size and ingres.utf8 directives in Runtime Configuration.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array that corresponds to the fetched row, or FALSE if there are no more rows</p>	</section>
+
+	
+
+</body>
+</html>

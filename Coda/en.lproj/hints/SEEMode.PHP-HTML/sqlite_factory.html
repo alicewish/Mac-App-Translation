@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_factory</title>
+	<script>	
+		var exampleText = "SQLiteDatabase sqlite_factory ( string $filename [, int $mode = 0666 [, string &$error_message ]] )";
+	</script>
+</head>
+
+<body class="html sqlite_factory">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_factory</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">SQLiteDatabase</span> <span class="identifier">sqlite_factory</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">mode</span></span> = <span class="number">0666</span> [, <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">error_message</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>sqlite_factory() behaves similarly to sqlite_open() in that it opens an SQLite database or attempts to create it if it does not exist. However, a SQLiteDatabase object is returned rather than a resource. Please see the sqlite_open() reference page for further usage and caveats.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an SQLiteDatabase object on success, NULL on error.</p>	</section>
+
+	
+
+</body>
+</html>

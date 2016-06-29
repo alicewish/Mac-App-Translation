@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>date_default_timezone_set</title>
+	<script>	
+		var exampleText = "bool date_default_timezone_set ( string $timezone_identifier )";
+	</script>
+</head>
+
+<body class="html date_default_timezone_set">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>date_default_timezone_set</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">date_default_timezone_set</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">timezone_identifier</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>date_default_timezone_set() sets the default timezone used by all date/time functions. Note: Since PHP 5.1.0 (when the date/time functions were rewritten), every call to a date/time function will generate a E_NOTICE if the timezone isn&#039;t valid, and/or a E_WARNING message if using the system settings or the TZ environment variable. Instead of using this function to set the default timezone in your script, you can also use the INI setting date.timezone to set the default timezone.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>This function returns FALSE if the timezone_identifier isn&#039;t valid, or TRUE otherwise.</p>	</section>
+
+	
+
+</body>
+</html>

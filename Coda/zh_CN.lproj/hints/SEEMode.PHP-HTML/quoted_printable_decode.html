@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>quoted_printable_decode</title>
+	<script>	
+		var exampleText = "string quoted_printable_decode ( string $str )";
+	</script>
+</head>
+
+<body class="html quoted_printable_decode">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>quoted_printable_decode</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">quoted_printable_decode</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function returns an 8-bit binary string corresponding to the decoded quoted printable string (according to &raquo;&nbsp;RFC2045, section 6.7, not &raquo;&nbsp;RFC2821, section 4.5.2, so additional periods are not stripped from the beginning of line). This function is similar to imap_qprint(), except this one does not require the IMAP module to work.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the 8-bit binary string.</p>	</section>
+
+	
+
+</body>
+</html>

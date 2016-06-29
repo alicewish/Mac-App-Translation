@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_query</title>
+	<script>	
+		var exampleText = "resource pg_query ([ resource $connection ], string $query )";
+	</script>
+</head>
+
+<body class="html pg_query">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_query</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">pg_query</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ], <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_query() executes the query on the specified database connection. If an error occurs, and FALSE is returned, details of the error can be retrieved using the pg_last_error() function if the connection is valid. Note: Although connection can be omitted, it is not recommended, since it can be the cause of hard to find bugs in scripts. Note: This function used to be called pg_exec(). pg_exec() is still available for compatibility reasons, but users are encouraged to use the newer name.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A query result resource on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

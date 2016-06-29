@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>urlencode</title>
+	<script>	
+		var exampleText = "string urlencode ( string $str )";
+	</script>
+</head>
+
+<body class="html urlencode">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>urlencode</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">urlencode</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function is convenient when encoding a string to be used in a query part of a URL, as a convenient way to pass variables to the next page.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string in which all non-alphanumeric characters except -_. have been replaced with a percent () sign followed by two hex digits and spaces encoded as plus (+) signs. It is encoded the same way that the posted data from a WWW form is encoded, that is the same way as in application/x-www-form-urlencoded media type. This differs from the &raquo;&nbsp;RFC 3986 encoding (see rawurlencode()) in that for historical reasons, spaces are encoded as plus (+) signs.</p>	</section>
+
+	
+
+</body>
+</html>

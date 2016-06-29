@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>array_filter</title>
+	<script>	
+		var exampleText = "array array_filter ( array $input [, callback $callback ] )";
+	</script>
+</head>
+
+<body class="html array_filter">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>array_filter</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">array_filter</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">input</span></span> [, <span class="identifier">callback</span> <span class="tag">$<span class="identifier">callback</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Iterates over each value in the input array passing them to the callback function. If the callback function returns true, the current value from input is returned into the result array. Array keys are preserved.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the filtered array.</p>	</section>
+
+	
+
+</body>
+</html>

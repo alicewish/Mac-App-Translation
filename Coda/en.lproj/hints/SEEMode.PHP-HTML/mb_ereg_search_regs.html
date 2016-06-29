@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mb_ereg_search_regs</title>
+	<script>	
+		var exampleText = "array mb_ereg_search_regs ([ string $pattern [, string $option = \"ms\" ]] )";
+	</script>
+</head>
+
+<body class="html mb_ereg_search_regs">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mb_ereg_search_regs</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">mb_ereg_search_regs</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">pattern</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">option</span></span> = <span class="string">"ms"</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns the matched part of a multibyte regular expression</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>mb_ereg_search_regs() executes the multibyte regular expression match, and if there are some matched part, it returns an array including substring of matched part as first element, the first grouped part with brackets as second element, the second grouped part as third element, and so on. It returns FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

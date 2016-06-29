@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_client_encoding</title>
+	<script>	
+		var exampleText = "string pg_client_encoding ([ resource $connection ] )";
+	</script>
+</head>
+
+<body class="html pg_client_encoding">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_client_encoding</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">pg_client_encoding</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>PostgreSQL supports automatic character set conversion between server and client for certain character sets. pg_client_encoding() returns the client encoding as a string. The returned string will be one of the standard PostgreSQL encoding identifiers. Note: This function requires PHP 4.0.3 or higher and PostgreSQL 7.0 or higher. If libpq is compiled without multibyte encoding support, pg_client_encoding() always returns SQL_ASCII. Supported encoding depends on PostgreSQL version. Refer to the PostgreSQL Documentation supported encodings. The function used to be called pg_clientencoding().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The client encoding, or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

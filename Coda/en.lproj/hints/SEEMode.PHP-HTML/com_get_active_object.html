@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>com_get_active_object</title>
+	<script>	
+		var exampleText = "variant com_get_active_object ( string $progid [, int $code_page ] )";
+	</script>
+</head>
+
+<body class="html com_get_active_object">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>com_get_active_object</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">variant</span> <span class="identifier">com_get_active_object</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">progid</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">code_page</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>com_get_active_object() is similar to creating a new instance of a COM object, except that it will only return an object to your script if the object is already running. OLE applications use something known as the Running Object Table to allow well-known applications to be launched only once; this function exposes the COM library function GetActiveObject() to get a handle on a running instance.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If the requested object is running, it will be returned to your script just like any other COM object.</p>	</section>
+
+	
+
+</body>
+</html>

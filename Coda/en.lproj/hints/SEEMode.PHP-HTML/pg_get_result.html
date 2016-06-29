@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_get_result</title>
+	<script>	
+		var exampleText = "resource pg_get_result ([ resource $connection ] )";
+	</script>
+</head>
+
+<body class="html pg_get_result">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_get_result</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">pg_get_result</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_get_result() gets the result resource from an asynchronous query executed by pg_send_query(), pg_send_query_params() or pg_send_execute(). pg_send_query() and the other asynchronous query functions can send multiple queries to a PostgreSQL server and pg_get_result() is used to get each query&#039;s results, one by one.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The result resource, or FALSE if no more results are available.</p>	</section>
+
+	
+
+</body>
+</html>

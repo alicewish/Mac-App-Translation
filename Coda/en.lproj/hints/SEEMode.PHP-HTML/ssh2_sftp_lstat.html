@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ssh2_sftp_lstat</title>
+	<script>	
+		var exampleText = "array ssh2_sftp_lstat ( resource $sftp , string $path )";
+	</script>
+</head>
+
+<body class="html ssh2_sftp_lstat">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ssh2_sftp_lstat</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ssh2_sftp_lstat</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">sftp</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">path</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Stats a symbolic link on the remote filesystem without following the link. This function is similar to using the lstat() function with the ssh2.sftp:// wrapper in PHP 5 and returns the same values.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>See the documentation for stat() for details on the values which may be returned.</p>	</section>
+
+	
+
+</body>
+</html>

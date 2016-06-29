@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ingres_autocommit</title>
+	<script>	
+		var exampleText = "bool ingres_autocommit ( resource $link )";
+	</script>
+</head>
+
+<body class="html ingres_autocommit">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ingres_autocommit</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">ingres_autocommit</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ingres_autocommit() is called before opening a transaction (before the first call to ingres_query() or just after a call to ingres_rollback() or ingres_commit()) to switch the autocommit mode of the server on or off (when the script begins the autocommit mode is off). When autocommit mode is on, every query is automatically committed by the server, as if ingres_commit() was called after every call to ingres_query(). To see if autocommit is enabled use, ingres_autocommit_state(). By default Ingres will rollback any uncommitted transactions at the end of a request. Use this function or ingres_commit() to ensure your data is committed to the database.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

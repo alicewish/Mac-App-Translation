@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ldap_next_entry</title>
+	<script>	
+		var exampleText = "resource ldap_next_entry ( resource $link_identifier , resource $result_entry_identifier )";
+	</script>
+</head>
+
+<body class="html ldap_next_entry">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ldap_next_entry</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">ldap_next_entry</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> , <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result_entry_identifier</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Retrieve the entries stored in the result. Successive calls to the ldap_next_entry() return entries one by one till there are no more entries. The first call to ldap_next_entry() is made after the call to ldap_first_entry() with the result_entry_identifier as returned from the ldap_first_entry().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns entry identifier for the next entry in the result whose entries are being read starting with ldap_first_entry(). If there are no more entries in the result then it returns FALSE.</p>	</section>
+
+	
+
+</body>
+</html>

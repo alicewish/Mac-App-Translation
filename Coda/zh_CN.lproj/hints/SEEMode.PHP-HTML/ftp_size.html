@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ftp_size</title>
+	<script>	
+		var exampleText = "int ftp_size ( resource $ftp_stream , string $remote_file )";
+	</script>
+</head>
+
+<body class="html ftp_size">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ftp_size</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">ftp_size</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">ftp_stream</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">remote_file</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ftp_size() returns the size of the given file in bytes. Note: Not all servers support this feature.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the file size on success, or -1 on error.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ftp_raw</title>
+	<script>	
+		var exampleText = "array ftp_raw ( resource $ftp_stream , string $command )";
+	</script>
+</head>
+
+<body class="html ftp_raw">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ftp_raw</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ftp_raw</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">ftp_stream</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">command</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sends an arbitrary command to the FTP server.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the server&#039;s response as an array of strings. No parsing is performed on the response string, nor does ftp_raw() determine if the command succeeded.</p>	</section>
+
+	
+
+</body>
+</html>

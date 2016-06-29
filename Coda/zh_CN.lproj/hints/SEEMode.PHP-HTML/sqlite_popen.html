@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_popen</title>
+	<script>	
+		var exampleText = "resource sqlite_popen ( string $filename [, int $mode = 0666 [, string &$error_message ]] )";
+	</script>
+</head>
+
+<body class="html sqlite_popen">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_popen</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">sqlite_popen</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">mode</span></span> = <span class="number">0666</span> [, <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">error_message</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function behaves identically to sqlite_open() except that is uses the persistent resource mechanism of PHP. For information about the meaning of the parameters, read the sqlite_open() manual page. sqlite_popen() will first check to see if a persistent handle has already been opened for the given filename. If it finds one, it returns that handle to your script, otherwise it opens a fresh handle to the database. The benefit of this approach is that you don&#039;t incur the performance cost of re-reading the database and index schema on each page hit served by persistent web server SAPI&#039;s (any SAPI except for regular CGI or CLI). Note: If you use persistent handles and have the database updated by a background process (perhaps via a crontab), and that process re-creates the database by overwriting it (either by unlinking and rebuilding, or moving the updated version to replace the current version), you may experience undefined behaviour when a persistent handle on the old version of the database is recycled. To avoid this situation, have your background processes open the same database file and perform their updates in a transaction.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a resource (database handle) on success, FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

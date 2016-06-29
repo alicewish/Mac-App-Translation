@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>echo</title>
+	<script>	
+		var exampleText = "void echo ( string $arg1 [, string $... ] )";
+	</script>
+</head>
+
+<body class="html echo">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>echo</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">void</span> <span class="keyword builtin">echo</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">arg1</span></span> [, <span class="identifier">string</span> <span class="tag">$</span>... ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Outputs all parameters. echo() is not actually a function (it is a language construct), so you are not required to use parentheses with it. echo() (unlike some other language constructs) does not behave like a function, so it cannot always be used in the context of a function. Additionally, if you want to pass more than one parameter to echo(), the parameters must not be enclosed within parentheses. echo() also has a shortcut syntax, where you can immediately follow the opening tag with an equals sign. This short syntax only works with the short_open_tag configuration setting enabled. <br> I&nbsp;have&nbsp;&lt;<code>?=$foo?</code>&gt;&nbsp;foo.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>No value is returned.</p>	</section>
+
+	
+
+</body>
+</html>

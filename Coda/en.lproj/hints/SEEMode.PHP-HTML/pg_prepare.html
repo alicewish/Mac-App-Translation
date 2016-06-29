@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_prepare</title>
+	<script>	
+		var exampleText = "resource pg_prepare ([ resource $connection ], string $stmtname , string $query )";
+	</script>
+</head>
+
+<body class="html pg_prepare">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_prepare</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">pg_prepare</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ], <span class="identifier">string</span> <span class="tag">$<span class="identifier">stmtname</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_prepare() creates a prepared statement for later execution with pg_execute() or pg_send_execute(). This feature allows commands that will be used repeatedly to be parsed and planned just once, rather than each time they are executed. pg_prepare() is supported only against PostgreSQL 7.4 or higher connections; it will fail when using earlier versions. The function creates a prepared statement named stmtname from the query string, which must contain a single SQL command. stmtname may be &quot;&quot; to create an unnamed statement, in which case any pre-existing unnamed statement is automatically replaced; otherwise it is an error if the statement name is already defined in the current session. If any parameters are used, they are referred to in the query as $1, $2, etc. Prepared statements for use with pg_prepare() can also be created by executing SQL PREPARE statements. (But pg_prepare() is more flexible since it does not require parameter types to be pre-specified.) Also, although there is no PHP function for deleting a prepared statement, the SQL DEALLOCATE statement can be used for that purpose.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A query result resource on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

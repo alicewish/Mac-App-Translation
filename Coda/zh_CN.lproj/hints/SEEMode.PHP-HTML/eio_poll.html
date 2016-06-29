@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>eio_poll</title>
+	<script>	
+		var exampleText = "int eio_poll ( void )";
+	</script>
+</head>
+
+<body class="html eio_poll">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>eio_poll</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">eio_poll</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>eio_poll() can be used to implement special event loop. For this eio_nreqs() could be used to test if there are unprocessed requests. <br> Note: Applicable only when implementing userspace event loop.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If any request invocation returns a non-zero value, returns that value. Otherwise, it returns 0.</p>	</section>
+
+	
+
+</body>
+</html>

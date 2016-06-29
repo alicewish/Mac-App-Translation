@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>variant_get_type</title>
+	<script>	
+		var exampleText = "int variant_get_type ( variant $variant )";
+	</script>
+</head>
+
+<body class="html variant_get_type">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>variant_get_type</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">variant_get_type</span> ( <span class="identifier">variant</span> <span class="tag">$<span class="identifier">variant</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns the type of a variant object.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>This function returns an integer value that indicates the type of variant, which can be an instance of COM, DOTNET or VARIANT classes. The return value can be compared to one of the VT_XXX constants. The return value for COM and DOTNET objects will usually be VT_DISPATCH; the only reason this function works for those classes is because COM and DOTNET are descendants of VARIANT. In PHP versions prior to 5, you could obtain this information from instances of the VARIANT class ONLY, by reading a fake type property. See the VARIANT class for more information on this.</p>	</section>
+
+	
+
+</body>
+</html>

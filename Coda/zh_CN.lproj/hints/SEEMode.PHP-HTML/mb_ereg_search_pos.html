@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mb_ereg_search_pos</title>
+	<script>	
+		var exampleText = "array mb_ereg_search_pos ([ string $pattern [, string $option = \"ms\" ]] )";
+	</script>
+</head>
+
+<body class="html mb_ereg_search_pos">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mb_ereg_search_pos</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">mb_ereg_search_pos</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">pattern</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">option</span></span> = <span class="string">"ms"</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns position and length of a matched part of the multibyte regular expression for a predefined multibyte string</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>An array containing two elements. The first element is the offset, in bytes, where the match begins relative to the start of the search string, and the second element is the length in bytes of the match.
+
+If an error occurs, FALSE is returned.</p>	</section>
+
+	
+
+</body>
+</html>

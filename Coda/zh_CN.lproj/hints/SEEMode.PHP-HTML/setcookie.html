@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>setcookie</title>
+	<script>	
+		var exampleText = "bool setcookie ( string $name [, string $value [, int $expire = 0 [, string $path [, string $domain [, bool $secure = false [, bool $httponly = false ]]]]]] )";
+	</script>
+</head>
+
+<body class="html setcookie">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>setcookie</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">setcookie</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">name</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">value</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">expire</span></span> = <span class="number">0</span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">path</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">domain</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">secure</span></span> = <span class="keyword literal">false</span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">httponly</span></span> = <span class="keyword literal">false</span> ]]]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>setcookie() defines a cookie to be sent along with the rest of the HTTP headers. Like other headers, cookies must be sent before any output from your script (this is a protocol restriction). This requires that you place calls to this function prior to any output, including &lt;<code>html</code>&gt; and &lt;<code>head</code>&gt; tags as well as any whitespace. Once the cookies have been set, they can be accessed on the next page load with the $_COOKIE or $HTTP_COOKIE_VARS arrays. Note, superglobals such as $_COOKIE became available in PHP 4.1.0. Cookie values also exist in $_REQUEST.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If output exists prior to calling this function, setcookie() will fail and return FALSE. If setcookie() successfully runs, it will return TRUE. This does not indicate whether the user accepted the cookie.</p>	</section>
+
+	
+
+</body>
+</html>

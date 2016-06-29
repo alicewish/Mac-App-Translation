@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>lstat</title>
+	<script>	
+		var exampleText = "array lstat ( string $filename )";
+	</script>
+</head>
+
+<body class="html lstat">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>lstat</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">lstat</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gathers the statistics of the file or symbolic link named by filename.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>See the manual page for stat() for information on the structure of the array that lstat() returns. This function is identical to the stat() function except that if the filename parameter is a symbolic link, the status of the symbolic link is returned, not the status of the file pointed to by the symbolic link.</p>	</section>
+
+	
+
+</body>
+</html>

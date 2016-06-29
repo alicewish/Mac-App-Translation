@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_headerinfo</title>
+	<script>	
+		var exampleText = "object imap_headerinfo ( resource $imap_stream , int $msg_number [, int $fromlength = 0 [, int $subjectlength = 0 [, string $defaulthost = NULL ]]] )";
+	</script>
+</head>
+
+<body class="html imap_headerinfo">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_headerinfo</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">object</span> <span class="identifier">imap_headerinfo</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">imap_stream</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">msg_number</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">fromlength</span></span> = <span class="number">0</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">subjectlength</span></span> = <span class="number">0</span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">defaulthost</span></span> = <span class="identifier">NULL</span> ]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gets information about the given message number by reading its headers.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the information in an object with following properties: toaddress - full to: line, up to 1024 characters to - an array of objects from the To: line, with the following properties: personal, adl, mailbox, and host fromaddress - full from: line, up to 1024 characters from - an array of objects from the From: line, with the following properties: personal, adl, mailbox, and host ccaddress - full cc: line, up to 1024 characters cc - an array of objects from the Cc: line, with the following properties: personal, adl, mailbox, and host bccaddress - full bcc: line, up to 1024 characters bcc - an array of objects from the Bcc: line, with the following properties: personal, adl, mailbox, and host reply_toaddress - full Reply-To: line, up to 1024 characters reply_to - an array of objects from the Reply-To: line, with the following properties: personal, adl, mailbox, and host senderaddress - full sender: line, up to 1024 characters sender - an array of objects from the Sender: line, with the following properties: personal, adl, mailbox, and host return_pathaddress - full Return-Path: line, up to 1024 characters return_path - an array of objects from the Return-Path: line, with the following properties: personal, adl, mailbox, and host remail - date - The message date as found in its headers Date - Same as date subject - The message subject Subject - Same a subject in_reply_to - message_id - newsgroups - followup_to - references - Recent - R if recent and seen, N if recent and not seen, &#039; &#039; if not recent. Unseen - U if not seen AND not recent, &#039; &#039; if seen OR not seen and recent Flagged - F if flagged, &#039; &#039; if not flagged Answered - A if answered, &#039; &#039; if unanswered Deleted - D if deleted, &#039; &#039; if not deleted Draft - X if draft, &#039; &#039; if not draft Msgno - The message number MailDate - Size - The message size udate - mail message date in Unix time fetchfrom - from line formatted to fit fromlength characters fetchsubject - subject line formatted to fit subjectlength characters</p>	</section>
+
+	
+
+</body>
+</html>

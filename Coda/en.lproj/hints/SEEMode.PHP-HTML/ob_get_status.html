@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ob_get_status</title>
+	<script>	
+		var exampleText = "array ob_get_status ([ bool $full_status = FALSE ] )";
+	</script>
+</head>
+
+<body class="html ob_get_status">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ob_get_status</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ob_get_status</span> ([ <span class="identifier">bool</span> <span class="tag">$<span class="identifier">full_status</span></span> = <span class="identifier">FALSE</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ob_get_status() returns status information on either the top level output buffer or all active output buffer levels if full_status is set to TRUE.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If called without the full_status parameter or with full_status = FALSE a simple array with the following elements is returned: Array ( [level] =&gt; 2 [type] =&gt; 0 [status] =&gt; 0 [name] =&gt; URL-Rewriter [del] =&gt; 1 )</p>	</section>
+
+	
+
+</body>
+</html>

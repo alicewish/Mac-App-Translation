@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ingres_num_rows</title>
+	<script>	
+		var exampleText = "int ingres_num_rows ( resource $result )";
+	</script>
+</head>
+
+<body class="html ingres_num_rows">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ingres_num_rows</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">ingres_num_rows</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function primarily is meant to get the number of rows modified in the database. However, it can be used to retrieve the number of rows to fetch for a SELECT statement. Note: If scrollable cursors are disabled and this function is called before using ingres_fetch_array(), ingres_fetch_object(), or ingres_fetch_row(), the server will delete the result&#039;s data and the script will be unable to get them. Instead, you should retrieve the result&#039;s data using one of these fetch functions in a loop until it returns FALSE, indicating that no more results are available.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>For delete, insert, or update queries, ingres_num_rows() returns the number of rows affected by the query. For other queries, ingres_num_rows() returns the number of rows in the query&#039;s result.</p>	</section>
+
+	
+
+</body>
+</html>

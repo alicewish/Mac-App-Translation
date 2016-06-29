@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>iis_get_server_by_path</title>
+	<script>	
+		var exampleText = "int iis_get_server_by_path ( string $path )";
+	</script>
+</head>
+
+<body class="html iis_get_server_by_path">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>iis_get_server_by_path</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">iis_get_server_by_path</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">path</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Each virtual server in IIS is associated with an instance number. iis_get_server_by_path() finds the instance number from the actual path to the root directory.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the server instance number.</p>	</section>
+
+	
+
+</body>
+</html>

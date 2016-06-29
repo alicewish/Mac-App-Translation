@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>posix_ctermid</title>
+	<script>	
+		var exampleText = "string posix_ctermid ( void )";
+	</script>
+</head>
+
+<body class="html posix_ctermid">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>posix_ctermid</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">posix_ctermid</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Generates a string which is the pathname for the current controlling terminal for the process. On error this will set errno, which can be checked using posix_get_last_error()</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Upon successful completion, returns string of the pathname to the current controlling terminal. Otherwise FALSE is returned and errno is set, which can be checked with posix_get_last_error().</p>	</section>
+
+	
+
+</body>
+</html>

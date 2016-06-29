@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>dio_stat</title>
+	<script>	
+		var exampleText = "array dio_stat ( resource $fd )";
+	</script>
+</head>
+
+<body class="html dio_stat">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>dio_stat</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">dio_stat</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">fd</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>dio_stat() returns information about the given file descriptor.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an associative array with the following keys: &quot;device&quot; - device &quot;inode&quot; - inode &quot;mode&quot; - mode &quot;nlink&quot; - number of hard links &quot;uid&quot; - user id &quot;gid&quot; - group id &quot;device_type&quot; - device type (if inode device) &quot;size&quot; - total size in bytes &quot;blocksize&quot; - blocksize &quot;blocks&quot; - number of blocks allocated &quot;atime&quot; - time of last access &quot;mtime&quot; - time of last modification &quot;ctime&quot; - time of last change On error dio_stat() returns NULL.</p>	</section>
+
+	
+
+</body>
+</html>

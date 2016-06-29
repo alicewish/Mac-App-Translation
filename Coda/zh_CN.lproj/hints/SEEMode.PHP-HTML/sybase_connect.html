@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sybase_connect</title>
+	<script>	
+		var exampleText = "resource sybase_connect ([ string $servername [, string $username [, string $password [, string $charset [, string $appname [, bool $new = false ]]]]]] )";
+	</script>
+</head>
+
+<body class="html sybase_connect">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sybase_connect</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">sybase_connect</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">servername</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">username</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">password</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">charset</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">appname</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">new</span></span> = <span class="keyword literal">false</span> ]]]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>sybase_connect() establishes a connection to a Sybase server. In case a second call is made to sybase_connect() with the same arguments, no new link will be established, but instead, the link identifier of the already opened link will be returned. The link to the server will be closed as soon as the execution of the script ends, unless it&#039;s closed earlier by explicitly calling sybase_close().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a positive Sybase link identifier on success, or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

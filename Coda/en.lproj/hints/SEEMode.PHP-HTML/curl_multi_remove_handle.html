@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>curl_multi_remove_handle</title>
+	<script>	
+		var exampleText = "int curl_multi_remove_handle ( resource $mh , resource $ch )";
+	</script>
+</head>
+
+<body class="html curl_multi_remove_handle">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>curl_multi_remove_handle</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">curl_multi_remove_handle</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">mh</span></span> , <span class="identifier">resource</span> <span class="tag">$<span class="identifier">ch</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Removes a given ch handle from the given mh handle. When the ch handle has been removed, it is again perfectly legal to run curl_exec() on this handle. Removing the ch handle while being used, will effectively halt the transfer in progress involving that handle.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns 0 on success, or one of the CURLM_XXX error codes.</p>	</section>
+
+	
+
+</body>
+</html>

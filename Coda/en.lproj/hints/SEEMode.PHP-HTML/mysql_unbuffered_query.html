@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mysql_unbuffered_query</title>
+	<script>	
+		var exampleText = "resource mysql_unbuffered_query ( string $query [, resource $link_identifier ] )";
+	</script>
+</head>
+
+<body class="html mysql_unbuffered_query">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mysql_unbuffered_query</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">mysql_unbuffered_query</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> [, <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>mysql_unbuffered_query() sends the SQL query query to MySQL without automatically fetching and buffering the result rows as mysql_query() does. This saves a considerable amount of memory with SQL queries that produce large result sets, and you can start working on the result set immediately after the first row has been retrieved as you don&#039;t have to wait until the complete SQL query has been performed. To use mysql_unbuffered_query() while multiple database connections are open, you must specify the optional parameter link_identifier to identify which connection you want to use.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>For SELECT, SHOW, DESCRIBE or EXPLAIN statements, mysql_unbuffered_query() returns a resource on success, or FALSE on error. For other type of SQL statements, UPDATE, DELETE, DROP, etc, mysql_unbuffered_query() returns TRUE on success or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

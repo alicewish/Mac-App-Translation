@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>HttpQueryString::get</title>
+	<script>	
+		var exampleText = "public mixed HttpQueryString::get ([ string $key [, mixed $type = 0 [, mixed $defval = NULL [, bool $delete = false ]]]] )";
+	</script>
+</head>
+
+<body class="html HttpQueryString::get">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>HttpQueryString::get</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword">public</span> <span class="identifier">mixed</span> <span class="identifier">HttpQueryString</span>::<span class="identifier">get</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">key</span></span> [, <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">type</span></span> = <span class="number">0</span> [, <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">defval</span></span> = <span class="identifier">NULL</span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">delete</span></span> = <span class="keyword literal">false</span> ]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Get (part of) the query string. The type parameter is either one of the HttpQueryString::TYPE_* constants or a type abbreviation like &quot;b&quot; for bool, &quot;i&quot; for int, &quot;f&quot; for float, &quot;s&quot; for string, &quot;a&quot; for array and &quot;o&quot; for a stdClass object.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the value of the query string param or the whole query string if no key was specified on success or defval if key does not exist.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>wincache_scache_meminfo</title>
+	<script>	
+		var exampleText = "array wincache_scache_meminfo ( void )";
+	</script>
+</head>
+
+<body class="html wincache_scache_meminfo">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>wincache_scache_meminfo</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">wincache_scache_meminfo</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Retrieves information about memory usage by session cache.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Array of meta data about session cache memory usage or FALSE on failure The array returned by this function contains the following elements: memory_total - amount of memory in bytes allocated for the session cache memory_free - amount of free memory in bytes available for the session cache num_used_blks - number of memory blocks used by the session cache num_free_blks - number of free memory blocks available for the session cache memory_overhead - amount of memory in bytes used for the session cache internal structures</p>	</section>
+
+	
+
+</body>
+</html>

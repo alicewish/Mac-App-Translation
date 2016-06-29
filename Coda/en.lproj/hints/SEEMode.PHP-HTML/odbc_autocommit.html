@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>odbc_autocommit</title>
+	<script>	
+		var exampleText = "mixed odbc_autocommit ( resource $connection_id [, bool $OnOff = false ] )";
+	</script>
+</head>
+
+<body class="html odbc_autocommit">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>odbc_autocommit</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">odbc_autocommit</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection_id</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">OnOff</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Toggles autocommit behaviour. By default, auto-commit is on for a connection. Disabling auto-commit is equivalent with starting a transaction.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Without the OnOff parameter, this function returns auto-commit status for connection_id. Non-zero is returned if auto-commit is on, 0 if it is off, or FALSE if an error occurs. If OnOff is set, this function returns TRUE on success and FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

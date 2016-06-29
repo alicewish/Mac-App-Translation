@@ -1,0 +1,49 @@
+"%[All]@ of the following are true" = "%1$[All]@ of the following are true";
+"%[Any]@ of the following are true" = "%1$[Any]@ of the following are true";
+"%[None]@ of the following are true" = "%1$[None]@ of the following are true";
+
+"%[displayName]@ %[is]@ %@" = "%1$[Name]@ %2$[is]@ %3$@";
+"%[displayName]@ %[is not]@ %@" = "%1$[Name]@ %2$[is not]@ %3$@";
+"%[displayName]@ %[begins with]@ %@" = "%1$[Name]@ %2$[begins with]@ %3$@";
+"%[displayName]@ %[ends with]@ %@" = "%1$[Name]@ %2$[ends with]@ %3$@";
+"%[displayName]@ %[contains]@ %@" = "%1$[Name]@ %2$[contains]@ %3$@";
+"%[displayName]@ %[matches]@ %@" = "%1$[Name]@ %2$[matches]@ %3$@";
+
+"%[path]@ %[is]@ %@" = "%1$[Path]@ %2$[is]@ %3$@";
+"%[path]@ %[is not]@ %@" = "%1$[Path]@ %2$[is not]@ %3$@";
+"%[path]@ %[begins with]@ %@" = "%1$[Path]@ %2$[begins with]@ %3$@";
+"%[path]@ %[ends with]@ %@" = "%1$[Path]@ %2$[ends with]@ %3$@";
+"%[path]@ %[contains]@ %@" = "%1$[Path]@ %2$[contains]@ %3$@";
+"%[path]@ %[matches]@ %@" = "%1$[Path]@ %2$[matches]@ %3$@";
+
+"%[modificationDate]@ %[is greater than]@ %@ %[days]@" = "%1$[Date Modified]@ %2$[is within last]@ %3$@ %4$[days]@";
+"%[modificationDate]@ %[is greater than]@ %@ %[weeks]@" = "%1$[Date Modified]@ %2$[is within last]@ %3$@ %4$[weeks]@";
+"%[modificationDate]@ %[is greater than]@ %@ %[months]@" = "%1$[Date Modified]@ %2$[is within last]@ %3$@ %4$[months]@";
+"%[modificationDate]@ %[is less than]@ %@ %[days]@" = "%1$[Date Modified]@ %2$[is not within last]@ %3$@ %4$[days]@";
+"%[modificationDate]@ %[is less than]@ %@ %[weeks]@" = "%1$[Date Modified]@ %2$[is not within last]@ %3$@ %4$[weeks]@";
+"%[modificationDate]@ %[is less than]@ %@ %[months]@" = "%1$[Date Modified]@ %2$[is not within last]@ %3$@ %4$[months]@";
+
+"%[modificationDate]@ %[is]@ %@" = "%1$[Date modified]@ %2$[is]@ %3$@";
+"%[modificationDate]@ %[is not]@ %@" = "%1$[Date modified]@ %2$[is not]@ %3$@";
+"%[modificationDate]@ %[is less than]@ %@" = "%1$[Date modified]@ %2$[is before]@ %3$@";
+"%[modificationDate]@ %[is greater than]@ %@" = "%1$[Date modified]@ %2$[is after]@ %3$@";
+
+"%[size]@ %[is]@ %@ %[KB]@" = "%1$[Size]@ %2$[equals]@ %3$@ %4$[KB]@";
+"%[size]@ %[is]@ %@ %[MB]@" = "%1$[Size]@ %2$[equals]@ %3$@ %4$[MB]@";
+"%[size]@ %[is]@ %@ %[GB]@" = "%1$[Size]@ %2$[equals]@ %3$@ %4$[GB]@";
+"%[size]@ %[is greater than]@ %@ %[KB]@" = "%1$[Size]@ %2$[is greater than]@ %3$@ %4$[KB]@";
+"%[size]@ %[is greater than]@ %@ %[MB]@" = "%1$[Size]@ %2$[is greater than]@ %3$@ %4$[MB]@";
+"%[size]@ %[is greater than]@ %@ %[GB]@" = "%1$[Size]@ %2$[is greater than]@ %3$@ %4$[GB]@";
+"%[size]@ %[is less than]@ %@ %[KB]@" = "%1$[Size]@ %2$[is less than]@ %3$@ %4$[KB]@";
+"%[size]@ %[is less than]@ %@ %[MB]@" = "%1$[Size]@ %2$[is less than]@ %3$@ %4$[MB]@";
+"%[size]@ %[is less than]@ %@ %[GB]@" = "%1$[Size]@ %2$[is less than]@ %3$@ %4$[GB]@";
+"%[size]@ %[is not]@ %@ %[KB]@" = "%1$[Size]@ %2$[is not]@ %3$@ %4$[KB]@";
+"%[size]@ %[is not]@ %@ %[MB]@" = "%1$[Size]@ %2$[is not]@ %3$@ %4$[MB]@";
+"%[size]@ %[is not]@ %@ %[GB]@" = "%1$[Size]@ %2$[is not]@ %3$@ %4$[GB]@";
+
+"%[kind]@ %[is]@ %@" = "%1$[Kind]@ %2$[is]@ %3$@";
+"%[kind]@ %[is not]@ %@" = "%1$[Kind]@ %2$[is not]@ %3$@";
+"%[kind]@ %[contains]@ %@" = "%1$[Kind]@ %2$[contains]@ %3$@";
+"%[kind]@ %[matches]@ %@" = "%1$[Kind]@ %2$[matches]@ %3$@";
+
+

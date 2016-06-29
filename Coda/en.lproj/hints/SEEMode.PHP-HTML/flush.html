@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>flush</title>
+	<script>	
+		var exampleText = "void flush ( void )";
+	</script>
+</head>
+
+<body class="html flush">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>flush</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">void</span> <span class="identifier">flush</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Flushes the write buffers of PHP and whatever backend PHP is using (CGI, a web server, etc). This attempts to push current output all the way to the browser with a few caveats. flush() may not be able to override the buffering scheme of your web server and it has no effect on any client-side buffering in the browser. It also doesn&#039;t affect PHP&#039;s userspace output buffering mechanism. This means you will have to call both ob_flush() and flush() to flush the ob output buffers if you are using those. Several servers, especially on Win32, will still buffer the output from your script until it terminates before transmitting the results to the browser. Server modules for Apache like mod_gzip may do buffering of their own that will cause flush() to not result in data being sent immediately to the client. Even the browser may buffer its input before displaying it. Netscape, for example, buffers text until it receives an end-of-line or the beginning of a tag, and it won&#039;t render tables until the &lt;<code>/table</code>&gt; tag of the outermost table is seen. Some versions of Microsoft Internet Explorer will only start to display the page after they have received 256 bytes of output, so you may need to send extra whitespace before flushing to get those browsers to display the page.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>No value is returned.</p>	</section>
+
+	
+
+</body>
+</html>

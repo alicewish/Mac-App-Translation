@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>gzencode</title>
+	<script>	
+		var exampleText = "string gzencode ( string $data [, int $level = -1 [, int $encoding_mode = FORCE_GZIP ]] )";
+	</script>
+</head>
+
+<body class="html gzencode">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>gzencode</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">gzencode</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">level</span></span> = -<span class="number">1</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">encoding_mode</span></span> = <span class="identifier">FORCE_GZIP</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function returns a compressed version of the input data compatible with the output of the gzip program. For more information on the GZIP file format, see the document: &raquo;&nbsp;GZIP file format specification version 4.3 (RFC 1952).</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The encoded string, or FALSE if an error occurred.</p>	</section>
+
+	
+
+</body>
+</html>

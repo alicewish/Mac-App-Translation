@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>openssl_public_encrypt</title>
+	<script>	
+		var exampleText = "bool openssl_public_encrypt ( string $data , string &$crypted , mixed $key [, int $padding = OPENSSL_PKCS1_PADDING ] )";
+	</script>
+</head>
+
+<body class="html openssl_public_encrypt">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>openssl_public_encrypt</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">openssl_public_encrypt</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> , <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">crypted</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">key</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">padding</span></span> = <span class="identifier">OPENSSL_PKCS1_PADDING</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>openssl_public_encrypt() encrypts data with public key and stores the result into crypted. Encrypted data can be decrypted via openssl_private_decrypt(). This function can be used e.g. to encrypt message which can be then read only by owner of the private key. It can be also used to store secure data in database.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

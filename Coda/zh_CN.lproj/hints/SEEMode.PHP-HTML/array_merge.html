@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>array_merge</title>
+	<script>	
+		var exampleText = "array array_merge ( array $array1 [, array $... ] )";
+	</script>
+</head>
+
+<body class="html array_merge">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>array_merge</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">array_merge</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">array1</span></span> [, <span class="keyword builtin">array</span> <span class="tag">$</span>... ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Merges the elements of one or more arrays together so that the values of one are appended to the end of the previous one. It returns the resulting array. If the input arrays have the same string keys, then the later value for that key will overwrite the previous one. If, however, the arrays contain numeric keys, the later value will not overwrite the original value, but will be appended. Values in the input array with numeric keys will be renumbered with incrementing keys starting from zero in the result array.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the resulting array.</p>	</section>
+
+	
+
+</body>
+</html>

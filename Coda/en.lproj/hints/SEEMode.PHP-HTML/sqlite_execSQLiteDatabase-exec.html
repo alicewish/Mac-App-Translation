@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_execSQLiteDatabase-exec</title>
+	<script>	
+		var exampleText = "bool sqlite_exec ( resource $dbhandle , string $query [, string &$error_msg ] )";
+	</script>
+</head>
+
+<body class="html sqlite_execSQLiteDatabase-exec">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_execSQLiteDatabase-exec</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">sqlite_exec</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">dbhandle</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> [, <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">error_msg</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>bool sqlite_exec ( string $query , resource $dbhandle )<br> Object oriented style (method): bool SQLiteDatabase::queryExec ( string $query [, string &$error_msg ] )<br> Executes an SQL statement given by the query against a given database handle (specified by the dbhandle parameter). Warning SQLite will execute multiple queries separated by semicolons, so you can use it to execute a batch of SQL that you have loaded from a file or have embedded in a script.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>This function will return a boolean result; TRUE for success or FALSE for failure. If you need to run a query that returns rows, see sqlite_query(). The column names returned by SQLITE_ASSOC and SQLITE_BOTH will be case-folded according to the value of the sqlite.assoc_case configuration option.</p>	</section>
+
+	
+
+</body>
+</html>

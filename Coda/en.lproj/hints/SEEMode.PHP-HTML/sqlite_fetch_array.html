@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_fetch_array</title>
+	<script>	
+		var exampleText = "array sqlite_fetch_array ( resource $result [, int $result_type = SQLITE_BOTH [, bool $decode_binary = true ]] )";
+	</script>
+</head>
+
+<body class="html sqlite_fetch_array">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_fetch_array</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">sqlite_fetch_array</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">result_type</span></span> = <span class="identifier">SQLITE_BOTH</span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">decode_binary</span></span> = <span class="keyword literal">true</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Fetches the next row from the given result handle. If there are no more rows, returns FALSE, otherwise returns an associative array representing the row data.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of the next row from a result set; FALSE if the next position is beyond the final row. The column names returned by SQLITE_ASSOC and SQLITE_BOTH will be case-folded according to the value of the sqlite.assoc_case configuration option.</p>	</section>
+
+	
+
+</body>
+</html>

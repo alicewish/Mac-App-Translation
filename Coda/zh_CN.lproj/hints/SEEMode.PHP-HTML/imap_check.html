@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_check</title>
+	<script>	
+		var exampleText = "object imap_check ( resource $imap_stream )";
+	</script>
+</head>
+
+<body class="html imap_check">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_check</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">object</span> <span class="identifier">imap_check</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">imap_stream</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Checks information about the current mailbox.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the information in an object with following properties: Date - current system time formatted according to &raquo;&nbsp;RFC2822 Driver - protocol used to access this mailbox: POP3, IMAP, NNTP Mailbox - the mailbox name Nmsgs - number of messages in the mailbox Recent - number of recent messages in the mailbox Returns FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

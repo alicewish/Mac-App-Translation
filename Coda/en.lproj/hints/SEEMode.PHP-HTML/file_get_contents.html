@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>file_get_contents</title>
+	<script>	
+		var exampleText = "string file_get_contents ( string $filename [, bool $use_include_path = false [, resource $context [, int $offset = -1 [, int $maxlen ]]]] )";
+	</script>
+</head>
+
+<body class="html file_get_contents">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>file_get_contents</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">file_get_contents</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">use_include_path</span></span> = <span class="keyword literal">false</span> [, <span class="identifier">resource</span> <span class="tag">$<span class="identifier">context</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">offset</span></span> = -<span class="number">1</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">maxlen</span></span> ]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function is similar to file(), except that file_get_contents() returns the file in a string, starting at the specified offset up to maxlen bytes. On failure, file_get_contents() will return FALSE. file_get_contents() is the preferred way to read the contents of a file into a string. It will use memory mapping techniques if supported by your OS to enhance performance. Note: If you&#039;re opening a URI with special characters, such as spaces, you need to encode the URI with urlencode().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The function returns the read data or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>gettype</title>
+	<script>	
+		var exampleText = "string gettype ( mixed $var )";
+	</script>
+</head>
+
+<body class="html gettype">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>gettype</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">gettype</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">var</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns the type of the PHP variable var. Warning Never use gettype() to test for a certain type, since the returned string may be subject to change in a future version. In addition, it is slow too, as it involves string comparison. Instead, use the is_* functions.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Possibles values for the returned string are: &quot;boolean&quot; &quot;integer&quot; &quot;double&quot; (for historical reasons &quot;double&quot; is returned in case of a float, and not simply &quot;float&quot;) &quot;string&quot; &quot;array&quot; &quot;object&quot; &quot;resource&quot; &quot;NULL&quot; &quot;unknown type&quot;</p>	</section>
+
+	
+
+</body>
+</html>

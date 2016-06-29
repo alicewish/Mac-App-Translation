@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ftp_alloc</title>
+	<script>	
+		var exampleText = "bool ftp_alloc ( resource $ftp_stream , int $filesize [, string &$result ] )";
+	</script>
+</head>
+
+<body class="html ftp_alloc">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ftp_alloc</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">ftp_alloc</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">ftp_stream</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">filesize</span></span> [, <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">result</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sends an ALLO command to the remote FTP server to allocate space for a file to be uploaded. Note: Many FTP servers do not support this command. These servers may return a failure code (FALSE) indicating the command is not supported or a success code (TRUE) to indicate that pre-allocation is not necessary and the client should continue as though the operation were successful. Because of this, it may be best to reserve this function for servers which explicitly require preallocation.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

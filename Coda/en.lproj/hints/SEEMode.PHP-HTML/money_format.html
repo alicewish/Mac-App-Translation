@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>money_format</title>
+	<script>	
+		var exampleText = "string money_format ( string $format , float $number )";
+	</script>
+</head>
+
+<body class="html money_format">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>money_format</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">money_format</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">format</span></span> , <span class="identifier">float</span> <span class="tag">$<span class="identifier">number</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>money_format() returns a formatted version of number. This function wraps the C library function strfmon(), with the difference that this implementation converts only one number at a time.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the formatted string. Characters before and after the formatting string will be returned unchanged. Non-numeric number causes returning NULL and emitting E_WARNING.</p>	</section>
+
+	
+
+</body>
+</html>

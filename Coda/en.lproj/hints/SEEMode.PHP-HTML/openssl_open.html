@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>openssl_open</title>
+	<script>	
+		var exampleText = "bool openssl_open ( string $sealed_data , string &$open_data , string $env_key , mixed $priv_key_id [, string $method ] )";
+	</script>
+</head>
+
+<body class="html openssl_open">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>openssl_open</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">openssl_open</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">sealed_data</span></span> , <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">open_data</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">env_key</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">priv_key_id</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">method</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>openssl_open() opens (decrypts) sealed_data using the private key associated with the key identifier priv_key_id and the envelope key env_key, and fills open_data with the decrypted data. The envelope key is generated when the data are sealed and can only be used by one specific private key. See openssl_seal() for more information.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

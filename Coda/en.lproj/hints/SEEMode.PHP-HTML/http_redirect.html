@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>http_redirect</title>
+	<script>	
+		var exampleText = "bool http_redirect ([ string $url [, array $params [, bool $session = false [, int $status = 0 ]]]] )";
+	</script>
+</head>
+
+<body class="html http_redirect">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>http_redirect</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">http_redirect</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">url</span></span> [, <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">params</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">session</span></span> = <span class="keyword literal">false</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">status</span></span> = <span class="number">0</span> ]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Redirect to the given url. The supplied url will be expanded with http_build_url(), the params array will be treated with http_build_str() and the session identification will be appended if session is true. The HTTP response code will be set according to status. You can use one of the redirect constants for convenience. Please see &raquo;&nbsp;RFC 2616 for which redirect response code to use in which situation. By default PHP will decide which response status fits best. To be RFC compliant, &quot;Redirecting to &lt;<code>a</code>&gt;URL&lt;<code>/a</code>&gt;.&quot; will be displayed, if the client doesn&#039;t redirect immediately, and the request method was another one than HEAD. A log entry will be written to the redirect log, if the INI setting http.log.redirect is set and the redirect attempt was successful.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns FALSE or exits on success with the specified redirection status code. See the INI setting http.force_exit for what &quot;exits&quot; means.</p>	</section>
+
+	
+
+</body>
+</html>

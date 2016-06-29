@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>strspn</title>
+	<script>	
+		var exampleText = "int strspn ( string $subject , string $mask [, int $start [, int $length ]] )";
+	</script>
+</head>
+
+<body class="html strspn">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>strspn</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">strspn</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">subject</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">mask</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">start</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">length</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Finds the length of the initial segment of subject that contains only characters from mask. If start and length are omitted, then all of subject will be examined. If they are included, then the effect will be the same as calling strspn(substr($subject, $start, $length), $mask) (see substr for more information). The line of code: <br> &lt;<code>?php$var&nbsp;=&nbsp;strspn("42&nbsp;is&nbsp;the&nbsp;answer&nbsp;to&nbsp;the&nbsp;128th&nbsp;question.",&nbsp;"1234567890");?</code>&gt;<br> <br> will assign 2 to $var, because the string &quot;42&quot; is the initial segment of subject that consists only of characters contained within &quot;1234567890&quot;.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the length of the initial segment of subject which consists entirely of characters in mask.</p>	</section>
+
+	
+
+</body>
+</html>

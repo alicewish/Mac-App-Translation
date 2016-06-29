@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>Date</title>
+	<script>
+		var exampleText = "";
+	</script>
+</head>
+
+<body class="javascript Date">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1 title="">Date</h1>
+	</header>
+
+	<section id="example" class="hide" onclick="Coda.copyExample(exampleText);">
+		<h2>Example</h2>
+		<code class="codeblock" title="Click to insert code sample."><pre class="source-code css">1</pre></code>
+	</section>		
+
+	<section id="description" class="hide">
+
+		<h2>Description</h2>
+		
+		<p></p>
+		
+		<p></p>		
+	</section>
+
+
+	
+	<section id="properties" >
+		<h2>Properties</h2>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Property Name</th>
+
+					<th>Description</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+		<tr>
+<td class="col-name">constructor</td>
+<td class="col-description">function that created the Date object's prototype</td></tr>
+<tr>
+<td class="col-name">prototype</td>
+<td class="col-description">allows adding properties and methods to the object</td></tr>
+							
+			</tbody>
+		</table>
+	</section>			
+		
+				
+		<section id="methods" >
+
+		
+		<h2>Methods</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Method Name</th>
+					<th>Description</th>
+					<th>Values</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+			<tr>
+<td class="col-name">getDay()</a></td>
+<td class="col-description">Returns the day of the week (from 0 to 6, Sunday being 0) of the Date.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getFullYear()</a></td>
+<td class="col-description">Returns the four-digit year of the Date.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getHours()</a></td>
+<td class="col-description">Returns the hour of the Date (from 0-23).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getMilliseconds()</a></td>
+<td class="col-description">Returns the millisecond of the Date (from 0-999).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getMinutes()</a></td>
+<td class="col-description">Returns the minute of the Date (from 0-59).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getMonth()</a></td>
+<td class="col-description">Returns the month of the Date (from 0-11, January being 0).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getSeconds()</a></td>
+<td class="col-description">Returns the seconds of the Date (from 0 to 59).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getTime()</a></td>
+<td class="col-description">Returns the number of milliseconds from midnight, January 1, 1970 to the Date.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getTimezoneOffset()</a></td>
+<td class="col-description">Returns the difference between Greenwich Mean Time (GMT) and local time in minutes.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCDate()</a></td>
+<td class="col-description">Returns the day of the month (from 1 to 31) for the specified date, in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCDay()</a></td>
+<td class="col-description">Returns the day of the week (from 0 to 6, Sunday being 0) of the Date, in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCFullYear()</a></td>
+<td class="col-description">Returns the four-digit year of the Date, in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCHours()</a></td>
+<td class="col-description">Returns the hour of the Date (from 0-23), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCMilliseconds()</a></td>
+<td class="col-description">Returns the millisecond of the Date (from 0-999), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCMinutes()</a></td>
+<td class="col-description">Returns the minute of the Date (from 0-59), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCMonth()</a></td>
+<td class="col-description">Returns the month of the Date (from 0-11, January being 0), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getUTCSeconds()</a></td>
+<td class="col-description">Returns the seconds of the Date (from 0 to 59), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">getYear()</a></td>
+<td class="col-description">Deprecated in favor of getFullYear().</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">now()</a></td>
+<td class="col-description">Returns the numeric value corresponding to the current time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">parse()</a></td>
+<td class="col-description">Parses a date string and returns the number of milliseconds elapsed from midnight, January 1, 1970 to that date.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setDate()</a></td>
+<td class="col-description">Sets the day of the month (from 1-31).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setFullYear()</a></td>
+<td class="col-description">Sets the four-digit year, and optionally the month (0-11) and day (1-31).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setHours()</a></td>
+<td class="col-description">Sets the hour, and optionally the minute (0-59), second (0-59), and millisecond (0-999).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setMilliseconds()</a></td>
+<td class="col-description">Sets the millisecond (from 0-999).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setMinutes()</a></td>
+<td class="col-description">Sets the minute, and optionally the second (0-59) and millisecond (0-999).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setMonth()</a></td>
+<td class="col-description">Sets the month (from 0-11) and optionally the day (1-31).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setSeconds()</a></td>
+<td class="col-description">Sets the seconds (from 0-59) and optionally milliseconds (0-999).</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setTime()</a></td>
+<td class="col-description">Sets the Date based on the number of milliseconds since midnight, January 1, 1970.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setUTCDate()</a></td>
+<td class="col-description">Sets the day of the month (from 1-31), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setUTCFullYear()</a></td>
+<td class="col-description">Sets the four-digit year, in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setUTCHours()</a></td>
+<td class="col-description">Sets the hour, and optionally the minute (0-59), second (0-59), and millisecond (0-999), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setUTCMilliseconds()</a></td>
+<td class="col-description">Sets the millisecond (from 0-999), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setUTCMinutes()</a></td>
+<td class="col-description">Sets the minute, and optionally the second (0-59) and millisecond (0-999), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setUTCMonth()</a></td>
+<td class="col-description">Sets the month (from 0-11) and optionally the day (1-31), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setUTCSeconds()</a></td>
+<td class="col-description">Sets the seconds (from 0-59) and optionally milliseconds (0-999), in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">setYear()</a></td>
+<td class="col-description">Deprecated in favor of setFullYear().</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toDateString()</a></td>
+<td class="col-description">Returns a String representation of the date.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toGMTString()</a></td>
+<td class="col-description">Deprecated in favor of toUTCString().</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toISOString()</a></td>
+<td class="col-description"></td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toLocaleDateString()</a></td>
+<td class="col-description">Returns a String representation of the date portion of the Date object using the system's locale.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toLocaleString()</a></td>
+<td class="col-description">Returns a String representation of the Date using the system's locale.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toLocaleTimeString()</a></td>
+<td class="col-description">Returns a String representation of the time portion of the Date object using the system's locale.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toString()</a></td>
+<td class="col-description">Returns a String representation of the Date.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toTimeString()</a></td>
+<td class="col-description">Returns a String representation of the time portion of the Date.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toUTCString()</a></td>
+<td class="col-description">Returns a String representation of the Date in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">UTC()</a></td>
+<td class="col-description">Returns the number of milliseconds from midnight, January 1, 1970 to the specified date in Coordinated Universal Time.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">valueOf()</a></td>
+<td class="col-description">Returns the primitive value of a Date object as the number of milliseconds since midnight, January 1, 1970 UTC.</td>
+<td class="col-values"></td>
+</tr>
+		
+							
+			</tbody>
+		</table>
+	</section>
+	</body>
+</html>

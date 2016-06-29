@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>http_negotiate_content_type</title>
+	<script>	
+		var exampleText = "string http_negotiate_content_type ( array $supported [, array &$result ] )";
+	</script>
+</head>
+
+<body class="html http_negotiate_content_type">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>http_negotiate_content_type</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">http_negotiate_content_type</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">supported</span></span> [, <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">result</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function negotiates the clients preferred content type based on its Accept HTTP header. The qualifier is recognized and content types without qualifier are rated highest.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the negotiated content type or the default content type (i.e. first array entry) if none match.</p>	</section>
+
+	
+
+</body>
+</html>

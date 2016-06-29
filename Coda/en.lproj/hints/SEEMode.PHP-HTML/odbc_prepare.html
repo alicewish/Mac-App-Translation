@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>odbc_prepare</title>
+	<script>	
+		var exampleText = "resource odbc_prepare ( resource $connection_id , string $query_string )";
+	</script>
+</head>
+
+<body class="html odbc_prepare">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>odbc_prepare</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">odbc_prepare</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection_id</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query_string</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Prepares a statement for execution. The result identifier can be used later to execute the statement with odbc_execute(). Some databases (such as IBM DB2, MS SQL Server, and Oracle) support stored procedures that accept parameters of type IN, INOUT, and OUT as defined by the ODBC specification. However, the Unified ODBC driver currently only supports parameters of type IN to stored procedures.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an ODBC result identifier if the SQL command was prepared successfully. Returns FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

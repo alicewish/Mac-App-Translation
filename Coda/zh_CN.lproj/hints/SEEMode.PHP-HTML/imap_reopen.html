@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_reopen</title>
+	<script>	
+		var exampleText = "bool imap_reopen ( resource $imap_stream , string $mailbox [, int $options = 0 [, int $n_retries = 0 ]] )";
+	</script>
+</head>
+
+<body class="html imap_reopen">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_reopen</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">imap_reopen</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">imap_stream</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">mailbox</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">options</span></span> = <span class="number">0</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">n_retries</span></span> = <span class="number">0</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Reopens the specified stream to a new mailbox on an IMAP or NNTP server.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if the stream is reopened, FALSE otherwise.</p>	</section>
+
+	
+
+</body>
+</html>

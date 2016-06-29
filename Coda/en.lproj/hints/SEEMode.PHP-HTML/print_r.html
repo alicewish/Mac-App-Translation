@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>print_r</title>
+	<script>	
+		var exampleText = "mixed print_r ( mixed $expression [, bool $return = false ] )";
+	</script>
+</head>
+
+<body class="html print_r">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>print_r</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">print_r</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">expression</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">return</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>print_r() displays information about a variable in a way that&#039;s readable by humans. print_r(), var_dump() and var_export() will also show protected and private properties of objects with PHP 5. Static class members will not be shown. Remember that print_r() will move the array pointer to the end. Use reset() to bring it back to beginning.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If given a string, integer or float, the value itself will be printed. If given an array, values will be presented in a format that shows keys and elements. Similar notation is used for objects. When the return parameter is TRUE, this function will return a string. Otherwise, the return value is TRUE.</p>	</section>
+
+	
+
+</body>
+</html>

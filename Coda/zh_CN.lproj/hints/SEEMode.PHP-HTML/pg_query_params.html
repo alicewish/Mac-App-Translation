@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_query_params</title>
+	<script>	
+		var exampleText = "resource pg_query_params ([ resource $connection ], string $query , array $params )";
+	</script>
+</head>
+
+<body class="html pg_query_params">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_query_params</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">pg_query_params</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ], <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> , <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">params</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Submits a command to the server and waits for the result, with the ability to pass parameters separately from the SQL command text. pg_query_params() is like pg_query(), but offers additional functionality: parameter values can be specified separately from the command string proper. pg_query_params() is supported only against PostgreSQL 7.4 or higher connections; it will fail when using earlier versions. If parameters are used, they are referred to in the query string as $1, $2, etc. params specifies the actual values of the parameters. A NULL value in this array means the corresponding parameter is SQL NULL. The primary advantage of pg_query_params() over pg_query() is that parameter values may be separated from the query string, thus avoiding the need for tedious and error-prone quoting and escaping. Unlike pg_query(), pg_query_params() allows at most one SQL command in the given string. (There can be semicolons in it, but not more than one nonempty command.)</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A query result resource on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

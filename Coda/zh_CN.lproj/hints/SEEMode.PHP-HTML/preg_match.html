@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>preg_match</title>
+	<script>	
+		var exampleText = "int preg_match ( string $pattern , string $subject [, array &$matches [, int $flags = 0 [, int $offset = 0 ]]] )";
+	</script>
+</head>
+
+<body class="html preg_match">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>preg_match</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">preg_match</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">pattern</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">subject</span></span> [, <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">matches</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">flags</span></span> = <span class="number">0</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">offset</span></span> = <span class="number">0</span> ]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Searches subject for a match to the regular expression given in pattern.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>preg_match() returns the number of times pattern matches. That will be either 0 times (no match) or 1 time because preg_match() will stop searching after the first match. preg_match_all() on the contrary will continue until it reaches the end of subject. preg_match() returns FALSE if an error occurred.</p>	</section>
+
+	
+
+</body>
+</html>

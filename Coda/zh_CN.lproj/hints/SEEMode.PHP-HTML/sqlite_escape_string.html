@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_escape_string</title>
+	<script>	
+		var exampleText = "string sqlite_escape_string ( string $item )";
+	</script>
+</head>
+
+<body class="html sqlite_escape_string">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_escape_string</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">sqlite_escape_string</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">item</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>sqlite_escape_string() will correctly quote the string specified by item for use in an SQLite SQL statement. This includes doubling up single-quote characters (&#039;) and checking for binary-unsafe characters in the query string. Although the encoding makes it safe to insert the data, it will render simple text comparisons and LIKE clauses in your queries unusable for the columns that contain the binary data. In practice, this shouldn&#039;t be a problem, as your schema should be such that you don&#039;t use such things on binary columns (in fact, it might be better to store binary data using other means, such as in files).</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an escaped string for use in an SQLite SQL statement.</p>	</section>
+
+	
+
+</body>
+</html>

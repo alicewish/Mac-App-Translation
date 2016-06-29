@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>prev</title>
+	<script>	
+		var exampleText = "mixed prev ( array &$array )";
+	</script>
+</head>
+
+<body class="html prev">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>prev</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">prev</span> ( <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">array</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Rewind the internal array pointer. prev() behaves just like next(), except it rewinds the internal array pointer one place instead of advancing it.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the array value in the previous place that&#039;s pointed to by the internal array pointer, or FALSE if there are no more elements.</p>	</section>
+
+	
+
+</body>
+</html>

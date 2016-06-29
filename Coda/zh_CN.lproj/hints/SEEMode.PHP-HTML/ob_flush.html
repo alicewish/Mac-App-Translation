@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ob_flush</title>
+	<script>	
+		var exampleText = "void ob_flush ( void )";
+	</script>
+</head>
+
+<body class="html ob_flush">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ob_flush</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">void</span> <span class="identifier">ob_flush</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function will send the contents of the output buffer (if any). If you want to further process the buffer&#039;s contents you have to call ob_get_contents() before ob_flush() as the buffer contents are discarded after ob_flush() is called. This function does not destroy the output buffer like ob_end_flush() does.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>No value is returned.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>HttpResponse::setCacheControl</title>
+	<script>	
+		var exampleText = "static bool HttpResponse::setCacheControl ( string $control [, int $max_age = 0 [, bool $must_revalidate = true ]] )";
+	</script>
+</head>
+
+<body class="html HttpResponse::setCacheControl">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>HttpResponse::setCacheControl</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword">static</span> <span class="identifier">bool</span> <span class="identifier">HttpResponse</span>::<span class="identifier">setCacheControl</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">control</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">max_age</span></span> = <span class="number">0</span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">must_revalidate</span></span> = <span class="keyword literal">true</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Define a custom Cache-Control header, usually being private or public;</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success, or FALSE if control does not match one of public, private or no-cache.</p>	</section>
+
+	
+
+</body>
+</html>

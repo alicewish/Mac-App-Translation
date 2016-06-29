@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>HttpRequest::getResponseMessage</title>
+	<script>	
+		var exampleText = "public HttpMessage HttpRequest::getResponseMessage ( void )";
+	</script>
+</head>
+
+<body class="html HttpRequest::getResponseMessage">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>HttpRequest::getResponseMessage</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword">public</span> <span class="identifier">HttpMessage</span> <span class="identifier">HttpRequest</span>::<span class="identifier">getResponseMessage</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Get the full response as HttpMessage object after the request has been sent. If redirects were allowed and several responses were received, the data references the last received response. Use HttpMessage::getParentMessage() to access the data of previously received responses within this request cycle.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an HttpMessage object of the response.</p>	</section>
+
+	
+
+</body>
+</html>

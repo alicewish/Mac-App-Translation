@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>array_flip</title>
+	<script>	
+		var exampleText = "array array_flip ( array $trans )";
+	</script>
+</head>
+
+<body class="html array_flip">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>array_flip</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">array_flip</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">trans</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>array_flip() returns an array in flip order, i.e. keys from trans become values and values from trans become keys. Note that the values of trans need to be valid keys, i.e. they need to be either integer or string. A warning will be emitted if a value has the wrong type, and the key/value pair in question will not be flipped. If a value has several occurrences, the latest key will be used as its values, and all others will be lost.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the flipped array on success and NULL on failure.</p>	</section>
+
+	
+
+</body>
+</html>

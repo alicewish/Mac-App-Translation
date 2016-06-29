@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>fscanf</title>
+	<script>	
+		var exampleText = "mixed fscanf ( resource $handle , string $format [, mixed &$... ] )";
+	</script>
+</head>
+
+<body class="html fscanf">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>fscanf</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">fscanf</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">handle</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">format</span></span> [, <span class="identifier">mixed</span> &amp;<span class="tag">$</span>... ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>The function fscanf() is similar to sscanf(), but it takes its input from a file associated with handle and interprets the input according to the specified format, which is described in the documentation for sprintf(). Any whitespace in the format string matches any whitespace in the input stream. This means that even a tab \t in the format string can match a single space character in the input stream. Each call to fscanf() reads one line from the file.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If only two parameters were passed to this function, the values parsed will be returned as an array. Otherwise, if optional parameters are passed, the function will return the number of assigned values. The optional parameters must be passed by reference.</p>	</section>
+
+	
+
+</body>
+</html>

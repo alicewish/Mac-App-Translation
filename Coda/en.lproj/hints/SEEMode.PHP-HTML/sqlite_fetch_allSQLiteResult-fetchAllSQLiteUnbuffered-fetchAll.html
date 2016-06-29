@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_fetch_allSQLiteResult-fetchAllSQLiteUnbuffered-fetchAll</title>
+	<script>	
+		var exampleText = "array sqlite_fetch_all ( resource $result [, int $result_type = SQLITE_BOTH [, bool $decode_binary = true ]] )";
+	</script>
+</head>
+
+<body class="html sqlite_fetch_allSQLiteResult-fetchAllSQLiteUnbuffered-fetchAll">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_fetch_allSQLiteResult-fetchAllSQLiteUnbuffered-fetchAll</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">sqlite_fetch_all</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">result_type</span></span> = <span class="identifier">SQLITE_BOTH</span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">decode_binary</span></span> = <span class="keyword literal">true</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Object oriented style (method): array SQLiteResult::fetchAll ([ int $result_type = SQLITE_BOTH [, bool $decode_binary = true ]] )<br> array SQLiteUnbuffered::fetchAll ([ int $result_type = SQLITE_BOTH [, bool $decode_binary = true ]] )<br> sqlite_fetch_all() returns an array of the entire result set from the result resource. It is similar to calling sqlite_query() (or sqlite_unbuffered_query()) and then sqlite_fetch_array() for each row in the result set.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of the remaining rows in a result set. If called right after sqlite_query(), it returns all rows. If called after sqlite_fetch_array(), it returns the rest. If there are no rows in a result set, it returns an empty array. The column names returned by SQLITE_ASSOC and SQLITE_BOTH will be case-folded according to the value of the sqlite.assoc_case configuration option.</p>	</section>
+
+	
+
+</body>
+</html>

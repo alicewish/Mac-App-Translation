@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sybase_fetch_object</title>
+	<script>	
+		var exampleText = "object sybase_fetch_object ( resource $result [, mixed $object ] )";
+	</script>
+</head>
+
+<body class="html sybase_fetch_object">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sybase_fetch_object</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">object</span> <span class="identifier">sybase_fetch_object</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> [, <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">object</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>sybase_fetch_object() is similar to sybase_fetch_assoc(), with one difference - an object is returned, instead of an array. Speed-wise, the function is identical to sybase_fetch_array(), and almost as quick as sybase_fetch_row() (the difference is insignificant).</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an object with properties that correspond to the fetched row, or FALSE if there are no more rows.</p>	</section>
+
+	
+
+</body>
+</html>

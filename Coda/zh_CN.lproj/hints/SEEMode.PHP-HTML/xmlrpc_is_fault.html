@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>xmlrpc_is_fault</title>
+	<script>	
+		var exampleText = "bool xmlrpc_is_fault ( array $arg )";
+	</script>
+</head>
+
+<body class="html xmlrpc_is_fault">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>xmlrpc_is_fault</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">xmlrpc_is_fault</span> ( <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">arg</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Warning: This function is EXPERIMENTAL. The behaviour of this function, its name, and surrounding documentation may change without notice in a future release of PHP. This function should be used at your own risk.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if the argument means fault, FALSE otherwise. Fault description is available in $arg[&quot;faultString&quot;], fault code is in $arg[&quot;faultCode&quot;].</p>	</section>
+
+	
+
+</body>
+</html>

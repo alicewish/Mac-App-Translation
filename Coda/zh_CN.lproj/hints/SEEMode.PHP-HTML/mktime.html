@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mktime</title>
+	<script>	
+		var exampleText = "int mktime ([ int $hour = date(\"H\") [, int $minute = date(\"i\") [, int $second = date(\"s\") [, int $month = date(\"n\") [, int $day = date(\"j\") [, int $year = date(\"Y\") [, int $is_dst = -1 ]]]]]]] )";
+	</script>
+</head>
+
+<body class="html mktime">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mktime</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">mktime</span> ([ <span class="keyword type">int</span> <span class="tag">$<span class="identifier">hour</span></span> = <span class="identifier">date</span>(<span class="string">"H"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">minute</span></span> = <span class="identifier">date</span>(<span class="string">"i"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">second</span></span> = <span class="identifier">date</span>(<span class="string">"s"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">month</span></span> = <span class="identifier">date</span>(<span class="string">"n"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">day</span></span> = <span class="identifier">date</span>(<span class="string">"j"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">year</span></span> = <span class="identifier">date</span>(<span class="string">"Y"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">is_dst</span></span> = -<span class="number">1</span> ]]]]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns the Unix timestamp corresponding to the arguments given. This timestamp is a long integer containing the number of seconds between the Unix Epoch (January 1 1970 00:00:00 GMT) and the time specified. Arguments may be left out in order from right to left; any arguments thus omitted will be set to the current value according to the local date and time.  Note: As of PHP 5.1, when called with no arguments, mktime() throws an E_STRICT notice: use the time() function instead.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p></p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>getservbyname</title>
+	<script>	
+		var exampleText = "int getservbyname ( string $service , string $protocol )";
+	</script>
+</head>
+
+<body class="html getservbyname">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>getservbyname</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">getservbyname</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">service</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">protocol</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>getservbyname() returns the Internet port which corresponds to service for the specified protocol as per /etc/services.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the port number, or FALSE if service or protocol is not found.</p>	</section>
+
+	
+
+</body>
+</html>

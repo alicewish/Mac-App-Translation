@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>openssl_pkey_get_details</title>
+	<script>	
+		var exampleText = "array openssl_pkey_get_details ( resource $key )";
+	</script>
+</head>
+
+<body class="html openssl_pkey_get_details">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>openssl_pkey_get_details</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">openssl_pkey_get_details</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">key</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function returns the key details (bits, key, type).</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array with the key details in success or FALSE in failure. Returned array has indexes bits (number of bits), key (string representation of the public key) and type (type of the key which is one of OPENSSL_KEYTYPE_RSA, OPENSSL_KEYTYPE_DSA, OPENSSL_KEYTYPE_DH, OPENSSL_KEYTYPE_EC or -1 meaning unknown). Depending on the key type used, additional details may be returned. Note that some elements may not always be available. OPENSSL_KEYTYPE_RSA, an additional array key named &quot;rsa&quot;, containing the key data is returned. Key Description</p>	</section>
+
+	
+
+</body>
+</html>

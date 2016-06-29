@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>similar_text</title>
+	<script>	
+		var exampleText = "int similar_text ( string $first , string $second [, float &$percent ] )";
+	</script>
+</head>
+
+<body class="html similar_text">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>similar_text</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">similar_text</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">first</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">second</span></span> [, <span class="identifier">float</span> &amp;<span class="tag">$<span class="identifier">percent</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This calculates the similarity between two strings as described in Oliver [1993]. Note that this implementation does not use a stack as in Oliver&#039;s pseudo code, but recursive calls which may or may not speed up the whole process. Note also that the complexity of this algorithm is O(N**3) where N is the length of the longest string.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the number of matching chars in both strings.</p>	</section>
+
+	
+
+</body>
+</html>

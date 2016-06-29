@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>Array</title>
+	<script>
+		var exampleText = "";
+	</script>
+</head>
+
+<body class="javascript Array">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1 title="">Array</h1>
+	</header>
+
+	<section id="example" class="hide" onclick="Coda.copyExample(exampleText);">
+		<h2>Example</h2>
+		<code class="codeblock" title="Click to insert code sample."><pre class="source-code css">1</pre></code>
+	</section>		
+
+	<section id="description" class="hide">
+
+		<h2>Description</h2>
+		
+		<p></p>
+		
+		<p></p>		
+	</section>
+
+
+	
+	<section id="properties" >
+		<h2>Properties</h2>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Property Name</th>
+
+					<th>Description</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+		<tr>
+<td class="col-name">constructor</td>
+<td class="col-description">function that created the Array object's prototype</td></tr>
+<tr>
+<td class="col-name">length</td>
+<td class="col-description">sets or returns the number of elements in an array</td></tr>
+<tr>
+<td class="col-name">prototype</td>
+<td class="col-description">allows adding properties and methods to the object</td></tr>
+							
+			</tbody>
+		</table>
+	</section>			
+		
+				
+		<section id="methods" >
+
+		
+		<h2>Methods</h2>
+		<table>
+			<thead>
+				<tr>
+					<th>Method Name</th>
+					<th>Description</th>
+					<th>Values</th>
+				</tr>
+			</thead>
+
+			<tbody>
+
+			<tr>
+<td class="col-name">every()</a></td>
+<td class="col-description">Returns true if every element in this array satisfies the provided testing function.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">filter()</a></td>
+<td class="col-description">Creates a new array with all of the elements of this array for which the provided filtering function returns true.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">forEach()</a></td>
+<td class="col-description">Calls a function for each element in the array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">indexOf()</a></td>
+<td class="col-description">Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">isArray()</a></td>
+<td class="col-description">Returns true if the passed argument is an array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">join()</a></td>
+<td class="col-description">Joins all elements of the Array into a String, and returns the String. If no separator is provided, comma is used.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">lastIndexOf()</a></td>
+<td class="col-description">Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">map()</a></td>
+<td class="col-description">Creates a new array with the results of calling a provided function on every element in this array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">pop()</a></td>
+<td class="col-description">Removes the last element of the Array, and returns that element.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">push()</a></td>
+<td class="col-description">Adds new elements to the end of the Array, and returns the new length.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">reduce()</a></td>
+<td class="col-description">Apply a function simultaneously against two values of the array (from left-to-right) as to reduce it to a single value.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">reduceRight()</a></td>
+<td class="col-description">Apply a function simultaneously against two values of the array (from right-to-left) as to reduce it to a single value.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">reverse()</a></td>
+<td class="col-description">Reverses the order of the elements in the Array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">shift()</a></td>
+<td class="col-description">Removes and returns the first element of the Array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">slice()</a></td>
+<td class="col-description">Returns a slice of the Array from the start index to the end index as a new Array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">some()</a></td>
+<td class="col-description">Returns true if at least one element in this array satisfies the provided testing function.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">sort()</a></td>
+<td class="col-description">sorts the Array according to sortFunction.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">splice()</a></td>
+<td class="col-description">Adds or removes elements at the specified Array index, modifying the original Array and returning a new Array. If the number to remove is 0, provide elements to be added.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">toString()</a></td>
+<td class="col-description">Returns a String representation of the Array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">unshift()</a></td>
+<td class="col-description">Adds new elements to the beginning of the Array.</td>
+<td class="col-values"></td>
+</tr>
+<tr>
+<td class="col-name">valueOf()</a></td>
+<td class="col-description">Returns the primitive value of the Array.</td>
+<td class="col-values"></td>
+</tr>
+		
+							
+			</tbody>
+		</table>
+	</section>
+	</body>
+</html>

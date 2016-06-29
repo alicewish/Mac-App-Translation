@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>fpassthru</title>
+	<script>	
+		var exampleText = "int fpassthru ( resource $handle )";
+	</script>
+</head>
+
+<body class="html fpassthru">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>fpassthru</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">fpassthru</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">handle</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Reads to EOF on the given file pointer from the current position and writes the results to the output buffer. You may need to call rewind() to reset the file pointer to the beginning of the file if you have already written data to the file. If you just want to dump the contents of a file to the output buffer, without first modifying it or seeking to a particular offset, you may want to use the readfile(), which saves you the fopen() call.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If an error occurs, fpassthru() returns FALSE. Otherwise, fpassthru() returns the number of characters read from handle and passed through to the output.</p>	</section>
+
+	
+
+</body>
+</html>

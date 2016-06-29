@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>openssl_verify</title>
+	<script>	
+		var exampleText = "int openssl_verify ( string $data , string $signature , mixed $pub_key_id [, int $signature_alg = OPENSSL_ALGO_SHA1 ] )";
+	</script>
+</head>
+
+<body class="html openssl_verify">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>openssl_verify</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">openssl_verify</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">signature</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">pub_key_id</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">signature_alg</span></span> = <span class="identifier">OPENSSL_ALGO_SHA1</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>openssl_verify() verifies that the signature is correct for the specified data using the public key associated with pub_key_id. This must be the public key corresponding to the private key used for signing.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns 1 if the signature is correct, 0 if it is incorrect, and -1 on error.</p>	</section>
+
+	
+
+</body>
+</html>

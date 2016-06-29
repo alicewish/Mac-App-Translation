@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>readdir</title>
+	<script>	
+		var exampleText = "string readdir ([ resource $dir_handle ] )";
+	</script>
+</head>
+
+<body class="html readdir">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>readdir</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">readdir</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">dir_handle</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns the name of the next entry in the directory. The entries are returned in the order in which they are stored by the filesystem.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the entry name on success or FALSE on failure. Warning: This function may return Boolean FALSE, but may also return a non-Boolean value which evaluates to FALSE, such as 0 or &quot;&quot;. Please read the section on Booleans for more information. Use the === operator for testing the return value of this function.</p>	</section>
+
+	
+
+</body>
+</html>

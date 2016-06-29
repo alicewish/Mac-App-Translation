@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>array_push</title>
+	<script>	
+		var exampleText = "int array_push ( array &$array , mixed $var [, mixed $... ] )";
+	</script>
+</head>
+
+<body class="html array_push">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>array_push</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">array_push</span> ( <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">array</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">var</span></span> [, <span class="identifier">mixed</span> <span class="tag">$</span>... ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>array_push() treats array as a stack, and pushes the passed variables onto the end of array. The length of array increases by the number of variables pushed. Has the same effect as: <br> &lt;<code>?php$array[]&nbsp;=&nbsp;$var;?</code>&gt;<br> <br> repeated for each var. Note: If you use array_push() to add one element to the array it&#039;s better to use $array[] = because in that way there is no overhead of calling a function. Note: array_push() will raise a warning if the first argument is not an array. This differs from the $var[] behaviour where a new array is created.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the new number of elements in the array.</p>	</section>
+
+	
+
+</body>
+</html>

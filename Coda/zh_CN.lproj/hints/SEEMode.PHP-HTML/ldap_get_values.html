@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ldap_get_values</title>
+	<script>	
+		var exampleText = "array ldap_get_values ( resource $link_identifier , resource $result_entry_identifier , string $attribute )";
+	</script>
+</head>
+
+<body class="html ldap_get_values">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ldap_get_values</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ldap_get_values</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> , <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result_entry_identifier</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">attribute</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Reads all the values of the attribute in the entry in the result. This call needs a result_entry_identifier, so needs to be preceded by one of the ldap search calls and one of the calls to get an individual entry. You application will either be hard coded to look for certain attributes (such as &quot;surname&quot; or &quot;mail&quot;) or you will have to use the ldap_get_attributes() call to work out what attributes exist for a given entry.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of values for the attribute on success and FALSE on error. The number of values can be found by indexing &quot;count&quot; in the resultant array. Individual values are accessed by integer index in the array. The first index is 0. LDAP allows more than one entry for an attribute, so it can, for example, store a number of email addresses for one person&#039;s directory entry all labeled with the attribute &quot;mail&quot; return_value[&quot;count&quot;] = number of values for attribute return_value[0] = first value of attribute return_value[i] = ith value of attribute</p>	</section>
+
+	
+
+</body>
+</html>

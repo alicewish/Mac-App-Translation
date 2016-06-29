@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>serialize</title>
+	<script>	
+		var exampleText = "string serialize ( mixed $value )";
+	</script>
+</head>
+
+<body class="html serialize">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>serialize</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">serialize</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">value</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Generates a storable representation of a value This is useful for storing or passing PHP values around without losing their type and structure. To make the serialized string into a PHP value again, use unserialize().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string containing a byte-stream representation of value that can be stored anywhere.</p>	</section>
+
+	
+
+</body>
+</html>

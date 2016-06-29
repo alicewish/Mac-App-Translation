@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>openssl_pkey_new</title>
+	<script>	
+		var exampleText = "resource openssl_pkey_new ([ array $configargs ] )";
+	</script>
+</head>
+
+<body class="html openssl_pkey_new">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>openssl_pkey_new</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">openssl_pkey_new</span> ([ <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">configargs</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>openssl_pkey_new() generates a new private and public key pair. The public component of the key can be obtained using openssl_pkey_get_public(). Note: You need to have a valid openssl.cnf installed for this function to operate correctly. See the notes under the installation section for more information.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a resource identifier for the pkey on success, or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

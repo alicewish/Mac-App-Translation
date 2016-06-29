@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>odbc_columnprivileges</title>
+	<script>	
+		var exampleText = "resource odbc_columnprivileges ( resource $connection_id , string $qualifier , string $owner , string $table_name , string $column_name )";
+	</script>
+</head>
+
+<body class="html odbc_columnprivileges">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>odbc_columnprivileges</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">odbc_columnprivileges</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection_id</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">qualifier</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">owner</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">table_name</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">column_name</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Lists columns and associated privileges for the given table.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an ODBC result identifier or FALSE on failure. This result identifier can be used to fetch a list of columns and associated privileges. The result set has the following columns: TABLE_QUALIFIER TABLE_OWNER TABLE_NAME GRANTOR GRANTEE PRIVILEGE IS_GRANTABLE The result set is ordered by TABLE_QUALIFIER, TABLE_OWNER and TABLE_NAME.</p>	</section>
+
+	
+
+</body>
+</html>

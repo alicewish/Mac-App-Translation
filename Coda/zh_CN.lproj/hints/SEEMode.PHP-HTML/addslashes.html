@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>addslashes</title>
+	<script>	
+		var exampleText = "string addslashes ( string $str )";
+	</script>
+</head>
+
+<body class="html addslashes">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>addslashes</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">addslashes</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns a string with backslashes before characters that need to be quoted in database queries etc. These characters are single quote (&#039;), double quote (&quot;), backslash (\) and NUL (the NULL byte). An example use of addslashes() is when you&#039;re entering data into a database. For example, to insert the name O&#039;reilly into a database, you will need to escape it. It&#039;s highly recommended to use DBMS specific escape function (e.g. mysqli_real_escape_string() for MySQL or pg_escape_string() for PostgreSQL), but if the DBMS you&#039;re using doesn&#039;t have an escape function and the DBMS uses \ to escape special chars, you can use this function. This would only be to get the data into the database, the extra \ will not be inserted. Having the PHP directive magic_quotes_sybase set to on will mean &#039; is instead escaped with another &#039;. The PHP directive magic_quotes_gpc is on by default, and it essentially runs addslashes() on all GET, POST, and COOKIE data. Do not use addslashes() on strings that have already been escaped with magic_quotes_gpc as you&#039;ll then do double escaping. The function get_magic_quotes_gpc() may come in handy for checking this.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the escaped string.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>virtual</title>
+	<script>	
+		var exampleText = "bool virtual ( string $filename )";
+	</script>
+</head>
+
+<body class="html virtual">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>virtual</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">virtual</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>virtual() is an Apache-specific function which is similar to &lt;<code>!--#include virtual...--</code>&gt; in mod_include. It performs an Apache sub-request. It is useful for including CGI scripts or .shtml files, or anything else that you would parse through Apache. Note that for a CGI script, the script must generate valid CGI headers. At the minimum that means it must generate a Content-Type header. To run the sub-request, all buffers are terminated and flushed to the browser, pending headers are sent too. This function is only supported when PHP is installed as an Apache module.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Performs the virtual command on success, or returns FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

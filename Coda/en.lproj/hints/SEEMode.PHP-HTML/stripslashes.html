@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>stripslashes</title>
+	<script>	
+		var exampleText = "string stripslashes ( string $str )";
+	</script>
+</head>
+
+<body class="html stripslashes">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>stripslashes</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">stripslashes</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Un-quotes a quoted string. Note: If magic_quotes_sybase is on, no backslashes are stripped off but two apostrophes are replaced by one instead. An example use of stripslashes() is when the PHP directive magic_quotes_gpc is on (it&#039;s on by default), and you aren&#039;t inserting this data into a place (such as a database) that requires escaping. For example, if you&#039;re simply outputting data straight from an HTML form.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string with backslashes stripped off. (\&#039; becomes &#039; and so on.) Double backslashes (\\) are made into a single backslash (\).</p>	</section>
+
+	
+
+</body>
+</html>

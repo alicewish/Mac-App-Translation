@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>microtime</title>
+	<script>	
+		var exampleText = "mixed microtime ([ bool $get_as_float = false ] )";
+	</script>
+</head>
+
+<body class="html microtime">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>microtime</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">microtime</span> ([ <span class="identifier">bool</span> <span class="tag">$<span class="identifier">get_as_float</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>microtime() returns the current Unix timestamp with microseconds. This function is only available on operating systems that support the gettimeofday() system call.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>By default, microtime() returns a string in the form &quot;msec sec&quot;, where sec is the current time measured in the number of seconds since the Unix epoch (0:00:00 January 1, 1970 GMT), and msec is the number of microseconds that have elapsed since sec expressed in seconds. If get_as_float is set to TRUE, then microtime() returns a float, which represents the current time in seconds since the Unix epoch accurate to the nearest microsecond.</p>	</section>
+
+	
+
+</body>
+</html>

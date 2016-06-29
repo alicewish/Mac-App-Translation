@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>gmmktime</title>
+	<script>	
+		var exampleText = "int gmmktime ([ int $hour = gmdate(\"H\") [, int $minute = gmdate(\"i\") [, int $second = gmdate(\"s\") [, int $month = gmdate(\"n\") [, int $day = gmdate(\"j\") [, int $year = gmdate(\"Y\") [, int $is_dst = -1 ]]]]]]] )";
+	</script>
+</head>
+
+<body class="html gmmktime">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>gmmktime</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">gmmktime</span> ([ <span class="keyword type">int</span> <span class="tag">$<span class="identifier">hour</span></span> = <span class="identifier">gmdate</span>(<span class="string">"H"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">minute</span></span> = <span class="identifier">gmdate</span>(<span class="string">"i"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">second</span></span> = <span class="identifier">gmdate</span>(<span class="string">"s"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">month</span></span> = <span class="identifier">gmdate</span>(<span class="string">"n"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">day</span></span> = <span class="identifier">gmdate</span>(<span class="string">"j"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">year</span></span> = <span class="identifier">gmdate</span>(<span class="string">"Y"</span>) [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">is_dst</span></span> = -<span class="number">1</span> ]]]]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Identical to mktime() except the passed parameters represents a GMT date. gmmktime() internally uses mktime() so only times valid in derived local time can be used. Like mktime(), arguments may be left out in order from right to left, with any omitted arguments being set to the current corresponding GMT value.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a integer Unix timestamp.</p>	</section>
+
+	
+
+</body>
+</html>

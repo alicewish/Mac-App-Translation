@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>error_get_last</title>
+	<script>	
+		var exampleText = "array error_get_last ( void )";
+	</script>
+</head>
+
+<body class="html error_get_last">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>error_get_last</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">error_get_last</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gets information about the last error that occurred.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an associative array describing the last error with keys &quot;type&quot;, &quot;message&quot;, &quot;file&quot; and &quot;line&quot;. If the error has been caused by a PHP internal function then the &quot;message&quot; begins with its name. Returns NULL if there hasn&#039;t been an error yet.</p>	</section>
+
+	
+
+</body>
+</html>

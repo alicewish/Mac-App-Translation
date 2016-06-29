@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>__halt_compiler</title>
+	<script>	
+		var exampleText = "void __halt_compiler ( void )";
+	</script>
+</head>
+
+<body class="html __halt_compiler">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>__halt_compiler</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">void</span> <span class="identifier">__halt_compiler</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Halts the execution of the compiler. This can be useful to embed data in PHP scripts, like the installation files.<br/>
+<br/>
+Byte position of the data start can be determined by the __COMPILER_HALT_OFFSET__ constant which is defined only if there is a __halt_compiler() presented in the file.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p></p>	</section>
+
+	
+
+</body>
+</html>

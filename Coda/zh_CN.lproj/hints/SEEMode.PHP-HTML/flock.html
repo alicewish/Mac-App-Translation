@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>flock</title>
+	<script>	
+		var exampleText = "bool flock ( resource $handle , int $operation [, int &$wouldblock ] )";
+	</script>
+</head>
+
+<body class="html flock">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>flock</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">flock</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">handle</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">operation</span></span> [, <span class="keyword type">int</span> &amp;<span class="tag">$<span class="identifier">wouldblock</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>flock() allows you to perform a simple reader/writer model which can be used on virtually every platform (including most Unix derivatives and even Windows). On versions of PHP before 5.3.2, the lock is released also by fclose() (which is also called automatically when script finished). PHP supports a portable way of locking complete files in an advisory way (which means all accessing programs have to use the same way of locking or it will not work). By default, this function will block until the requested lock is acquired; this may be controlled (on non-Windows platforms) with the LOCK_NB option documented below.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

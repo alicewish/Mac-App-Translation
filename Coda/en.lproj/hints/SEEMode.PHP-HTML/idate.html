@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>idate</title>
+	<script>	
+		var exampleText = "int idate ( string $format [, int $timestamp = time() ] )";
+	</script>
+</head>
+
+<body class="html idate">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>idate</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">idate</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">format</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">timestamp</span></span> = <span class="identifier">time</span>() ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns a number formatted according to the given format string using the given integer timestamp or the current local time if no timestamp is given. In other words, timestamp is optional and defaults to the value of time(). Unlike the function date(), idate() accepts just one char in the format parameter.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an integer. As idate() always returns an integer and as they can&#039;t start with a &quot;0&quot;, idate() may return fewer digits than you would expect. See the example below.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ldap_explode_dn</title>
+	<script>	
+		var exampleText = "array ldap_explode_dn ( string $dn , int $with_attrib )";
+	</script>
+</head>
+
+<body class="html ldap_explode_dn">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ldap_explode_dn</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ldap_explode_dn</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">dn</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">with_attrib</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Splits the DN returned by ldap_get_dn() and breaks it up into its component parts. Each part is known as Relative Distinguished Name, or RDN.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of all DN components. The first element in this array has count key and represents the number of returned values, next elements are numerically indexed DN components.</p>	</section>
+
+	
+
+</body>
+</html>

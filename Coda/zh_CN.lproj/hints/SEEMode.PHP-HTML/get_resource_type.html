@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>get_resource_type</title>
+	<script>	
+		var exampleText = "string get_resource_type ( resource $handle )";
+	</script>
+</head>
+
+<body class="html get_resource_type">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>get_resource_type</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">get_resource_type</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">handle</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function gets the type of the given resource.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If the given handle is a resource, this function will return a string representing its type. If the type is not identified by this function, the return value will be the string Unknown. This function will return FALSE and generate an error if handle is not a resource.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mysql_escape_string</title>
+	<script>	
+		var exampleText = "string mysql_escape_string ( string $unescaped_string )";
+	</script>
+</head>
+
+<body class="html mysql_escape_string">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mysql_escape_string</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">mysql_escape_string</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">unescaped_string</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function will escape the unescaped_string, so that it is safe to place it in a mysql_query(). This function is deprecated. This function is identical to mysql_real_escape_string() except that mysql_real_escape_string() takes a connection handler and escapes the string according to the current character set. mysql_escape_string() does not take a connection argument and does not respect the current charset setting. Warning: This function has been DEPRECATED as of PHP 5.3.0. Relying on this feature is highly discouraged.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the escaped string.</p>	</section>
+
+	
+
+</body>
+</html>

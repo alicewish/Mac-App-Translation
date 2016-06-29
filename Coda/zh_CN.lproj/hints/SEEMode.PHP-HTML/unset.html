@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>unset</title>
+	<script>	
+		var exampleText = "void unset ( mixed $var [, mixed $... ] )";
+	</script>
+</head>
+
+<body class="html unset">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>unset</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">void</span> <span class="keyword builtin">unset</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">var</span></span> [, <span class="identifier">mixed</span> <span class="tag">$</span>... ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>unset() destroys the specified variables. The behavior of unset() inside of a function can vary depending on what type of variable you are attempting to destroy. If a globalized variable is unset() inside of a function, only the local variable is destroyed. The variable in the calling environment will retain the same value as before unset() was called. <br> &lt;<code>?phpfunction&nbsp;destroy_foo()&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;global&nbsp;$foo;&nbsp;&nbsp;&nbsp;&nbsp;unset($foo);}$foo&nbsp;=&nbsp;'bar';destroy_foo();echo&nbsp;$foo;?</code>&gt;<br> <br> The above example will output: <br> bar<br> To unset() a global variable inside of a function, then use the $GLOBALS array to do so: <br> &lt;<code>?phpfunction&nbsp;foo()&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;unset($GLOBALS['bar']);}$bar&nbsp;=&nbsp;"something";foo();?</code>&gt;<br> <br> If a variable that is PASSED BY REFERENCE is unset() inside of a function, only the local variable is destroyed. The variable in the calling environment will retain the same value as before unset() was called. <br> &lt;<code>?phpfunction&nbsp;foo(&amp;$bar)&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;unset($bar);&nbsp;&nbsp;&nbsp;&nbsp;$bar&nbsp;=&nbsp;"blah";}$bar&nbsp;=&nbsp;'something';echo&nbsp;"$bar\n";foo($bar);echo&nbsp;"$bar\n";?</code>&gt;<br> <br> The above example will output: <br> something something<br> If a static variable is unset() inside of a function, unset() destroys the variable only in the context of the rest of a function. Following calls will restore the previous value of a variable. <br> &lt;<code>?phpfunction&nbsp;foo(){&nbsp;&nbsp;&nbsp;&nbsp;static&nbsp;$bar;&nbsp;&nbsp;&nbsp;&nbsp;$bar++;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;"Before&nbsp;unset:&nbsp;$bar,&nbsp;";&nbsp;&nbsp;&nbsp;&nbsp;unset($bar);&nbsp;&nbsp;&nbsp;&nbsp;$bar&nbsp;=&nbsp;23;&nbsp;&nbsp;&nbsp;&nbsp;echo&nbsp;"after&nbsp;unset:&nbsp;$bar\n";}foo();foo();foo();?</code>&gt;<br> <br> The above example will output: <br> Before unset: 1, after unset: 23 Before unset: 2, after unset: 23 Before unset: 3, after unset: 23</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>No value is returned.</p>	</section>
+
+	
+
+</body>
+</html>

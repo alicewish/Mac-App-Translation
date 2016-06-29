@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sybase_unbuffered_query</title>
+	<script>	
+		var exampleText = "resource sybase_unbuffered_query ( string $query , resource $link_identifier [, bool $store_result ] )";
+	</script>
+</head>
+
+<body class="html sybase_unbuffered_query">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sybase_unbuffered_query</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">sybase_unbuffered_query</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> , <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">store_result</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>sybase_unbuffered_query() sends a query to the currently active database on the server that&#039;s associated with the specified link identifier. If the link identifier isn&#039;t specified, the last opened link is assumed. If no link is open, the function tries to establish a link as if sybase_connect() was called, and use it. Unlike sybase_query(), sybase_unbuffered_query() reads only the first row of the result set. sybase_fetch_array() and similar function read more rows as needed. sybase_data_seek() reads up to the target row. The behavior may produce better performance for large result sets. sybase_num_rows() will only return the correct number of rows if all result sets have been read. To Sybase, the number of rows is not known and is therefore computed by the client implementation. Note: If you don&#039;t read all of the resultsets prior to executing the next query, PHP will raise a warning and cancel all of the pending results. To get rid of this, use sybase_free_result() which will cancel pending results of an unbuffered query.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a positive Sybase result identifier on success, or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

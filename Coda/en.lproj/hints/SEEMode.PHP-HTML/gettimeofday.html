@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>gettimeofday</title>
+	<script>	
+		var exampleText = "mixed gettimeofday ([ bool $return_float = false ] )";
+	</script>
+</head>
+
+<body class="html gettimeofday">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>gettimeofday</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">gettimeofday</span> ([ <span class="identifier">bool</span> <span class="tag">$<span class="identifier">return_float</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This is an interface to gettimeofday(2). It returns an associative array containing the data returned from the system call.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>By default an array is returned. If return_float is set, then a float is returned. Array keys: &quot;sec&quot; - seconds since the Unix Epoch &quot;usec&quot; - microseconds &quot;minuteswest&quot; - minutes west of Greenwich &quot;dsttime&quot; - type of dst correction</p>	</section>
+
+	
+
+</body>
+</html>

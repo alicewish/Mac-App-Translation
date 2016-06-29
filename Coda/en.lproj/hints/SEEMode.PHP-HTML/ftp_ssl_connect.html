@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ftp_ssl_connect</title>
+	<script>	
+		var exampleText = "resource ftp_ssl_connect ( string $host [, int $port = 21 [, int $timeout = 90 ]] )";
+	</script>
+</head>
+
+<body class="html ftp_ssl_connect">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ftp_ssl_connect</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">ftp_ssl_connect</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">host</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">port</span></span> = <span class="number">21</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">timeout</span></span> = <span class="number">90</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ftp_ssl_connect() opens an explicit SSL-FTP connection to the specified host. Note: Why this function may not exist ftp_ssl_connect() is only available if both the ftp module and the OpenSSL support is built statically into php, this means that on Windows this function will be undefined in the official PHP builds. To make this function available on Windows you must compile your own PHP binaries. Note: ftp_ssl_connect() is not intended for use with sFTP. To use sFTP with PHP, please see ssh2_sftp().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a SSL-FTP stream on success or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ftp_rawlist</title>
+	<script>	
+		var exampleText = "array ftp_rawlist ( resource $ftp_stream , string $directory [, bool $recursive = false ] )";
+	</script>
+</head>
+
+<body class="html ftp_rawlist">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ftp_rawlist</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ftp_rawlist</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">ftp_stream</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">directory</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">recursive</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>ftp_rawlist() executes the FTP LIST command, and returns the result as an array.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array where each element corresponds to one line of text. The output is not parsed in any way. The system type identifier returned by ftp_systype() can be used to determine how the results should be interpreted.</p>	</section>
+
+	
+
+</body>
+</html>

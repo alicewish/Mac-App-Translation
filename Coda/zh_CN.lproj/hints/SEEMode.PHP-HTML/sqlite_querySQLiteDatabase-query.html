@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sqlite_querySQLiteDatabase-query</title>
+	<script>	
+		var exampleText = "resource sqlite_query ( resource $dbhandle , string $query [, int $result_type = SQLITE_BOTH [, string &$error_msg ]] )";
+	</script>
+</head>
+
+<body class="html sqlite_querySQLiteDatabase-query">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sqlite_querySQLiteDatabase-query</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">sqlite_query</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">dbhandle</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">result_type</span></span> = <span class="identifier">SQLITE_BOTH</span> [, <span class="identifier">string</span> &amp;<span class="tag">$<span class="identifier">error_msg</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>resource sqlite_query ( string $query , resource $dbhandle [, int $result_type = SQLITE_BOTH [, string &$error_msg ]] )<br> Object oriented style (method): SQLiteResult SQLiteDatabase::query ( string $query [, int $result_type = SQLITE_BOTH [, string &$error_msg ]] )<br> Executes an SQL statement given by the query against a given database handle.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>This function will return a result handle or FALSE on failure. For queries that return rows, the result handle can then be used with functions such as sqlite_fetch_array() and sqlite_seek(). Regardless of the query type, this function will return FALSE if the query failed. sqlite_query() returns a buffered, seekable result handle. This is useful for reasonably small queries where you need to be able to randomly access the rows. Buffered result handles will allocate memory to hold the entire result and will not return until it has been fetched. If you only need sequential access to the data, it is recommended that you use the much higher performance sqlite_unbuffered_query() instead.</p>	</section>
+
+	
+
+</body>
+</html>

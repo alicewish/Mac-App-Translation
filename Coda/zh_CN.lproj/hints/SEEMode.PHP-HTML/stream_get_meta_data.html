@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>stream_get_meta_data</title>
+	<script>	
+		var exampleText = "array stream_get_meta_data ( resource $stream )";
+	</script>
+</head>
+
+<body class="html stream_get_meta_data">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>stream_get_meta_data</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">stream_get_meta_data</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">stream</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns information about an existing stream.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The result array contains the following items: timed_out (bool) - TRUE if the stream timed out while waiting for data on the last call to fread() or fgets(). blocked (bool) - TRUE if the stream is in blocking IO mode. See stream_set_blocking(). eof (bool) - TRUE if the stream has reached end-of-file. Note that for socket streams this member can be TRUE even when unread_bytes is non-zero. To determine if there is more data to be read, use feof() instead of reading this item. unread_bytes (int) - the number of bytes currently contained in the PHP&#039;s own internal buffer. Note: You shouldn&#039;t use this value in a script. stream_type (string) - a label describing the underlying implementation of the stream. wrapper_type (string) - a label describing the protocol wrapper implementation layered over the stream. See Supported Protocols and Wrappers for more information about wrappers. wrapper_data (mixed) - wrapper specific data attached to this stream. See Supported Protocols and Wrappers for more information about wrappers and their wrapper data. filters (array) - and array containing the names of any filters that have been stacked onto this stream. Documentation on filters can be found in the Filters appendix. mode (string) - the type of access required for this stream (see Table 1 of the fopen() reference) seekable (bool) - whether the current stream can be seeked. uri (string) - the URI/filename associated with this stream.</p>	</section>
+
+	
+
+</body>
+</html>

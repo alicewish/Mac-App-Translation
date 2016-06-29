@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_put_line</title>
+	<script>	
+		var exampleText = "bool pg_put_line ([ resource $connection ], string $data )";
+	</script>
+</head>
+
+<body class="html pg_put_line">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_put_line</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">pg_put_line</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ], <span class="identifier">string</span> <span class="tag">$<span class="identifier">data</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_put_line() sends a NULL-terminated string to the PostgreSQL backend server. This is needed in conjunction with PostgreSQL&#039;s COPY FROM command. COPY is a high-speed data loading interface supported by PostgreSQL. Data is passed in without being parsed, and in a single transaction. An alternative to using raw pg_put_line() commands is to use pg_copy_from(). This is a far simpler interface. Note: The application must explicitly send the two characters &quot;\.&quot; on the last line to indicate to the backend that it has finished sending its data, before issuing pg_end_copy(). Warning Use of the pg_put_line() causes most large object operations, including pg_lo_read() and pg_lo_tell(), to subsequently fail. You can use pg_copy_from() and pg_copy_to() instead.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

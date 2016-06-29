@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_send_query_params</title>
+	<script>	
+		var exampleText = "bool pg_send_query_params ( resource $connection , string $query , array $params )";
+	</script>
+</head>
+
+<body class="html pg_send_query_params">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_send_query_params</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">pg_send_query_params</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> , <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">params</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Submits a command and separate parameters to the server without waiting for the result(s). This is equivalent to pg_send_query() except that query parameters can be specified separately from the query string. The function&#039;s parameters are handled identically to pg_query_params(). Like pg_query_params(), it will not work on pre-7.4 PostgreSQL connections, and it allows only one command in the query string.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure. Use pg_get_result() to determine the query result.</p>	</section>
+
+	
+
+</body>
+</html>

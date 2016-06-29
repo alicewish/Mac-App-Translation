@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_mailboxmsginfo</title>
+	<script>	
+		var exampleText = "object imap_mailboxmsginfo ( resource $imap_stream )";
+	</script>
+</head>
+
+<body class="html imap_mailboxmsginfo">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_mailboxmsginfo</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">object</span> <span class="identifier">imap_mailboxmsginfo</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">imap_stream</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Checks the current mailbox status on the server. It is similar to imap_status(), but will additionally sum up the size of all messages in the mailbox, which will take some additional time to execute.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the information in an object with following properties: Mailbox properties Date date of last change (current datetime)</p>	</section>
+
+	
+
+</body>
+</html>

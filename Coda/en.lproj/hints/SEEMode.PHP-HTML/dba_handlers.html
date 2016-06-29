@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>dba_handlers</title>
+	<script>	
+		var exampleText = "array dba_handlers ([ bool $full_info = false ] )";
+	</script>
+</head>
+
+<body class="html dba_handlers">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>dba_handlers</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">dba_handlers</span> ([ <span class="identifier">bool</span> <span class="tag">$<span class="identifier">full_info</span></span> = <span class="keyword literal">false</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>List all the handlers supported by this extension.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of database handlers. If full_info is set to TRUE, the array will be associative with the handlers names as keys, and their version information as value. Otherwise, the result will be an indexed array of handlers names. Note: When the internal cdb library is used you will see cdb and cdb_make.</p>	</section>
+
+	
+
+</body>
+</html>

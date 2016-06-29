@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_get_pid</title>
+	<script>	
+		var exampleText = "int pg_get_pid ( resource $connection )";
+	</script>
+</head>
+
+<body class="html pg_get_pid">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_get_pid</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">pg_get_pid</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_get_pid() gets the backend&#039;s (database server process) PID. The PID is useful to determine whether or not a NOTIFY message received via pg_get_notify() is sent from another process or not.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The backend database process ID.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>set_exception_handler</title>
+	<script>	
+		var exampleText = "callback set_exception_handler ( callback $exception_handler )";
+	</script>
+</head>
+
+<body class="html set_exception_handler">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>set_exception_handler</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">callback</span> <span class="identifier">set_exception_handler</span> ( <span class="identifier">callback</span> <span class="tag">$<span class="identifier">exception_handler</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sets the default exception handler if an exception is not caught within a try/catch block. Execution will stop after the exception_handler is called.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the name of the previously defined exception handler, or NULL on error. If no previous handler was defined, NULL is also returned.</p>	</section>
+
+	
+
+</body>
+</html>

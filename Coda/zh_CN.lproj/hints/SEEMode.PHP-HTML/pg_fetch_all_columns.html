@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_fetch_all_columns</title>
+	<script>	
+		var exampleText = "array pg_fetch_all_columns ( resource $result [, int $column = 0 ] )";
+	</script>
+</head>
+
+<body class="html pg_fetch_all_columns">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_fetch_all_columns</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">pg_fetch_all_columns</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">column</span></span> = <span class="number">0</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_fetch_all_columns() returns an array that contains all rows (records) in a particular column of the result resource. Note: This function sets NULL fields to the PHP NULL value.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>An array with all values in the result column. FALSE is returned if column is larger than the number of columns in the result, or on any other error.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_transaction_status</title>
+	<script>	
+		var exampleText = "int pg_transaction_status ( resource $connection )";
+	</script>
+</head>
+
+<body class="html pg_transaction_status">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_transaction_status</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">pg_transaction_status</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns the current in-transaction status of the server. Caution pg_transaction_status() will give incorrect results when using a PostgreSQL 7.3 server that has the parameter autocommit set to off. The server-side autocommit feature has been deprecated and does not exist in later server versions.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The status can be PGSQL_TRANSACTION_IDLE (currently idle), PGSQL_TRANSACTION_ACTIVE (a command is in progress), PGSQL_TRANSACTION_INTRANS (idle, in a valid transaction block), or PGSQL_TRANSACTION_INERROR (idle, in a failed transaction block). PGSQL_TRANSACTION_UNKNOWN is reported if the connection is bad. PGSQL_TRANSACTION_ACTIVE is reported only when a query has been sent to the server and not yet completed.</p>	</section>
+
+	
+
+</body>
+</html>

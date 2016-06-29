@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ldap_get_entries</title>
+	<script>	
+		var exampleText = "array ldap_get_entries ( resource $link_identifier , resource $result_identifier )";
+	</script>
+</head>
+
+<body class="html ldap_get_entries">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ldap_get_entries</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">ldap_get_entries</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> , <span class="identifier">resource</span> <span class="tag">$<span class="identifier">result_identifier</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Reads multiple entries from the given result, and then reading the attributes and multiple values.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a complete result information in a multi-dimensional array on success and FALSE on error. The structure of the array is as follows. The attribute index is converted to lowercase. (Attributes are case-insensitive for directory servers, but not when used as array indices.)</p>	</section>
+
+	
+
+</body>
+</html>

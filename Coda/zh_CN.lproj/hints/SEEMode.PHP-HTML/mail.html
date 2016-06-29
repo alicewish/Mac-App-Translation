@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mail</title>
+	<script>	
+		var exampleText = "bool mail ( string $to , string $subject , string $message [, string $additional_headers [, string $additional_parameters ]] )";
+	</script>
+</head>
+
+<body class="html mail">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mail</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">mail</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">to</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">subject</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">message</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">additional_headers</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">additional_parameters</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sends an email.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if the mail was successfully accepted for delivery, FALSE otherwise. It is important to note that just because the mail was accepted for delivery, it does NOT mean the mail will actually reach the intended destination.</p>	</section>
+
+	
+
+</body>
+</html>

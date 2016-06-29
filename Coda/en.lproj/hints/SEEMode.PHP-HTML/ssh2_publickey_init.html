@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ssh2_publickey_init</title>
+	<script>	
+		var exampleText = "resource ssh2_publickey_init ( resource $session )";
+	</script>
+</head>
+
+<body class="html ssh2_publickey_init">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ssh2_publickey_init</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">ssh2_publickey_init</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">session</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Request the Publickey subsystem from an already connected SSH2 server. The publickey subsystem allows an already connected and authenticated client to manage the list of authorized public keys stored on the target server in an implementation agnostic manner. If the remote server does not support the publickey subsystem, the ssh2_publickey_init() function will return FALSE.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an SSH2 Publickey Subsystem resource for use with all other ssh2_publickey_*() methods or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

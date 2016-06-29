@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>dbplus_next</title>
+	<script>	
+		var exampleText = "int dbplus_next ( resource $relation , array &$tuple )";
+	</script>
+</head>
+
+<body class="html dbplus_next">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>dbplus_next</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">dbplus_next</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">relation</span></span> , <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">tuple</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Reads the data for the next tuple for the given relation, makes it the current tuple and will pass it back as an associative array in tuple.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns DBPLUS_ERR_NOERR on success or a db++ error code on failure.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>explode</title>
+	<script>	
+		var exampleText = "array explode ( string $delimiter , string $string [, int $limit ] )";
+	</script>
+</head>
+
+<body class="html explode">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>explode</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">explode</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">delimiter</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">string</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">limit</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns an array of strings, each of which is a substring of string formed by splitting it on boundaries formed by the string delimiter.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array of strings created by splitting the string parameter on boundaries formed by the delimiter. If delimiter is an empty string (&quot;&quot;), explode() will return FALSE. If delimiter contains a value that is not contained in string and a negative limit is used, then an empty array will be returned, otherwise an array containing string will be returned.</p>	</section>
+
+	
+
+</body>
+</html>

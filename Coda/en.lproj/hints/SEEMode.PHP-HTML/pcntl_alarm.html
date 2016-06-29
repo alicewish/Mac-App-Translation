@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pcntl_alarm</title>
+	<script>	
+		var exampleText = "int pcntl_alarm ( int $seconds )";
+	</script>
+</head>
+
+<body class="html pcntl_alarm">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pcntl_alarm</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">pcntl_alarm</span> ( <span class="keyword type">int</span> <span class="tag">$<span class="identifier">seconds</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Creates a timer that will send a SIGALRM signal to the process after the given number of seconds. Any call to pcntl_alarm() will cancel any previously set alarm.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the time in seconds that any previously scheduled alarm had remaining before it was to be delivered, or 0 if there was no previously scheduled alarm.</p>	</section>
+
+	
+
+</body>
+</html>

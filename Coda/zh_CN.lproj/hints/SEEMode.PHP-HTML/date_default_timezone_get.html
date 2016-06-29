@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>date_default_timezone_get</title>
+	<script>	
+		var exampleText = "string date_default_timezone_get ( void )";
+	</script>
+</head>
+
+<body class="html date_default_timezone_get">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>date_default_timezone_get</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">date_default_timezone_get</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>In order of preference, this function returns the default timezone by: Reading the timezone set using the date_default_timezone_set() function (if any) Prior to PHP 5.4.0 only: Reading the TZ environment variable (if non empty) Reading the value of the date.timezone ini option (if set) Prior to PHP 5.4.0 only: Querying the host operating system (if supported and allowed by the OS). This uses an algorithm that has to guess the timezone. This is by no means going to work correctly for every situation. A warning is shown when this stage is reached. Do not rely on it to be guessed correctly, and set date.timezone to the correct timezone instead. If none of the above succeed, date_default_timezone_get() will return a default timezone of UTC.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string.</p>	</section>
+
+	
+
+</body>
+</html>

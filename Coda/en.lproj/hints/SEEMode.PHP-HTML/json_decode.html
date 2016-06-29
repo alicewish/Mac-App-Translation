@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>json_decode</title>
+	<script>	
+		var exampleText = "mixed json_decode ( string $json [, bool $assoc = false [, int $depth = 512 [, int $options = 0 ]]] )";
+	</script>
+</head>
+
+<body class="html json_decode">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>json_decode</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">json_decode</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">json</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">assoc</span></span> = <span class="keyword literal">false</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">depth</span></span> = <span class="number">512</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">options</span></span> = <span class="number">0</span> ]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Takes a JSON encoded string and converts it into a PHP variable.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the value encoded in json in appropriate PHP type. Values true, false and null (case-insensitive) are returned as TRUE, FALSE and NULL respectively. NULL is returned if the json cannot be decoded or if the encoded data is deeper than the recursion limit.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>odbc_statistics</title>
+	<script>	
+		var exampleText = "resource odbc_statistics ( resource $connection_id , string $qualifier , string $owner , string $table_name , int $unique , int $accuracy )";
+	</script>
+</head>
+
+<body class="html odbc_statistics">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>odbc_statistics</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">odbc_statistics</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection_id</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">qualifier</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">owner</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">table_name</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">unique</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">accuracy</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Get statistics about a table and its indexes.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an ODBC result identifier or FALSE on failure. The result set has the following columns: TABLE_QUALIFIER TABLE_OWNER TABLE_NAME NON_UNIQUE INDEX_QUALIFIER INDEX_NAME TYPE SEQ_IN_INDEX COLUMN_NAME COLLATION CARDINALITY PAGES FILTER_CONDITION The result set is ordered by NON_UNIQUE, TYPE, INDEX_QUALIFIER, INDEX_NAME and SEQ_IN_INDEX.</p>	</section>
+
+	
+
+</body>
+</html>

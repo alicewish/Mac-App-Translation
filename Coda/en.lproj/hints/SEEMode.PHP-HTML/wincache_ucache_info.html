@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>wincache_ucache_info</title>
+	<script>	
+		var exampleText = "array wincache_ucache_info ([ bool $summaryonly = false [, string $key ]] )";
+	</script>
+</head>
+
+<body class="html wincache_ucache_info">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>wincache_ucache_info</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">wincache_ucache_info</span> ([ <span class="identifier">bool</span> <span class="tag">$<span class="identifier">summaryonly</span></span> = <span class="keyword literal">false</span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">key</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Retrieves information about data stored in the user cache.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Array of meta data about user cache or FALSE on failure The array returned by this function contains the following elements: total_cache_uptime - total time in seconds that the user cache has been active total_item_count - total number of elements that are currently in the user cache is_local_cache - true is the cache metadata is for a local cache instance, false if the metadata is for the global cache total_hit_count - number of times the data has been served from the cache total_miss_count - number of times the data has not been found in the cache ucache_entries - an array that contains the information about all the cached items: key_name - name of the key which is used to store the data value_type - type of value stored by the key use_time - time in seconds since the file has been accessed in the opcode cache last_check - time in seconds since the file has been checked for modifications is_session - indicates if the data is a session variable ttl_seconds - time remaining for the data to live in the cache, 0 meaning infinite age_seconds - time elapsed from the time data has been added in the cache hitcount - number of times data has been served from the cache</p>	</section>
+
+	
+
+</body>
+</html>

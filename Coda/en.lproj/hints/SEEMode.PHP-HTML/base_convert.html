@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>base_convert</title>
+	<script>	
+		var exampleText = "string base_convert ( string $number , int $frombase , int $tobase )";
+	</script>
+</head>
+
+<body class="html base_convert">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>base_convert</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">base_convert</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">number</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">frombase</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">tobase</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns a string containing number represented in base tobase. The base in which number is given is specified in frombase. Both frombase and tobase have to be between 2 and 36, inclusive. Digits in numbers with a base higher than 10 will be represented with the letters a-z, with a meaning 10, b meaning 11 and z meaning 35. Warning base_convert() may lose precision on large numbers due to properties related to the internal &quot;double&quot; or &quot;float&quot; type used. Please see the Floating point numbers section in the manual for more specific information and limitations.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>number converted to base tobase</p>	</section>
+
+	
+
+</body>
+</html>

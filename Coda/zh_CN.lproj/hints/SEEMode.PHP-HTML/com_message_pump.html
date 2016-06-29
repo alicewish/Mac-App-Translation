@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>com_message_pump</title>
+	<script>	
+		var exampleText = "bool com_message_pump ([ int $timeoutms = 0 ] )";
+	</script>
+</head>
+
+<body class="html com_message_pump">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>com_message_pump</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">com_message_pump</span> ([ <span class="keyword type">int</span> <span class="tag">$<span class="identifier">timeoutms</span></span> = <span class="number">0</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function will sleep for up to timeoutms milliseconds, or until a message arrives in the queue. The purpose of this function is to route COM calls between apartments and handle various synchronization issues. This allows your script to wait efficiently for events to be triggered, while still handling other events or running other code in the background. You should use it in a loop, as demonstrated by the example in the com_event_sink() function, until you are finished using event bound COM objects.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If a message or messages arrives before the timeout, they will be dispatched, and the function will return TRUE. If the timeout occurs and no messages were processed, the return value will be FALSE.</p>	</section>
+
+	
+
+</body>
+</html>

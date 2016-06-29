@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>memcache_debug</title>
+	<script>	
+		var exampleText = "bool memcache_debug ( bool $on_off )";
+	</script>
+</head>
+
+<body class="html memcache_debug">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>memcache_debug</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">memcache_debug</span> ( <span class="identifier">bool</span> <span class="tag">$<span class="identifier">on_off</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>memcache_debug() turns on debug output if parameter on_off is equal to TRUE and turns off if it&#039;s FALSE. Note: memcache_debug() is accessible only if PHP was built with --enable-debug option and always returns TRUE in this case. Otherwise, this function has no effect and always returns FALSE.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if PHP was built with --enable-debug option, otherwise returns FALSE.</p>	</section>
+
+	
+
+</body>
+</html>

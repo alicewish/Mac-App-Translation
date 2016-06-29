@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>tmpfile</title>
+	<script>	
+		var exampleText = "resource tmpfile ( void )";
+	</script>
+</head>
+
+<body class="html tmpfile">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>tmpfile</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">tmpfile</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Creates a temporary file with a unique name in read-write (w+) mode and returns a file handle . The file is automatically removed when closed (using fclose()), or when the script ends. For details, consult your system documentation on the tmpfile(3) function, as well as the stdio.h header file.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a file handle, similar to the one returned by fopen(), for the new file or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

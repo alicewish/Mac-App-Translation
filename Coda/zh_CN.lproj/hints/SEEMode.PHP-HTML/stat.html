@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>stat</title>
+	<script>	
+		var exampleText = "array stat ( string $filename )";
+	</script>
+</head>
+
+<body class="html stat">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>stat</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">stat</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gathers the statistics of the file named by filename. If filename is a symbolic link, statistics are from the file itself, not the symlink. lstat() is identical to stat() except it would instead be based off the symlinks status.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>stat() and fstat() result format Numeric Associative (since PHP 4.0.6) Description</p>	</section>
+
+	
+
+</body>
+</html>

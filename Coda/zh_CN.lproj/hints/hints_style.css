@@ -1,0 +1,409 @@
+* { margin: 0; padding: 0; outline: none; 
+	text-rendering: optimizeLegibility;
+}
+
+.hide { display: none; }
+
+html { }
+	
+code {font-family: Menlo, monospace; }
+
+nav a {
+	position: fixed;
+	display: block;
+	z-index: 100;
+	font-size: 13px;	
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.5);
+
+	font-family: monospace;
+	-webkit-appearance: ;
+	}
+	
+nav a.forward {
+	top: 9px;
+	right: 4px;
+ 	-webkit-transform:rotate(-90deg);
+	cursor: pointer;
+
+	}
+	
+nav a.back {
+	top: 9px;
+	left: 4px;
+ 	-webkit-transform:rotate(90deg);
+	cursor: pointer;
+	}
+	
+body {
+	font: -webkit-control;
+	color: #333;
+	font-size: 11px;
+	padding-top: 42px;
+	padding-bottom: 32px;
+	}
+	
+header {
+	margin: 0;
+	padding: 0;
+	padding-top: 8px;
+	display: table;
+	width: 100%;
+	background: #D2D0D4;
+	border-bottom: 1px solid #B3B0B6;
+	margin-bottom: 8px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 99;
+	cursor: default;
+	}
+	
+header h1 {
+	font-size: large;
+	font-weight: bold;
+	color: rgba(0,0,0,0.6);
+    padding: 0px 10px 10px 10px;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+
+}
+	
+header p {
+	display: none;
+}
+	
+h2, tr.tableheader {
+	text-transform: uppercase;
+	font: -webkit-small-control;
+	font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    margin-bottom: 4px;
+}
+
+
+tr.tableheader td {
+	padding: 16px 0 8px 0;
+	}
+
+tr.tableheader:first-child td {
+	padding: 0 0 8px 0;
+    
+	}
+	
+h2 code {
+	text-transform: none;
+	}
+	
+p, ul {
+	margin: 5px 8px;
+	}
+	
+li {
+	margin: 5px;
+	}
+	
+section p {
+	}
+	
+section p:not(.note):last-child {
+ 	margin-bottom: 15px;
+	}
+	
+p.note {
+	font: -webkit-mini-control;
+	background-color: #f4eab6;
+	padding: 5px 10px;
+	margin: 5px 18px;
+	display: inline-block;
+	}
+	
+li {
+	
+	}
+	
+ul {
+	list-style-position: inside;
+	}
+	
+ul#availbuttons {
+	list-style: none;
+	text-align: center;
+	}
+	
+#availbuttons li {
+	display: inline-block;
+	list-style: none;
+	padding: 1px 4px;
+	margin: 3px 1px;
+	text-transform: uppercase;
+	background-color: blue;
+	text-align: center;
+	color: white;
+	border-radius: 3px;
+	font: -webkit-mini-control;
+	background: rgba(0,0,0,.3);
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,.05);  
+	}
+	
+	
+li#H4T { background-color: #4898e6; }
+li#H4F { background-color: #4898e6; }
+li#H4S { background-color: #4898e6; }
+li#X1T { background-color: #5fb537; }
+li#X1F { background-color: #5fb537; }
+li#X1S { background-color: #5fb537; }
+li#H5  { background-color: #E44C25; }
+
+#availbuttons li.unavailable { background-color: #ccc; }
+
+
+section {
+	background: rgba(255, 255, 255, 0.45);
+	border-radius: 3px;
+	border: 1px solid rgba(0,0,0,0.16);
+	padding: 7px;
+	margin: 9px 7px;
+	}
+
+	
+section#example, section#availability, section#deprecated {
+	background: transparent;
+	border-radius: 0;
+	padding: 1px;
+	border: 0;
+	}
+	
+section#example {
+	cursor: url(clips-icon-symbol.png);
+	cursor: copy;
+	border-radius: 3px;
+	padding: 1px;
+	}
+	
+section#deprecated {
+	padding: 4px 8px;
+	margin: 0;
+	text-transform: uppercase;
+	text-align: center;
+	color: rgba(0,0,0,0.8);
+	border-radius: 3px;
+	font-family: sans-serif;
+	font: -webkit-mini-control;
+	background: rgba(244,222,31,1));
+	text-align: center;
+	position: fixed;
+	top: 38px;
+	right: 0px;
+	margin-right: -4px;
+	z-index: 98;
+	}
+	
+	
+	
+section#example h2 {
+	display: none;
+	}
+	
+section#attributes h3, section#domref h3, section#attributes h2, section#domref h2 {
+	display: none;
+	}
+	
+code.codeblock {
+	display: block;
+	padding: 3px 7px;
+	background: rgba(0, 0, 0, 0.7);
+	color: rgb(250, 245, 240);
+	border-radius: 3px;
+ 	overflow: auto;
+ 	font-family: Menlo, monospace;
+	}
+
+code.codeblock:hover {
+ 	-webkit-box-shadow: none;
+	}
+
+#example:hover {
+ 	-webkit-box-shadow: 0px 0px 5px #2F83FB;
+	background: rgba(0, 0, 0, 0.2);
+ 	}
+
+.codeblock pre {
+	white-space: normal;
+ 	font-family: Menlo, monospace;	
+
+	}
+	
+p, li {
+	}
+	
+th {
+	display: none; 
+}
+
+table {
+	width: 100%;
+	border-spacing: 0;
+	font: -webkit-small-control;
+	}
+	
+table ul {
+	list-style: none;
+	margin: 0;
+	}
+	
+table p {
+	margin: 0;
+	}
+
+table li {
+	margin: 1px;
+	}
+
+.col-name {
+	font-weight: bold;
+	text-align: right;
+	color: rgba(95, 95, 95, 1);
+    padding-right: 3px;
+}
+
+.col-description {
+	text-align: left;
+	color: rgba(0,0,0,0.8);
+	padding-left: 3px;
+	word-break: break-all;
+}
+
+.col-values {
+	font-style: italic;
+}
+
+.javascript .col-values {
+	font-style: normal;
+	font-family: Menlo, monospace;
+}
+
+.col-notes {
+	font-style: italic;
+}
+
+.col-name a {
+	color: rgba(0,0,0,0.8);
+	text-decoration: none;
+	display: block;
+	pointer-events: none;
+   	cursor: default;   	
+}
+
+table td {
+    padding: 1px 0;
+    vertical-align: top;
+}
+
+tr {
+	-webkit-transition: background-color 0.2s ease-out;
+	}
+
+tr:not(.tableheader):nth-child(odd) {
+	background-color: rgba(194, 194, 194, 0.1); 
+	}
+		
+tr:not(.tableheader):nth-child(even) {
+	background-color: rgba(194, 194, 194, 0.4);
+	}
+	
+tr:not(.tableheader):hover {
+/* 	background: -webkit-gradient(linear, left top, left bottom, from(rgba(177, 208, 243,0.5)), to(rgba(39, 120, 212, 0.5))), transparent; */
+	background-color: rgba(244, 229, 166, 0.7);
+	}
+
+tr.tableheader>td {
+	background: transparent;
+/* 	padding: 20px 0 4px 0; */
+	}
+
+@media screen and (min-width: 440px) {
+body {
+zoom: 140%;
+}
+}
+
+@media screen and (max-width: 440px)  {
+body {
+	zoom: 120%;
+}
+}
+
+@media screen and (max-width: 380px)  {
+body {
+	zoom: 100%;
+}
+}
+
+@media screen and (max-width: 260px)  {
+body {
+	zoom: 80%;
+}
+}
+
+/*
+ * Kindasorta based on Panic Palette:
+ */
+
+.source-code {
+    color: #FFFFFF;
+}
+
+.source-code .comment {
+    color: #838C95;
+    font-style: italic;
+}
+
+.source-code .comment .todo {
+    color: #838C95;
+}
+
+.source-code .tag {
+    color: #FDCA61;
+}
+
+.source-code .tag .keyword {
+    color: #FDCA61;
+	}
+
+.source-code .tag .keyword.type {
+	color: #FCA15E;
+
+	}
+
+.source-code .identifier {
+    color: #CED8DC;
+}
+
+.source-code .keyword {
+    color: #32BF2F;
+}
+
+.source-code .keyword.builtin {
+    color: #63CCE3;
+    font-weight: normal;
+}
+
+.source-code .keyword.operator {
+    color: #A4ACB3;
+}
+
+.source-code .number {
+    color: #6F4EBC;
+}
+
+.source-code .string {
+    color: #B5DC6C;
+}
+
+.source-code::selection, .source-code span::selection {
+    background: #ddd;
+    color: #ffffff;
+}
+

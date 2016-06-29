@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>parse_ini_file</title>
+	<script>	
+		var exampleText = "array parse_ini_file ( string $filename [, bool $process_sections = false [, int $scanner_mode = INI_SCANNER_NORMAL ]] )";
+	</script>
+</head>
+
+<body class="html parse_ini_file">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>parse_ini_file</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">parse_ini_file</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> [, <span class="identifier">bool</span> <span class="tag">$<span class="identifier">process_sections</span></span> = <span class="keyword literal">false</span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">scanner_mode</span></span> = <span class="identifier">INI_SCANNER_NORMAL</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>parse_ini_file() loads in the ini file specified in filename, and returns the settings in it in an associative array. The structure of the ini file is the same as the php.ini&#039;s.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The settings are returned as an associative array on success, and FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

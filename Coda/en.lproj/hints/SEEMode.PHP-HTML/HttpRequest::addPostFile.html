@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>HttpRequest::addPostFile</title>
+	<script>	
+		var exampleText = "public bool HttpRequest::addPostFile ( string $name , string $file [, string $content_type = \"application/x-octetstream\" ] )";
+	</script>
+</head>
+
+<body class="html HttpRequest::addPostFile">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>HttpRequest::addPostFile</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword">public</span> <span class="identifier">bool</span> <span class="identifier">HttpRequest</span>::<span class="identifier">addPostFile</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">name</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">file</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">content_type</span></span> = <span class="string">"application/x-octetstream"</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Add a file to the POST request, leaving previously set files unchanged. Affects only POST and custom requests. Cannot be used with raw post data.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success, or FALSE if the content type seems not to contain a primary and a secondary content type part.</p>	</section>
+
+	
+
+</body>
+</html>

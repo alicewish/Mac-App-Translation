@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>function_exists</title>
+	<script>	
+		var exampleText = "bool function_exists ( string $function_name )";
+	</script>
+</head>
+
+<body class="html function_exists">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>function_exists</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">function_exists</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">function_name</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Checks the list of defined functions, both built-in (internal) and user-defined, for function_name.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if function_name exists and is a function, FALSE otherwise. Note: This function will return FALSE for constructs, such as include_once() and echo().</p>	</section>
+
+	
+
+</body>
+</html>

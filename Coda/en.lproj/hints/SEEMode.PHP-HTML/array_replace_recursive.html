@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>array_replace_recursive</title>
+	<script>	
+		var exampleText = "array array_replace_recursive ( array &$array , array &$array1 [, array &$... ] )";
+	</script>
+</head>
+
+<body class="html array_replace_recursive">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>array_replace_recursive</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">array_replace_recursive</span> ( <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">array</span></span> , <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">array1</span></span> [, <span class="keyword builtin">array</span> &amp;<span class="tag">$</span>... ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>array_replace_recursive() replaces the values of the first array with the same values from all the following arrays. If a key from the first array exists in the second array, its value will be replaced by the value from the second array. If the key exists in the second array, and not the first, it will be created in the first array. If a key only exists in the first array, it will be left as is. If several arrays are passed for replacement, they will be processed in order, the later array overwriting the previous values. array_replace_recursive() is recursive : it will recurse into arrays and apply the same process to the inner value. When the value in array is scalar, it will be replaced by the value in array1, may it be scalar or array. When the value in array and array1 are both arrays, array_replace_recursive() will replace their respective value recursively.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns an array, or NULL if an error occurs.</p>	</section>
+
+	
+
+</body>
+</html>

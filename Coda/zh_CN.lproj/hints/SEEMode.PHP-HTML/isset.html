@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>isset</title>
+	<script>	
+		var exampleText = "bool isset ( mixed $var [, mixed $... ] )";
+	</script>
+</head>
+
+<body class="html isset">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>isset</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="keyword builtin">isset</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">var</span></span> [, <span class="identifier">mixed</span> <span class="tag">$</span>... ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Determine if a variable is set and is not NULL. If a variable has been unset with unset(), it will no longer be set. isset() will return FALSE if testing a variable that has been set to NULL. Also note that a NULL byte (&quot;\0&quot;) is not equivalent to the PHP NULL constant. If multiple parameters are supplied then isset() will return TRUE only if all of the parameters are set. Evaluation goes from left to right and stops as soon as an unset variable is encountered.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if var exists and has value other than NULL, FALSE otherwise.</p>	</section>
+
+	
+
+</body>
+</html>

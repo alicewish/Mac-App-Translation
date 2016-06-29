@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>proc_open</title>
+	<script>	
+		var exampleText = "resource proc_open ( string $cmd , array $descriptorspec , array &$pipes [, string $cwd [, array $env [, array $other_options ]]] )";
+	</script>
+</head>
+
+<body class="html proc_open">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>proc_open</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">proc_open</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">cmd</span></span> , <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">descriptorspec</span></span> , <span class="keyword builtin">array</span> &amp;<span class="tag">$<span class="identifier">pipes</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">cwd</span></span> [, <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">env</span></span> [, <span class="keyword builtin">array</span> <span class="tag">$<span class="identifier">other_options</span></span> ]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>proc_open() is similar to popen() but provides a much greater degree of control over the program execution.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a resource representing the process, which should be freed using proc_close() when you are finished with it. On failure returns FALSE.</p>	</section>
+
+	
+
+</body>
+</html>

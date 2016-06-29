@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_errors</title>
+	<script>	
+		var exampleText = "array imap_errors ( void )";
+	</script>
+</head>
+
+<body class="html imap_errors">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_errors</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">imap_errors</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gets all of the IMAP errors (if any) that have occurred during this page request or since the error stack was reset. When imap_errors() is called, the error stack is subsequently cleared.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>This function returns an array of all of the IMAP error messages generated since the last imap_errors() call, or the beginning of the page. Returns FALSE if no error messages are available.</p>	</section>
+
+	
+
+</body>
+</html>

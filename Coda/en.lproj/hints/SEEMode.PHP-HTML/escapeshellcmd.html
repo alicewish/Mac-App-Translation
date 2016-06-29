@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>escapeshellcmd</title>
+	<script>	
+		var exampleText = "string escapeshellcmd ( string $command )";
+	</script>
+</head>
+
+<body class="html escapeshellcmd">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>escapeshellcmd</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">escapeshellcmd</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">command</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>escapeshellcmd() escapes any characters in a string that might be used to trick a shell command into executing arbitrary commands. This function should be used to make sure that any data coming from user input is escaped before this data is passed to the exec() or system() functions, or to the backtick operator. Following characters are preceded by a backslash: #&amp;;`|*?~&lt;<code></code>&gt;^()[]{}$\, \x0A and \xFF. &#039; and &quot; are escaped only if they are not paired. In Windows, all these characters plus are replaced by a space instead.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The escaped string.</p>	</section>
+
+	
+
+</body>
+</html>

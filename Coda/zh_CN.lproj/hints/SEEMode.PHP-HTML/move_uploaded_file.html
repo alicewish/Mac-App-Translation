@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>move_uploaded_file</title>
+	<script>	
+		var exampleText = "bool move_uploaded_file ( string $filename , string $destination )";
+	</script>
+</head>
+
+<body class="html move_uploaded_file">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>move_uploaded_file</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">move_uploaded_file</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">filename</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">destination</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function checks to ensure that the file designated by filename is a valid upload file (meaning that it was uploaded via PHP&#039;s HTTP POST upload mechanism). If the file is valid, it will be moved to the filename given by destination. This sort of check is especially important if there is any chance that anything done with uploaded files could reveal their contents to the user, or even to other users on the same system.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success. If filename is not a valid upload file, then no action will occur, and move_uploaded_file() will return FALSE. If filename is a valid upload file, but cannot be moved for some reason, no action will occur, and move_uploaded_file() will return FALSE. Additionally, a warning will be issued.</p>	</section>
+
+	
+
+</body>
+</html>

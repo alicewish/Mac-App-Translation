@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>levenshtein</title>
+	<script>	
+		var exampleText = "int levenshtein ( string $str1 , string $str2 )";
+	</script>
+</head>
+
+<body class="html levenshtein">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>levenshtein</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">levenshtein</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">str1</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">str2</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>The Levenshtein distance is defined as the minimal number of characters you have to replace, insert or delete to transform str1 into str2. The complexity of the algorithm is O(m*n), where n and m are the length of str1 and str2 (rather good when compared to similar_text(), which is O(max(n,m)**3), but still expensive). In its simplest form the function will take only the two strings as parameter and will calculate just the number of insert, replace and delete operations needed to transform str1 into str2. A second variant will take three additional parameters that define the cost of insert, replace and delete operations. This is more general and adaptive than variant one, but not as efficient.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>This function returns the Levenshtein-Distance between the two argument strings or -1, if one of the argument strings is longer than the limit of 255 characters.</p>	</section>
+
+	
+
+</body>
+</html>

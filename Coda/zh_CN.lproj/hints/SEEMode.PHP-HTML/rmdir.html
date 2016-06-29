@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>rmdir</title>
+	<script>	
+		var exampleText = "bool rmdir ( string $dirname [, resource $context ] )";
+	</script>
+</head>
+
+<body class="html rmdir">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>rmdir</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">rmdir</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">dirname</span></span> [, <span class="identifier">resource</span> <span class="tag">$<span class="identifier">context</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Attempts to remove the directory named by dirname. The directory must be empty, and the relevant permissions must permit this. A E_WARNING level error will be generated on failure.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE on success or FALSE on failure.</p>	</section>
+
+	
+
+</body>
+</html>

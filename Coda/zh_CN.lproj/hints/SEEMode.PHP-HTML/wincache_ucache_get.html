@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>wincache_ucache_get</title>
+	<script>	
+		var exampleText = "mixed wincache_ucache_get ( mixed $key [, bool &$success ] )";
+	</script>
+</head>
+
+<body class="html wincache_ucache_get">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>wincache_ucache_get</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">wincache_ucache_get</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">key</span></span> [, <span class="identifier">bool</span> &amp;<span class="tag">$<span class="identifier">success</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gets a variable stored in the user cache.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If key is a string, the function returns the value of the variable stored with that key. The success is set to TRUE on success and to FALSE on failure. The key is an array, the parameter success is always set to TRUE. The returned array (name =&gt; value pairs) will contain only those name =&gt; value pairs for which the get operation in user cache was successful. If none of the keys in the key array finds a match in the user cache an empty array will be returned.</p>	</section>
+
+	
+
+</body>
+</html>

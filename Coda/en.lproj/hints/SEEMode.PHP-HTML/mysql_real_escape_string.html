@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mysql_real_escape_string</title>
+	<script>	
+		var exampleText = "string mysql_real_escape_string ( string $unescaped_string [, resource $link_identifier ] )";
+	</script>
+</head>
+
+<body class="html mysql_real_escape_string">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mysql_real_escape_string</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">mysql_real_escape_string</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">unescaped_string</span></span> [, <span class="identifier">resource</span> <span class="tag">$<span class="identifier">link_identifier</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Escapes special characters in the unescaped_string, taking into account the current character set of the connection so that it is safe to place it in a mysql_query(). If binary data is to be inserted, this function must be used. mysql_real_escape_string() calls MySQL&#039;s library function mysql_real_escape_string, which prepends backslashes to the following characters: \x00, \n, \r, \, &#039;, &quot; and \x1a. This function must always (with few exceptions) be used to make data safe before sending a query to MySQL.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the escaped string, or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

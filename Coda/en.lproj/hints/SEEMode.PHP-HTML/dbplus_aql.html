@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>dbplus_aql</title>
+	<script>	
+		var exampleText = "resource dbplus_aql ( string $query [, string $server [, string $dbpath ]] )";
+	</script>
+</head>
+
+<body class="html dbplus_aql">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>dbplus_aql</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">dbplus_aql</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">query</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">server</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">dbpath</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Executes an AQL query on the given server and dbpath.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a relation handle on success. The result data may be fetched from this relation by calling dbplus_next() and dbplus_curr(). Other relation access functions will not work on a result relation.</p>	</section>
+
+	
+
+</body>
+</html>

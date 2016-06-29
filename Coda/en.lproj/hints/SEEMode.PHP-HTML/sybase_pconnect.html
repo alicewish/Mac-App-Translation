@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>sybase_pconnect</title>
+	<script>	
+		var exampleText = "resource sybase_pconnect ([ string $servername [, string $username [, string $password [, string $charset [, string $appname ]]]]] )";
+	</script>
+</head>
+
+<body class="html sybase_pconnect">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>sybase_pconnect</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">sybase_pconnect</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">servername</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">username</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">password</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">charset</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">appname</span></span> ]]]]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>sybase_pconnect() acts very much like sybase_connect() with two major differences. First, when connecting, the function would first try to find a (persistent) link that&#039;s already open with the same host, username and password. If one is found, an identifier for it will be returned instead of opening a new connection. Second, the connection to the SQL server will not be closed when the execution of the script ends. Instead, the link will remain open for future use (sybase_close() will not close links established by sybase_pconnect()). This type of links is therefore called &#039;persistent&#039;.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a positive Sybase persistent link identifier on success, or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

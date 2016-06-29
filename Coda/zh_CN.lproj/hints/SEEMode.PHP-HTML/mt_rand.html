@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mt_rand</title>
+	<script>	
+		var exampleText = "int mt_rand ( void )";
+	</script>
+</head>
+
+<body class="html mt_rand">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mt_rand</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">mt_rand</span> ( <span class="identifier">void</span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>random number generators of older libcs have dubious or unknown characteristics and are slow. By default, PHP uses the libc random number generator with the rand() function. The mt_rand() function is a drop-in replacement for this. It uses a random number generator with known characteristics using the &raquo;&nbsp; Mersenne Twister, which will produce random numbers four times faster than what the average libc rand() provides. If called without the optional min, max arguments mt_rand() returns a pseudo-random value between 0 and mt_getrandmax(). If you want a random number between 5 and 15 (inclusive), for example, use mt_rand(5, 15).</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A random integer value between min (or 0) and max (or mt_getrandmax(), inclusive)</p>	</section>
+
+	
+
+</body>
+</html>

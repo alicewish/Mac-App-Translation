@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_set_client_encoding</title>
+	<script>	
+		var exampleText = "int pg_set_client_encoding ([ resource $connection ], string $encoding )";
+	</script>
+</head>
+
+<body class="html pg_set_client_encoding">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_set_client_encoding</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">pg_set_client_encoding</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ], <span class="identifier">string</span> <span class="tag">$<span class="identifier">encoding</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_set_client_encoding() sets the client encoding and returns 0 if success or -1 if error. PostgreSQL will automatically convert data in the backend database encoding into the frontend encoding. Note: The function used to be called pg_setclientencoding().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns 0 on success or -1 on error.</p>	</section>
+
+	
+
+</body>
+</html>

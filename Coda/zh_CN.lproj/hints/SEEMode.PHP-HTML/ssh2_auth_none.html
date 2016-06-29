@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>ssh2_auth_none</title>
+	<script>	
+		var exampleText = "mixed ssh2_auth_none ( resource $session , string $username )";
+	</script>
+</head>
+
+<body class="html ssh2_auth_none">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>ssh2_auth_none</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">ssh2_auth_none</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">session</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">username</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Attempt &quot;none&quot; authentication which usually will (and should) fail. As part of the failure, this function will return an array of accepted authentication methods.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns TRUE if the server does accept &quot;none&quot; as an authentication method, or an array of accepted authentication methods on failure.</p>	</section>
+
+	
+
+</body>
+</html>

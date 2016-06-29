@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>fseek</title>
+	<script>	
+		var exampleText = "int fseek ( resource $handle , int $offset [, int $whence = SEEK_SET ] )";
+	</script>
+</head>
+
+<body class="html fseek">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>fseek</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">fseek</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">handle</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">offset</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">whence</span></span> = <span class="identifier">SEEK_SET</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sets the file position indicator for the file referenced by handle. The new position, measured in bytes from the beginning of the file, is obtained by adding offset to the position specified by whence. In general, it is allowed to seek past the end-of-file; if data is then written, reads in any unwritten region between the end-of-file and the sought position will yield bytes with value 0. However, certain streams may not support this behavior, especially when they have an underlying fixed size storage.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Upon success, returns 0; otherwise, returns -1.</p>	</section>
+
+	
+
+</body>
+</html>

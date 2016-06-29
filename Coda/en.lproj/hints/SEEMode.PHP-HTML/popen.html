@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>popen</title>
+	<script>	
+		var exampleText = "resource popen ( string $command , string $mode )";
+	</script>
+</head>
+
+<body class="html popen">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>popen</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">resource</span> <span class="identifier">popen</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">command</span></span> , <span class="identifier">string</span> <span class="tag">$<span class="identifier">mode</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Opens a pipe to a process executed by forking the command given by command.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a file pointer identical to that returned by fopen(), except that it is unidirectional (may only be used for reading or writing) and must be closed with pclose(). This pointer may be used with fgets(), fgetss(), and fwrite(). When the mode is &#039;r&#039;, the returned file pointer equals to the STDOUT of the command, when the mode is &#039;w&#039;, the returned file pointer equals to the STDIN of the command. If an error occurs, returns FALSE.</p>	</section>
+
+	
+
+</body>
+</html>

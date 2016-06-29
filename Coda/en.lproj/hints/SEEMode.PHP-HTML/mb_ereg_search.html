@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>mb_ereg_search</title>
+	<script>	
+		var exampleText = "bool mb_ereg_search ([ string $pattern [, string $option = \"ms\" ]] )";
+	</script>
+</head>
+
+<body class="html mb_ereg_search">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>mb_ereg_search</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">mb_ereg_search</span> ([ <span class="identifier">string</span> <span class="tag">$<span class="identifier">pattern</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">option</span></span> = <span class="string">"ms"</span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Multibyte regular expression match for predefined multibyte string</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>mb_ereg_search() returns TRUE if the multibyte string matches with the regular expression, or FALSE otherwise. The string for matching is set by mb_ereg_search_init(). If pattern is not specified, the previous one is used.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_set_error_verbosity</title>
+	<script>	
+		var exampleText = "int pg_set_error_verbosity ([ resource $connection ], int $verbosity )";
+	</script>
+</head>
+
+<body class="html pg_set_error_verbosity">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_set_error_verbosity</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">pg_set_error_verbosity</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ], <span class="keyword type">int</span> <span class="tag">$<span class="identifier">verbosity</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Determines the verbosity of messages returned by pg_last_error() and pg_result_error(). pg_set_error_verbosity() sets the verbosity mode, returning the connection&#039;s previous setting. In PGSQL_ERRORS_TERSE mode, returned messages include severity, primary text, and position only; this will normally fit on a single line. The default mode (PGSQL_ERRORS_DEFAULT) produces messages that include the above plus any detail, hint, or context fields (these may span multiple lines). The PGSQL_ERRORS_VERBOSE mode includes all available fields. Changing the verbosity does not affect the messages available from already-existing result objects, only subsequently-created ones.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>The previous verbosity level: PGSQL_ERRORS_TERSE, PGSQL_ERRORS_DEFAULT or PGSQL_ERRORS_VERBOSE.</p>	</section>
+
+	
+
+</body>
+</html>

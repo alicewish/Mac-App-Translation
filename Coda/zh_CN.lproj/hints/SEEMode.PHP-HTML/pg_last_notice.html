@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_last_notice</title>
+	<script>	
+		var exampleText = "string pg_last_notice ( resource $connection )";
+	</script>
+</head>
+
+<body class="html pg_last_notice">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_last_notice</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">pg_last_notice</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_last_notice() returns the last notice message from the PostgreSQL server on the specified connection. The PostgreSQL server sends notice messages in several cases, for instance when creating a SERIAL column in a table. With pg_last_notice(), you can avoid issuing useless queries by checking whether or not the notice is related to your transaction. Notice message tracking can be set to optional by setting 1 for pgsql.ignore_notice in php.ini. Notice message logging can be set to optional by setting 0 for pgsql.log_notice in php.ini. Unless pgsql.ignore_notice is set to 0, notice message cannot be logged.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A string containing the last notice on the given connection, or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

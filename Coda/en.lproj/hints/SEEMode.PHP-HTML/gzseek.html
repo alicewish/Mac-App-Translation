@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>gzseek</title>
+	<script>	
+		var exampleText = "int gzseek ( resource $zp , int $offset [, int $whence = SEEK_SET ] )";
+	</script>
+</head>
+
+<body class="html gzseek">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>gzseek</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">gzseek</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">zp</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">offset</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">whence</span></span> = <span class="identifier">SEEK_SET</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Sets the file position indicator for the given file pointer to the given offset byte into the file stream. Equivalent to calling (in C) gzseek(zp, offset, SEEK_SET). If the file is opened for reading, this function is emulated but can be extremely slow. If the file is opened for writing, only forward seeks are supported; gzseek() then compresses a sequence of zeroes up to the new starting position.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Upon success, returns 0; otherwise, returns -1. Note that seeking past EOF is not considered an error.</p>	</section>
+
+	
+
+</body>
+</html>

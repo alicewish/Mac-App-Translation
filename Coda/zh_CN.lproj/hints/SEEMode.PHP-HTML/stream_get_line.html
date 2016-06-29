@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>stream_get_line</title>
+	<script>	
+		var exampleText = "string stream_get_line ( resource $handle , int $length [, string $ending ] )";
+	</script>
+</head>
+
+<body class="html stream_get_line">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>stream_get_line</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">stream_get_line</span> ( <span class="identifier">resource</span> <span class="tag">$<span class="identifier">handle</span></span> , <span class="keyword type">int</span> <span class="tag">$<span class="identifier">length</span></span> [, <span class="identifier">string</span> <span class="tag">$<span class="identifier">ending</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Gets a line from the given handle. Reading ends when length bytes have been read, when the string specified by ending is found (which is not included in the return value), or on EOF (whichever comes first). This function is nearly identical to fgets() except in that it allows end of line delimiters other than the standard \n, \r, and \r\n, and does not return the delimiter itself.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string of up to length bytes read from the file pointed to by handle. If an error occurs, returns FALSE.</p>	</section>
+
+	
+
+</body>
+</html>

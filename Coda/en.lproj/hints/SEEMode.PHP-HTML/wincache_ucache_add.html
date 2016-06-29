@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>wincache_ucache_add</title>
+	<script>	
+		var exampleText = "bool wincache_ucache_add ( string $key , mixed $value [, int $ttl = 0 ] )";
+	</script>
+</head>
+
+<body class="html wincache_ucache_add">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>wincache_ucache_add</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">bool</span> <span class="identifier">wincache_ucache_add</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">key</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">value</span></span> [, <span class="keyword type">int</span> <span class="tag">$<span class="identifier">ttl</span></span> = <span class="number">0</span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>bool wincache_ucache_add ( array $values [, mixed $unused [, int $ttl = 0 ]] )<br> Adds a variable in user cache, only if this variable doesn&#039;t already exist in the cache. The added variable remains in the user cache unless its time to live expires or it is deleted by using wincache_ucache_delete() or wincache_ucache_clear() functions.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If key is string, the function returns TRUE on success and FALSE on failure. If key is an array, the function returns: If all the name =&gt; value pairs in the array can be set, function returns an empty array; If all the name =&gt; value pairs in the array cannot be set, function returns FALSE; If some can be set while others cannot, function returns an array with name=&gt;value pair for which the addition failed in the user cache.</p>	</section>
+
+	
+
+</body>
+</html>

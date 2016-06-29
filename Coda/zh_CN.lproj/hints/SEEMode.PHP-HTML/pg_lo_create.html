@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>pg_lo_create</title>
+	<script>	
+		var exampleText = "int pg_lo_create ([ resource $connection [, mixed $object_id ]] )";
+	</script>
+</head>
+
+<body class="html pg_lo_create">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>pg_lo_create</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword type">int</span> <span class="identifier">pg_lo_create</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection</span></span> [, <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">object_id</span></span> ]] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>pg_lo_create() creates a large object and returns the OID of the large object. PostgreSQL access modes INV_READ, INV_WRITE, and INV_ARCHIVE are not supported, the object is created always with both read and write access. INV_ARCHIVE has been removed from PostgreSQL itself (version 6.3 and above). To use the large object interface, it is necessary to enclose it within a transaction block. Instead of using the large object interface (which has no access controls and is cumbersome to use), try PostgreSQL&#039;s bytea column type and pg_escape_bytea(). Note: This function used to be called pg_locreate().</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>A large object OID or FALSE on error.</p>	</section>
+
+	
+
+</body>
+</html>

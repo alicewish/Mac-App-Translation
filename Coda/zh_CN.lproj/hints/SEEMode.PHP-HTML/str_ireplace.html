@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>str_ireplace</title>
+	<script>	
+		var exampleText = "mixed str_ireplace ( mixed $search , mixed $replace , mixed $subject [, int &$count ] )";
+	</script>
+</head>
+
+<body class="html str_ireplace">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>str_ireplace</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">mixed</span> <span class="identifier">str_ireplace</span> ( <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">search</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">replace</span></span> , <span class="identifier">mixed</span> <span class="tag">$<span class="identifier">subject</span></span> [, <span class="keyword type">int</span> &amp;<span class="tag">$<span class="identifier">count</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>This function returns a string or an array with all occurrences of search in subject (ignoring case) replaced with the given replace value. If you don&#039;t need fancy replacing rules, you should generally use this function instead of preg_replace() with the i modifier.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string or an array of replacements.</p>	</section>
+
+	
+
+</body>
+</html>

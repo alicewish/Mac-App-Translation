@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>geoip_record_by_name</title>
+	<script>	
+		var exampleText = "array geoip_record_by_name ( string $hostname )";
+	</script>
+</head>
+
+<body class="html geoip_record_by_name">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>geoip_record_by_name</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="keyword builtin">array</span> <span class="identifier">geoip_record_by_name</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">hostname</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>The geoip_record_by_name() function will return the record information corresponding to a hostname or an IP address. This function is available for both GeoLite City Edition and commercial GeoIP City Edition. A warning will be issued if the proper database cannot be located. The names of the different keys of the returning associative array are as follows: &quot;continent_code&quot; -- Two letter continent code (as of version 1.0.4 with libgeoip 1.4.3 or newer) &quot;country_code&quot; -- Two letter country code (see geoip_country_code_by_name()) &quot;country_code3&quot; -- Three letter country code (see geoip_country_code3_by_name()) &quot;country_name&quot; -- The country name (see geoip_country_name_by_name()) &quot;region&quot; -- The region code (ex: CA for California) &quot;city&quot; -- The city. &quot;postal_code&quot; -- The Postal Code, FSA or Zip Code. &quot;latitude&quot; -- The Latitude as signed double. &quot;longitude&quot; -- The Longitude as signed double. &quot;dma_code&quot; -- Designated Market Area code (USA and Canada only) &quot;area_code&quot; -- The PSTN area code (ex: 212)</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns the associative array on success, or FALSE if the address cannot be found in the database.</p>	</section>
+
+	
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>imap_utf7_decode</title>
+	<script>	
+		var exampleText = "string imap_utf7_decode ( string $text )";
+	</script>
+</head>
+
+<body class="html imap_utf7_decode">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>imap_utf7_decode</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">imap_utf7_decode</span> ( <span class="identifier">string</span> <span class="tag">$<span class="identifier">text</span></span> ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Decodes modified UTF-7 text into ISO-8859-1 string. This function is needed to decode mailbox names that contain certain characters which are not in range of printable ASCII characters.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>Returns a string that is encoded in ISO-8859-1 and consists of the same sequence of characters in text, or FALSE if text contains invalid modified UTF-7 sequence or text contains a character that is not part of ISO-8859-1 character set.</p>	</section>
+
+	
+
+</body>
+</html>

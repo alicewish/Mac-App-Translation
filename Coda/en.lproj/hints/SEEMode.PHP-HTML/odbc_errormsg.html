@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../hints_style.css">
+	<title>odbc_errormsg</title>
+	<script>	
+		var exampleText = "string odbc_errormsg ([ resource $connection_id ] )";
+	</script>
+</head>
+
+<body class="html odbc_errormsg">
+	<nav>
+		<a class="back" onclick="history.back()">▼</a>
+		<a class="forward" onclick="history.forward()">▼</a>
+	</nav>
+
+	<header>
+		<h1>odbc_errormsg</h1>
+	</header>
+
+	<section id="example" onclick="Coda.copyExample(exampleText);" >
+		
+		<h2>Example</h2>
+		<code class="codeblock" id="examplecode" title="Click to insert code sample.">
+			
+			<pre class="source-code php"><span class="php"> <span class="identifier">string</span> <span class="identifier">odbc_errormsg</span> ([ <span class="identifier">resource</span> <span class="tag">$<span class="identifier">connection_id</span></span> ] ) </span></pre>			
+		</code>
+	</section>
+
+	<section id="description" >
+
+		<h2>Description</h2>
+		
+		<p>Returns a string containing the last ODBC error message, or an empty string if there has been no errors.</p>		
+	</section>
+			
+	<section id="returns">
+		
+		<h2>Return Values</h2>
+					
+		<p>If connection_id is specified, the last state of that connection is returned, else the last state of any connection is returned. This function returns meaningful value only if last odbc query failed (i.e. odbc_exec() returned FALSE).</p>	</section>
+
+	
+
+</body>
+</html>
