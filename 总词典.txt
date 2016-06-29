@@ -270,4 +270,4 @@ Item=项目
 Toggle View Linking=切换视图链接
 Outlining is not enabled for this text file.=这个文本文件还没有启用大纲。
 Add a new item of the same type as the selected item.=添加和所选项目相同类型的一个新项目。
-Link/unlink selection in split views. If selection is linked, changing the selection in one view updates the selection in the other views.=在拆分视图中链接/取消链接选择。如果选择链接，在一个视图中更改所选将更新在其他视图中的所选。
+Link/unlink selection in split views. If selection is linked, changing the selection in one view updates the selection in the other views.=在拆分视图中链接/取消链接选择。如果选择链接，在一个视图中更改所选将更新在其他视图中的所选。Action-NoBorder

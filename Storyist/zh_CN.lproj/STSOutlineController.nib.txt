@@ -959,7 +959,7 @@
 <integer>40</integer>
 </dict>
 </dict>
-<string>Open in Other Views</string>
+<string>在其他视图中打开</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -994,7 +994,7 @@
 <integer>42</integer>
 </dict>
 </dict>
-<string>Reveal in Project View</string>
+<string>在项目视图中显示</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1084,7 +1084,7 @@
 <integer>45</integer>
 </dict>
 </dict>
-<string>Status</string>
+<string>状态</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -1175,7 +1175,7 @@
 <integer>50</integer>
 </dict>
 </dict>
-<string>None</string>
+<string>无</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1210,7 +1210,7 @@
 <integer>52</integer>
 </dict>
 </dict>
-<string>First Draft</string>
+<string>第一稿</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1315,7 +1315,7 @@
 <integer>58</integer>
 </dict>
 </dict>
-<string>Final Draft</string>
+<string>最终稿</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1390,7 +1390,7 @@
 <integer>61</integer>
 </dict>
 </dict>
-<string>Edit List...</string>
+<string>编辑列表...</string>
 <dict>
 <key>$classes</key>
 <array>
@@ -1461,7 +1461,7 @@
 <integer>65</integer>
 </dict>
 </dict>
-<string>Color</string>
+<string>颜色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1629,7 +1629,7 @@
 <integer>73</integer>
 </dict>
 </dict>
-<string>Orange</string>
+<string>橙子</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1666,7 +1666,7 @@
 <integer>75</integer>
 </dict>
 </dict>
-<string>Yellow</string>
+<string>黄色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1703,7 +1703,7 @@
 <integer>77</integer>
 </dict>
 </dict>
-<string>Green</string>
+<string>绿色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1740,7 +1740,7 @@
 <integer>79</integer>
 </dict>
 </dict>
-<string>Blue</string>
+<string>蓝色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1777,7 +1777,7 @@
 <integer>81</integer>
 </dict>
 </dict>
-<string>Purple</string>
+<string>紫色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1814,7 +1814,7 @@
 <integer>83</integer>
 </dict>
 </dict>
-<string>Gray</string>
+<string>灰色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1864,7 +1864,7 @@
 <integer>85</integer>
 </dict>
 </dict>
-<string>Background</string>
+<string>背景</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1882,7 +1882,7 @@
 <integer>87</integer>
 </dict>
 </dict>
-<string>Background</string>
+<string>背景</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1979,7 +1979,7 @@
 <integer>91</integer>
 </dict>
 </dict>
-<string>Item Color</string>
+<string>项目颜色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2016,7 +2016,7 @@
 <integer>93</integer>
 </dict>
 </dict>
-<string>Alternating Colors</string>
+<string>颜色交替</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2053,7 +2053,7 @@
 <integer>95</integer>
 </dict>
 </dict>
-<string>Yellow Pad</string>
+<string>黄垫</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2126,7 +2126,7 @@
 <integer>98</integer>
 </dict>
 </dict>
-<string>Show Summaries</string>
+<string>显示汇总</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2176,7 +2176,7 @@
 <integer>100</integer>
 </dict>
 </dict>
-<string>Columns</string>
+<string>列</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2250,7 +2250,7 @@
 <integer>104</integer>
 </dict>
 </dict>
-<string>Word Count</string>
+<string>字数</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2285,7 +2285,7 @@
 <integer>106</integer>
 </dict>
 </dict>
-<string>Rating</string>
+<string>评分</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2982,7 +2982,7 @@ QSAAAEEgAABBmAAAQZgAAA==
 <integer>143</integer>
 </dict>
 </dict>
-<string>Title &amp; Summary</string>
+<string>标题和概要</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3120,7 +3120,7 @@ MAA=
 </dict>
 <string>STSOutlineCell</string>
 <string>NSTextFieldCell</string>
-<string>Text Cell</string>
+<string>文本单元</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3271,7 +3271,7 @@ MC42NjY2NjY2NjY3AA==
 <integer>143</integer>
 </dict>
 </dict>
-<string>Word Count</string>
+<string>字数</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3585,7 +3585,7 @@ MQA=
 <integer>179</integer>
 </dict>
 </dict>
-<string>Pop Up</string>
+<string>弹出</string>
 <string>_popUpItemAction:</string>
 <string>OtherViews</string>
 <dict>
@@ -4132,7 +4132,7 @@ MC41AA==
 <integer>212</integer>
 </dict>
 </dict>
-<string>Item</string>
+<string>项目</string>
 <string>
 </string>
 <dict>
@@ -4351,7 +4351,7 @@ MC41AA==
 <integer>222</integer>
 </dict>
 </dict>
-<string>Open in Other Views</string>
+<string>在其他视图中打开</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4386,7 +4386,7 @@ MC41AA==
 <integer>224</integer>
 </dict>
 </dict>
-<string>Reveal in Project View</string>
+<string>在项目视图中显示</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4599,7 +4599,7 @@ MC41AA==
 <integer>231</integer>
 </dict>
 </dict>
-<string>First Draft</string>
+<string>第一稿</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4702,7 +4702,7 @@ MC41AA==
 <integer>235</integer>
 </dict>
 </dict>
-<string>Final Draft</string>
+<string>最终稿</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4777,7 +4777,7 @@ MC41AA==
 <integer>238</integer>
 </dict>
 </dict>
-<string>Edit List...</string>
+<string>编辑列表...</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5223,7 +5223,7 @@ MC41AA==
 <integer>251</integer>
 </dict>
 </dict>
-<string>Background</string>
+<string>背景</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5241,7 +5241,7 @@ MC41AA==
 <integer>253</integer>
 </dict>
 </dict>
-<string>Background</string>
+<string>背景</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5374,7 +5374,7 @@ MC41AA==
 <integer>258</integer>
 </dict>
 </dict>
-<string>Alternating Colors</string>
+<string>颜色交替</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5411,7 +5411,7 @@ MC41AA==
 <integer>260</integer>
 </dict>
 </dict>
-<string>Yellow Pad</string>
+<string>黄垫</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5484,7 +5484,7 @@ MC41AA==
 <integer>263</integer>
 </dict>
 </dict>
-<string>Show Summaries</string>
+<string>显示汇总</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5607,7 +5607,7 @@ MC41AA==
 <integer>268</integer>
 </dict>
 </dict>
-<string>Word Count</string>
+<string>字数</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5748,7 +5748,7 @@ MC41AA==
 <integer>273</integer>
 </dict>
 </dict>
-<string>Toggle View Linking</string>
+<string>切换视图链接</string>
 <string>contextMenu</string>
 <dict>
 <key>$class</key>
@@ -6470,7 +6470,7 @@ MC4zMzMzMzMzMzMzAA==
 <integer>307</integer>
 </dict>
 </dict>
-<string>Outlining is not enabled for this text file.</string>
+<string>这个文本文件还没有启用大纲。</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -8220,7 +8220,7 @@ MC4zMzMzMzMzMzMzAA==
 </dict>
 </dict>
 <string>NSToolTipHelpKey</string>
-<string>Add a new item of the same type as the selected item.</string>
+<string>添加和所选项目相同类型的一个新项目。</string>
 <dict>
 <key>$classes</key>
 <array>
@@ -8252,7 +8252,7 @@ MC4zMzMzMzMzMzMzAA==
 <integer>483</integer>
 </dict>
 </dict>
-<string>Link/unlink selection in split views. If selection is linked, changing the selection in one view updates the selection in the other views.</string>
+<string>在拆分视图中链接/取消链接选择。如果选择链接，在一个视图中更改所选将更新在其他视图中的所选。</string>
 <dict>
 <key>$class</key>
 <dict>
