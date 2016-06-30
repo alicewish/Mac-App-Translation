@@ -395,3 +395,11 @@ Apply=应用
 Discard=放弃
 Document Properties=文档属性
 Reveal in Finder=在Finder中显示
+Sample Rate:=采样率：
+Channel Layout:=通道布局：
+Document Format=文档格式
+Create New Document=新建文档
+Create=创建
+Cancel=取消
+Show Selection=显示选择
+Selection: 21.6 Seconds [0:36.456 - 0:59.132]
