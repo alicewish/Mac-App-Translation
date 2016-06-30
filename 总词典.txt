@@ -403,3 +403,68 @@ Create=创建
 Cancel=取消
 Show Selection=显示选择
 Selection: 21.6 Seconds [0:36.456 - 0:59.132]
+Next Item
+Previous Item
+Default Action
+GitHubAppDelegate
+Delete…
+Merge into Current Branch…
+Rename…
+About GitHub Desktop
+New Repository…
+Hide GitHub Desktop
+Quit GitHub Desktop
+GitHub Desktop Help
+Show Ruler
+Default
+Left to Right
+Right to Left
+Default
+Left to Right
+Right to Left
+Sync
+Push
+Pull
+Open Source Licenses
+Show Branches
+View on GitHub
+Enter Full Screen
+Contact GitHub Support…
+Check for Updates...
+Add Local Repository…
+Discard Changes to Selected Files…
+End-User License Agreement
+Uncommitted Changes
+GitHub Desktop
+History
+Open in Finder
+Copy SHA
+Publish
+Tutorial
+New Window
+Repository Settings…
+Automatically Sync after Committing
+Clone Repository…
+Update from master
+New Branch…
+Restore Discarded Changes
+Open in Terminal
+Toggle All Files
+Create Pull Request…
+Reload Repositories
+Undo Most Recent Commit
+Show Repository List
+Open in Atom
+GitHub Desktop
+GitHub Desktop
+Repository
+Repository
+Branch
+Writing Direction
+Writing Direction
+Paragraph
+Repository
+Repository
+Item 1
+Item 2
+Item 3
