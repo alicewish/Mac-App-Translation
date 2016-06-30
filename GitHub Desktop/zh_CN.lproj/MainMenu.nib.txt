@@ -7553,7 +7553,7 @@
 <integer>550</integer>
 </dict>
 </dict>
-<string>切换所有文件</string>
+<string>切换全选文件</string>
 <string>T</string>
 <string>toggleAll:</string>
 <dict>
