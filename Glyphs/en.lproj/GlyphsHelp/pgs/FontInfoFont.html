@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Font Info – Font</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="font, info, family, upm, designer, manufacturer, copyright, version"/>
+	<meta name="description" content="Information about the Font Info"/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<!--top navigation area-->
+	<div id="navbox" class="gradient">
+		<a name="FontInfoFont"></a>
+		<a name="Setup"></a>
+		<a name="FontInfo"></a>
+		<div id="navleftbox">
+			<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+		</div>
+		<div id="navrightbox">
+			<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+		</div>
+	</div><!--closes top navigation area-->
+
+	<!--page head-->
+	<div id="headerbox">
+		<div id="iconbox">
+			<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+		</div>
+		<div id="pagetitle">
+			<h1>Font Info – Font</h1>
+		</div>
+	</div>
+	<!--closes page header-->
+	<div id="introbox">
+		<div class="introprimtext">
+			<p class="introprimtextlongtext"></p>
+		</div><!--closes introprimtext-->
+	</div> <!--closes introbox -->
+	<div id="contentbox">
+		<div class="taskbox">
+			<h2>Family Name</h2>
+			<p>The name of the font family as it will appear in a font menu. Fonts carrying the same Family Name will be grouped in the same Style submenu.<br/>
+			You can use a space in the font name, but non-ASCII characters may prevent the font from exporting.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Units per Em</h2>
+			<p>Number of units per em square (UPM). 1000 is the default. Increasing the UPM value improves the representation of subtle details.<br/>
+			The OpenType allows values up to 16,000 but values greater than 5000 can lead to problems in InDesign and Illustrator.<br/>
+			If you need higher precision, it might be better to deactivate the grid by setting it to zero. (see <a href="help:topic_list=FontInfoOtherSettings bookID='Glyphs Help'">Font Info – Other settings > Grid Spacing</a>)</p>
+			<p>Click on the double arrow next to the text field to scale the entire font.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Designer and Designer URL</h2>
+			<p>Here, you can enter your name and a URL (including the protocol, i.e. http:// or ftp://), for example:</p>
+			<ul>
+				<li><p>Designer: Jessica Doe</p></li>
+				<li><p>Designer URL: http://www.jessicadoefonts.com/</p></li>
+			</ul>
+			<p>The entries correspond to OpenType Name IDs 9 and 12. You can check if the URL was entered correctly by clicking on the circled arrow next to it.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Manufacturer and Manufacturer URL</h2>
+			<p>Here, you can enter name and URL (including the protocol, i.e. http:// or ftp://) of your font vendor, for example:</p>
+			<ul>
+				<li><p>Manufacturer: Superfontstore</p></li>
+				<li><p>Manufacturer URL: http://www.superfontstore.com/</p></li>
+			</ul>
+			<p>The entries correspond to OpenType Name IDs 8 and 11. You can check if the URL was entered correctly by clicking on the circled arrow next to it.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Copyright</h2>
+			<p>A simple copyright notice. Click the circled arrow next to it to have Glyphs fill it in automatically. This will be recorded as Name ID 0.
+			</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Version</h2>
+			<p>Glyphs derives the Version string (Name ID 5) from the Version entry.
+			</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Date</h2>
+			<p>The creation date of the font. Will set the Creation and Modification dates in the OpenType head table.
+			
+			</p>
+		</div><!--closes taskbox-->
+	</div><!--closes contentbox-->		
+	<div id="linkinternalbox">
+		<h3>Related Topics</h3>
+		<p class="linkinternal"><a href="help:topic_list=FontInfoFontCustomParameters bookID='Glyphs Help'">Font Info – Font Custom Parameters</a></p>
+		<p class="linkinternal"><a href="help:topic_list=FontInfo bookID='Glyphs Help' template=sty/genlist.html stylesheet=sty/home_os.css Other='Font Info'">Font Info</a></p>
+	</div><!--closes linkinternalbox-->
+</body>
+</html>

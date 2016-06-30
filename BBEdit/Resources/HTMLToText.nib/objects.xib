@@ -1,0 +1,89 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="7" name="allObjects">
+    <object class="IBCarbonWindow" id="190">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Translate: HTML to Text</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="191">
+        <string name="viewFrame">0 0 242 146 </string>
+        <array count="5" name="subviews">
+          <object class="IBCarbonButton" id="192">
+            <ostype name="controlSignature">H2Tx</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">158 106 70 20 </string>
+            <string name="bounds">106 158 126 228 </string>
+          </object>
+          <object class="IBCarbonButton" id="193">
+            <ostype name="controlSignature">H2Tx</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">77 106 70 20 </string>
+            <string name="bounds">106 77 126 147 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="194">
+            <ostype name="controlSignature">H2Tx</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Remove tags  ⌘R</string>
+            <string name="viewFrame">20 20 130 18 </string>
+            <string name="bounds">20 20 38 150 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="195">
+            <ostype name="controlSignature">H2Tx</ostype>
+            <int name="controlID">4</int>
+            <string name="title">Convert paragraphs  ⌘P</string>
+            <string name="viewFrame">20 44 174 18 </string>
+            <string name="bounds">44 20 62 194 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="196">
+            <ostype name="controlSignature">H2Tx</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Convert HTML entities  ⌘E</string>
+            <string name="viewFrame">20 68 189 18 </string>
+            <string name="bounds">68 20 86 209 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 146 242 </string>
+      </object>
+      <string name="windowRect">100 100 246 342 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="195"/>
+    <reference idRef="194"/>
+    <reference idRef="196"/>
+    <reference idRef="192"/>
+    <reference idRef="191"/>
+    <reference idRef="193"/>
+  </array>
+  <array count="7" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="191"/>
+    <reference idRef="191"/>
+    <reference idRef="191"/>
+    <reference idRef="191"/>
+    <reference idRef="190"/>
+    <reference idRef="191"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>HTMLToText</string>
+    <reference idRef="190"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">269</unsigned_int>
+</object>

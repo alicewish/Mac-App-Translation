@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Font Info – Font Custom Parameters</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="font, info, custom, parameter"/>
+	<meta name="description" content="Information about the Custom Font Parameters"/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/table.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/index.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<!--top navigation area-->
+	<div id="navbox" class="gradient">
+		<a name="FontInfoFontCustomParameters"></a>
+		<a name="Setup"></a>
+		<a name="FontInfo"></a>
+		<div id="navleftbox">
+			<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+		</div>
+		<div id="navrightbox">
+			<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+		</div>
+	</div><!--closes top navigation area-->
+
+	<!--page head-->
+	<div id="headerbox">
+		<div id="iconbox">
+			<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+		</div>
+		<div id="pagetitle">
+			<h1>Font Info – Font Custom Parameters</h1>
+		</div>
+	</div>
+	<!--closes page header-->
+	<div id="introbox">
+		<div class="introprimtext">
+			<p class="introprimtextlongtext">Use entries in the Custom Parameter field to specify more settings.</p>
+			<p class="introprimtextlongtext">You can use font-level custom parameters to override default values set by Glyphs, but are themselves overridden by master and instance parameters.</p>
+		</div><!--closes introprimtext-->
+	</div> <!--closes introbox -->
+	<div id="contentbox">
+		<div class="taskbox">
+			<h2>Add a Parameter</h2>
+			<p>To add a parameter, click on the green plus symbol <img id="inlineimg" src="../Shared/GSPlus16x17.png" alt="green plus button" height="17" width="16"/>, select or type a property, and enter a value.<br/>
+			You can also copy and paste parameters.</p>
+		</div><!--closes taskbox-->
+
+		<p>The following properties are available font-wide:</p>
+		
+		<div class="table leftSmall">
+			<div class="header">
+				<div><p>Custom Parameter</p></div>
+				<div><p>Description</p></div>
+			</div>
+			<div>
+				<div><p>Add missing symbol glyphs<span class="seeprefix">&emsp;boolean</span></p></div>
+				<div><p>Triggers the makeotf -adds option. According to Adobe, ‘MakeOTF includes two Multiple Master fonts built-in, one serif and one sans-serif. With these it can synthesize glyphs that match (more or less) the width and weight of the source font. It requires the glyphs zero and O to be present in the font, in order to determine the required weight and width.’</p>
+				<p>The parameter will add these glyphs if they are not present in your font: approxequal, asciicircum, asciitilde, at, backslash, bar, brokenbar, currency, dagger, daggerdbl, degree, Delta, divide, equal, estimated, Euro, fraction, greater, greaterequal, infinity, integral, less, lessequal, litre, logicalnot, lozenge, minus, multiply, notequal, numbersign, Omega, onehalf, onequarter, paragraph, partialdiff, perthousand, pi, plus, plusminus, product, quotedbl, quotesingle, radical, section, summation, threequarters, zero.</p></div>
+			</div>
+			<div>
+				<div><p>blueScale<span class="seeprefix">&emsp;float</span></p></div>
+				<div><p>BlueScale value. This corresponds to the Type 1/CFF BlueScale field. Controls the font size until which overshoot display is suppressed. Calculated as (pointsize at 300 dpi – 0.49) ÷ 240, e.g. 0.039625 for 10 points at 300 dpi. The product of (pointsize – 0.49) × (largest alignment zone height) must be less than 240.</p></div>				
+			</div>
+			<div>
+				<div><p>blueShift<span class="seeprefix">&emsp;integer or float</span></p></div>
+				<div><p>BlueShift value. This corresponds to the Type 1/CFF BlueShift field. Extends overshoot suppression beyond BlueScale. Overshoots inside an alignment zone are displayed if: (a) they are equal to or larger than BlueShift and (b) if they are smaller than BlueShift but larger than half a pixel. Default value is 7.</p></div>
+			</div>
+			<div>
+				<div><p>description<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Description of the font. Corresponds to the OpenType name table name ID 10: ‘description of the typeface. Can contain revision information, usage recommendations, history, features, etc.’</p></div>
+			</div>
+			<div>
+				<div><p>Family Alignment Zones<span class="seeprefix">&emsp;list</span></p></div>
+				<div><p>This parameter can help create a more consistent screen appearance at low resolutions, even if the overshoots differ in the individual weights. It is a good idea to reduplicate the most important alignment zones of the most important font in your family, usually baseline, x-height and cap height of the Regular. A rasterizer will then try to align all weights if the height difference between the individual weight and the family alignment is less than one pixel.</p></div>
+			</div>
+			<div>
+				<div><p>fsType<span class="seeprefix">&emsp;list</span></p></div>
+				<div><p>A list of bit numbers indicating the embedding type. The bit numbers are listed in the OpenType OS/2 specification. Corresponds to the OpenType OS/2 table fsType field. ‘Type flags. Indicates font embedding licensing rights for the font. Embeddable fonts may be stored in a document. When a document with embedded fonts is opened on a system that does not have the font installed (the remote system), the embedded font may be loaded for temporary (and in some cases, permanent) use on that system by an embedding-aware application. Embedding licensing rights are granted by the vendor of the font.</p>
+				<p>The OpenType Font Embedding DLL Specification and DLL release notes describe the APIs used to implement support for OpenType font embedding and loading. Applications that implement support for font embedding, either through use of the Font Embedding DLL or through other means, must not embed fonts which are not licensed to permit embedding. Further, applications loading embedded fonts for temporary use (see Preview &amp; Print and Editable embedding below) must delete the fonts when the document containing the embedded font is closed.’ Possible settings:</p>
+				<p><span class="seeprefix">Not set.</span>‘Fonts with this setting indicate that they may be embedded and permanently installed on the remote system by an application. The user of the remote system acquires the identical rights, obligations and licenses for that font as the original purchaser of the font, and is subject to the same end-user license agreement, copyright, design patent, and/or trademark as was the original purchaser.’</p>
+				<p><span class="seeprefix">Forbidden.</span>‘Restricted License embedding: Fonts that have only this bit set must not be modified, embedded or exchanged in any manner without first obtaining permission of the legal owner. Caution: For Restricted License embedding to take effect, it must be the only level of embedding selected.’</p>
+				<p><span class="seeprefix">Preview &amp; Print.</span>‘When this bit is set, the font may be embedded, and temporarily loaded on the remote system Documents containing Preview &amp; Print fonts must be opened “read-only;” no edits can be applied to the document.’</p>
+				<p><span class="seeprefix">Editable.</span>‘When this bit is set, the font may be embedded but must only be installed temporarily on other systems. In contrast to Preview &amp; Print fonts, documents containing Editable fonts may be opened for reading, editing is permitted, and changes may be saved.’</p>
+				<p><span class="seeprefix">Subsetting forbidden.</span>‘When this bit is set, the font may not be subsetted prior to embedding. Other embedding restrictions also apply.’</p></div>
+			</div>
+			<div>
+				<div><p>GlyphOrder<span class="seeprefix">&emsp;list</span></p></div>
+				<div><p>Sets the order of glyphs in the final font. Takes a list of glyph names.</p></div>
+			</div>
+			<div>
+				<div><p>isFixedPitch<span class="seeprefix">&emsp;boolean</span></p></div>
+				<div><p>This flag is used to indicate that the font is monospaced.</p></div>
+			</div>
+			<div>
+				<div><p>license<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>License description. Corresponds to the OpenType name table name ID 13, the ‘description of how the font may be legally used, or different example scenarios for licensed use. This field should be written in plain language, not legalese.’</p></div>
+			</div>
+			<div>
+				<div><p>licenseURL<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>URL for the license. Corresponds to the OpenType name table name ID 14. ‘URL where additional licensing information can be found.’</p></div>
+			</div>
+			<div>
+				<div><p>panose<span class="seeprefix">&emsp;list</span></p></div>
+				<div><p>The list must contain 10 non-negative integers that represent the setting for each category in the Panose specification. The integers correspond with the option numbers in each of the Panose categories. This corresponds to the OpenType OS/2 table Panose field. ‘This 10 byte series of numbers is used to describe the visual characteristics of a given typeface. These characteristics are then used to associate the font with other fonts of similar appearance having different names. The variables for each digit are listed below.</p>
+				<p>The Panose values are fully described in the Panose “greybook” reference, currently owned by Monotype Imaging. The PANOSE definition contains ten digits each of which currently describes up to sixteen variations. Windows uses bFamilyType, bSerifStyle and bProportion in the font mapper to determine family type. It also uses bProportion to determine if the font is monospaced. If the font is a symbol font, the first byte of the PANOSE number (bFamilyType) must be set to “pictorial.” ’</p></div>
+			</div>
+			<div>
+				<div><p>ROS<span class="seeprefix">&emsp;list</span></p></div>
+				<div><p>A special-purpose Adobe-Identity-0 ROS (Registry, Ordering, Supplement) for fonts with a Character To Glyph Index Mapping Table (cmap). If you do not plan to use one of the public ROSes (Adobe-CNS1-6, Adobe-GB1-5, Adobe-Japan1-6, Adobe-Korea1-2), this parameter allows you to insert a ROS you have built yourself.</p></div>
+			</div>
+			<div>
+				<div><p>sampleText<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Sample text. Corresponds to the OpenType name table name ID 19. ‘This can be the font name, or any other text that the designer thinks is the best sample to display the font in.’</p></div>
+			</div>
+			<div>
+				<div><p>trademark<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Trademark statement. Corresponds to the OpenType name table name ID 7. According to Microsoft, ‘this is used to save any trademark notice/information for this font. Such information should be based on legal advice. This is distinctly separate from the copyright.’</p></div>
+			</div>
+			<div>
+				<div><p>unicodeRanges<span class="seeprefix">&emsp;list</span></p></div>
+				<div><p>A list of supported Unicode ranges in the font. Corresponds to the OpenType OS/2 table ulUnicodeRange1, ulUnicodeRange2, ulUnicodeRange3 and ulUnicodeRange4 fields. Glyphs offers a search field, so you can quickly spot the proper ranges for your fonts. E.g. if you want to cover all Latin ranges, simply search for ‘latin’ and all corresponding ranges will be filtered from the list.</p></div>
+			</div>
+			<div>
+				<div><p>vendorID<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Four character identifier for the creator of the font. Corresponds to the OpenType OS/2 table achVendID field. If not set, Glyphs will use ‘UKWN’ (‘unknown’) as Vendor ID. ‘The four character identifier for the vendor of the given type face.This is not the royalty owner of the original artwork. This is the company responsible for the marketing and distribution of the typeface that is being classified. It is reasonable to assume that there will be 6 vendors of ITC Zapf Dingbats for use on desktop platforms in the near future (if not already). It is also likely that the vendors will have other inherent benefits in their fonts (more kern pairs, unregularized data, hand hinted, etc.). This identifier will allow for the correct vendor’s type to be used over another, possibly inferior, font file. The Vendor ID value is not required.’</p></div>
+			</div>
+			<div>
+				<div><p>versionString<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Version string. Corresponds to the OpenType name table name ID 5. ‘Should begin with the syntax “Version &lt;number&gt;.&lt;number&gt;” (upper case, lower case, or mixed, with a space between “Version” and the number). The string must contain a version number of the following form: one or more digits (0-9) of value less than 65,535, followed by a period, followed by one or more digits of value less than 65,535. Any character other than a digit will terminate the minor number. A character such as “;” is helpful to separate different pieces of version information.The first such match in the string can be used by installation software to compare font versions. Note that some installers may require the string to start with “Version ”, followed by a version number as above.’ Name ID 5 is calculated by the AFDKO.</p></div>
+			</div>
+		</div>
+	</div><!--closes contentbox-->
+	<div id="linkinternalbox">
+		<h3>Related Topics</h3>
+		<p class="linkinternal"><a href="help:topic_list=FontInfo bookID='Glyphs Help' template=sty/genlist.html stylesheet=sty/home_os.css Other='Font Info'">Font Info</a></p>
+	</div><!--closes linkinternalbox-->
+</body>
+</html>

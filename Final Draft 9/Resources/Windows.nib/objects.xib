@@ -1,0 +1,153 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="13" name="allObjects">
+    <object class="IBCarbonCheckBox" id="222">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">Dont</ostype>
+      <string name="title">Do not ask me this again but always scan before printing.</string>
+      <string name="viewFrame">20 114 420 14 </string>
+      <string name="bounds">114 20 128 440 </string>
+    </object>
+    <object class="IBCarbonWindow" id="217">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <string name="title">Format Assistant</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="218">
+        <string name="viewFrame">0 0 460 170 </string>
+        <array count="5" name="subviews">
+          <object class="IBCarbonButton" id="219">
+            <ostype name="controlSignature">FDFD</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Scan Now</string>
+            <string name="viewFrame">352 74 88 20 </string>
+            <string name="bounds">74 352 94 440 </string>
+          </object>
+          <object class="IBCarbonButton" id="220">
+            <ostype name="controlSignature">FDFD</ostype>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Print Now</string>
+            <string name="viewFrame">251 74 89 20 </string>
+            <string name="bounds">74 251 94 340 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="221">
+            <string name="title">Format Assistant can scan your script for any formating errors so you can correct them before printing.  What do you want to do?</string>
+            <string name="viewFrame">20 20 420 34 </string>
+            <string name="bounds">20 20 54 440 </string>
+          </object>
+          <reference idRef="222"/>
+          <object class="IBCarbonCheckBox" id="223">
+            <ostype name="controlSignature">FDFD</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Turn Format Assistant off.</string>
+            <string name="viewFrame">20 136 383 14 </string>
+            <string name="bounds">136 20 150 403 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 170 460 </string>
+      </object>
+      <string name="windowRect">398 180 568 640 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="214">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">Scan</ostype>
+      <string name="title">Scan for formatting errors before printing</string>
+      <string name="viewFrame">20 20 328 14 </string>
+      <string name="bounds">20 20 34 348 </string>
+    </object>
+    <reference idRef="223"/>
+    <object class="IBCarbonRootControl" id="211">
+      <string name="viewFrame">0 0 361 116 </string>
+      <array count="4" name="subviews">
+        <object class="IBCarbonButton" id="213">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">4</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">189 76 70 20 </string>
+          <string name="bounds">76 189 96 259 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="215">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">2</int>
+          <string name="title">Always ask me before printing</string>
+          <string name="viewFrame">20 42 328 14 </string>
+          <string name="bounds">42 20 56 348 </string>
+        </object>
+        <reference idRef="214"/>
+        <object class="IBCarbonButton" id="216">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">3</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">OK</string>
+          <string name="viewFrame">271 76 70 20 </string>
+          <string name="bounds">76 271 96 341 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 116 361 </string>
+    </object>
+    <object class="IBCarbonWindow" id="212">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">7</int>
+      <string name="title">Format Assistant Options</string>
+      <reference name="rootControl" idRef="211"/>
+      <string name="windowRect">236 301 352 662 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="221"/>
+    <reference idRef="213"/>
+    <reference idRef="215"/>
+    <reference idRef="220"/>
+    <reference idRef="219"/>
+    <reference idRef="216"/>
+    <reference idRef="218"/>
+  </array>
+  <array count="13" name="allParents">
+    <reference idRef="218"/>
+    <reference idRef="1"/>
+    <reference idRef="211"/>
+    <reference idRef="218"/>
+    <reference idRef="212"/>
+    <reference idRef="1"/>
+    <reference idRef="218"/>
+    <reference idRef="211"/>
+    <reference idRef="211"/>
+    <reference idRef="218"/>
+    <reference idRef="218"/>
+    <reference idRef="211"/>
+    <reference idRef="217"/>
+  </array>
+  <dictionary count="3" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Format Assistant Options</string>
+    <reference idRef="212"/>
+    <string>Pre Scan</string>
+    <reference idRef="217"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">234</unsigned_int>
+</object>

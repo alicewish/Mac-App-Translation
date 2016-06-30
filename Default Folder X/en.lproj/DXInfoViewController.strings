@@ -1,0 +1,87 @@
+/* Class = "NSTextFieldCell"; title = "Created:"; ObjectID = "0CP-6j-JMW"; */
+"0CP-6j-JMW.title" = "Created:";
+
+/* Class = "NSTextFieldCell"; title = "Text File"; ObjectID = "0tS-yo-61b"; */
+"0tS-yo-61b.title" = "Text File";
+
+/* Class = "NSMenuItem"; title = "Purple"; ObjectID = "1Bi-3e-Bus"; */
+"1Bi-3e-Bus.title" = "Purple";
+
+/* Class = "NSButtonCell"; title = "Stationery"; ObjectID = "4et-fI-c2a"; */
+"4et-fI-c2a.title" = "Stationery";
+
+/* Class = "BindingConnection"; ibShadowedIsNilPlaceholder = " "; ObjectID = "6PO-vC-qId"; */
+"6PO-vC-qId.ibShadowedIsNilPlaceholder" = " ";
+
+/* Class = "BindingConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "6PO-vC-qId"; */
+"6PO-vC-qId.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSMenuItem"; title = "Orange"; ObjectID = "8UX-eG-3G1"; */
+"8UX-eG-3G1.title" = "Orange";
+
+/* Class = "NSMenuItem"; title = "Yellow"; ObjectID = "9Iw-5t-RVF"; */
+"9Iw-5t-RVF.title" = "Yellow";
+
+/* Class = "NSTextFieldCell"; title = "10.7 MB"; ObjectID = "A49-BE-gzg"; */
+"A49-BE-gzg.title" = "10.7 MB";
+
+/* Class = "NSTextFieldCell"; title = "Modified:"; ObjectID = "B7Q-GV-exb"; */
+"B7Q-GV-exb.title" = "Modified:";
+
+/* Class = "NSMenu"; title = "OtherViews"; ObjectID = "CKT-dc-6xT"; */
+"CKT-dc-6xT.title" = "OtherViews";
+
+/* Class = "BindingConnection"; ibShadowedIsNilPlaceholder = " "; ObjectID = "CSe-Ch-Jtb"; */
+"CSe-Ch-Jtb.ibShadowedIsNilPlaceholder" = " ";
+
+/* Class = "BindingConnection"; ibShadowedNoSelectionPlaceholder = " "; ObjectID = "CSe-Ch-Jtb"; */
+"CSe-Ch-Jtb.ibShadowedNoSelectionPlaceholder" = " ";
+
+/* Class = "NSTextFieldCell"; title = "800 x 600\nCIE\nJon Gotow\nSt. Clair Software"; ObjectID = "Dho-42-wzi"; */
+"Dho-42-wzi.title" = "800 x 600
+CIE
+Jon Gotow
+St. Clair Software";
+
+/* Class = "NSTextFieldCell"; title = "January 1, 2015 at 8:42 PM"; ObjectID = "GGi-Dl-P5r"; */
+"GGi-Dl-P5r.title" = "January 1, 2015 at 8:42 PM";
+
+/* Class = "NSMenuItem"; title = "None"; ObjectID = "Jdz-mW-gHS"; */
+"Jdz-mW-gHS.title" = "None";
+
+/* Class = "NSTextFieldCell"; title = "Dimensions:\nColorspace:\nCreator:\nCompany:"; ObjectID = "Jg5-al-cL3"; */
+"Jg5-al-cL3.title" = "Dimensions:
+Colorspace:
+Creator:
+Company:";
+
+/* Class = "NSMenuItem"; title = "Gray"; ObjectID = "KI8-KE-3q5"; */
+"KI8-KE-3q5.title" = "Gray";
+
+/* Class = "NSTextFieldCell"; title = "October 15, 2015 8:42 PM"; ObjectID = "KNQ-L0-48U"; */
+"KNQ-L0-48U.title" = "October 15, 2015 8:42 PM";
+
+/* Class = "NSTextFieldCell"; title = "Size:"; ObjectID = "LX4-W2-zHh"; */
+"LX4-W2-zHh.title" = "Size:";
+
+/* Class = "NSButtonCell"; title = "Locked"; ObjectID = "MFc-lT-rj8"; */
+"MFc-lT-rj8.title" = "Locked";
+
+/* Class = "NSMenuItem"; title = "Blue"; ObjectID = "Sdw-sg-oBo"; */
+"Sdw-sg-oBo.title" = "Blue";
+
+/* Class = "NSMenuItem"; title = "Red"; ObjectID = "ZGC-av-37z"; */
+"ZGC-av-37z.title" = "Red";
+
+/* Class = "NSMenuItem"; title = "Green"; ObjectID = "aHT-EJ-9jC"; */
+"aHT-EJ-9jC.title" = "Green";
+
+/* Class = "NSTextFieldCell"; title = "Kind:"; ObjectID = "abH-8Q-mR9"; */
+"abH-8Q-mR9.title" = "Kind:";
+
+/* Class = "NSButtonCell"; title = "Hide extension"; ObjectID = "k7X-0x-ScN"; */
+"k7X-0x-ScN.title" = "Hide extension";
+
+/* Class = "NSTextFieldCell"; title = "Filename"; ObjectID = "l3F-h3-DcC"; */
+"l3F-h3-DcC.title" = "Filename";
+

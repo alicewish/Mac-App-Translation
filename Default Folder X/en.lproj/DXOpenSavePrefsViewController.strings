@@ -1,0 +1,87 @@
+/* Class = "NSTextFieldCell"; title = "Style:"; ObjectID = "03s-Sc-9TL"; */
+"03s-Sc-9TL.title" = "Style:";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "4m7-Zd-TaH"; */
+"4m7-Zd-TaH.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Highlight Finder windows when you mouse over them"; ObjectID = "5s0-3s-spv"; */
+"5s0-3s-spv.title" = "Highlight Finder windows when you mouse over them";
+
+/* Class = "NSButtonCell"; title = "⌃ Control key"; ObjectID = "5yh-Bk-Fw4"; */
+"5yh-Bk-Fw4.title" = "⌃ Control key";
+
+/* Class = "NSTextFieldCell"; title = "Only when holding down:"; ObjectID = "6Zq-t1-Vje"; */
+"6Zq-t1-Vje.title" = "Only when holding down:";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "6rY-LX-KAo"; */
+"6rY-LX-KAo.title" = "Box";
+
+/* Class = "NSBox"; title = "Behavior"; ObjectID = "9Ls-ED-Jhr"; */
+"9Ls-ED-Jhr.title" = "Behavior";
+
+/* Class = "NSButtonCell"; title = "Show names of Finder windows when you mouse over them"; ObjectID = "027-rK-OZJ"; */
+"027-rK-OZJ.title" = "Show names of Finder windows when you mouse over them";
+
+/* Class = "NSButtonCell"; title = "Show comments and tags below Save dialogs"; ObjectID = "48y-pB-jP6"; */
+"48y-pB-jP6.title" = "Show comments and tags below Save dialogs";
+
+/* (No Commment) */
+"478-td-M3M.title" = "Dark Bezel";
+
+/* Class = "NSTextFieldCell"; title = "When opening a folder in the Finder"; ObjectID = "499-nB-dat"; */
+"499-nB-dat.title" = "When opening a folder in the Finder";
+
+/* Class = "NSTextFieldCell"; title = "Align toolbar with:"; ObjectID = "Eyz-40-n1p"; */
+"Eyz-40-n1p.title" = "Align toolbar with:";
+
+/* Class = "NSButtonCell"; title = "Put toolbar on the left instead of the right"; ObjectID = "L0N-3d-tF4"; */
+"L0N-3d-tF4.title" = "Put toolbar on the left instead of the right";
+
+/* Class = "NSButtonCell"; title = "Choose the Desktop when you click on it"; ObjectID = "Q1A-2i-INP"; */
+"Q1A-2i-INP.title" = "Choose the Desktop when you click on it";
+
+/* Class = "NSMenuItem"; title = "Minimal Toolbar"; ObjectID = "T6p-IZ-ZqY"; */
+"T6p-IZ-ZqY.title" = "Minimal Toolbar";
+
+/* (No Commment) */
+"TWW-3d-Rbq.title" = "Minimal Toolbar";
+
+/* Class = "NSButtonCell"; title = "Automatically select the last selected file in Open dialogs"; ObjectID = "UrS-Ja-0QZ"; */
+"UrS-Ja-0QZ.title" = "Automatically select the last selected file in Open dialogs";
+
+/* Class = "NSButtonCell"; title = "⌘ Command key"; ObjectID = "VNR-K8-ATY"; */
+"VNR-K8-ATY.title" = "⌘ Command key";
+
+/* Class = "NSMenuItem"; title = "stay in the file dialog"; ObjectID = "VnY-Lf-TtW"; */
+"VnY-Lf-TtW.title" = "stay in the file dialog";
+
+/* Class = "NSMenuItem"; title = "Dark Bezel"; ObjectID = "WwP-CX-N7U"; */
+"WwP-CX-N7U.title" = "Dark Bezel";
+
+/* Class = "NSMenuItem"; title = "top of file dialog"; ObjectID = "Y2h-JH-Gsb"; */
+"Y2h-JH-Gsb.title" = "top of file dialog";
+
+/* Class = "NSButtonCell"; title = "Enable Finder-click (choose a folder by clicking on its Finder window)"; ObjectID = "YB6-OI-urN"; */
+"YB6-OI-urN.title" = "Enable Finder-click (choose a folder by clicking on its Finder window)";
+
+/* Class = "NSBox"; title = "Appearance"; ObjectID = "ZVw-kI-TgD"; */
+"ZVw-kI-TgD.title" = "Appearance";
+
+/* (No Commment) */
+"azz-Of-BFe.title" = "Light Bezel";
+
+/* Class = "NSMenuItem"; title = "switch to the Finder"; ObjectID = "b15-I9-gbu"; */
+"b15-I9-gbu.title" = "switch to the Finder";
+
+/* Class = "NSButtonCell"; title = "Default to the current document's folder in Save dialogs"; ObjectID = "fNg-6j-NXt"; */
+"fNg-6j-NXt.title" = "Default to the current document's folder in Save dialogs";
+
+/* Class = "NSMenuItem"; title = "Light Bezel"; ObjectID = "gF1-nw-Am3"; */
+"gF1-nw-Am3.title" = "Light Bezel";
+
+/* Class = "NSButtonCell"; title = "Show previews, information and tags below Open dialogs"; ObjectID = "qXY-fO-Msy"; */
+"qXY-fO-Msy.title" = "Show previews, information and tags below Open dialogs";
+
+/* Class = "NSMenuItem"; title = "middle of file dialog"; ObjectID = "vxP-gN-p5n"; */
+"vxP-gN-p5n.title" = "middle of file dialog";
+

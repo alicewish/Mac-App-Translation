@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Glyph naming scheme for automatic feature generation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="font, info, glyph name, suffix, feature, features, generator, automatic"/>
+	<meta name="description" content="Glyph naming scheme for automatic feature generation."/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/table.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/index.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+<!--top navigation area-->
+<div id="navbox" class="gradient">
+	<a name="gname"></a>
+	<a name="Setup"></a>
+	<a name="GlyphNames"></a>
+	<a name="FontInfo"></a>
+	<!--<a name="alab11487"></a> -->
+	<div id="navleftbox">
+		<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+	</div>
+	<div id="navrightbox">
+		<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+	</div>
+</div><!--closes top navigation area-->
+
+<!--page head-->
+<div id="headerbox">
+	<div id="iconbox">
+		<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+	</div>
+	<div id="pagetitle">
+		<h1>Glyph naming scheme for automatic feature generation</h1>
+	</div>
+</div>
+<!--closes page header-->
+<div id="introbox">
+	<div class="introprimtext">
+		<p class="introprimtextlongtext">Glyphs can automatically generate a number of OpenType features if it finds glyphs with certain names in the font.<br/>
+		To get the automatic feature generator to work, use the following name suffixes.</p>
+	</div>
+</div> <!--closes introbox -->
+<div id="taskbox">
+	<div class="table leftSmall">
+		<div class="header">
+			<div>
+				<p>Feature</p>
+			</div>
+			<div>
+				<p>Glyph name</p>
+			</div>
+		</div>
+		<div>
+			<div><p>aalt<span class="seeprefix">&emsp;All Alternatives</span></p></div> 
+			<div><p>Glyphs automatically builds the aalt feature based on all features that substitute glyphs.</p></div> 
+		</div>
+		<div>
+			<div><p>liga<span class="seeprefix">&emsp;Ligature</span></p></div> 
+			<div><p>Join the glyph names of the components with an underscore (‘_’). The common ligatures with f, i and l are placed in the liga feature, all others go into dlig. If you want to force a ligature into the liga feature, you can add a ‘.liga’ suffix, e.g. ‘f_b.liga’ or ‘yi_yi-cy’.</p></div> 
+		</div>
+		<div>
+			<div><p>dlig<span class="seeprefix">&emsp;Discretionary Ligatures</span></p></div>
+			<div><p>Join the glyph names of the components with an underscore (‘_’), e.g. ‘f_odieresis’.</p></div> 
+		</div>
+		<div>
+			<div><p>c2sc<span class="seeprefix">&emsp;Small Capitals from Capitals</span></p></div>
+			<div><p>Add ‘.sc’, ‘.c2sc’ or ‘.smcp’ to the glyph name.</p>
+			<p>If you have separate sets for c2sc and smcp, you can use ‘.c2sc’ for uppercase glyph names and ‘.smcp’ for lowercase glyph names.</p></div>
+		</div>
+		<div>
+			<div><p>smcp<span class="seeprefix">&emsp;Small Capitals</span></p></div>
+			<div><p>Add ‘.sc’, ‘.c2sc’ or ‘.smcp’ to the glyph name.</p></div>
+		</div>
+		<div>
+			<div><p>sups<span class="seeprefix">&emsp;Superscript</span></p></div> 
+			<div><p>Add ‘.sups’ to the glyph name. Or extend figure names with ‘superior’, without the period, e.g. ‘onesuperior’.</p></div>
+		</div>
+		<div>
+			<div><p>subs<span class="seeprefix">&emsp;Subscript</span></p></div> 
+			<div><p>Add ‘.subs’ to the glyph name.</p></div> 
+		</div>
+		<div>
+			<div><p>sinf<span class="seeprefix">&emsp;Scientific Inferiors</span></p></div> 
+			<div><p>Add ‘.sinf’ or ‘.subs’ to the glyph name.</p></div> 
+		</div>
+		<div>
+			<div><p>dnom<span class="seeprefix">&emsp;Denominators</span></p></div> 
+			<div><p>Add ".dnom" to the glyph name.</p></div> 
+		</div>
+		<div>
+			<div><p>numr<span class="seeprefix">&emsp;Numerators</span></p></div> 
+			<div><p>Add ".numr" to the glyph name.</p></div> 
+		</div>
+		<div>
+			<div><p>frac<span class="seeprefix">&emsp;Fractions</span></p></div> 
+			<div><p>The frac feature is generated from the .numr, .dnom and fraction glyphs. Pre-built fractions are also added: onehalf, onequarter, threequarters, oneeighth, threeeighths, fiveeighths and seveneighths.</p></div> 
+		</div>
+		<div>
+			<div><p>onum<span class="seeprefix">&emsp;Oldstyle Figures</span></p></div> 
+			<div><p>Add ‘.osf’ (for proportional oldstyle figures) or ‘.tosf’ (for tabular oldstyle figures) to the glyph name. Can be applied to other characters as well, e.g. currency signs.</p></div> 
+		</div>
+		<div>
+			<div><p>tnum<span class="seeprefix">&emsp;Tabular Figures</span></p></div> 
+			<div><p>Add ‘.tf’ (for tabular figures) or ‘.tosf’ (for tabular oldstyle figures) to the glyph name. Can be applied to other characters as well, e.g. currency signs.</p></div> 
+		</div>
+		<div>
+			<div><p>pnum<span class="seeprefix">&emsp;Proportional Figures</span></p></div> 
+			<div><p>Add ‘.osf’ (for proportional oldstyle figures) or ‘.lf’ (for proportional lining figures) to the glyph name. Can be applied to other characters as well, e.g. currency signs.</p></div> 
+		</div>
+		<div>
+			<div><p>lnum<span class="seeprefix">&emsp;Lining Figures</span></p></div> 
+			<div><p>Add ‘.lf’ (for proportional lining figures) or ‘.tf’ (for tabular figures) to the glyph name. Can be applied to other characters as well, e.g. currency signs.</p></div> 
+		</div>
+		<div>
+			<div><p>ordn<span class="seeprefix">&emsp;Ordinals</span></p></div> 
+			<div><p>Automatically built if ‘ordfeminine’ and ‘ordmasculine’ are found in the font.</p></div> 
+		</div>
+		<div>
+			<div><p>hist<span class="seeprefix">&emsp;Historical Forms</span></p></div> 
+			<div><p>Add ‘.hist’ to the glyph name.</p></div> 
+		</div>
+		<div>
+			<div><p>case<span class="seeprefix">&emsp;Uppercase Forms</span></p></div> 
+			<div><p>Add ‘.case’ to the glyph name or ‘.lf’ to the name of a figure.</p></div> 
+		</div>
+		<div>
+			<div><p>cpsp<span class="seeprefix">&emsp;Capital Spacing</span></p></div> 
+			<div><p>Add uppercase letters to your font.</p></div> 
+		</div>
+		<div>
+			<div><p>locl<span class="seeprefix">&emsp;Localized Forms</span></p></div> 
+			<div><p>Add ‘.loclXXX’ to the glyph name, where XXX represents the three letter language tag, e.g. ‘.loclENG’ for English. There also is a built-in list of glyphs which are added automatically to the feature, e.g. idotaccent, scommaaccent and tcommaaccent will trigger locl substitutions for Turkish, Romanian and a range of related languages.</p>
+			<p>For a complete list of language tags, see: microsoft.com/typography/otspec/languagetags.htm</p></div> 
+		</div>
+		<div>
+			<div><p>ssXX<span class="seeprefix">&emsp;Stylistic Set XX</span></p></div>
+			<div><p>Add ‘.ssXX’ to the glyph name, where XX is a double-digit number between 1 and 20, e.g. ‘.ss01’ or ‘.ss02’. Add ‘Name:’ plus the feature’s descriptive name to the feature note at the bottom. This will generate the feature name entries for stylistic set names. Alternatively, you can add the whole featureNames definition to the note.</p></div>
+		</div>
+		<div>
+			<div><p>salt<span class="seeprefix">&emsp;Stylistic Alternate</span></p></div> 
+			<div><p>By default, Glyphs will duplicate the ss01 feature in salt. Adobe Illustrator makes use of this feature in its OpenType palette.</p></div> 
+		</div>
+		<div>
+			<div><p>vert<span class="seeprefix">&emsp;Vertical Alternates</span></p></div> 
+			<div><p>Add .vertical to the glyph name.</p></div> 
+		</div>
+	</div>
+</div>
+<div id="linkinternalbox">
+	<h3>Related Topics</h3>
+	<p class="linkinternal"><a href="help:topic_list=GlyphNames bookID='Glyphs Help' template=sty/genlist.html stylesheet=sty/home_os.css Other='Glyph Names'">Glyph naming</a></p>
+	<p class="linkinternal"><a href="help:anchor=FontInfoFeatures bookID='Glyphs Help'">Font Info – Features</a></p>
+</div><!--closes linkinternalbox-->
+</body>
+</html>

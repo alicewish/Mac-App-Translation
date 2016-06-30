@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>BEED</string>
+	<string>BECD</string>
+	<string>BEE700</string>
+	<string>BEC700</string>
+	<string>BEE800</string>
+	<string>BEC800</string>
+	<string>BEE850</string>
+	<string>BEC850</string>
+	<string>BEE900</string>
+	<string>BEC900</string>
+	<string>BEE100</string>
+	<string>BEC100</string>
+</array>
+</plist>

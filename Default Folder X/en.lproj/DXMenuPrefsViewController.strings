@@ -1,0 +1,75 @@
+/* Class = "NSMenuItem"; title = "Name"; ObjectID = "5xk-pV-n0j"; */
+"5xk-pV-n0j.title" = "Name";
+
+/* Class = "NSMenuItem"; title = "20"; ObjectID = "6EW-Yw-PSU"; */
+"6EW-Yw-PSU.title" = "20";
+
+/* Class = "NSMenuItem"; title = "100"; ObjectID = "JOx-VU-Uw3"; */
+"JOx-VU-Uw3.title" = "100";
+
+/* Class = "NSTextFieldCell"; title = "Sort submenus by"; ObjectID = "KF8-dQ-non"; */
+"KF8-dQ-non.title" = "Sort submenus by";
+
+/* Class = "NSTextFieldCell"; title = "Show"; ObjectID = "MRB-D3-hj3"; */
+"MRB-D3-hj3.title" = "Show";
+
+/* Class = "NSMenuItem"; title = "10"; ObjectID = "QaD-v7-J00"; */
+"QaD-v7-J00.title" = "10";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "Ryi-Zq-Qkb"; */
+"Ryi-Zq-Qkb.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "50"; ObjectID = "UY4-db-3Ta"; */
+"UY4-db-3Ta.title" = "50";
+
+/* Class = "NSButtonCell"; title = "Show the contents of folders using submenus"; ObjectID = "Wby-2G-Pds"; */
+"Wby-2G-Pds.title" = "Show the contents of folders using submenus";
+
+/* Class = "NSMenuItem"; title = "Name"; ObjectID = "WgL-Pb-LU0"; */
+"WgL-Pb-LU0.title" = "Name";
+
+/* Class = "NSButtonCell"; title = "List parent folders at the bottom of submenus"; ObjectID = "caU-ug-bOd"; */
+"caU-ug-bOd.title" = "List parent folders at the bottom of submenus";
+
+/* Class = "NSButtonCell"; title = "Show previews of files as you mouse over them"; ObjectID = "edr-eA-bSQ"; */
+"edr-eA-bSQ.title" = "Show previews of files as you mouse over them";
+
+/* Class = "NSButtonCell"; title = "List folders before files"; ObjectID = "gK8-RR-pa4"; */
+"gK8-RR-pa4.title" = "List folders before files";
+
+/* Class = "NSMenuItem"; title = "30"; ObjectID = "hC3-sT-dtX"; */
+"hC3-sT-dtX.title" = "30";
+
+/* Class = "NSTextFieldCell"; title = "Sort recent items by"; ObjectID = "hyb-uC-WO7"; */
+"hyb-uC-WO7.title" = "Sort recent items by";
+
+/* Class = "NSButtonCell"; title = "Show disk space in the disk menu"; ObjectID = "jeq-h4-0lb"; */
+"jeq-h4-0lb.title" = "Show disk space in the disk menu";
+
+/* Class = "NSMenuItem"; title = "5"; ObjectID = "krQ-bG-8pN"; */
+"krQ-bG-8pN.title" = "5";
+
+/* Class = "NSTextFieldCell"; title = "recently used files and folders"; ObjectID = "nep-fK-Vsp"; */
+"nep-fK-Vsp.title" = "recently used files and folders";
+
+/* Class = "NSButtonCell"; title = "Show icons in menus"; ObjectID = "oT0-E8-LT2"; */
+"oT0-E8-LT2.title" = "Show icons in menus";
+
+/* Class = "NSBox"; title = "Options"; ObjectID = "rIY-b2-BzO"; */
+"rIY-b2-BzO.title" = "Options";
+
+/* Class = "NSMenuItem"; title = "0"; ObjectID = "tig-wF-OXR"; */
+"tig-wF-OXR.title" = "0";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "v3k-ur-alD"; */
+"v3k-ur-alD.title" = "Date";
+
+/* Class = "NSMenuItem"; title = "15"; ObjectID = "xcC-id-Byt"; */
+"xcC-id-Byt.title" = "15";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "yJc-qm-bge"; */
+"yJc-qm-bge.title" = "Box";
+
+/* Class = "NSMenuItem"; title = "Date"; ObjectID = "zXy-j7-DiG"; */
+"zXy-j7-DiG.title" = "Date";
+

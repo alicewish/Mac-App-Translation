@@ -1,0 +1,12 @@
+EditorAutoIndent = 1;
+BalanceWhileTyping = 1;
+EditorUseTypographersQuotes = 0;
+EditorAutoExpandTabs = 0;
+EditorAutoExpandTabs_YAML = 1;
+EditorShowInvisibleCharacters = 0;
+EditorShowSpaces = 1;
+EditorCheckSpellingAsYouType = 1;
+SoftWrapStyle = 1;
+EditorSoftWrap = 0;
+EditorSoftWrapWidth = 80;
+EditorDefaultTabWidth = 4;

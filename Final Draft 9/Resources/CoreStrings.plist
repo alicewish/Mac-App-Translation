@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>146</key>
+	<string>The script &quot;</string>
+	<key>147</key>
+	<string>&quot; is longer than the demo limit and cannot be saved.</string>
+	<key>148</key>
+	<string>  Click Cancel to return to the script.  Click Quit to exit without saving.</string>
+	<key>196</key>
+	<string>Quit</string>
+	<key>300</key>
+	<string>  Click Cancel to return to the script.  Click Close to close the document without saving.</string>
+	<key>301</key>
+	<string>Close</string>
+	<key>65009</key>
+	<string>English (United States)</string>
+	<key>65010</key>
+	<string>Cannot save the file &apos;</string>
+	<key>65011</key>
+	<string>&apos;. The selected disk is full.
+Try saving the file to another location.</string>
+	<key>65012</key>
+	<string>Query not found.</string>
+	<key>65013</key>
+	<string>Suggestions</string>
+	<key>65014</key>
+	<string>Nothing found for the given word.</string>
+	<key>65015</key>
+	<string>) </string>
+	<key>65016</key>
+	<string>: </string>
+	<key>65017</key>
+	<string>Synonyms</string>
+	<key>65018</key>
+	<string>Related</string>
+	<key>65019</key>
+	<string>Contrasting</string>
+	<key>65020</key>
+	<string>Compare to</string>
+	<key>65021</key>
+	<string>Antonyms</string>
+	<key>65022</key>
+	<string>Do you wish to save</string>
+	<key>65023</key>
+	<string>Auto-Save</string>
+	<key>65024</key>
+	<string>Yes</string>
+	<key>65025</key>
+	<string>No</string>
+	<key>65026</key>
+	<string>You have chosen to turn Auto-Save off. To turn it on again, go to the Final Draft menu and then Preferences.</string>
+	<key>65028</key>
+	<string>Printing</string>
+	<key>65029</key>
+	<string>The font &quot;</string>
+	<key>65030</key>
+	<string>&quot; is used in this document, but is not available on this system. Please choose an alternate font for substitution.</string>
+	<key>65031</key>
+	<string>Save All</string>
+	<key>65032</key>
+	<string>You have %d documents with unsaved changes. Do you want to save them now?</string>
+	<key>kClearMenuTitle</key>
+	<string>Clear Menu</string>
+	<key>kErrorOfType</key>
+	<string>An error of type</string>
+	<key>kHasOccurredWhileSaving</key>
+	<string>has occurred while saving</string>
+	<key>kNoneStr</key>
+	<string>None</string>
+	<key>kUnknownSaveErrorOccurred</key>
+	<string>An unknown error has occurred while saving</string>
+	<key>permissionsKB</key>
+	<string>http://finaldraft.custhelp.com/cgi-bin/finaldraft.cfg/php/enduser/std_adp.php?p_faqid=1028&amp;p_created=1129324990</string>
+	<key>65033</key>
+	<string> is in use by another application. Close the file and try again.</string>
+</dict>
+</plist>

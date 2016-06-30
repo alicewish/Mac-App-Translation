@@ -1,0 +1,54 @@
+/* Class = "NSTextFieldCell"; title = "Jon Gotow @ St. Clair Software"; ObjectID = "1vc-cP-jNL"; */
+"1vc-cP-jNL.title" = "Jon Gotow @ St. Clair Software";
+
+/* Class = "NSTextFieldCell"; title = "Default Folder X has helped you %d times in the %d days you've been using it."; ObjectID = "3gB-Hp-mzc"; */
+"3gB-Hp-mzc.title" = "Default Folder X has helped you %d times in the %d days you've been using it.";
+
+/* Class = "NSMenuItem"; title = "Check for Updates…"; ObjectID = "JOw-cC-ycb"; */
+"JOw-cC-ycb.title" = "Check for Updates…";
+
+/* Class = "NSMenuItem"; title = "Quit"; ObjectID = "NN5-K2-0pk"; */
+"NN5-K2-0pk.title" = "Quit";
+
+/* Class = "NSTextFieldCell"; title = "Your trial period ends in 4 days"; ObjectID = "Pdg-17-nvh"; */
+"Pdg-17-nvh.title" = "Your trial period ends in 4 days";
+
+/* Class = "NSTextFieldCell"; title = "Version 5.0a12 © 2001-2015 St. Clair Software "; ObjectID = "RNR-EY-6SQ"; */
+"RNR-EY-6SQ.title" = "Version 5.0a12 © 2001-2015 St. Clair Software ";
+
+/* Class = "NSButtonCell"; title = "Add menu to Finder toolbars"; ObjectID = "RgI-k2-efU"; */
+"RgI-k2-efU.title" = "Add menu to Finder toolbars";
+
+/* Class = "NSMenuItem"; title = "About Default Folder X…"; ObjectID = "Sfy-ME-AwM"; */
+"Sfy-ME-AwM.title" = "About Default Folder X…";
+
+/* Class = "NSButtonCell"; title = "Show menu in the menubar"; ObjectID = "dGF-HV-oiW"; */
+"dGF-HV-oiW.title" = "Show menu in the menubar";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "eRs-Qq-EdC"; */
+"eRs-Qq-EdC.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Add drawer button to Finder toolbars"; ObjectID = "fBJ-hU-Z9p"; */
+"fBJ-hU-Z9p.title" = "Add drawer button to Finder toolbars";
+
+/* Class = "NSButtonCell"; title = "Start Default Folder X when you log in"; ObjectID = "jv5-Za-3JV"; */
+"jv5-Za-3JV.title" = "Start Default Folder X when you log in";
+
+/* Class = "NSMenuItem"; title = "Default Folder X Help…"; ObjectID = "kxb-D4-XDi"; */
+"kxb-D4-XDi.title" = "Default Folder X Help…";
+
+/* Class = "NSTabViewItem"; label = "Tab"; ObjectID = "kzg-DX-4fT"; */
+"kzg-DX-4fT.label" = "Tab";
+
+/* Class = "NSButtonCell"; title = "Enter License"; ObjectID = "l21-DT-4dv"; */
+"l21-DT-4dv.title" = "Enter License";
+
+/* Class = "NSButtonCell"; title = "Buy"; ObjectID = "rud-39-Tnn"; */
+"rud-39-Tnn.title" = "Buy";
+
+/* Class = "NSTextFieldCell"; title = "Licensed to:"; ObjectID = "vUY-9f-cCF"; */
+"vUY-9f-cCF.title" = "Licensed to:";
+
+/* Class = "NSTabViewItem"; label = "View"; ObjectID = "zzM-Dy-Zqb"; */
+"zzM-Dy-Zqb.label" = "View";
+

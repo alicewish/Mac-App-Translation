@@ -1,0 +1,610 @@
+// comments are ignored if the // is the first two characters of the line
+// some lines have spaces at the end which should be left alone.
+// make sure blank lines are just a return only
+
+/////////////////////////////////Translator Notes///////////////////////////////////
+//The lines that begin with the double slash (//) like this one are comments and do not need to be translated.
+//
+//If you are Translating this text file into a different language, you must take
+// Special care with certain characters that are used by the program for formatting.
+// The following characters must be left unchanged
+//---------- \t
+//---------- \n
+//---------- \r
+//---------- \f
+//---------- &
+//---------- %d
+//---------- %s
+// Make sure that if there is a space before or after the word that it stays there. This is very important to
+// The formatting of your output
+// !!!!!!!!!!!! DO NOT ADD ADDITIONAL LINES OF TEXT OR DELETE THEM!!!!!!!! 
+// THE ORDER THAT THESE STRINGS ARE READ IN IS VERY IMPORTANT!!!
+// THE PROGRAM WILL NOT FUNCTION PROPERLY IF THE STRINGS ARE READ IN THE WRONG ORDER
+// IF YOU CAN'T TRANSLATE A WORD... JUST LEAVE IT WHERE IT IS. REPEAT, DO NOT DELETE LINES OF TEXT!
+//
+// Leave the file path name comments where they are. This will help us to debug any problems with the translation.
+
+// THIS IS A FILE MARKER. DO NOT CHANGE THIS LINE
+##Additional Strings
+// !!!!!!!!!!!!!!!!!!!!!!!!//
+
+
+Rex is a great Mac Programmer
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDActor.cpp:
+Man 1
+Man 2
+Woman 1
+Woman 2
+Boy 1
+Boy 2
+Girl 1
+Girl 2
+Old Man
+Old Woman
+Victoria
+Ralph
+Fred
+Albert
+Junior
+Agnes
+Kathy
+Princess
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDAppPrefs.cpp:
+Screenplay.fdxt
+//Screenplay
+//
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDCastCountReport.cpp:
+Occurrences
+Name
+//Occurrences
+//
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDElement.cpp:
+General
+Scene Heading
+Action
+Character
+Parenthetical
+Dialogue
+Transition
+Shot
+Act
+Scene
+Cast List
+SCENE HEADING
+ACTION
+CHARACTER NAME
+PARENTHETICAL
+DIALOG
+TRANSITION
+
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDLocationCountReport.cpp:
+Location Report
+Location
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSPCommandHndlr.cpp:
+O.S.
+o.s.
+V.O.
+v.o.
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSPDocument.cpp:
+(Name of Project)
+by\r(Name of First Writer)
+(Based on, If Any)
+Revisions by\r(Names of Subsequent Writers,\rin Order of Work Performed)
+Current Revisions by\r(Current Writer, date)
+Name\rAddress\rPhone
+INT
+EXT
+I/E
+DAY
+NIGHT
+SUNRISE
+MAGIC
+CONT
+INTER
+CUTTO
+FADEIN
+FADEOUT
+FADETO
+DISSLV
+BACKTO
+MATCHCUT
+JUMPCUT
+FBLACK
+INT. 
+EXT. 
+I/E 
+ - DAY
+ - NIGHT
+ - SUNRISE
+ - MAGIC
+continuing
+interrupting
+CUT TO:
+FADE IN:
+FADE OUT.
+FADE TO:
+DISSOLVE TO:
+BACK TO:
+MATCH CUT TO:
+JUMP CUT TO:
+FADE TO BLACK.
+(CONT'D)
+(MORE)
+CONTINUED:
+(CONTINUED)
+Cut To:
+Fade In:
+Fade Out.
+Fade To:
+Dissolve To:
+Back To:
+Match Cut To:
+Jump Cut To:
+Fade To Black.
+Int
+Ext
+Day
+Night
+Afternoon
+Morning
+Evening
+Later
+Moments Later
+Continuous
+The Next Day
+(V.O.)
+(O.S.)
+(O.C.)
+(SUBTITLE)
+Ready
+ [Tab] 
+ [Enter] 
+Select Element
+Select Scene Intro
+Select Location
+Select Time of Day
+Select Character
+Select Extension
+CONTINUED
+cont'd
+Clipboard
+XT
+ TO
+ IN
+ OUT
+ BLACK
+FADE
+applied_range
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSceneReport.cpp:
+SCENE
+LOCATION
+PAGE
+LENGTH
+SCENE REPORT - 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDScriptReportObj.cpp:
+page: 
+scene: 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSmartTypeMgr.cpp:
+SmartType
+Elements
+space before
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDStatistics.cpp:
+ on Page #
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDStatisticsReport.cpp:
+ speaks %d times (%d%%) for a total of %d words (%d%%).
+ appears as a non-speaking character %d times.
+Non-speaking.
+%s\r(page #%s) (%d occurrences)\r
+%s\r(page #%s) (%d occurrence)\r
+ (%d occurrences)\r
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDTextImportObject.cpp:
+(CONTINUED)
+CONTINUED:
+CONTINUED
+(MORE)
+MORE
+INT
+EXT
+I/E
+FADE 
+CUT 
+JUMP 
+DISSOLVE 
+BACK 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDThesaurusObject.cpp:
+Synonyms
+Compare to
+Related
+Contrasting
+Antonyms
+Suggestions: 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDVoice.cpp:
+Can
+EXT.
+Exterior
+INT.
+Interior
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMBetaTestersDialog.cpp:
+Beta
+\pcont'd
+\po.s.
+\pV.O.
+\pv.o.
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMCharacterReportDlg.cpp:
+ Character Report
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMCmdBevelButton.cpp:
+Press
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMCopyProtection.cpp:
+Final Draft CD-ROM
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMDirPopupAttachment.cpp:
+directory popup
+as is
+\px
+tag
+open selection
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMDirPopupAttachment.h:
+Finder
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMEmailDocumentDialog.cpp:
+Attach \
+Sent: %lu%% of %lu k
+Sent: %lu k
+The \
+ field is not valid
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMFinalDraftAboutBox.cpp:
+Final Draft Viewer
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMFindDialog.cpp:
+\p(None
+Goto
+Next/Prev
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMHeaderDialog.cpp:
+Title:
+Content
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMHierarchyTable.cpp:
+after
+Can only remove one row at a time from a HierarchyTable
+Can't collapse an uncollapsable row
+Can't expand an uncollapsable row
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMMacrosDialog.cpp:
+Opt-Shift-
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMNetworkCollaboration.cpp:
+current
+suspended
+sleep
+waiting
+blocked
+unknown
+chat
+\r Port: 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMNoteMarkersDialog.cpp:
+\pMacros - 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMPrintPreviewDialog.h:
+Print Preview
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMRTWindow.cpp:
+latent
+ of 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMRundownElementDlg.cpp:
+\pIgnore
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSPDocument.cpp:
+Caught exception here
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSceneTableView.cpp:
+The value of GetSelected cells is: 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSpeechControlDlg.cpp:
+\pSpeakingÉ
+\pPaused
+\pStopped
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSpeechEditNarratorPanel.cpp:
+Narrator
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMTextEdit.cpp:
+\pSize
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMTitlePageDlg.cpp:
+\pTitle Page - 
+ of 
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMToolbarItemMgr.h:
+paginated
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMUserDictPanel.cpp:
+\pNew Word
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMWindowPanelAV.cpp:
+\pNo Scene
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWCreditsPage.cpp: 
+Version 6 Development \t
+Quality Assurance \t
+Team Management \t
+Founder \t
+President \t
+Executive Vice President \t
+CFO \t
+Technical Support \t
+Office Management \t
+Accounting \t
+Sales & Marketing \t
+Graphic Designer \t
+Internet Manager \t
+Manual and Online Help \t
+Artwork \t
+Special Thanks \t
+Spelling/Thesaurus \t
+Final Draft for Windows \f
+was Developed using Visual C++ \f
+by Microsoft, Inc. \f
+Could not find bitmap resource \
+Be sure to assign the bitmap a QUOTED resource name
+Arial
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWDibapi.h:
+bits
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWDocumentColorsPage.cpp:
+Use System Colors
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWEditActors.cpp:
+New Actor #
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWEditCharacterVoicesSheet.cpp:
+Assign Voices
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWEditNarratorVoicePage.cpp:
+Narrator
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWExportdlg.cpp:
+Export
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWFinalDraftApp.cpp:
+Contents.txt
+full width
+CDocTemplate::CreateNewDocument returned null.\n
+CDocument::OnNewDocument returned false.\n
+ (converted).fdr
+FinalDraftAVAppClass
+Class Registration Failed\n
+Final Draft.hlp
+Final Draft Version 
+Converted RTF Text
+(converted)
+An unhandled error occurred in Final Draft.\n\n
+\n\nSelect:\nAbort \tto terminate the program;\n
+Retry \tto let Final Draft attempt to handle the error; or\n
+Ignore \tto do nothing.\n\n
+After this dialog, you'll have a chance to save modified documents.
+Error!
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWFinalDraftView.cpp:
+Error: DoPrintPreview failed
+search
+Mor&e>>
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWFlexiList.h:
+FDSPText
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWFontDlg.cpp:
+Display
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWGotoPage.cpp:
+&Goto
+Change Label
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWHeaderDlg.cpp:
+Footer
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWMainFrame.cpp:
+Failed to create status bar\n
+Status Bar
+Shown
+Standard
+Script
+Speech Control
+CustomFD2
+File
+Edit
+View
+Document
+Tools
+Production
+Help
+Settings
+WindowPos
+Settings
+Ac&tivate...
+Deac&tivate...
+Activate your computer to run Final Draft without the CD-ROM
+Deactivate your computer to run Final Draft without the CD-ROM
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWMessengerDialog.cpp:
+Send your script as an attachment through your email program.
+Send your script as a secure, trackable e-package for a minimal charge.
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNcrRegPage.cpp:
+Did not send mail
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNetworkCollaboration.cpp:
+Receive user list\n
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNetworkCollaborationDlg.cpp:
+CollaboWriter
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWOneKeyEditText.cpp:
+Ctrl+
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWOptionsPropSheet.cpp:
+Document
+Header/Footer
+Numbers
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWPersonalInfo.cpp:
+RegisteredOwner
+RegisteredOrganization
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWSECTextButton.cpp:
+Read Along
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWSceneList.cpp:
+Selections
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWTitlePageMDIChildWnd.cpp:
+Title Page - 
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:Hlp:FnlDraft.hpj:
+How to
+Troubleshooting
+Final Draft Help
+
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Mac:FMSetupAssistant.h
+
+//Panel Caption
+Introduction
+End User Agreement
+Customer Information
+Online Registration
+Online Activation
+Conclusion
+
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Mac:FMNetStopCopyProgressBox.cpp
+
+If you do not complete the setup with a valid Customer Number, you will not be able to run Final Draft. Are you sure you want to quit the Setup Assistant?
+Contacting Final Draft, Inc...
+Connected to: Final Draft, Inc.
+Processing request...
+Request completed.
+Failed to receive a response from www.finaldraft.com
+Web response received.
+Activation has failed.\r%s\r
+Please contact Technical Support. Have your Customer Number ready.
+There was a problem with the Web deactivation .\r%s\r
+Please call tech support so that they can increment your available activationss.
+
+Final Draft cannot connect to the Internet. Please check your connection/settings and try again, or use Manual Activation.
+Connection failed
+Failure:
+You must register before you can activate. 
+Invalid User Code!
+You no longer have any remaining activations for this copy of Final Draft. Contact the Final Draft Sales department to purchase additional copies of Final Draft.
+StopCopy Net Activation Counter Expired!
+Lookup Code %s not found!
+Activation has failed. %s. Please contact Technical Support. Have your Customer Number ready.
+There was a problem with the server
+Invalid Removal Code!
+The Response Code is incorrect.
+Unknown StopCopy Error.
+
+Online Activation Progress
+Online Deactivation Progress
+
+Activation was successful! Final Draft no longer requires the CD to run.
+Deactivation was successful! You can now activate a different computer or re-use the activation on this computer at a later time.
+   Allowable activations\r
+You have:  
+   Remaining Activation(s).
+
+The removal code you entered is incorrect.
+Deactivation was successful! Inform the technical support representative of the Removal Code. You will then be able to activate a different computer or re-use the activation on this computer at a later time.
+This drive cannot be de-activated because it has not been activated yet.
+Deactivation failure
+
+//From FWFinalDraftApp.cpp
+Final Draft Documents (*.fdx,*.fds,*.fdxt)|*.fdx;*.fds;*.fdxt|Final Draft 5-7 Documents (*.fdr,*.fdt)|*.fdr;*.fdt|File Converter Documents (*.fcf)|*.fcf|Text Documents (*.txt)|*.txt|Rtf Documents (*.rtf)|*.rtf|Final Draft XML (*.fdx)|*.fdx|All Files (*.*)|*.*||
+Final Draft Text Document (*.fdr)|*.fdr|Text Only (*.txt)|*.txt|Text with Layout (*.txt)|*.txt|HTML Document (*.htm;*.html;*.htx)|*.htm;*.html;*.htx|Rich Text Format (*.rtf)|*.rtf|Stationery (*.fdt)|*.fdt|
+Final Draft Document (*.fdr)|*.fdr|Adobe Acrobat Document (*.pdf)|*.pdf|Text Only (*.txt)|*.txt|Text Only with Layout (*.txt)|*.txt|HTML Document (*.htm;*.html;*.htx)|*.htm;*.html;*.htx|Rich Text Format (*.rtf)|*.rtf|Movie Magic (*.sex)|*.sex|Avid Script-Based Editing (*.txt)|*.txt|File Converter (*.fcf)|*.fcf|Stationery (*.fdt)|*.fdt||
+Final Draft Documents (*.fdx;*.fdr)|*.fdx;*.fdr|
+You must compare a screenplay document to a screenplay document.
+
+//FWFinalDraftApp.cpp
+Untitled
+
+//From FWMessengerDlg.cpp
+Send your script as an attachment through your email program.
+Send your script as a secure, trackable e-package for a minimal charge.
+
+//FWFindReplacePage.cpp
+Mor&e>>
+
+//FWGotoPage.cpp
+&Next
+&Goto
+
+//FWSPDocument.cpp
+Page Layout
+Scene Numbers
+Revisions
+Revisions Options
+SmartType Options
+Unable to export to file
+XML Export
+ScriptNote Export
+&Export directory:
+
+//FWHeaderDlg.cpp
+Footer
+
+//FWTitlePageMDIChildWnd.cpp
+Title Page
+
+//FWEditCharacterVoicesSheet.cpp
+Assign Voices
+
+//FWMainFrame.cpp
+File
+Edit
+View
+Format
+Document
+Tools
+Production
+Help
+Options
+
+//FWOptionsPropSheet.cpp
+Spelling
+Document
+Header/Footer
+Numbers
+Revisions
+
+//FWElementsDlg.cpp
+None
+
+//FDSceneReport.cpp
+SCENE REPORT
+SCENE
+LOCATION
+PAGE
+LENGTH
+
+//FDLocationCountReport.cpp
+Location
+Occurrences
+
+//FDCastCountReport.cpp
+Name
+
+//FMRegistration dialog
+This drive has already been activated.
+This drive is currently deactivated.
+
+//FDHTMLParser
+You cannot activate your computer until you first register your copy of Final Draft. Would you like to register now?
+
+You have entered an invalid Customer Number. Please check the number and enter it again or call Technical Support for assistance.
+You have entered an invalid Customer Number more than three times. The program will now quit.
+
+//FWSceneNavMDIChildWindow.cpp
+Navigator
+
+//FWSetupAssistant.cpp
+If you do not complete this setup, Final Draft will not run. Are you sure you want to Cancel?
+
+//FWWebAuthorizer.cpp
+Online Deactivation has partially failed because Final Draft could not connect to the Internet. While your drive is now deactivated, this was not properly accounted for. You must contact Technical Support with your Removal Code %s to adjust your activation count. Please have your Customer Number ready.
+Online Deactivation has partially failed. %s. While your drive is now deactivated, this was not properly accounted for. You must contact Technical Support with your Removal Code %s to adjust your activation count. Please have your Customer Number ready.
+
+//FWFinalDraftAboutBox.cpp
+Removal Code:
+Challenge Code:
+
+//FDFinalDraftApp
+english
+
+//FMFinalDraftAssistant
+Final Draft has not been setup completely.
+Closing the Final Draft Assistant will quit Final Draft.\rYou must complete the Assitant to use Final Draft.\rDo you want to continue setting up Final Draft?
+Before you Activate make sure you have registered first.
+You must be registered first in order to activate online.  Either register online in the previous step, or call Tech Support to register.
+Activate
+Don't Activate Yet
+
+Preparing to compare.
+Comparing scenes.
+Comparing elements.
+Moving scenes.
+Moving elements.
+Comparing documents
+
+The right indent must be at least 1 inch greater than the left indent.
+indent must be between 0.00 inches and 8.00 inches.
+Left 
+Right 
+
+Printed with Final Draft 6 Beta 
+Final Draft 6 Beta 1 Expires 5-31-2002
+Final Draft 9 Demo
+
+English (United States).fdict
+English (United States).ths
+
+Customer Number:
+
+Size

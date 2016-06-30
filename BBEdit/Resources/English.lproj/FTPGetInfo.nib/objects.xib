@@ -1,0 +1,259 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="28" name="allObjects">
+    <object class="IBCarbonStaticText" id="197">
+      <string name="title">Date:</string>
+      <string name="viewFrame">14 68 42 16 </string>
+      <string name="bounds">68 14 84 56 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="190">
+      <ostype name="controlSignature">FTPs</ostype>
+      <int name="controlID">4</int>
+      <string name="viewFrame">20 20 464 16 </string>
+      <string name="bounds">20 20 36 484 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="201">
+      <string name="title">Owner:</string>
+      <string name="viewFrame">32 116 89 16 </string>
+      <string name="bounds">116 32 132 121 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="204">
+      <string name="title">Read</string>
+      <string name="viewFrame">133 92 35 16 </string>
+      <string name="bounds">92 133 108 168 </string>
+    </object>
+    <object class="IBCarbonButton" id="193">
+      <ostype name="controlSignature">FTPi</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">RNAM</ostype>
+      <string name="title">Rename</string>
+      <string name="viewFrame">342 18 80 20 </string>
+      <string name="bounds">18 342 38 422 </string>
+    </object>
+    <object class="IBCarbonButton" id="192">
+      <ostype name="controlSignature">FTPi</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">SET </ostype>
+      <string name="title">Set</string>
+      <string name="viewFrame">163 195 80 20 </string>
+      <string name="bounds">195 163 215 243 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="226">
+      <ostype name="controlSignature">FTPi</ostype>
+      <int name="controlID">8</int>
+      <ostype name="command">u+w </ostype>
+      <string name="viewFrame">193 116 20 18 </string>
+      <string name="bounds">116 193 134 213 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="228">
+      <ostype name="controlSignature">FTPi</ostype>
+      <int name="controlID">10</int>
+      <ostype name="command">g+r </ostype>
+      <string name="viewFrame">135 141 20 18 </string>
+      <string name="bounds">141 135 159 155 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="198">
+      <ostype name="controlSignature">FTPi</ostype>
+      <int name="controlID">5</int>
+      <string name="viewFrame">64 44 270 16 </string>
+      <string name="bounds">44 64 60 334 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="202">
+      <string name="title">Group:</string>
+      <string name="viewFrame">32 140 89 16 </string>
+      <string name="bounds">140 32 156 121 </string>
+    </object>
+    <object class="IBCarbonWindow" id="188">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="windowPosition">7</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="186">
+        <string name="viewFrame">0 0 442 235 </string>
+        <array count="26" name="subviews">
+          <reference idRef="190"/>
+          <object class="IBCarbonButton" id="189">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">Done</string>
+            <string name="viewFrame">342 195 80 20 </string>
+            <string name="bounds">195 342 215 422 </string>
+          </object>
+          <reference idRef="192"/>
+          <reference idRef="193"/>
+          <object class="IBCarbonEditText" id="194">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">4</int>
+            <boolean name="isUnicode">TRUE</boolean>
+            <string name="viewFrame">67 20 264 16 </string>
+            <string name="bounds">20 67 36 331 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="195">
+            <string name="title">Name:</string>
+            <string name="viewFrame">14 19 42 16 </string>
+            <string name="bounds">19 14 35 56 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="196">
+            <string name="title">Size:</string>
+            <string name="viewFrame">14 44 42 16 </string>
+            <string name="bounds">44 14 60 56 </string>
+          </object>
+          <reference idRef="197"/>
+          <reference idRef="198"/>
+          <object class="IBCarbonStaticText" id="199">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">6</int>
+            <string name="viewFrame">64 68 270 16 </string>
+            <string name="bounds">68 64 84 334 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="200">
+            <string name="title">Permissions:</string>
+            <string name="viewFrame">14 92 89 16 </string>
+            <string name="bounds">92 14 108 103 </string>
+          </object>
+          <reference idRef="201"/>
+          <reference idRef="202"/>
+          <object class="IBCarbonStaticText" id="203">
+            <string name="title">Everyone:</string>
+            <string name="viewFrame">32 164 89 16 </string>
+            <string name="bounds">164 32 180 121 </string>
+          </object>
+          <reference idRef="204"/>
+          <object class="IBCarbonStaticText" id="205">
+            <string name="title">Write</string>
+            <string name="viewFrame">187 92 35 16 </string>
+            <string name="bounds">92 187 108 222 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="224">
+            <string name="title">Execute</string>
+            <string name="viewFrame">240 92 57 16 </string>
+            <string name="bounds">92 240 108 297 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="225">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">7</int>
+            <ostype name="command">u+r </ostype>
+            <string name="viewFrame">135 116 20 18 </string>
+            <string name="bounds">116 135 134 155 </string>
+          </object>
+          <reference idRef="226"/>
+          <object class="IBCarbonCheckBox" id="227">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">9</int>
+            <ostype name="command">u+x </ostype>
+            <string name="viewFrame">252 116 20 18 </string>
+            <string name="bounds">116 252 134 272 </string>
+          </object>
+          <reference idRef="228"/>
+          <object class="IBCarbonCheckBox" id="229">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">11</int>
+            <ostype name="command">g+w </ostype>
+            <string name="viewFrame">193 141 20 18 </string>
+            <string name="bounds">141 193 159 213 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="230">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">12</int>
+            <ostype name="command">g+x </ostype>
+            <string name="viewFrame">252 141 20 18 </string>
+            <string name="bounds">141 252 159 272 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="231">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">13</int>
+            <ostype name="command">o+r </ostype>
+            <string name="viewFrame">135 163 20 18 </string>
+            <string name="bounds">163 135 181 155 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="232">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">14</int>
+            <ostype name="command">o+w </ostype>
+            <string name="viewFrame">193 165 20 18 </string>
+            <string name="bounds">165 193 183 213 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="233">
+            <ostype name="controlSignature">FTPi</ostype>
+            <int name="controlID">15</int>
+            <ostype name="command">o+x </ostype>
+            <string name="viewFrame">252 165 20 18 </string>
+            <string name="bounds">165 252 183 272 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 235 442 </string>
+      </object>
+      <string name="windowRect">100 100 335 542 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="196"/>
+    <reference idRef="200"/>
+    <reference idRef="194"/>
+    <reference idRef="225"/>
+    <reference idRef="232"/>
+    <reference idRef="186"/>
+    <reference idRef="227"/>
+    <reference idRef="229"/>
+    <reference idRef="224"/>
+    <reference idRef="233"/>
+    <reference idRef="231"/>
+    <reference idRef="195"/>
+    <reference idRef="199"/>
+    <reference idRef="203"/>
+    <reference idRef="205"/>
+    <reference idRef="230"/>
+    <reference idRef="189"/>
+  </array>
+  <array count="28" name="allParents">
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="1"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="188"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+    <reference idRef="186"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>FTPGetInfo</string>
+    <reference idRef="188"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">540</unsigned_int>
+</object>

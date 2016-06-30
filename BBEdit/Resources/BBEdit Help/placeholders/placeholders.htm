@@ -1,0 +1,660 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta name="GENERATOR" content="THE FLESHY PALM OF RICH SIEGEL" />
+    <link rel="STYLESHEET" href="../help.css" charset="ISO-8859-1" type="text/css" />
+    <title>Placeholders and Include Files</title>
+</head>
+<body>
+    <h1>Placeholders and Include Files</h1>
+    <p class="Body">This section lists the placeholder tokens used by BBEdit templates and include files, and describes the use and capabilities of include files.</p>
+    <div>
+
+        <h2 id="Overview">Overview of Placeholders</h2>
+        <p class="Body">Placeholders are processed under the following circumstances:</p>
+        <ul>
+            <li class="Bullet-List">When a new HTML document is created from a template, the placeholders in the template are replaced with their current values. (The new document receives the substituted text; the original template file is not modified.)</li>
+            <li class="Bullet-List">When the Update Document command (part of the HTML Tools) is invoked, any placeholders in the documents being updated are replaced with their current values. (Since the placeholders are replaced, subsequent updates do not update the substituted text.) Although this command is part of the HTML Tools, it can be used in any document whenever you want to use placeholders.</li>
+            <li class="Bullet-List">When a file is included in another file using the #bbinclude directive (or a related directive), any placeholders in the included file are replaced with their current values before the text is included. (The include file itself is not changed, only the included text is substituted.) All of the above methods of invoking placeholders can also invoke included files, which can have placeholders of their own.</li>
+        </ul>
+        <div>
+            <h6 class="Note-Head">Note</h6>
+            <p class="Note-Text">The placeholders described in this chapter are only available for use with the HTML Tools' Update command. They cannot be used with BBEdit's Clippings command, nor can Clippings placeholders be used in include or template files.</p>
+            <p class="Body">BBEdit supports the following placeholders. Placeholders are not case-sensitive.</p>
+            <table>
+                <tr>
+                    <th>
+                        <p class="CellHeading">Placeholder</p>
+                    </th>
+                    <th>
+                        <p class="CellHeading">Replaced By...</p>
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#ABBREVDATE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Abbreviated date--e.g., Sun, Aug 15, 2006</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#BASE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The BASE tag as entered using the New HTML Document command</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#BASENAME#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The name of the file stripped of its rightmost period-delimited portion. For example, if the file is named "test.html", the base name is "test", while if the file is named "test.foo.html", the base name is "test.foo".</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#BASE_URL#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The value of the BASE URL specified in an HTML document's header (useful if you want to refer to the document's location on the server)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#CHARSET#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The character set specified in the New HTML Document command</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#COMPDATE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Compact Date format--e.g., 15-Aug-06</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#CREATIONDATE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The creation date of the current file--e.g., 15-Aug-06</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#CREATIONTIME#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The creation time of the current file, formatted according to your Format settings in the International panel of the System Preferences</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#DATETIME XXX#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Inserts a localized, region-aware date whose format is specified by the ICU format string XXX (see "Date Formats" below)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#DATETIME_GMT XXX#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Inserts the universal, region-aware date whose format is specified by the ICU format string XXX (see "Date Formats" below)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#DIRPATH#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The path on the server as specified in the Sites panel of the Setup window. Strips any leading slash from the path string</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#DOCSIZE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The size of the current document plus included images in bytes</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#DOCTITLE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The title of the current document as extracted from the &lt;TITLE&gt; tag</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#DONT_UPDATE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Marks a document so that the HTML Update tool will ignore it during processing</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#FILE_EXTENSION#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The filename extension for the file (determined as the rightmost period-delimited portion of the filename, without the period). For example, whether the file is named "test.html" or "test.foo.html", the filename extension is "html".</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#FILENAME#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The file name of the current file</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#GENERATOR#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Generator name used for "Give BBEdit Credit" in New HTML Document function (e.g., "BBEdit 11")</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#GMTIME YYY#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The current GMT time formatted according to the parameters YYY (see "Time Formats" below)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#LANGUAGE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The language specified in the New HTML Document command, in format (space)lang="en"</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#LINK#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The LINK tag as entered using the New HTML Document command</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#LOCALPATH#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The full local path to the current file</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#LOCALTIME YYY#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The current local time formatted according to the parameters YYY (see "Time Formats" below)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#LONGDATE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Long Date format--e.g., Sunday, August 15, 2006</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#MACHINE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The machine name as specified in the Sharing section of the System Preferences.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#META#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Any META tag entered using the New HTML Document command</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#MODIFIEDDATE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Modification date of the current file--e.g., 15-Aug-06</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#MODIFIEDTIME#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Modification time of the current file, in the format specified in the International section of the System Preferences</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#MONTHDAYNUM#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Numeric value of the day of the month</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#MONTHNUM#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Numeric value of the current month</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#PATH#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Path to access your documents from the Web server, as specified in your HTML Web Site preferences</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#PREFIX#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">As #DIRPATH# but does not strip the leading slash of the path</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#REAL_URL#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The real URL for the current document in its current location</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#RELATIVE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The relative path from the current file back up to the Local Server Root (inserts a path of the form</p>
+                        <p class="CellBody">"../../" to tell the browser to "back up" to the site's root directory)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#ROOT#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Path to the Local Site Root, as specified in your HTML Web Site preferences</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#ROOTPATH#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The file's path relative to the Local Server Root specified in the HTML Web Site preferences to the current file</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#SERVER#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">URL of your Web server, as specified in your HTML Web Site preferences.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#SHORTDATE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Short Date. Day, month, year--e.g., 08/15/06</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#SHORTUSERNAME#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Returns the login (short) name instead of the full user name</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#TIME#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Current time, according to your Format settings in the International panel of the System Preferences</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#TITLE#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">Title of the current document as entered using the New HTML Document command</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#USERNAME#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The owner name (for the currently logged in user)</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="CellBody">#YEARNUM#</p>
+                    </td>
+                    <td>
+                        <p class="CellBody">The current year--e.g., 2006</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <h4>Date Formats</h4>
+        <p class="Body">The #DATETIME XXX# and #DATETIME XXX# placeholders allow you to insert the corresponding date and time values with flexible formatting.</p>
+        <p class="Body">In order to use these placeholders, you must substitute XXX with an ICU date/time format string. ICU is the mechanism used by Mac OS X for date formatting. For full details, please refer to the section "Date/Time Format Syntax" in the <a href="http://icu.sourceforge.net/userguide/formatDateTime.html">ICU documentation</a>.</p>
+        <div>
+            <p class="Explain-More">Examples:</p>
+            <p class="Explain-More">#DATETIME EEE, MMM d, yy 'at' h:mm a#</p>
+            <p class="Explain-More">produces:</p>
+            <p class="Explain-More">Tue, Jul 3, 07 at 5:48 PM</p>
+            <p class="Explain-More">&nbsp;</p>
+            <p class="Explain-More">#DATETIME_GMT EEE, MMM d, yy 'at' h:mm a#</p>
+            <p class="Explain-More">produces:</p>
+            <p class="Explain-More">Tue, Jul 3, 07 at 9:49 PM</p>
+            <p class="Explain-More">&nbsp;</p>
+            <p class="Explain-More">#DATETIME EEEE 'at' h 'o''clock' a#</p>
+            <p class="Explain-More">produces:</p>
+            <p class="Explain-More">Tuesday at 5 o'clock PM</p>
+        </div>
+        <div>
+
+            <h3 id="TimeFormats">Time Formats</h3>
+            <p class="Body">The #GMTIME YYY# and #LOCALTIME YYY# placeholders offer you the option to insert the specified time value with flexible formatting.</p>
+            <p class="Body">In order to use these placeholders, you must substitute YYY with a time format using the same expansion options offered by the `strftime' routine (see `man strftime' for further details).</p>
+            <p class="Explain-More">Examples:</p>
+            <p class="Explain-More">#LOCALTIME %r %z on %A#</p>
+            <p class="Explain-More">produces:</p>
+            <p class="Explain-More">06:50:13 PM -0400 on Monday</p>
+            <p class="Explain-More">&nbsp;</p>
+            <p class="Explain-More">#GMTIME %r %z#</p>
+            <p class="Explain-More">produces:</p>
+            <p class="Explain-More">10:50:13 PM +0000</p>
+        </div>
+        <div>
+            <h3>Using the #RELATIVE# Placeholder</h3>
+            <p class="Body">When dealing with large web sites that have multiple content folders, it is often useful to specify relative rather than absolute paths for linking documents. The #RELATIVE# placeholder allows you to easily generate relative references in templates and include files by providing a virtual path that uses the ".." construction to "back up" the hierarchy to the root directory of the site.</p>
+            <p class="Body">To use this placeholder, write your links as if they were all relative to the top of your web site, including #RELATIVE# as the first "directory" in the path. For example, consider that you have the following file structure, where each page includes a file which references the separate GIF image.</p>
+            <p class="Code">My_Web_Site:</p>
+            <p class="Code">Folder1:</p>
+            <p class="Code">File1.html</p>
+            <p class="Code">Folder2:</p>
+            <p class="Code">File2.html</p>
+            <p class="Code">File3.html</p>
+            <p class="Code">Folder3:</p>
+            <p class="Code">Folder4:</p>
+            <p class="Code">Folder5:</p>
+            <p class="Code">File4.html</p>
+            <p class="Code">Graphics:</p>
+            <p class="Code">Buttons:</p>
+            <p class="Code">my_footer_button.gif</p>
+            <p class="Body">If you write a relative link as follows:</p>
+            <div>
+                <p class="Code">&lt;img src="#relative#Graphics/Buttons/my_footer_button.gif" alt=""&gt;</p>
+                <p class="Body">and then run the Update command, the following links will be generated.</p>
+                <p class="Body">In File1.html,</p>
+            </div>
+            <div>
+                <p class="Code">../Graphics/Buttons/my_footer_button.gif</p>
+                <p class="Body">In File2.html,</p>
+            </div>
+            <div>
+                <p class="Code">../Graphics/Buttons/my_footer_button.gif</p>
+                <p class="Body">In File3.html,</p>
+            </div>
+            <div>
+                <p class="Code">../Graphics/Buttons/my_footer_button.gif</p>
+                <p class="Body">In File4.html,</p>
+            </div>
+            <div>
+                <p class="Code">../../../Graphics/Buttons/my_footer_button.gif</p>
+            </div>
+        </div>
+    </div>
+    <div>
+
+        <h2 id="IncludeFiles">Include Files</h2>
+        <p class="Body">An include file, or just an "include," is a special form of placeholder whose substitution happens to be the contents of another file. If you have used C or certain other programming languages, you may already be familiar with the concept. Using includes, you can reuse standard bits of text content or HTML markup in several templates or clippings entries without having to revise all of those individual files whenever you revise the included text.</p>
+        <div>
+            <h3>Include File Locations</h3>
+            <p class="Body">BBEdit looks for include files first in the same directory as the document containing the directive, then in the same directory as the document into which the processed document is being inserted, and finally in the HTML Templates folder specified in your preferences.</p>
+        </div>
+        <div>
+
+            <h3 id="SimpleIncludes">Simple Includes</h3>
+            <p class="Body">A simple include takes the following form:</p>
+            <div>
+                <p class="Code">#bbinclude "filename"</p>
+                <p class="Body">where filename is the full name of the file whose contents you wish to include. When such an include is present in a template or clippings entry, it is replaced with the contents of the specified file when the template is used to build a new document, or when the clippings entry is inserted. (The original template or clippings file is not changed.)</p>
+                <p class="Body">Imagine that you have ten different templates, each of which contains your name, address, phone number, email address, and a copyright statement with the current year in them. Rather than pasting this info into all ten templates, you can create a file named "address.html", put it in your Templates folder, and include this statement:</p>
+            </div>
+            <div>
+                <p class="Code">#bbinclude "address.html"</p>
+                <p class="Body">in each of the templates, at the appropriate point. Later, when the new year arrives, or you move, you only have to update one file, not all ten templates. (You could use the #YEARNUM# placeholder for the year and only need to update the include file when you move!)</p>
+                <p class="Body">Headers and footers are probably the most common uses for include files, but any template or clippings entry may use as many include statements as you wish. Included files themselves may also use #bbinclude directives, up to 16 levels deep.</p>
+            </div>
+        </div>
+        <div>
+
+            <h3 id="PersistentIncludes">Persistent Includes</h3>
+            <p class="Body">Simple includes are appropriate for use situations where you want the inclusion to happen only once. Once the file has been included, however, it cannot be changed in any automated fashion. Since the #bbinclude directive is replaced by the included text, the Update tool cannot tell the included text is any different from any other text.</p>
+            <p class="Body">Includes become even more powerful, however, when you can update existing files to incorporate revised include text at a later date. For example, suppose you generate several dozen HTML documents using a template that uses an #bbinclude directive to insert a standard footer containing your email address. Later, you change your email address. After you change it in the footer document, only new HTML files you create from the template will include your new address. What you would really like to be able to do is update all the files you have already created to include the revised footer.</p>
+            <p class="Body">Since this capability is needed primarily in web site maintenance, BBEdit lets you embed the include directive in an HTML comment. An "end bbinclude" comment is also required. The included text is inserted between the two comment markers, but the comments themselves remain in place. The comments are not shown in the browser. This is known as a persistent include.</p>
+            <p class="Body">A persistent include looks like this:</p>
+            <p class="Code">&lt;!-- #bbinclude "filename" --&gt;</p>
+            <div>
+                <p class="Code">&lt;!-- end bbinclude --&gt;</p>
+                <p class="Body">The first time a persistent include is processed, it is handled much like a simple include. However, since the include directives remain in place, and because they mark the beginning and end of the inserted text, the Update tool can "rip out" the obsolete included text and replace it with the updated file. Using persistent includes and the Update Folder or Update Site commands, you can easily make these sorts of changes to entire sites in moments.</p>
+            </div>
+            <div>
+                <h6 class="Note-Head">IMPORTANT</h6>
+                <p class="Note-Text">Any changes you have made to the included text after its initial inclusion will be discarded when the persistent include is updated, even if you have not changed the include file.</p>
+            </div>
+        </div>
+        <div>
+            <h3>Inline versus Block Includes</h3>
+            <p class="Body">By default, BBEdit places included content in the document as a block, to ensure that it does not occupy the same line as the include directives. However, if you wish to override this behavior and have BBEdit place the included content inline, you may do so by adding the special option #bbincludeoptions#="inline=true" to the include directive.</p>
+            <p class="Code">&lt;!-- #bbinclude "filename" #bbincludeoptions#="inline=true" --&gt;</p>
+            <p class="Code">&lt;!-- end bbinclude --&gt;</p>
+        </div>
+        <div>
+
+            <h3 id="Variables">Include Files with Variables</h3>
+            <p class="Body">Include files can be extended even further through the use of variables, which provide a means of inserting arbitrary text when the included file is processed, so that not all instances of the included file are exactly the same. Variables are essentially placeholders that you make up yourself. Some possible uses are to insert names, taglines, alt strings for images, or file names (for files other than the current document) into documents.</p>
+            <div>
+                <h6 class="Note-Head">Note</h6>
+                <p class="Note-Text">A variable name consists of a string of alphanumeric characters, enclosed in number signs (the `#' character). Spaces are not allowed in variable names, but underscores may be used to represent word breaks.</p>
+                <p class="Body">Variables can be placed anywhere in an include file, just like placeholders. When you include that file in a document, you specify the variable names and values with it. Consider an include file named "footer.html", which contains the following</p>
+                <p class="Code">&lt;HR&gt;</p>
+                <p class="Code">&lt;IMG SRC="#MY_GRAPHIC#" ALT="#MY_ALT_DESC#"&gt;</p>
+                <p class="Code">&lt;H1&gt;#MY_TITLE#&lt;/H1&gt;</p>
+                <div>
+                    <p class="Code">&lt;BIG&gt;This document copyright 1998-2100 by Sid Zookim.&lt;/BIG&gt;</p>
+                    <p class="Body">In your document, the Include reference would look like this:</p>
+                    <p class="Code">...</p>
+                    <p class="Code">&lt;BODY&gt;</p>
+                    <p class="Code">...</p>
+                    <p class="Code">&lt;!-- #bbinclude "footer.html"</p>
+                    <p class="Code">#MY_GRAPHIC#="test1.gif"</p>
+                    <p class="Code">#MY_ALT_DESC#="a test image"</p>
+                    <p class="Code">#MY_TITLE#="A Test Title"</p>
+                    <p class="Code">--&gt;</p>
+                    <p class="Code">&lt;!-- end bbinclude --&gt;</p>
+                    <p class="Code">...</p>
+                    <p class="Code">&lt;/BODY&gt;</p>
+                </div>
+                <div>
+                    <p class="Code">...</p>
+                    <p class="Body">Note that the values of placeholders are specified inside the HTML comment of a persistent include, using a #PLACEHOLDER#="Value" syntax. The quote marks around the value are mandatory; if you need to include a quote mark in the actual value, escape it with a backslash.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+
+            <h3 id="AppleScripts">Including AppleScripts</h3>
+            <p class="Body">BBEdit allows included files to be compiled AppleScript scripts. The script should contain an "on include" handler which is passed two parameters: a reference to the file from which the script is being called, and a record containing one field for each variable passed in the #bbinclude directive. Scripts can of course also retrieve information from BBEdit, other scriptable applications, or the system. The handler's return value is inserted into the file that included it.</p>
+            <p class="Body">Given the HTML document below:</p>
+            <p class="Code">&lt;html&gt;</p>
+            <p class="Code">&lt;head&gt;</p>
+            <p class="Code">&lt;title&gt;Include Test&lt;/title&gt;</p>
+            <p class="Code">&lt;meta name="generator" content="BBEdit 11"&gt;</p>
+            <p class="Code">&lt;/head&gt;</p>
+            <p class="Code">&lt;body&gt;</p>
+            <p class="Code">&nbsp;</p>
+            <p class="Code">&lt;!-- #bbinclude "foo.script" #x#="3" #author#="JEK"--&gt;</p>
+            <p class="Code">&nbsp;</p>
+            <p class="Code">&lt;!-- end bbinclude --&gt;</p>
+            <p class="Code">&nbsp;</p>
+            <p class="Code">&lt;/body&gt;</p>
+            <div>
+                <p class="Code">&lt;/html&gt;</p>
+                <p class="Body">The following script inserts three lines: the first containing the file's path, the second containing the parameter "x" passed to it in the #bbinclude directive, and the third containing the parameter "author."</p>
+                <p class="Code">on include(f, vars)</p>
+                <p class="Code">set s to f as text</p>
+                <p class="Code">set s to "File Path: " &amp; s &amp; return &amp; return as text</p>
+                <p class="Code">set s to s &amp; "x: " &amp; x of vars &amp; return &amp; return as text</p>
+                <p class="Code">set s to s &amp; "Name: " &amp; author of vars &amp; return as text</p>
+                <p class="Code">return s</p>
+            </div>
+            <div>
+                <p class="Code">end include</p>
+                <p class="Body">The resulting document might look like this:</p>
+                <p class="Code">&lt;html&gt;</p>
+                <p class="Code">&lt;head&gt;</p>
+                <p class="Code">&lt;title&gt;Include Test&lt;/title&gt;</p>
+                <p class="Code">&lt;meta name="generator" content="BBEdit 11"&gt;</p>
+                <p class="Code">&lt;/head&gt;</p>
+                <p class="Code">&lt;body&gt;</p>
+                <p class="Code">&nbsp;</p>
+                <p class="Code">&lt;!-- #bbinclude "foo.script" #x#="3" #author#="JEK"--&gt;</p>
+                <p class="Code">File Path: Boot:Desktop Folder:incl_test.html</p>
+                <p class="Code">&nbsp;</p>
+                <p class="Code">x: 3</p>
+                <p class="Code">&nbsp;</p>
+                <p class="Code">Name: JEK</p>
+                <p class="Code">&lt;!-- end bbinclude --&gt;</p>
+                <p class="Code">&nbsp;</p>
+                <p class="Code">&lt;/body&gt;</p>
+            </div>
+            <div>
+                <p class="Code">&lt;/html&gt;</p>
+            </div>
+        </div>
+        <div>
+
+            <h3 id="UnixScripts">Including Unix Scripts</h3>
+            <p class="Body">BBEdit lets you include scripts written in Perl, Python, Ruby, or any other Unix scripting language. The complete path name of the file being processed is passed to the script as its first argument, and any variables in the include statement are passed as additional arguments. (For Perl, all these can be retrieved by your script via @ARGV.)</p>
+            <p class="Body">Any text sent to STDOUT by the script will be taken as the value of the #bbinclude operation and inserted into the HTML file. If an error occurs while running the script, the STDERR output, if any, will be inserted into the file along with the STDOUT, and a single line indicating the error will be added to the error browser.</p>
+            <p class="Body">For example, enter this directive in your HTML file:</p>
+            <p class="Code">&lt;!-- #bbinclude "foo.pl" #length#="2" #width#="3" --&gt;</p>
+            <div>
+                <p class="Code">&lt;!-- end bbinclude --&gt;</p>
+                <p class="Body">Then use this source code for "foo.pl", and save it in the same folder as the HTML file, or in the "Templates and Includes" folder specified in the HTML Web Sites panel of your BBEdit preferences:</p>
+                <p class="Code">#!/usr/bin/perl -w</p>
+                <p class="Code">my $file = shift @ARGV;</p>
+                <p class="Code">my %args = @ARGV;</p>
+                <p class="Code">my $area = $args{"length"} * $args{"width"};</p>
+                <p class="Code">print "Filename: $file\n";</p>
+            </div>
+            <div>
+                <p class="Code">print "Area: $area\n";</p>
+                <p class="Body">When you run the Update command, BBEdit will place the file name in the script's variable $file and the "length" and "width" variables in the associative array (hash) %args.</p>
+                <p class="Body">After the update, the BBEdit file will look like this:</p>
+                <p class="Code">&lt;!-- #bbinclude "foo.pl" #length#="2" #width#="3" --&gt;</p>
+                <p class="Code">Filename: Mac HD:Desktop Folder:sample.html</p>
+                <p class="Code">Area: 6</p>
+            </div>
+            <div>
+                <p class="Code">&lt;!-- end bbinclude --&gt;</p>
+                <p class="Body">In addition, BBEdit will pass information about the current HTML Tools settings to the script in the following environment variables:</p>
+                <p class="Code">BBEditServerURL</p>
+                <p class="Code">BBEditServerPath</p>
+                <p class="Code">BBEditDefaultFileName</p>
+                <p class="Code">BBEditTemplateDirectory</p>
+                <p class="Code">BBEditRootDirectory</p>
+                <p class="Code">BBEditLowercaseTags</p>
+                <p class="Code">BBEditLowercaseAttributes</p>
+            </div>
+            <div>
+                <p class="Code">BBEditAlwaysQuoteAttributes</p>
+                <p class="Body">To access these in your Perl code, use the %ENV environment variable hash. For example, this line of Perl will print the Web server name specified in your BBEdit HTML Web Site preferences:</p>
+            </div>
+            <div>
+                <p class="Code">print $ENV{BBEditServerURL};</p>
+                <p class="Body">Here's an example Python include script.</p>
+                <p class="Code-Indented-No-Space">#!/usr/local/bin/python</p>
+                <p class="Code-Indented-No-Space">import os</p>
+                <p class="Code-Indented-No-Space">import string</p>
+                <p class="Code-Indented-No-Space">import sys</p>
+                <p class="Code-Indented-No-Space">&nbsp;</p>
+                <p class="Code-Indented-No-Space">print "Hello Python World!"</p>
+                <p class="Code-Indented-No-Space">print "==================="</p>
+                <p class="Code-Indented-No-Space">print "File being updated: ", sys.argv[1]</p>
+                <p class="Code-Indented-No-Space">print</p>
+                <p class="Code-Indented-No-Space">&nbsp;</p>
+                <p class="Code-Indented-No-Space">userVariables = {}</p>
+                <p class="Code-Indented-No-Space">for i in range(2, len(sys.argv), 2):</p>
+                <p class="Code-Indented-No-Space">userVariables[sys.argv[i]] = sys.argv[i+1];</p>
+                <p class="Code-Indented-No-Space"></p>
+                <p class="Code-Indented-No-Space">print</p>
+                <p class="Code-Indented-No-Space">print "Dumping the user variables passed to the script"</p>
+                <p class="Code-Indented-No-Space">print "==============================================="</p>
+                <p class="Code-Indented-No-Space">print</p>
+                <p class="Code-Indented-No-Space">keys = userVariables.keys();</p>
+                <p class="Code-Indented-No-Space">keys.sort()</p>
+                <p class="Code-Indented-No-Space">for k in keys:</p>
+                <p class="Code-Indented-No-Space">print "%-30s %s" % (k, userVariables[k])</p>
+                <p class="Code-Indented-No-Space">&nbsp;</p>
+                <p class="Code-Indented-No-Space">print</p>
+                <p class="Code-Indented-No-Space">print "Dumping the environment variables set by BBEdit"</p>
+                <p class="Code-Indented-No-Space">print "==============================================="</p>
+                <p class="Code-Indented-No-Space">print</p>
+                <p class="Code-Indented-No-Space">for k, v in os.environ.items():</p>
+                <p class="Code-Indented-No-Space">if (string.find(k, 'BBEdit') == 0):</p>
+                <p class="Code-Indented-No-Space">print "%-30s %s" % (k, os.environ[k])</p>
+                <p class="Code-Indented-No-Space">&nbsp;</p>
+            </div>
+        </div>
+        <div>
+
+            <h3 id="OtherNotes">Other Include Notes</h3>
+            <div>
+                <h6 class="Note-Head">IMPORTANT</h6>
+                <p class="Body">Some old versions of BBEdit supported the use of "#include" as an alternative to "#bbinclude". However, this syntax made it difficult to mix BBEdit includes and Microsoft Active Server Page (ASP) directives, so it is no longer supported. If you have existing documents which use this syntax, simply change "#include" and "end include" to "#bbinclude" and "end bbinclude" to continue using them.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

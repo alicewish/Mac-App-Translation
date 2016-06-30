@@ -1,0 +1,4 @@
+{
+	"MultiDocumentWindows:SurfNextPreviousInDrawerOrder" = SurfNextPreviousInDisplayOrder;
+	"Color:ColorAttributesSeparately" = UseDistinctColorsForHTMLAttributesAndValues;
+}

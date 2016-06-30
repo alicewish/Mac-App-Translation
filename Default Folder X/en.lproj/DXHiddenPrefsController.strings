@@ -1,0 +1,90 @@
+/* Class = "NSButtonCell"; title = "Remember file dialog positions"; ObjectID = "2CL-m0-FGz"; */
+"2CL-m0-FGz.title" = "Remember file dialog positions";
+
+/* Class = "NSTextFieldCell"; title = "0.5"; ObjectID = "9KA-cc-tge"; */
+"9KA-cc-tge.title" = "0.5";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Add recent items to the Recent Files and Recent Folders menus even if they're inside a package."; ObjectID = "9u3-4b-Xbv"; */
+"9u3-4b-Xbv.ibShadowedToolTip" = "Add recent items to the Recent Files and Recent Folders menus even if they're inside a package.";
+
+/* Class = "NSButtonCell"; title = "Show unmounted folders in menus"; ObjectID = "75J-lU-n7H"; */
+"75J-lU-n7H.title" = "Show unmounted folders in menus";
+
+/* Class = "NSButtonCell"; title = "Version 4 preferences have been imported"; ObjectID = "AzQ-zw-TQU"; */
+"AzQ-zw-TQU.title" = "Version 4 preferences have been imported";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Make Default Folder X's toolbar fade in when it appears. This looks nicer, but is slightly slower."; ObjectID = "CJK-xk-6qg"; */
+"CJK-xk-6qg.ibShadowedToolTip" = "Make Default Folder X's toolbar fade in when it appears. This looks nicer, but is slightly slower.";
+
+/* Class = "NSWindow"; title = "More Preferences"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "More Preferences";
+
+/* Class = "NSButtonCell"; title = "Re-select the last selected file in column view"; ObjectID = "Fgl-AH-x0p"; */
+"Fgl-AH-x0p.title" = "Re-select the last selected file in column view";
+
+/* Class = "NSButtonCell"; title = "Recent items can be in packages"; ObjectID = "HSy-ft-N7m"; */
+"HSy-ft-N7m.title" = "Recent items can be in packages";
+
+/* Class = "NSTextFieldCell"; title = "Additional settings. Mouse over a checkbox for help."; ObjectID = "JRA-VW-IpW"; */
+"JRA-VW-IpW.title" = "Additional settings. Mouse over a checkbox for help.";
+
+/* Class = "NSTextFieldCell"; title = "0.5"; ObjectID = "Mrl-zz-iQl"; */
+"Mrl-zz-iQl.title" = "0.5";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Turn on this setting to restore the sizes of file dialogs after they appear."; ObjectID = "OMx-4E-oAE"; */
+"OMx-4E-oAE.ibShadowedToolTip" = "Turn on this setting to restore the sizes of file dialogs after they appear.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "To avoid graphical flickering, Default Folder X uses a slower method of switching between folders in 32-bit Carbon applications. Turning on this checkbox makes folder switching faster, but file dialogs will flicker."; ObjectID = "RTV-dG-UOZ"; */
+"RTV-dG-UOZ.ibShadowedToolTip" = "To avoid graphical flickering, Default Folder X uses a slower method of switching between folders in 32-bit Carbon applications. Turning on this checkbox makes folder switching faster, but file dialogs will flicker.";
+
+/* Class = "NSButtonCell"; title = "Remember file dialog sizes"; ObjectID = "SZ4-wb-NIr"; */
+"SZ4-wb-NIr.title" = "Remember file dialog sizes";
+
+/* Class = "NSButtonCell"; title = "Use faster but uglier folder switching"; ObjectID = "TQ0-YD-C6a"; */
+"TQ0-YD-C6a.title" = "Use faster but uglier folder switching";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Items usually aren't added to the Recent Files and Recent Folder menus if they're in an invisible folder. Turning this option on will make Default Folder X add them to the menus."; ObjectID = "b9z-fL-46i"; */
+"b9z-fL-46i.ibShadowedToolTip" = "Items usually aren't added to the Recent Files and Recent Folder menus if they're in an invisible folder. Turning this option on will make Default Folder X add them to the menus.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "bao-ab-3o5"; */
+"bao-ab-3o5.title" = "Box";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "goy-Q1-VEK"; */
+"goy-Q1-VEK.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Delay before menu previews are shown:"; ObjectID = "gw6-Fa-Nki"; */
+"gw6-Fa-Nki.title" = "Delay before menu previews are shown:";
+
+/* Class = "NSTextFieldCell"; title = "Delay before menu previews get larger:"; ObjectID = "h5W-ag-bYr"; */
+"h5W-ag-bYr.title" = "Delay before menu previews get larger:";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Turn on this setting to restore the sizes and positions of file dialogs after they appear."; ObjectID = "hnd-ym-hJe"; */
+"hnd-ym-hJe.ibShadowedToolTip" = "Turn on this setting to restore the sizes and positions of file dialogs after they appear.";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Fade the window highlight in when you move the mouse over a Finder window. This looks nicer, but is slightly slower."; ObjectID = "hzB-kE-PDa"; */
+"hzB-kE-PDa.ibShadowedToolTip" = "Fade the window highlight in when you move the mouse over a Finder window. This looks nicer, but is slightly slower.";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "i9p-5H-gFR"; */
+"i9p-5H-gFR.title" = "Box";
+
+/* Class = "NSButtonCell"; title = "Make Finder-click windows fade in"; ObjectID = "iaT-zj-PLE"; */
+"iaT-zj-PLE.title" = "Make Finder-click windows fade in";
+
+/* Class = "NSButtonCell"; title = "Recent items can be in hidden folders"; ObjectID = "leF-ku-PcX"; */
+"leF-ku-PcX.title" = "Recent items can be in hidden folders";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Show folders in the menus even if they're on a disk that isn't currently available. If you select one from the menu, Default Folder X will attempt to mount the disk containing it."; ObjectID = "ry9-lg-2oA"; */
+"ry9-lg-2oA.ibShadowedToolTip" = "Show folders in the menus even if they're on a disk that isn't currently available. If you select one from the menu, Default Folder X will attempt to mount the disk containing it.";
+
+/* Class = "NSButtonCell"; title = "Make the toolbar window fade in"; ObjectID = "rzn-Ts-pOT"; */
+"rzn-Ts-pOT.title" = "Make the toolbar window fade in";
+
+/* Class = "NSButton"; ibShadowedToolTip = "If you want to re-import your preferences from an older version of Default Folder X, turn this off and then quit Default Folder X and relaunch it."; ObjectID = "toy-Ts-G4y"; */
+"toy-Ts-G4y.ibShadowedToolTip" = "If you want to re-import your preferences from an older version of Default Folder X, turn this off and then quit Default Folder X and relaunch it.";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "xwA-qs-rdi"; */
+"xwA-qs-rdi.title" = "OK";
+
+/* Class = "NSButton"; ibShadowedToolTip = "The last selected file isn't usually re-selected if you're using column view (it can mess up navigating with the arrow keys). Turn on this setting to do it anyway."; ObjectID = "zem-hY-9x2"; */
+"zem-hY-9x2.ibShadowedToolTip" = "The last selected file isn't usually re-selected if you're using column view (it can mess up navigating with the arrow keys). Turn on this setting to do it anyway.";
+

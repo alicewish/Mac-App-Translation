@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<!-- 
+	DO NOT leave empty strings as the default, because that makes it impossible
+	to tell if there is a preference override to nothing, or just nothing
+
+	<key>CommentPrefix</key>
+	<string></string>
+	<key>CommentSuffix</key>
+	<string></string>
+ -->
+	<key>CommentLine</key>
+	<string># </string>
+	<key>ReferenceSearchURLTemplate</key>
+	<string>http://www.google.com/search?&amp;q=__LANGUAGENAME__%20__SYMBOLNAME__</string>
+</dict>
+</plist>

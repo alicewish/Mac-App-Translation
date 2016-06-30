@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonRootControl" id="233">
+      <string name="viewFrame">0 0 252 210 </string>
+      <array count="7" name="subviews">
+        <object class="IBCarbonButton" id="235">
+          <ostype name="controlSignature">H2Tx</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <int name="buttonType">1</int>
+          <string name="title">Translate</string>
+          <string name="viewFrame">147 170 85 20 </string>
+          <string name="bounds">170 147 190 232 </string>
+        </object>
+        <object class="IBCarbonButton" id="234">
+          <ostype name="controlSignature">H2Tx</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="viewFrame">50 170 85 20 </string>
+          <string name="bounds">170 50 190 135 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="237">
+          <ostype name="controlSignature">H2Tx</ostype>
+          <int name="controlID">3</int>
+          <string name="title">Remove tags  ⌘R</string>
+          <string name="viewFrame">18 20 130 18 </string>
+          <string name="bounds">20 18 38 148 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="236">
+          <ostype name="controlSignature">H2Tx</ostype>
+          <int name="controlID">4</int>
+          <string name="title">Convert paragraphs  ⌘P</string>
+          <string name="viewFrame">18 44 174 18 </string>
+          <string name="bounds">44 18 62 192 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="238">
+          <ostype name="controlSignature">H2Tx</ostype>
+          <int name="controlID">5</int>
+          <string name="title">Convert HTML entities  ⌘E</string>
+          <string name="viewFrame">18 68 189 18 </string>
+          <string name="bounds">68 18 86 207 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="239">
+          <ostype name="controlSignature">H2Tx</ostype>
+          <int name="controlID">6</int>
+          <string name="title">Selection only  ⌘S</string>
+          <string name="viewFrame">18 108 189 18 </string>
+          <string name="bounds">108 18 126 207 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="240">
+          <ostype name="controlSignature">H2Tx</ostype>
+          <int name="controlID">7</int>
+          <string name="title">Create new document  ⌘N</string>
+          <string name="viewFrame">18 132 189 18 </string>
+          <string name="bounds">132 18 150 207 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 210 252 </string>
+    </object>
+    <reference idRef="240"/>
+    <reference idRef="235"/>
+    <reference idRef="237"/>
+    <reference idRef="238"/>
+    <reference idRef="239"/>
+    <reference idRef="234"/>
+    <object class="IBCarbonWindow" id="232">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Translate: HTML to Text</string>
+      <reference name="rootControl" idRef="233"/>
+      <string name="windowRect">100 100 310 352 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="236"/>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="232"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="233"/>
+    <reference idRef="1"/>
+    <reference idRef="233"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>InteractiveHTMLToText</string>
+    <reference idRef="232"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">269</unsigned_int>
+</object>

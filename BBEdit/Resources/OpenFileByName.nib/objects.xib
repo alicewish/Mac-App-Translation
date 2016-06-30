@@ -1,0 +1,111 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonHIView" id="199">
+      <ostype name="controlSignature">OFBW</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">ok  </ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="classID">com.barebones.CBigListHIView</string>
+      <string name="viewFrame">-1 34 513 254 </string>
+      <string name="bounds">34 -1 288 512 </string>
+    </object>
+    <object class="IBCarbonSearchField" id="194">
+      <ostype name="controlSignature">OFBW</ostype>
+      <int name="controlID">2</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="descriptiveText"></string>
+      <int name="hasCancelIcon">1</int>
+      <string name="viewFrame">5 7 500 30 </string>
+      <string name="bounds">7 5 37 505 </string>
+    </object>
+    <object class="IBCarbonButton" id="198">
+      <ostype name="controlSignature">OFBW</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">not!</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">2</int>
+        <int name="bindingLeftKind">2</int>
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <int name="buttonType">2</int>
+      <int name="iconPosition">0</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">319 308 80 20 </string>
+      <string name="bounds">308 319 328 399 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="193">
+      <string name="viewFrame">0 0 511 348 </string>
+      <array count="4" name="subviews">
+        <reference idRef="194"/>
+        <reference idRef="199"/>
+        <object class="IBCarbonButton" id="197">
+          <ostype name="controlSignature">OFBW</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">ok  </ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">2</int>
+            <int name="bindingLeftKind">2</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">1</int>
+          <int name="iconPosition">0</int>
+          <string name="title">Open</string>
+          <string name="viewFrame">411 308 80 20 </string>
+          <string name="bounds">308 411 328 491 </string>
+        </object>
+        <reference idRef="198"/>
+      </array>
+      <string name="bounds">0 0 348 511 </string>
+    </object>
+    <object class="IBCarbonWindow" id="192">
+      <boolean name="autoDragTracking">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="inWindowMenu">FALSE</boolean>
+      <int name="themeBrush">7</int>
+      <int name="windowPosition">1</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Open File by Name</string>
+      <reference name="rootControl" idRef="193"/>
+      <string name="windowRect">47 15 395 526 </string>
+      <string name="ScreenRectAtEncodeTime">99 0 1578 2560 </string>
+      <int name="WindowMinWidth">511</int>
+      <int name="WindowMinHeight">348</int>
+    </object>
+    <reference idRef="197"/>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="193"/>
+    <reference idRef="192"/>
+    <reference idRef="1"/>
+    <reference idRef="193"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>OpenFileByNameWindow</string>
+    <reference idRef="192"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">202</unsigned_int>
+</object>

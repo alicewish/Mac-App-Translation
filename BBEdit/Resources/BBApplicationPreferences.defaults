@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>WatchDocumentsOnDisk</key>
+	<true/>
+	<key>AlwaysShowFullPathInOpenRecentMenu</key>
+	<true/>
+	<key>StartupAndResumeAction</key>
+	<integer>2</integer>
+	<key>NSRecentDocumentsLimit</key>
+	<integer>10</integer>
+	<key>RestoreApplicationStateAtStartup</key>
+	<true/>
+	<key>ReopenDocumentsOnRemoteVolumes</key>
+	<true/>
+	<key>RestoreUnsavedDocumentsAtStartup</key>
+	<true/>
+</dict>
+</plist>

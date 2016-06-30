@@ -1,0 +1,51 @@
+/* Class = "NSTextFieldCell"; title = "Group:"; ObjectID = "2MY-qe-Pei"; */
+"2MY-qe-Pei.title" = "Group:";
+
+/* Class = "NSTextFieldCell"; title = "Owner:"; ObjectID = "4v7-Rx-9oz"; */
+"4v7-Rx-9oz.title" = "Owner:";
+
+/* Class = "NSMenuItem"; title = "Read Only"; ObjectID = "CbI-nS-zKG"; */
+"CbI-nS-zKG.title" = "Read Only";
+
+/* Class = "NSMenuItem"; title = "No Access"; ObjectID = "IUr-Lf-bHx"; */
+"IUr-Lf-bHx.title" = "No Access";
+
+/* Class = "NSPopUpButton"; ibExternalAccessibilityDescription = "Permissions Panel"; ObjectID = "LEd-8o-k9U"; */
+"LEd-8o-k9U.ibExternalAccessibilityDescription" = "Permissions Panel";
+
+/* Class = "NSMenuItem"; title = "Read Only"; ObjectID = "Sjv-B4-2gK"; */
+"Sjv-B4-2gK.title" = "Read Only";
+
+/* Class = "NSMenuItem"; title = "Read & Write"; ObjectID = "VVo-O0-1t5"; */
+"VVo-O0-1t5.title" = "Read & Write";
+
+/* Class = "NSTextFieldCell"; title = "Group:"; ObjectID = "asa-2u-SjG"; */
+"asa-2u-SjG.title" = "Group:";
+
+/* Class = "NSMenuItem"; title = "Read & Write"; ObjectID = "bwe-5N-C8U"; */
+"bwe-5N-C8U.title" = "Read & Write";
+
+/* Class = "NSMenuItem"; title = "No Access"; ObjectID = "cIb-X5-Sw1"; */
+"cIb-X5-Sw1.title" = "No Access";
+
+/* Class = "NSTextFieldCell"; title = "administrator"; ObjectID = "cc5-1E-pMz"; */
+"cc5-1E-pMz.title" = "administrator";
+
+/* Class = "NSTextFieldCell"; title = "Everyone:"; ObjectID = "gWb-6u-jqT"; */
+"gWb-6u-jqT.title" = "Everyone:";
+
+/* Class = "NSTextFieldCell"; title = "Filename"; ObjectID = "mcN-nR-kyd"; */
+"mcN-nR-kyd.title" = "Filename";
+
+/* Class = "NSTextFieldCell"; title = "Jon Gotow"; ObjectID = "utf-2A-uZd"; */
+"utf-2A-uZd.title" = "Jon Gotow";
+
+/* Class = "NSMenuItem"; title = "Read & Write"; ObjectID = "voH-ai-ReU"; */
+"voH-ai-ReU.title" = "Read & Write";
+
+/* Class = "NSMenuItem"; title = "Read Only"; ObjectID = "zYj-JO-vF7"; */
+"zYj-JO-vF7.title" = "Read Only";
+
+/* Class = "NSTextFieldCell"; title = "Owner:"; ObjectID = "ziv-w0-FQt"; */
+"ziv-w0-FQt.title" = "Owner:";
+

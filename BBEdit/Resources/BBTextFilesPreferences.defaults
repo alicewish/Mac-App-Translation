@@ -1,0 +1,7 @@
+EnsureTrailingLineBreak = 0;
+KeepHistoricalBackups = 0;
+DefaultLineBreakCharacter = 1;
+MakeBackup = 0;
+PreserveFileNameExtension = 1;
+StripTrailingWhitespace = 0;
+AllowVersionedSaves = 1;

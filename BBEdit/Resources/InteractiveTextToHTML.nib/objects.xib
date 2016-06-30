@@ -1,0 +1,136 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonCheckBox" id="224">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">EntT</ostype>
+      <string name="title">Generate HTML entities:  ⌘E</string>
+      <string name="viewFrame">20 44 200 18 </string>
+      <string name="bounds">44 20 62 220 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="230">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">9</int>
+      <string name="title">Create new document  ⌘N</string>
+      <string name="viewFrame">18 172 200 18 </string>
+      <string name="bounds">172 18 190 218 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="231">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">8</int>
+      <ostype name="command">EntT</ostype>
+      <string name="title">Selection only  ⌘S</string>
+      <string name="viewFrame">18 148 200 18 </string>
+      <string name="bounds">148 18 166 218 </string>
+    </object>
+    <object class="IBCarbonButton" id="223">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">100 210 85 20 </string>
+      <string name="bounds">210 100 230 185 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="225">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">6</int>
+      <string name="title">Don’t encode “&lt;” and “&gt;” ⌘B</string>
+      <string name="viewFrame">40 98 242 18 </string>
+      <string name="bounds">98 40 116 282 </string>
+    </object>
+    <object class="IBCarbonButton" id="226">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Translate</string>
+      <string name="viewFrame">197 210 85 20 </string>
+      <string name="bounds">210 197 230 282 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="229">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">7</int>
+      <string name="title">Encode all Unicode characters ⌘U</string>
+      <string name="viewFrame">40 122 242 18 </string>
+      <string name="bounds">122 40 140 282 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="227">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">EntC</ostype>
+      <int name="numRows">1</int>
+      <int name="numCols">3</int>
+      <array count="1" name="radioTitles">
+        <array count="3">
+          <string>Named</string>
+          <string>Decimal</string>
+          <string>Hex</string>
+        </array>
+      </array>
+      <string name="viewFrame">40 70 242 20 </string>
+      <string name="bounds">70 40 90 282 </string>
+    </object>
+    <object class="IBCarbonWindow" id="221">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Translate: Text To HTML</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="222">
+        <string name="viewFrame">0 0 302 250 </string>
+        <array count="9" name="subviews">
+          <reference idRef="226"/>
+          <reference idRef="223"/>
+          <object class="IBCarbonCheckBox" id="228">
+            <ostype name="controlSignature">Tx2H</ostype>
+            <int name="controlID">3</int>
+            <string name="title">Convert paragraphs  ⌘P</string>
+            <string name="viewFrame">20 20 180 18 </string>
+            <string name="bounds">20 20 38 200 </string>
+          </object>
+          <reference idRef="224"/>
+          <reference idRef="230"/>
+          <reference idRef="231"/>
+          <reference idRef="227"/>
+          <reference idRef="225"/>
+          <reference idRef="229"/>
+        </array>
+        <string name="bounds">0 0 250 302 </string>
+      </object>
+      <string name="windowRect">100 100 350 402 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="228"/>
+    <reference idRef="222"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="222"/>
+    <reference idRef="222"/>
+    <reference idRef="222"/>
+    <reference idRef="222"/>
+    <reference idRef="222"/>
+    <reference idRef="222"/>
+    <reference idRef="222"/>
+    <reference idRef="222"/>
+    <reference idRef="1"/>
+    <reference idRef="222"/>
+    <reference idRef="221"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>InteractiveTextToHTML</string>
+    <reference idRef="221"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">269</unsigned_int>
+</object>

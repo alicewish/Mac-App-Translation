@@ -1,0 +1,24 @@
+/* Class = "NSButtonCell"; title = "Buy"; ObjectID = "4"; */
+"4.title" = "Buy";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "6"; */
+"6.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "Name:"; ObjectID = "10"; */
+"10.title" = "Name:";
+
+/* Class = "NSTextFieldCell"; title = "This copy of Default Folder X is unlicensed."; ObjectID = "14"; */
+"14.title" = "This copy of Default Folder X is unlicensed.";
+
+/* Class = "NSTextFieldCell"; title = "Serial Number:"; ObjectID = "23"; */
+"23.title" = "Serial Number:";
+
+/* Class = "NSTextFieldCell"; title = "Contacting St. Clair Software to verify your Default Folder X license."; ObjectID = "Qad-1T-uI9"; */
+"Qad-1T-uI9.title" = "Contacting St. Clair Software to verify your Default Folder X license.";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "R5e-cX-4Qu"; */
+"R5e-cX-4Qu.title" = "Cancel";
+
+/* Class = "NSWindow"; title = "Default Folder X License Information"; ObjectID = "duC-tq-2l3"; */
+"duC-tq-2l3.title" = "Default Folder X License Information";
+

@@ -1,0 +1,168 @@
+/* Class = "NSMenuItem"; title = "Move to Trash"; ObjectID = "1st-6E-T3O"; */
+"1st-6E-T3O.title" = "Move to Trash";
+
+/* Class = "NSButtonCell"; title = "Utility"; ObjectID = "2ON-A3-ar5"; */
+"2ON-A3-ar5.title" = "Utility";
+
+/* Class = "NSMenuItem"; title = "Compress"; ObjectID = "3gO-xM-z2v"; */
+"3gO-xM-z2v.title" = "Compress";
+
+/* Class = "NSMenuItem"; title = "Desktop"; ObjectID = "4qj-5a-FaU"; */
+"4qj-5a-FaU.title" = "Desktop";
+
+/* Class = "NSMenuItem"; title = "Recent File 1"; ObjectID = "5GS-Dl-SyG"; */
+"5GS-Dl-SyG.title" = "Recent File 1";
+
+/* Class = "NSMenuItem"; title = "Remove from Favorites…"; ObjectID = "5PS-Wd-6Cb"; */
+"5PS-Wd-6Cb.title" = "Remove from Favorites…";
+
+/* Class = "NSButtonCell"; title = "Computer"; ObjectID = "05U-K2-FgH"; */
+"05U-K2-FgH.title" = "Computer";
+
+/* Class = "NSMenuItem"; title = "Disk 1"; ObjectID = "9An-cF-5ef"; */
+"9An-cF-5ef.title" = "Disk 1";
+
+/* Class = "NSMenuItem"; title = "<Application> Default Folder"; ObjectID = "97g-Gu-ITS"; */
+"97g-Gu-ITS.title" = "<Application> Default Folder";
+
+/* Class = "NSMenuItem"; title = "Copy Name to Clipboard"; ObjectID = "BhK-LU-mmP"; */
+"BhK-LU-mmP.title" = "Copy Name to Clipboard";
+
+/* Class = "NSMenuItem"; title = "Rename"; ObjectID = "Bic-f1-Szh"; */
+"Bic-f1-Szh.title" = "Rename";
+
+/* Class = "NSMenuItem"; title = "Home"; ObjectID = "BqD-I0-MIh"; */
+"BqD-I0-MIh.title" = "Home";
+
+/* Class = "NSMenuItem"; title = "Get Info"; ObjectID = "CUw-tu-arm"; */
+"CUw-tu-arm.title" = "Get Info";
+
+/* Class = "NSMenuItem"; title = "Selection Name"; ObjectID = "GBD-Pj-yVU"; */
+"GBD-Pj-yVU.title" = "Selection Name";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Recent File"; ObjectID = "Htl-1Y-aZ9"; */
+"Htl-1Y-aZ9.ibExternalAccessibilityDescription" = "Recent File";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Recent Files"; ObjectID = "Htl-1Y-aZ9"; */
+"Htl-1Y-aZ9.ibShadowedToolTip" = "Recent Files";
+
+/* Class = "NSMenuItem"; title = "Copy Name to Clipboard"; ObjectID = "LNL-pQ-nW1"; */
+"LNL-pQ-nW1.title" = "Copy Name to Clipboard";
+
+/* Class = "NSMenuItem"; title = "Finder Window 2"; ObjectID = "McY-yT-Kgm"; */
+"McY-yT-Kgm.title" = "Finder Window 2";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Computer"; ObjectID = "O5s-ie-P3S"; */
+"O5s-ie-P3S.ibExternalAccessibilityDescription" = "Computer";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Computer"; ObjectID = "O5s-ie-P3S"; */
+"O5s-ie-P3S.ibShadowedToolTip" = "Computer";
+
+/* Class = "NSMenuItem"; title = "Folder Set 1"; ObjectID = "SAQ-cH-KaW"; */
+"SAQ-cH-KaW.title" = "Folder Set 1";
+
+/* Class = "NSMenuItem"; title = "Favorites"; ObjectID = "WWo-rh-X8Q"; */
+"WWo-rh-X8Q.title" = "Favorites";
+
+/* Class = "NSButtonCell"; title = "Computer"; ObjectID = "X0d-h0-caR"; */
+"X0d-h0-caR.title" = "Computer";
+
+/* Class = "NSMenuItem"; title = "Folder Name"; ObjectID = "XNe-O3-D1Z"; */
+"XNe-O3-D1Z.title" = "Folder Name";
+
+/* Class = "NSMenuItem"; title = "iCloud"; ObjectID = "Xso-1h-yHt"; */
+"Xso-1h-yHt.title" = "iCloud";
+
+/* Class = "NSMenuItem"; title = "New Folder"; ObjectID = "ZXG-aR-UJu"; */
+"ZXG-aR-UJu.title" = "New Folder";
+
+/* Class = "NSMenuItem"; title = "Uncompress"; ObjectID = "ZoI-Ac-r6S"; */
+"ZoI-Ac-r6S.title" = "Uncompress";
+
+/* Class = "NSMenuItem"; title = "Copy Path to Clipboard"; ObjectID = "ZsW-wy-Oei"; */
+"ZsW-wy-Oei.title" = "Copy Path to Clipboard";
+
+/* Class = "NSButtonCell"; title = "Computer"; ObjectID = "amf-qD-qtc"; */
+"amf-qD-qtc.title" = "Computer";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Recent Folder"; ObjectID = "cGy-9f-xHy"; */
+"cGy-9f-xHy.ibExternalAccessibilityDescription" = "Recent Folder";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Recent Folders"; ObjectID = "cGy-9f-xHy"; */
+"cGy-9f-xHy.ibShadowedToolTip" = "Recent Folders";
+
+/* Class = "NSMenuItem"; title = "Recent Folder 2"; ObjectID = "cWD-cs-a7O"; */
+"cWD-cs-a7O.title" = "Recent Folder 2";
+
+/* Class = "NSMenuItem"; title = "Finder Window 1"; ObjectID = "cc4-DT-CeR"; */
+"cc4-DT-CeR.title" = "Finder Window 1";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Finder Window"; ObjectID = "e30-hQ-CI1"; */
+"e30-hQ-CI1.ibExternalAccessibilityDescription" = "Finder Window";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Finder Windows"; ObjectID = "e30-hQ-CI1"; */
+"e30-hQ-CI1.ibShadowedToolTip" = "Finder Windows";
+
+/* Class = "NSMenuItem"; title = "Add <Folder> to Favorites"; ObjectID = "frZ-bb-2hQ"; */
+"frZ-bb-2hQ.title" = "Add <Folder> to Favorites";
+
+/* Class = "NSMenuItem"; title = "Folder Set"; ObjectID = "g7p-Aa-st9"; */
+"g7p-Aa-st9.title" = "Folder Set";
+
+/* Class = "NSMenuItem"; title = "Folder Set 2"; ObjectID = "hba-VZ-deh"; */
+"hba-VZ-deh.title" = "Folder Set 2";
+
+/* Class = "NSMenuItem"; title = "Recent File 2"; ObjectID = "iFF-sw-kNd"; */
+"iFF-sw-kNd.title" = "Recent File 2";
+
+/* Class = "NSMenuItem"; title = "Default Folder X Preferences…"; ObjectID = "k13-xP-rK8"; */
+"k13-xP-rK8.title" = "Default Folder X Preferences…";
+
+/* Class = "NSMenuItem"; title = "Quicklook"; ObjectID = "l3z-uk-diV"; */
+"l3z-uk-diV.title" = "Quicklook";
+
+/* Class = "NSMenuItem"; title = "Computer"; ObjectID = "leY-G6-CVb"; */
+"leY-G6-CVb.title" = "Computer";
+
+/* Class = "NSMenuItem"; title = "Recent Folder 1"; ObjectID = "lwN-j8-xPu"; */
+"lwN-j8-xPu.title" = "Recent Folder 1";
+
+/* Class = "NSMenuItem"; title = "Default Folder X Help…"; ObjectID = "oC6-bG-k5w"; */
+"oC6-bG-k5w.title" = "Default Folder X Help…";
+
+/* Class = "NSMenu"; title = "Folder Set"; ObjectID = "oHT-IP-RoC"; */
+"oHT-IP-RoC.title" = "Folder Set";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Favorite Folder"; ObjectID = "qZg-Gj-Wy0"; */
+"qZg-Gj-Wy0.ibExternalAccessibilityDescription" = "Favorite Folder";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Favorites"; ObjectID = "qZg-Gj-Wy0"; */
+"qZg-Gj-Wy0.ibShadowedToolTip" = "Favorites";
+
+/* Class = "NSMenuItem"; title = "Favorite 1"; ObjectID = "rI3-kW-hLq"; */
+"rI3-kW-hLq.title" = "Favorite 1";
+
+/* Class = "NSButtonCell"; title = "Computer"; ObjectID = "sfx-0h-dlx"; */
+"sfx-0h-dlx.title" = "Computer";
+
+/* Class = "NSButton"; ibExternalAccessibilityDescription = "Utility"; ObjectID = "uQv-GM-lmq"; */
+"uQv-GM-lmq.ibExternalAccessibilityDescription" = "Utility";
+
+/* Class = "NSButton"; ibShadowedToolTip = "Utilities"; ObjectID = "uQv-GM-lmq"; */
+"uQv-GM-lmq.ibShadowedToolTip" = "Utilities";
+
+/* Class = "NSMenuItem"; title = "Duplicate"; ObjectID = "vJs-CK-up8"; */
+"vJs-CK-up8.title" = "Duplicate";
+
+/* Class = "NSMenuItem"; title = "Open in Finder"; ObjectID = "vu4-xc-6Sj"; */
+"vu4-xc-6Sj.title" = "Open in Finder";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "x0R-WZ-hLp"; */
+"x0R-WZ-hLp.title" = "Show in Finder";
+
+/* Class = "NSMenuItem"; title = "Copy Path to Clipboard"; ObjectID = "xVU-Bb-L3S"; */
+"xVU-Bb-L3S.title" = "Copy Path to Clipboard";
+
+/* Class = "NSButtonCell"; title = "Computer"; ObjectID = "xyA-8Z-AVd"; */
+"xyA-8Z-AVd.title" = "Computer";
+

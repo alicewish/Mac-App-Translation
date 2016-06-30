@@ -1,0 +1,12 @@
+/* Class = "NSView"; ibExternalAccessibilityDescription = "Comment Panel"; ObjectID = "Hz6-mo-xeY"; */
+"Hz6-mo-xeY.ibExternalAccessibilityDescription" = "Comment Panel";
+
+/* Class = "NSTextField"; ibExternalAccessibilityDescription = "Comment Field"; ObjectID = "M33-RG-EKb"; */
+"M33-RG-EKb.ibExternalAccessibilityDescription" = "Comment Field";
+
+/* Class = "NSTextFieldCell"; title = "Filename"; ObjectID = "TOi-xo-5ev"; */
+"TOi-xo-5ev.title" = "Filename";
+
+/* Class = "NSButtonCell"; title = "Remember this comment next time"; ObjectID = "eCg-TG-19d"; */
+"eCg-TG-19d.title" = "Remember this comment next time";
+

@@ -1,0 +1,78 @@
+/* Class = "NSMenuItem"; title = "Daily"; ObjectID = "A8u-nk-AVf"; */
+"A8u-nk-AVf.title" = "Daily";
+
+/* Class = "NSButtonCell"; title = "Check Now"; ObjectID = "BJG-j4-Uuf"; */
+"BJG-j4-Uuf.title" = "Check Now";
+
+/* Class = "NSMenuItem"; title = "⌥ Option"; ObjectID = "BM8-AW-U1E"; */
+"BM8-AW-U1E.title" = "⌥ Option";
+
+/* Class = "NSMenuItem"; title = "in a new Finder window"; ObjectID = "CcN-sF-LdB"; */
+"CcN-sF-LdB.title" = "in a new Finder window";
+
+/* Class = "NSTextFieldCell"; title = "by"; ObjectID = "Dik-o3-aSn"; */
+"Dik-o3-aSn.title" = "by";
+
+/* Class = "NSMenuItem"; title = "Monthly"; ObjectID = "J0A-5f-Kif"; */
+"J0A-5f-Kif.title" = "Monthly";
+
+/* Class = "NSButtonCell"; title = "Create aliases of Recent and Favorite items in your Library folder"; ObjectID = "L3o-kl-Xls"; */
+"L3o-kl-Xls.title" = "Create aliases of Recent and Favorite items in your Library folder";
+
+/* Class = "NSMenuItem"; title = "in the frontmost Finder window"; ObjectID = "Q3q-xY-plN"; */
+"Q3q-xY-plN.title" = "in the frontmost Finder window";
+
+/* Class = "NSMenuItem"; title = "Weekly"; ObjectID = "Qrz-N8-6dL"; */
+"Qrz-N8-6dL.title" = "Weekly";
+
+/* Class = "NSButtonCell"; title = "Enable Favorites shortcuts in"; ObjectID = "UV7-8R-7bq"; */
+"UV7-8R-7bq.title" = "Enable Favorites shortcuts in";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "VYX-GY-Fhl"; */
+"VYX-GY-Fhl.title" = "Table View Cell";
+
+/* Class = "NSButtonCell"; title = "Open a menu item in"; ObjectID = "Vy4-gx-dWN"; */
+"Vy4-gx-dWN.title" = "Open a menu item in";
+
+/* Class = "NSMenuItem"; title = "Hourly"; ObjectID = "Ye3-qT-WQR"; */
+"Ye3-qT-WQR.title" = "Hourly";
+
+/* Class = "NSMenuItem"; title = "⌃ Control"; ObjectID = "Yly-sb-4ow"; */
+"Yly-sb-4ow.title" = "⌃ Control";
+
+/* Class = "NSMenuItem"; title = "Terminal"; ObjectID = "ZV0-PB-Vo1"; */
+"ZV0-PB-Vo1.title" = "Terminal";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "d2e-Sq-8RF"; */
+"d2e-Sq-8RF.title" = "Text Cell";
+
+/* Class = "NSMenuItem"; title = "⌘ Command"; ObjectID = "eLe-LO-vHg"; */
+"eLe-LO-vHg.title" = "⌘ Command";
+
+/* Class = "NSBox"; title = "Exclude Default Folder X from the following applications:"; ObjectID = "gux-Hn-PsW"; */
+"gux-Hn-PsW.title" = "Exclude Default Folder X from the following applications:";
+
+/* Class = "NSBox"; title = "Box"; ObjectID = "inu-zN-duR"; */
+"inu-zN-duR.title" = "Box";
+
+/* Class = "NSTextFieldCell"; title = "Open folders in the Finder"; ObjectID = "jQJ-5F-Gzp"; */
+"jQJ-5F-Gzp.title" = "Open folders in the Finder";
+
+/* Class = "NSMenuItem"; title = "any application"; ObjectID = "lLW-Hc-kUF"; */
+"lLW-Hc-kUF.title" = "any application";
+
+/* Class = "NSMenuItem"; title = "iTerm2"; ObjectID = "oba-3e-4SE"; */
+"oba-3e-4SE.title" = "iTerm2";
+
+/* Class = "NSMenuItem"; title = "the Finder"; ObjectID = "pFW-lM-klV"; */
+"pFW-lM-klV.title" = "the Finder";
+
+/* Class = "NSTextFieldCell"; title = "clicking"; ObjectID = "pdV-2E-5Tm"; */
+"pdV-2E-5Tm.title" = "clicking";
+
+/* Class = "NSButtonCell"; title = "Automatically download and install updates"; ObjectID = "pie-q3-Gwc"; */
+"pie-q3-Gwc.title" = "Automatically download and install updates";
+
+/* Class = "NSButtonCell"; title = "Check for updates"; ObjectID = "xvb-Hc-bYV"; */
+"xvb-Hc-bYV.title" = "Check for updates";
+

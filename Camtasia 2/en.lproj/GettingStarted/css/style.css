@@ -1,0 +1,106 @@
+body {
+  background: #313131 url('../images/background.png') no-repeat;
+  width: 820px;
+	margin: 0;
+}
+
+a {
+	color: #00b4ff;
+	text-decoration: none;
+}
+
+#header {
+  width: 100%;
+  height: 111px;
+	float: left;
+}
+
+#navbar {
+  width: 100%;
+  height: 28px;
+	float:left;
+}
+
+#content {
+  background: #000 url('../images/background-default.png');
+  width: 100%;
+  height: 493px;
+  margin: 0;
+	float: left;
+}
+
+#content.help {
+  background: url('../images/background-help.png');
+}
+	
+.online #content.getting-started {
+  background: url('../images/background-getting-started.png');
+}
+
+.online #content.tutorial-viewer {
+  background: url('../images/background-tutorial-viewer.png');
+}
+
+.offline #content.getting-started {
+  background: url('../images/background-getting-started-offline.png');
+}
+
+.offline #content.tutorial-viewer {
+  background: url('../images/background-tutorial-viewer-offline.png');
+}
+
+.offline p.link {
+	display: none; /* don't display links on the offline page */
+}
+
+/*
+#display {
+  border: 0px;
+	border-radius: 10px;
+	width: 809px;
+	height: 318px;
+	margin: 4px 5px;
+}
+*/
+	
+#sections {
+	position: absolute;
+/*		border: 1px solid red; /*testing */
+	top: 467px;
+	width: 813px;
+	margin-left: 3px;
+}
+
+#sections p {
+	border: 1px solid red; /*testing */
+  border: 0px solid;
+	border-radius: 10px;
+	width: 267px;	
+	margin: 0 0 0 4px;
+	height: 156px;
+	float: left;
+}
+
+.link {
+	position: absolute;
+	width: 118px;
+	height: 22px;
+	margin: 229px 0 0 430px;
+}
+
+/* hide the links if we're not showing their slide */
+.help #gs-link, .help #tv-link, .tutorial-viewer #gs-link, .getting-started #tv-link {
+	display: none;
+/* 	cursor: default; */
+} /**/
+
+/* show the links at the appropriate times */
+.tutorial-viewer #tv-link, .getting-started #gs-link {
+/*	border: 1px solid red; /*testing */
+	display: inline;
+/*	cursor: pointer; */
+}
+
+.preload {
+	display: none;
+}

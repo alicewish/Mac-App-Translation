@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CurrentWorkingDirectory</key>
+	<string>/Users/siegel</string>
+	<key>WorksheetContents</key>
+	<string># Every project carries its own worksheet. The project worksheet# gets saved automatically with the project, and anyone who opens# the project has access to the same worksheet. This is handy for# sharing commonly used commands with multiple users, or even just# for keeping project- or task-specific commands close at hand.## For more about worksheets, please see the "Shell Worksheets"# section in chapter 14 of the User Manual (on your Help menu).echo "Have a nice day!"</string>
+</dict>
+</plist>

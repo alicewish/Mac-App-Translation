@@ -1,0 +1,137 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="10" name="allObjects">
+    <object class="IBCarbonStaticText" id="183">
+      <string name="title">Mode:</string>
+      <string name="viewFrame">20 20 114 16 </string>
+      <string name="bounds">20 20 36 134 </string>
+    </object>
+    <object class="IBCarbonButton" id="189">
+      <ostype name="controlSignature">FmtH</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">111 307 70 20 </string>
+      <string name="bounds">307 111 327 181 </string>
+    </object>
+    <object class="IBCarbonWindow" id="180">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Format</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="181">
+        <string name="viewFrame">0 0 283 347 </string>
+        <array count="8" name="subviews">
+          <object class="IBCarbonRadioGroup" id="182">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">Mode</ostype>
+            <int name="numRows">7</int>
+            <int name="selectedRow">2</int>
+            <array count="7" name="radioTitles">
+              <array count="1">
+                <string>Pretty print  ⌘G</string>
+              </array>
+              <array count="1">
+                <string>Strict hierarchical ⌘H</string>
+              </array>
+              <array count="1">
+                <string>Plain ⌘P</string>
+              </array>
+              <array count="1">
+                <string>Compact  ⌘C</string>
+              </array>
+              <array count="1">
+                <string>Gentle compact ⌘K</string>
+              </array>
+              <array count="1">
+                <string>Document skeleton  ⌘D</string>
+              </array>
+              <array count="1">
+                <string>Don’t reorganize  ⌘R</string>
+              </array>
+            </array>
+            <string name="viewFrame">32 44 231 145 </string>
+            <string name="bounds">44 32 189 263 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="185">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">4</int>
+            <string name="title">Normalize tag case ⌘T</string>
+            <string name="viewFrame">32 221 172 18 </string>
+            <string name="bounds">221 32 239 204 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="186">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Normalize attribute quotes  ⌘A</string>
+            <string name="viewFrame">32 245 224 18 </string>
+            <string name="bounds">245 32 263 256 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="187">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">6</int>
+            <string name="title">Encode entities in attributes  ⌘E</string>
+            <string name="viewFrame">32 269 226 18 </string>
+            <string name="bounds">269 32 287 258 </string>
+          </object>
+          <object class="IBCarbonButton" id="188">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">1</int>
+            <ostype name="command">ok  </ostype>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">193 307 70 20 </string>
+            <string name="bounds">307 193 327 263 </string>
+          </object>
+          <reference idRef="189"/>
+          <reference idRef="183"/>
+          <object class="IBCarbonStaticText" id="184">
+            <string name="title">Options:</string>
+            <string name="viewFrame">20 197 114 16 </string>
+            <string name="bounds">197 20 213 134 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 347 283 </string>
+      </object>
+      <string name="windowRect">100 100 447 383 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="181"/>
+    <reference idRef="188"/>
+    <reference idRef="184"/>
+    <reference idRef="185"/>
+    <reference idRef="182"/>
+    <reference idRef="186"/>
+    <reference idRef="187"/>
+  </array>
+  <array count="10" name="allParents">
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="1"/>
+    <reference idRef="180"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+    <reference idRef="181"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Format</string>
+    <reference idRef="180"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">269</unsigned_int>
+</object>

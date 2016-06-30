@@ -1,0 +1,133 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="6" name="allObjects">
+    <object class="IBCarbonWindow" id="187">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="188">
+        <string name="viewFrame">0 0 410 360 </string>
+        <array count="4" name="subviews">
+          <object class="IBCarbonDBListView" id="189">
+            <ostype name="controlSignature">RevP</ostype>
+            <int name="controlID">601</int>
+            <int name="fontStyle">-2</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <array count="4" name="listViewColumns">
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">Locl</ostype>
+                <int name="propertyFlags">0</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">30</int>
+                <int name="minWidth">30</int>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">Rev#</ostype>
+                <int name="propertyFlags">786432</int>
+                <int name="sortOrder">2</int>
+                <int name="maxWidth">200</int>
+                <int name="minWidth">60</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Revision</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">Date</ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">2</int>
+                <int name="maxWidth">400</int>
+                <int name="minWidth">50</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Date</string>
+              </object>
+              <object class="IBCarbonDBListViewColumn">
+                <ostype name="propertyID">Auth</ostype>
+                <int name="propertyFlags">262144</int>
+                <int name="sortOrder">1</int>
+                <int name="maxWidth">400</int>
+                <int name="minWidth">50</int>
+                <int name="textAlignment">-2</int>
+                <string name="titleString">Author</string>
+              </object>
+            </array>
+            <int name="hiliteStyle">1</int>
+            <int name="selectionFlags">11</int>
+            <string name="viewFrame">20 44 370 256 </string>
+            <string name="bounds">44 20 300 390 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="190">
+            <ostype name="controlSignature">RevP</ostype>
+            <int name="controlID">600</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="title">&lt;PLACEHOLDER&gt;</string>
+            <string name="viewFrame">20 20 370 16 </string>
+            <string name="bounds">20 20 36 390 </string>
+          </object>
+          <object class="IBCarbonButton" id="191">
+            <ostype name="controlSignature">RevP</ostype>
+            <int name="controlID">500</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">OK</string>
+            <string name="viewFrame">310 320 80 20 </string>
+            <string name="bounds">320 310 340 390 </string>
+          </object>
+          <object class="IBCarbonButton" id="192">
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">218 320 80 20 </string>
+            <string name="bounds">320 218 340 298 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 360 410 </string>
+      </object>
+      <string name="windowRect">100 100 460 510 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="188"/>
+    <reference idRef="189"/>
+    <reference idRef="190"/>
+    <reference idRef="191"/>
+    <reference idRef="192"/>
+  </array>
+  <array count="6" name="allParents">
+    <reference idRef="1"/>
+    <reference idRef="187"/>
+    <reference idRef="188"/>
+    <reference idRef="188"/>
+    <reference idRef="188"/>
+    <reference idRef="188"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>RevisionPickerSheet</string>
+    <reference idRef="187"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">345</unsigned_int>
+</object>

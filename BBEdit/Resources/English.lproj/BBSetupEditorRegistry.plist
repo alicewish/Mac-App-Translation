@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Classname</key>
+		<string>BBBookmarksListPane</string>
+		<key>Icon</key>
+		<string>BookmarksIcon</string>
+		<key>Identifier</key>
+		<string>BBBookmarksListPane</string>
+		<key>Name</key>
+		<string>Bookmarks</string>
+		<key>NibName</key>
+		<string>BBBookmarksListPane</string>
+	</dict>
+	<dict>
+		<key>Classname</key>
+		<string>BBClippingSetsListPane</string>
+		<key>Icon</key>
+		<string>Clipping</string>
+		<key>Identifier</key>
+		<string>BBClippingSetsListPane</string>
+		<key>Name</key>
+		<string>Clippings</string>
+		<key>NibName</key>
+		<string>BBClippingSetsListPane</string>
+	</dict>
+	<dict>
+		<key>Classname</key>
+		<string>BBFiltersListPane</string>
+		<key>Icon</key>
+		<string>FiltersIcon</string>
+		<key>Identifier</key>
+		<string>BBFiltersListPane</string>
+		<key>Name</key>
+		<string>Filters</string>
+		<key>NibName</key>
+		<string>BBFiltersListPane</string>
+	</dict>
+	<dict>
+		<key>Classname</key>
+		<string>BBPatternsListPane</string>
+		<key>Icon</key>
+		<string>PatternsIcon</string>
+		<key>Identifier</key>
+		<string>BBPatternsListPane</string>
+		<key>Name</key>
+		<string>Patterns</string>
+		<key>NibName</key>
+		<string>BBPatternsListPane</string>
+	</dict>
+</array>
+</plist>

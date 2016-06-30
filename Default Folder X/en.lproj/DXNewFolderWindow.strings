@@ -1,0 +1,15 @@
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "AcH-F0-wI7"; */
+"AcH-F0-wI7.title" = "OK";
+
+/* Class = "NSWindow"; title = "Default Folder X : New Folder"; ObjectID = "QvC-M9-y7g"; */
+"QvC-M9-y7g.title" = "Default Folder X : New Folder";
+
+/* Class = "NSTextFieldCell"; title = "untitled folder"; ObjectID = "RR7-lu-Un4"; */
+"RR7-lu-Un4.title" = "untitled folder";
+
+/* Class = "NSTextFieldCell"; title = "Create a new folder in %@ named:"; ObjectID = "lBs-gg-nhf"; */
+"lBs-gg-nhf.title" = "Create a new folder in %@ named:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "qpg-u9-Chn"; */
+"qpg-u9-Chn.title" = "Cancel";
+

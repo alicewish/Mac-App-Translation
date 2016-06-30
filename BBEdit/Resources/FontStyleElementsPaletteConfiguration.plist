@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>WindowTitle</key>
+		<string>Font Style Elements</string>
+		<key>Buttons</key>
+		<array>
+			<array>
+				<dict>
+					<key>Title</key>
+					<string>Big</string>
+					<key>UUID</key>
+					<string>604CD2EF-58F9-4DF1-889E-1C1F009D45B7</string>
+					<key>CommandID</key>
+					<string>20800</string>
+					<key>Icon</key>
+					<string>font_style-bigger</string>
+				</dict>
+	
+				<dict>
+					<key>Title</key>
+					<string>Small</string>
+					<key>UUID</key>
+					<string>37A46C64-97F7-4CD9-850B-46794C31FD1D</string>
+					<key>CommandID</key>
+					<string>20801</string>
+					<key>Icon</key>
+					<string>font_style-smaller</string>
+				</dict>
+	
+				<dict>
+					<key>Title</key>
+					<string>Bold</string>
+					<key>UUID</key>
+					<string>1907D9B9-84AB-49A4-814D-3A58A8794185</string>
+					<key>CommandID</key>
+					<string>20802</string>
+					<key>Icon</key>
+					<string>font_style-bold</string>
+				</dict>
+	
+				<dict>
+					<key>Title</key>
+					<string>Italic</string>
+					<key>UUID</key>
+					<string>937F2A77-6BDD-47DA-88B0-BEF8E0D43995</string>
+					<key>CommandID</key>
+					<string>20803</string>
+					<key>Icon</key>
+					<string>font_style-italics</string>
+				</dict>
+	
+				<dict>
+					<key>Title</key>
+					<string>Strike-Through</string>
+					<key>UUID</key>
+					<string>7DD8F3F6-042C-41E1-92F5-01EDBDEE51DC</string>
+					<key>CommandID</key>
+					<string>20804</string>
+					<key>Icon</key>
+					<string>font_style-strikeout</string>
+				</dict>
+	
+				<dict>
+					<key>Title</key>
+					<string>Teletype Text</string>
+					<key>UUID</key>
+					<string>E13B24E5-19A4-4F6B-ACCB-2D9D8D7F02FD</string>
+					<key>CommandID</key>
+					<string>20805</string>
+					<key>Icon</key>
+					<string>font_style-teletypetext</string>
+				</dict>
+	
+				<dict>
+					<key>Title</key>
+					<string>Underline</string>
+					<key>UUID</key>
+					<string>F048D5E7-2DB7-45FF-B861-9B07F4A4FC2A</string>
+					<key>CommandID</key>
+					<string>20806</string>
+					<key>Icon</key>
+					<string>font_style-underline</string>
+				</dict>
+			</array>
+		</array>
+	</dict>
+</plist>

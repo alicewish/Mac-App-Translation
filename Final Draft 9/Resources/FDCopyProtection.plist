@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>117</key>
+	<string>Authorization was successful! Final Draft no longer requires the CD to run.</string>
+	<key>165</key>
+	<string>You no longer have any remaining authorizations for this copy of Final Draft. Contact the Final Draft Sales department to purchase additional copies of Final Draft.</string>
+	<key>185</key>
+	<string>Deactivation successful.</string>
+	<key>186</key>
+	<string>Activation successful.</string>
+	<key>197</key>
+	<string>You are about to deactivate Final Draft and must activate the next time you launch the program.</string>
+</dict>
+</plist>

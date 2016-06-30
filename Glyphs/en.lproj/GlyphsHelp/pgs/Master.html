@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Multi Layers Font Setup</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="multiple master, layer, instances, interpolation"/>
+	<meta name="description" content="How to set up a Multi Layer Font."/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<!--top navigation area-->
+	<div id="navbox" class="gradient">
+		<a name="master"></a>
+		<a name="Setup"></a>
+		<div id="navleftbox">
+			<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+		</div>
+		<div id="navrightbox">
+			<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+		</div>
+	</div><!--closes top navigation area-->
+
+	<!--page head-->
+	<div id="headerbox">
+		<div id="iconbox">
+			<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+		</div>
+		<div id="pagetitle">
+			<h1>How to set up a Multi Layer Font</h1>
+		</div>
+	</div>
+	<!--closes page header-->
+	<div id="introbox">
+		<div class="introprimtext">
+			<p class="introprimtextlongtext">You can set up multiple layers, like light and bold, and generate interpolated instances.</p>
+		</div><!--closes introprimtext-->
+	</div> <!--closes introbox -->
+	<div id="contentbox">
+		<div class="taskbox">
+			<h2>To set up multiple layers:</h2>
+			<ol class="tasklistnumbered">
+				<li>
+					<p>Go to Font Info and select Master pane.</p>
+					<p>For each Master, choose a appropriate value from the popup and set a distinct value for the weight. We suggest the width of the standard vertical stem. (e.g. take it from the "n").</p>
+					<img src="../Shared/MasterWidth.png" height="146" width="293" />
+					<p>You can set up a font with up to 4 masters. This can be three masters in a row (like Light, SemiBold and Black), In a "triangle" (Light, Bold and Condensed) or in a spare (Light, Bold, LightCondensed and BoldCondensed).</p>
+				</li>
+				<li>
+					<p>Got to the Instances pane.</p>
+					<p>Add a instance with the "+" button in the bottom left corner, and fill in the information for Property and Grouping according to the planed instance.</p>
+				</li>
+				<li>
+					<p>Set the interpolation value. If you used the stem values for the masters, you can put in the desired stem width for the instance.</p>
+				</li>
+			</ol>
+		</div><!--closes shadow-->
+	</div>
+	<div id="linkinternalbox">
+		<h3>Related Topics</h3>
+		<p class="linkinternal"><a href="help:anchor='FontInfoMasters' bookID='Glyphs Help'">Font Info – Masters</a></p>
+	</div><!--closes linkinternalbox-->
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> 
+    <title>Troubleshooting TechSmith Fuse</title>
+	<meta name="description" content="Browse troubleshooting topics for TechSmith Fuse.">
+	<meta name="keywords" content="mobile, devices, TechSmith Fuse, app, QR code, port, troubleshoot, Wi-Fi, network, connection, Mobile Sharing">
+    
+    <link rel="stylesheet" href="../css/topicPage2.css"> 
+    <script src="../scrpt/snagit.js"></script>  
+</head>
+
+<body>
+<header>
+<nav>
+<a id="connection"></a><a class="bread" href="help:anchor='access'%20bookID=Camtasia%202%20Help">Home</a>
+<div id="index">
+  <a class="leftborder" href="index.html">Index</a></div>
+</nav>
+<h1><img src="../gfx/icon.png" alt="Camtasia 2 Icon" />Troubleshooting TechSmith Fuse</h1>
+<p>If TechSmith Fuse cannot connect or send files to Camtasia, see the following topics for more information:
+<ul>
+  <li><a href="#cannotsend">Unable to send files from Fuse to Camtasia</a></li>
+  <li><a href="#cannotscan">Unable to scan the QR code</a></li>
+  <li><a href="#missing">QR code is missing</a></li>
+  <li><a href="#port">Specified port is already in use</a></li>
+</ul>
+<p>For additional help, see the <a href="http://www.techsmith.com/redirect.asp?target=fusefindoutwhy&ver=2.6.*&lang=enu&os=mac&product=camtasiamac">support article</a> on the TechSmith website.</header>
+
+<section>
+  <div class="taskbox">
+<h2><a id="cannotsend"></a>Unable to send files from Fuse to Camtasia:</h2>
+<p>If you are unable to send files from TechSmith Fuse to Camtasia, make sure:</p>
+<ul>
+  <li>Your mobile device and the computer running Camtasia are on and connected to the same network.</li>
+  <li>Camtasia is open on the computer when files are sent from Fuse.</li>
+  <li>Mobile Sharing is turned on. Select Camtasia 2 &gt; Preferences &gt; General tab to check.</li>
+  <li>You have scanned the QR code in the Connect Mobile Device dialog to establish a connection between your mobile device and Camtasia. See <a href="fuse.html">Import media from a mobile device</a> for more information.</li>
+</ul>
+  </div>
+</section>
+
+<section>
+  <div class="taskbox">
+<h2><a id="cannotscan"></a>Unable to scan the QR code:</h2>
+<p>To send files from your mobile device to Camtasia, you must scan the  QR code using TechSmith Fuse. In Camtasia, select  File &gt; Connect Mobile Device to open the QR code. If Fuse cannot scan the QR code, try the following:</p>
+<ul>
+      <li>Make sure your mobile device is connected to the same Wi-Fi network as the computer running Camtasia. </li>
+       <li>Aim the camera on the mobile device at the QR code on the computer screen.</li>
+       <li>Position the camera so that the QR code is centered within the  corners of the  Scanner screen in Fuse.</li>
+</ul>
+  </div>
+</section>
+
+<section>
+  <div class="taskbox">
+<h2><a id="missing"></a>QR code is missing:</h2>
+<p>In Camtasia, an error message appears in the Connect Mobile Device dialog (File &gt; Connect Mobile Device) if a QR code cannot be generated:</p>
+<p><img src="../gfx/qr-error.png" alt="QR code error"></p>
+<p><strong>A QR code may not be generated if:</strong></p>
+<ul>
+  <li>The network/router is disconnected or needs to be reset.</li>
+  <li>The <a href="#port">specified port is already in use</a>.</li>
+</ul>
+<p> <strong>If a QR code is not generated:</strong></p>
+<ul>
+  <li>Check your network or firewall settings.</li>
+  <li>Connect your mobile device and computer to another network.</li>
+</ul>
+  </div>
+</section>
+
+<section>
+  <div class="taskbox">
+<h2><a id="port"></a>Specified port is already in use:</h2>
+<p><a href="mobilesharing.html">Mobile Sharing</a> must be on for Camtasia to receive files from TechSmith Fuse. If the specified port is in use by another application, Mobile Sharing will not turn on.  To manually change the port number:
+<ol>
+    <li>Select Camtasia 2 &gt; Preferences &gt; General tab.</li>
+    <li>Enter a port number that is not in use by another application.<br>
+      Note: Mobile Sharing must be turned off to change the port number.
+      <br>
+      <br>
+      <img src="../gfx/port.png" alt="Port number">
+    </li>
+    <li>Click Turn On Sharing.</li>
+</ol>
+  </div>
+</section>
+
+<h2 class="seealso">See also</h2>
+<p class="seealso"><a href="fuse.html">Import media from a mobile device</a><br></p>
+<p class="seealso"><a href="mobilesharing.html">About Mobile Sharing with TechSmith Fuse</a><br></p>
+<p class="seealso"><a href="connectionname.html">Change the TechSmith Fuse Connection Name</a></p>
+
+</body>
+</html>

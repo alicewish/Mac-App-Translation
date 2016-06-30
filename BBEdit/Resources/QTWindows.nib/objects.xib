@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="4" name="allObjects">
+    <object class="IBCarbonScrollView" id="184">
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">2</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <boolean name="allowGrowBox">TRUE</boolean>
+      <string name="viewFrame">0 0 326 96 </string>
+      <array count="1" name="subviews">
+        <object class="IBCarbonImageView" id="180">
+          <ostype name="controlSignature">QTIm</ostype>
+          <int name="controlID">1</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="viewFrame">0 0 311 81 </string>
+          <string name="bounds">0 0 81 311 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 96 326 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="167">
+      <string name="viewFrame">0 0 326 96 </string>
+      <array count="1" name="subviews">
+        <reference idRef="184"/>
+      </array>
+      <string name="bounds">0 0 96 326 </string>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="scalingMode">1048576</int>
+      <string name="title">QTImporterWindow</string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">64 183 160 509 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+      <int name="WindowMinWidth">204</int>
+      <int name="WindowMinHeight">96</int>
+    </object>
+    <reference idRef="180"/>
+  </array>
+  <array count="4" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+    <reference idRef="1"/>
+    <reference idRef="184"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>QTImporter</string>
+    <reference idRef="166"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">188</unsigned_int>
+</object>

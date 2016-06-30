@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SupportSubfolderNames</key>
+	<array>
+		<string>Attachment Scripts</string>
+		<string>Clippings</string>
+		<string>Color Schemes</string>
+		<string>Completion Data</string>
+		<string>HTML Templates</string>
+		<string>Language Modules</string>
+		<string>Menu Scripts</string>
+		<string>Preview CSS</string>
+		<string>Preview Templates</string>
+		<string>Packages</string>
+		<string>Scripts</string>
+		<string>Startup Items</string>
+		<string>Stationery</string>
+		<string>Text Filters</string>
+	</array>
+</dict>
+</plist>

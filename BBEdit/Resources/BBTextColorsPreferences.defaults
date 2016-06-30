@@ -1,0 +1,121 @@
+BackgroundColor = "rgba(0.970000,0.970000,0.970000,1.000000)";
+ForegroundColor = "rgba(0.0, 0.0, 0.0, 1.0)";
+DifferenceHighlightColor = "rgba(0.912723,0.978358,0.831249,1.000000)";
+HighlightInsertionPoint = YES;
+InsertionPointLineHighlightColor = "rgba(0.971674,0.978265,0.863135,1.000000)";
+InvisibleOthersColor = "rgba(0.866666667, 0.031372549, 0.023529412, 1.0)";
+InvisibleSpacesColor = "rgba(0.660000,0.660000,0.660000,1.000000)";
+PrimaryHighlightColor = "rgba(0.749019608, 0.847058824, 0.980392157, 1.0)";
+SecondaryHighlightColor = "rgba(0.815686275, 0.815686275, 0.815686275, 1.0)";
+SpellingColor = "rgba(1.0,	0.498039216,  0.498039216, 1.0)";
+UseCustomHighlightColor = NO;
+
+//	specific equivalences and wildcard mappings
+"com•barebones•bblm•line-comment" = "==com.barebones.bblm.comment";
+"com•barebones•bblm•block-comment" = "==com.barebones.bblm.comment";
+"com•barebones•bblm•single-string" = "==com.barebones.bblm.string";
+"com•barebones•bblm•double-string" = "==com.barebones.bblm.string";
+"com•barebones•bblm•sgml-*tag" = "==com.barebones.bblm.sgml-tag";
+"com•barebones•bblm•sgml-pcdata" = "==com.barebones.bblm.code";
+
+//
+//	factory defaults for core run kind colors (these should be updated whenever
+//	the "BBEdit Light" color scheme changes.
+//
+"com•barebones•bblm•JavaScript•error" = "rgba(0.816162,0.136085,0.145172,1.000000)";
+"com•barebones•bblm•JavaScript•regexp" = "rgba(0.816162,0.136085,0.145172,1.000000)";
+"com•barebones•bblm•Pyth•decorator" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•Pyth•triple-string" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•TeX•math-string" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•TeX•param-content" = "rgba(0.195449,0.427647,0.727857,1.000000)";
+"com•barebones•bblm•TeX•verbatim" = "rgba(0.106330,0.459786,0.201330,1.000000)";
+"com•barebones•bblm•code" = "rgba(0.077525,0.077522,0.077524,1.000000)";
+"com•barebones•bblm•comment" = "rgba(0.588316,0.479021,0.696796,1.000000)";
+"com•barebones•bblm•css•color-spec" = "rgba(0.733959,0.374431,0.043658,1.000000)";
+"com•barebones•bblm•file-include" = "rgba(0.816162,0.136085,0.145172,1.000000)";
+"com•barebones•bblm•grep•charclass" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•grep•escape-sequence" = "rgba(0.217718,0.308410,0.958603,1.000000)";
+"com•barebones•bblm•grep•metachar" = "rgba(0.816162,0.136085,0.145172,1.000000)";
+"com•barebones•bblm•grep•metasequence" = "rgba(0.217718,0.308410,0.958603,1.000000)";
+"com•barebones•bblm•grep•posix-name" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•grep•repeat" = "rgba(0.106330,0.459786,0.201330,1.000000)";
+"com•barebones•bblm•grep•repeat-data" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•heredoc-string" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•html•anchor" = "rgba(0.106330,0.459786,0.201330,1.000000)";
+"com•barebones•bblm•html•attribute-name" = "rgba(0.733959,0.374431,0.043658,1.000000)";
+"com•barebones•bblm•html•attribute-value" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•html•image" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•indexed-symbol" = "rgba(0.195449,0.427647,0.727857,1.000000)";
+"com•barebones•bblm•keyword" = "rgba(0.217718,0.308410,0.958603,1.000000)";
+"com•barebones•bblm•markdown•Emph" = "rgba(0.816162,0.136085,0.145172,1.000000)";
+"com•barebones•bblm•markdown•HorizontalRule" = "rgba(0.424674,0.424661,0.424669,1.000000)";
+"com•barebones•bblm•markdown•ImageAltText" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•markdown•ImageId" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•markdown•InlineCode" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•markdown•InlineLinkText" = "rgba(0.195449,0.427647,0.727857,1.000000)";
+"com•barebones•bblm•markdown•Keyword" = "rgba(0.217718,0.308410,0.958603,1.000000)";
+"com•barebones•bblm•markdown•LinkDefId" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•markdown•LinkDefTitle" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•markdown•LinkDefUrl" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•markdown•ListItemMarker" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•markdown•Pre" = "rgba(0.084946,0.539991,0.662025,1.000000)";
+"com•barebones•bblm•markdown•QuoteMarker" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•markdown•QuotedContent" = "rgba(0.333333,0.333333,0.333333,1.000000)";
+"com•barebones•bblm•number" = "rgba(0.733959,0.374431,0.043658,1.000000)";
+"com•barebones•bblm•predefined-symbol" = "rgba(0.000000,0.463166,0.507064,1.000000)";
+"com•barebones•bblm•preprocessor" = "rgba(0.152799,0.217567,0.689927,1.000000)";
+"com•barebones•bblm•ruby•regexp" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•ruby•symbol" = "rgba(0.000000,0.463166,0.507064,1.000000)";
+"com•barebones•bblm•sgml-cdata" = "rgba(0.077525,0.077522,0.077524,1.000000)";
+"com•barebones•bblm•sgml-decl" = "rgba(0.816162,0.136085,0.145172,1.000000)";
+"com•barebones•bblm•sgml-entity" = "rgba(0.816162,0.136085,0.145172,1.000000)";
+"com•barebones•bblm•sgml-tag" = "rgba(0.217718,0.308410,0.958603,1.000000)";
+"com•barebones•bblm•string" = "rgba(0.741656,0.087791,0.419203,1.000000)";
+"com•barebones•bblm•variable" = "rgba(0.097381,0.474409,0.094652,1.000000)";
+"com•barebones•bblm•verilog-hdl•comment-1" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•verilog-hdl•comment-2" = "rgba(0.424674,0.424661,0.424669,1.000000)";
+"com•barebones•bblm•verilog-hdl•comment-3" = "rgba(0.106330,0.459786,0.201330,1.000000)";
+"com•barebones•bblm•verilog-hdl•input-type" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•verilog-hdl•output-type" = "rgba(0.783644,0.229354,0.507977,1.000000)";
+"com•barebones•bblm•verilog-hdl•register-type" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•verilog-hdl•wire-type" = "rgba(0.195449,0.427647,0.727857,1.000000)";
+"com•barebones•bblm•vhdl•comment-1" = "rgba(0.666667,0.000000,0.000000,1.000000)";
+"com•barebones•bblm•vhdl•comment-2" = "rgba(0.424674,0.424661,0.424669,1.000000)";
+"com•barebones•bblm•vhdl•comment-3" = "rgba(0.106330,0.459786,0.201330,1.000000)";
+"com•barebones•bblm•xml-empty" = "rgba(0.217718,0.308410,0.958603,1.000000)";
+"com•barebones•bblm•xml-pi" = "rgba(0.000000,0.486518,0.532630,1.000000)";
+
+//	legacy color prefs, to aid in conversion
+PredefinedNamesColor = "rgba(0.000000,0.463166,0.507064,1.000000)";
+CommentsColor = "rgba(0.588316,0.479021,0.696796,1.000000)";
+StringColor = "rgba(0.741656,0.087791,0.419203,1.000000)";
+NumericConstantColor = "rgba(0.733959,0.374431,0.043658,1.000000)";
+VariablesColor = "rgba(0.097381,0.474409,0.094652,1.000000)";
+CtagsIdentifierColor = "rgba(0.195449,0.427647,0.727857,1.000000)";
+HTMLTagColor = "rgba(0.217718,0.308410,0.958603,1.000000)";
+HTMLAnchorColor = "rgba(0.106330,0.459786,0.201330,1.000000)";
+HTMLImageColor = "rgba(0.084946,0.539991,0.662025,1.000000)";
+HTMLProcessingDirectiveColor = "rgba(0.000000,0.486518,0.532630,1.000000)";
+HTMLAttributeNameColor = "rgba(0.733959,0.374431,0.043658,1.000000)";
+HTMLAttributeValueColor = "rgba(0.783644,0.229354,0.507977,1.000000)";
+
+PrefUIBuiltInColorOrdering =
+(
+"com.barebones.bblm.code" /* = "Plain text" */,
+"com.barebones.bblm.comment" /* = "Comments (generic)" */,
+"com.barebones.bblm.string" /* = "Strings (generic)" */,
+"com.barebones.bblm.heredoc-string" /* = "Here-doc strings" */,
+"com.barebones.bblm.keyword" /* = "Language keywords" */,
+"com.barebones.bblm.predefined-symbol" /* = "Predefined symbols" */,
+"com.barebones.bblm.variable" /* = "Variables" */,
+"com.barebones.bblm.number" /* = "Numbers" */,
+"com.barebones.bblm.indexed-symbol" /* = "ctags symbols" */,
+"com.barebones.bblm.file-include" /* = "File includes" */,
+"com.barebones.bblm.preprocessor" /* = "Preprocessor directives" */,
+"com.barebones.bblm.sgml-cdata" /* = "SGML unparsed character data" */,
+"com.barebones.bblm.sgml-decl" /* = "SGML declarations" */,
+"com.barebones.bblm.sgml-tag" /* = "SGML/HTML/XML tags" */,
+"com.barebones.bblm.sgml-entity" /* = "SGML/HTML/XML entities" */,
+"com.barebones.bblm.xml-pi" /* = "XML processing instructions" */,
+"com.barebones.bblm.xml-empty" /* = "Empty XML tags" */,
+);

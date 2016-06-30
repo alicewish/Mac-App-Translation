@@ -1,0 +1,117 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="9" name="allObjects">
+    <object class="IBCarbonButton" id="201">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">2</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="viewFrame">130 160 70 20 </string>
+      <string name="bounds">160 130 180 200 </string>
+    </object>
+    <object class="IBCarbonRadioGroup" id="204">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">5</int>
+      <ostype name="command">EntC</ostype>
+      <int name="numRows">1</int>
+      <int name="numCols">3</int>
+      <array count="1" name="radioTitles">
+        <array count="3">
+          <string>Named</string>
+          <string>Decimal</string>
+          <string>Hex</string>
+        </array>
+      </array>
+      <string name="viewFrame">40 70 242 20 </string>
+      <string name="bounds">70 40 90 282 </string>
+    </object>
+    <object class="IBCarbonCheckBox" id="203">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">4</int>
+      <ostype name="command">EntT</ostype>
+      <string name="title">Generate HTML entities:  ⌘E</string>
+      <string name="viewFrame">20 44 200 18 </string>
+      <string name="bounds">44 20 62 220 </string>
+    </object>
+    <object class="IBCarbonButton" id="200">
+      <ostype name="controlSignature">Tx2H</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="viewFrame">212 160 70 20 </string>
+      <string name="bounds">160 212 180 282 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="198">
+      <string name="viewFrame">0 0 302 200 </string>
+      <array count="7" name="subviews">
+        <reference idRef="200"/>
+        <reference idRef="201"/>
+        <object class="IBCarbonCheckBox" id="202">
+          <ostype name="controlSignature">Tx2H</ostype>
+          <int name="controlID">3</int>
+          <string name="title">Convert paragraphs  ⌘P</string>
+          <string name="viewFrame">20 20 180 18 </string>
+          <string name="bounds">20 20 38 200 </string>
+        </object>
+        <reference idRef="203"/>
+        <reference idRef="204"/>
+        <object class="IBCarbonCheckBox" id="205">
+          <ostype name="controlSignature">Tx2H</ostype>
+          <int name="controlID">6</int>
+          <string name="title">Don’t encode “&lt;” and “&gt;” ⌘B</string>
+          <string name="viewFrame">40 98 242 18 </string>
+          <string name="bounds">98 40 116 282 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="206">
+          <ostype name="controlSignature">Tx2H</ostype>
+          <int name="controlID">7</int>
+          <string name="title">Encode all Unicode characters ⌘U</string>
+          <string name="viewFrame">40 122 242 18 </string>
+          <string name="bounds">122 40 140 282 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 200 302 </string>
+    </object>
+    <reference idRef="205"/>
+    <reference idRef="206"/>
+    <object class="IBCarbonWindow" id="197">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Translate: Text To HTML</string>
+      <reference name="rootControl" idRef="198"/>
+      <string name="windowRect">100 100 300 402 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="202"/>
+  </array>
+  <array count="9" name="allParents">
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="197"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="1"/>
+    <reference idRef="198"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>TextToHTML</string>
+    <reference idRef="197"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">269</unsigned_int>
+</object>

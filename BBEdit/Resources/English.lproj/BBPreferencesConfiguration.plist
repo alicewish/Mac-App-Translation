@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Icon</key>
+		<string>AppearancePreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBAppearancePreferences</string>
+		<key>Name</key>
+		<string>Appearance</string>
+		<key>NibName</key>
+		<string>BBAppearancePreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBAppearancePreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>cursor position</string>
+			<string>language</string>
+			<string>text encoding</string>
+			<string>line break type</string>
+			<string>document statistics</string>
+			<string>text status bar</string>
+			<string>page guide at </string>
+			<string>characters</string>
+			<string>tab stops</string>
+			<string>line numbers</string>
+			<string>gutter</string>
+			<string>guide contrast</string>
+			<string>editing window</string>
+			<string>document navigation</string>
+			<string>function menu</string>
+			<string>marker menu</string>
+			<string>counterpart button</string>
+			<string>included files menu</string>
+			<string>sort items by name</string>
+			<string>show comment callouts</string>
+			<string>show function prototypes</string>
+			<string>navigation bar</string>
+			<string>text options</string>
+			<string>document lock state</string>
+			<string>document save date</string>
+			<string>document info</string>
+			<string>document proxy icon</string>
+			<string>toolbar</string>
+			<string>list display font</string>
+			<string>text magnification</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>ApplicationPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBApplicationPreferences</string>
+		<key>Name</key>
+		<string>Application</string>
+		<key>NibName</key>
+		<string>BBApplicationPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBApplicationPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>check now</string>
+			<string>automatically check for updates</string>
+			<string>include documents on servers</string>
+			<string>when bbedit becomes active</string>
+			<string>do nothing</string>
+			<string>new text document</string>
+			<string>ask me</string>
+			<string>reopen documents that were open at last quit</string>
+			<string>restore unsaved changes</string>
+			<string>include documents on servers</string>
+			<string>always show full paths in “open recent” menu</string>
+			<string>most recently used items</string>
+			<string>remember the</string>
+			<string>automatically refresh documents as they change on disk</string>
+			<string>open documents into the front window when possible</string>
+			<string>startup</string>
+			<string>launch</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>EditingPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBEditingPreferences</string>
+		<key>Name</key>
+		<string>Editing</string>
+		<key>NibName</key>
+		<string>BBEditingPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>flush left</string>
+			<string>first line</string>
+			<string>reverse</string>
+			<string>soft-wrapped line indentation</string>
+			<string>use “hard” lines in soft-wrapped views</string>
+			<string>include dictionary words in completion list</string>
+			<string>this setting controls whether “hard” lines are used for line number display, triple click, and “select line” gestures.</string>
+			<string>show text completions</string>
+			<string>after a delay in typing</string>
+			<string>only manually</string>
+			<string>you can trigger completion at any time using the “complete” item on the edit menu.</string>
+			<string>line spacing</string>
+			<string>double space</string>
+			<string>highlight</string>
+			<string>underline</string>
+			<string>selected</string>
+			<string>instances</string>
+			<string>highlight</string>
+			<string>delay</string>
+			<string>tick marks scroll bar</string>
+			<string>scrollbar</string>
+			<string>vertical space in text views</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>EditorDefaultsPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBEditorDefaultsPreferences</string>
+		<key>Name</key>
+		<string>Editor Defaults</string>
+		<key>NibName</key>
+		<string>BBEditorDefaultsPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBEditorDefaultsPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>soft wrap text to</string>
+			<string>auto-expand tabs</string>
+			<string>check spelling as you type</string>
+			<string>use typographer’s quotes</string>
+			<string>show spaces</string>
+			<string>balance while typing</string>
+			<string>show invisible characters</string>
+			<string>auto-indent</string>
+			<string>page guide</string>
+			<string>window width</string>
+			<string>character width</string>
+			<string>tab width</string>
+			<string>default font</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>KeyboardPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBKeyboardPreferences</string>
+		<key>Name</key>
+		<string>Keyboard</string>
+		<key>NibName</key>
+		<string>BBKeyboardPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>option-¥ on japanese keyboards</string>
+			<string>“home” and “end” keys</string>
+			<string>\ (backslash)</string>
+			<string>¥ (yen)</string>
+			<string>scroll to beginning and end of document</string>
+			<string>move cursor to beginning and end of current line</string>
+			<string>enter key generates return</string>
+			<string>use tab key to navigate placeholders</string>
+			<string>display status window</string>
+			<string>when auto-indenting, remove leading white space from indented line</string>
+			<string>allow page up or page down to move the insertion point</string>
+			<string>emulate emacs key bindings</string>
+			<string>allow tab key to indent text blocks</string>
+			<string>escape esc emacs bindings</string>
+			<string>meta sequences</string>
+			<string>escape esc trigger completion</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>LanguagesPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBLanguagesPreferences</string>
+		<key>Name</key>
+		<string>Languages</string>
+		<key>NibName</key>
+		<string>BBLanguagesPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBLanguagesPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>installed languages</string>
+			<string>custom language preferences</string>
+			<string>custom extension mappings</string>
+			<string>change clipping set to match document’s language</string>
+			<string>suffix</string>
+			<string>language</string>
+			<string>customizations</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>MenusAndShortcutsPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBMenusAndShortcutsPreferences</string>
+		<key>Name</key>
+		<string>Menus &amp; Shortcuts</string>
+		<key>NibName</key>
+		<string>BBMenusAndShortcutsPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBMenusAndShortcutsPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>allow menu key equivalents to autorepeat</string>
+			<string>menu key equivalents and item visibility</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>PreviewHelpersPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBPreviewHelpersPreferences</string>
+		<key>Name</key>
+		<string>Preview Helpers</string>
+		<key>NibName</key>
+		<string>BBPreviewHelpersPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBPreviewHelpersPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>web browsers available for previewing</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>PrintingPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBPrintingPreferences</string>
+		<key>Name</key>
+		<string>Printing</string>
+		<key>NibName</key>
+		<string>BBPrintingPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBPrintingPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>rubber stamp</string>
+			<string>print color syntax</string>
+			<string>print full pathname</string>
+			<string>print page headers</string>
+			<string>1-inch gutter</string>
+			<string>print line numbers</string>
+			<string>frame printing area</string>
+			<string>using font</string>
+			<string>printing font</string>
+			<string>time stamp</string>
+			<string>date last saved</string>
+			<string>date last printed</string>
+			<string>print using document’s font</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>TextColorsPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBTextColorsPreferences</string>
+		<key>Name</key>
+		<string>Text Colors</string>
+		<key>NibName</key>
+		<string>BBTextColorsPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBTextColorsPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>color scheme</string>
+			<string>save scheme</string>
+			<string>string constants</string>
+			<string>numeric constants</string>
+			<string>comments</string>
+			<string>ctags symbols</string>
+			<string>predefined names</string>
+			<string>keywords</string>
+			<string>python decorators</string>
+			<string>source code</string>
+			<string>image</string>
+			<string>attribute names</string>
+			<string>processing directives</string>
+			<string>attribute values</string>
+			<string>anchor</string>
+			<string>general</string>
+			<string>markup</string>
+			<string>use custom highlight colors</string>
+			<string>highlight insertion point</string>
+			<string>foreground</string>
+			<string>background</string>
+			<string>misspelled words</string>
+			<string>spaces</string>
+			<string>other invisibles</string>
+			<string>primary</string>
+			<string>secondary</string>
+			<string>line color</string>
+			<string>general</string>
+			<string>differences</string>
+			<string>diff</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>TextEncodingsPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBTextEncodingsPreferences</string>
+		<key>Name</key>
+		<string>Text Encodings</string>
+		<key>NibName</key>
+		<string>BBTextEncodingsPreferenceModule</string>
+		<key>PrincipalClass</key>
+		<string>BBTextEncodingsPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>default text encoding for new documents</string>
+			<string>if a file’s encoding can’t be guessed, try</string>
+		</array>
+	</dict>
+	<dict>
+		<key>Icon</key>
+		<string>TextFilesPreferenceIcon</string>
+		<key>Identifier</key>
+		<string>BBTextFilesPreferences</string>
+		<key>Name</key>
+		<string>Text Files</string>
+		<key>NibName</key>
+		<string>BBTextFilesPreferenceModule</string>
+		<key>Keywords</key>
+		<array>
+			<string>make backup before saving</string>
+			<string>keep historical backups</string>
+			<string>preserve file name extension</string>
+			<string>backups</string>
+			<string>unix (lf)</string>
+			<string>classic mac (cr)</string>
+			<string>windows (crlf)</string>
+			<string>ensure file ends with line break</string>
+			<string>strip trailing whitespace</string>
+			<string>line breaks</string>
+		</array>
+	</dict>
+</array>
+</plist>

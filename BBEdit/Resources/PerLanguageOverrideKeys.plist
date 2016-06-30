@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>BBEditorFont</string>
+	<string>CommentLine</string>
+	<string>CommentPrefix</string>
+	<string>CommentSuffix</string>
+	<string>ReferenceSearchURLTemplate</string>
+	<string>EditorAutoIndent</string>
+	<string>EnsureTrailingLineBreak</string>
+	<string>BalanceWhileTyping</string>
+	<string>EditorUseTypographersQuotes</string>
+	<string>EditorAutoExpandTabs</string>
+	<string>EditorShowInvisibleCharacters</string>
+	<string>EditorShowSpaces</string>
+	<string>EditorCheckSpellingAsYouType</string>
+	<string>SoftWrapStyle</string>
+	<string>SoftWrapIndentation</string>
+	<string>EditorSoftWrapWidth</string>
+	<string>EditorDefaultTabWidth</string>
+	<string>EditorSoftWrap</string>
+	<string>NavbarShowDocumentNavigation</string>
+	<string>NavbarShowFunctionMenu</string>
+	<string>NavbarShowMarkerMenu</string>
+	<string>NavbarShowCounterpartButton</string>
+	<string>NavbarShowIncludedFilesMenu</string>
+	<string>SelectedColorScheme</string>
+	<string>StripTrailingWhitespace</string>
+	<string>TextStatusBarShowCursorPosition</string>
+	<string>TextStatusBarShowLanguageMenu</string>
+	<string>TextStatusBarShowTextEncodingMenu</string>
+	<string>TextStatusBarShowLineBreakMenu</string>
+	<string>TextStatusBarShowDocumentStatistics</string>
+	<string>TextStatusBarShowDocumentDate</string>
+	<string>HighlightInstancesOfSelectedText</string>
+</array>
+</plist>

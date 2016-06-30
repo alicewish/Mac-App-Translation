@@ -1,0 +1,245 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="13" name="allObjects">
+    <object class="IBCarbonPopupButton" id="467">
+      <ostype name="controlSignature">FTPb</ostype>
+      <int name="controlID">3</int>
+      <ostype name="command">Path</ostype>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingBottomKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <boolean name="variableWith">TRUE</boolean>
+      <int name="selectedItem">-2147483648</int>
+      <object name="menu" class="IBCarbonMenu" id="470">
+      </object>
+      <int name="titleJustification">-2</int>
+      <string name="viewFrame">173 51 245 20 </string>
+      <string name="bounds">51 173 71 418 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="278">
+      <string name="viewFrame">0 0 593 404 </string>
+      <array count="10" name="subviews">
+        <object class="IBCarbonDBListView" id="465">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">4</int>
+          <int name="fontStyle">-2</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="columnWidth">0</int>
+          <array count="3" name="listViewColumns">
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyID">Name</ostype>
+              <ostype name="propertyType">ticn</ostype>
+              <int name="propertyFlags">851968</int>
+              <int name="sortOrder">1</int>
+              <int name="maxWidth">0</int>
+              <int name="minWidth">200</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Name</string>
+            </object>
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyID">Date</ostype>
+              <ostype name="propertyType">date</ostype>
+              <int name="propertyFlags">327680</int>
+              <int name="sortOrder">1</int>
+              <int name="maxWidth">250</int>
+              <int name="minWidth">100</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Date</string>
+            </object>
+            <object class="IBCarbonDBListViewColumn">
+              <ostype name="propertyID">Kind</ostype>
+              <int name="propertyFlags">851968</int>
+              <int name="sortOrder">1</int>
+              <int name="maxWidth">250</int>
+              <int name="minWidth">100</int>
+              <int name="textAlignment">-2</int>
+              <string name="titleString">Kind</string>
+            </object>
+          </array>
+          <int name="hiliteStyle">1</int>
+          <boolean name="listViewUsePlainBackground">FALSE</boolean>
+          <int name="listViewHeaderBtnHeight">17</int>
+          <string name="viewFrame">20 85 553 260 </string>
+          <string name="bounds">85 20 345 573 </string>
+        </object>
+        <object class="IBCarbonButton" id="462">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">1</int>
+          <ostype name="command">Open</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">2</int>
+            <int name="bindingLeftKind">2</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="buttonType">1</int>
+          <int name="iconPosition">0</int>
+          <string name="title">Open</string>
+          <string name="viewFrame">503 364 70 20 </string>
+          <string name="bounds">364 503 384 573 </string>
+        </object>
+        <object class="IBCarbonButton" id="461">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">2</int>
+          <ostype name="command">Info</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">2</int>
+            <int name="bindingLeftKind">2</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="iconPosition">0</int>
+          <string name="title">Info</string>
+          <string name="viewFrame">421 364 70 20 </string>
+          <string name="bounds">364 421 384 491 </string>
+        </object>
+        <object class="IBCarbonButton" id="463">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">9</int>
+          <ostype name="command">Dele</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">2</int>
+            <int name="bindingLeftKind">2</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="iconPosition">0</int>
+          <string name="title">Delete</string>
+          <string name="viewFrame">257 364 70 20 </string>
+          <string name="bounds">364 257 384 327 </string>
+        </object>
+        <object class="IBCarbonButton" id="499">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">10</int>
+          <ostype name="command">Crea</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">2</int>
+            <int name="bindingLeftKind">2</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="iconPosition">0</int>
+          <string name="title">New…</string>
+          <string name="viewFrame">339 364 70 20 </string>
+          <string name="bounds">364 339 384 409 </string>
+        </object>
+        <object class="IBCarbonCheckBox" id="466">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">7</int>
+          <int name="fontStyle">-1</int>
+          <ostype name="command">Invi</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">2</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">2</int>
+            <int name="bindingRightKind">1</int>
+          </object>
+          <string name="title">Show items starting with “.”</string>
+          <string name="viewFrame">18 362 195 18 </string>
+          <string name="bounds">362 18 380 213 </string>
+        </object>
+        <object class="IBCarbonIcon" id="469">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">8</int>
+          <ostype name="command">Rlod</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingBottomKind">1</int>
+            <int name="bindingRightKind">1</int>
+          </object>
+          <int name="contentType">132</int>
+          <int name="contentResID">0</int>
+          <boolean name="dontTrack">FALSE</boolean>
+          <int name="creator">0</int>
+          <string name="viewFrame">20 45 32 32 </string>
+          <string name="bounds">45 20 77 52 </string>
+        </object>
+        <reference idRef="467"/>
+        <object class="IBCarbonButton" id="468">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">6</int>
+          <ostype name="command">Conn</ostype>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingLeftKind">2</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <int name="iconPosition">0</int>
+          <string name="title">Disconnect</string>
+          <string name="viewFrame">479 20 94 20 </string>
+          <string name="bounds">20 479 40 573 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="464">
+          <ostype name="controlSignature">FTPb</ostype>
+          <int name="controlID">5</int>
+          <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+            <int name="bindingTopKind">1</int>
+            <int name="bindingLeftKind">1</int>
+            <int name="bindingRightKind">2</int>
+          </object>
+          <string name="title">siegel@host.example.com connected (sftp).</string>
+          <string name="viewFrame">20 20 382 16 </string>
+          <string name="bounds">20 20 36 402 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 404 593 </string>
+    </object>
+    <reference idRef="465"/>
+    <reference idRef="464"/>
+    <reference idRef="470"/>
+    <reference idRef="463"/>
+    <reference idRef="468"/>
+    <reference idRef="461"/>
+    <reference idRef="499"/>
+    <object class="IBCarbonWindow" id="277">
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="themeBrush">5</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">FTP Browser</string>
+      <reference name="rootControl" idRef="278"/>
+      <string name="windowRect">100 100 504 693 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+      <int name="WindowMinWidth">520</int>
+      <int name="WindowMinHeight">395</int>
+    </object>
+    <reference idRef="462"/>
+    <reference idRef="466"/>
+    <reference idRef="469"/>
+  </array>
+  <array count="13" name="allParents">
+    <reference idRef="278"/>
+    <reference idRef="277"/>
+    <reference idRef="278"/>
+    <reference idRef="278"/>
+    <reference idRef="467"/>
+    <reference idRef="278"/>
+    <reference idRef="278"/>
+    <reference idRef="278"/>
+    <reference idRef="278"/>
+    <reference idRef="1"/>
+    <reference idRef="278"/>
+    <reference idRef="278"/>
+    <reference idRef="278"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>FTPBrowser</string>
+    <reference idRef="277"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">541</unsigned_int>
+</object>

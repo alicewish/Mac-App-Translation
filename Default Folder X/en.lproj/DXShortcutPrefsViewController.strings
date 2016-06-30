@@ -1,0 +1,21 @@
+/* Class = "NSTableColumn"; headerCell.title = "Shortcut"; ObjectID = "JOp-gU-XlN"; */
+"JOp-gU-XlN.headerCell.title" = "Shortcut";
+
+/* Class = "NSButtonCell"; title = "Reset to Defaults"; ObjectID = "d7F-1x-iTx"; */
+"d7F-1x-iTx.title" = "Reset to Defaults";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "dBf-Kx-ru3"; */
+"dBf-Kx-ru3.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Table View Cell"; ObjectID = "fIO-oC-cIV"; */
+"fIO-oC-cIV.title" = "Table View Cell";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "tdC-If-dH9"; */
+"tdC-If-dH9.title" = "Text Cell";
+
+/* Class = "NSTableColumn"; headerCell.title = "Command"; ObjectID = "wGP-VE-MOa"; */
+"wGP-VE-MOa.headerCell.title" = "Command";
+
+/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "wMc-28-2Mc"; */
+"wMc-28-2Mc.title" = "Text Cell";
+

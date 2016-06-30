@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Camtasia:mac Learning Resources</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var autoRotate;
+		$(document).ready(function(){
+			$('#help').mouseenter(function() { classChange("help"); });
+			$('#getting-started').mouseenter(function() { classChange("getting-started"); });
+			$('#tutorial-viewer').mouseenter( function() { classChange("tutorial-viewer"); });
+			$('#sections').mouseenter(function() { autoRotate = self.clearInterval(autoRotate); }) //turn off auto rotate when you mouseover
+			autoRotate = self.setInterval("rotate()",4000); //set how often it auto rotates
+		});
+
+		function rotate() {
+			if ( $('#content').hasClass('help') ) {
+				classChange("getting-started");
+			} else if ( $('#content').hasClass('getting-started') ) {
+				classChange("tutorial-viewer");
+			} else if ( $('#content').hasClass('tutorial-viewer') ) {
+				classChange("help");
+			}
+		}
+		
+		// this removes the other classes and adds the class we want (with a fade out/in)
+		function classChange(yesClass) {
+			var notClasses;
+			var fadeSpeed = 150;
+			switch (yesClass) {
+				case "getting-started": notClasses = "help tutorial-viewer"; break;
+				case "tutorial-viewer": notClasses = "getting-started help"; break;
+				default: notClasses = "getting-started tutorial-viewer";
+			}
+			$('.rotated').fadeOut(fadeSpeed, function() {
+				$(this).removeClass(notClasses).addClass(yesClass).fadeIn(fadeSpeed); 
+			})
+		}
+	</script>
+	
+</head>
+<body class="offline">
+	<div id="header"></div>
+	
+	<div id="navbar">
+
+	</div>
+	
+	<div id="content" class="rotated help">
+		<div id="gs-link"><a href="http://www.techsmith.com/redirect.asp?target=tutorialViewer_ww_gettingStarted&ver=2.10.5&lang=enu&os=mac&product=camtasiamac"><p class="link"></p></a></div>
+		<div id="tv-link"><a href="http://www.techsmith.com/redirect.asp?target=tutorialViewer_ww_main&ver=2.10.5&lang=enu&os=mac&product=camtasiamac"><p class="link"></p></a></div>
+		
+		<div id="sections">
+			<p id="help"></p>
+			<p id="getting-started"></p>
+			<p id="tutorial-viewer"></p>
+		</div>
+		
+	</div>
+	
+	<div class="preload">
+		<img src="images/background-help.png" width="1">
+		<img src="images/background-getting-started-offline.png" width="1">
+		<img src="images/background-tutorial-viewer-offline.png" width="1">
+	</div>
+	
+</body>
+</html>

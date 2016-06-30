@@ -1,0 +1,146 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="11" name="allObjects">
+    <object class="IBCarbonCheckBox" id="215">
+      <ostype name="controlSignature">FmtH</ostype>
+      <int name="controlID">4</int>
+      <string name="title">Normalize tag case ⌘T</string>
+      <string name="viewFrame">32 251 172 18 </string>
+      <string name="bounds">251 32 269 204 </string>
+    </object>
+    <object class="IBCarbonButton" id="212">
+      <ostype name="controlSignature">FmtH</ostype>
+      <int name="controlID">1</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">Format</string>
+      <string name="viewFrame">193 337 70 20 </string>
+      <string name="bounds">337 193 357 263 </string>
+    </object>
+    <object class="IBCarbonWindow" id="209">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <boolean name="doesNotCycle">TRUE</boolean>
+      <int name="carbonWindowClass">11</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title">Format</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="210">
+        <string name="viewFrame">0 0 283 377 </string>
+        <array count="9" name="subviews">
+          <object class="IBCarbonRadioGroup" id="218">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">3</int>
+            <ostype name="command">Mode</ostype>
+            <int name="numRows">7</int>
+            <int name="selectedRow">2</int>
+            <array count="7" name="radioTitles">
+              <array count="1">
+                <string>Pretty print  ⌘G</string>
+              </array>
+              <array count="1">
+                <string>Strict hierarchical ⌘H</string>
+              </array>
+              <array count="1">
+                <string>Plain ⌘P</string>
+              </array>
+              <array count="1">
+                <string>Compact  ⌘C</string>
+              </array>
+              <array count="1">
+                <string>Gentle compact ⌘K</string>
+              </array>
+              <array count="1">
+                <string>Document skeleton  ⌘D</string>
+              </array>
+              <array count="1">
+                <string>Don’t reorganize  ⌘R</string>
+              </array>
+            </array>
+            <string name="viewFrame">32 44 231 145 </string>
+            <string name="bounds">44 32 189 263 </string>
+          </object>
+          <reference idRef="215"/>
+          <object class="IBCarbonCheckBox" id="219">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">7</int>
+            <string name="title">Selection only ⌘S</string>
+            <string name="viewFrame">18 197 172 18 </string>
+            <string name="bounds">197 18 215 190 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="214">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">5</int>
+            <string name="title">Normalize attribute quotes  ⌘A</string>
+            <string name="viewFrame">32 275 224 18 </string>
+            <string name="bounds">275 32 293 256 </string>
+          </object>
+          <object class="IBCarbonCheckBox" id="213">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">6</int>
+            <string name="title">Encode entities in attributes  ⌘E</string>
+            <string name="viewFrame">32 299 226 18 </string>
+            <string name="bounds">299 32 317 258 </string>
+          </object>
+          <reference idRef="212"/>
+          <object class="IBCarbonButton" id="211">
+            <ostype name="controlSignature">FmtH</ostype>
+            <int name="controlID">2</int>
+            <ostype name="command">not!</ostype>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">111 337 70 20 </string>
+            <string name="bounds">337 111 357 181 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="217">
+            <string name="title">Mode:</string>
+            <string name="viewFrame">20 20 114 16 </string>
+            <string name="bounds">20 20 36 134 </string>
+          </object>
+          <object class="IBCarbonStaticText" id="216">
+            <string name="title">Options:</string>
+            <string name="viewFrame">20 227 114 16 </string>
+            <string name="bounds">227 20 243 134 </string>
+          </object>
+        </array>
+        <string name="bounds">0 0 377 283 </string>
+      </object>
+      <string name="windowRect">100 100 477 383 </string>
+      <string name="ScreenRectAtEncodeTime">69 0 1178 1920 </string>
+    </object>
+    <reference idRef="219"/>
+    <reference idRef="214"/>
+    <reference idRef="211"/>
+    <reference idRef="213"/>
+    <reference idRef="216"/>
+    <reference idRef="218"/>
+    <reference idRef="217"/>
+    <reference idRef="210"/>
+  </array>
+  <array count="11" name="allParents">
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="1"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="210"/>
+    <reference idRef="209"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>InteractiveFormat</string>
+    <reference idRef="209"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">269</unsigned_int>
+</object>

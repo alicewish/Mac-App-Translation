@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EnabledTextEncodings</key>
+	<array>
+		<integer>0</integer>
+		<integer>1</integer>
+		<integer>2</integer>
+		<integer>3</integer>
+		<integer>25</integer>
+		<integer>513</integer>
+		<integer>527</integer>
+		<integer>1280</integer>
+		<integer>1282</integer>
+		<integer>1585</integer>
+		<integer>1586</integer>
+		<integer>2080</integer>
+		<integer>2352</integer>
+		<integer>2561</integer>
+		<integer>2563</integer>
+	</array>
+	<key>ReadTextEncodingFallbacks</key>
+	<array>
+		<integer>0</integer>
+	</array>
+	<key>WriteTextEncodingValue</key>
+	<string>08nb</string>
+</dict>
+</plist>

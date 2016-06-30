@@ -1,0 +1,741 @@
+// comments are ignored if the // is the first two characters of the line
+// some lines have spaces at the end which should be left alone.
+// make sure blank lines are just a return only
+
+/////////////////////////////////Translator Notes///////////////////////////////////
+//The lines that begin with the double slash (//) like this one are comments and do not need to be translated.
+//
+//If you are Translating this text file into a different language, you must take
+// Special care with certain characters that are used by the program for formatting.
+// The following characters must be left unchanged
+//---------- \t
+//---------- \n
+//---------- \r
+//---------- \f
+//---------- &
+//---------- %d
+//---------- %s
+// Make sure that if there is a space before or after the word that it stays there. This is very important
+// The formatting of your output
+// !!!!!!!!!!!! DO NOT ADD ADDITIONAL LINES OF TEXT OR DELETE THEM!!!!!!!! 
+// THE ORDER THAT THESE STRINGS ARE READ IN IS VERY IMPORTANT!!!
+// THE PROGRAM WILL NOT FUNCTION PROPERLY IF THE STRINGS ARE READ IN THE WRONG ORDER
+// IF YOU CAN'T TRANSLATE A WORD... JUST LEAVE IT WHERE IT IS. REPEAT, DO NOT DELETE LINES OF TEXT!
+//
+// Leave the file path name comments where they are. This will help us to debug any problems with the translation.
+
+// THIS IS A FILE MARKER. DO NOT CHANGE THIS LINE
+##Final Draft
+// !!!!!!!!!!!!!!!!!!!!!!!!//
+
+
+Are you sure you want to delete the currently selected text and replace it with the character you just typed?
+
+// make sure you leave The "%d" after your translated word
+Element %d
+The current selection does not begin in a "Character" element.
+In order for Final Draft to carry out this command, you need to ensure that another character and their dialogue immediately follows this character's dialogue.
+You cannot delete the first locked page.
+The text pasted in contained elements that don't exist in this document. New elements were added to the element table matching the pasted text.
+Unlocking page breaks will reset all "A" and "B" pages. Are you sure you want to unlock page breaks?
+Unlocking "A" pages will reset the last level of "A" pages. Are you sure you want to unlock "A" pages?
+This command will remove the locked page entry at the current insertion point. Is this what you want?
+This command will insert a new locked page entry at the current insertion point. Is this what you want?
+This command will adjust where the current locked page starts. Is this what you want?
+This command will reset the page locking from the current page to the end of the script. Is this what you want?
+You cannot delete across a page break when the script is locked. 
+// header embedded ref strings
+Scene #
+Label
+Revision
+Script
+Printing
+Page 
+Page. 
+Scene Cards 
+Scene Outline
+Title Page
+Revert to Element
+Element Change
+Revision
+Character
+Delete Scene
+Insert Scene
+Scene Shuffle
+Dual Dialogue
+// index card paper ordering text
+Laser-Perforated Index Card Paper\r\rWith the introduction of the "Scene Navigator" Final Draft, Inc. has introduced its own custom designed laser-perforated index card paper.\r\rPrint the scenes of your script on 3x5 index cards using any printer. Cards can be taken with you anywhere, or tack them up on your wall to get a full overview of your script.\r\rPaper is available in packs of 100 sheets (300 index cards) in either white or an assortment of colors (25 each of pink, blue, gray and yellow).\r\rCall, Fax or Email to order. Or visit our web page.\r\rVoice: 800-231-4055\r818-995-8995\rFAX: 818-995-4422\rWeb: www.finaldraft.com\rEmail: sales@finaldraft.com
+// export types -- most of these are standard file formats which do not need to be translated
+Text Only	
+Text Only with Layout
+HTML Document
+Rich Text Format
+Final Draft 4 Document
+MacToolkit File
+Movie Magic
+Avid Script Based Editing
+File Converter 2.0
+File Converter 1.0 (FD 2.0/3.0)
+Rocket eBook
+Stationery
+Text Document
+// dont forget to leave the "&" where it is!
+&Lock "A" Pages
+&Lock Pages
+Scene Cut
+Scene Paste
+// A list of valid ScriptNote Markers - used for automatic marker generation
+0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()+=,./<>?;:'[]{}\|
+
+// web links
+http://www.finaldraft.com/messenger/secure.html
+http://www.finaldraft.com/partners/
+
+// These are strings that occur in the collabowriter dialogs
+Unable to Connect to Server.
+An Error occurred getting the chat string.
+ALL
+You are about to stop CollaboWriting.
+Close down CollaboWriter?
+Other CollaboWriters are connected to you.\rShutting down CollaboWriter will disconnect them.\rDo you want to disconnect them?
+Connect
+CollaboWriter
+Disconnect
+
+//backup manager strings
+Could not save backup file. Your original has been saved.
+Your Backup folder is full.
+Backups will continue to be made, but you might want to clear out old work to conserve  disk space.
+
+// Strings used more than once 
+// dont forget to leave the "&" at the beginning of the next three words
+&Delete
+&Replace
+&Start
+Backup folder could not be found. Please choose a new one.
+Cancel
+Characters
+Clo&se
+Do you want to search the rest of your script?
+
+// These Abbreviations are standard Script conventions you may or may not want to translate them
+// Exterior
+EXT
+// Interior/Exterior
+I/E
+// Interior
+INT
+// Off Screen (dialog)
+O.S.
+
+Editor
+File not found.
+Final Draft
+Final Draft Viewer
+Find Next
+Generating Script Report
+
+// leave a space at the end of this line
+Hello, this is 
+Ignore
+Important
+
+// location report strings
+Generating Location Report
+Location Report
+Script order
+Alphabetical order
+Most occurrences
+Least occurrences
+Scene intro
+Time of day
+Blank location
+Blank Scene Intro
+Blank Scene Heading
+Blank Time Of Day
+Occurrences
+Occurrence
+
+// scene report strings
+Generating Scene Report
+Scene Report
+Script order
+Alphabetical order
+Shortest scene
+Longest scene
+Scene #
+Scene Heading
+Page #
+Length
+Longest Scene: 
+Shortest Scene:
+Last Page: 
+
+// cast report strings
+Generating Cast Report
+Cast Report
+Script order
+Alphabetical order
+Most scenes
+Least scenes
+Most speaking scenes
+Least speaking scenes
+Total
+Dialogues
+Total
+Scenes
+Speaking
+Scenes
+Non-Sp.
+Scenes
+Character
+Character with the most dialogue:
+Character with the least dialogue:
+
+New word
+No Scene
+None
+Open
+
+//Don't forget to leave the "\r" where it is. They will cause line breaks!
+The path for your backup folder is no longer valid.\rCheck to make sure your backup folder still exists.
+Ready:
+Request timed out
+Rundown Report  
+Scene 
+Scenes
+Screenplay
+Script Report
+ScriptNote
+SmartType
+Some web browsers cannot display a large amount of 
+Speed View
+Text
+This file is not compatible with this version of Final Draft.
+This file is not compatible with this version of Final Draft. Consult the Final Draft manual on updating this file.
+Transitions
+Unknown Error while creating backup file. Please call Tech Support.
+Bold
+
+//Don't forget to leave the "\r" where it is. They will cause line breaks!
+Bookmarks Popup\r\rDisplays a list of your current bookmarks. Select a bookmark to quickly navigate your script.
+Center Align
+Clear Revised
+//Don't forget to leave the "\r" where it is. They will cause line breaks!
+Elements Popup\r\rDisplays the element type at the insertion point. Allows you to change the element type of the current paragraph by selecting a new type from the popup.
+Email
+Find and Replace
+Full Align
+Invisibles
+Italic
+Left Align
+//Don't forget to leave the "\r" where it is. They will cause line breaks!
+Magnify Popup\r\rDisplays the current magnification percentage. Allows you to change the magnification by selecting a new value from the popup.
+Mark Revised
+New ScriptNote
+Next Bookmark
+Next Revision
+Next ScriptNote
+Previous Bookmark
+Reformat
+Replace
+Revision Mode
+Right Align
+Scene Navigator
+Separator
+Skip
+Spell Check
+Start
+Strikeout
+Thesaurus
+Underline
+Uppercase
+Split Vertically
+Split Horizontally
+Unsplit
+break your script up into several linked files?
+information at once. Would you like Final Draft to 
+latent
+//Leave these Path name comments where they are. They will help us debug any problems with the translation
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:Dialogs:FDCharacterNamesDlg.cpp:
+Could not locate Names database.
+Could not locate Character Names database.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:Dialogs:FDCharacterReportDlg.cpp:
+The character report cannot be run because there are no characters in the script.
+Generating Character Report
+CHARACTER REPORT - 
+ -- Character Report for 
+SUMMARY:
+ interacts most with 
+ has monologues on the following pages:
+DETAIL:
+// from FDScriptNoteReport.cpp:
+ -- ScriptNote Report
+// from FDScriptReport.cpp:
+ -- Script Report
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:Dialogs:FDReformatDlg.cpp:
+End of Document
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:Dialogs:FDRevisionsDlg.cpp:
+New Revision
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:Dialogs:FDScriptNotesDlg.cpp:
+New NoteMarker
+This ScriptNote marker cannot be deleted. It is still in use in the current document.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDBackupMgr.cpp:
+Your backup directory could not be found.
+Choose Backup Directory
+Disable Auto-Backup
+Backup directory:
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDElement.cpp:
+Scene
+//from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDExportObject.cpp:
+// This file is responsible for exporting Final Draft scripts to earlier formats
+Exporting 
+HTML File created with Final Draft by Final Draft, Inc.
+Call for information or to place an order
+INT/EXT
+INTERIOR
+EXTERIOR
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDFinalDraftApp.cpp:
+Unauthorized
+This application allows you to read and print documents created with
+Visit www.finaldraft.com for more information.
+This is a demonstration of Final Draft. 
+The ability to save has been disabled.
+Final Draft Demo
+//from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDFinalDraftPrefsTypes.cpp:
+//make sure to leave the "\r" in between each translated word.
+By\rYour Name
+Street\rCity\rState\rZip Code
+Registered:####
+Month/Day/Year
+//from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDImporter.cpp:
+Importing 
+This file is not correctly formatted for RTF.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDNetworkCollaboration.cpp:
+// leave the space before "has control"
+ has control
+//make sure to leave the "\r" in between each translated word.
+You just received a file.\rWould you like to open it?
+Connecting to server
+Could not connect to the server.\rWould you like to try again?
+Disconnecting from server
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDNetworkCommandSend.cpp:
+ would like control of the script.\rCan they have it?
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDNetworkSocket.cpp:
+in Receiving data
+FDNetworkException in sending data
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDPageNavigator.cpp:
+Could not understand the character '
+ doesn't exist.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSPCommandHndlr.cpp:
+Bookmark &name:
+Insert Bookmark
+Scene &number:
+Edit Scene Number
+Are you sure that you want to remove all numbers from 
+ paragraphs?
+// Do not combine lines which seem to go together. The program will not run properly.
+Renumbering paragraphs will write over existing numbers. 
+Is this what you want?
+Label &name:
+Insert Label
+Omitted
+Pages are now locked. 
+Would you like to turn on Revision Mode?
+ Pages are now locked.
+New page &number:
+Edit Locked Page Number
+If you would like to change the font or style of the entire document, 
+it is recommended you do that from the Edit Elements dialog. 
+Do you still wish to continue?
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSPDocument.cpp:
+You are about to save an additional copy of your script in a secure (uneditable) format. Do not delete your original, you may need to make changes later.
+This file is a secure Final Draft document. This document cannot be edited. You can add script notes if you wish.
+Information
+Suggestion
+First Revision
+Second Revision
+Third Revision
+Fourth Revision
+Select Element
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSPText.cpp:
+//Remember to leave the "&" at the beginning of the translated word
+View
+Unomit
+
+//Make sure long lines like this one remain on one line in this file
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSceneNavTable.cpp:
+No Action
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDScriptNoteReport.cpp:
+Generating ScriptNote Report
+ScriptNote Report
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDScriptReportObj.cpp:
+Show Name
+Table Draft 1st Rev. - 
+Generating Rundown Report
+RUNDOWN REPORT DATA FOR: 
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDSpellCheckDialog.cpp:
+//The following lines occur in the Spellchecking dialogs
+Finished checking selection. 
+Continue to end of document?
+Spell check complete.
+Final Draft reached the end of the document. 
+Continue spell check from the beginning?
+View the omitted scene or unomit?
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDStatistics.cpp:
+Generating Statistics Report
+//from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDStatisticsReport.cpp:
+//These strings occur in the various statistics reports
+ -- Statistics Report
+Statistics for
+General Statistics
+Number of words:
+Number of paragraphs:
+Element Statistics
+Element
+Number\tPercentage
+Character Statistics
+Speaks %s times (%d%%) for a total of %s words (%d%%).
+Interacts most with 
+Has monologues on the following pages:
+Appears in the following scenes:
+Scene Statistics
+ words (
+Other scenes at same location
+Profanity
+This profanity report should be used as a general guide to the profanity content of your script. 
+Some of the items in this report may not be actual profanity and other
+ real instances in your script may have been missed.
+It appears on the following pages:
+It is spoken by the following characters:
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Common:FDThesaurusObject.cpp:
+Query not found.
+Nothing found for the given word.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMBackupMgr.cpp:
+A backup file was not created because your backup folder could not be found.\rPlease choose a new backup folder.
+Unknown Error while creating a backup file.\rPlease call Tech Support and tell them the following error code number: 
+Spelled Correctly
+Ignore Word
+Learn Word
+Ignore All
+Delete Word
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMCopyProtection.cpp:
+The disk inserted was not the Final Draft CD-ROM
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMElementsDialog.cpp:
+OtherÉ
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMEmailDocumentDialog.cpp:
+// The following strings occur in the e-mail routine for sending e-mail directly from Final Draft
+Would you like to save
+ before sending the email?
+If you do not save, the last saved version will be sent.
+ERROR: Email failed
+Mail sent successfully
+Opening connection to:
+Connected to:
+Disconnecting from:
+Unexpectantly Disconnected from:
+Connecting to internet
+SMTP Host is invalid.  Check your settings in the Configuration Manager control panel.
+An internet related error occurred.  
+The enclosed document was created using
+ by Final Draft, Inc.
+If you don't have Final Draft you can download a free viewing/printing utility at: http://www.finaldraft.com/viewer/\r
+Encoding file
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMFinalDraftApp.cpp:
+//These strings are used in various error messages and dialogs at the application level
+Final Draft was not installed properly.  Reinstall from the CD-ROM.
+Profiler Results
+Disk not found.
+Import text and convert to Script or Text document?
+The dictionary and thesaurus files add functionality to Final Draft.  \Spell checking a document or using the thesaurus is accessible within the program.
+Hide ScreenTips
+Show ScreenTips
+Help will be displayed in your default browser.  
+Launch the default browser?
+Final Draft CD-ROM has been detected.
+The ability to save has been enabled.
+Building font menu disabled.
+Font Menu Preferences
+Import RTF and convert to Script or Text document?
+Converted RTF File
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMNetworkCollaboration.cpp:
+// These are collabowriter strrings used in the mac version
+Problem Sending Chat
+Could not chat with Host.\r If problem persists disconnect and try reconnecting.
+Hosting at 
+This Feature is not implemented yet.
+You have started a server
+Other CollaboWriters can connect to you by using\rIP Address:
+Problem Sending File
+Final Draft could not send your script. The other CollaboWriter may be down, or you may have been disconnected. If problem persists, please disconnect and try reconnecting.
+Connected to 
+Could not complete connection to server.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMNewDocDialog.cp:
+Half-Hour Sitcom
+You must select a file in the list before clicking
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMNoteMarkersDialog.cpp:
+// These strings occur in the scriptnote marker dialog box
+New Note Marker
+Can't delete the last ScriptNote marker.
+This ScriptNote marker cannot be deleted. It is still in use in the current document.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMPersonalizeDialog.cpp:
+Name and Customer Number fields must be complete before clicking OK.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMPrintPreviewDialog.h:
+Print Preview
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMRegistrationDialog.cpp:
+An error #
+ occurred while generating the challenge code.
+Please report this error to Final Draft technical support.
+Internet Config is necessary to access the Web from Final Draft. Consult the manual for instructions.
+The Response code you entered is incorrect.
+Authorization Successful. Be sure to record your 
+ in case you have to reauthorize this machine in the future.
+Final Draft was not installed correctly.  Reinstall from CD-ROM.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMRevisionsDialog.cpp:
+Can't delete the last revision marker.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSPDocument.cpp:
+ Scene Report
+ Cast Report
+ Location Report
+ Note Report
+Statistics Report
+ Rundown
+No Bookmarks
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSceneNavigatorWindow.cpp:
+Navigator - 
+Delete
+Are you sure you want to delete the currently highlighted scene?
+Select Script
+Hide Action
+Show Action
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMScriptNoteWindow.cpp:
+Omitted Scene
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSmartTypeDialog.cpp:
+NEW ITEM
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSpeechEditActorsPanel.cpp:
+Are you sure you want to delete the selected Actor?
+Actor 
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMSpellCheckDialog.cpp:
+Misspelled Word:
+Repeated Word:
+Capitalize Word:
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMTextualProgressDialog.cpp:
+Successful!
+Error Occurred!
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Macintosh:FMToolbarItemMgr.cpp:
+// these stirngs will be used to provide the user with information when they hold thier mouse cursor
+// over toolbar items.
+// don't forget to leave the "\r" where they are. They are responsible for page breaks
+New
+New Button\r\rOpens a new Final Draft document called Òuntitled.Ó
+New Button\r\rOpens a new Final Draft document called Òuntitled.Ó  Not available because there is a dialog box on the screen.
+Open Button\r\rDisplays a dialog box that allows you to select an existing Final Draft document to open.
+Open Button\r\rDisplays a dialog box that allows you to select an existing Final Draft document to open.  Not available because there is a dialog box on the screen.
+Save
+Save Button\r\rSaves the open Final Draft document.  If you have not saved the document before, a dialog box appears in which you assign a name to the document and indicate where to save it.
+Save Button\r\rSaves the open Final Draft document.  Not available because no Final Draft document is open, because no changes have been made to the open document, or because the open document is a special type that cannot be changed or saved.
+Print
+Print Button\r\rDisplays a dialog box in which you can specify the number of copies you want to print and other printing options.
+Print Button\r\rDisplays a dialog box in which you can specify the number of copies you want to print and other printing options.  Not available because no Final Draft document is open or because the open Final Draft document is empty.
+Preview Button\r\rDisplays a dialog box that shows you a preview of the open document when printed on paper.
+Preview Button\r\rDisplays a dialog box that shows you a preview of the open document when printed on paper.  Not available because no Final Draft document is open or because the open Final Draft document is empty.
+Cut
+Cut Button\r\rCopies the currently selected text into the clipboard and deletes the selection
+Cut Button\r\rRemoves the selected text or graphics and places it temporarily into a storage area called the Clipboard.  Not available now because nothing is selected.
+Copy
+Copy Button\r\rCopies the selected text or graphics.  The original selection remains where it is. The copy is placed temporarily into a storage area called the Clipboard.
+Copy Button\r\rCopies the selected text or graphics.  The original selection remains where it is. The copy is placed temporarily into a storage area called the Clipboard. The command is not available now because nothing is selected.
+Paste
+Paste Button\r\rInserts the contents of the Clipboard at the location of the insertion point.
+Paste Button\r\rInserts the contents of the Clipboard at the location of the insertion point. Not available because there is nothing on the Clipboard or because the contents of the Clipboard are of a type Final Draft canÕt read.
+Undo
+Undo Button\r\rUndoes your last action. In Final Draft, you can use this command to replace material you have cut or cleared or to remove material you have pasted or typed.
+Undo Button\r\rUndoes your last action if it involved cutting, clearing, pasting, or typing.  Not available now because your last action cannot be undone.
+Redo
+Redo Button\r\rRedoes your last undo.
+Redo Button\r\rRedoes your last undo.  Not available now because your last undo cannot be redone.
+Element
+Bookmarks
+Dual Dialogue
+Dual Dialogue Button\r\rConverts the character and dialogue at the insertion point to a dual column format.
+Dual Dialogue Button\r\rConverts the character and dialogue at the insertion point to a dual column format.  Not available because no Final Draft document is open or because the insertion point is not in a character element.
+Revert Paragraph
+Revert Button\r\rConverts the paragraph at the insertion point to the default format for that element type.  Hold down the option key to fully reformat the paragraph and text in the paragraph.
+Revert Button\r\rConverts the paragraph at the insertion point to the default format for that element type.  Hold down the option key to fully reformat the paragraph and text in the paragraph.  Not available because no Final Draft document is open.
+Magnify
+Eliminates on of the current Panels.
+Eliminates on of the current Panels.  Not available because there is only one Panel;
+Divide the screen horizontally.
+Divide the screen horizontally.  Not available because this document cannot be split.
+Divide the screen vertically.
+Divide the screen vertically.  Not available because this document cannot be split.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWAuthorizeDlg.cpp:
+Authorization successful! Final Draft no longer requires the CD to be in the drive to run.
+Final Draft could not authorize your hard disk.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWCompareItems.cpp:
+Added
+Deleted
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWFinalDraftApp.cpp:
+The dictionary and thesaurus files add functionality to Final Draft. Spell checking a document or using the thesaurus is accessible within the program.
+ (converted).fdr
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWFindReplacePage.cpp:
+Mor&e>>
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWGotoPage.cpp:
+// Leave the "&" where it is
+&Next
+&Goto
+&Label:
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWGotoPageDlg.cpp:
+Page number entered is out of range.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWHeaderDlg.cpp:
+Header and Footer
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNcrRegPage.cpp:
+Name   : 
+Email  : 
+Address: 
+City   : 
+State  : 
+Zip    : 
+Country: 
+Phone  : 
+Author : 
+Title  : 
+Format : 
+Card Type    : 
+Name on Card : 
+Card Number  : 
+Card Expires : 
+This feature not implemented in beta
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNetworkCollaboration.cpp:
+//These strings are used in the collabowriter dialoge boxes on the windows version
+Writing partners should connect to
+ port 
+Could not connect to the audio server.
+Could not connect to the chat server.
+Could not connect to the script server.
+Could not connect to the user server.
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNetworkCollaborationDlg.cpp:
+Host: 
+ Port: 
+C&lose
+&Connect
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNetworkServerPortDialog.cpp:
+Please enter a name before starting the server.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWNetworkUserListDlg.cpp:
+File port:
+Writer
+Control
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWOptionsPropSheet.cpp:
+Spelling
+The number of recent files to display in the File menu has been changed and will be reflected the next time Final Draft is run.
+//// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWPickElementDlg.cpp:
+Can't recognize the styleset
+. Please choose an element to take its place.
+Slug Lines
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWReformatDlg.cpp:
+End of document.
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWRundownView.cpp:
+// Leave the "&" where they are
+&Print Rundown...
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWSPDocument.cpp:
+&Spelling...
+&Spell Check Selection...
+Character Report for
+Scene Report
+Script Report
+ScriptNote Report
+No Bookmarks in Script
+Documents cannot be saved in the Final Draft 6 Demo. Do you still wish to close this document?
+Documents cannot be saved in the Final Draft 6 Viewer. Do you still wish to close this document?
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWSceneNavigator.cpp:
+// from Macintosh HD:Projects:Final Draft:Source Code:Final Draft:Windows:FWSmartTypeListsPage.cpp:
+Extensions
+Scene Intros
+Locations
+Times
+NEW CHARACTER
+NEW LOCATION
+NEW TRANSITION
+(NEW)
+NEW TIME
+Do you wish to remove existing character continued's from your script?
+Elements should not start with spaces.
+Delete the starting spaces.
+Elements should not be blank.
+Delete the blank element.
+Characters must have dialogue.
+Delete the character.
+Characters should not speak twice in a row without a different element separating the dialogues.
+Dialogues should be immediately preceded by a character or parenthetical element.
+Must be fixed manually.
+No more errors found.
+No errors found.
+Format Assistant found 
+ errors in your script.\rWould you like to continue printing?
+Format Assistant is scanning the script for errors.
+Compare
+Please choose another script to compare \"
+\" to.
+Open for Compare
+The folder "My Documents" does not seem to exist. Auto-Backup has been disabled.\rGo to Tools > Options to set Auto-Backup to a folder of your choice.
+//smart type window title
+Elements
+//kDisconnectFromCollab
+You are about to disconnect from a CollaboWriter session.
+//Scene Colors
+// kDefaultSceneColorNone;
+None
+// kDefaultSceneColorRed;
+Red
+// kDefaultSceneColorOrange;
+Orange
+// kDefaultSceneColorYellow;
+Yellow
+// kDefaultSceneColorGreen;
+Green
+// kDefaultSceneColorBlue;
+Blue
+// kDefaultSceneColorPurple;
+Purple
+// kDefaultSceneColorGrey;
+Grey
+//kUndoSceneTitleString
+Scene Title
+//kUndoSceneSummaryString
+Scene Summary
+//kUndoSceneColorString
+Scene Color
+//kUndoSceneCastListString
+Scene Cast List
+//kSummaryViewMenuString
+Summary View
+//kActionViewMenuString
+Action View
+//kInsertSceneMenuString
+Insert New Scene
+//kScriptViewMenuString
+Script View
+//kActivationNoticeString
+Final Draft is installed but not currently activated.
+//kActivationNoticeString2
+You will need to activate before you can run the program.
+//kUndoOmitSceneString
+Omit Scene
+//kUndoScriptNoteEditString
+Note Edit
+//kTypeUndoScriptNoteNameString
+Note Name
+//kTypeUndoScriptNoteColorString
+Note Color
+//kTypeUndoScriptNoteDeleteString
+Remove Note
+//kTypeUndoCharacterArcBeatString
+Arc Beat
+//kTypeUndoScriptNoteTypeString
+Note Type
+//kUndoScriptNoteInsertString
+Insert Note
+//kNewScenePlaceholderText
+NEW SCENE
+//kTypeUndoScriptNoteAnchorString
+Note Position

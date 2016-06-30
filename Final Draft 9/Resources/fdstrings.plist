@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>107</key>
+	<string>Scene Navigator</string>
+	<key>119</key>
+	<string>Retry</string>
+	<key>121</key>
+	<string>Final Draft could not save your backup file.  Your original file was saved.</string>
+	<key>122</key>
+	<string>Final Draft could not find your backup directory &quot;%s&quot;.</string>
+	<key>125</key>
+	<string>Choose backup directory</string>
+	<key>127</key>
+	<string>Disable auto-backup</string>
+	<key>131</key>
+	<string>Backup directory:</string>
+	<key>132</key>
+	<string>Change scene number to:</string>
+	<key>133</key>
+	<string>Connected to</string>
+	<key>134</key>
+	<string>Disconnect</string>
+	<key>137</key>
+	<string>Change page number to:</string>
+	<key>143</key>
+	<string>Show Navigator</string>
+	<key>145</key>
+	<string>http://www.finaldraft.com/walkthrough.html?fd</string>
+	<key>176</key>
+	<string>Final Draft has reached the end of your script.  Do you want to continue from the beginning?</string>
+	<key>177</key>
+	<string>Final Draft has reached the beginning of your script.
+Do you want to continue from the end?</string>
+	<key>178</key>
+	<string>Final Draft has reached the end of the selection.</string>
+	<key>179</key>
+	<string>Final Draft has reached the beginning of the selection. </string>
+	<key>180</key>
+	<string>Final Draft has finished searching your script.</string>
+	<key>182</key>
+	<string>Final Draft has reached the end of your document.
+Do you want to start reading from the beginning?</string>
+	<key>187</key>
+	<string>Final Draft was unable to connect to the activation server.</string>
+	<key>188</key>
+	<string>Checking network connection</string>
+	<key>189</key>
+	<string>Connecting to activation server</string>
+	<key>190</key>
+	<string>Communicating with activation server</string>
+	<key>191</key>
+	<string>Receiving data from server</string>
+	<key>192</key>
+	<string>Activating Final Draft</string>
+	<key>193</key>
+	<string>A watermark will appear on all pages that are printed.</string>
+	<key>194</key>
+	<string>Stop Print</string>
+	<key>195</key>
+	<string>Continue</string>
+	<key>205</key>
+	<string> has joined the session</string>
+	<key>206</key>
+	<string> has left the session</string>
+	<key>207</key>
+	<string>**** Connection to host lost</string>
+	<key>208</key>
+	<string> has control of the script</string>
+	<key>209</key>
+	<string>****</string>
+	<key>210</key>
+	<string>Could not start your CollaboWriter session. Check your internet connection and make sure that you have entered the correct server information.</string>
+	<key>211</key>
+	<string>You must enter a name, IP address and port before you can connect.</string>
+	<key>212</key>
+	<string>You must enter a name and port before you can start a session.</string>
+	<key>213</key>
+	<string>Starting a CollaboWriter session.</string>
+	<key>214</key>
+	<string>Click OK to send the script to all participants who are connected to you. No one else will be able to join this session.</string>
+	<key>218</key>
+	<string>The Host is running a different version of Final Draft.
+
+The Host version is </string>
+	<key>219</key>
+	<string>
+Your version is </string>
+	<key>220</key>
+	<string>
+
+Connection at this time is not possible. You will need to have the same version before Collabowriting.</string>
+	<key>221</key>
+	<string> has requested control.</string>
+	<key>222</key>
+	<string>CollaboWriter session</string>
+	<key>223</key>
+	<string>Plain Text (*.txt)</string>
+	<key>224</key>
+	<string>Text with Layout (*.txt)</string>
+	<key>225</key>
+	<string>HTML Document (*.html)</string>
+	<key>226</key>
+	<string>Rich Text Format (*.rtf)</string>
+	<key>227</key>
+	<string>Adobe Acrobat Document (*.pdf)</string>
+	<key>228</key>
+	<string>Final Draft Secure Document (*.fds)</string>
+	<key>230</key>
+	<string>Avid Script-Based Editing (*.txt)</string>
+	<key>231</key>
+	<string>File Converter Format (*.fcf)</string>
+	<key>232</key>
+	<string>Final Draft Template (*.fdxt)</string>
+	<key>233</key>
+	<string>Final Draft 5-7 Document (*.fdr)</string>
+	<key>61618</key>
+	<string>Tab Delimited Dialogue (*.txt)</string>
+	<key>235</key>
+	<string>A secure copy of your script has been created.
+The copy is uneditable.
+
+Do not lose your original file.</string>
+	<key>236</key>
+	<string>Final Draft 5-7 Template (*.fdt)</string>
+	<key>237</key>
+	<string>To turn Format Assistant on again or to run it manually, go to the main menu bar and choose Tools and then Format Assistant.</string>
+	<key>238</key>
+	<string>Speed View</string>
+	<key>239</key>
+	<string>Previous Revision</string>
+	<key>240</key>
+	<string>Format Assistant has been cancelled. Do you still want to print?</string>
+	<key>241</key>
+	<string>New Element</string>
+	<key>3</key>
+	<string>Capitalize</string>
+	<key>32886</key>
+	<string>The active revision cannot be deleted.</string>
+	<key>32887</key>
+	<string>Deleting a revision will remove all revisions of this type from the script.</string>
+	<key>33790</key>
+	<string>Show Scene Properties</string>
+	<key>33791</key>
+	<string>Hide Scene Properties</string>
+	<key>41006</key>
+	<string>Hide Navigator</string>
+	<key>41007</key>
+	<string>Location</string>
+	<key>41008</key>
+	<string>Intro</string>
+	<key>41009</key>
+	<string>Time</string>
+	<key>41010</key>
+	<string>Title</string>
+	<key>41011</key>
+	<string>Order</string>
+	<key>41012</key>
+	<string>Color</string>
+	<key>41013</key>
+	<string>Length</string>
+	<key>41014</key>
+	<string>Page</string>
+	<key>41015</key>
+	<string>Scene #</string>
+	<key>41016</key>
+	<string>Scene Heading</string>
+	<key>42839</key>
+	<string>Multiple scenes are selected.</string>
+	<key>42840</key>
+	<string>Show Scene Title</string>
+	<key>42841</key>
+	<string>Hide Scene Title</string>
+	<key>42842</key>
+	<string>Show Summary</string>
+	<key>42843</key>
+	<string>Hide Summary</string>
+	<key>42844</key>
+	<string>Show Action</string>
+	<key>42845</key>
+	<string>Hide Action</string>
+	<key>6</key>
+	<string>Spelled Correctly</string>
+	<key>61557</key>
+	<string>Learn</string>
+	<key>61558</key>
+	<string>Ignore</string>
+	<key>61559</key>
+	<string>Ignore All</string>
+	<key>61560</key>
+	<string>Delete Repeated Word</string>
+	<key>61590</key>
+	<string>Final Draft Document (*.fdx)</string>
+	<key>61594</key>
+	<string>Save</string>
+	<key>61595</key>
+	<string>Save to Final Draft Connect</string>
+	<key>kAgree</key>
+	<string>A</string>
+	<key>kAgreeWithAgreement</key>
+	<string>Do you agree with the End User Agreement?</string>
+	<key>kBackupNotAvailable</key>
+	<string>BACKUP IS NOT AVAILABLE IN THE FINAL DRAFT DEMO</string>
+	<key>kBadOSVersion</key>
+	<string>To use Final Draft, your computer must be running Mac OS 8.6 or higher.</string>
+	<key>kCheckRegCard</key>
+	<string>The Customer Number you typed in is is incorrect.  Please check your
+ Registration Card or call Tech Support.</string>
+	<key>kClickAgree</key>
+	<string>Click &quot;Agree&quot; to continue setting up Final Draft.  Click &quot;Do Not Agree&quot; to quit Final Draft</string>
+	<key>kCouldNotFindSystemProfiler</key>
+	<string>Apple System Profiler could not be found.</string>
+	<key>kCouldNotLaunchSystemProfiler</key>
+	<string>Apple System Profiler could not be launched.</string>
+	<key>kDontAgree</key>
+	<string>Do Not Agree</string>
+	<key>kFDWasNotInstalled</key>
+	<string>Final Draft was not installed properly.  Reinstall from the CD-ROM.</string>
+	<key>kHideToolbar</key>
+	<string>Hide Toolbar</string>
+	<key>kInvalidCustomerNumber</key>
+	<string>Invalid Customer Number</string>
+	<key>kInvalidFromField</key>
+	<string>The &quot;From:&quot; field is not valid.</string>
+	<key>kInvalidToField</key>
+	<string>The &quot;To:&quot; field is not valid.</string>
+	<key>kKeyServerNotReturningProperKey</key>
+	<string>KeyServer has not verified the key.  Please notify the KeyServer administrator.  Final Draft will quit.</string>
+	<key>61597</key>
+	<string>Save with Comment…</string>
+	<key>kNoBackupFolder</key>
+	<string>BACKUP FOLDER COULD NOT BE FOUND - PLEASE CHOOSE A NEW ONE</string>
+	<key>kNoneText</key>
+	<string>None</string>
+	<key>kPausedString</key>
+	<string>Paused</string>
+	<key>61596</key>
+	<string>Save As…</string>
+	<key>kPlayingString</key>
+	<string>Speaking…</string>
+	<key>kShowToolbar</key>
+	<string>Show Toolbar</string>
+	<key>kStoppedString</key>
+	<string>Stopped</string>
+	<key>kWrongVersionOfCarbon</key>
+	<string>Final Draft needs CarbonLib version 1.4. Please install CarbonLib 1.4 from the Final Draft CD-ROM or update CarbonLib from Apple</string>
+	<key>61598</key>
+	<string>Show Projects</string>
+	<key>61599</key>
+	<string>Hide Projects</string>
+	<key>61600</key>
+	<string>Sign In…</string>
+	<key>61601</key>
+	<string>Sign Out</string>
+</dict>
+</plist>

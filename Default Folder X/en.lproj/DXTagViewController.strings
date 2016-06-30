@@ -1,0 +1,18 @@
+/* Class = "NSTokenFieldCell"; title = "one"; ObjectID = "1m7-Xv-C2h"; */
+"1m7-Xv-C2h.title" = "one";
+
+/* Class = "NSButtonCell"; title = "Remember these tags next time"; ObjectID = "8Ss-Mj-ETb"; */
+"8Ss-Mj-ETb.title" = "Remember these tags next time";
+
+/* Class = "NSTokenField"; ibExternalAccessibilityDescription = "Recent Tags"; ObjectID = "baa-GV-KAL"; */
+"baa-GV-KAL.ibExternalAccessibilityDescription" = "Recent Tags";
+
+/* Class = "NSTokenField"; ibExternalAccessibilityDescription = "Tag Field"; ObjectID = "ewq-gO-UYz"; */
+"ewq-gO-UYz.ibExternalAccessibilityDescription" = "Tag Field";
+
+/* Class = "NSTokenFieldCell"; title = "one"; ObjectID = "hUS-hK-KAg"; */
+"hUS-hK-KAg.title" = "one";
+
+/* Class = "NSTextFieldCell"; title = "Filename"; ObjectID = "r1M-oy-WVn"; */
+"r1M-oy-WVn.title" = "Filename";
+

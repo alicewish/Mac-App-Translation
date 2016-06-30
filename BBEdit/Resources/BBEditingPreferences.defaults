@@ -1,0 +1,16 @@
+TextCompletionTrigger = 1;
+IncludeDictionaryWordsInCompletionList = 0;
+IncludeTextReplacementsInCompletionList = 0;
+UseHardLineNumbersInSoftWrappedViews = 1;
+SoftWrapIndentation = 1;
+EditorLineSpacingMultiplier = 1.1;
+ExtraSpaceInTextViews = 1;
+HighlightInstancesOfSelectedText = 1;
+DelayBeforeHighlightingInstancesOfSelectedText = 0.25;
+UseLineHeightHighlightingForInstancesOfSelectedText = 0;
+ShowTickMarksForInstancesOfSelectedText = 0;
+LiveMatchHighlightMinimumSearchLength = 2;
+EnableFontLigatures = 0;
+EnableFontLigatures_Hasklig = 1;
+EnableRareLigatures = 0;
+BRIEFStateTimeout = 10.0;

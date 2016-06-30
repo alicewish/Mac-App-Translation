@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>102</key>
+	<string>Invalid Challenge Code</string>
+	<key>105</key>
+	<string>You have no more authorizations.</string>
+	<key>110</key>
+	<string>The Customer Number is not registered.</string>
+	<key>111</key>
+	<string>Contacting Final Draft, Inc...</string>
+	<key>112</key>
+	<string>Processing request...</string>
+	<key>126</key>
+	<string>Unable to locate URL.</string>
+	<key>128</key>
+	<string>Invalid Removal Code</string>
+	<key>129</key>
+	<string>CGI error</string>
+	<key>149</key>
+	<string>There was an error authorizing online.  Please try again or call Techincal Support</string>
+	<key>150</key>
+	<string>Unable to activate online.</string>
+	<key>151</key>
+	<string>Unable to Deactivate online.</string>
+	<key>152</key>
+	<string>The response code you have typed in is invalid, please try again.</string>
+	<key>153</key>
+	<string>Invalid response</string>
+	<key>154</key>
+	<string>Manual Deauthorize #</string>
+	<key>155</key>
+	<string> Call Techincal Support: Manual Deathorization Complete.</string>
+	<key>156</key>
+	<string>Online Activation</string>
+	<key>160</key>
+	<string>Finishing up...</string>
+	<key>161</key>
+	<string>New Customer Number:</string>
+	<key>162</key>
+	<string>Unable to connect to the Internet. Please check your connection/settings and try again, or use Manual Authorization</string>
+	<key>163</key>
+	<string>Connection Failed</string>
+	<key>164</key>
+	<string>Failure:</string>
+	<key>166</key>
+	<string>Authorization has failed. Please contact customer support. Have your Customer Number ready.</string>
+	<key>167</key>
+	<string>There was a problem with the server.</string>
+	<key>168</key>
+	<string>The Response Code is incorrect.</string>
+	<key>170</key>
+	<string>An unknown activation error occurred.</string>
+	<key>171</key>
+	<string>Activation was successful!</string>
+	<key>172</key>
+	<string>Deactivation was successful! You can now authorize a different computer or re-use the authorization on this computer at a later time.</string>
+	<key>173</key>
+	<string>Deactivation was successful! Inform the technical support representative of the Removal Code. You will then be able to authorize a different computer or re-use the authorization on this computer at a later time.</string>
+	<key>174</key>
+	<string>Invalid challenge code.</string>
+	<key>175</key>
+	<string>Invalid removal code.</string>
+	<key>183</key>
+	<string>Deactivation was successful.</string>
+	<key>184</key>
+	<string>Activation was successful.</string>
+	<key>199</key>
+	<string>Deactivate</string>
+	<key>200</key>
+	<string>Cancel</string>
+	<key>2003</key>
+	<string>KeyServer has not verified the key.  Please notify the KeyServer administrator.</string>
+	<key>203</key>
+	<string>No activations remain for this customer number.  Please visit Final Draft support at www.finaldraft.com/support/activation.php for more information.</string>
+	<key>215</key>
+	<string>Activation has become invalid.</string>
+	<key>216</key>
+	<string>The activation has been lost. Please reactivate or contact Customer Support.</string>
+	<key>217</key>
+	<string>Please contact Customer Support.</string>
+	<key>6042</key>
+	<string>Online Deactivation</string>
+	<key>6043</key>
+	<string>Starting up...</string>
+	<key>6044</key>
+	<string>Contacting Final Draft...</string>
+</dict>
+</plist>

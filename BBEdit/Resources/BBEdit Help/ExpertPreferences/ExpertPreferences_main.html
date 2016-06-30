@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <link rel="STYLESHEET" href="../help.css" charset="ISO-8859-1" type="text/css" />
+    <title>BBEdit Expert Preferences</title>
+    <meta name="generator" content="BBEdit 11" />
+</head>
+<body>
+    <div id="toc">
+        <h3>BBEdit Expert Preferences</h3>
+        <p class="Body">There are a number of behaviors in BBEdit for which there are no UI controls in the Preferences window; this is typically because the settings are so obscure that placing them in the Preferences window would just make it complicated. In fact, some of these settings <em>were</em> in the Preferences window, and have been removed in order to simplify the interface; in such cases, any changes you made previously will be honored, even though the UI in the Preferences window is gone.</p>
+        <p class="Note-Text"><strong>Note:</strong> Adjusting the settings described here involves using the Unix command line (in the Terminal or a suitable replacement, or in a BBEdit shell worksheet). Most changes will not have any immediate visible effect, but will instead take effect the next time you perform a relevant action, or, at the latest, after quitting and restarting BBEdit.</p>
+        <h4>Table of contents:</h4>
+			<ul>
+				<li class="Bullet-Tight"><a href="#clip">Clippings, Editing and Text Completion</a></li>
+				<li class="Bullet-Tight"><a href="#ftp">FTP/SFTP</a></li>
+				<li class="Bullet-Tight"><a href="#diff">File Comparison</a></li>
+				<li class="Bullet-Tight"><a href="#html">HTML Tools</a></li>
+				<li class="Bullet-Tight"><a href="#inte">Interacting with Other Applications</a></li>
+				<li class="Bullet-Tight"><a href="#lang">Language Support</a></li>
+				<li class="Bullet-Tight"><a href="#proj">Projects</a></li>
+				<li class="Bullet-Tight"><a href="#read">Reading and Writing Files</a></li>
+				<li class="Bullet-Tight"><a href="#slee">Sleep and Auto-Save</a></li>
+				<li class="Bullet-Tight"><a href="#sour">Source Control</a></li>
+				<li class="Bullet-Tight"><a href="#textd">Text Display and Coloring</a></li>
+				<li class="Bullet-Tight"><a href="#texts">Text Search and Replace</a></li>
+				<li class="Bullet-Tight"><a href="#wind">Windows and UI Tweaking</a></li>
+				<li class="Bullet-Tight"><a href="#misc">Miscellaneous</a></li>
+			</ul>
+        <hr />
+        <div id="clip"></div>
+        <h4>Clippings, Editing and Text Completion</h4>
+        <ul>
+            <li>
+                <p class="Body">BBEdit supports "camel case" navigation: press Control-left-arrow or Control-right-arrow to jump to the next (or previous) transition from lower-case to upper-case characters (or a word boundary, whichever comes first).</p>
+                <p class="Body">Note that this use of Control-left-arrow and Control-right-arrow replaces the pre-8.5 behavior of using these key combinations to scroll horizontally. If you prefer the old behavior, you can do the following from the command line:</p>
+                <p class="Code">defaults write com.barebones.bbedit Editor_ControlArrowCamelCase -bool NO</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit Editor_ControlArrowHScroll -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">If there is a partial word to the immediate left of the insertion point, the "Insert Clipping..." command will attempt to autocomplete that word based clipping names in the current and universal set (using a "begins with" style match.) If you wish to disable the autocompletion:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit UseClippingsForCompletion -bool NO</p>
+            </li>
+            <li>
+            	<p class="Body">When you backspace from the insertion point, BBEdit will delete a tab stop's worth of spaces if there are only spaces (and tabs) between the insertion point and the start of the line on which you're editing. This may be disabled by an expert preference if desired:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit Editor_DeleteIndentationWhitespaceToTabStop -bool NO</p>
+			</li>
+			<li>
+				<p class="Body">Automatic word counting is disabled for documents over a set size threshold, in order to avoid needless delays when working on very large documents. The factory default is 16M characters, but you may change this limit as desired using the following expert preference:</p>
+				<p class="Code">defaults write com.barebones.bbedit Editor_AutoWordCountSizeThreshold -int 16777216</p>
+				<p class="Code-Last">#Setting it to zero disables the limit check entirely.</p>
+			</li>
+            <li>
+                <p class="Body">Since "Find All Misspelled Words" is pretty much pointless on files over a certain size, the maximum amount of text checked by this command is limited to 1M (1024 squared) characters. This may be adjusted with an expert preference:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit Editor_SpellCheckLengthLimit -int NN</p>
+				<p class="Body">where "NN" is some decimal value. Use <code>-int 0</code> to suppress the limit altogether.</p>
+			</li>
+			<li>
+                <p class="Body">Text completions that depend on examining the document's contents (both for tokens in the document, and for possible completions from the system spelling checker) are now skipped when the document is above a certain size. The cutoff can be adjusted:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit MaxDocumentLengthForCompletionTokenizer -int NN</p>
+				<p class="Body">where "NN" is some decimal value. Use <code>-int 0</code> to suppress the limit altogether.</p>
+			</li>
+			<li>
+				<p class="Body">By default, the "Balance" command (or double-clicking on a delimiter to balance) does not include the delimiters in the resulting selection. If you would like for it to do so:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit BalanceIncludesDelimiters -bool YES</p>
+			</li>
+			<li>
+				<p class="Body">When using the Un/Comment command, if nothing is selected, BBEdit will use the line comment delimiter to comment (or uncomment) the entire line. If you would prefer that BBEdit insert the line-comment delimiter at the insertion point instead:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit CommentWholeLineWithInsertionPoint -bool NO</p>
+			</li>
+			<li>
+				<p class="Body">By default, the "Shift Right" command on the Text menu will not add indentation to lines that are empty or consist entirely of white space. If you would prefer to indent every line, regardless of its whitespace-only nature, you can do so:</p>
+				<p class="Code">defaults write com.barebones.bbedit AllowShiftRightToIndentWhitespaceOnlyLines -bool YES</p><br/>
+				<p class="Body">Note that this preference can be set per-language in the usual fashion, by appending the language's name to the preference key:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit AllowShiftRightToIndentWhitespaceOnlyLines_C++ -bool YES</p>
+			</li>
+			<li>
+				<p class="Body">When you use the right-arrow key to navigate over a closing delimiter (right paren/brace/bracket/curly quote), the opening delimiter will be briefly highlighted. If you wish to turn this off, there's an expert pref:</p>
+				<p class="Code">defaults write com.barebones.bbedit FlashBalancePointsWhenNavigating -bool NO</p><br/>
+			</li>
+
+			<li>
+				<p class="Body">If you find that you frequently need to bring in text which contains combining Unicode characters (as are frequently found in PDFs generated on other platforms, for example), it can be desirable to preprocess the combining characters into one composed character where possible. This is <strong>not</strong> a general need, but if you run into it often enough, you can tell BBEdit to combine the characters for you:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit PrecomposeUnicodeWhenPasting -bool YES</p>
+				<p class="Body">(Despite the name, the precomposition is done when BBEdit imports the Clipboard from other applications, not when the paste is actually done.)</p>
+				<p class="Body">Note that this requires an additional copy of the Clipboard when the application imports the text, and for very large pastes, there may be a noticeable delay while the text gets precomposed. Thus, you should only turn on this setting when you are frequently working with text that contains combining Unicode characters.</p>
+			</li>
+
+			<li>
+				<p class="Body">The progressive (BRIEF compatible) behavior of the Home and End keys operates within a specific time period; if you wait longer than that, the behavior state resets. The factory default timeout period is ten seconds; if you wish to modify this, you can do so as follows:</p>
+				<p class="Code">defaults write com.barebones.bbedit BRIEFStateTimeout -float x.y</p>
+				<p class="Code-Last"># "x.y" is some floating point value greater than zero</p>
+			</li>
+
+			<li>
+				<p class="Body">If you like, you can use the Tab key to trigger text completion:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit UseTabKeyAsCompletionTrigger -bool YES</p>
+			</li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="ftp"></div>
+        <h4>FTP/SFTP</h4>
+        <ul>
+            <li>
+                <p class="Body">Settings are available for disabling passive FTP, in order to deal with hosts that misbehave when sent the <code>PASV</code> command.</p>
+                <p class="Body">Passive FTP can be disabled per host, per domain, or globally:</p>
+                <p class="Code"># only for "foobar.example.com"</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit DisablePassiveFTP:foobar.example.com -bool YES</p>
+                <p class="Code"># only for servers in "example.com"</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit DisablePassiveFTP:example.com -bool YES</p>
+                <p class="Code"># global preference</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit DisablePassiveFTP -bool YES</p>
+                <p class="Body">Our recommendation is that you disable per host in preference to globally or per-domain.</p>
+            </li>
+            <li>
+                <p class="Body">Some servers don't work correctly when SSH compression is enabled. To work around this, SSH compression can be disabled per host, per domain, or globally:</p>
+                <p class="Code"># only for "foobar.example.com"</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit EnableSSHCompression:foobar.example.com -bool NO</p>
+                <p class="Code"># only for servers in "example.com"</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit EnableSSHCompression:example.com -bool NO</p>
+                <p class="Code"># global preference</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit EnableSSHCompression -bool NO</p>
+                <p class="Body">Our recommendation is that you disable per host in preference to globally or per-domain.</p>
+            </li>
+            <li>
+                <p class="Body">Most of the time, the default timeout for connecting to an SFTP server will suffice; however, if the server is heavily loaded it may take longer to respond. To adjust the SFTP connection timeout:</p>
+                <p class="Code"># set the timeout to 20 seconds -- note that "-int" is required</p>
+                <p class="Code">defaults write com.barebones.bbedit SFTPConnectionTimeout -int 20</p>
+            </li>
+        </ul>
+    	<p class="Body"><a href="#toc">Back to top</a></p>
+       <hr />
+        <div id="diff"></div>
+        <h4>File Comparison</h4>
+        <ul>
+            <li>
+                <p class="Body">When comparing text files, BBEdit will canonicalize RCS keywords to their unexpanded state, so that the values of RCS keywords are not significant to the differences calculations. If you wish, you can disable this, so that any chance in the RCS keywords on a line will cause the line to appear in the differences:</p>
+                <p class="Code"># Ignore variances in RCS keyword values when comparing</p>
+                <p class="Code">defaults write com.barebones.bbedit Diff_IgnoreRCSKeywords -bool NO</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="html"></div>
+        <h4>HTML Tools</h4>
+        <ul>
+            <li>
+                <p class="Body">When doing Check Syntax, Check Links, Update, or Update Images on a folder (including a web site), BBEdit will skip XML files (that is, files determined to be XML either by mapping their file name extensions, or by inspection of their contents). If you prefer to include such files:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit MarkupToolsMisc_SkipXMLFilesWhenScanningFolders -bool NO</p>
+            </li>
+
+            <li>
+            	<p class="Body">Ordinarily, BBEdit will generate XHTML-style markup in HTML5 documents (those with a "&lt;!DOCTYPE HTML&gt;" declaration). If you wish, you can suppress this:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit UseXMLMarkupRulesForHTML5 -bool NO</p>
+            </li>
+
+            <li>
+            	<p class="Body">When generating image markup as a result of dropping an image file into an HTML document, BBEdit will generate an "alt" attribute for the image tag, whose value is the file's name. If you would prefer for the "alt" attribute to be omitted (which will result in an error when checking syntax), you can disable this:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit HTMLImageMarkupUsesFileNameForAlt -bool NO</p>
+            </li>
+
+            <li>
+            	<p class="Body">When you drop an image file into an HTML document to generate an image tag, BBEdit will generate "width" and "height" tags based on information in the file itself. If you would prefer to omit these:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit HTMLImageMarkupCreatesSizeAttributes -bool NO</p>
+            </li>
+            <li>
+            	<p class="Body">If <code>HTMLImageMarkupCreatesSizeAttributes</code> is turned on, you can instruct BBEdit to generate inline styles for image sizes, instead of height and width:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit HTMLImageMarkupUseInlineStyleForImageSize -bool YES</p>
+            </li>
+            <li>
+            	<p class="Body">When you invoke the Markup Panel to create a new tag, it will automatically fill in attribute names for "promoted" attributes. If there are any attributes that you don't want to be present in the generated markup, just leave their values blank, and the panel will omit them (unless the attributes are required).</p>
+            	<p class="Body">If you wish, you can suppress the auto fill with an expert preference:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit MarkupPanelAutoPrefillRecommendedAttributeNames -bool NO</p>
+            	<p class="Body">Turning off the auto fill will cause the "gear" to appear in the markup panel, and clicking it will manually fill in the promoted attribues for you.</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="inte"></div>
+        <h4>Interacting with Other Applications</h4>
+        <ul>
+            <li>
+                <p class="Body">if Xcode is running, Open Selection and Open File by Name will ask it for a path to the file name; if something useful comes back, BBEdit will open it. If for some reason you are using Xcode but don't want BBEdit to do this, you can turn it off:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit AskXcodeForOpenFileByName -bool NO</p>
+            </li>
+            <li>
+                <p class="Body">By default, BBEdit will open AppleScript files using whatever application the OS claims is capable of doing so. If you wish to override this, change the "ScriptEditorBundleID" preference to the bundle ID of your preferred script editor. For example, to set the script editor to Script Debugger:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit ScriptEditorBundleID com.latenightsw.ScriptDebugger</p>
+            </li>
+            <li>
+            	<p class="Body">The "Run in Terminal" and "Go Here in Terminal" commands will use Apple's "Terminal" application by default. If you would like to use a different one:</p>
+       			<p class="Code-Last">defaults write com.barebones.bbedit TerminalBundleID -string "com.example.TerminalAppBundleID"</p>
+       			<p class="Body">(Use the actual terminal's bundle ID in place of "com.example.TerminalAppBundleID"&hellip;)</p>
+       		</li>
+       		<li>
+       			<p class="Body">If <a href="http://kapeli.com/dash">Dash</a> is installed, BBEdit will use it for "Find in Reference", in preference to any predefined or custom reference lookup URLs. This can be controlled via an expert preference, on a per-language basis if desired:</p>
+				<p class="Code">defaults write com.barebones.bbedit UseDashForReferenceLookups -bool NO</p>
+				<p class="Code"># turn off Dash support entirely</p><p></p>
+				<p class="Code">defaults write com.barebones.bbedit UseDashForReferenceLookups_Ruby -bool NO</p>
+				<p class="Code-Last">#turn off Dash support only for Ruby</p>
+				<p class="Body">You could, if you wanted, turn off Dash support by default and then enable it for specific languages, e.g.:</p>
+				<p class="Code">defaults write com.barebones.bbedit UseDashForReferenceLookups -bool NO</p>
+				<p class="Code"># turn off Dash support entirely</p><p></p>
+				<p class="Code">defaults write com.barebones.bbedit UseDashForReferenceLookups_C++ -bool YES</p>
+				<p class="Code-Last">#turn on Dash support only for C++</p>
+       		</li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="lang"></div>
+        <h4>Language Support</h4>
+        <ul>
+        	<li>
+        		<p class="Body">If you like, you can set the default language for new untitled documents:</p>
+        		<p class="Code-Last">defaults write com.barebones.bbedit DefaultLanguageNameForNewDocuments -string "&lt;language name&gt;"</p>
+        		<p class="Body">"<code>&lt;language name&gt;</code>" should be the name of a language shown as installed in the Language preferences. For example, if you want your new documents to be Markdown:</p>
+        		<p class="Code-Last">defaults write com.barebones.bbedit DefaultLanguageNameForNewDocuments -string "Markdown"</p>
+        	</li>
+            <li>
+                <p class="Body">Most of the factory supplied language modules generate fold ranges for any brace-delimited block that has at least one line, but to reduce noise, only block folds that have at least four lines are shown in editing windows. You can adjust this from the command line, using a language-specific preference key, which consists of "MinimumLinesForBlockFold_" (note the underscore) and the language name; for example:</p>
+                <p class="Code">defaults write com.barebones.bbedit MinimumLinesForBlockFold_Objective-C</p>
+                <p class="Code">defaults write com.barebones.bbedit MinimumLinesForBlockFold_Objective-C++ 4</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit MinimumLinesForBlockFold_JavaScript 4</p>
+            </li>
+            <li>
+            	<p class="Body">Here are some language-specific settings for PHP. The settings with "Opaque" in their names refer to how certain structures are treated when scanning PHP code that's embedded in HTML; when the preference is YES (the factory default in most cases), the corresponding structure is skipped so that any syntactic elements within it are ignored. When the preference is NO, the comment/string/etc delimiters are ignored and the structure's contents are interpreted. (This is generally not desirable, but currently preserved for legacy compatibility.)</p>
+				<p class="Code">defaults write com.barebones.bbedit OpaqueStrings_PHP -bool NO</p>
+            	<p class="Code">defaults write com.barebones.bbedit OpaqueBlockComments_PHP -bool NO</p>
+            	<p class="Code">defaults write com.barebones.bbedit OpaqueLineComments_PHP -bool NO</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit OpaqueHereDoc_PHP -bool NO</p>
+            	<p class="Body">If you want variables to appear in the function menu in PHP documents:</p>
+            	<p class="Code">defaults write com.barebones.bbedit ShowVariablesInFunctionList_PHP -bool YES</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="proj"></div>
+        <h4>Projects</h4>
+        <ul>
+            <li>
+                <p class="Body">In project windows, the file list does not accept keyboard focus by default, unless the editing view is hidden. You can modify this so that the file list gets the focus whenever you click on it:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit ProjectsListCanAcquireKeyboardFocus -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">Project windows will ordinarily open an item in the file list for editing when you click on it and the editing view is visible. To require a double-click:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit ProjectsOpenItemsOnSingleClick -bool NO</p>
+            </li>
+            <li>
+            	<p class="Body">BBEdit will not automatically reveal documents in the project list when you select them; <code>View => Reveal in Project List</code> works for this purpose. If you want automatic revealing:</p>
+            	<p class="Code">defaults write com.barebones.bbedit AutoRevealSelectedDocumentInProjectList -bool YES</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="read"></div>
+        <h4>Reading and Writing Files</h4>
+        <ul>
+            <li>
+                <p class="Body">BBEdit ordinarily recognizes image files as images, and will open them into image windows (or ignore them when filtering for text files). To have images possibly treated as text files (which can be potentially dangerous):</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit QuickTimeImages -bool NO</p>
+            </li>
+            <li>
+                <p class="Body">By default, PDFs are considered text files and so may be opened and searched along with all other text files. To have PDFs treated as a special file type (they will be ignored for any operation that requires a text file):</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit OpenPDFsAsText -bool NO</p>
+            </li>
+            <li>
+                <p class="Body">To control whether BBEdit warns you when opening a malformed UTF-8 file:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit WarnMalformedUTF8 -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">Ordinarily, BBEdit will only ask you to choose a file's encoding when it can't otherwise figure out what the encoding is, and your "if the file's encoding can't be guessed" preference is a UTF-8 or UTF-16 variant. This should be fine for general use, but if for some reason you <em>always</em> want BBEdit to ask you when it can't guess a file's encoding, even if your preference would do the job, you can:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit AskForUnguessableFileEncoding -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">Beginning with version 8.0, BBEdit stores document state (window position and various settings) in a central repository in your BBEdit preferences folder. If you wish, you can ask BBEdit to store document state in the resource fork of the document's file:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit UseResourceForkForDocumentState -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">By default, BBEdit will not store document state for documents located in any of the canonical locations for temporary files. (This also includes the "svn-commit.tmp" files used for Subversion commits.) If desired, you can change this::</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit SaveDocumentStateForTempFiles -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">By default, BBEdit will avoid writing extended attributes (HFS Type/Creator) to volumes which don't natively support them (i.e. to avoid creating the ._FILE) when it is safe to do so (i.e. we'll be able to re-open the document correctly later.) If desired, you can fine-tune this behavior:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit WriteExtendedAttributes <i>&lt;value&gt;</i></p>
+                <p class="Body">&ldquo;<i>value</i>&rdquo; should be one of the following:</p>
+                <ul>
+                    <li>
+                        <p class="Body"><em>Always</em>: Always write the HFS file type and creator (the pre-8.6 behavior)</p>
+                    </li>
+                    <li>
+                        <p class="Body"><em>Never</em>: Never set the HFS file type and creator (even if the document&rsquo;s volume supports it).</p>
+                    </li>
+                    <li>
+                        <p class="Body"><em>Smart</em>: Write HFS file type and creator only if the document&rsquo;s volume supports it</p>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <p class="Body">For text documents whose size exceeds a certain threshold (expressed in bytes, factory default 1MB), BBEdit will ignore the Soft Wrap Text preference and leave wrapping off in order to improve the performance of opening very large files. The threshold may be adjusted if desired:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit Editor_SoftWrapLengthThreshold -int 1048576</p>
+                <p class="Body">If you set the limit to zero, BBEdit will always honor the Soft Wrap Text preference, even in situations where soft-wrapping a large file may cause it to take a very long time to open.</p>
+            </li>
+
+            <li>
+            	<p class="Body">The "Text Files Only" filtering in project lists and disk browsers looks inside of files if necessary, for improved filtering accuracy. This may be disabled, if desired:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit InspectTextFileContentsForListFiltering -bool NO</p>
+            </li>
+
+            <li>
+            	<p class="Body">BBEdit makes a reasonable guess at a filename
+	extension when using "Save As" for a new document. You can also set the preferred extension on a per-language basis:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit PreferredFilenameExtension_&lt;LanguageName&gt; -string "abc"</p>
+            	<p class="Body">Replace <code>&lt;LanguageName&gt;</code> with the actual language name; for example:
+            	<p class="Code">defaults write com.barebones.bbedit PreferredFilenameExtension_C++ -string "cxx"</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit PreferredFilenameExtension_YAML -string "yaml"</p>
+				<p class="Body">Note that the extension you specify should <strong>not</strong> include the leading period.</p>
+				</p>
+            </li>
+		</ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="slee"></div>
+        <h4>Sleep and Auto-Save</h4>
+        <ul>
+            <li>
+                <p class="Body">Document auto-save (for crash recovery) is on by default, with a save interval of one minute. To change either setting:</p>
+                <p class="Code">defaults write com.barebones.bbedit EnableAutoSave_v2 -bool YES</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit AutoSaveIntervalInMinutes_v2 -int 10</p>
+            </li>
+            <li>
+                <p class="Body">The "Sleep" command does not save any documents in place, since it creates an auto-save file for any open documents with unsaved changes. However, if you want BBEdit to save any titled (i.e. opened from an existing file) documents to disk before sleeping, you can do so as follows:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit SaveTitledDocumentsBeforeSleeping -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">BBEdit provides control over whether documents on remote servers (FTP/SFTP) or unmounted volumes are opened when automatically reopening documents at application startup. You can modify its behavior with these settings:</p>
+                <p class="Code">defaults write com.barebones.bbedit AllowVolumeMountDuringStateRestore -bool YES</p>
+                <p class="Code"># If set to YES, BBEdit will attempt to mount a volume</p>
+                <p class="Code-Last"># containing a document it wants to reopen. defaults to NO.</p>
+                <p class="Code">defaults write com.barebones.bbedit ReopenRemoteDocuments -bool YES</p>
+                <p class="Code"># If set to NO, BBEdit will not attempt to open any documents</p>
+                <p class="Code-Last"># that were opened from FTP/SFTP servers. Defaults to YES.</p>
+                <p class="Code">defaults write com.barebones.bbedit PromptToReopenRemoteDocuments - bool YES</p>
+                <p class="Code"># If set to YES (the default), BBEdit will prompt to give you the </p>
+                <p class="Code"># opportunity to skip remote documents.</p>
+                <p class="Code"># If set to NO, BBEdit will open remote documents without</p>
+                <p class="Code"># asking, if ReopenRemoteDocuments is set to YES. </p>
+                <p class="Code"># Has no effect if ReopenRemoteDocuments is set to NO.</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="sour"></div>
+        <h4>Source Control</h4>
+        <ul>
+            <li>
+                <p class="Body">BBEdit&rsquo;s Perforce support uses the &ldquo;p4 login&rdquo; mechanism. This should be compatible with Perforce repositories and workflows, but if for some reason using p4 login poses a problem in your use of the built-in p4 integration, you can disable it:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit PerforceDoNotUseP4Login -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">When scanning folders for various purposes (multi-file search, Find differences, and others), SCM administrative directories are specifically ignored, even if "Search Invisible Folders" is turned on: CVS, .svn, .git, .hg, .bzr. This avoids potential disasters that can result from indiscriminate search and replace in such directories. If, however, you choose to live dangerously, you can allow BBEdit to see inside of these directories:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit SkipSCMAdminDirsWhenScanningFolders -bool NO</p>
+            </li>
+            <li>
+                <p class="Body">BBEdit will ordinarily select the appropriate command-line tool for communicating with the SCM system, based on your <code>$PATH</code> environment variable. If you find that an undesired command-line tool is running within BBEdit but the desired tool is being invoked from a Terminal command line, examine your tool installation and <code>$PATH</code> setup for errors.</p>
+                <p class="Body">However, for specific cases in which it is necessary to force BBEdit to use a particular tool, you may do so via the following defaults commands:</p>
+                <p class="Code">defaults write com.barebones.bbedit PerforceToolPathOverride /path/to/p4/binary</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit SubversionToolPathOverride /path/to/svn/binary</p>
+            </li>
+            <li>
+				<p class="Body">"Show Working Copy Status" for svn does not include switched items. If this affects you and you would prefer to see switched items, you may make them visibile with:</p>
+				<p class="Code">defaults write com.barebones.bbedit ShowSVNSwitchedItems -bool YES</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="textd"></div>
+        <h4>Text Display and Coloring</h4>
+		<ul>
+			<li>
+				<p class="Body">Whether or not BBEdit uses text smoothing (antialiasing) may be adjusted separately for fixed-width and for proportional fonts:</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit FixedWidthFontSmoothingThreshold -int 8</p>
+				<p class="Code-Last">defaults write com.barebones.bbedit FontSmoothingThreshold -int 4</p>
+				<p class="Body">The factory default smoothing thresholds are 8pt for fixed width fonts, and 4pt for proportional fonts, respectively. Font sizes above the specified threshold are smoothed; font sizes below the threshold are not.</p>
+			</li>
+
+			<li>
+			<p class="Body">If you want to unconditionally disable text smoothing for a specific font, you can do so as follows:</p>
+			<p class="Code-Last">defaults write com.barebones.bbedit DisableFontSmoothing_FONTNAME -bool YES</p>
+			<p class="Body">"FONTNAME" is the display name of the font, as it appears in the Fonts panel or the Font Book application. For example, this will disable font smoothing for Monaco:</p>
+			<p class="Code-Last">defaults write com.barebones.bbedit DisableFontSmoothing_Monaco -bool YES</p>
+			</li>
+
+			<li>
+			<p class="Body">Font ligatures are off by default (except for the "Hasklig" font), but if you wish you may enable ligatures on a per-font basis. To enable ligatures for a specific font, use the preference key "<code>EnableFontLigatures</code>", an underscore, and then the display name of the font (as it appears in the "Fonts" panel or the "Font Book" application, <em>not</em> the name of the font file on disk). Using the "Hasklig" font as an example:</p>
+			<p class="Code-Last">defaults write com.barebones.bbedit EnableFontLigatures_Hasklig -bool YES</p>
+			
+			<p class="Body">Even when font ligatures are turned on, "rare" ligatures are turned off by default. To enable rare ligatures for a specific font, use the preference key "<code>EnableRareLigatures</code>", an underscore, and then the display name of the font (as it appears in the "Fonts" panel or the "Font Book" application, <em>not</em> the name of the font file on disk). Again using the "HaskLig" font as an example:</p>
+			<p class="Code-Last">defaults write com.barebones.bbedit EnableRareLigatures_HaskLig -bool YES</p>
+			<p class="Body">Whether or not to turn on rare ligatures depends entirely on the design of the font and its behavior when used for editing; there is no hard-and-fast rule for what ligatures a font would decide to support as rare.</p>
+		</ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="texts"></div>
+        <h4>Text Search and Replace</h4>
+        <ul>
+            <li>
+                <p class="Body">Like many Mac OS X applications, BBEdit supports the "Find Scrap", a feature of the OS that enables sharing of the "search for" string between applications. Some applications put inappropriate content (such as Web search strings) on the Find Scrap, which can cause the "search for" string in BBEdit's Find dialog to be replaced when you didn't expect it.</p>
+                <p class="Body">To tell BBEdit not to import the Find Scrap into its Find window, nor to export the "search for" string to the Find Scrap:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit FindDialog_UsesFindScrap -bool NO</p>
+            </li>
+            <li>
+            	<p class="Body">The Live Search bar is not visible by default, but appears when you choose "Live Search" from the Search menu. If you would like the Live Search bar to be visible in each new document that you create or open:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit Editor_AlwaysOpenQuickFind -bool YES</p>
+            </li>
+            <li>
+            	<p class="Body">When performing a single-file "Replace All" operation, BBEdit can show a confirmation sheet showing the number of replacements performed. If you would like to see this confirmation:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit ReportReplaceAllResults -bool YES</p>
+            </li>
+            <li>
+            	<p class="Body">If you want to amaze and impress your friends and family with just how fast BBEdit's Replace All is, there's an expert preference for that:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit ReplaceAllResultsIncludeTiming -bool YES</p>
+            	<p class="Body">When turned on, the sheet (or growl notification) will display the amount of time required for the Replace All operation.</p>
+            </li>
+            <li>
+            	<p class="Body">If you like, BBEdit will show the full paths of files listed in search results windows:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit ShowFullPathsInSearchResults -bool YES</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="wind"></div>
+        <h4>Windows and UI Tweaking</h4>
+        <ul>
+        	<li>
+        		<p class="Body">When using the "Previous Document" and "Next Document" commands on the View menu, or the navigation arrows in the navigation bar, the order in which BBEdit navigates documents is determined by the order in which they were opened. If you prefer, these commands can be made to navigate the documents in the order shown in the file list.</p>
+        		<p class="Code-Last">defaults write com.barebones.bbedit SurfNextPreviousInDisplayOrder -bool YES</p>
+        	</li>
+            <li>
+                <p class="Body">BBEdit attempts to move windows as little as possible when you zoom them. To override this and let BBEdit place the window in the upper left-hand corner of the screen:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit ZoomWindowsInPlace -bool NO</p>
+            </li>
+            <li>
+            	<p class="Body">By default, the application will allow windows to take up the entire screen when entering full screen mode. If desired, you may prevent this and instruct the application to figure out whether a window should be made the full width of the screen:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit FullScreenWindowsHogScreen -bool NO</p>
+            	<p class="Body">You can toggle this behavior on the fly by holding down the Command key when clicking on the "enter full screen" button.</p>
+            </li>
+            <li>
+            	<p class="Body">When entering full screen mode, the application figures out whether the window width should be increased to take up the full screen width, or not, based on the width of the window relative to the width of the screen that it's on. The threshold at which the window is made to take up the entire screen width can be set thus:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit FullScreenWidthThreshold -float 0.65</p>
+
+            	<p class="Body">This setting requires that <code>FullScreenWindowsHogScreen</code> be turned on (see above) <em>or</em> that you hold down the <code>Command</code> key while clicking the "enter full screen" button. The threshold is a percentage, so (in the example above), if the window is 65% or more of the width of the screen that it's on, it will take up the full width of the screen when entering full screen mode.</p>
+            	<p class="Body">Note that when setting the threshold, you <strong>must</strong> set it as a decimal number, using "<code>-float &lt;some number between 0 and 1&gt;</code>".</p>
+            </li>
+            <li>
+                <p class="Body">The "Remember the ... most recently used items" setting in the Application preferences applies to all item types. So, if it's set to 15, BBEdit will remember 15 text documents, 15 folders, 15 projects, 15 images, and so on. If you want finer control, you can construct an expert pref using the name of the document type as it appears in the menu (and if that name contains spaces, you'll need to quote it). So, for example, if you only wanted to remember the five most recent projects:</p>
+                <p class="Code"># remember only the five most recent projects</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit NSRecentDocumentsLimit:Projects -int 5</p>
+                <p class="Body">Or the ten most recent folders:</p>
+                <p class="Code"># remember only the ten most recent folders</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit NSRecentDocumentsLimit:Folders -int 10</p>
+                <p class="Body">Or only the most recent shell worksheet:</p>
+                <p class="Code"># remember only the most recent worksheet</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit "NSRecentDocumentsLimit:Shell Worksheets" -int 1</p>
+                <p class="Body">If you don't want to remember any recent documents of a particular type (they won't appear in the menu, either), you can set its limit to zero:</p>
+                <p class="Code"># don't remember any images</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit NSRecentDocumentsLimit:Images -int 0</p>
+                <p class="Body">You can also control the number of items shown in the &ldquo;Most Recently Used&rdquo; group:</p>
+                <p class="Code"># Show up to 15 items in the &ldquo;Most Recently Used&rdquo; group:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit MostRecentItemsGroupLimit -int 15</p>
+                <p class="Body">Note that when setting any recent items limit, you <strong>must</strong> set it as an integer, using "<code>-int &lt;some number&gt;</code>".</p>
+                <p class="Body">By default, BBEdit does not remember recent items opened from any of the canonical locations for temporary files. (This also includes the "svn-commit.tmp" files used for Subversion commits.) If desired, you can change this:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit RecentItems_RememberTempFiles -bool YES</p>
+            </li>
+            <li>
+                <p class="Body">Ordinarily, the application will use the current editing view's font (at reduced size) for the numbers in the Line Numbers bar. If you would instead prefer to use the miniature system font at fixed size:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit UseEditorFontForLineBar -bool NO</p>
+            </li>
+
+            <li>
+                <p class="Body">By default, the “Open File by Name” window stays open when you click the “Open” button. However, if you would prefer for it to act more like a modal dialog, you may do so:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit CloseOFBNWindowAfterOpeningSelection -bool YES</p>
+            </li>
+            
+            <li>
+            	<p class="Body">When using Spaces, you can control whether BBEdit's modeless dialog boxes (Find, Multi-File Search, and Open File by Name) get moved to the active space when switching spaces. By default, this is allowed for the Find, Multi-File Search, and Open File by Name windows. To control whether windows of these types are moved to the active space, use these commands:</p>
+            	<p class="Code"># controls the Find window</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit MoveModelessWindowsToActiveSpace_FindWindow -bool YES</p>
+            	
+            	<p class="Code"># controls the Multi-File Search window</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit MoveModelessWindowsToActiveSpace_MultiFileFindWindow -bool YES</p>
+            	
+            	<p class="Code"># controls the Open File by Name window</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit MoveModelessWindowsToActiveSpace_OpenFileByNameWindow -bool YES</p>
+            	
+            	<p class="Code"># sets the default behavior for any of the above window types for which a default is not explicitly specified</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit MoveModelessWindowsToActiveSpace -bool YES</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+        <hr />
+        <div id="misc"></div>
+        <h4>Miscellaneous</h4>
+        <ul>
+            <li>
+                <p class="Body">The "Copy as Styled HTML" and "Save as Styled HTML" commands normally generate style information inline. If you want to use an embedded style sheet instead, set the expert preference thusly:</p>
+                <p class="Code-Last">defaults write com.barebones.bbedit UseInlineStylesForCopiedHTML -bool NO</p>
+            </li>
+
+			<li>
+				<p class="Body">When editing files that are on remote file servers (AFP, NFS, SMB, etc), BBEdit will not look for directory-relative tags files or settings files. This is a particular performance win when the file is located on a volume mounted via MacFUSE/SSH or similar, or if the file server is over a slow or high-latency link.</p>
+				<p>To enable scanning for tags or settings files on remote volumes, use these separately or together:</p>
+            	<p class="Code">defaults write com.barebones.bbedit DisableCtagsScanOnRemoteVolumes -bool NO</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit DisableSettingsScanOnRemoteVolumes -bool NO</p>
+            </li>
+
+            <li>
+            	<p class="Body">When searching for matches, Open File by Name limits the number of matches to a reasonable maximum. The factory default is 200, and may be adjusted:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit OpenByNameMaxWildcardMatches -int 200</p>
+            </li>
+
+            <li>
+            	<p class="Body">Ordinarily, the output from Unix scripts run within BBEdit is delimited with line separators (except when the script output is sent to a new untitled document). If you wish to suppress the separators, you can do so:</p>
+            	<p class="Code-Last">defaults write com.barebones.bbedit UseSeparatorsInUnixScriptOutput -bool NO</p>
+            </li>
+        </ul>
+        <p class="Body"><a href="#toc">Back to top</a></p>
+    </div>
+</body>
+</html>

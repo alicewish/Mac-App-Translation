@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CommonTagNameGroups</key>
+	<array>
+		<!-- these are used by all HTML/XHTML dialects -->
+		
+		<dict>
+			<key>TagGroupName</key>
+			<string>$HEADING_TAGS</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>h1</string>
+				<string>h2</string>
+				<string>h3</string>
+				<string>h4</string>
+				<string>h5</string>
+				<string>h6</string>
+			</array>
+		</dict>
+		
+		<!-- XHTML 1.0 common groups -->
+		
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_PHRASE_ELEMENTS</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>em</string>
+				<string>strong</string>
+				<string>dfn</string>
+				<string>code</string>
+				<string>q</string>
+				<string>sub</string>
+				<string>sup</string>
+				<string>samp</string>
+				<string>kbd</string>
+				<string>var</string>
+				<string>cite</string>
+				<string>abbr</string>
+				<string>acronym</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_STRICT_SPECIALS</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>br</string>
+				<string>span</string>
+				<string>bdo</string>
+				<string>map</string>
+				<string>object</string>
+				<string>img</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_SPECIALS</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>$XHTML10_STRICT_SPECIALS</string>
+				<string>applet</string>
+				<string>iframe</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_STRICT_FONT_STYLE</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>tt</string>
+				<string>i</string>
+				<string>b</string>
+				<string>big</string>
+				<string>small</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_FONT_STYLE</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>$XHTML10_STRICT_FONT_STYLE</string>
+				<string>u</string>
+				<string>s</string>
+				<string>strike</string>
+				<string>font</string>
+				<string>basefont</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_FORMS_INLINE</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>input</string>
+				<string>select</string>
+				<string>textarea</string>
+				<string>label</string>
+				<string>button</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_MISC_INLINE</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>ins</string>
+				<string>del</string>
+				<string>script</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_LIST</string>	<!-- transitional + frameset only -->
+			
+			<key>TagNameList</key>
+			<array>
+				<string>ul</string>
+				<string>ol</string>
+				<string>dl</string>
+				<string>dir</string>
+				<string>menu</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_STRICT_LIST</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>ul</string>
+				<string>ol</string>
+				<string>dl</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_STRICT_BLOCK_TEXT</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>pre</string>
+				<string>hr</string>
+				<string>blockquote</string>
+				<string>address</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_BLOCK_TEXT</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>$XHTML10_STRICT_BLOCK_TEXT</string>
+				<string>center</string>
+				<string>noframes</string>
+			</array>
+		</dict>
+
+		<dict>
+			<key>TagGroupName</key>
+			<string>$XHTML10_BLOCK_ELEMENTS</string>
+			
+			<key>TagNameList</key>
+			<array>
+				<string>p</string>
+				<string>$HEADING_TAGS</string>
+				<string>div</string>
+				<string>$XHTML10_LIST</string>
+				<string>$XHTML10_BLOCK_TEXT</string>
+				<string>isindex</string>
+				<string>fieldset</string>
+				<string>table</string>
+			</array>
+		</dict>
+
+		<!-- XHTML 1.1 common groups -->
+		
+	</array>
+	
+	<key>CommonAttributeGroups</key>
+	<array>
+	
+		<!-- HTML 4.x core attributes -->
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$HTML4_CORE_ATTRS</string>
+			
+			<key>AttributeList</key>
+			<array>
+				<dict>
+				</dict>
+			</array>
+			
+		</dict>
+		
+		<!-- XHTML 1.x core attributes (shared with 1.0 and 1.1) -->
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$XHTML1x_CORE_ATTRS</string>
+			
+			<key>AttributeList</key>
+			<array>
+				<dict>
+					<key>AttributeName</key>
+					<string>id</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>ID</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>class</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>CDATAList</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>title</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Text</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+			</array>
+			
+		</dict>
+
+		<!-- XHTML 1.x internationalization attributes (shared with 1.0 and 1.1) -->
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$XHTML1x_INTL_ATTRS</string>
+			
+			<key>AttributeList</key>
+			<array>
+				<dict>
+					<key>AttributeName</key>
+					<string>dir</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Enumeration</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+					<key>Enumerations</key>
+					<array>
+						<string>ltr</string>
+						<string>rtl</string>
+					</array>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>xml:lang</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>LanguageCode</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+			</array>
+		</dict>
+		
+		<!-- XHTML 1.0 core attributes -->	
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$XHTML10_CORE_ATTRS</string>
+			
+			<key>AttributeList</key>
+			<array>
+				<string>$XHTML1x_CORE_ATTRS</string>
+				
+				<dict>
+					<key>AttributeName</key>
+					<string>style</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>CDATA</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+				
+			</array>
+			
+		</dict>
+
+		<!-- XHTML 1.0 internationalization attributes -->
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$XHTML10_INTL_ATTRS</string>
+			
+			<key>AttributeList</key>
+			<array>
+				<string>$XHTML1x_INTL_ATTRS</string>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>lang</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>LanguageCode</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+			</array>
+		</dict>
+		
+		<!-- XHTML 1.1 core attributes -->
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$XHTML11_CORE_ATTRS</string>
+			
+			<key>AttributeList</key>
+			<array>
+				<string>$XHTML1x_CORE_ATTRS</string>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>xmlns</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Fixed</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+					<key>FixedValue</key>
+					<string>http://www.w3.org/1999/xhtml</string>
+				</dict>
+			</array>
+			
+		</dict>
+		
+		<!-- Common scripting events -->
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$COMMON_SCRIPTING_EVENTS</string>
+			
+			<key>AttributeList</key>
+			<array>
+				<dict>
+					<key>AttributeName</key>
+					<string>onclick</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>ondblclick</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onmousedown</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onmouseup</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onmouseover</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onmousemove</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onmouseout</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onkeypress</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onkeydown</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>onkeyup</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Script</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+			</array>
+		</dict>
+
+		<!-- HTML 5 core attributes -->
+		<dict>
+			<key>AttrGroupName</key>
+			<string>$HTML5_GLOBAL_ATTRS</string>
+			
+			<!-- source: <http://www.whatwg.org/specs/web-apps/current-work/multipage/elements.html#global-attributes> -->
+			
+			<key>AttributeList</key>
+			<array>
+				<dict>
+					<key>AttributeName</key>
+					<string>accesskey</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>CDATA</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>class</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>CDATA</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>contenteditable</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Enumeration</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+					<key>Enumerations</key>
+					<array>
+						<string>true</string>
+						<string>false</string>
+						<string></string>
+					</array>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>contextmenu</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>ID</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>dir</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Enumeration</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+					<key>Enumerations</key>
+					<array>
+						<string>ltr</string>
+						<string>rtl</string>
+					</array>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>draggable</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Enumeration</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+					<key>Enumerations</key>
+					<array>
+						<string>true</string>
+						<string>false</string>
+						<string></string>
+					</array>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>hidden</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Empty</string>
+					<key>AttributeValueRequired</key>
+					<string>Empty</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>id</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>ID</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>itemid</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>URI</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>itemprop</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>CDATA</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>itemref</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>CDATA</string>
+					<key>AttributeValueRequired</key>
+					<string>Required</string>
+				</dict>
+
+				<dict>
+					<key>AttributeName</key>
+					<string>itemscope</string>
+					<key>AttributeRequired</key>
+					<false/>
+					<key>AttributeValueDataType</key>
+					<string>Empty</string>
+					<key>AttributeValueRequired</key>
+					<string>Empty</string>
+				</dict>
+
+
+			</array>
+			
+		</dict>
+
+	</array>
+	
+</dict>
+</plist>

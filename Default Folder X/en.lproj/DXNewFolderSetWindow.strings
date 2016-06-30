@@ -1,0 +1,15 @@
+/* Class = "NSWindow"; title = "Default Folder X : New Folder Set"; ObjectID = "F0z-JX-Cv5"; */
+"F0z-JX-Cv5.title" = "Default Folder X : New Folder Set";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "cOG-Mt-vTN"; */
+"cOG-Mt-vTN.title" = "Cancel";
+
+/* Class = "NSButtonCell"; title = "OK"; ObjectID = "ce9-Ez-Cdd"; */
+"ce9-Ez-Cdd.title" = "OK";
+
+/* Class = "NSTextFieldCell"; title = "folder set"; ObjectID = "e1G-VV-BfZ"; */
+"e1G-VV-BfZ.title" = "folder set";
+
+/* Class = "NSTextFieldCell"; title = "Create a new folder set named:"; ObjectID = "qOF-Cr-tnJ"; */
+"qOF-Cr-tnJ.title" = "Create a new folder set named:";
+

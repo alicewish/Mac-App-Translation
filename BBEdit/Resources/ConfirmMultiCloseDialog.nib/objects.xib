@@ -1,0 +1,131 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="8" name="allObjects">
+    <object class="IBCarbonStaticText" id="183">
+      <ostype name="controlSignature">CSav</ostype>
+      <int name="controlID">501</int>
+      <int name="fontStyle">4</int>
+      <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+        <int name="bindingTopKind">1</int>
+        <int name="bindingLeftKind">1</int>
+        <int name="bindingRightKind">2</int>
+      </object>
+      <string name="title">Save documents before closing?</string>
+      <string name="viewFrame">93 36 314 17 </string>
+      <string name="bounds">36 93 53 407 </string>
+    </object>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="receiveUpdates">FALSE</boolean>
+      <boolean name="hasCloseBox">FALSE</boolean>
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <boolean name="liveResize">TRUE</boolean>
+      <boolean name="compositing">TRUE</boolean>
+      <boolean name="asyncDrag">TRUE</boolean>
+      <boolean name="isConstrained">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="scalingMode">1048576</int>
+      <string name="title"></string>
+      <object name="rootControl" class="IBCarbonRootControl" id="167">
+        <string name="viewFrame">0 0 427 331 </string>
+        <array count="6" name="subviews">
+          <object class="IBCarbonButton" id="184">
+            <ostype name="controlSignature">CSav</ostype>
+            <int name="controlID">602</int>
+            <ostype name="command">othr</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+            </object>
+            <string name="title">Don’t Save ⌘D</string>
+            <string name="viewFrame">20 291 122 20 </string>
+            <string name="bounds">291 20 311 142 </string>
+          </object>
+          <object class="IBCarbonButton" id="185">
+            <ostype name="controlSignature">CSav</ostype>
+            <int name="controlID">601</int>
+            <ostype name="command">not!</ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">2</int>
+            <string name="title">Cancel</string>
+            <string name="viewFrame">193 291 80 20 </string>
+            <string name="bounds">291 193 311 273 </string>
+          </object>
+          <object class="IBCarbonButton" id="186">
+            <ostype name="controlSignature">CSav</ostype>
+            <int name="controlID">600</int>
+            <ostype name="command">ok  </ostype>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <int name="buttonType">1</int>
+            <string name="title">Save All</string>
+            <string name="viewFrame">285 291 122 20 </string>
+            <string name="bounds">291 285 311 407 </string>
+          </object>
+          <object class="IBCarbonHIView" id="187">
+            <ostype name="controlSignature">CSav</ostype>
+            <int name="controlID">502</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+              <int name="bindingBottomKind">2</int>
+              <int name="bindingRightKind">2</int>
+            </object>
+            <string name="classID">com.barebones.CBigListHIView</string>
+            <string name="viewFrame">20 95 387 176 </string>
+            <string name="bounds">95 20 271 407 </string>
+          </object>
+          <object class="IBCarbonIcon" id="182">
+            <ostype name="controlSignature">CSav</ostype>
+            <int name="controlID">500</int>
+            <object name="layoutInfo" class="IBCarbonHILayoutInfo">
+              <int name="bindingTopKind">1</int>
+              <int name="bindingLeftKind">1</int>
+            </object>
+            <int name="contentType">132</int>
+            <int name="contentResID">1095782476</int>
+            <int name="creator">1378509672</int>
+            <string name="viewFrame">16 16 64 64 </string>
+            <string name="bounds">16 16 80 80 </string>
+          </object>
+          <reference idRef="183"/>
+        </array>
+        <string name="bounds">0 0 331 427 </string>
+      </object>
+      <string name="windowRect">396 509 727 936 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="187"/>
+    <reference idRef="184"/>
+    <reference idRef="185"/>
+    <reference idRef="167"/>
+    <reference idRef="186"/>
+    <reference idRef="182"/>
+  </array>
+  <array count="8" name="allParents">
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="166"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+  </array>
+  <dictionary count="2" name="nameTable">
+    <string>ConfirmMultiCloseDialog</string>
+    <reference idRef="166"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">238</unsigned_int>
+</object>

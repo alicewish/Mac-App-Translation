@@ -1,0 +1,30 @@
+/* Class = "NSMenuItem"; title = "Remove all items from sidebar"; ObjectID = "1DX-b7-fW3"; */
+"1DX-b7-fW3.title" = "Remove all items from sidebar";
+
+/* Class = "NSMenuItem"; title = "Open"; ObjectID = "6wQ-pc-rzk"; */
+"6wQ-pc-rzk.title" = "Open";
+
+/* Class = "NSMenuItem"; title = "Remove from drawer"; ObjectID = "8cv-co-Zoz"; */
+"8cv-co-Zoz.title" = "Remove from drawer";
+
+/* Class = "NSMenuItem"; title = "Show in file dialog"; ObjectID = "Bf6-8N-WTf"; */
+"Bf6-8N-WTf.title" = "Show in file dialog";
+
+/* Class = "NSMenuItem"; title = "Remove from sidebar"; ObjectID = "EpF-JY-oc3"; */
+"EpF-JY-oc3.title" = "Remove from sidebar";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "Kic-H5-WJg"; */
+"Kic-H5-WJg.title" = "Show in Finder";
+
+/* Class = "NSMenuItem"; title = "Remove all items from drawer"; ObjectID = "Z4b-7O-dFW"; */
+"Z4b-7O-dFW.title" = "Remove all items from drawer";
+
+/* Class = "NSMenuItem"; title = "Open"; ObjectID = "awl-U2-R2U"; */
+"awl-U2-R2U.title" = "Open";
+
+/* Class = "NSMenuItem"; title = "Show in Finder"; ObjectID = "jP8-MW-tXT"; */
+"jP8-MW-tXT.title" = "Show in Finder";
+
+/* Class = "NSImageView"; ibExternalAccessibilityDescription = "Drag items here to add them"; ObjectID = "tuB-Ot-b3M"; */
+"tuB-Ot-b3M.ibExternalAccessibilityDescription" = "Drag items here to add them";
+

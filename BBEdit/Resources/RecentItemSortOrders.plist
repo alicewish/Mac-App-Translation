@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Folder</key>
+	<integer>-1</integer>
+	<key>Movie</key>
+	<integer>-1</integer>
+	<key>Project</key>
+	<integer>1</integer>
+	<key>QuickTimeImporter</key>
+	<integer>-1</integer>
+	<key>ShellWorksheet</key>
+	<integer>-1</integer>
+	<key>Text</key>
+	<integer>0</integer>
+	<key>TextTransform</key>
+	<integer>-1</integer>
+</dict>
+</plist>

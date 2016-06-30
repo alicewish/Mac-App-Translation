@@ -1,0 +1,173 @@
+// comments are igmored if the // is the first two characters of the line
+// some lines have spaces at the end which should be left alone.
+// make sure blank lines are just a return only
+
+// Header
+##Core
+
+// styles
+Plain
+Bold
+Italic
+Underline
+Double Underline
+Word Underline
+Dotted Underline
+Strike Out
+ALL CAPS
+All Lowercase
+Small Caps
+Superscript
+Subscript
+
+// undo
+Can't &Undo
+Can't &Redo
+&Undo
+&Redo
+Typing
+Insert
+Delete
+Paste
+Font
+Font Size
+Font Style
+Color
+Paragraph Alignment
+Paragraph Indent
+Paragraph Spacing
+Space Before
+Leading
+Cut
+Delete
+Drag and Drop
+Page Break
+Replace
+Add Tabstop
+Delete Tabstop
+Move Tabstop
+Reading
+Saving
+
+// auto saving
+Auto-Saving %s
+Do you wish to save "%s"?
+Final Draft - Auto Save
+
+// header embedded ref strings
+Page #
+Date
+
+// Progress strings
+Pasting
+Paginating
+Copying
+The specified page does not exist.
+
+// special cases for capitalize sentences code in FDPaigeText.cpp
+blvd. ave. st. pl. e.g. i.e. co. pp. etc. p.s. r.s.v.p. dr. pg.
+
+// Exceptions
+Exception Occurred
+
+//FDPaigeCmdHandler.cpp
+&Space before:
+Space Before
+
+//FDPrintAreaInfo.cpp
+Final Draft requires a printer be chosen to print.  Please select a printer before printing in Final Draft.
+
+//FWGotoPage.cpp
+Label:
+Change Label
+
+//FDpaigeUtils.cpp
+Virtual Memory file failed to be created.
+
+//FMDocument
+Untitled
+You are about to save an additional copy of your script in a secure (uneditable) format. Do not delete your original, you may need to make changes later.
+ (Converted)
+ Could not read file.  
+ The file opened is not a Final Draft file.
+ Save Aborted.  Not enough free space on the selected volume.
+ \pFDTempFile
+ An error occured while saving.  Phone or Email technical support for advice. Error: 
+ Saving is disabled in the Final Draft demo.  
+ Click \"Cancel\" and insert the Final Draft CD-ROM to enable saving. Click \"OK\" to proceed without saving.
+ Click \"OK\" to proceed without saving.
+ Save changes to \"
+ \" before 
+ closing?
+ quitting?
+//FMCmdDisablerAttachment
+Saving
+Emailing
+Click \"OK\" 
+and insert the Final Draft CD-ROM to enable 
+ is disabled in the Final Draft demo.  
+
+//FDChooseAltFontDlg.cpp
+UNKNOWN FONT
+
+//FMFontDialog
+Sample Text
+Set Font
+
+//FMDialogUtilities
+Yes
+No
+Cancel
+
+//ShellExecute
+open
+
+//Review Saved
+You have 
+ documents with unsaved changes. Do you want to review these changes before quitting?
+If you don't review your documents, all your changes will be lost.\r
+Review…
+Discard Changes
+
+//Save as dialog
+Cannot save the file '
+'. The file exists and is marked read-only.\rSave the file with another file name or to another location.
+The filename is invalid.
+
+//Open file
+This file is in use. It has been opened as read-only.
+This file is read-only. Changes must be saved to another file.
+
+//register script URL
+http://www.finaldraft.com/regscript/
+////////////////Online Registration Dialog Error Strings
+//kMissingFieldID
+Missing Required Field.
+//kFillInFirstNameID
+Please fill in your First Name.
+//kFillInLastNameID
+Please fill in your Last Name.
+//kFillInEmailID
+Please fill in your email.
+//kFillInFirstLastOrgID
+Please fill in your First/Last Name or organization.
+//kCannotRegisterID
+Cannot Register.
+//kCustomerNumberIsRegisteredID
+This Customer Number is already registered.
+//kConnectionErrorID
+Connection Error.
+//kUnknownErrorID
+Unknown Error.
+//kConnectionTryAgainID
+Could not connect to Final Draft.  Please try again from the Help Menu at a later time.
+//kThankYouForRegistering
+Thank you for registering your copy of 
+//kAuthorizedMenuItem
+Ac&tivate...
+//kDeauthorizedMenuItem
+Deac&tivate...
+//kActivateMenuStatusCaption
+Make all features available
+//kDeactivateMenuStatusCaption
+Disable program

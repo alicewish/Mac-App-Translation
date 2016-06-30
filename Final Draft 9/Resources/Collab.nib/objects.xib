@@ -1,0 +1,288 @@
+<?xml version="1.0" standalone="yes"?>
+<object class="NSIBObjectData">
+  <object name="rootObject" class="NSCustomObject" id="1">
+  </object>
+  <array count="31" name="allObjects">
+    <object class="IBCarbonEditText" id="245">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">103</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="title">5001</string>
+      <string name="bounds">177 107 193 147 </string>
+    </object>
+    <object class="IBCarbonButton" id="197">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">106</int>
+      <ostype name="command">not!</ostype>
+      <int name="buttonType">2</int>
+      <string name="title">Cancel</string>
+      <string name="bounds">206 139 226 209 </string>
+    </object>
+    <object class="IBCarbonEditText" id="242">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">103</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="title">5001</string>
+      <string name="bounds">167 107 183 149 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="206">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">104</int>
+      <string name="title">Name:</string>
+      <int name="justification">-1</int>
+      <string name="bounds">136 20 152 96 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="205">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">100</int>
+      <string name="title">IP Address:</string>
+      <int name="justification">-1</int>
+      <string name="bounds">110 20 126 96 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="204">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">101</int>
+      <string name="bounds">110 110 126 233 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="167">
+      <array count="6" name="subviews">
+        <object class="IBCarbonButton" id="181">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">5</int>
+          <ostype name="command">CNTL</ostype>
+          <string name="title">Control</string>
+          <string name="bounds">318 118 338 207 </string>
+        </object>
+        <object class="IBCarbonButton" id="190">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">6</int>
+          <ostype name="command">DCNT</ostype>
+          <string name="title">Disconnect</string>
+          <string name="bounds">318 215 338 304 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="224">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">2</int>
+          <string name="bounds">98 20 272 304 </string>
+        </object>
+        <object class="IBCarbonGroupBox" id="226">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">1</int>
+          <string name="title">MMMM</string>
+          <string name="bounds">6 20 90 304 </string>
+        </object>
+        <object class="IBCarbonEditText" id="185">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">3</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="bounds">291 23 307 301 </string>
+        </object>
+        <object class="IBCarbonButton" id="228">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">4</int>
+          <ostype name="command">STRT</ostype>
+          <string name="title">CollaboWrite</string>
+          <string name="bounds">318 21 338 110 </string>
+        </object>
+      </array>
+      <string name="bounds">0 0 354 324 </string>
+    </object>
+    <object class="IBCarbonButton" id="215">
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="bounds">216 216 236 286 </string>
+    </object>
+    <object class="IBCarbonEditText" id="241">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">105</int>
+      <boolean name="isUnicode">TRUE</boolean>
+      <string name="bounds">137 107 153 224 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="229">
+      <string name="title">Enter the IP Address of the Collabowriter host you want to join and a screen name for the chat session.  If the default port is unavailable, the host will notify you to change the Port field. </string>
+      <string name="bounds">20 20 106 286 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="211">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">105</int>
+      <string name="title">Name:</string>
+      <int name="justification">-1</int>
+      <string name="bounds">146 20 162 96 </string>
+    </object>
+    <object class="IBCarbonStaticText" id="230">
+      <string name="title">Enter your name for the chat session.  If the default port is unavailable, please contact your Internet Provider or network administrator for an open port to use during this session.</string>
+      <string name="bounds">20 20 102 291 </string>
+    </object>
+    <reference idRef="185"/>
+    <reference idRef="228"/>
+    <object class="IBCarbonWindow" id="166">
+      <boolean name="hasCollapseBox">FALSE</boolean>
+      <boolean name="hasHorizontalZoom">FALSE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <boolean name="hasVerticalZoom">FALSE</boolean>
+      <int name="carbonWindowClass">5</int>
+      <int name="windowPosition">1</int>
+      <string name="title">CollaboWriter</string>
+      <reference name="rootControl" idRef="167"/>
+      <string name="windowRect">165 389 519 713 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <object class="IBCarbonRootControl" id="209">
+      <array count="9" name="subviews">
+        <object class="IBCarbonStaticText" id="213">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">102</int>
+          <string name="title">IP Address:</string>
+          <int name="justification">-1</int>
+          <string name="bounds">114 20 130 96 </string>
+        </object>
+        <object class="IBCarbonStaticText" id="212">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">104</int>
+          <string name="title">Port:</string>
+          <int name="justification">-1</int>
+          <string name="bounds">176 20 192 96 </string>
+        </object>
+        <reference idRef="211"/>
+        <object class="IBCarbonButton" id="214">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">107</int>
+          <ostype name="command">not!</ostype>
+          <int name="buttonType">2</int>
+          <string name="title">Cancel</string>
+          <string name="bounds">216 134 236 204 </string>
+        </object>
+        <reference idRef="215"/>
+        <reference idRef="229"/>
+        <object class="IBCarbonEditText" id="243">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">100</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="bounds">117 107 133 223 </string>
+        </object>
+        <object class="IBCarbonEditText" id="244">
+          <ostype name="controlSignature">FDFD</ostype>
+          <int name="controlID">106</int>
+          <boolean name="isUnicode">TRUE</boolean>
+          <string name="bounds">147 107 163 223 </string>
+        </object>
+        <reference idRef="245"/>
+      </array>
+      <string name="bounds">0 0 256 306 </string>
+    </object>
+    <reference idRef="181"/>
+    <object class="IBCarbonButton" id="200">
+      <ostype name="controlSignature">FDFD</ostype>
+      <int name="controlID">107</int>
+      <ostype name="command">ok  </ostype>
+      <int name="buttonType">1</int>
+      <string name="title">OK</string>
+      <string name="bounds">206 221 226 291 </string>
+    </object>
+    <object class="IBCarbonWindow" id="199">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">CollaboWriter - Host Session</string>
+      <object name="rootControl" class="IBCarbonRootControl" id="198">
+        <array count="10" name="subviews">
+          <object class="IBCarbonStaticText" id="201">
+            <ostype name="controlSignature">FDFD</ostype>
+            <int name="controlID">101</int>
+            <string name="bounds">20 104 36 180 </string>
+          </object>
+          <reference idRef="204"/>
+          <reference idRef="205"/>
+          <object class="IBCarbonStaticText" id="207">
+            <ostype name="controlSignature">FDFD</ostype>
+            <int name="controlID">102</int>
+            <string name="title">Port:</string>
+            <int name="justification">-1</int>
+            <string name="bounds">166 20 182 96 </string>
+          </object>
+          <reference idRef="206"/>
+          <reference idRef="200"/>
+          <reference idRef="197"/>
+          <reference idRef="230"/>
+          <reference idRef="241"/>
+          <reference idRef="242"/>
+        </array>
+        <string name="bounds">0 0 246 311 </string>
+      </object>
+      <string name="windowRect">114 399 360 710 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="201"/>
+    <object class="IBCarbonWindow" id="216">
+      <boolean name="hasCloseBox">TRUE</boolean>
+      <boolean name="hasHorizontalZoom">TRUE</boolean>
+      <boolean name="hasVerticalZoom">TRUE</boolean>
+      <boolean name="isResizable">FALSE</boolean>
+      <int name="carbonWindowClass">4</int>
+      <int name="windowPosition">1</int>
+      <string name="title">CollaboWriter - Join Session</string>
+      <reference name="rootControl" idRef="209"/>
+      <string name="windowRect">132 239 388 545 </string>
+      <string name="ScreenRectAtEncodeTime">0 0 768 1024 </string>
+    </object>
+    <reference idRef="212"/>
+    <reference idRef="213"/>
+    <reference idRef="226"/>
+    <reference idRef="190"/>
+    <reference idRef="198"/>
+    <reference idRef="243"/>
+    <reference idRef="207"/>
+    <reference idRef="224"/>
+    <reference idRef="214"/>
+    <reference idRef="244"/>
+  </array>
+  <array count="31" name="allParents">
+    <reference idRef="209"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="198"/>
+    <reference idRef="166"/>
+    <reference idRef="209"/>
+    <reference idRef="198"/>
+    <reference idRef="209"/>
+    <reference idRef="209"/>
+    <reference idRef="198"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="1"/>
+    <reference idRef="216"/>
+    <reference idRef="167"/>
+    <reference idRef="198"/>
+    <reference idRef="1"/>
+    <reference idRef="198"/>
+    <reference idRef="1"/>
+    <reference idRef="209"/>
+    <reference idRef="209"/>
+    <reference idRef="167"/>
+    <reference idRef="167"/>
+    <reference idRef="199"/>
+    <reference idRef="209"/>
+    <reference idRef="198"/>
+    <reference idRef="167"/>
+    <reference idRef="209"/>
+    <reference idRef="209"/>
+  </array>
+  <dictionary count="4" name="nameTable">
+    <string>Collab</string>
+    <reference idRef="166"/>
+    <string>Connect Dialog</string>
+    <reference idRef="216"/>
+    <string>File&apos;s Owner</string>
+    <reference idRef="1"/>
+    <string>Start Server Dialog</string>
+    <reference idRef="199"/>
+  </dictionary>
+  <string name="targetFramework">IBCarbonFramework</string>
+  <unsigned_int name="nextObjectID">247</unsigned_int>
+</object>

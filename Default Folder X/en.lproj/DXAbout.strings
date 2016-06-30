@@ -1,0 +1,28 @@
+/* Class = "NSWindow"; title = "About Default Folder X"; ObjectID = "5"; */
+"5.title" = "About Default Folder X";
+
+/* Class = "NSButtonCell"; alternateTitle = "http://www.stclairsoft.com/store/"; ObjectID = "43"; */
+"43.alternateTitle" = "http://www.stclairsoft.com/store/";
+
+/* Class = "NSButtonCell"; title = "Buy"; ObjectID = "43"; */
+"43.title" = "Buy";
+
+/* Class = "NSTextFieldCell"; title = "This version expires on 4/15/2004"; ObjectID = "45"; */
+"45.title" = "This version expires on 4/15/2004";
+
+/* Class = "NSTextFieldCell"; title = "version 1"; ObjectID = "46"; */
+"46.title" = "version 1
+";
+
+/* Class = "NSButtonCell"; alternateTitle = "http://www.stclairsoft.com/Main/support.html"; ObjectID = "47"; */
+"47.alternateTitle" = "http://www.stclairsoft.com/Main/support.html";
+
+/* Class = "NSButtonCell"; title = "Support"; ObjectID = "47"; */
+"47.title" = "Support";
+
+/* Class = "NSButtonCell"; alternateTitle = "http://www.stclairsoft.com/DefaultFolderX/"; ObjectID = "48"; */
+"48.alternateTitle" = "http://www.stclairsoft.com/";
+
+/* Class = "NSButtonCell"; title = "Info"; ObjectID = "48"; */
+"48.title" = "Info";
+

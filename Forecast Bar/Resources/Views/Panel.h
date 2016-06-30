@@ -1,0 +1,2 @@
+@interface Panel : NSWindow
+@end

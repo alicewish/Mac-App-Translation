@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMAccepts</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Optional</key>
+		<true/>
+		<key>Types</key>
+		<array>
+			<string>com.barebones.bbedit.textdocument-object</string>
+			<string>com.barebones.bbedit.document-object</string>
+		</array>
+	</dict>
+	<key>AMApplication</key>
+	<string>BBEdit</string>
+	<key>AMCanShowSelectedItemsWhenRun</key>
+	<false/>
+	<key>AMCanShowWhenRun</key>
+	<true/>
+	<key>AMCategory</key>
+	<string>Text</string>
+	<key>AMDefaultParameters</key>
+	<dict>
+		<key>sourceIndicator</key>
+		<integer>0</integer>
+	</dict>
+	<key>AMDescription</key>
+	<dict>
+		<key>AMDRelatedActions</key>
+		<array>
+			<string>com.barebones.bbedit.automator.setdocumentcontents</string>
+			<string>com.barebones.bbedit.automator.newdocument</string>
+		</array>
+		<key>AMDRequires</key>
+		<string>BBEdit must be running.</string>
+		<key>AMDResult</key>
+		<string>A BBEdit document object</string>
+		<key>AMDSummary</key>
+		<string>This action will get the contents of the frontmost or passed text documents in BBEdit according to the options you set.</string>
+	</dict>
+	<key>AMIconName</key>
+	<string>BBEditAutomatorActionIcon</string>	
+	<key>AMKeywords</key>
+	<array>
+		<string>Text</string>
+		<string>Document</string>
+		<string>Contents</string>
+		<string>Get</string>
+	</array>
+	<key>AMName</key>
+	<string>Get Contents of BBEdit Document</string>
+	<key>AMProvides</key>
+	<dict>
+		<key>Container</key>
+		<string>List</string>
+		<key>Types</key>
+		<array>
+			<string>com.apple.applescript.text-object</string>
+		</array>
+	</dict>
+	<key>AMRequiredResources</key>
+	<array>
+		<dict>
+			<key>Display Name</key>
+			<string>BBEdit</string>
+			<key>Resource</key>
+			<string>com.barebones.bbedit</string>
+			<key>Type</key>
+			<string>application</string>
+			<key>Version</key>
+			<string>10.0</string>
+		</dict>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>GetDocumentContents</string>
+	<key>CFBundleGetInfoString</key>
+	<string>$(MARKETING_VERSION), copyright ©2005-2016 Bare Bones Software, Inc.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.barebones.bbedit.automator.getdocumentcontents</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>GetDocumentContents</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(PROJECT_BUILD_NUMBER)</string>
+	<key>NSPrincipalClass</key>
+	<string>AMAppleScriptAction</string>
+</dict>
+</plist>

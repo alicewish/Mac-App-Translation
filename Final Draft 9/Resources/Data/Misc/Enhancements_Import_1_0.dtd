@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % STRING "CDATA #REQUIRED">
+<!ENTITY % TYPE "type %STRING; ">
+<!ENTITY % VALUE "value %STRING;">
+<!--
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! enhancements is the start element in the Enhancements file
+!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+-->
+<!ELEMENT enhancements (enhancement)+>
+<!ATTLIST enhancements
+	version %STRING;
+>
+<!ELEMENT enhancement (core_attribute_list, custom_attribute_list*)>
+<!ELEMENT core_attribute_list (name, type, sub-type, MIME-type, locator, native, created_by, created_on, modified_by, modified_on, modified_from)>
+<!ELEMENT name EMPTY>
+<!ATTLIST name
+	type CDATA #FIXED "META Name"
+	%VALUE; 
+>
+<!ELEMENT type EMPTY>
+<!ATTLIST type
+	type CDATA #FIXED "META Type"
+	%VALUE; 
+>
+<!ELEMENT sub-type EMPTY>
+<!ATTLIST sub-type
+	type CDATA #FIXED "META Sub-type"
+	%VALUE; 
+>
+<!ELEMENT MIME-type EMPTY>
+<!ATTLIST MIME-type
+	type CDATA #FIXED "MIME Type"
+	%VALUE; 
+>
+<!ELEMENT locator EMPTY>
+<!ATTLIST locator
+	type CDATA #FIXED "File Location"
+	%VALUE; 
+>
+<!ELEMENT native EMPTY>
+<!ATTLIST native
+	type CDATA #FIXED "Native Application"
+	%VALUE; 
+>
+<!ELEMENT created_by EMPTY>
+<!ATTLIST created_by
+	type CDATA #FIXED "Created by"
+	%VALUE; 
+>
+<!ELEMENT created_on EMPTY>
+<!ATTLIST created_on
+	type CDATA #FIXED "Created on"
+	%VALUE; 
+>
+<!ELEMENT modified_by EMPTY>
+<!ATTLIST modified_by
+	type CDATA #FIXED "Modified by"
+	%VALUE; 
+>
+<!ELEMENT modified_on EMPTY>
+<!ATTLIST modified_on
+	type CDATA #FIXED "Modified on"
+	%VALUE; 
+>
+<!ELEMENT modified_from EMPTY>
+<!ATTLIST modified_from
+	type CDATA #FIXED "Modified from"
+	%VALUE; 
+>
+<!ELEMENT custom_attribute_list (attribute)*>
+<!ELEMENT attribute EMPTY>
+<!ATTLIST attribute
+	%TYPE; 
+	%VALUE; 
+>

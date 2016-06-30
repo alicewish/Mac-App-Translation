@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PrintUsingDocumentFont</key>
+	<true/>
+	<key>PrintTimestampMode</key>
+	<integer>1</integer>
+	<key>FramePrintingArea</key>
+	<false/>
+	<key>PrintPageHeaders</key>
+	<true/>
+	<key>PrintFullPathname</key>
+	<true/>
+	<key>PrintLineNumbers</key>
+	<true/>
+	<key>PrintOneInchGutter</key>
+	<false/>
+	<key>PrintColorSyntax</key>
+	<true/>
+</dict>
+</plist>

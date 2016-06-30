@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>fast_updates_lifetime</string>
+	<string>fast_updates_lifetime_15</string>
+	<string>fast_updates_lifetime_10</string>
+	<string>one_year_10min</string>
+	<string>one_year_15min</string>
+	<string>one_year_30min</string>
+	<string>one_year_60min</string>
+</array>
+</plist>

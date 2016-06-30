@@ -1,0 +1,11 @@
+AllowTabToIndentText = 0;
+DisplayEmacsStatusWindow = 0;
+EmulateEmacsKeyBindings = 1;
+EnableShiftDeleteAsForwardDelete = 1;
+EnterGeneratesReturn = 0;
+HomeAndEndKeys = 1;
+OptionYenBehavior = 1;
+PageUpOrDownMovesInsertionPoint = 0;
+TabNavigatesPlaceholders = 1;
+TrimLeadingWhitespaceWhenAutoIndenting = 0;
+UseEscapeKeyAsCompletionTrigger = 0;
