@@ -1,552 +1,679 @@
-Bigger=较大
-Branch Left=分支向左
-Promote Children=提升子项
-Line Up=排队
-Quit Birch=退出Birch
-About Birch=关于Birch
-Redo=重做
-Correct Spelling Automatically=自动校正拼写错误
-Fold=折叠
-Column 80=列80
-Column 40=列40
-Adjectives=形容词
-Smart Copy/Paste=智能复制/粘贴
-Save As…=另存为…
-Underline=下划线
-Close=关闭
-Birch Help=Birch帮助
-Column 120=列120
-Select All=全选
-Text Replacement=文本替换
-Show Spelling and Grammar=显示拼写和语法
-Open…=打开…
-Revert to Saved=恢复到已保存
-Show All=显示所有
-Bring All to Front=前置全部
-Line Right=右线
-Branch Down=分支向下
-Minimize=最小化
-Hide Birch=隐藏Birch
-Find Previous=查找上一个
-Stop Speaking=停止朗读
-Group=分组
-Wrap to Window=环绕窗口
-Zoom=缩放
-Jump to Selection=跳转到选择
-Verbs=动词
-Capitalize=首字母大写
-Demote Trailing Siblings=降级尾随兄弟姐妹
-Bold=粗体
-Select Branch=选择分支
-Hide Others=隐藏其他
-Sentance=森泰斯
-Find…=查找…
-Find and Replace…=查找和替换...
-Start Speaking=开始朗读
-Contract Selection=合约选择
-Unfocus=未聚焦
-Search=搜索
-Duplicate=复制
-Print…=打印…
-Nouns=名词
-Use Selection for Find=使用所选内容查找
-Column 200=列200
-Column 60=列60
-Expand Selection=展开所选
-Smart Links=智能链接
-Column 66=列66
-Make Lower Case=变为小写
-Undo=撤销
-Decrease Folding Level=减少折叠级别
-Paste=粘贴
-Select Sentence=选择句子
-Select Paragraph=选择段落
-Smart Quotes=智能引号
-Check Document Now=立即检查文件
-Line Down=线下行
-Italic=斜体
-Focus=聚焦
-Branch Up=分支向上
-Check Grammar With Spelling=检查拼写和语法
-Delete=删除
-Search by Tag=通过标签搜索
-Save…=保存…
-Find Next=查找下一个
-Page Setup…=页面设置…
-Smaller=较小
-Select Word=选择一个单词
-Check Spelling While Typing=输入时检查拼字
-Smart Dashes=智能破折号
-Fold Completely=完全折叠
-Adverbs=副词
-Data Detectors=数据检测
-Branch Right=科右
-Column 90=列90
-Focus by Project=按项目聚焦
-Clear Menu=清除菜单
-Make Upper Case=变为大写
-Line Left=左线
-Copy=拷贝
-Column 50=列50
-Show Substitutions=显示替换
-Increase Folding Level=增加折叠级别
-Main Menu=主菜单
-Birch=Birch
-Services=服务
-File=文件
-Open Recent=打开最近
-Edit=编辑
-Selection=选择
-Find=查找
-Spelling and Grammar=拼写和语法
-Spelling=拼写
-Speech=语音
-Format=格式
-Line Wrap Width=换行宽度
-View=视图
-Organize=组织
-Move=移动
-Window=窗口
-Help=帮助
-About Panel=关于面板
-Licensed To:=许可给：
-System=系统
-Unlicensed=未许可
-Version Info=版本信息
-Credits=制作名单
-About Storyist=关于Storyist
-Open...=打开...
-Save=保存
-Page Setup...=页面设置...
-Print...=打印...
-Save As...=另存为...
-Storyist Help=Storyist帮助
-Revert to Saved...=恢复到已保存...
-Hide Storyist=隐藏Storyist
-Quit Storyist=退出Storyist
-Paste Ruler=粘贴标尺
-Use None=都不使用
-Show Colors=显示颜色
-Center=居中对齐
-Align Right=右对齐
-Raise=升高
-Justify=两端对齐
-Use Default=使用默认值
-Subscript=下标
-Copy Style=拷贝样式
-Lower=降低
-Show Fonts=显示字体
-Copy Ruler=复制标尺
-Loosen=松排
-Use All=全部使用
-Align Left=左对齐
-Paste Style=粘贴样式
-Tighten=紧排
-Toggle Project View=切换项目视图
-Page Layout=页面布局
-Show Toolbar=显示工具栏
-Customize Toolbar...=自定义工具栏...
-Paste and Match Style=粘贴并匹配样式
-Create New Style from Selection...=从所选新建样式...
-Redefine Style from Selection=从所选重定义样式
-Revert to Original Style=恢复到原始样式
-Edit Current Style...=编辑当前样式...
-Zoom In=放大
-Zoom Out=缩小
-Actual Size=实际尺寸
-Fit Width=适合宽度
-Fit Page=适合页面
-Delete Style=删除样式
-Apply Style=应用样式
-List...=列表…
-Show Page Guides=显示页面指南
-Show Rulers=显示标尺
-Visit Storyist Forums=访问Storyist论坛
-Import Styles...=导入样式...
-Convert to Straight Quotes=转换为直引号
-Replace Styles...=替换样式...
-Apply Styles by Matching Text...=通过匹配的文本应用样式...
-Visit Storyist Website=访问Storyist网站
-Show Comments=展会评论
-Import...=导入…
-Show Bookmarks=显示书签
-Split Active View Horizontally=水平拆分活动视图
-Split Active View Vertically=垂直拆分活动视图
-Close Active Split View=关闭活动视图拆分
-Full Screen=全屏
-Workspaces=工作区
-New Workspace...=新建工作区...
-Manage Workspaces...=管理工作区...
-Single Editor View=单编辑器查看
-Side by Side Editor Views=并排编辑器查看
-Stacked Editor Views=堆叠视图编辑器
-Rotate Workspace=旋转工作区
-Empty Project Trash...=清空项目回收站...
-Bookmark=书签
-Comment=评论
-Date &amp; Time...=日期和时间...
-Link...=链接...
-Page Number=页码
-Close Others=关闭其他
-Export...=导出…
-Image...=图片...
-Draft=草稿
-Template Stylesheet...=模板样式表...
-Project Stylesheet...=项目样式表...
-Default Stylesheet...=默认样式表...
-Welcome to Storyist=欢迎Storyist
-Convert to Smart Quotes=转换为智能引号
-Text File...=文本文件...
-Save as Template...=另存为模板...
-Show Inspector=显示检查器
-Folder=文件夹
-Page Layout - Two Up=页面布局 - 两个向上
-Convert Underlining to Italics=转换下划线为斜体
-Story Sheet...=故事板...
-Remove Leading Tabs=删除前导制表符
-Convert Italics to Underlining=转换斜体为下划线
-Novel Stylesheet...=小说样式表...
-Project=项目
-Add Leading Tabs=添加前导制表符
-Save a Version=保存一个版本
-Typewriter Scrolling=打字机滚动
-Show Invisible Characters=显示不可见字符
-Show Previous Versions=显示上一个版本
-Customize Status Bar...=自定义状态栏...
-File Info=文件信息
-Screenplay Stylesheet...=剧本样式表...
-Close the active split view, leaving the other views open.=关闭活动拆分视图，使其他视图打开。
-Close the other split views, leaving the active split view open.=关闭其他分裂的看法，留下积极的拆分视图中打开。
-Split the active view horizontally.=水平拆分活动视图。
-Split the active view vertically.=垂直拆分活动视图。
-Version %{value1}@ (%{value2}@)=版本%{value1}@ (%{value2}@)
-MainMenu=主菜单
-Storyist=Storyist
-Insert=插入
-Tools=工具
-Font=字体
-Kern=字符间距
-Ligature=连字
-Baseline=基线
-Text=文本
-Style=样式
-Change Stylesheet=更改样式表
-Layout=布局
-Split=拆分
-Inspector=检查器
-Superscript=上标
-Preferences...=首选项……
-Substitutions=替换
-Transformations=转换
-StoryistController=StoryistController
-Open in Other Views=在其他视图中打开
-Reveal in Project View=在项目视图中显示
-Status=状态
-None=无
-First Draft=第一稿
-Final Draft=最终稿
-Edit List...=编辑列表...
-Color=颜色
-Orange=橙子
-Yellow=黄色
-Green=绿色
-Blue=蓝色
-Purple=紫色
-Gray=灰色
-Background=背景
-Item Color=项目颜色
-Alternating Colors=颜色交替
-Yellow Pad=黄垫
-Show Summaries=显示汇总
-Columns=列
-Word Count=字数
-Rating=评分
-Title &amp; Summary=标题和概要
-Text Cell=文本单元
-ImageAndTextCell=ImageAndTextCell
-Pop Up=弹出
-OtherViews=OtherViews
-Item=项目
-Toggle View Linking=切换视图链接
-Outlining is not enabled for this text file.=这个文本文件还没有启用大纲。
-Add a new item of the same type as the selected item.=添加和所选项目相同类型的一个新项目。
-Link/unlink selection in split views. If selection is linked, changing the selection in one view updates the selection in the other views.=在拆分视图中链接/取消链接选择。如果选择链接，在一个视图中更改所选将更新在其他视图中的所选。
-Action-NoBorder=Action-NoBorder
-AppDelegate=AppDelegate
-About Boson=关于Boson
-Audio Units=音频单元
-Loading ...=载入中...
-Boson Help=Boson帮助
-Hide Boson=隐藏Boson
-Boson Manual=Boson手册
-Quit Boson=退出Boson
-Play Selection=播放所选
-High Contrast Color Scheme=高对比度配色方案
-Graphical Equalizer=图形均衡器
-Rename Selected Marker=重命名选定标记
-Playback Rate 0.5x=播放速率0.5x
-Select Custom Range...=选择自定义范围...
-Delete Selected Markers=删除选定标记
-Convert To Mono=转换为单声道
-Playback Rate 0.8x=播放速率0.8x
-Goto Next Marker=转到下一标记
-Peak Limiter=峰值限制器
-Amplify=放大
-Preferences…=首选项…
-Detect Silence=检测静音
-Playback Rate 1.0x=播放速率1.0x
-Generate Sine Wave=生成正弦波
-Play=播放
-Playback Rate 2.0x=播放速率2.0x
-Crop=裁剪
-Reverse=翻转
-Low Shelf Filter=低架滤波器
-Pitch=音调
-Zoom To Selection=缩放到所选
-Low Pass Filter=低通滤波器
-Convert To Stereo=转换为立体声
-Select Visible Range=选择可见范围
-Paste Mix=混合粘贴
-Zoom to 10 sec=缩放到10秒
-High Shelf Filter=高架滤波器
-Zoom to 10%=缩放到10％
-Playback Rate 1.6x=播放速率1.6x
-Goto Beginning=转到开始
-Dynamics Processor=动态处理器
-Parametric Equalizer=参数均衡器
-Select Back=向后选择
-Select Forward=向前选择
-Goto Previous Marker=转到上一标记
-Band Pass Filter=带通滤波器
-Stop=停止
-Delay=延迟
-Normalize=标准化
-Generate Silence=生成静音
-Deselect=取消选择
-Change Bit Depth=更改位深度
-Fade Out Selection=淡出选择
-Silence Selection=静音所选
-Select To End=选择到结束
-Multiband Compressor=多频段压缩器
-Zoom to 1 sec=缩放到1秒
-Zoom to 5 sec=缩放到5秒
-Zoom to custom range...=缩放到自定义范围…
-Record=录制
-Scroll To Cursor=滚动到光标位置
-Delete All Markers=删除所有标记
-Contact Support=联系支持
-Default Color Scheme=默认配色方案
-Matrix Reverb=矩阵混响
-Paste Insert=插入粘贴
-Playback Rate 1.3x=播放速率1.3x
-Playback Rate 0.1x=播放速率0.1x
-Split at Markers and Save As…=在标记处拆分并另存为...
-Playback Rate 0.3x=播放速率0.3x
-Convert To Mono [Mix Down]=转换为单声道[缩混]
-Zoom to 100%=缩放到100％
-Change Sample Rate=更改采样率
-Select All Marked Regions=选择全部标记区域
-Distortion=失真
-Drop Marker=放下标记
-Show Welcome Window=显示欢迎窗口
-Paste Overwrite=覆盖粘贴
-High Pass Filter=高通滤波器
-Properties=属性
-Swap Channels=交换通道
-Invert Samples=翻转样本
-Zoom to 1:1=缩放到1：1
-Goto Custom Location=转到自定义位置
-Select To Beginning=选择到开始
-Goto End=转到结束
-Select Active Marked Regions=选择活动的标记区域
-New with Parameters=带参数新建
-Effect Rack...=效果器...
-Fade In Selection=淡入选择
-Update WaveView during recording=录制过程中更新波形图
-Boson=Boson
-Effects=效果
-Change Channel Layout=改变频道布局
-Sample Delay=采样延迟
-Multi Filter=多过滤器
-Roger Beep=罗杰蜂鸣
-Markers=标记
-Transport=运输
-Title=标题
-Artist=艺术家
-Copyright=版权
-Album=专辑
-Composer=作曲家
-Comments=注释
-Genre=类型
-Year=年
-Track Number=追踪号码
-Field=领域
-Part of a compilation=汇编的一部分
-Metadata=元数据
-Sampling Rate:=采样率：
-Bit Depth:=位深度：
-Channels:=通道：
-Export Audio Format=导出音频格式
-Original File:=原始文件：
-Workspace:=工作区：
-Original Audio Format=原始音频格式
-Working Audio Format=工作音频格式
-Apply=应用
-Discard=放弃
-Document Properties=文档属性
-Reveal in Finder=在Finder中显示
-Sample Rate:=采样率：
-Channel Layout:=通道布局：
-Document Format=文档格式
-Create New Document=新建文档
-Create=创建
-Cancel=取消
-Show Selection=显示选择
-Next Item=下一项
-Previous Item=上一项
-Default Action=默认动作
-GitHubAppDelegate=GitHubAppDelegate
-Delete…=删除…
-Merge into Current Branch…=合并到当前分支...
-Rename…=重命名…
-About GitHub Desktop=关于GitHub Desktop
-New Repository…=新建库
-Hide GitHub Desktop=隐藏GitHub Desktop
-Quit GitHub Desktop=退出GitHub Desktop
-GitHub Desktop Help=GitHub Desktop帮助
-Show Ruler=显示标尺
-Default=默认
-Left to Right=从左到右
-Right to Left=从右到左
-Sync=同步
-Push=Push
-Pull=Pull
-Open Source Licenses=开源许可证
-Show Branches=显示分支
-View on GitHub=在GitHub上查看
-Enter Full Screen=进入全屏模式
-Contact GitHub Support…=联系GitHub支持...
-Check for Updates...=检查更新...
-Add Local Repository…=添加本地库...
-Discard Changes to Selected Files…=放弃对选定文件的更改...
-End-User License Agreement=最终用户许可协议
-Uncommitted Changes=未提交的更改
-GitHub Desktop=GitHub Desktop
-History=历史
-Open in Finder=在Finder中打开
-Copy SHA=拷贝SHA
-Publish=发布
-Tutorial=教程
-New Window=新建窗口
-Repository Settings…=库设置...
-Automatically Sync after Committing=提交之后自动同步
-Clone Repository…=克隆库...
-Update from master=从主分支更新
-New Branch…=新建分支…
-Restore Discarded Changes=恢复放弃的更改
-Open in Terminal=在终端打开
-Toggle All Files=切换全选文件
-Create Pull Request…=创建Pull请求...
-Reload Repositories=刷新库
-Undo Most Recent Commit=撤消最近提交
-Show Repository List=显示库列表
-Open in Atom=在Atom中打开
-Repository=库
-Branch=分支
-Writing Direction=书写方向
-Paragraph=段落
-Item 1=Item 1
-Item 2=Item 2
-Item 3=Item 3
-Plug-ins=插件
-Header 2=2级标题
-Highlight=高亮
-Emphasize=着重
-Quit MacDown=退出MacDown
-About MacDown=关于MacDown
-Check for Updates…=检查更新…
-Strikethrough=删除线
-Header 4=4级标题
-Header 6=6级标题
-Link=链接
-Shift Left=左移
-Header 1=1级标题
-Left 3:1 Right=左右比3：1
-Hide MacDown=隐藏MacDown
-Strong=强调
-Hide Preview Pane=隐藏预览窗格
-Left 1:3 Right=左右比1：3
-Render Markdown=渲染Markdown
-Image=图片
-Shift Right=右移
-Left 1:1 Right=左右比1：1
-Inline Code=内嵌代码
-Unordered List=无序列表
-Ordered List=有序列表
-Header 3=3级标题
-Copy HTML=拷贝HTML
-Blockquote=引用
-MacDown Help=MacDown帮助
-Hide Editor Pane=隐藏编辑窗格
-Header 5=5级标题
-New Paragraph=新建段落
-MacDown=MacDown
-Export=导出
-Convert To=转换成
-Apple HTML pasteboard type=Apple HTML剪贴板类型
-Apple URL pasteboard type=Apple URL剪贴板类型
-Apple Web Archive pasteboard type=Apple Web Archive剪贴板类型
-Apple PDF pasteboard type=Apple PDF剪贴板类型
-WebPreferences=WebPreferences
-WebView=WebView
-Insert spaces instead of tabs=插入空格代替制表符
-Auto-complete matching characters=自动完成匹配字符
-Scroll past end=滚动可超过结尾
-Ensure newline at end of file on save=保存文件时确保末尾有新行
-Auto-increment numbering in ordered lists=在有序列表中自动递增编号
-Automatically insert line prefix for the current block=为当前块自动插入前缀线
-Behavior=行为
-Reveal=显示
-Reload=刷新
-Limit editor width to=限制编辑器宽度为
-Line spacing:=行间距：
-Change…=更改…
-Text insets:=文字插图：
-Theme:=主题：
-Base font:=基本字体：
-⌘← jumps to first non-whitespace character in line=⌘←跳转到行第一个非空白字符
-Include syntax highlighting=包括语法高亮
-Include styles=包括样式
-Update preview automatically as you type=键入时自动更新预览
-Sync preview scrollbar when editor scrolls=编辑器滚动时同步预览滚动条
-Put editor on the right=编辑器置于右侧
-Show word count=显示字数
-Ensure open document on launch=确保启动时打开文档
-Automatically create files for link targets=为链接目标自动创建文件
-Include pre-releases=包括预发布版
-Update=更新
-Language name=语言名称
-Custom=自定义
-Accessory:=附件：
-Scale preview based on editor font size=基于编辑器的字体大小缩放预览
-Render newline literally=按字面渲染换行符
-Detect table of contents token=检测TOC目录标记
-Detect Jekyll front-matter=检测Jekyll front-matter
-Task list syntax=任务列表语法
-Use dollar sign ($) as inline delimiter=使用美元符号（$）作为内联分隔符
-Math support requires Internet connection.=数学支持需要互联网连接。
-Show line numbers=显示行号
-Syntax highlighted code block=语法高亮代码块
-Default path:=默认路径：
-Macintosh HD=Macintosh HD
-Applications=应用程序
-Table=表格
-Fenced code block=包围代码块
-Block formatting=块格式化
-Quote=引用
-Intra-word emphasis=词内强调
-Autolink=自动链接
-Footnote=脚注
-Inline formatting=内联格式化
-Smartypants=Smartypants
-Document formatting=文档格式化
+Bigger|较大
+Branch Left|分支向左
+Promote Children|提升子项
+Line Up|排队
+Quit Birch|退出Birch
+About Birch|关于Birch
+Redo|重做
+Correct Spelling Automatically|自动校正拼写错误
+Fold|折叠
+Column 80|列80
+Column 40|列40
+Adjectives|形容词
+Smart Copy/Paste|智能复制/粘贴
+Save As…|另存为…
+Underline|下划线
+Close|关闭
+Birch Help|Birch帮助
+Column 120|列120
+Select All|全选
+Text Replacement|文本替换
+Show Spelling and Grammar|显示拼写和语法
+Open…|打开…
+Revert to Saved|恢复到已保存
+Show All|显示所有
+Bring All to Front|前置全部
+Line Right|右线
+Branch Down|分支向下
+Minimize|最小化
+Hide Birch|隐藏Birch
+Find Previous|查找上一个
+Stop Speaking|停止朗读
+Group|分组
+Wrap to Window|环绕窗口
+Zoom|缩放
+Jump to Selection|跳转到选择
+Verbs|动词
+Capitalize|首字母大写
+Demote Trailing Siblings|降级尾随兄弟姐妹
+Bold|粗体
+Select Branch|选择分支
+Hide Others|隐藏其他
+Sentance|森泰斯
+Find…|查找…
+Find and Replace…|查找和替换...
+Start Speaking|开始朗读
+Contract Selection|合约选择
+Unfocus|未聚焦
+Search|搜索
+Duplicate|复制
+Print…|打印…
+Nouns|名词
+Use Selection for Find|使用所选内容查找
+Column 200|列200
+Column 60|列60
+Expand Selection|展开所选
+Smart Links|智能链接
+Column 66|列66
+Make Lower Case|变为小写
+Undo|撤销
+Decrease Folding Level|减少折叠级别
+Paste|粘贴
+Select Sentence|选择句子
+Select Paragraph|选择段落
+Smart Quotes|智能引号
+Check Document Now|立即检查文件
+Line Down|线下行
+Italic|斜体
+Focus|聚焦
+Branch Up|分支向上
+Check Grammar With Spelling|检查拼写和语法
+Delete|删除
+Search by Tag|通过标签搜索
+Save…|保存…
+Find Next|查找下一个
+Page Setup…|页面设置…
+Smaller|较小
+Select Word|选择一个单词
+Check Spelling While Typing|输入时检查拼字
+Smart Dashes|智能破折号
+Fold Completely|完全折叠
+Adverbs|副词
+Data Detectors|数据检测
+Branch Right|科右
+Column 90|列90
+Focus by Project|按项目聚焦
+Clear Menu|清除菜单
+Make Upper Case|变为大写
+Line Left|左线
+Copy|拷贝
+Column 50|列50
+Show Substitutions|显示替换
+Increase Folding Level|增加折叠级别
+Main Menu|主菜单
+Birch|Birch
+Services|服务
+File|文件
+Open Recent|打开最近
+Edit|编辑
+Selection|选择
+Find|查找
+Spelling and Grammar|拼写和语法
+Spelling|拼写
+Speech|语音
+Format|格式
+Line Wrap Width|换行宽度
+View|视图
+Organize|组织
+Move|移动
+Window|窗口
+Help|帮助
+About Panel|关于面板
+Licensed To:|许可给：
+System|系统
+Unlicensed|未许可
+Version Info|版本信息
+Credits|制作名单
+About Storyist|关于Storyist
+Open...|打开...
+Save|保存
+Page Setup...|页面设置...
+Print...|打印...
+Save As...|另存为...
+Storyist Help|Storyist帮助
+Revert to Saved...|恢复到已保存...
+Hide Storyist|隐藏Storyist
+Quit Storyist|退出Storyist
+Paste Ruler|粘贴标尺
+Use None|都不使用
+Show Colors|显示颜色
+Center|居中对齐
+Align Right|右对齐
+Raise|升高
+Justify|两端对齐
+Use Default|使用默认值
+Subscript|下标
+Copy Style|拷贝样式
+Lower|降低
+Show Fonts|显示字体
+Copy Ruler|复制标尺
+Loosen|松排
+Use All|全部使用
+Align Left|左对齐
+Paste Style|粘贴样式
+Tighten|紧排
+Toggle Project View|切换项目视图
+Page Layout|页面布局
+Show Toolbar|显示工具栏
+Customize Toolbar...|自定义工具栏...
+Paste and Match Style|粘贴并匹配样式
+Create New Style from Selection...|从所选新建样式...
+Redefine Style from Selection|从所选重定义样式
+Revert to Original Style|恢复到原始样式
+Edit Current Style...|编辑当前样式...
+Zoom In|放大
+Zoom Out|缩小
+Actual Size|实际尺寸
+Fit Width|适合宽度
+Fit Page|适合页面
+Delete Style|删除样式
+Apply Style|应用样式
+List...|列表…
+Show Page Guides|显示页面指南
+Show Rulers|显示标尺
+Visit Storyist Forums|访问Storyist论坛
+Import Styles...|导入样式...
+Convert to Straight Quotes|转换为直引号
+Replace Styles...|替换样式...
+Apply Styles by Matching Text...|通过匹配的文本应用样式...
+Visit Storyist Website|访问Storyist网站
+Show Comments|展会评论
+Import...|导入…
+Show Bookmarks|显示书签
+Split Active View Horizontally|水平拆分活动视图
+Split Active View Vertically|垂直拆分活动视图
+Close Active Split View|关闭活动视图拆分
+Full Screen|全屏
+Workspaces|工作区
+New Workspace...|新建工作区...
+Manage Workspaces...|管理工作区...
+Single Editor View|单编辑器查看
+Side by Side Editor Views|并排编辑器查看
+Stacked Editor Views|堆叠视图编辑器
+Rotate Workspace|旋转工作区
+Empty Project Trash...|清空项目回收站...
+Bookmark|书签
+Comment|评论
+Date &amp; Time...|日期和时间...
+Link...|链接...
+Page Number|页码
+Close Others|关闭其他
+Export...|导出…
+Image...|图片...
+Draft|草稿
+Template Stylesheet...|模板样式表...
+Project Stylesheet...|项目样式表...
+Default Stylesheet...|默认样式表...
+Welcome to Storyist|欢迎Storyist
+Convert to Smart Quotes|转换为智能引号
+Text File...|文本文件...
+Save as Template...|另存为模板...
+Show Inspector|显示检查器
+Folder|文件夹
+Page Layout - Two Up|页面布局 - 两个向上
+Convert Underlining to Italics|转换下划线为斜体
+Story Sheet...|故事板...
+Remove Leading Tabs|删除前导制表符
+Convert Italics to Underlining|转换斜体为下划线
+Novel Stylesheet...|小说样式表...
+Project|项目
+Add Leading Tabs|添加前导制表符
+Save a Version|保存一个版本
+Typewriter Scrolling|打字机滚动
+Show Invisible Characters|显示不可见字符
+Show Previous Versions|显示上一个版本
+Customize Status Bar...|自定义状态栏...
+File Info|文件信息
+Screenplay Stylesheet...|剧本样式表...
+Close the active split view, leaving the other views open.|关闭活动拆分视图，使其他视图打开。
+Close the other split views, leaving the active split view open.|关闭其他分裂的看法，留下积极的拆分视图中打开。
+Split the active view horizontally.|水平拆分活动视图。
+Split the active view vertically.|垂直拆分活动视图。
+Version %{value1}@ (%{value2}@)|版本%{value1}@ (%{value2}@)
+MainMenu|主菜单
+Storyist|Storyist
+Insert|插入
+Tools|工具
+Font|字体
+Kern|字符间距
+Ligature|连字
+Baseline|基线
+Text|文本
+Style|样式
+Change Stylesheet|更改样式表
+Layout|布局
+Split|拆分
+Inspector|检查器
+Superscript|上标
+Preferences...|首选项……
+Substitutions|替换
+Transformations|转换
+StoryistController|StoryistController
+Open in Other Views|在其他视图中打开
+Reveal in Project View|在项目视图中显示
+Status|状态
+None|无
+First Draft|第一稿
+Final Draft|最终稿
+Edit List...|编辑列表...
+Color|颜色
+Orange|橙子
+Yellow|黄色
+Green|绿色
+Blue|蓝色
+Purple|紫色
+Gray|灰色
+Background|背景
+Item Color|项目颜色
+Alternating Colors|颜色交替
+Yellow Pad|黄垫
+Show Summaries|显示汇总
+Columns|列
+Word Count|字数
+Rating|评分
+Title &amp; Summary|标题和概要
+Text Cell|文本单元
+ImageAndTextCell|ImageAndTextCell
+Pop Up|弹出
+OtherViews|OtherViews
+Item|项目
+Toggle View Linking|切换视图链接
+Outlining is not enabled for this text file.|这个文本文件还没有启用大纲。
+Add a new item of the same type as the selected item.|添加和所选项目相同类型的一个新项目。
+Link/unlink selection in split views. If selection is linked, changing the selection in one view updates the selection in the other views.|在拆分视图中链接/取消链接选择。如果选择链接，在一个视图中更改所选将更新在其他视图中的所选。
+Action-NoBorder|Action-NoBorder
+AppDelegate|AppDelegate
+About Boson|关于Boson
+Audio Units|音频单元
+Loading ...|载入中...
+Boson Help|Boson帮助
+Hide Boson|隐藏Boson
+Boson Manual|Boson手册
+Quit Boson|退出Boson
+Play Selection|播放所选
+High Contrast Color Scheme|高对比度配色方案
+Graphical Equalizer|图形均衡器
+Rename Selected Marker|重命名选定标记
+Playback Rate 0.5x|播放速率0.5x
+Select Custom Range...|选择自定义范围...
+Delete Selected Markers|删除选定标记
+Convert To Mono|转换为单声道
+Playback Rate 0.8x|播放速率0.8x
+Goto Next Marker|转到下一标记
+Peak Limiter|峰值限制器
+Amplify|放大
+Preferences…|首选项…
+Detect Silence|检测静音
+Playback Rate 1.0x|播放速率1.0x
+Generate Sine Wave|生成正弦波
+Play|播放
+Playback Rate 2.0x|播放速率2.0x
+Crop|裁剪
+Reverse|翻转
+Low Shelf Filter|低架滤波器
+Pitch|音调
+Zoom To Selection|缩放到所选
+Low Pass Filter|低通滤波器
+Convert To Stereo|转换为立体声
+Select Visible Range|选择可见范围
+Paste Mix|混合粘贴
+Zoom to 10 sec|缩放到10秒
+High Shelf Filter|高架滤波器
+Zoom to 10%|缩放到10％
+Playback Rate 1.6x|播放速率1.6x
+Goto Beginning|转到开始
+Dynamics Processor|动态处理器
+Parametric Equalizer|参数均衡器
+Select Back|向后选择
+Select Forward|向前选择
+Goto Previous Marker|转到上一标记
+Band Pass Filter|带通滤波器
+Stop|停止
+Delay|延迟
+Normalize|标准化
+Generate Silence|生成静音
+Deselect|取消选择
+Change Bit Depth|更改位深度
+Fade Out Selection|淡出选择
+Silence Selection|静音所选
+Select To End|选择到结束
+Multiband Compressor|多频段压缩器
+Zoom to 1 sec|缩放到1秒
+Zoom to 5 sec|缩放到5秒
+Zoom to custom range...|缩放到自定义范围…
+Record|录制
+Scroll To Cursor|滚动到光标位置
+Delete All Markers|删除所有标记
+Contact Support|联系支持
+Default Color Scheme|默认配色方案
+Matrix Reverb|矩阵混响
+Paste Insert|插入粘贴
+Playback Rate 1.3x|播放速率1.3x
+Playback Rate 0.1x|播放速率0.1x
+Split at Markers and Save As…|在标记处拆分并另存为...
+Playback Rate 0.3x|播放速率0.3x
+Convert To Mono [Mix Down]|转换为单声道[缩混]
+Zoom to 100%|缩放到100％
+Change Sample Rate|更改采样率
+Select All Marked Regions|选择全部标记区域
+Distortion|失真
+Drop Marker|放下标记
+Show Welcome Window|显示欢迎窗口
+Paste Overwrite|覆盖粘贴
+High Pass Filter|高通滤波器
+Properties|属性
+Swap Channels|交换通道
+Invert Samples|翻转样本
+Zoom to 1:1|缩放到1：1
+Goto Custom Location|转到自定义位置
+Select To Beginning|选择到开始
+Goto End|转到结束
+Select Active Marked Regions|选择活动的标记区域
+New with Parameters|带参数新建
+Effect Rack...|效果器...
+Fade In Selection|淡入选择
+Update WaveView during recording|录制过程中更新波形图
+Boson|Boson
+Effects|效果
+Change Channel Layout|改变频道布局
+Sample Delay|采样延迟
+Multi Filter|多过滤器
+Roger Beep|罗杰蜂鸣
+Markers|标记
+Transport|运输
+Title|标题
+Artist|艺术家
+Copyright|版权
+Album|专辑
+Composer|作曲家
+Comments|注释
+Genre|类型
+Year|年
+Track Number|追踪号码
+Field|领域
+Part of a compilation|汇编的一部分
+Metadata|元数据
+Sampling Rate:|采样率：
+Bit Depth:|位深度：
+Channels:|通道：
+Export Audio Format|导出音频格式
+Original File:|原始文件：
+Workspace:|工作区：
+Original Audio Format|原始音频格式
+Working Audio Format|工作音频格式
+Apply|应用
+Discard|放弃
+Document Properties|文档属性
+Reveal in Finder|在Finder中显示
+Sample Rate:|采样率：
+Channel Layout:|通道布局：
+Document Format|文档格式
+Create New Document|新建文档
+Create|创建
+Cancel|取消
+Show Selection|显示选择
+Next Item|下一项
+Previous Item|上一项
+Default Action|默认动作
+GitHubAppDelegate|GitHubAppDelegate
+Delete…|删除…
+Merge into Current Branch…|合并到当前分支...
+Rename…|重命名…
+About GitHub Desktop|关于GitHub Desktop
+New Repository…|新建库
+Hide GitHub Desktop|隐藏GitHub Desktop
+Quit GitHub Desktop|退出GitHub Desktop
+GitHub Desktop Help|GitHub Desktop帮助
+Show Ruler|显示标尺
+Default|默认
+Left to Right|从左到右
+Right to Left|从右到左
+Sync|同步
+Push|Push
+Pull|Pull
+Open Source Licenses|开源许可证
+Show Branches|显示分支
+View on GitHub|在GitHub上查看
+Enter Full Screen|进入全屏模式
+Contact GitHub Support…|联系GitHub支持...
+Check for Updates...|检查更新...
+Add Local Repository…|添加本地库...
+Discard Changes to Selected Files…|放弃对选定文件的更改...
+End-User License Agreement|最终用户许可协议
+Uncommitted Changes|未提交的更改
+GitHub Desktop|GitHub Desktop
+History|历史
+Open in Finder|在Finder中打开
+Copy SHA|拷贝SHA
+Publish|发布
+Tutorial|教程
+New Window|新建窗口
+Repository Settings…|库设置...
+Automatically Sync after Committing|提交之后自动同步
+Clone Repository…|克隆库...
+Update from master|从主分支更新
+New Branch…|新建分支…
+Restore Discarded Changes|恢复放弃的更改
+Open in Terminal|在终端打开
+Toggle All Files|切换全选文件
+Create Pull Request…|创建Pull请求...
+Reload Repositories|刷新库
+Undo Most Recent Commit|撤消最近提交
+Show Repository List|显示库列表
+Open in Atom|在Atom中打开
+Repository|库
+Branch|分支
+Writing Direction|书写方向
+Paragraph|段落
+Item 1|Item 1
+Item 2|Item 2
+Item 3|Item 3
+Plug-ins|插件
+Header 2|2级标题
+Highlight|高亮
+Emphasize|着重
+Quit MacDown|退出MacDown
+About MacDown|关于MacDown
+Check for Updates…|检查更新…
+Strikethrough|删除线
+Header 4|4级标题
+Header 6|6级标题
+Link|链接
+Shift Left|左移
+Header 1|1级标题
+Left 3:1 Right|左右比3：1
+Hide MacDown|隐藏MacDown
+Strong|粗体
+Hide Preview Pane|隐藏预览窗格
+Left 1:3 Right|左右比1：3
+Render Markdown|渲染Markdown
+Image|图片
+Shift Right|右移
+Left 1:1 Right|左右比1：1
+Inline Code|内嵌代码
+Unordered List|无序列表
+Ordered List|有序列表
+Header 3|3级标题
+Copy HTML|拷贝HTML
+Blockquote|引用
+MacDown Help|MacDown帮助
+Hide Editor Pane|隐藏编辑窗格
+Header 5|5级标题
+New Paragraph|新建段落
+MacDown|MacDown
+Export|导出
+Convert To|转换成
+Apple HTML pasteboard type|Apple HTML剪贴板类型
+Apple URL pasteboard type|Apple URL剪贴板类型
+Apple Web Archive pasteboard type|Apple Web Archive剪贴板类型
+Apple PDF pasteboard type|Apple PDF剪贴板类型
+WebPreferences|WebPreferences
+WebView|WebView
+Insert spaces instead of tabs|插入空格代替制表符
+Auto-complete matching characters|自动完成匹配字符
+Scroll past end|滚动可超过结尾
+Ensure newline at end of file on save|保存文件时确保末尾有新行
+Auto-increment numbering in ordered lists|在有序列表中自动递增编号
+Automatically insert line prefix for the current block|为当前块自动插入前缀线
+Behavior|行为
+Reveal|显示
+Reload|刷新
+Limit editor width to|限制编辑器宽度为
+Line spacing:|行间距：
+Change…|更改…
+Text insets:|文字插图：
+Theme:|主题：
+Base font:|基本字体：
+⌘← jumps to first non-whitespace character in line|⌘←跳转到行第一个非空白字符
+Include syntax highlighting|包括语法高亮
+Include styles|包括样式
+Update preview automatically as you type|键入时自动更新预览
+Sync preview scrollbar when editor scrolls|编辑器滚动时同步预览滚动条
+Put editor on the right|编辑器置于右侧
+Show word count|显示字数
+Ensure open document on launch|确保启动时打开文档
+Automatically create files for link targets|为链接目标自动创建文件
+Include pre-releases|包括预发布版
+Update|更新
+Language name|语言名称
+Custom|自定义
+Accessory:|附件：
+Scale preview based on editor font size|基于编辑器的字体大小缩放预览
+Render newline literally|按字面渲染换行符
+Detect table of contents token|检测TOC目录标记
+Detect Jekyll front-matter|检测Jekyll front-matter
+Task list syntax|任务列表语法
+Use dollar sign ($) as inline delimiter|使用美元符号（$）作为内联分隔符
+Math support requires Internet connection.|数学支持需要互联网连接。
+Show line numbers|显示行号
+Syntax highlighted code block|语法高亮代码块
+Default path:|默认路径：
+Macintosh HD|Macintosh HD
+Applications|应用程序
+Table|表格
+Fenced code block|包围代码块
+Block formatting|块格式化
+Quote|引用
+Intra-word emphasis|词内强调
+Autolink|自动链接
+Footnote|脚注
+Inline formatting|内联格式化
+Smartypants|Smartypants
+Document formatting|文档格式化
+CustomFontStepper|CustomFontStepper
+Auto ( Recommended )|自动（推荐）
+Customized|自定义
+Radio|无线电
+Always Show Word Count|总是显示字数
+Show Outline Panel by default|默认显示大纲面板
+Themes|主题
+Open Theme Folder|打开主题文件夹
+Side Panel|侧面板
+Font Size|字体大小
+Classic|经典
+Seamless|无缝
+Window Style|窗口样式
+Auto pair brackets and quotes|自动配对括号和引号
+Trigger by Pressing ESC key|按Esc键触发
+Trigger Automatically|自动触发
+Text Editing|文本编辑
+Use relative path if possible|如果可能，使用相对路径
+Display line numbers for code fences|代码块显示行号
+Copy Markdown source as plain text|复制Markdown源为纯文本
+Image Drag &amp; Drop|图像拖放
+Default Copy Behavior|默认拷贝行为
+Code Fences|包围代码
+(⌘ + c)|(⌘ + c)
+Emoji Auto-Complete|Emoji自动完成
+Courier|Courier
+Indent Size on Saving|保存时缩进大小
+Heading Style|标题样式
+Syntax Preference|语法偏好
+Highlight     (e.g: ==key==)|高亮（例：==键==）
+Superscript ( e.g: X^2^ )|上标（例：X^2^）
+Subscript    ( e.g: H~2~O )|下标（例：H~2~O）
+Inline Math  ( e.g: $\LaTeX$ )|行内数学式（例：$\LaTeX$ ）
+Markdown Support|Markdown支持
+Send Anonymous Usage Info|发送匿名使用情况信息
+Enable Debug|启用调试
+Appearance|外观
+Editor|编辑器
+Markdown|Markdown
+Security|安全
+Preference|首选项
+Custom View|自定义视图
+Flexible Space|灵活的空间
+Word (.docx)|Word (.docx)
+OpenOffice|OpenOffice
+Epub|Epub
+Media Wiki|维基媒体
+Pandoc Native|Pandoc原生
+PandocBridge|PandocBridge
+Enable Debugging|启用调试
+Seamless window only support OS X later than 10.10 and typora with light theme.|无缝窗口只支持OS X 10.10以后和typora亮主题。
+Abort|放弃
+Importing...|导入中…
+Importing in progress...|导入中...
+Converting file with Pandoc. This may take some time.|用Pandoc转换文件中。这可能需要一些时间。
+Require Pandoc to Continue..|需要Pandoc才能继续..
+Import function and several export formats requires Pandoc (≥1.16) to be installed.|导入功能和多种输出格式要求安装Pandoc（≥1.16）。
+HelveticaNeue|HelveticaNeue
+HelveticaNeue-Bold|HelveticaNeue-Bold
+Follow instructions to install Pandoc|按照说明安装Pandoc
+Please check `help`-&gt;`Quick Start` for short introduction. Official Document for custom theme is not released yet.|简短介绍请查看`帮助`-&gt;`快速开始`。自定义主题正式文档尚未发布。
+Paste As Plain Text|粘贴为纯文本
+Quit Typora|退出Typora
+About Typora|关于Typora
+Quick Start|快速开始
+Install and Use Pandoc|安装和使用Pandoc
+Open Quickly...|迅速打开...
+Markdown Reference|Markdown参考
+Jump to Top|跳转到顶部
+Change Log|更新日志
+Toggle Outline Panel|切换大纲面板
+Check for Updates|检查更新
+Hide Typora|隐藏Typora
+Copy As HTML Code|复制为HTML代码
+Replace Next|替换下一个
+Always On Top|总在最前面
+Jump to Buttom|跳转到底部
+Open File Location|打开文件所在位置
+Feedback|反馈
+Focus Mode|聚焦模式
+Website|网站
+Copy As Markdown|复制为Markdown
+Source Code Mode|源代码模式
+Typewriter Mode|打字机模式
+Typora|Typora
+Select Line/Sentence|选择行/句
+Select Styled Scope|选择带样式范围
+Jump To|跳转到
+Heading 1|1级标题
+Heading 2|2级标题
+Heading 3|3级标题
+Heading 4|4级标题
+Heading 5|5级标题
+Heading 6|6级标题
+Math Block|数学块
+Task List|任务列表
+Link Reference|链接引用
+Footnotes|脚注
+Horizontal Line|水平线
+Table of Content|目录
+Emphasis|斜体
+Code|代码
+Inline Math|行内数学式
+Strike|删除线
+Hyperlink|超链接
+Clear Format|清除格式
+Paste As Plain Text |粘贴为纯文本
+Document=文档
+DocWebView=DocWebView
+Exporting...=导出…
+Exporting in progress...=导出中…
+Characters=字数
+Lines=行数
+Minutes=分钟
+Words=词数
+WordCountPopover=WordCountPopover
+Wordcunt Popover=Wordcunt弹出框
+Document
+DocWebView
+Exporting...
+Exporting in progress...
+Characters
+Lines
+Minutes
+Words
+WordCountPopover
+Wordcunt Popover
