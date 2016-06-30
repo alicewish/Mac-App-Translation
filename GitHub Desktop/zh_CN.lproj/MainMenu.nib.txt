@@ -2057,7 +2057,7 @@
 <integer>653</integer>
 </dict>
 </dict>
-<string>停止发言</string>
+<string>停止朗读</string>
 <string>stopSpeaking:</string>
 <dict>
 <key>$class</key>
