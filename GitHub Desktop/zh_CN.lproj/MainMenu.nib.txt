@@ -730,7 +730,7 @@
 <integer>15</integer>
 </dict>
 </dict>
-<string>Next Item</string>
+<string>下一项</string>
 <string>n</string>
 <dict>
 <key>$class</key>
@@ -823,7 +823,7 @@
 <integer>25</integer>
 </dict>
 </dict>
-<string>Previous Item</string>
+<string>上一项</string>
 <string>p</string>
 <dict>
 <key>$class</key>
@@ -861,7 +861,7 @@
 <integer>28</integer>
 </dict>
 </dict>
-<string>Default Action</string>
+<string>默认动作</string>
 <string>
 </string>
 <dict>
@@ -1003,7 +1003,7 @@
 <integer>674</integer>
 </dict>
 </dict>
-<string>Delete…</string>
+<string>删除…</string>
 <string>deleteBranchMenuItem</string>
 <dict>
 <key>$class</key>
@@ -1061,7 +1061,7 @@
 <integer>45</integer>
 </dict>
 </dict>
-<string>Merge into Current Branch…</string>
+<string>合并到当前分支...</string>
 <string>mergeBranchMenuItem</string>
 <dict>
 <key>$class</key>
@@ -1119,7 +1119,7 @@
 <integer>49</integer>
 </dict>
 </dict>
-<string>Rename…</string>
+<string>重命名…</string>
 <string>renameBranchMenuItem</string>
 <dict>
 <key>$class</key>
@@ -1342,7 +1342,7 @@
 <integer>597</integer>
 </dict>
 </dict>
-<string>About GitHub Desktop</string>
+<string>关于GitHub Desktop</string>
 <string>openAboutPanel:</string>
 <dict>
 <key>$class</key>
@@ -1572,7 +1572,7 @@
 <integer>85</integer>
 </dict>
 </dict>
-<string>New Repository…</string>
+<string>新建库</string>
 <string>showNewRepository:</string>
 <dict>
 <key>$class</key>
@@ -1813,7 +1813,7 @@
 <integer>103</integer>
 </dict>
 </dict>
-<string>Hide GitHub Desktop</string>
+<string>隐藏GitHub Desktop</string>
 <string>h</string>
 <string>hide:</string>
 <dict>
@@ -1874,7 +1874,7 @@
 <integer>108</integer>
 </dict>
 </dict>
-<string>Quit GitHub Desktop</string>
+<string>退出GitHub Desktop</string>
 <string>q</string>
 <string>terminate:</string>
 <dict>
@@ -5083,7 +5083,7 @@
 <integer>687</integer>
 </dict>
 </dict>
-<string>GitHub Desktop Help</string>
+<string>GitHub Desktop帮助</string>
 <string>?</string>
 <string>showHelp:</string>
 <dict>
@@ -5375,7 +5375,7 @@
 <integer>382</integer>
 </dict>
 </dict>
-<string>Show Ruler</string>
+<string>显示标尺</string>
 <string>toggleRuler:</string>
 <dict>
 <key>$class</key>
@@ -5555,7 +5555,7 @@
 <integer>728</integer>
 </dict>
 </dict>
-<string>Default</string>
+<string>默认</string>
 <string>makeBaseWritingDirectionNatural:</string>
 <dict>
 <key>$class</key>
@@ -5608,7 +5608,7 @@
 <integer>399</integer>
 </dict>
 </dict>
-<string>Left to Right</string>
+<string>从左到右</string>
 <string>makeBaseWritingDirectionLeftToRight:</string>
 <dict>
 <key>$class</key>
@@ -5661,7 +5661,7 @@
 <integer>403</integer>
 </dict>
 </dict>
-<string>Right to Left</string>
+<string>从右到左</string>
 <string>makeBaseWritingDirectionRightToLeft:</string>
 <dict>
 <key>$class</key>
@@ -5714,7 +5714,7 @@
 <integer>407</integer>
 </dict>
 </dict>
-<string>Default</string>
+<string>默认</string>
 <string>makeTextWritingDirectionNatural:</string>
 <dict>
 <key>$class</key>
@@ -5767,7 +5767,7 @@
 <integer>411</integer>
 </dict>
 </dict>
-<string>Left to Right</string>
+<string>从左到右</string>
 <string>makeTextWritingDirectionLeftToRight:</string>
 <dict>
 <key>$class</key>
@@ -5820,7 +5820,7 @@
 <integer>415</integer>
 </dict>
 </dict>
-<string>Right to Left</string>
+<string>从右到左</string>
 <string>makeTextWritingDirectionRightToLeft:</string>
 <dict>
 <key>$class</key>
@@ -5892,7 +5892,7 @@
 <integer>665</integer>
 </dict>
 </dict>
-<string>Sync</string>
+<string>同步</string>
 <string>synchronizeOrPublish:</string>
 <dict>
 <key>$class</key>
@@ -6061,7 +6061,7 @@
 <integer>433</integer>
 </dict>
 </dict>
-<string>Open Source Licenses</string>
+<string>开源许可证</string>
 <string>showLicenses:</string>
 <dict>
 <key>$class</key>
@@ -6116,7 +6116,7 @@
 <integer>437</integer>
 </dict>
 </dict>
-<string>Show Branches</string>
+<string>显示分支</string>
 <string>showBranchesPopover:</string>
 <dict>
 <key>$class</key>
@@ -6171,7 +6171,7 @@
 <integer>441</integer>
 </dict>
 </dict>
-<string>View on GitHub</string>
+<string>在GitHub上查看</string>
 <string>jumpToGitHub:</string>
 <dict>
 <key>$class</key>
@@ -6226,7 +6226,7 @@
 <integer>445</integer>
 </dict>
 </dict>
-<string>Enter Full Screen</string>
+<string>进入全屏模式</string>
 <string>toggleFullScreen:</string>
 <dict>
 <key>$class</key>
@@ -6284,7 +6284,7 @@
 <integer>449</integer>
 </dict>
 </dict>
-<string>Contact GitHub Support…</string>
+<string>联系GitHub支持...</string>
 <string>showSupport:</string>
 <dict>
 <key>$class</key>
@@ -6414,7 +6414,7 @@
 <integer>458</integer>
 </dict>
 </dict>
-<string>Check for Updates...</string>
+<string>检查更新...</string>
 <string>openAboutPanel:</string>
 <dict>
 <key>$class</key>
@@ -6469,7 +6469,7 @@
 <integer>462</integer>
 </dict>
 </dict>
-<string>Add Local Repository…</string>
+<string>添加本地库...</string>
 <string>o</string>
 <string>addLocalRepository:</string>
 <dict>
@@ -6523,7 +6523,7 @@
 <integer>467</integer>
 </dict>
 </dict>
-<string>Discard Changes to Selected Files…</string>
+<string>放弃对选定文件的更改...</string>
 <string>discardAllSelectedChanges:</string>
 <dict>
 <key>$class</key>
@@ -6599,7 +6599,7 @@
 <integer>473</integer>
 </dict>
 </dict>
-<string>End-User License Agreement</string>
+<string>最终用户许可协议</string>
 <string>showEULA:</string>
 <dict>
 <key>$class</key>
@@ -6672,7 +6672,7 @@
 <integer>479</integer>
 </dict>
 </dict>
-<string>Uncommitted Changes</string>
+<string>未提交的更改</string>
 <string>1</string>
 <string>switchToChangesView:</string>
 <dict>
@@ -6802,7 +6802,7 @@
 <integer>491</integer>
 </dict>
 </dict>
-<string>History</string>
+<string>历史</string>
 <string>2</string>
 <string>switchToHistoryView:</string>
 <dict>
@@ -6858,7 +6858,7 @@
 <integer>496</integer>
 </dict>
 </dict>
-<string>Open in Finder</string>
+<string>在Finder中打开</string>
 <string>F</string>
 <string>openInFinder:</string>
 <dict>
@@ -6916,7 +6916,7 @@
 <integer>501</integer>
 </dict>
 </dict>
-<string>Copy SHA</string>
+<string>拷贝SHA</string>
 <string>copySHA:</string>
 <dict>
 <key>$class</key>
@@ -6969,7 +6969,7 @@
 <integer>505</integer>
 </dict>
 </dict>
-<string>Publish</string>
+<string>发布</string>
 <string>publishBranch:</string>
 <dict>
 <key>$class</key>
@@ -7027,7 +7027,7 @@
 <integer>509</integer>
 </dict>
 </dict>
-<string>Tutorial</string>
+<string>教程</string>
 <string>addTutorialRepository:</string>
 <dict>
 <key>$class</key>
@@ -7082,7 +7082,7 @@
 <integer>513</integer>
 </dict>
 </dict>
-<string>New Window</string>
+<string>新建窗口</string>
 <string>newMainWindow:</string>
 <dict>
 <key>$class</key>
@@ -7135,7 +7135,7 @@
 <integer>517</integer>
 </dict>
 </dict>
-<string>Repository Settings…</string>
+<string>库设置...</string>
 <string>showRepositorySettings:</string>
 <dict>
 <key>$class</key>
@@ -7206,7 +7206,7 @@
 <integer>523</integer>
 </dict>
 </dict>
-<string>Automatically Sync after Committing</string>
+<string>提交之后自动同步</string>
 <string>toggleCommitAndSync:</string>
 <dict>
 <key>$class</key>
@@ -7261,7 +7261,7 @@
 <integer>527</integer>
 </dict>
 </dict>
-<string>Clone Repository…</string>
+<string>克隆库...</string>
 <string>cloneRepositoryFromGitHub:</string>
 <dict>
 <key>$class</key>
@@ -7314,7 +7314,7 @@
 <integer>531</integer>
 </dict>
 </dict>
-<string>Update from master</string>
+<string>从主分支更新</string>
 <string>mergeFromDefaultBranch:</string>
 <dict>
 <key>$class</key>
@@ -7369,7 +7369,7 @@
 <integer>535</integer>
 </dict>
 </dict>
-<string>New Branch…</string>
+<string>新建分支…</string>
 <string>N</string>
 <string>showCreateBranchesPopover:</string>
 <dict>
@@ -7425,7 +7425,7 @@
 <integer>540</integer>
 </dict>
 </dict>
-<string>Restore Discarded Changes</string>
+<string>恢复放弃的更改</string>
 <string>restoreChanges:</string>
 <dict>
 <key>$class</key>
@@ -7480,7 +7480,7 @@
 <integer>544</integer>
 </dict>
 </dict>
-<string>Open in Terminal</string>
+<string>在终端打开</string>
 <string>openInTerminal:</string>
 <dict>
 <key>$class</key>
@@ -7553,7 +7553,7 @@
 <integer>550</integer>
 </dict>
 </dict>
-<string>Toggle All Files</string>
+<string>切换所有文件</string>
 <string>T</string>
 <string>toggleAll:</string>
 <dict>
@@ -7665,7 +7665,7 @@
 <integer>560</integer>
 </dict>
 </dict>
-<string>Create Pull Request…</string>
+<string>创建Pull请求...</string>
 <string>r</string>
 <string>togglePullRequestView:</string>
 <dict>
@@ -7724,7 +7724,7 @@
 <integer>565</integer>
 </dict>
 </dict>
-<string>Reload Repositories</string>
+<string>刷新库</string>
 <string>refreshAll:</string>
 <dict>
 <key>$class</key>
@@ -7797,7 +7797,7 @@
 <integer>571</integer>
 </dict>
 </dict>
-<string>Undo Most Recent Commit</string>
+<string>撤消最近提交</string>
 <string>undoMostRecentCommit:</string>
 <dict>
 <key>$class</key>
@@ -7852,7 +7852,7 @@
 <integer>575</integer>
 </dict>
 </dict>
-<string>Show Repository List</string>
+<string>显示库列表</string>
 <string>R</string>
 <string>toggleSidebar:</string>
 <dict>
@@ -7908,7 +7908,7 @@
 <integer>580</integer>
 </dict>
 </dict>
-<string>Open in Atom</string>
+<string>在Atom中打开</string>
 <string>A</string>
 <string>openInAtom:</string>
 <dict>
@@ -10500,9 +10500,9 @@
 <integer>663</integer>
 </dict>
 </dict>
-<string>Repository</string>
+<string>库</string>
 <string>submenuAction:</string>
-<string>Repository</string>
+<string>库</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -10866,7 +10866,7 @@
 <integer>674</integer>
 </dict>
 </dict>
-<string>Branch</string>
+<string>分支</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -12099,9 +12099,9 @@
 <integer>726</integer>
 </dict>
 </dict>
-<string>Writing Direction</string>
+<string>书写方向</string>
 <string>submenuAction:</string>
-<string>Writing Direction</string>
+<string>书写方向</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12184,7 +12184,7 @@
 <integer>731</integer>
 </dict>
 </dict>
-<string>Paragraph</string>
+<string>段落</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12342,7 +12342,7 @@
 <integer>737</integer>
 </dict>
 </dict>
-<string>Repository</string>
+<string>库</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -12361,7 +12361,7 @@
 <integer>740</integer>
 </dict>
 </dict>
-<string>Repository</string>
+<string>库</string>
 <dict>
 <key>$class</key>
 <dict>

@@ -402,69 +402,59 @@ Create New Document=新建文档
 Create=创建
 Cancel=取消
 Show Selection=显示选择
-Selection: 21.6 Seconds [0:36.456 - 0:59.132]
-Next Item
-Previous Item
-Default Action
-GitHubAppDelegate
-Delete…
-Merge into Current Branch…
-Rename…
-About GitHub Desktop
-New Repository…
-Hide GitHub Desktop
-Quit GitHub Desktop
-GitHub Desktop Help
-Show Ruler
-Default
-Left to Right
-Right to Left
-Default
-Left to Right
-Right to Left
-Sync
-Push
-Pull
-Open Source Licenses
-Show Branches
-View on GitHub
-Enter Full Screen
-Contact GitHub Support…
-Check for Updates...
-Add Local Repository…
-Discard Changes to Selected Files…
-End-User License Agreement
-Uncommitted Changes
-GitHub Desktop
-History
-Open in Finder
-Copy SHA
-Publish
-Tutorial
-New Window
-Repository Settings…
-Automatically Sync after Committing
-Clone Repository…
-Update from master
-New Branch…
-Restore Discarded Changes
-Open in Terminal
-Toggle All Files
-Create Pull Request…
-Reload Repositories
-Undo Most Recent Commit
-Show Repository List
-Open in Atom
-GitHub Desktop
-GitHub Desktop
-Repository
-Repository
-Branch
-Writing Direction
-Writing Direction
-Paragraph
-Repository
-Repository
-Item 1
-Item 2
-Item 3
+Next Item=下一项
+Previous Item=上一项
+Default Action=默认动作
+GitHubAppDelegate=GitHubAppDelegate
+Delete…=删除…
+Merge into Current Branch…=合并到当前分支...
+Rename…=重命名…
+About GitHub Desktop=关于GitHub Desktop
+New Repository…=新建库
+Hide GitHub Desktop=隐藏GitHub Desktop
+Quit GitHub Desktop=退出GitHub Desktop
+GitHub Desktop Help=GitHub Desktop帮助
+Show Ruler=显示标尺
+Default=默认
+Left to Right=从左到右
+Right to Left=从右到左
+Sync=同步
+Push=Push
+Pull=Pull
+Open Source Licenses=开源许可证
+Show Branches=显示分支
+View on GitHub=在GitHub上查看
+Enter Full Screen=进入全屏模式
+Contact GitHub Support…=联系GitHub支持...
+Check for Updates...=检查更新...
+Add Local Repository…=添加本地库...
+Discard Changes to Selected Files…=放弃对选定文件的更改...
+End-User License Agreement=最终用户许可协议
+Uncommitted Changes=未提交的更改
+GitHub Desktop=GitHub Desktop
+History=历史
+Open in Finder=在Finder中打开
+Copy SHA=拷贝SHA
+Publish=发布
+Tutorial=教程
+New Window=新建窗口
+Repository Settings…=库设置...
+Automatically Sync after Committing=提交之后自动同步
+Clone Repository…=克隆库...
+Update from master=从主分支更新
+New Branch…=新建分支…
+Restore Discarded Changes=恢复放弃的更改
+Open in Terminal=在终端打开
+Toggle All Files=切换所有文件
+Create Pull Request…=创建Pull请求...
+Reload Repositories=刷新库
+Undo Most Recent Commit=撤消最近提交
+Show Repository List=显示库列表
+Open in Atom=在Atom中打开
+Repository=库
+Branch=分支
+Writing Direction=书写方向
+Paragraph=段落
+Item 1=Item 1
+Item 2=Item 2
+Item 3=Item 3
