@@ -2783,7 +2783,7 @@
 <integer>160</integer>
 </dict>
 </dict>
-<string>Share via Bonjour</string>
+<string>通过Bonjour分享</string>
 <string>E</string>
 <string>toggleIsAnnounced:</string>
 <dict>
@@ -2929,7 +2929,7 @@
 <integer>1044</integer>
 </dict>
 </dict>
-<string>Start speaking</string>
+<string>开始朗读</string>
 <string>startSpeaking:</string>
 <dict>
 <key>$class</key>
@@ -2984,7 +2984,7 @@
 <integer>176</integer>
 </dict>
 </dict>
-<string>Stop speaking</string>
+<string>停止朗读</string>
 <string>stopSpeaking:</string>
 <dict>
 <key>$class</key>
@@ -3056,7 +3056,7 @@
 <integer>1084</integer>
 </dict>
 </dict>
-<string>Use Tabs</string>
+<string>使用标签页</string>
 <string>toggleUsesTabs:</string>
 <dict>
 <key>$class</key>
@@ -3421,7 +3421,7 @@
 <integer>211</integer>
 </dict>
 </dict>
-<string>Clear Change Marks</string>
+<string>清除更改标记</string>
 <string>clearChangeMarks:</string>
 <dict>
 <key>$class</key>
@@ -3476,7 +3476,7 @@
 <integer>215</integer>
 </dict>
 </dict>
-<string>Show Change Marks</string>
+<string>显示更改标记</string>
 <string>toggleShowsChangeMarks:</string>
 <dict>
 <key>$class</key>
@@ -3550,7 +3550,7 @@
 <integer>1097</integer>
 </dict>
 </dict>
-<string>Use Windows Line Endings (CRLF)</string>
+<string>使用Windows行尾（CRLF）</string>
 <string>chooseLineEndings:</string>
 <dict>
 <key>$class</key>
@@ -3607,7 +3607,7 @@
 <integer>224</integer>
 </dict>
 </dict>
-<string>Use Classic Mac OS Line Endings (CR)</string>
+<string>使用经典的Mac OS行尾（CR）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3663,7 +3663,7 @@
 <integer>227</integer>
 </dict>
 </dict>
-<string>Use Unix / Mac OS X Line Endings (LF)</string>
+<string>使用Unix / Mac OS X的行尾（LF）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3719,7 +3719,7 @@
 <integer>230</integer>
 </dict>
 </dict>
-<string>Convert to Unix / Mac OS X Line Endings (LF)</string>
+<string>转换为Unix / Mac OS X的行尾（LF）</string>
 <string>convertLineEndings:</string>
 <dict>
 <key>$class</key>
@@ -3776,7 +3776,7 @@
 <integer>234</integer>
 </dict>
 </dict>
-<string>Convert to Windows Line Endings (CRLF)</string>
+<string>转换到Windows行尾（CRLF）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3832,7 +3832,7 @@
 <integer>237</integer>
 </dict>
 </dict>
-<string>Convert to Classic Mac OS Line Endings (CR)</string>
+<string>转换为经典的Mac OS行尾（CR）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3888,7 +3888,7 @@
 <integer>240</integer>
 </dict>
 </dict>
-<string>Use Unicode Line Separator (LSEP)</string>
+<string>使用Unicode行分隔符（LSEP）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3944,7 +3944,7 @@
 <integer>243</integer>
 </dict>
 </dict>
-<string>Use Unicode Paragraph Separator (PSEP)</string>
+<string>使用Unicode段分隔符（PSEP）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4000,7 +4000,7 @@
 <integer>246</integer>
 </dict>
 </dict>
-<string>Convert to Unicode Line Separator (LSEP)</string>
+<string>转换为Unicode行分隔符（LSEP）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4056,7 +4056,7 @@
 <integer>249</integer>
 </dict>
 </dict>
-<string>Convert to Unicode Paragraph Separator (PSEP)</string>
+<string>转换为Unicode段分隔符（PSEP）</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4115,7 +4115,7 @@
 <integer>252</integer>
 </dict>
 </dict>
-<string>Visit Coda Website</string>
+<string>访问Coda网站</string>
 <string>visitWebsite:</string>
 <dict>
 <key>$class</key>
@@ -4170,7 +4170,7 @@
 <integer>256</integer>
 </dict>
 </dict>
-<string>Copy Sharing URL</string>
+<string>复制共享URL</string>
 <string>copyDocumentURL:</string>
 <dict>
 <key>$class</key>
@@ -4436,7 +4436,7 @@
 </dict>
 </dict>
 <string>{{580, 391}, {512, 158}}</string>
-<string>Mode Installing Help</string>
+<string>模式下安装帮助</string>
 <string>NSPanel</string>
 <dict>
 <key>$class</key>
@@ -4581,7 +4581,7 @@
 <integer>289</integer>
 </dict>
 </dict>
-<string>Please drop this file to one of the following directories:
+<string>请将此文件拖放到以下目录之一：</string>
 </string>
 <dict>
 <key>$class</key>
@@ -5010,7 +5010,7 @@ MAA=
 <integer>1015</integer>
 </dict>
 </dict>
-<string>Read/Write</string>
+<string>读/写</string>
 <string>changePendingUsersAccess:</string>
 <dict>
 <key>$class</key>
@@ -5067,7 +5067,7 @@ MAA=
 <integer>325</integer>
 </dict>
 </dict>
-<string>Read Only</string>
+<string>只读</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5121,7 +5121,7 @@ MAA=
 <integer>328</integer>
 </dict>
 </dict>
-<string>Locked</string>
+<string>锁定</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5175,7 +5175,7 @@ MAA=
 <integer>331</integer>
 </dict>
 </dict>
-<string>Copy as XHTML</string>
+<string>复制为XHTML</string>
 <string>copyAsXHTML:</string>
 <dict>
 <key>$class</key>
@@ -5232,7 +5232,7 @@ MAA=
 <integer>335</integer>
 </dict>
 </dict>
-<string>Copy with Styles</string>
+<string>带样式拷贝</string>
 <string>copyStyled:</string>
 <dict>
 <key>$class</key>
@@ -5533,7 +5533,7 @@ MAA=
 <integer>358</integer>
 </dict>
 </dict>
-<string>Parent</string>
+<string>父支</string>
 <string></string>
 <string>goToParent:</string>
 <dict>
@@ -5645,7 +5645,7 @@ MAA=
 <integer>368</integer>
 </dict>
 </dict>
-<string>Connect to Server...</string>
+<string>连接到服务器…</string>
 <string>K</string>
 <string>connectToRemoteHost:</string>
 <dict>
@@ -5701,7 +5701,7 @@ MAA=
 <integer>373</integer>
 </dict>
 </dict>
-<string>Close File</string>
+<string>关闭文件</string>
 <string>closeEditor:</string>
 <dict>
 <key>$class</key>
@@ -5756,7 +5756,7 @@ MAA=
 <integer>377</integer>
 </dict>
 </dict>
-<string>Split &lt;File Name&gt; Horizontally</string>
+<string>水平分割<档案名称></string>
 <string>l</string>
 <string>splitHorizontally:</string>
 <dict>
@@ -5812,7 +5812,7 @@ MAA=
 <integer>382</integer>
 </dict>
 </dict>
-<string>Close Split</string>
+<string>关闭拆分</string>
 <string>closeSplit:</string>
 <dict>
 <key>$class</key>
@@ -5889,7 +5889,7 @@ MAA=
 <integer>1136</integer>
 </dict>
 </dict>
-<string>Unlock Coda…</string>
+<string>解锁Coda...</string>
 <string>showRegistrationWindow:</string>
 <dict>
 <key>$class</key>
@@ -5949,7 +5949,7 @@ MAA=
 <integer>391</integer>
 </dict>
 </dict>
-<string>Purchase Coda Online…</string>
+<string>在线购买Coda...</string>
 <string>openPurchasePage:</string>
 <dict>
 <key>$class</key>
@@ -6071,7 +6071,7 @@ MAA=
 <integer>399</integer>
 </dict>
 </dict>
-<string>Visit Coda Support Page</string>
+<string>访问Coda支持页面</string>
 <string>visitSupportPage:</string>
 <dict>
 <key>$class</key>
@@ -6124,7 +6124,7 @@ MAA=
 <integer>403</integer>
 </dict>
 </dict>
-<string>Transcript</string>
+<string>转录</string>
 <string>showTranscript:</string>
 <dict>
 <key>$class</key>
@@ -6181,7 +6181,7 @@ MAA=
 <integer>407</integer>
 </dict>
 </dict>
-<string>Split &lt;File Name&gt; Vertically</string>
+<string>垂直分割<档案名称></string>
 <string>splitVertically:</string>
 <dict>
 <key>$class</key>
@@ -6236,7 +6236,7 @@ MAA=
 <integer>411</integer>
 </dict>
 </dict>
-<string>Select Next Tab</string>
+<string>选择下一个标签页</string>
 <string>}</string>
 <string>selectNextTab:</string>
 <dict>
@@ -6292,7 +6292,7 @@ MAA=
 <integer>416</integer>
 </dict>
 </dict>
-<string>Select Previous Tab</string>
+<string>选择上一个标签页</string>
 <string>{</string>
 <string>selectPreviousTab:</string>
 <dict>
@@ -6537,7 +6537,7 @@ MAA=
 <integer>433</integer>
 </dict>
 </dict>
-<string>Find &amp; Replace</string>
+<string>查找和替换</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -6650,7 +6650,7 @@ MAA=
 <integer>440</integer>
 </dict>
 </dict>
-<string>Use Selection for Replace</string>
+<string>使用所选内容替换</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -6764,7 +6764,7 @@ MAA=
 <integer>448</integer>
 </dict>
 </dict>
-<string>Multi-Line Edit Selection</string>
+<string>多行编辑选择</string>
 <string>B</string>
 <string>blockeditSelection:</string>
 <dict>
@@ -6820,7 +6820,7 @@ MAA=
 <integer>453</integer>
 </dict>
 </dict>
-<string>View Source</string>
+<string>查看源代码</string>
 <string>u</string>
 <string>toggleSourceVisible:</string>
 <dict>
@@ -6876,7 +6876,7 @@ MAA=
 <integer>458</integer>
 </dict>
 </dict>
-<string>Show Invisible Files</string>
+<string>显示不可见的文件</string>
 <string>toggleHiddenFiles:</string>
 <dict>
 <key>$class</key>
@@ -6985,7 +6985,7 @@ MAA=
 <integer>467</integer>
 </dict>
 </dict>
-<string>Hide Find Banner</string>
+<string>隐藏查找横幅</string>
 <string>hideFindBanner:</string>
 <dict>
 <key>$class</key>
@@ -7040,7 +7040,7 @@ MAA=
 <integer>471</integer>
 </dict>
 </dict>
-<string>Next Change</string>
+<string>下一个更改</string>
 <string>jumpToNextChange:</string>
 <dict>
 <key>$class</key>
@@ -7095,7 +7095,7 @@ MAA=
 <integer>475</integer>
 </dict>
 </dict>
-<string>Previous Change</string>
+<string>上一个更改</string>
 <string>C</string>
 <string>jumpToPreviousChange:</string>
 <dict>
@@ -7151,7 +7151,7 @@ MAA=
 <integer>480</integer>
 </dict>
 </dict>
-<string>Next Symbol</string>
+<string>下一个符号</string>
 <string>d</string>
 <string>jumpToNextSymbol:</string>
 <dict>
@@ -7207,7 +7207,7 @@ MAA=
 <integer>485</integer>
 </dict>
 </dict>
-<string>Previous Symbol</string>
+<string>上一个符号</string>
 <string>D</string>
 <string>jumpToPreviousSymbol:</string>
 <dict>
@@ -7447,7 +7447,7 @@ MAA=
 <integer>503</integer>
 </dict>
 </dict>
-<string>Move…</string>
+<string>移动…</string>
 <string>moveFiles:</string>
 <dict>
 <key>$class</key>
@@ -7557,7 +7557,7 @@ MAA=
 <integer>511</integer>
 </dict>
 </dict>
-<string>Compress "Filename"</string>
+<string>压缩“文件名”</string>
 <string>compressSelectedNodes:</string>
 <dict>
 <key>$class</key>
@@ -7667,7 +7667,7 @@ MAA=
 <integer>519</integer>
 </dict>
 </dict>
-<string>Open With Finder</string>
+<string>用Finder打开</string>
 <string>openWithFinder:</string>
 <dict>
 <key>$class</key>
@@ -7722,7 +7722,7 @@ MAA=
 <integer>523</integer>
 </dict>
 </dict>
-<string>New Folder</string>
+<string>新建文件夹</string>
 <string>N</string>
 <string>newFolder:</string>
 <dict>
@@ -7778,7 +7778,7 @@ MAA=
 <integer>528</integer>
 </dict>
 </dict>
-<string>New File</string>
+<string>新建文件</string>
 <string>newFile:</string>
 <dict>
 <key>$class</key>
@@ -7833,7 +7833,7 @@ MAA=
 <integer>532</integer>
 </dict>
 </dict>
-<string>Upload / Download</string>
+<string>上传/下载</string>
 <string>transferFiles:</string>
 <dict>
 <key>$class</key>
@@ -7890,7 +7890,7 @@ MAA=
 <integer>536</integer>
 </dict>
 </dict>
-<string>Look Up In Reference Books</string>
+<string>在参考中查找</string>
 <string>'</string>
 <string>lookupInReferenceBooks:</string>
 <dict>
@@ -8057,7 +8057,7 @@ MAA=
 <integer>550</integer>
 </dict>
 </dict>
-<string>Email Support with Transcript </string>
+<string>带记录电子邮件支持</string>
 <string>emailSupportTranscript:</string>
 <dict>
 <key>$class</key>
@@ -8112,7 +8112,7 @@ MAA=
 <integer>554</integer>
 </dict>
 </dict>
-<string>Select All Within Brackets</string>
+<string>选择括号内全部</string>
 <string>b</string>
 <string>balanceBrackets:</string>
 <dict>
@@ -8170,7 +8170,7 @@ MAA=
 <integer>559</integer>
 </dict>
 </dict>
-<string>Close Current Tag Pair</string>
+<string>关闭当前标签对</string>
 <string>.</string>
 <string>insertClosingHTMLTag:</string>
 <dict>
@@ -8228,7 +8228,7 @@ MAA=
 <integer>564</integer>
 </dict>
 </dict>
-<string>Source Control</string>
+<string>源代码控制</string>
 <string>scmFileMenuItemStub:</string>
 <dict>
 <key>$class</key>
@@ -8338,7 +8338,7 @@ MAA=
 <integer>570</integer>
 </dict>
 </dict>
-<string>Find in Files…</string>
+<string>在文件中查找...</string>
 <string>F</string>
 <string>showFindInFiles:</string>
 <dict>
@@ -8394,7 +8394,7 @@ MAA=
 <integer>575</integer>
 </dict>
 </dict>
-<string>Open Quickly…</string>
+<string>迅速打开...</string>
 <string>openQuickly:</string>
 <dict>
 <key>$class</key>
@@ -8449,7 +8449,7 @@ MAA=
 <integer>579</integer>
 </dict>
 </dict>
-<string>Next Placeholder</string>
+<string>下一个占位符</string>
 <string>selectNextPlaceholder:</string>
 <dict>
 <key>$class</key>
@@ -8523,7 +8523,7 @@ MAA=
 <integer>1059</integer>
 </dict>
 </dict>
-<string>Fold All Blocks at Current Level</string>
+<string>在当前级别折叠所有块</string>
 <string>foldAllBlocksAtCurrentLevel:</string>
 <dict>
 <key>$class</key>
@@ -8578,7 +8578,7 @@ MAA=
 <integer>588</integer>
 </dict>
 </dict>
-<string>Unfold all Blocks</string>
+<string>展开所有块</string>
 <string></string>
 <string>unfoldAllBlocks:</string>
 <dict>
@@ -8634,7 +8634,7 @@ MAA=
 <integer>593</integer>
 </dict>
 </dict>
-<string>Fold All Comment Blocks</string>
+<string>折叠所有注释块</string>
 <string>foldAllCommentBlocks:</string>
 <dict>
 <key>$class</key>
@@ -8689,7 +8689,7 @@ MAA=
 <integer>597</integer>
 </dict>
 </dict>
-<string>Fold All Top Level Blocks</string>
+<string>折叠所有顶级块</string>
 <string>foldAllTopLevelBlocks:</string>
 <dict>
 <key>$class</key>
@@ -8746,7 +8746,7 @@ MAA=
 <integer>601</integer>
 </dict>
 </dict>
-<string>Fold Current Block</string>
+<string>折叠当前块</string>
 <string>foldCurrentBlock:</string>
 <dict>
 <key>$class</key>
@@ -8801,7 +8801,7 @@ MAA=
 <integer>605</integer>
 </dict>
 </dict>
-<string>Fold Selection</string>
+<string>折叠所选</string>
 <string></string>
 <string>foldTextSelection:</string>
 <dict>
@@ -8857,7 +8857,7 @@ MAA=
 <integer>610</integer>
 </dict>
 </dict>
-<string>Unfold Current Block</string>
+<string>展开当前块</string>
 <string>unfoldCurrentBlock:</string>
 <dict>
 <key>$class</key>
@@ -9436,7 +9436,7 @@ MAA=
 <integer>643</integer>
 </dict>
 </dict>
-<string>Preview</string>
+<string>预览</string>
 <string>toggleWebPreview:</string>
 <dict>
 <key>$class</key>
@@ -9493,7 +9493,7 @@ MAA=
 <integer>647</integer>
 </dict>
 </dict>
-<string>Sites</string>
+<string>网站</string>
 <string>switchMainViewMode:</string>
 <dict>
 <key>$class</key>
@@ -9606,7 +9606,7 @@ MAA=
 <integer>654</integer>
 </dict>
 </dict>
-<string>Preview in New Window</string>
+<string>在新窗口中预览</string>
 <string>viewInNewPreviewWindow:</string>
 <dict>
 <key>$class</key>
@@ -9661,7 +9661,7 @@ MAA=
 <integer>658</integer>
 </dict>
 </dict>
-<string>Show Sidebar</string>
+<string>显示侧边栏</string>
 <string>toggleSidebarVisible:</string>
 <dict>
 <key>$class</key>
@@ -9716,7 +9716,7 @@ MAA=
 <integer>662</integer>
 </dict>
 </dict>
-<string>Get Info</string>
+<string>获取信息</string>
 <string>i</string>
 <string>getInfo:</string>
 <dict>
@@ -9787,7 +9787,7 @@ MAA=
 <integer>993</integer>
 </dict>
 </dict>
-<string>Publish File to Server</string>
+<string>发布文件到服务器</string>
 <string>publishSelectedItems:</string>
 <dict>
 <key>$class</key>
@@ -9842,7 +9842,7 @@ MAA=
 <integer>672</integer>
 </dict>
 </dict>
-<string>Reverse Publish File</string>
+<string>反向发布文件</string>
 <string>reversePublishSelectedItems:</string>
 <dict>
 <key>$class</key>
@@ -9897,7 +9897,7 @@ MAA=
 <integer>676</integer>
 </dict>
 </dict>
-<string>Publish All Changes to Server…</string>
+<string>发布所有更改到服务器...</string>
 <string>publishSite:</string>
 <dict>
 <key>$class</key>
@@ -9952,7 +9952,7 @@ MAA=
 <integer>680</integer>
 </dict>
 </dict>
-<string>Clear All Changed Files</string>
+<string>清除所有修改过的文件</string>
 <string>clearPublishQueue:</string>
 <dict>
 <key>$class</key>
@@ -10022,7 +10022,7 @@ MAA=
 <integer>1035</integer>
 </dict>
 </dict>
-<string>Correct Spelling Automatically</string>
+<string>自动纠正拼写</string>
 <string>toggleAutomaticSpellingCorrection:</string>
 <dict>
 <key>$class</key>
@@ -10702,7 +10702,7 @@ MAA=
 <integer>1090</integer>
 </dict>
 </dict>
-<string>Encode Entities</string>
+<string>编码实体</string>
 <string>performTextOperation:</string>
 <dict>
 <key>$class</key>
@@ -10759,7 +10759,7 @@ MAA=
 <integer>741</integer>
 </dict>
 </dict>
-<string>Decode Entities</string>
+<string>解码实体</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -10813,7 +10813,7 @@ MAA=
 <integer>744</integer>
 </dict>
 </dict>
-<string>Convert to ASCII</string>
+<string>转换为ASCII</string>
 <string>convertToAscii:</string>
 <dict>
 <key>$class</key>
@@ -10868,7 +10868,7 @@ MAA=
 <integer>748</integer>
 </dict>
 </dict>
-<string>Remove Line Breaks</string>
+<string>删除换行符</string>
 <string>removeLineBreaks:</string>
 <dict>
 <key>$class</key>
@@ -10923,7 +10923,7 @@ MAA=
 <integer>752</integer>
 </dict>
 </dict>
-<string>Convert URL to Link</string>
+<string>转换URL到链接</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -10977,7 +10977,7 @@ MAA=
 <integer>755</integer>
 </dict>
 </dict>
-<string>Strip Tags</string>
+<string>去除标签</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -11031,7 +11031,7 @@ MAA=
 <integer>758</integer>
 </dict>
 </dict>
-<string>Strip Trailing Whitespace</string>
+<string>去除尾随空白</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -11087,7 +11087,7 @@ MAA=
 <integer>761</integer>
 </dict>
 </dict>
-<string>Convert Spaces to Tabs</string>
+<string>空格转换为制表符</string>
 <string>entab:</string>
 <dict>
 <key>$class</key>
@@ -11144,7 +11144,7 @@ MAA=
 <integer>765</integer>
 </dict>
 </dict>
-<string>Convert Tabs to Spaces</string>
+<string>制表符转换为空格</string>
 <string>detab:</string>
 <dict>
 <key>$class</key>
@@ -11216,7 +11216,7 @@ MAA=
 <integer>647</integer>
 </dict>
 </dict>
-<string>Open Site in New Window</string>
+<string>在新窗口中打开网站</string>
 <string>openSiteInNewWindow:</string>
 <dict>
 <key>$class</key>
@@ -11271,7 +11271,7 @@ MAA=
 <integer>774</integer>
 </dict>
 </dict>
-<string>Open Site</string>
+<string>打开网站</string>
 <string>openSelectedSite:</string>
 <dict>
 <key>$class</key>
@@ -11326,7 +11326,7 @@ MAA=
 <integer>778</integer>
 </dict>
 </dict>
-<string>Import Transmit Favorites…</string>
+<string>导入发送收藏...</string>
 <string>importTransmitFavorites:</string>
 <dict>
 <key>$class</key>
@@ -11381,7 +11381,7 @@ MAA=
 <integer>782</integer>
 </dict>
 </dict>
-<string>New Site…</string>
+<string>新建站点…</string>
 <string>A</string>
 <string>addSite:</string>
 <dict>
@@ -11437,7 +11437,7 @@ MAA=
 <integer>787</integer>
 </dict>
 </dict>
-<string>Edit Site…</string>
+<string>编辑站点...</string>
 <string>editSiteAction:</string>
 <dict>
 <key>$class</key>
@@ -11509,7 +11509,7 @@ MAA=
 <integer>1006</integer>
 </dict>
 </dict>
-<string>Refresh</string>
+<string>刷新</string>
 <string>refreshSiteThumbnail:</string>
 <dict>
 <key>$class</key>
@@ -11619,7 +11619,7 @@ MAA=
 <integer>800</integer>
 </dict>
 </dict>
-<string>Change...</string>
+<string>更改...</string>
 <string>chooseSiteImage:</string>
 <dict>
 <key>$class</key>
@@ -11691,7 +11691,7 @@ MAA=
 <integer>972</integer>
 </dict>
 </dict>
-<string>New Terminal Tab</string>
+<string>新建终端标签页</string>
 <string>newTab:</string>
 <dict>
 <key>$class</key>
@@ -11748,7 +11748,7 @@ MAA=
 <integer>809</integer>
 </dict>
 </dict>
-<string>New Document Tab</string>
+<string>新建文档标签页</string>
 <string>t</string>
 <dict>
 <key>$class</key>
@@ -11803,7 +11803,7 @@ MAA=
 <integer>813</integer>
 </dict>
 </dict>
-<string>New Book Tab</string>
+<string>新建书标签页</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -11857,7 +11857,7 @@ MAA=
 <integer>816</integer>
 </dict>
 </dict>
-<string>New MySQL Tab</string>
+<string>新建MySQL标签页</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -11926,7 +11926,7 @@ MAA=
 <integer>819</integer>
 </dict>
 </dict>
-<string>Arrange By</string>
+<string>排列方式按</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -12038,7 +12038,7 @@ MAA=
 <integer>826</integer>
 </dict>
 </dict>
-<string>Root URL</string>
+<string>根URL</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12075,7 +12075,7 @@ MAA=
 <integer>828</integer>
 </dict>
 </dict>
-<string>Date Opened</string>
+<string>打开日期</string>
 <string>cleanUpSitesParentItem:</string>
 <dict>
 <key>$class</key>
@@ -12182,7 +12182,7 @@ MAA=
 <integer>836</integer>
 </dict>
 </dict>
-<string>Quick Look "Filename"</string>
+<string>快速查找“文件名”</string>
 <string>toggleQuickLook:</string>
 <dict>
 <key>$class</key>
@@ -12294,7 +12294,7 @@ MAA=
 <integer>844</integer>
 </dict>
 </dict>
-<string>Files</string>
+<string>文件</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12365,7 +12365,7 @@ MAA=
 <integer>1080</integer>
 </dict>
 </dict>
-<string>Small Icon and Text</string>
+<string>小图标和文本</string>
 <string>changeTabBarDisplayMode:</string>
 <dict>
 <key>$class</key>
@@ -12420,7 +12420,7 @@ MAA=
 <integer>852</integer>
 </dict>
 </dict>
-<string>Large Icon and Text</string>
+<string>大图标和文本</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12474,7 +12474,7 @@ MAA=
 <integer>855</integer>
 </dict>
 </dict>
-<string>Text Only</string>
+<string>仅文本</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12530,7 +12530,7 @@ MAA=
 <integer>858</integer>
 </dict>
 </dict>
-<string>Become Tag</string>
+<string>成为标签</string>
 <string>&lt;</string>
 <dict>
 <key>$class</key>
@@ -12587,7 +12587,7 @@ MAA=
 <integer>862</integer>
 </dict>
 </dict>
-<string>Wrap in Tag</string>
+<string>用标签包裹</string>
 <string>wrapInTag:</string>
 <dict>
 <key>$class</key>
@@ -12640,7 +12640,7 @@ MAA=
 <integer>866</integer>
 </dict>
 </dict>
-<string>Show in File Browser</string>
+<string>在文件浏览器中显示</string>
 <string>revealTabFileInFileBrowser:</string>
 <dict>
 <key>$class</key>
@@ -12693,7 +12693,7 @@ MAA=
 <integer>870</integer>
 </dict>
 </dict>
-<string>Show in Sidebar</string>
+<string>在侧边栏中显示</string>
 <string>revealTabFileInSidebarFileBrowser:</string>
 <dict>
 <key>$class</key>
@@ -12748,7 +12748,7 @@ MAA=
 <integer>874</integer>
 </dict>
 </dict>
-<string>Close Site</string>
+<string>关闭站点</string>
 <string>closeOpenSite:</string>
 <dict>
 <key>$class</key>
@@ -12820,7 +12820,7 @@ MAA=
 <integer>976</integer>
 </dict>
 </dict>
-<string>New MySQL Split</string>
+<string>新建MySQL拆分</string>
 <string>newSplit:</string>
 <dict>
 <key>$class</key>
@@ -12875,7 +12875,7 @@ MAA=
 <integer>883</integer>
 </dict>
 </dict>
-<string>New Book Split</string>
+<string>新建书拆分</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12931,7 +12931,7 @@ MAA=
 <integer>886</integer>
 </dict>
 </dict>
-<string>New Document Split</string>
+<string>新建文档拆分</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -12985,7 +12985,7 @@ MAA=
 <integer>889</integer>
 </dict>
 </dict>
-<string>New Terminal Split</string>
+<string>新建终端拆分</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -13039,7 +13039,7 @@ MAA=
 <integer>892</integer>
 </dict>
 </dict>
-<string>New Preview Split</string>
+<string>新建预览拆分</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -13260,7 +13260,7 @@ MAA=
 <integer>909</integer>
 </dict>
 </dict>
-<string>Wrap Lines</string>
+<string>自动换行</string>
 <string>toggleWrap:</string>
 <dict>
 <key>$class</key>
@@ -13315,7 +13315,7 @@ MAA=
 <integer>913</integer>
 </dict>
 </dict>
-<string>Save &amp; Publish</string>
+<string>保存并发布</string>
 <string>saveAndPublishDocument:</string>
 <dict>
 <key>$class</key>
@@ -13372,7 +13372,7 @@ MAA=
 <integer>917</integer>
 </dict>
 </dict>
-<string>Save &amp; Publish All</string>
+<string>保存并发布全部</string>
 <string>saveAndPublishAllDocuments:</string>
 <dict>
 <key>$class</key>
@@ -13429,7 +13429,7 @@ MAA=
 <integer>921</integer>
 </dict>
 </dict>
-<string>Paste and Indent</string>
+<string>粘贴并缩进</string>
 <string>pasteAndMatchLevel:</string>
 <dict>
 <key>$class</key>
@@ -13489,7 +13489,7 @@ MAA=
 <integer>925</integer>
 </dict>
 </dict>
-<string>Inside Coda on iBooks</string>
+<string>iBooks上的Coda内幕</string>
 <string>getInsideCodaBook:</string>
 <dict>
 <key>$class</key>
@@ -13542,7 +13542,7 @@ MAA=
 <integer>929</integer>
 </dict>
 </dict>
-<string>Never Publish</string>
+<string>从不发布</string>
 <string>ignoreSelectedItemsToPublish:</string>
 <dict>
 <key>$class</key>
@@ -13595,7 +13595,7 @@ MAA=
 <integer>933</integer>
 </dict>
 </dict>
-<string>Rebuild Site Index</string>
+<string>重建站点索引</string>
 <string>rebuildSiteIndex:</string>
 <dict>
 <key>$class</key>
@@ -13654,7 +13654,7 @@ MAA=
 <integer>937</integer>
 </dict>
 </dict>
-<string>Comment Selection by Line</string>
+<string>按行注释所选</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -13678,7 +13678,7 @@ MAA=
 </dict>
 </dict>
 <string>NSToolTipHelpKey</string>
-<string>Edits will affect all selected rows of text.</string>
+<string>编辑会影响文本的所有选定行。</string>
 <dict>
 <key>$classes</key>
 <array>
@@ -13710,7 +13710,7 @@ MAA=
 <integer>943</integer>
 </dict>
 </dict>
-<string>Reset all local files to "unchanged".</string>
+<string>重置所有本地文件到“未变化”。</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -15852,7 +15852,7 @@ MAA=
 <integer>976</integer>
 </dict>
 </dict>
-<string>New Split</string>
+<string>新建拆分</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -16941,7 +16941,7 @@ MAA=
 <integer>1015</integer>
 </dict>
 </dict>
-<string>Access Control</string>
+<string>访问控制</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -18229,7 +18229,7 @@ MAA=
 <integer>1059</integer>
 </dict>
 </dict>
-<string>Code Folding</string>
+<string>代码折叠</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -18410,7 +18410,7 @@ MAA=
 <integer>1065</integer>
 </dict>
 </dict>
-<string>Fold All Blocks at Level</string>
+<string>折叠所有块，在级别</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -18589,7 +18589,7 @@ MAA=
 <integer>1071</integer>
 </dict>
 </dict>
-<string>Preview In</string>
+<string>预览于</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -18788,7 +18788,7 @@ MAA=
 <integer>1080</integer>
 </dict>
 </dict>
-<string>Toolbar</string>
+<string>工具栏</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -19086,7 +19086,7 @@ MAA=
 <integer>1090</integer>
 </dict>
 </dict>
-<string>Processing</string>
+<string>处理</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -19309,7 +19309,7 @@ MAA=
 <integer>1097</integer>
 </dict>
 </dict>
-<string>Line Endings</string>
+<string>行尾</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -19458,7 +19458,7 @@ MAA=
 <integer>1102</integer>
 </dict>
 </dict>
-<string>Encoding</string>
+<string>编码</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -19539,7 +19539,7 @@ MAA=
 <integer>1107</integer>
 </dict>
 </dict>
-<string>Syntax Mode</string>
+<string>语法模式</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>
@@ -20339,7 +20339,7 @@ MAA=
 <integer>1136</integer>
 </dict>
 </dict>
-<string>Purchase</string>
+<string>购买</string>
 <string>submenuAction:</string>
 <dict>
 <key>$class</key>

@@ -1110,3 +1110,141 @@ Coda Help|Coda帮助
 Revert to Saved…|恢复到已保存...
 Hide Coda|隐藏Coda
 Quit Coda|退出Coda
+Share via Bonjour|通过Bonjour分享
+Start speaking|开始朗读
+Stop speaking|停止朗读
+Use Tabs|使用标签页
+Clear Change Marks|清除更改标记
+Show Change Marks|显示更改标记
+Visit Coda Website|访问Coda网站
+Copy Sharing URL|复制共享URL
+Mode Installing Help|模式下安装帮助
+Read/Write|读/写
+Read Only|只读
+Locked|锁定
+Copy as XHTML|复制为XHTML
+Copy with Styles|带样式拷贝
+Parent|父支
+Connect to Server...|连接到服务器…
+Close File|关闭文件
+Close Split|关闭拆分
+Unlock Coda…|解锁Coda...
+Purchase Coda Online…|在线购买Coda...
+Visit Coda Support Page|访问Coda支持页面
+Transcript|转录
+Select Next Tab|选择下一个标签页
+Select Previous Tab|选择上一个标签页
+Find &amp; Replace|查找和替换
+Use Selection for Replace|使用所选内容替换
+Multi-Line Edit Selection|多行编辑选择
+View Source|查看源代码
+Show Invisible Files|显示不可见的文件
+Hide Find Banner|隐藏查找横幅
+Next Change|下一个更改
+Previous Change|上一个更改
+Next Symbol|下一个符号
+Previous Symbol|上一个符号
+Move…|移动…
+Compress "Filename"|压缩“文件名”
+Open With Finder|用Finder打开
+New Folder|新建文件夹
+New File|新建文件
+Upload / Download|上传/下载
+Look Up In Reference Books|在参考中查找
+Select All Within Brackets|选择括号内全部
+Close Current Tag Pair|关闭当前标签对
+Source Control|源代码控制
+Find in Files…|在文件中查找...
+Open Quickly…|迅速打开...
+Next Placeholder|下一个占位符
+Unfold all Blocks|展开所有块
+Fold All Comment Blocks|折叠所有注释块
+Fold All Top Level Blocks|折叠所有顶级块
+Fold Current Block|折叠当前块
+Fold Selection|折叠所选
+Unfold Current Block|展开当前块
+Preview|预览
+Sites|网站
+Preview in New Window|在新窗口中预览
+Show Sidebar|显示侧边栏
+Get Info|获取信息
+Publish File to Server|发布文件到服务器
+Reverse Publish File|反向发布文件
+Clear All Changed Files|清除所有修改过的文件
+Encode Entities|编码实体
+Decode Entities|解码实体
+Convert to ASCII|转换为ASCII
+Remove Line Breaks|删除换行符
+Convert URL to Link|转换URL到链接
+Strip Tags|去除标签
+Strip Trailing Whitespace|去除尾随空白
+Convert Spaces to Tabs|空格转换为制表符
+Convert Tabs to Spaces|制表符转换为空格
+Open Site in New Window|在新窗口中打开网站
+Open Site|打开网站
+Import Transmit Favorites…|导入发送收藏...
+New Site…|新建站点…
+Edit Site…|编辑站点...
+Refresh|刷新
+Change...|更改...
+New Terminal Tab|新建终端标签页
+New Document Tab|新建文档标签页
+New Book Tab|新建书标签页
+New MySQL Tab|新建MySQL标签页
+Arrange By|排列方式按
+Root URL|根URL
+Date Opened|打开日期
+Quick Look "Filename"|快速查找“文件名”
+Files|文件
+Small Icon and Text|小图标和文本
+Large Icon and Text|大图标和文本
+Text Only|仅文本
+Become Tag|成为标签
+Wrap in Tag|用标签包裹
+Show in File Browser|在文件浏览器中显示
+Show in Sidebar|在侧边栏中显示
+Close Site|关闭站点
+New MySQL Split|新建MySQL拆分
+New Book Split|新建书拆分
+New Document Split|新建文档拆分
+New Terminal Split|新建终端拆分
+New Preview Split|新建预览拆分
+Wrap Lines|自动换行
+Save &amp; Publish|保存并发布
+Save &amp; Publish All|保存并发布全部
+Paste and Indent|粘贴并缩进
+Inside Coda on iBooks|iBooks上的Coda内幕
+Never Publish|从不发布
+Rebuild Site Index|重建站点索引
+Comment Selection by Line|按行注释所选
+Coda|Coda
+New Split|新建拆分
+Access Control|访问控制
+Code Folding|代码折叠
+Fold All Blocks at Level|折叠所有块，在级别
+Preview In|预览于
+Toolbar|工具栏
+Processing|处理
+Line Endings|行尾
+Encoding|编码
+Syntax Mode|语法模式
+Purchase|购买
+Use Windows Line Endings (CRLF)|使用Windows行尾（CRLF）
+Use Classic Mac OS Line Endings (CR)|使用经典的Mac OS行尾（CR）
+Use Unix / Mac OS X Line Endings (LF)|使用Unix / Mac OS X的行尾（LF）
+Convert to Unix / Mac OS X Line Endings (LF)|转换为Unix / Mac OS X的行尾（LF）
+Convert to Windows Line Endings (CRLF)|转换到Windows行尾（CRLF）
+Convert to Classic Mac OS Line Endings (CR)|转换为经典的Mac OS行尾（CR）
+Use Unicode Line Separator (LSEP)|使用Unicode行分隔符（LSEP）
+Use Unicode Paragraph Separator (PSEP)|使用Unicode段分隔符（PSEP）
+Convert to Unicode Line Separator (LSEP)|转换为Unicode行分隔符（LSEP）
+Convert to Unicode Paragraph Separator (PSEP)|转换为Unicode段分隔符（PSEP）
+Please drop this file to one of the following directories:|请将此文件拖放到以下目录之一：
+Split &lt;File Name&gt; Horizontally|水平分割<档案名称>
+Split &lt;File Name&gt; Vertically|垂直分割<档案名称>
+Email Support with Transcript|带记录电子邮件支持
+Fold All Blocks at Current Level|在当前级别折叠所有块
+Publish All Changes to Server…|发布所有更改到服务器...
+Edits will affect all selected rows of text.|编辑会影响文本的所有选定行。
+Reset all local files to "unchanged".|重置所有本地文件到“未变化”。
+Email Support with Transcript |带记录电子邮件支持
