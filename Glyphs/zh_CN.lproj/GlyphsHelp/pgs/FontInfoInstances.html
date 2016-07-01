@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Font Info – Instances</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="Font, Info, instances, style, weight, width, interpolation"/>
+	<meta name="description" content="Information about Instances"/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<!--top navigation area-->
+	<div id="navbox" class="gradient">
+		<a name="FontInfoInstances"></a>
+		<a name="Setup"></a>
+		<a name="FontInfo"></a>
+		<div id="navleftbox">
+			<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+		</div>
+		<div id="navrightbox">
+			<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+		</div>
+	</div><!--closes top navigation area-->
+
+	<!--page head-->
+	<div id="headerbox">
+		<div id="iconbox">
+			<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+		</div>
+		<div id="pagetitle">
+			<h1>Font Info – Instances</h1>
+		</div>
+	</div>
+	<!--closes page header-->
+	<div id="introbox">
+		<div class="introprimtext">
+			<p class="introprimtextlongtext">Use the plus <img id="inlineimg" src="../Shared/GSPlus16x17.png" alt="green plus button" height="17" width="16"/> and minus <img id="inlineimg" src="../Shared/GSMinus16x17.png" alt="green minus button" height="17" width="16"/> buttons to add and remove instances.<br/>
+			You can edit several instances at once after you <span class="shortcut">⇧</span>-click or <span class="shortcut">⌘</span>-click the instance names in the list on the left.</p>
+		</div><!--closes introprimtext-->
+	</div> <!--closes introbox -->
+	<div id="contentbox">
+		<div class="taskbox">
+			<h2>Style Name</h2>
+			<p>This is the style name as it will appear in InDesign’s font menu. You can use a space in the style name, but non-ASCII characters may prevent the font from exporting.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Weight and Width</h2>
+			<p>These settings affect the order of fonts in the font menu. Sorting occurs first by width, then by weight, e.g.:</p>
+			<ul>
+			   <li><p>Condensed Light</p></li>
+			   <li><p>Condensed Regular</p></li>
+			   <li><p>Condensed Bold</p></li>
+			   <li><p>Light</p></li>
+			   <li><p>Regular</p></li>
+			   <li><p>Bold</p></li>
+			   <li><p>Extended Light</p></li>
+			   <li><p>Extended Regular</p></li>
+			   <li><p>Extended Bold</p></li>
+			</ul>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Style Linking</h2>
+			<p>Microsoft Windows applications support only the basic four styles per font family, i.e. Regular, Italic, Bold and Bold Italic. They are accessed via the ‘B’ and ‘I’ buttons in the toolbar. Mac applications can switch to linked Bold and Italic styles via the Cmd-B and Cmd-I shortcuts. Adobe InDesign does the same via Cmd-Shift-B and Cmd-Shift-I. If a font family is not style-linked at all, then each style appears individually in the font menu. In that case, clicking the ‘B’ or ‘I’ buttons may create a synthetic Bold or Italic.</p>
+			<p>Based on these conditions, the following strategy is recommended:</p>
+			<ul>
+			   <li><p>Italic styles should always be linked to their upright counterparts. They must share the same family name.</p></li>
+			   <li><p>The Bold style should always be linked to the Regular.</p></li>
+			   <li><p>Larger font families require a carefully devised linking strategy.</p></li>
+			</ul>
+			<p>Linking the SemiBold to the Light is sometimes practiced. If you choose to do so, only the Light will appear in the font menu and many users are unaware that they can access the SemiBold style by selecting Light and then choosing ‘bold’ However, if you want to link SemiBold to Light, enter the name of your Light style in the ‘Linked style’ text field of your SemiBold instance settings and check ‘is Bold’.</p>
+			<p>Some designers prefer a different strategy, according to which only the Bold, Italic and Bold Italic are linked to the Regular. For the rest, only the italics are linked to the uprights with the same name, e.g. Medium Italic is the Italic of Medium. No Bold setting is used furthermore.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Interpolation</h2>
+			<p>The Weight and Width settings apply to the design space spanned between the Masters. For further details, see the chapter on Multiple Masters.</p>
+		</div><!--closes taskbox-->
+	</div><!--closes contentbox-->		
+	<div id="linkinternalbox">
+		<h3>Related Topics</h3>
+		<p class="linkinternal"><a href="help:topic_list=FontInfoInstancesCustomParameters bookID='Glyphs Help'">Font Info – Instances Custom Parameters</a></p>
+		<p class="linkinternal"><a href="help:topic_list=FontInfo bookID='Glyphs Help' template=sty/genlist.html stylesheet=sty/home_os.css Other='Font Info'">Font Info</a></p>
+	</div><!--closes linkinternalbox-->
+</body>
+</html>

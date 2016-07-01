@@ -76,7 +76,7 @@
 <integer>3</integer>
 </dict>
 </dict>
-<string>Document</string>
+<string>文档</string>
 <dict>
 <key>$classes</key>
 <array>
@@ -440,7 +440,7 @@
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Exporting...</string>
+<string>导出…</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -453,7 +453,7 @@
 </dict>
 </dict>
 <string>dmO-Xb-xFC.title</string>
-<string>Exporting...</string>
+<string>导出…</string>
 <dict>
 <key>$classes</key>
 <array>
@@ -603,7 +603,7 @@
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Exporting in progress...</string>
+<string>导出中…</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -616,7 +616,7 @@
 </dict>
 </dict>
 <string>nH5-TN-0of.title</string>
-<string>Exporting in progress...</string>
+<string>导出中…</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2515,7 +2515,7 @@ MQA=
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Characters</string>
+<string>字数</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -2528,7 +2528,7 @@ MQA=
 </dict>
 </dict>
 <string>jSL-GD-69Z.title</string>
-<string>Characters</string>
+<string>字数</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2615,7 +2615,7 @@ MQA=
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Characters</string>
+<string>字数</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -2714,7 +2714,7 @@ MQA=
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Lines</string>
+<string>行数</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -2727,7 +2727,7 @@ MQA=
 </dict>
 </dict>
 <string>G88-Np-y9m.title</string>
-<string>Lines</string>
+<string>行数</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -2914,7 +2914,7 @@ MQA=
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Minutes</string>
+<string>分钟</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -2927,7 +2927,7 @@ MQA=
 </dict>
 </dict>
 <string>vmA-jj-BsR.title</string>
-<string>Minutes</string>
+<string>分钟</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3014,7 +3014,7 @@ MQA=
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Words</string>
+<string>词数</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -3027,7 +3027,7 @@ MQA=
 </dict>
 </dict>
 <string>Xf4-Go-bTa.title</string>
-<string>Words</string>
+<string>词数</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -3114,7 +3114,7 @@ MQA=
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Words</string>
+<string>词数</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -6735,7 +6735,7 @@ MQA=
 <integer>32</integer>
 </dict>
 <key>NS.string</key>
-<string>Wordcunt Popover</string>
+<string>Wordcunt弹出框</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -6748,7 +6748,7 @@ MQA=
 </dict>
 </dict>
 <string>7ss-Ue-Nx6.ibExternalAccessibilityDescription</string>
-<string>Wordcunt Popover</string>
+<string>Wordcunt弹出框</string>
 <dict>
 <key>$classes</key>
 <array>

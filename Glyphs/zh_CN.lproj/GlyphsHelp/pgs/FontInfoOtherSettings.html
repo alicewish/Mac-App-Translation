@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Font Info – Other Settings</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="font, info, other settings, grid spacing, subdivision, nice, names, alternates, base glyph"/>
+	<meta name="description" content="Information about Other Settings"/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<!--top navigation area-->
+	<div id="navbox" class="gradient">
+		<a name="FontInfoOtherSettings"></a>
+		<a name="Setup"></a>
+		<a name="FontInfo"></a>
+		<div id="navleftbox">
+			<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+		</div>
+		<div id="navrightbox">
+			<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+		</div>
+	</div><!--closes top navigation area-->
+
+	<!--page head-->
+	<div id="headerbox">
+		<div id="iconbox">
+			<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+		</div>
+		<div id="pagetitle">
+			<h1>Font Info – Other Settings</h1>
+		</div>
+	</div>
+	<!--closes page header-->
+	<div id="introbox">
+		<div class="introprimtext">
+			<p class="introprimtextlongtext"></p>
+		</div><!--closes introprimtext-->
+	</div> <!--closes introbox -->
+	<div id="contentbox">
+		<div class="taskbox">
+			<h2>Grid Spacing</h2>
+			<p>The grid width defines how coordinates get rounded. Standard is the value 1. When set to zero, no rounding will happen. This is useful if you want to keep very fine details, e.g. after applying the Hatch Outlines filter or in detailed dingbat fonts, or if you plan to scale your glyphs and want to minimize rounding errors. Higher values are helpful when creating a pixel font.</p>
+			<p>All tools and all modifications will consequently snap to the grid. You can force all point coordinates of selected glyphs into the grid by choosing Round Coordinates from the Layers menu.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Subdivision</h2>
+			<p>The Subdivision value gives you the option to subdivide the Grid Spacing if you need finer steps but want the larger grid spacing as design orientation. The value indicates into how many compartments the main grid is subdivided, e.g. a Grid Spacing value of 100 and a Subdivision value of 5 will yield a subgrid with a 20 units step.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Don’t Use Nice Names</h2>
+			<p>This option prevents the automatic replacement of glyph names. This might be of importance where special workflow requirements apply. The option is set in all fonts imported from OTF files and UFOs that are opened with Glyphs for the first time. Deactivating this option does not immediately activate the automatic replacement of names. To activate the automatic naming, pick Font > Update Glyph Info. Attention: this may also invalidate the feature code.</p>
+		</div><!--closes taskbox-->
+		<div class="taskbox">
+			<h2>Keep Alternates Next To Base Glyph</h2>
+			<p>In Font View, glyph variations with name suffixes will stay next to the main glyph if this option is enabled. For example, ‘h.ss16’, ‘h.alt’, ‘h.loclENG’ will be displayed right after ‘h’ instead of being moved to a different category.</p>
+		</div><!--closes taskbox-->
+	</div><!--closes contentbox-->		
+	<div id="linkinternalbox">
+		<h3>Related Topics</h3>
+		<p class="linkinternal"><a href="help:topic_list=FontInfo bookID='Glyphs Help' template=sty/genlist.html Other='Font Info'">Font Info</a></p>
+	</div><!--closes linkinternalbox-->
+</body>
+</html>

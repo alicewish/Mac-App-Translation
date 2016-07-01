@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Filters</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="filters, round, corners, remove, overlap, hatch, offset, stroke, background, metrics"/>
+	<meta name="description" content="Filters"/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<!--top navigation area-->
+	<div id="navbox" class="gradient">
+		<a name="Filters"></a>
+		<a name="Usage"></a>
+		<div id="navleftbox">
+			<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+		</div>
+		<div id="navrightbox">
+			<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+		</div>
+	</div><!--closes top navigation area-->
+
+	<!--page head-->
+	<div id="headerbox">
+		<div id="iconbox">
+			<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+		</div>
+		<div id="pagetitle">
+			<h1>Filters</h1>
+		</div>
+	</div>
+	<!--closes page header-->
+	<div id="introbox">
+		<div class="introprimtext">
+			<p class="introprimtextlongtext">You can apply filters to the active layer in the edit view, or to any number of selected layers (with the text tool), or in the font view. The following filters come with Glyphs. Filters only affect visible layers, never all layers in a glyph.</p>
+		</div><!--closes introprimtext-->
+	</div> <!--closes introbox -->
+	<div id="contentbox">
+		<div class="taskbox">
+			<h2>Hatch Outline</h2>
+			<p>Creates hatched letters. Distance, width and angle of the hatch-lines can be chosen. Glyphs always uses the background path as source. If there is no path, Glyphs will put a copy of the current path into the background. Alter the appearance of the hatching by changing the background path and applying the filter once again.</p>
+		</div><!--closes shadow-->
+		<div class="taskbox">
+			<h2>Offset Curve</h2>
+			<p>Changes the thickness of stems horizontally and / or vertically. The lock sign uses the horizontal value for both horizontal and vertical expansion.</p>
+			<img src="../Shared/offsetfilter2.png" width="266" height="246" alt="Offset Filter Panel" />
+			<p>Without the Make Stroke option, paths will just be moved into a parallel position:</p>
+			<img src="../Shared/offsetnostroke.png" width="301" height="118" alt="Offset Filter MakeStroke-Off" />
+			<p>With the Make Stroke option, selected paths will be expanded to closed outlines:</p>
+			<img src="../Shared/offsetmakestroke.png" width="300" height="116" alt="Offset Filter MakeStroke-On" />
+			<p>The Position setting controls the distribution of the expansion. At 0%, the path will only expand to the right. At 100%, the path will only expand to the left. At 50%, the expansion will be evenly distributed to both sides of the path. Right and left sides are determined by the path orientation.</p>
+		</div><!--closes shadow-->
+		<div class="taskbox">
+			<h2>Remove Overlap</h2>
+			<p>Removes overlaps of selected paths. If no paths are selected, the filter will be applied to all paths of the selected letter(s).</p>
+		</div><!--closes shadow-->
+		<div class="taskbox">
+			<h2>Round Corners</h2>
+			<p>Use this filter to round all selected corners of a path. To only round the outside corners, simply select nothing. Use the Visual Corrections option to create a more natural looking corner rounding. This option increases the corner radius at obtuse angles, and reduces the radius at acute angles.</p>
+			<img src="../Shared/roundcorners.png" width="525" height="150" alt="Round Corners" />
+			<p>From left to right: original shape, rounded shape, and rounded shape with visual corrections.</p>
+		</div><!--closes shadow-->
+		<div class="taskbox">
+			<h2>Transformations</h2>
+			<h4>Transform</h4>
+			<p>Use Transform to horizontally and vertically move, scale and tilt glyphs. Fix the origin when scaling and tilting. Tilt without optical correction by choosing Slant, or with optical correction with the Cursify option. Cursify requires correctly set vertical and horizontal stems (see also <a href="help:topic_list=FontInfoMasters bookID='Glyphs Help'">Font Info – Master</a>).</p>
+			<h4>Background</h4>
+			<p>Use Background to interpolate between front and background paths. The paths need to be compatible.</p>
+			<h4>Metrics</h4>
+			<p>Use Metrics to set the width or the sidebearings of a letter. With the Relative option, the values will be added or subtracted.</p>
+		</div><!--closes shadow-->
+	</div>
+	<div id="linkinternalbox">
+		<h3>Related Topics</h3>
+		<p class="linkinternal"><a href="help:anchor=FontInfoInstancesCustomParameters bookID='Glyphs Help'">Font Info – Instances Custom Parameters</a></p>
+	</div><!--closes linkinternalbox-->
+</body>
+</html>

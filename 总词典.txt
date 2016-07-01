@@ -5,7 +5,7 @@ Line Up|排队
 Quit Birch|退出Birch
 About Birch|关于Birch
 Redo|重做
-Correct Spelling Automatically|自动校正拼写错误
+Correct Spelling Automatically|自动纠正拼写
 Fold|折叠
 Column 80|列80
 Column 40|列40
@@ -62,7 +62,7 @@ Paste|粘贴
 Select Sentence|选择句子
 Select Paragraph|选择段落
 Smart Quotes|智能引号
-Check Document Now|立即检查文件
+Check Document Now|立即检查文稿
 Line Down|线下行
 Italic|斜体
 Focus|聚焦
@@ -75,7 +75,7 @@ Find Next|查找下一个
 Page Setup…|页面设置…
 Smaller|较小
 Select Word|选择一个单词
-Check Spelling While Typing|输入时检查拼字
+Check Spelling While Typing|键入时检查拼写
 Smart Dashes|智能破折号
 Fold Completely|完全折叠
 Adverbs|副词
@@ -657,23 +657,575 @@ Strike|删除线
 Hyperlink|超链接
 Clear Format|清除格式
 Paste As Plain Text |粘贴为纯文本
-Document=文档
-DocWebView=DocWebView
-Exporting...=导出…
-Exporting in progress...=导出中…
-Characters=字数
-Lines=行数
-Minutes=分钟
-Words=词数
-WordCountPopover=WordCountPopover
-Wordcunt Popover=Wordcunt弹出框
-Document
-DocWebView
-Exporting...
-Exporting in progress...
-Characters
-Lines
-Minutes
-Words
-WordCountPopover
-Wordcunt Popover
+Document|文档
+DocWebView|DocWebView
+Exporting...|导出…
+Exporting in progress...|导出中…
+Characters|字数
+Lines|行数
+Minutes|分钟
+Words|词数
+WordCountPopover|WordCountPopover
+Wordcunt Popover|Wordcunt弹出框
+Glyphs|Glyphs
+About Glyphs|关于Glyphs
+Hide Glyphs|隐藏Glyphs
+Quit Glyphs|退出Glyphs
+Save All|全部保存
+Revert|还原
+Font Info...|字体信息...
+Import|导入
+Outlines...|轮廓…
+Metrics...|指标...
+Features...|特征...
+Generate Instances|生成实例
+Paste Special|选择性粘贴
+Clear|清除
+Deselect All|全部取消选择
+Invert Selection|反向选择
+Select Sample Text...|选择样本...
+Add Placeholder|添加占位符
+Show all Masters|显示所有主干
+Info for Selection|所选的信息
+Other|其他
+Select Next Sample String|选择下一个样本字符串
+Select Previous Sample String|选择上一个样本字符串
+Comment Selection|注释所选
+Compare Fonts...|比较字体...
+Glyph|字形
+Add Glyphs...|添加字形...
+New Glyph|新建字形
+Remove Glyph|删除字形
+Duplicate Glyph|复制字形
+Update Glyph Info|更新字形信息
+Update Metrics|更新指标
+Update Metrics for all Masters|为所有主干更新指标
+Add Component|添加组件
+Make Component Glyph|制作组件字形
+Decompose Components|分解组件
+Component from Selection|从所选建立组件
+Add Image...|添加图片...
+Set Anchors|设置锚
+Reset Anchors|重设锚
+Paths|路径
+Reverse Contours|反向轮廓
+Correct Path Direction|纠正路径方向
+Correct Path Direction for all Masters|为所有主干纠正路径方向
+Align Selection|对齐所选
+Edit Background|编辑背景
+Selection to Background|选择到背景
+Add Selection to Background|添加选择到背景
+Assign Background...|指定背景...
+Clear Background|清除背景
+Swap with Background|与背景交换
+Reconnect Nodes|重新连接节点
+Filter|筛选
+Last Filter|上一筛选
+Zoom to Active Layer|缩放到活动图层
+Zoom to actual Size|缩放到实际大小
+New Tab|新建标签页
+Close Tab|关闭标签页
+Show Previous Tab|显示上一个标签页
+Show Next Tab|显示下一个标签页
+Show Previous Glyph|显示上一个字形
+Show Next Glyph|显示下一个字形
+Show Nodes|显示节点
+Show Metrics|显示指标
+Show Hints|显示提示
+Show Info|显示信息
+Show Background|显示背景
+Show Image|显示图像
+Show Guides|显示参考线
+Show Measurement Line|显示测量线
+Show Annotations|显示注解
+Show Bounding Box|显示边界框
+Fill Preview|填充预览
+Script|脚本
+Run last Script|运行上一个脚本
+Open Scripts Folder|打开脚本文件夹
+Reload Scripts|刷新脚本
+Glyph Info|字形信息
+Macro Panel|宏面板
+Palette|调色板
+Kerning|字距
+Glyphs Help|Glyphs帮助
+Goto Glyphs Website|转到Glyphs网站
+Provide Feedback|提供反馈信息
+Reload Plugins|重新加载插件
+WebKitJavaEnabled|WebKitJavaEnabled
+Compare Fonts|字体比较
+First|第一
+Second|第二
+Difference|区别
+ExportWindow|ExportWindow
+Next...|下一个...
+Name|名称
+Unicode|Unicode
+Char|Char
+Sub Category|子类别
+Components|组件
+Add to Font|添加到字体
+Left|左
+Right|右
+KerningOutlineView|KerningOutlineView
+Remove|去除
+Clean Up|清理
+Compress|压缩
+Show all Glyphs|显示所有字形
+KerningPanel|KerningPanel
+Macro|宏
+Monaco|Monaco
+MacroPanelDivider|MacroPanelDivider
+Quit|退出
+MacroPanel|MacroPanel
+Correct Path Direction |纠正路径方向
+Launch On Startup|开机时启动
+Install helper tool (required)|安装辅助工具（必需）
+Apple PNG pasteboard type|Apple PNG剪贴板类型
+Apple PICT pasteboard type|Apple PICT剪贴板类型
+Import existing VPN configurations|导入现有VPN配置
+Welcome to Shimo|欢迎使用Shimo
+Menubar only|仅菜单栏
+Dock only|仅底栏
+Menubar and Dock|菜单栏和底栏
+How would you like Shimo to appear on your system?|您想要Shimo怎样在您的系统上显示？
+Launch Shimo on system startup|在系统启动时打开Shimo
+Shimo requires a helper tool to configure your computer's network configuration.|Shimo需要一个辅助工具来配置您的计算机的网络配置。
+Shimo can import all VPN accounts you have already configured on this computer.|Shimo可​​以导入所有您已经在这台计算机上配置的VPN账户。
+About Shimo|关于Shimo
+Shimo Help|Shimo帮助
+Hide Shimo|隐藏什莫
+Quit Shimo|退出什莫
+Shimo|Shimo
+Report a Bug|报告错误
+Select ...|选择 ...
+Cisco SSL (AnyConnect)|Cisco SSL (AnyConnect)
+AnyConnectAccount|AnyConnectAccount
+Toggle Connection|切换连接
+OpenVPN|OpenVPN
+OpenVpnAccount|OpenVpnAccount
+Nortel IPSec|Nortel IPSec
+NortelAccount|NortelAccount
+General IPSec|一般的IPSec
+RacoonAccount|RacoonAccount
+Cisco IPSec|Cisco IPSec
+CiscoAccount|CiscoAccount
+Juniper/Netscreen IPSec|Juniper/Netscreen IPSec
+NetscreenAccount|NetscreenAccount
+Account Creation Step 1|帐户创建第1步
+Choose a VPN account type:|选择VPN帐户类型：
+Create...|创建...
+TigerVPNAccount|TigerVPNAccount
+Get special offer|获得特别优惠
+Account Creation Step 2|帐户创建第2步
+Remote Host:|远程主机：
+Username:|用户名：
+Password:|密码：
+EmptyAccount|EmptyAccount
+BaseAccount|BaseAccount
+Show|显示
+EnabledView|EnabledView
+EventView|EventView
+When?|什么时候？
+Connection terminated|连接已终止
+Connection initiated|发起连接
+Connection established|连接已建立
+Disconnection initiated|断开连接
+ActionView|ActionView
+What?|什么？
+Receive Emails|接收电子邮件
+Connect to server|连接到服务器
+Disconnect from server|从服务器断开连接
+Run AppleScript|运行AppleScript
+Run shell script|运行shell脚本
+Open file or directory|打开文件或目录
+Open URL|打开网址
+Launch application|启动应用程序
+Quit application|退出应用程序
+DataView|DataView
+With?|用？
+EmailView|EmailView
+ServerView|ServerView
+PathView|PathView
+LocationView|LocationView
+Actions|操作
+Advanced|高级
+Item 0|Item 0
+Basic|基本
+Authentication Method|身份验证方法
+Certificate:|证书：
+Private Key File:|私钥文件：
+Select...|选择...
+Groupname:|Groupname:
+Dead Peer Detection every|失效对端检测，每
+Seconds|秒
+Enable 'Cisco Secure Desktop'|启用“思科安全桌面”
+User Authentication|用户认证
+Shared Secret:|共享密钥：
+Group Name:|组名称：
+Shared Secret|共享密钥
+Certificate File:|证书文件：
+Key File:|密钥文件：
+Certificate|证书
+Mutual Group|互助保险集团
+Tunnel Device:|隧道设备：
+Backend Service:|后端服务：
+Enable NAT Traversal on Port|端口上启用NAT穿越
+Cisco Proprietary UDP|思科专有UDP
+Forced NAT-T|强制NAT-T
+View Config|查看配置
+Parameter Key|参数键
+Parameter Value (optional)|参数值（可选）
+Only for domains:|仅适用于域：
+Use remote DNS servers|使用远程DNS服务器
+Port to Forward:|端口转发：
+Enable SOCKS4/5 Forwarding|启用S​​OCKS4/5转发
+Port Forwarding|转发端口
+Bind Address|地址绑定
+Source Port|源端口
+Target Address|目标地址
+Target Port|目标端口
+Type of Forwarding|转发类型
+Local|本地
+Remote|远程
+Description:|描述：
+Account Name:|用户名：
+Reconnect upon Disconnection|断开时重新连接
+Connection Shortcut:|连接快捷方式：
+Allow to connect to group|允许连接到组
+Preshared Key:|预共享密钥：
+Prehared Key|预共享密钥
+Local Certificate:|本地证书：
+Remote Certificate:|远程证书：
+Hybrid RSA|混合RSA
+Local Identification:|本地鉴别：
+Local IP Address|本地IP地址
+Email (User FQDN)|电子邮件（用户FQDN）
+Domain Name (FQDN)|域名（FQDN）
+Key Identifier|密钥标识符
+Remote Identification:|远程鉴别：
+Remote IP Address|远程IP地址
+Leave empty for all networks.|为所有网络留空。
+Local Endpoint Mode:|本地端点模式：
+Host|Host
+Network|网络
+Remote Endpoint Mode:|远程端点模式：
+Automatic|自动
+Always|总是
+Disabled|禁用
+Interval:|间隔：
+Support proxy|支持代理
+Send INITIAL-CONTACT message|发送INITIAL-CONTACT消息
+Group 1 (768 bit)|Group 1 (768 bit)
+Group 2 (1024 bit)|Group 2 (1024 bit)
+Group 5 (1536 bit)|Group 5 (1536 bit)
+Group 14 (2048 bit)|Group 14 (2048 bit)
+Group 15 (3072 bit)|Group 15 (3072 bit)
+Group 16 (4096 bit)|Group 16 (4096 bit)
+Group 17 (6144 bit)|Group 17 (6144 bit)
+Group 18 (8192 bit)|Group 18 (8192 bit)
+Diffie-Hellman:|Diffie-Hellman:
+Encryption Algorithm:|加密演算法：
+Authentication Mechanism|认证机制
+Encryption Mechanism|加密机制
+Authentication Algorithms:|验证算法：
+Encryption Algorithms:|加密算法：
+Lifetime:|寿命：
+Phase 2 Proposal|第2阶段提案
+Phase 1 Proposal|第1阶段的提案
+Hash Algorithm:|哈希算法：
+Main|主要
+Aggressive|激进
+Base|基础
+Exchange Mode:|交易方式：
+Group Password:|组密码：
+Send CA Chain|发送CA链
+Idle Timeout:|空闲超时：
+Enable Single DES (unsecure)|启用单DES（不安全）
+Enable NAT Traversal|启用NAT穿越
+Username only|只有用户名
+Passcode|密码
+Two-Factor Card|双因素卡
+Group Password|组密码
+Nortel Client ID:|北电网络的客户端ID：
+Key Exchange:|密钥交换：
+Direction:|方向：
+Certificate Authority:|证书颁发机构：
+Use TLS Authentication|使用TLS认证
+Preshared Key File:|预共享密钥文件：
+Preshared Key|预共享密钥
+Activate IPv6|激活IPv6
+Pull Options|拉选项
+Use DHCP|使用DHCP
+Protocol:|协议：
+Send Keep-Alive Packets|发送保活分组
+Send all traffic over VPN|通过VPN发送所有流量
+Flush DNS|同花顺DNS
+Prepend Search Domains|前面加上搜索域名
+Kerberos|Kerberos
+CryptoCard|CryptoCard
+Domain:|域：
+Automatic (128 bit or 40 bit)|自动（128位或40位）
+Maximum (128 bit only)|最高（只有128位）
+Encryption:|加密：
+Overwrite|覆盖
+Extend|延伸
+Network Traffic Control|网络流量控制
+Destination Address|目的地址
+User/Password|用户密码
+Identity File:|标识文件：
+Identity File|标识文件
+Connect with Admin Privileges|以管理员权限连接
+Use Compression|使用压缩
+Remote Port:|远程端口：
+Allow LAN Connections|允许LAN连接
+Enforce v1 Protocol|强制V1协议
+Expert|专家
+Account Detail|帐户资料
+Expert Configuration|专家配置
+Read-only account export|只读占出口
+Master Password:|主密码：
+Include security credentials|包括安全证书
+Menu|菜单
+Connect|连接
+Sort by|排序方式
+Type|类型
+Activity|活动
+Add VPN Group|添加VPN组
+Account Name|用户名
+Address|地址
+Gateway:|网关：
+Target Network:|目标网络：
+Custom:|自定义：
+Route|路线
+Forwarding|转发
+Disconnect|断开
+Receive emails|接收电子邮件
+Change network location|更改网络位置
+Open URL in browser|在浏览器中打开URL
+MacintoshHD|MacintoshHD
+Hostname or IP address|主机名或IP地址
+Value (optional)|值（可选）
+Current User|当前用户
+About Alternote|关于Alternote
+Hide Alternote|隐藏Alternote
+Toggle Full Screen|切换全屏
+Alternote|Alternote
+Navigate|导航
+Theme|主题
+Light|亮色
+Dark|暗色
+Dawn|黎明
+Manage Themes...|管理主题...
+About Quiver|关于Quiver
+Print Note…|打印笔记…
+New Note|新建笔记
+Hide Quiver|隐藏Quiver
+Quit Quiver|退出Quiver
+Search Notes...|搜索笔记…
+Find Within Note...|在笔记内查找…
+Insert Image|插入图像
+Cut Cell|剪切单元
+Start Presentation|开始演示
+Change Code Cell Language|更改代码单元语言
+Toggle Bulleted List|切换项目符号列表
+Two Panes|双栏
+Remove Link|删除链接
+Increase Heading Level|增加标题级别
+Documentation|文档
+Copy Cell|复制单元
+Scroll Sync|同步滚动
+Show Notebooks|显示笔记本
+Jump to Notebook...|跳转到笔记本...
+New Notebook|新建笔记本
+Toggle Numbered List|切换编号列表
+Twitter|推特
+Evernote (.enex)|Evernote的（.enex）
+Normal Style|普通样式
+Quiver Notebook|Quiver笔记本
+Single Pane|单栏
+New Cell Above|在上方新建单元
+Convert To Diagram Cell|转换为图标单元
+Open Shared Notebook...|打开共享笔记本...
+Editor Only|仅编辑器
+Show in Finder|在Finder中显示
+New Cell|新建单元
+Add/Edit Link|添加/编辑链接
+Show Main Window|显示主窗口
+Release Notes|发行说明
+Duplicate Note|复制笔记
+Copy Note Link|拷贝笔记链接
+Toggle Sidebar|切换侧边栏
+Attach File|附加文件
+Show Tags|显示标签
+Move to Notebook...|移动到笔记本...
+New Cell At Cursor|在光标处新建单元
+Share Notebook...|分享笔记本...
+Compact Style|简洁风格
+Insert To-do|插入待办事项
+Forward|前进
+Move Cell Up|向上移动单元
+Back|后退
+Email Feedback|电子邮件反馈
+Three Panes|三栏
+Convert To Markdown Cell|转换为Markdown单元
+Paste Cell|粘贴单元
+Move Cell Down|向下移动单元
+Convert To Code Cell|转换为代码单元
+Preview Only|仅预览
+Decrease Heading Level|降低标题级别
+Empty Trash...|清空废纸篓…
+Convert To LaTeX Cell|转换为LaTeX单元
+Delete Note|删除笔记
+Report Issues|报告问题
+Side-by-Side Preview|侧并排预览
+Clear Formatting|清除格式
+Show Tutorial|显示教程
+Quiver Notes|Quiver注意事项
+Delete Cell|删除单元
+Insert Horizontal Rule|插入水平线
+New Shared Notebook|新建共享笔记本
+Show Floating Preview|显示浮动预览
+Convert To Text Cell|转换为文本单元
+Plain Text|纯文本
+Open Note in New Window|在新窗口中打开笔记
+Split Cell|拆分单元
+Hide Note Count|隐藏笔记数
+Quiver|Quiver
+Export Note|导出笔记
+Export Notebook|导出笔记本
+Sidebar|侧边栏
+Note List|笔记列表
+Note View|笔记视图
+Note|笔记
+Cell|单元
+Headings|标题
+Lists|列表
+Alignment|对齐方式
+CodaDelegate
+File List Encoding
+About Coda
+Close Window
+Coda Help
+Revert to Saved…
+Hide Coda
+Quit Coda
+Share via Bonjour
+Start speaking
+Stop speaking
+Use Tabs
+Clear Change Marks
+Show Change Marks
+Visit Coda Website
+Copy Sharing URL
+Mode Installing Help
+Read/Write
+Read Only
+Locked
+Copy as XHTML
+Copy with Styles
+Parent
+Connect to Server...
+Close File
+Close Split
+Unlock Coda…
+Purchase Coda Online…
+Visit Coda Support Page
+Transcript
+Select Next Tab
+Select Previous Tab
+Find &amp; Replace
+Use Selection for Replace
+Multi-Line Edit Selection
+View Source
+Show Invisible Files
+Hide Find Banner
+Next Change
+Previous Change
+Next Symbol
+Previous Symbol
+Move…
+Compress "Filename"
+Open With Finder
+New Folder
+New File
+Upload / Download
+Look Up In Reference Books
+Select All Within Brackets
+Close Current Tag Pair
+Source Control
+Find in Files…
+Open Quickly…
+Next Placeholder
+Unfold all Blocks
+Fold All Comment Blocks
+Fold All Top Level Blocks
+Fold Current Block
+Fold Selection
+Unfold Current Block
+Preview
+Sites
+Preview in New Window
+Show Sidebar
+Get Info
+Publish File to Server
+Reverse Publish File
+Clear All Changed Files
+Encode Entities
+Decode Entities
+Convert to ASCII
+Remove Line Breaks
+Convert URL to Link
+Strip Tags
+Strip Trailing Whitespace
+Convert Spaces to Tabs
+Convert Tabs to Spaces
+Open Site in New Window
+Open Site
+Import Transmit Favorites…
+New Site…
+Edit Site…
+Refresh
+Change...
+New Terminal Tab
+New Document Tab
+New Book Tab
+New MySQL Tab
+Arrange By
+Root URL
+Date Opened
+Quick Look "Filename"
+Files
+Small Icon and Text
+Large Icon and Text
+Text Only
+Become Tag
+Wrap in Tag
+Show in File Browser
+Show in Sidebar
+Close Site
+New MySQL Split
+New Book Split
+New Document Split
+New Terminal Split
+New Preview Split
+Wrap Lines
+Save &amp; Publish
+Save &amp; Publish All
+Paste and Indent
+Inside Coda on iBooks
+Never Publish
+Rebuild Site Index
+Comment Selection by Line
+Coda
+New Split
+Access Control
+Code Folding
+Fold All Blocks at Level
+Preview In
+Toolbar
+Processing
+Line Endings
+Encoding
+Syntax Mode
+Purchase

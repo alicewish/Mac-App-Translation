@@ -1,0 +1,101 @@
+/* CSS index.css*/
+/*Version 2.1 11-25-08*/
+
+
+.alphaletters a {
+	font-weight: bold;
+}
+.alphaletters {
+	color:#999;
+}
+
+
+/* End Link Styles */
+
+
+/* START ALPHA ROW STYLES */
+
+#alpharow {
+	clear: both;
+	float: left;
+	position: fixed;
+	top: 21px;
+	left: 0px;
+	height: 20px;
+	border-bottom: 1px solid #D0D0D0;
+	background-color: #FFF;
+	vertical-align: middle;
+	width: 100%;
+	z-index: 99;
+}
+
+#alphabox {
+	background-color: #FFF;
+	margin-left: 15px;
+	margin-right: 15px;
+	white-space: nowrap;
+}
+.alphaletters {
+	font-size: 11px;
+	padding-right: .45em;
+}
+
+.asterisk {
+	position: relative;
+	bottom: -4px;
+	font-size: 16px;
+}
+
+/* End Header Area Styles */
+
+/* START LIST ENTRY STYLES */
+
+#indexlist {
+	clear: both;
+	margin-top: 42px;
+	padding-bottom: 24px;
+	margin-bottom:24px;
+}
+.letterhead {
+	clear: both;
+	float: left;
+	position: relative;
+	font-size: 23px;
+	margin-top: 22px;
+	height: 25px;
+	border-bottom: 1px solid #D0D0D0;
+	width: 100%;
+}
+
+.indexitem {
+	clear: both;
+	float: left;
+	position: relative;
+	border-bottom: 1px solid #D0D0D0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	vertical-align: top;
+	width: 100%;
+}
+
+.indexentrytext{
+	float: left;
+	line-height: 1.45em;
+	text-align: left;
+/*	width: 50%;*/
+}
+
+.seealsotext {
+	float: right;
+	line-height: 1.45em;
+	text-align: left;
+	width: 50%;
+}
+
+.seeprefix, .seealsoprefix {
+	font-style: italic;
+	line-height: 1.45em;
+	padding-right: 4px;
+}
+
+/* End List Entry Styles */

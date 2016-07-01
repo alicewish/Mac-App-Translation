@@ -23837,7 +23837,7 @@ MCAwIDEA
 <integer>31</integer>
 </dict>
 <key>NS.string</key>
-<string>立即检查文件</string>
+<string>立即检查文稿</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -23850,7 +23850,7 @@ MCAwIDEA
 </dict>
 </dict>
 <string>MAx-hX-t7X.title</string>
-<string>立即检查文件</string>
+<string>立即检查文稿</string>
 <string>;</string>
 <string>checkSpelling:</string>
 <dict>
@@ -25699,7 +25699,7 @@ MCAwIDEA
 <integer>31</integer>
 </dict>
 <key>NS.string</key>
-<string>自动校正拼写错误</string>
+<string>自动纠正拼写</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -25712,7 +25712,7 @@ MCAwIDEA
 </dict>
 </dict>
 <string>Z3e-In-TIL.title</string>
-<string>自动校正拼写错误</string>
+<string>自动纠正拼写</string>
 <string>toggleAutomaticSpellingCorrection:</string>
 <dict>
 <key>$class</key>
@@ -28007,7 +28007,7 @@ MCAwIDEA
 <integer>31</integer>
 </dict>
 <key>NS.string</key>
-<string>输入时检查拼字</string>
+<string>键入时检查拼写</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -28020,7 +28020,7 @@ MCAwIDEA
 </dict>
 </dict>
 <string>xkP-t4-bKc.title</string>
-<string>输入时检查拼字</string>
+<string>键入时检查拼写</string>
 <string>toggleContinuousSpellChecking:</string>
 <dict>
 <key>$class</key>

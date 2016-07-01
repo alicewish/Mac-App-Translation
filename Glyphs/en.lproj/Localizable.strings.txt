@@ -1,0 +1,586 @@
+/* No comment provided by engineer. */
+" ... \n[removed some results]" = " ... \n[removed some results]";
+
+/* label in kering panel */
+"%ld Pairs" = "%ld Pairs";
+
+/* context menu of preview are */
+"12 pt" = "12 pt";
+
+/* context menu of preview are */
+"16 pt" = "16 pt";
+
+/* context menu of preview are */
+"1:1" = "1:1";
+
+/* context menu of preview are */
+"24 pt" = "24 pt";
+
+/* No comment provided by engineer. */
+"[none]" = "[none]";
+
+/* No comment provided by engineer. */
+"Add anyway" = "Add anyway";
+
+/* No comment provided by engineer. */
+"Add Glyph" = "Add Glyph";
+
+/* Search option */
+"All" = "All";
+
+/* install plugin Panel Text */
+"Are you sure you want to install the plugin:\n%@? \n\nThe plugin will be placed in %@/Glyphs/Plugins.\n" = "Are you sure you want to install the plugin:\n%1$@? \n\nThe plugin will be placed in %2$@/Glyphs/Plugins.\n";
+
+/* Alert Panel text */
+"Are you sure you want to remove %d selected Glyphs (%@)?" = "Are you sure you want to remove %1$d selected Glyphs (%2$@)?";
+
+/* Search option */
+"Begins with" = "Begins with";
+
+/* Panel Title */
+"Beta" = "Beta";
+
+/* No comment provided by engineer. */
+"Blue" = "Blue";
+
+/* No comment provided by engineer. */
+"Brown" = "Brown";
+
+/* Button Text */
+"Cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Change" = "Change";
+
+/* No comment provided by engineer. */
+"Check for Updates..." = "Check for Updates...";
+
+/* import afm file dialog text */
+"Choose AFM file." = "Choose AFM file.";
+
+/* import feature file dialog text */
+"Choose Feature file." = "Choose Feature file.";
+
+/* Choose files open dialog Title. */
+"Choose Files." = "Choose Files.";
+
+/* Choose Images file open dialog Title. */
+"Choose Images." = "Choose Images.";
+
+/* Label of Class list */
+"Classes" = "Classes";
+
+/* No comment provided by engineer. */
+"Clear Layer" = "Clear Layer";
+
+/* Button Text */
+"Close" = "Close";
+
+/* No comment provided by engineer. */
+"Color Label" = "Color Label";
+
+/* Copy Glyph Names Context Menu */
+"Comma Separated" = "Comma Separated";
+
+/* Compare Fonts menu item */
+"Compare Fonts..." = "Compare Fonts...";
+
+/* Search option */
+"Contains" = "Contains";
+
+/* Copy Glyph Names Context Menu */
+"Copy Glyph Names" = "Copy Glyph Names";
+
+/* No comment provided by engineer. */
+"Cyan" = "Cyan";
+
+/* No comment provided by engineer. */
+"Dark Gray" = "Dark Gray";
+
+/* No comment provided by engineer. */
+"Dark Green" = "Dark Green";
+
+/* No comment provided by engineer. */
+"Details" = "Details";
+
+/* Remove Master confirmation dialog */
+"Do you really want to remove the selected layer?" = "Do you really want to remove the selected layer?";
+
+/* Remove Palette confirmation dialog */
+"Do you really want to remove the selected Palette?" = "Do you really want to remove the selected Palette?";
+
+/* changed Metrics Key glyph dialog */
+"Do you want to update Metrics Keys in all referencing Glyphs?" = "Do you want to update Metrics Keys in all referencing Glyphs?";
+
+/* No comment provided by engineer. */
+"Duplicate" = "Duplicate";
+
+/* openTypeOS2Type Value description */
+"Editable" = "Editable";
+
+/* No comment provided by engineer. */
+"Empty" = "Empty";
+
+/* Search option */
+"Ends with" = "Ends with";
+
+/* Couldn't perform service operation. */
+"Error: Couldn't convert String $@." = "Error: Couldn't convert String $@.";
+
+/* Pasteboard couldn't give a string. */
+"Error: Pasteboard doesn't contain a string." = "Error: Pasteboard doesn't contain a string.";
+
+/* Search option */
+"Exactly" = "Exactly";
+
+/* No comment provided by engineer. */
+"Expires:\n" = "Expires:\n";
+
+/* No comment provided by engineer. */
+"Export Glyph" = "Export Glyph";
+
+/* No comment provided by engineer. */
+"False" = "False";
+
+/* Label of Feature list
+   Label of feature selector
+   Label of Tab */
+"Features" = "Features";
+
+/* Title of 'Find and replace in Glyph Name' dialog */
+"Find and replace in Glyph Name" = "Find and replace in Glyph Name";
+
+/* Find Glyph Panel Title */
+"Find Glyphs" = "Find Glyphs";
+
+/* No comment provided by engineer. */
+"First! Master has Components" = "First! Master has Components";
+
+/* Label of Tab */
+"Font" = "Font";
+
+/* Title of ToolbarItem */
+"Font Info" = "Font Info";
+
+/* openTypeOS2Type Value description */
+"Forbidden" = "Forbidden";
+
+/* No comment provided by engineer. */
+"Glyph not Found" = "Glyph not Found";
+
+/* Label of edit tab */
+"Glyphs" = "Glyphs";
+
+/* No comment provided by engineer. */
+"Has Component" = "Has Component";
+
+/* No comment provided by engineer. */
+"Has Kerning Groups" = "Has Kerning Groups";
+
+/* No comment provided by engineer. */
+"Has Metrics Keys" = "Has Metrics Keys";
+
+/* No comment provided by engineer. */
+"Has Unicode" = "Has Unicode";
+
+/* saving error massage */
+"If you want to make changes to this document, click Duplicate." = "If you want to make changes to this document, click Duplicate.";
+
+/* import afm file dialog text
+   import feature file dialog text */
+"Import" = "Import";
+
+/* No comment provided by engineer. */
+"Import Error" = "Import Error";
+
+/* No comment provided by engineer. */
+"Import Kerning" = "Import Kerning";
+
+/* Title of Document Open progress window */
+"Importing Font." = "Importing Font.";
+
+/* Label of Tab */
+"Info" = "Info";
+
+/* Button Text */
+"Install" = "Install";
+
+/* Panel Title */
+"Install Plugin" = "Install Plugin";
+
+/* openTypeOS2Type Value description */
+"Installable" = "Installable";
+
+/* No comment provided by engineer. */
+"is" = "is";
+
+/* Search option */
+"Is a glyph" = "Is a glyph";
+
+/* Search option */
+"Is a group" = "Is a group";
+
+/* Search option */
+"Is left side" = "Is left side";
+
+/* No comment provided by engineer. */
+"is not" = "is not";
+
+/* Search option */
+"Is right side" = "Is right side";
+
+/* copy kerning warning dialog */
+"Keep Existing" = "Keep Existing";
+
+/* No comment provided by engineer. */
+"Keep Glyphs Version" = "Keep Glyphs Version";
+
+/* Last Filter menuitem */
+"Last Filter" = "Last Filter";
+
+/* Title of ToolbarItem */
+"Layers" = "Layers";
+
+/* No comment provided by engineer. */
+"License for:" = "License for:";
+
+/* No comment provided by engineer. */
+"Light Gray" = "Light Gray";
+
+/* No comment provided by engineer. */
+"Light Green" = "Light Green";
+
+/* Tooltip of ToolbarItem */
+"Make new Edit Tab (⌘T)." = "Make new Edit Tab (⌘T).";
+
+/* No comment provided by engineer. */
+"Master Compatible" = "Master Compatible";
+
+/* Search option */
+"Match Case" = "Match Case";
+
+/* Alert Panel text */
+"More Glyphs" = "More Glyphs";
+
+/* No comment provided by engineer. */
+"Multiple Selection" = "Multiple Selection";
+
+/* Search option */
+"Name" = "Name";
+
+/* new Custom Filter Name */
+"new Filter" = "new Filter";
+
+/* name of a new Font */
+"new Font" = "new Font";
+
+/* Title of ToolbarItem */
+"New Page" = "New Page";
+
+/* New entry in the custom Properties */
+"New Parameter" = "New Parameter";
+
+/* New entry in the custom Properties */
+"New Value" = "New Value";
+
+/* No comment provided by engineer. */
+"No" = "No";
+
+/* Registation Window Message */
+"Not Registered.\nRunning in Demo Mode\n until: %@\n" = "Not Registered.\nRunning in Demo Mode\n until: %@\n";
+
+/* openTypeOS2Type Value description */
+"not set" = "not set";
+
+/* No comment provided by engineer. */
+"Not Set" = "Not Set";
+
+/* Search option */
+"Note" = "Note";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* Button Text */
+"Ok" = "Ok";
+
+/* No comment provided by engineer. */
+"Orange" = "Orange";
+
+/* copy kerning warning dialog */
+"Overwrite" = "Overwrite";
+
+/* copy kerning warning dialog */
+"Overwrite Kerning" = "Overwrite Kerning";
+
+/* No comment provided by engineer. */
+"Paste Error" = "Paste Error";
+
+/* Title of paste Special dialog */
+"Paste Special" = "Paste Special";
+
+/* No comment provided by engineer. */
+"Pink" = "Pink";
+
+/* No comment provided by engineer. */
+"Please download a fresh copy from our website." = "Please download a fresh copy from our website.";
+
+/* No comment provided by engineer. */
+"Please obtain a new License." = "Please obtain a new License.";
+
+/* Title of group in Grid view */
+"Predefined Sorting" = "Predefined Sorting";
+
+/* Label of Prefix list */
+"Prefix" = "Prefix";
+
+/* Preview Button */
+"Preview" = "Preview";
+
+/* openTypeOS2Type Value description */
+"Preview & Print" = "Preview & Print";
+
+/* No comment provided by engineer. */
+"Purple" = "Purple";
+
+/* Copy Glyph Names Context Menu */
+"Python List" = "Python List";
+
+/* No comment provided by engineer. */
+"Quit" = "Quit";
+
+/* No comment provided by engineer. */
+"Red" = "Red";
+
+/* No comment provided by engineer. */
+"Redo" = "Redo";
+
+/* Search option */
+"Regex" = "Regex";
+
+/* Panel Title */
+"Registartion Problem" = "Registartion Problem";
+
+/* Panel Title */
+"Register Glyphs" = "Register Glyphs";
+
+/* No comment provided by engineer. */
+"Registration..." = "Registration...";
+
+/* No comment provided by engineer. */
+"Reload" = "Reload";
+
+/* Button Text */
+"Remove" = "Remove";
+
+/* undo */
+"Remove Custom Property" = "Remove Custom Property";
+
+/* Alert Panel Title */
+"Remove Glyph" = "Remove Glyph";
+
+/* Alert Panel Title */
+"Remove Glyphs" = "Remove Glyphs";
+
+/* Remove Master confirmation dialog */
+"Remove Master" = "Remove Master";
+
+/* Remove Palette confirmation dialog */
+"Remove Palette" = "Remove Palette";
+
+/* No comment provided by engineer. */
+"Rename" = "Rename";
+
+/* Kerning dialog */
+"Rename all occurrences of this group or only change this entry?" = "Rename all occurrences of this group or only change this entry?";
+
+/* Kerning dialog */
+"Rename Kerning Group" = "Rename Kerning Group";
+
+/* Button Text
+   Title of 'Find and replace in Glyph Name' Default Button */
+"Replace" = "Replace";
+
+/* Search option */
+"Reset" = "Reset";
+
+/* Run script menuitem */
+"Run last Script" = "Run last Script";
+
+/* Run script menuitem */
+"Run: %@" = "Run: %@";
+
+/* No comment provided by engineer. */
+"Script" = "Script";
+
+/* localized property selection menu */
+"Select Language" = "Select Language";
+
+/* Dialog title */
+"Select Sample Text" = "Select Sample Text";
+
+/* Sample Text File Open Panel */
+"Select Sample Text File" = "Select Sample Text File";
+
+/* Search option */
+"Selected Glyphs" = "Selected Glyphs";
+
+/* undo */
+"Set Anchors" = "Set Anchors";
+
+/* undo */
+"Set Custom Property" = "Set Custom Property";
+
+/* No comment provided by engineer. */
+"Show" = "Show";
+
+/* Reporter Menu add one */
+"Show %@" = "Show %@";
+
+/* Instance selection popup for preview pane */
+"Show all instances" = "Show all instances";
+
+/* Title of ToolbarItem */
+"Show Font Info" = "Show Font Info";
+
+/* Title of ToolbarItem */
+"Show Font Info (⌘I)." = "Show Font Info (⌘I).";
+
+/* Title of ToolbarItem */
+"Show New Page" = "Show New Page";
+
+/* Title of ToolbarItem */
+"Show Sidebar" = "Show Sidebar";
+
+/* Title of ToolbarItem */
+"Show Sidebar (⌥⌘P)." = "Show Sidebar (⌥⌘P).";
+
+/* Copy Glyph Names Context Menu */
+"Slashed" = "Slashed";
+
+/* Generate Instance error message */
+"Some glyphs were already present in the font." = "Some glyphs were already present in the font.";
+
+/* Error Message */
+"Something went wrong while exporting: %@" = "Something went wrong while exporting: %@";
+
+/* Copy Glyph Names Context Menu */
+"Space Separated" = "Space Separated";
+
+/* openTypeOS2Type Value description */
+"Subsetting Forbidden" = "Subsetting Forbidden";
+
+/* Thank you message for successfull Registering */
+"Thank You for registering Glyphs." = "Thank You for registering Glyphs.";
+
+/* No comment provided by engineer. */
+"The %@ file faild to import." = "The %@ file faild to import.";
+
+/* No comment provided by engineer. */
+"The application is damaged." = "The application is damaged.";
+
+/* No comment provided by engineer. */
+"The file for the document at %@ has been modified by another application. Do you want to reload the version from disk?" = "The file for the document at %@ has been modified by another application. Do you want to reload the version from disk?";
+
+/* saving error massage */
+"The file “%@” is locked." = "The file “%@” is locked.";
+
+/* No comment provided by engineer. */
+"The font contains more then one Master. Glyphs Mini only supports one master. It will use the first master and will ignore the others" = "The font contains more then one Master. Glyphs Mini only supports one master. It will use the first master and will ignore the others";
+
+/* No comment provided by engineer. */
+"The Licenese expired.\nPlease obtain a new license.\nGlyphs will run in Demo Mode." = "The Licenese expired.\nPlease obtain a new license.\nGlyphs will run in Demo Mode.";
+
+/* No comment provided by engineer. */
+"The Licenese Information is not valid.\nPlease reregister.\nGlyphs will run in Demo Mode." = "The Licenese Information is not valid.\nPlease reregister.\nGlyphs will run in Demo Mode.";
+
+/* No comment provided by engineer. */
+"The License has expired" = "The License has expired";
+
+/* error message */
+"The Masters need different settings for weight, width or custom values." = "The Masters need different settings for weight, width or custom values.";
+
+/* No comment provided by engineer. */
+"The pasted data does not seem to be a valid font instance." = "The pasted data does not seem to be a valid font instance.";
+
+/* No comment provided by engineer. */
+"The pasted data does not seem to be a valid font master." = "The pasted data does not seem to be a valid font master.";
+
+/* Message for failed registering */
+"The provided License file is not valid." = "The provided License file is not valid.";
+
+/* No comment provided by engineer. */
+"The Test Period has expired. Please visit glyphsapp.com to get a license." = "The Test Period has expired. Please visit glyphsapp.com to get a license.";
+
+/* Error message compile Feature */
+"There is a problem with the font" = "There is a problem with the font";
+
+/* install plugin Panel Text */
+"There is already a plugin:\n%@ \ninstalled? \n\nDo you want to override it?\n" = "There is already a plugin:\n%@ \ninstalled? \n\nDo you want to override it?\n";
+
+/* copy kerning warning dialog */
+"There is already Kerning" = "There is already Kerning";
+
+/* Error-Tooltip of feature selector */
+"There is an error in the features. Please check in Font Info > Features." = "There is an error in the features. Please check in Font Info > Features.";
+
+/* Thank you message for successfull Registering */
+"There was a problem saving the registration." = "There was a problem saving the registration.";
+
+/* No comment provided by engineer. */
+"There was a problem with the pasted data." = "There was a problem with the pasted data.";
+
+/* No comment provided by engineer. */
+"This App is invalid or damaged. Please re-download the App from glyphsapp.com." = "This App is invalid or damaged. Please re-download the App from glyphsapp.com.";
+
+/* Beta */
+"This beta version of Glyphs is more than 30 days old. Please check for an update." = "This beta version of Glyphs is more than 30 days old. Please check for an update.";
+
+/* No comment provided by engineer. */
+"This computer cannot run this program until its operating system is upgraded." = "This computer cannot run this program until its operating system is upgraded.";
+
+/* No comment provided by engineer. */
+"This computer is currently running Mac OS X %d.%d.%d. It needs to be updated to Mac OS X %d.%d.%d." = "This computer is currently running Mac OS X %1$d.%2$d.%3$d. It needs to be updated to Mac OS X %4$d.%5$d.%6$d.";
+
+/* No comment provided by engineer. */
+"This copy of Glyphs is not registered. The Test version will work for 30 days until %@.\n You can activate this version by purchasing a license at glyphsapp.com." = "This copy of Glyphs is not registered. The Test version will work for 30 days until %@.\nYou can activate this version by purchasing a license at glyphsapp.com.";
+
+/* No comment provided by engineer. */
+"This is not a valid Copy of Glyphs" = "This is not a valid Copy of Glyphs";
+
+/* changed Metrics Key glyph dialog */
+"This is not easily undoable. You need to invoke undo for each glyph has has a changed metrics key." = "This is not easily undoable. You need to invoke undo for each glyph has has a changed metrics key.";
+
+/* No comment provided by engineer. */
+"To import outline files, the file names have to match the destination glyph names. The glyph \"%@\" was not found." = "To import outline files, the file names have to match the destination glyph names. The glyph \"%@\" was not found.";
+
+/* No comment provided by engineer. */
+"To many Font Masters" = "To many Font Masters";
+
+/* Title of ToolbarItem */
+"Tools" = "Tools";
+
+/* No comment provided by engineer. */
+"Undo" = "Undo";
+
+/* Search option */
+"Unicode" = "Unicode";
+
+/* changed Metrics Key glyph dialog */
+"Update" = "Update";
+
+/* No comment provided by engineer. */
+"Warning" = "Warning";
+
+/* No comment provided by engineer. */
+"Yellow" = "Yellow";
+
+/* No comment provided by engineer. */
+"Yes" = "Yes";
+
+/* Generate Instance error message */
+"You can’t generate Instances from a font with only one Master." = "You can’t generate Instances from a font with only one Master.";
+
+/* Error-Label of feature selector */
+"❗Features" = "❗Features";
+

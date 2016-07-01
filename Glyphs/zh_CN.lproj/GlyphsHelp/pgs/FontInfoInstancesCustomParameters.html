@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Font Info – Instances Custom Parameters</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="keywords" content="font, info, custom, parameter, instances"/>
+	<meta name="description" content="Information about the Custom Instances Parameters"/>
+	<meta name="pagetype" content="Task"/>
+	<meta name="project" content="GlyphsHelp"/>
+	<link href="../sty/home_os.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/task.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/table.css" rel="stylesheet" type="text/css" media="all"/>
+	<link href="../sty/index.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+
+<body>
+	<!--top navigation area-->
+	<div id="navbox" class="gradient">
+		<a name="FontInfoInstancesCustomParameters"></a>
+		<a name="Setup"></a>
+		<a name="FontInfo"></a>
+		<div id="navleftbox">
+			<a class="navlink_left" href="help:anchor='access' bookID=Glyphs Help">Home</a>
+		</div>
+		<div id="navrightbox">
+			<a class="navlink_right" href="help:anchor='toc' bookID=Glyphs Help">Index</a>
+		</div>
+	</div><!--closes top navigation area-->
+
+	<!--page head-->
+	<div id="headerbox">
+		<div id="iconbox">
+			<img id="iconimg" src="../Shared/Glyphs64.png" alt="Glyphs-Symbol" height="32" width="32"/>
+		</div>
+		<div id="pagetitle">
+			<h1>Font Info – Instances Custom Parameters</h1>
+		</div>
+	</div>
+	<!--closes page header-->
+	<div id="introbox">
+		<div class="introprimtext">
+			<p class="introprimtextlongtext">With instance-level parameters, you can produce different versions of the same font carrying different copyright notices, UPM values etc. Instance parameters override all master and font settings and parameters.</p>
+			<p class="introprimtextlongtext">The following values are being considered during export:</p>
+		</div><!--closes introprimtext-->
+	</div> <!--closes introbox -->
+	<div id="contentbox">
+		<div class="table leftSmall">
+			<div class="header">
+				<div><p>Custom Parameter</p></div>
+				<div><p>Description</p></div>
+			</div>
+			<div>
+				<div><p>Filter<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Triggers Glyphs filters. Currently, only the Offset Curve, Remove Overlap and Round Corners filters are supported. The values are as follows:</p>
+					<ul>
+						<li><p>OffsetCurve;&lt;x&gt;;&lt;y&gt;;&lt;make stroke&gt;;&lt;position&gt;</p></li>
+						<li><p>RoundCorner;&lt;radius&gt;;&lt;visual correction&gt;</p></li>
+						<li><p>RoundedFont;&lt;Stem&gt;</p></li>
+						<li><p>Transformations;LSB:&lt;value&gt;;RSB:&lt;value&gt;;ScaleX:&lt;value&gt;;ScaleY:&lt;value&gt;;Slant:&lt;value&gt;;SlantCorrection:&lt;value&gt;;OffsetX:&lt;value&gt;;OffsetY:&lt;value&gt;;Origin:&lt;value&gt;;</p>
+							<p>ScaleX/Y: in %, default: 100 (e.g: ScaleX:120;)</p>
+						</li>
+						<li><p>RemoveOverlap;</p></li>
+						<li><p>AddExtremes;</p></li>
+						<li><p>Roughenizer;&lt;SegmentLength&gt;;&lt;OffsetX&gt;;&lt;OffsetY&gt;</p></li>
+					</ul>
+					<p>The boolean values for &lt;make stroke&gt; and &lt;visual correction&gt; are 1 for yes and 0 for no.</p>
+					<p>Most filters accept a “include:” or “exclude:” parameter at the end of the line followd by a list of glyph names seperated by comma. e.g. “Transformations;LSB:-20;RSB:+20;include:A,B”</p>
+					<p><a href="help:topic_list=Filters bookID='Glyphs Help' template=sty/genlist.html stylesheet=sty/home_os.css Other='Filters'">Learn more about filters</a></p>
+				</div>
+			</div>
+			<div>
+				<div><p>Add missing symbol glyphs<span class="seeprefix">&emsp;boolean</span></p></div>
+				<div><p>Triggers the makeotf -adds option. According to Adobe, ‘MakeOTF includes two Multiple Master fonts built-in, one serif and one sans-serif. With these it can synthesize glyphs that match (more or less) the width and weight of the source font. It requires the glyphs zero and O to be present in the font, in order to determine the required weight and width.’</p>
+				<p>The parameter will add these glyphs if they are not present in your font: approxequal, asciicircum, asciitilde, at, backslash, bar, brokenbar, currency, dagger, daggerdbl, degree, Delta, divide, equal, estimated, Euro, fraction, greater, greaterequal, infinity, integral, less, lessequal, litre, logicalnot, lozenge, minus, multiply, notequal, numbersign, Omega, onehalf, onequarter, paragraph, partialdiff, perthousand, pi, plus, plusminus, product, quotedbl, quotesingle, radical, section, summation, threequarters, zero.</p></div>
+			</div>
+			<div>
+				<div><p>compatibleFullName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Compatible full name (Mac only). Corresponds to the OpenType name table name ID 18. If not set, the value for name table ID 18 is calculated from Family Name plus space plus Style Name of the respective instance. ‘On the Macintosh, the menu name is constructed using the FOND resource. This usually matches the Full Name. If you want the name of the font to appear differently than the Full Name, you can insert the Compatible Full Name in ID 18.’</p></div>
+			</div>
+			<div>
+				<div><p>familyName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Family name. Overrides the entry in the Family Name field in the Font section of the Font Info. Corresponds to the OpenType name table name IDs 1 and 4. Used to calculate IDs 3, 4 and 6.</p></div>
+			</div>
+			<div>
+				<div><p>hheaAscender<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Ascender value. Corresponds to the OpenType hhea table Ascender field. ‘Typographic ascent (distance from baseline of highest ascender).’</p></div>
+			</div>
+			<div>
+				<div><p>hheaDescender<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Descender value. Corresponds to the OpenType hhea table Descender field. ‘Typographic descent (distance from baseline of lowest descender).’</p></div>
+			</div>
+			<div>
+				<div><p>hheaLineGap<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Line gap value. Corresponds to the OpenType hhea table LineGap field. ‘Typographic line gap. Negative LineGap values are treated as zero in Windows 3.1, System 6, and System 7.’</p></div>
+			</div>
+			<div>
+				<div><p>InterpolationWeightY<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Vertical interpolation value. In an instance, you can differentiate between vertical and horizontal interpolation by introducing this custom parameter. For it to take effect, it must differ from the interpolation weight of the instance.</p></div>
+			</div>
+			<div>
+				<div><p>license<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>License description. Corresponds to the OpenType name table name ID 13, the ‘description of how the font may be legally used, or different example scenarios for licensed use. This field should be written in plain language, not legalese.’</p></div>
+			</div>
+			<div>
+				<div><p>licenseURL<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>URL for the license. Corresponds to the OpenType name table name ID 14. ‘URL where additional licensing information can be found.’</p></div>
+			</div>
+			<div>
+				<div><p>panose<span class="seeprefix">&emsp;list</span></p></div>
+				<div><p>The list must contain 10 non-negative integers that represent the setting for each category in the Panose specification. The integers correspond with the option numbers in each of the Panose categories. This corresponds to the OpenType OS/2 table Panose field. ‘This 10 byte series of numbers is used to describe the visual characteristics of a given typeface. These characteristics are then used to associate the font with other fonts of similar appearance having different names. The variables for each digit are listed below.</p>
+				<p>The Panose values are fully described in the Panose “greybook” reference, currently owned by Monotype Imaging. The PANOSE definition contains ten digits each of which currently describes up to sixteen variations. Windows uses bFamilyType, bSerifStyle and bProportion in the font mapper to determine family type. It also uses bProportion to determine if the font is monospaced. If the font is a symbol font, the first byte of the PANOSE number (bFamilyType) must be set to “pictorial.”’</p></div>
+			</div>
+			<div>
+				<div><p>postscriptFontName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Name to be used for the FontName field in Type 1/CFF table. Should be ASCII-only, no whitespace allowed, e.g. ‘MyFont-Regular’.</p></div>
+			</div>
+			<div>
+				<div><p>postscriptFullName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Name to be used for the FullName field in Type 1/CFF table.</p></div>
+			</div>
+			<div>
+				<div><p>preferredFamilyName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Preferred family name. Corresponds to the OpenType name table name ID 16. ‘For historical reasons, font families have contained a maximum of four styles, but font designers may group more than four fonts to a single family. The Preferred Family allows font designers to include the preferred family grouping which contains more than four fonts. This ID is only present if it is different from ID 1.’</p></div>
+			</div>
+			<div>
+				<div><p>preferredSubfamilyName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Preferred subfamily name. Corresponds to the OpenType name table name ID 17. ‘Preferred Subfamily; Allows font designers to include the preferred subfamily grouping that is more descriptive than ID 2. This ID is only present if it is different from ID 2 and must be unique for the the Preferred Family.’</p></div>
+			</div>
+			<div>
+				<div><p>Remove Glyphs<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Will remove the glyphs mentioned in the value. Takes a comma-separated list of strings as value.</p>
+				<p>Useful for preparing the swapping of glyph shapes with the ‘Rename glyphs’ parameter (see below).</p></div>
+			</div>
+			<div>
+				<div><p>Rename Glyphs<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Will rename the glyphs mentioned in the value. Needs a comma-separated list of rename strings of the form ‘oldname=newname’, e.g. ‘e.bold=e, eacute.bold=eacute’.</p></div>
+			</div>
+			<div>
+				<div><p>sampleText<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Sample text. Corresponds to the OpenType name table name ID 19. ‘This can be the font name, or any other text that the designer thinks is the best sample to display the font in.’</p></div>
+			</div>
+			<div>
+				<div><p>Scale to UPM<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Scales the whole font to the supplied integer value. Useful for preparing a TTF conversion by scaling to 2048, for instance.</p></div>
+			</div>
+			<div>
+				<div><p>styleMapFamilyName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Family name used for bold, italic and bold italic style mapping. You can use this to create subfamilies within larger font families. ‘Up to four fonts can share the Font Family name, forming a font style linking group (regular, italic, bold, bold italic – as defined by OS/2.fsSelection bit settings). Glyphs uses the entries in Style Name field and in the Style Linking section of the instance for linking the four individual weights.</p></div>
+			</div>
+			<div>
+				<div><p>trademark<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>Trademark statement. Corresponds to the OpenType name table name ID 7. According to Microsoft, ‘this is used to save any trademark notice/information for this font. Such information should be based on legal advice. This is distinctly separate from the copyright.’</p></div>
+			</div>
+			<div>
+				<div><p>typoAscender<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Ascender value. Corresponds to the OpenType OS/2 table sTypoAscender field. ‘The typographic ascender for this font. Remember that this is not the same as the Ascender value in the hhea table, which Apple defines in a far different manner. One good source for sTypoAscender in Latin based fonts is the Ascender value from an AFM file. For CJK fonts see below.</p>
+				<p>The suggested usage for sTypoAscender is that it be used in conjunction with unitsPerEm to compute a typographically correct default line spacing. The goal is to free applications from Macintosh or Windows-specific metrics which are constrained by backward compatibility requirements. These new metrics, when combined with the character design widths, will allow applications to lay out documents in a typographically correct and portable fashion. These metrics will be exposed through Windows APIs. Macintosh applications will need to access the sfnt resource and parse it to extract this data from the “OS/2” table.</p>
+				<p>For CJK (Chinese, Japanese, and Korean) fonts that are intended to be used for vertical writing (in addition to horizontal writing), the required value for sTypoAscender is that which describes the top of the of the ideographic em-box. For example, if the ideographic em-box of the font extends from coordinates 0,-120 to 1000,880 (that is, a 1000 × 1000 box set 120 design units below the Latin baseline), then the value of sTypoAscender must be set to 880. Failing to adhere to these requirements will result in incorrect vertical layout.’</p></div>
+			</div>
+			<div>
+				<div><p>typoDescender<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Descender value. Corresponds to the OpenType OS/2 table sTypoDescender field. ‘The typographic descender for this font. Remember that this is not the same as the Descender value in the hhea table, which Apple defines in a far different manner. One good source for sTypoDescender in Latin based fonts is the Descender value from an AFM file. For CJK fonts see below.</p>
+				<p>The suggested usage for sTypoDescender is that it be used in conjunction with unitsPerEm to compute a typographically correct default line spacing. The goal is to free applications from Macintosh or Windows-specific metrics which are constrained by backward compatability requirements. These new metrics, when combined with the character design widths, will allow applications to lay out documents in a typographically correct and portable fashion. These metrics will be exposed through Windows APIs. Macintosh applications will need to access the sfnt resource and parse it to extract this data from the “OS/2” table (unless Apple exposes the “OS/2” table through a new API).</p>
+				<p>For CJK (Chinese, Japanese, and Korean) fonts that are intended to be used for vertical writing (in addition to horizontal writing), the required value for sTypoDescender is that which describes the bottom of the of the ideographic em-box. For example, if the ideographic em-box of the font extends from coordinates 0,-120 to 1000,880 (that is, a 1000 × 1000 box set 120 design units below the Latin baseline), then the value of sTypoDescender must be set to -120. Failing to adhere to these requirements will result in incorrect vertical layout.’</p></div>
+			</div>
+			<div>
+				<div><p>typoLineGap<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Line gap value. Corresponds to the OpenType OS/2 table sTypoLineGap field. ‘The typographic line gap for this font. Remember that this is not the same as the LineGap value in the hhea table, which Apple defines in a far different manner.</p>
+				<p>The suggested usage for usTypoLineGap is that it be used in conjunction with unitsPerEm to compute a typographically correct default line spacing. Typical values average 7–10% of units per em. The goal is to free applications from Macintosh or Windows-specific metrics which are constrained by backward compatability requirements. These new metrics, when combined with the character design widths, will allow applications to lay out documents in a typographically correct and portable fashion.’</p></div>
+			</div>
+			<div>
+				<div><p>underlineThickness<span class="seeprefix">&emsp;integer or float</span></p></div>
+				<div><p>Underline thickness value. Corresponds to the Type 1/CFF/post table UnderlineThickness field. Default is 50.</p></div>
+			</div>
+			<div>
+				<div><p>underlinePosition<span class="seeprefix">&emsp;integer or float</span></p></div>
+				<div><p>Underline position value. Corresponds to the Type 1/CFF/post table UnderlinePosition field. Default is –100.</p></div>
+			</div>
+			<div>
+				<div><p>unitsPerEm<span class="seeprefix">&emsp;non-negative integer</span></p></div>
+				<div><p>Units per em. Default is 1000 for PostScript-flavored OpenType fonts and a power of 2 (usually 2048) for TrueType-flavored OpenType fonts.</p></div>
+			</div>
+			<div>
+				<div><p>vheaVertAscender<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Ascender value. Corresponds to the OpenType vhea table vertTypoAscender field.</p></div>
+			</div>
+			<div>
+				<div><p>vheaVertDescender<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Descender value. Corresponds to the OpenType vhea table vertTypoDescender field.</p></div>
+			</div>
+			<div>
+				<div><p>vheaVertLineGap<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Line gap value. Corresponds to the OpenType vhea table vertTypoLineGap field.</p></div>
+			</div>
+			<div>
+				<div><p>weightClass<span class="seeprefix">&emsp;integer</span></p></div>
+				<div><p>Weight class value. Must be a non-negative integer. Corresponds to the OpenType OS/2 table usWeightClass field. ‘Indicates the visual weight (degree of blackness or thickness of strokes) of the characters in the font.’</p>
+				<p>Some applications use this value to sort the subfamilies in the font menu. Overrides the value set by the Weight pop-up menu of the instance.</p>
+					<p>
+					100&emsp;Thin<br/>
+					200&emsp;Extra-light (Ultra-light)<br/>
+					300&emsp;Light<br/>
+					400&emsp;Normal (Regular)<br/>
+					500&emsp;Medium<br/>
+					600&emsp;Semi-bold (Demi-bold)<br/>
+					700&emsp;Bold<br/>
+					800&emsp;Extra-bold (Ultra-bold)<br/>
+					900&emsp;Black (Heavy)<br/>
+					</p></div>
+			</div>
+			<div>
+				<div><p>winAscent<span class="seeprefix">&emsp;non-negative integer</span></p></div>
+				<div><p>Ascender value. Corresponds to the OpenType OS/2 table usWinAscent field.</p></div>
+			</div>
+			<div>
+				<div><p>winDescent<span class="seeprefix">&emsp;non-negative integer</span></p></div>
+				<div><p>Descender value. Corresponds to the OpenType OS/2 table usWinDescent field.</p></div>
+			</div>
+			<div>
+				<div><p>WWSFamilyName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>WWS family name. WWS stands for ‘Weight Width Slope’. Corresponds to the OpenType name table name ID 21. ‘Used to provide a WWS-conformant family name in case the entries for IDs 16 and 17 do not conform to the WWS model. (That is, in case the entry for ID 17 includes qualifiers for some attribute other than weight, width or slope.) If bit 8 of the fsSelection field is set, a WWS Family Name entry should not be needed and should not be included. Conversely, if an entry for this ID is include, bit 8 should not be set. (See OS/2 fsSelection field for details.) Examples of name ID 21: “Minion Pro Caption” and “Minion Pro Display”. (Name ID 16 would be “Minion Pro” for these examples.)’</p></div>
+			</div>
+			<div>
+				<div><p>WWSSubfamilyName<span class="seeprefix">&emsp;string</span></p></div>
+				<div><p>WWS Subfamily name. Corresponds to the OpenType name table name ID 22. ‘Used in conjunction with ID 21, this ID provides a WWS-conformant subfamily name (reflecting only weight, width and slope attributes) in case the entries for IDs 16 and 17 do not conform to the WWS model. As in the case of ID 21, use of this ID should correlate inversely with bit 8 of the fsSelection field being set. Examples of name ID 22: “Semibold Italic”, “Bold Condensed”. (Name ID 17 could be “Semibold Italic Caption”, or “Bold Condensed Display”, for example.)’</p></div>
+			</div>
+		</div><!--closes table-->
+	</div><!--closes contentbox-->
+	<div id="linkinternalbox">
+		<h3>Related Topics</h3>
+		<p class="linkinternal"><a href="help:topic_list=FontInfo bookID='Glyphs Help' template=sty/genlist.html stylesheet=sty/home_os.css Other='Font Info'">Font Info</a></p>
+	</div><!--closes linkinternalbox-->
+</body>
+</html>
