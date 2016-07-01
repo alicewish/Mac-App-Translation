@@ -1025,15 +1025,15 @@ Quit Quiver|退出Quiver
 Search Notes...|搜索笔记…
 Find Within Note...|在笔记内查找…
 Insert Image|插入图像
-Cut Cell|剪切单元
+Cut Cell|剪切单元格
 Start Presentation|开始演示
-Change Code Cell Language|更改代码单元语言
+Change Code Cell Language|更改代码单元格语言
 Toggle Bulleted List|切换项目符号列表
 Two Panes|双栏
 Remove Link|删除链接
 Increase Heading Level|增加标题级别
 Documentation|文档
-Copy Cell|复制单元
+Copy Cell|复制单元格
 Scroll Sync|同步滚动
 Show Notebooks|显示笔记本
 Jump to Notebook...|跳转到笔记本...
@@ -1044,12 +1044,12 @@ Evernote (.enex)|Evernote的（.enex）
 Normal Style|普通样式
 Quiver Notebook|Quiver笔记本
 Single Pane|单栏
-New Cell Above|在上方新建单元
-Convert To Diagram Cell|转换为图标单元
+New Cell Above|在上方新建单元格
+Convert To Diagram Cell|转换为图标单元格
 Open Shared Notebook...|打开共享笔记本...
 Editor Only|仅编辑器
 Show in Finder|在Finder中显示
-New Cell|新建单元
+New Cell|新建单元格
 Add/Edit Link|添加/编辑链接
 Show Main Window|显示主窗口
 Release Notes|发行说明
@@ -1059,37 +1059,37 @@ Toggle Sidebar|切换侧边栏
 Attach File|附加文件
 Show Tags|显示标签
 Move to Notebook...|移动到笔记本...
-New Cell At Cursor|在光标处新建单元
+New Cell At Cursor|在光标处新建单元格
 Share Notebook...|分享笔记本...
 Compact Style|简洁风格
 Insert To-do|插入待办事项
 Forward|前进
-Move Cell Up|向上移动单元
+Move Cell Up|向上移动单元格
 Back|后退
 Email Feedback|电子邮件反馈
 Three Panes|三栏
-Convert To Markdown Cell|转换为Markdown单元
-Paste Cell|粘贴单元
-Move Cell Down|向下移动单元
-Convert To Code Cell|转换为代码单元
+Convert To Markdown Cell|转换为Markdown单元格
+Paste Cell|粘贴单元格
+Move Cell Down|向下移动单元格
+Convert To Code Cell|转换为代码单元格
 Preview Only|仅预览
 Decrease Heading Level|降低标题级别
 Empty Trash...|清空废纸篓…
-Convert To LaTeX Cell|转换为LaTeX单元
+Convert To LaTeX Cell|转换为LaTeX单元格
 Delete Note|删除笔记
 Report Issues|报告问题
 Side-by-Side Preview|侧并排预览
 Clear Formatting|清除格式
 Show Tutorial|显示教程
 Quiver Notes|Quiver注意事项
-Delete Cell|删除单元
+Delete Cell|删除单元格
 Insert Horizontal Rule|插入水平线
 New Shared Notebook|新建共享笔记本
 Show Floating Preview|显示浮动预览
-Convert To Text Cell|转换为文本单元
+Convert To Text Cell|转换为文本单元格
 Plain Text|纯文本
 Open Note in New Window|在新窗口中打开笔记
-Split Cell|拆分单元
+Split Cell|拆分单元格
 Hide Note Count|隐藏笔记数
 Quiver|Quiver
 Export Note|导出笔记
@@ -1098,134 +1098,15 @@ Sidebar|侧边栏
 Note List|笔记列表
 Note View|笔记视图
 Note|笔记
-Cell|单元
+Cell|单元格
 Headings|标题
 Lists|列表
 Alignment|对齐方式
-CodaDelegate
-File List Encoding
-About Coda
-Close Window
-Coda Help
-Revert to Saved…
-Hide Coda
-Quit Coda
-Share via Bonjour
-Start speaking
-Stop speaking
-Use Tabs
-Clear Change Marks
-Show Change Marks
-Visit Coda Website
-Copy Sharing URL
-Mode Installing Help
-Read/Write
-Read Only
-Locked
-Copy as XHTML
-Copy with Styles
-Parent
-Connect to Server...
-Close File
-Close Split
-Unlock Coda…
-Purchase Coda Online…
-Visit Coda Support Page
-Transcript
-Select Next Tab
-Select Previous Tab
-Find &amp; Replace
-Use Selection for Replace
-Multi-Line Edit Selection
-View Source
-Show Invisible Files
-Hide Find Banner
-Next Change
-Previous Change
-Next Symbol
-Previous Symbol
-Move…
-Compress "Filename"
-Open With Finder
-New Folder
-New File
-Upload / Download
-Look Up In Reference Books
-Select All Within Brackets
-Close Current Tag Pair
-Source Control
-Find in Files…
-Open Quickly…
-Next Placeholder
-Unfold all Blocks
-Fold All Comment Blocks
-Fold All Top Level Blocks
-Fold Current Block
-Fold Selection
-Unfold Current Block
-Preview
-Sites
-Preview in New Window
-Show Sidebar
-Get Info
-Publish File to Server
-Reverse Publish File
-Clear All Changed Files
-Encode Entities
-Decode Entities
-Convert to ASCII
-Remove Line Breaks
-Convert URL to Link
-Strip Tags
-Strip Trailing Whitespace
-Convert Spaces to Tabs
-Convert Tabs to Spaces
-Open Site in New Window
-Open Site
-Import Transmit Favorites…
-New Site…
-Edit Site…
-Refresh
-Change...
-New Terminal Tab
-New Document Tab
-New Book Tab
-New MySQL Tab
-Arrange By
-Root URL
-Date Opened
-Quick Look "Filename"
-Files
-Small Icon and Text
-Large Icon and Text
-Text Only
-Become Tag
-Wrap in Tag
-Show in File Browser
-Show in Sidebar
-Close Site
-New MySQL Split
-New Book Split
-New Document Split
-New Terminal Split
-New Preview Split
-Wrap Lines
-Save &amp; Publish
-Save &amp; Publish All
-Paste and Indent
-Inside Coda on iBooks
-Never Publish
-Rebuild Site Index
-Comment Selection by Line
-Coda
-New Split
-Access Control
-Code Folding
-Fold All Blocks at Level
-Preview In
-Toolbar
-Processing
-Line Endings
-Encoding
-Syntax Mode
-Purchase
+CodaDelegate|CodaDelegate
+File List Encoding|文件列表编码
+About Coda|关于Coda
+Close Window|关闭窗口
+Coda Help|Coda帮助
+Revert to Saved…|恢复到已保存...
+Hide Coda|隐藏Coda
+Quit Coda|退出Coda

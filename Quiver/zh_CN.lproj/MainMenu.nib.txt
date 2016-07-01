@@ -3305,7 +3305,7 @@
 <integer>799</integer>
 </dict>
 </dict>
-<string>剪切单元</string>
+<string>剪切单元格</string>
 <string>X</string>
 <string>cutCell:</string>
 <dict>
@@ -3688,7 +3688,7 @@
 <integer>243</integer>
 </dict>
 </dict>
-<string>更改代码单元语言</string>
+<string>更改代码单元格语言</string>
 <string>/</string>
 <string>changeCodeCellLanguage:</string>
 <dict>
@@ -4386,7 +4386,7 @@
 <integer>297</integer>
 </dict>
 </dict>
-<string>复制单元</string>
+<string>复制单元格</string>
 <string>C</string>
 <string>copyCell:</string>
 <dict>
@@ -5376,7 +5376,7 @@
 <integer>374</integer>
 </dict>
 </dict>
-<string>在上方新建单元</string>
+<string>在上方新建单元格</string>
 <string>
 </string>
 <string>newCellAbove:</string>
@@ -5538,7 +5538,7 @@
 <integer>387</integer>
 </dict>
 </dict>
-<string>转换为图标单元</string>
+<string>转换为图标单元格</string>
 <string>5</string>
 <string>changeCellType:</string>
 <dict>
@@ -5775,7 +5775,7 @@
 <integer>406</integer>
 </dict>
 </dict>
-<string>新建单元</string>
+<string>新建单元格</string>
 <string>
 </string>
 <string>newCell:</string>
@@ -6950,7 +6950,7 @@
 <integer>497</integer>
 </dict>
 </dict>
-<string>在光标处新建单元</string>
+<string>在光标处新建单元格</string>
 <string>newCellAtCursor:</string>
 <dict>
 <key>$class</key>
@@ -7341,7 +7341,7 @@
 <integer>526</integer>
 </dict>
 </dict>
-<string>向上移动单元</string>
+<string>向上移动单元格</string>
 <string></string>
 <string>moveCellUp:</string>
 <dict>
@@ -7736,7 +7736,7 @@
 <integer>557</integer>
 </dict>
 </dict>
-<string>转换为Markdown单元</string>
+<string>转换为Markdown单元格</string>
 <string>changeCellType:</string>
 <dict>
 <key>$class</key>
@@ -7791,7 +7791,7 @@
 <integer>561</integer>
 </dict>
 </dict>
-<string>粘贴单元</string>
+<string>粘贴单元格</string>
 <string>pasteCell:</string>
 <dict>
 <key>$class</key>
@@ -7902,7 +7902,7 @@
 <integer>570</integer>
 </dict>
 </dict>
-<string>向下移动单元</string>
+<string>向下移动单元格</string>
 <string></string>
 <string>moveCellDown:</string>
 <dict>
@@ -8016,7 +8016,7 @@
 <integer>580</integer>
 </dict>
 </dict>
-<string>转换为代码单元</string>
+<string>转换为代码单元格</string>
 <string>changeCellType:</string>
 <dict>
 <key>$class</key>
@@ -8407,7 +8407,7 @@
 <integer>610</integer>
 </dict>
 </dict>
-<string>转换为LaTeX单元</string>
+<string>转换为LaTeX单元格</string>
 <string>changeCellType:</string>
 <dict>
 <key>$class</key>
@@ -9178,7 +9178,7 @@
 <integer>665</integer>
 </dict>
 </dict>
-<string>删除单元</string>
+<string>删除单元格</string>
 <string>deleteCell:</string>
 <dict>
 <key>$class</key>
@@ -9454,7 +9454,7 @@
 <integer>686</integer>
 </dict>
 </dict>
-<string>转换为文本单元</string>
+<string>转换为文本单元格</string>
 <string>changeCellType:</string>
 <dict>
 <key>$class</key>
@@ -9635,7 +9635,7 @@
 <integer>700</integer>
 </dict>
 </dict>
-<string>拆分单元</string>
+<string>拆分单元格</string>
 <string>
 </string>
 <string>splitCell:</string>
@@ -13485,7 +13485,7 @@
 <integer>799</integer>
 </dict>
 </dict>
-<string>单元</string>
+<string>单元格</string>
 <dict>
 <key>$class</key>
 <dict>

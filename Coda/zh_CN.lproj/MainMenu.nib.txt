@@ -1097,7 +1097,7 @@
 <integer>22</integer>
 </dict>
 </dict>
-<string>File List Encoding</string>
+<string>文件列表编码</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -1380,7 +1380,7 @@
 <integer>953</integer>
 </dict>
 </dict>
-<string>About Coda</string>
+<string>关于Coda</string>
 <string>showAboutBox:</string>
 <dict>
 <key>$class</key>
@@ -1515,7 +1515,7 @@
 <integer>57</integer>
 </dict>
 </dict>
-<string>Close Window</string>
+<string>关闭窗口</string>
 <string>w</string>
 <string>performClose:</string>
 <dict>
@@ -1814,7 +1814,7 @@
 <integer>1141</integer>
 </dict>
 </dict>
-<string>Coda Help</string>
+<string>Coda帮助</string>
 <string>?</string>
 <string>showHelp:</string>
 <dict>
@@ -1868,7 +1868,7 @@
 <integer>88</integer>
 </dict>
 </dict>
-<string>Revert to Saved…</string>
+<string>恢复到已保存...</string>
 <string>revertDocumentToSaved:</string>
 <dict>
 <key>$class</key>
@@ -2066,7 +2066,7 @@
 <integer>102</integer>
 </dict>
 </dict>
-<string>Hide Coda</string>
+<string>隐藏Coda</string>
 <string>h</string>
 <string>hide:</string>
 <dict>
@@ -2127,7 +2127,7 @@
 <integer>107</integer>
 </dict>
 </dict>
-<string>Quit Coda</string>
+<string>退出Coda</string>
 <string>q</string>
 <string>terminate:</string>
 <dict>
