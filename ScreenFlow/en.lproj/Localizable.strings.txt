@@ -1,0 +1,1736 @@
+/* Free disk for capture volume */
+" (%ldGB free)" = " (%ldGB free)";
+
+/* Free disk for capture volume */
+" (%ldMB free)" = " (%ldMB free)";
+
+/* Export time remaining */
+" - %@ remaining" = " - %@ remaining";
+
+/* Time units */
+" hour" = " hour";
+
+/* Time units */
+" hours" = " hours";
+
+/* Time units */
+" min" = " min";
+
+/* Time units */
+" mins" = " mins";
+
+/* Time units */
+" minute" = " minute";
+
+/* Time units */
+" minutes" = " minutes";
+
+/* Time units */
+" sec" = " sec";
+
+/* Time units */
+" second" = " second";
+
+/* Time units */
+" seconds" = " seconds";
+
+/* Time units */
+" secs" = " secs";
+
+/* Uncompressed audio format */
+"%@ %@ audio at %.1fkhz" = "%1$@ %2$@ audio at %3$.1fkhz";
+
+/* Compressed audio format description */
+"%@ %@ audio at %ld kbits/sec" = "%1$@ %2$@ audio at %3$ld kbits/sec";
+
+/* No comment provided by engineer. */
+"%@ [Customized]" = "%@ [Customized]";
+
+/* Audio driver installation tool-tip */
+"%@ Installed" = "%@ Installed";
+
+/* No comment provided by engineer. */
+"%@ Properties" = "%@ Properties";
+
+/* Export time remaining */
+"%@ remaining" = "%@ remaining";
+
+/* No comment provided by engineer. */
+"%d Markers" = "%d Markers";
+
+/* No comment provided by engineer. */
+"(Unsupported on PowerPC)" = "(Unsupported on PowerPC)";
+
+/* No comment provided by engineer. */
+"(Unsupported on this GPU)" = "(Unsupported on this GPU)";
+
+/* Text used in inspector tags for property headers */
+"+ Action" = "+ Action";
+
+/* No comment provided by engineer. */
+"1 fps" = "1 fps";
+
+/* No comment provided by engineer. */
+"1 Marker" = "1 Marker";
+
+/* Name of preset in New Document */
+"1080p HD" = "1080p HD";
+
+/* No comment provided by engineer. */
+"15 fps" = "15 fps";
+
+/* No comment provided by engineer. */
+"30 fps" = "30 fps";
+
+/* No comment provided by engineer. */
+"3D Pack" = "3D Pack";
+
+/* Transition name */
+"3D Shatter" = "3D Shatter";
+
+/* Name of preset in New Document */
+"720p HD" = "720p HD";
+
+/* overwrite file on export */
+"\"%@\" already exists.  Do you want to replace it?" = "\"%@\" already exists.  Do you want to replace it?";
+
+/* No comment provided by engineer. */
+"\"%@\" document exported" = "\"%@\" document exported";
+
+/* No comment provided by engineer. */
+"\"%@\" is not a writable directory." = "\"%@\" is not a writable directory.";
+
+/* No comment provided by engineer. */
+"\"%@\" uploaded to %@" = "\"%1$@\" uploaded to %2$@";
+
+/* No comment provided by engineer. */
+"\"%@\" video size is too large" = "\"%@\" video size is too large";
+
+/* No comment provided by engineer. */
+"A batch export is currently in progress." = "A batch export is currently in progress.";
+
+/* Copy & Paste failure */
+"A clip wasn't able to accept the type of action being pasted onto it.  Please make sure you only try pasting the appropriate type of action." = "A clip wasn't able to accept the type of action being pasted onto it.  Please make sure you only try pasting the appropriate type of action.";
+
+/* overwrite file on export */
+"A file already exists in the output folder.  Do you want to replace it?" = "A file already exists in the output folder.  Do you want to replace it?";
+
+/* No comment provided by engineer. */
+"A file or folder with the same name already exists in the folder \"%@\".  Replacing it will overwrite its current contents." = "A file or folder with the same name already exists in the folder \"%@\".  Replacing it will overwrite its current contents.";
+
+/* No comment provided by engineer. */
+"A file with the same name already exists in the folder \"%@\".  Replacing it will overwrite its current contents." = "A file with the same name already exists in the folder \"%@\".  Replacing it will overwrite its current contents.";
+
+/* No comment provided by engineer. */
+"A folder with the same name already exists in the folder %@.  Replacing it will overwrite its current contents." = "A folder with the same name already exists in the folder %@.  Replacing it will overwrite its current contents.";
+
+/* No comment provided by engineer. */
+"A publish upload is currently in progress.  Please wait for the publish to complete or cancel the publish before quitting." = "A publish upload is currently in progress.  Please wait for the publish to complete or cancel the publish before quitting.";
+
+/* No comment provided by engineer. */
+"A snapback action can only be added when there is at least one action of the type it is snapping back to behind it." = "A snapback action can only be added when there is at least one action of the type it is snapping back to behind it.";
+
+/* No comment provided by engineer. */
+"AAC audio encoding at %@ kbits/sec." = "AAC audio encoding at %@ kbits/sec.";
+
+/* No comment provided by engineer. */
+"About %d hours" = "About %d hours";
+
+/* No comment provided by engineer. */
+"About %d minutes" = "About %d minutes";
+
+/* No comment provided by engineer. */
+"About a minute" = "About a minute";
+
+/* No comment provided by engineer. */
+"About an hour" = "About an hour";
+
+/* Undo Manager Name */
+"Action Curve" = "Action Curve";
+
+/* No comment provided by engineer. */
+"Action templates cannot be restored once they have been deleted." = "Action templates cannot be restored once they have been deleted.";
+
+/* No comment provided by engineer. */
+"Activate" = "Activate";
+
+/* Add Template Action
+   Menu command */
+"Add %@" = "Add %@";
+
+/* Menu command */
+"Add %@ Action" = "Add %@ Action";
+
+/* Undo Manager Name */
+"Add Action" = "Add Action";
+
+/* No comment provided by engineer. */
+"Add Additional Recording" = "Add Additional Recording";
+
+/* Undo Manager Name */
+"Add Annotations" = "Add Annotations";
+
+/* Menu Command */
+"Add Annotations Clip" = "Add Annotations Clip";
+
+/* No comment provided by engineer. */
+"Add Ending Transition" = "Add Ending Transition";
+
+/* Name of undo action */
+"Add Filter" = "Add Filter";
+
+/* Clip Context menu command */
+"Add Freeze Frame" = "Add Freeze Frame";
+
+/* Undo Manager Name */
+"Add Marker" = "Add Marker";
+
+/* Context menu */
+"Add Marker..." = "Add Marker...";
+
+/* No comment provided by engineer. */
+"Add Starting & Ending Transitions" = "Add Starting & Ending Transitions";
+
+/* No comment provided by engineer. */
+"Add Starting Transition" = "Add Starting Transition";
+
+/* No comment provided by engineer. */
+"Add Template Action" = "Add Template Action";
+
+/* Menu Command
+   Undo Manager Name */
+"Add Text Box" = "Add Text Box";
+
+/* Context menu command */
+"Add to Timeline at Scrubber" = "Add to Timeline at Scrubber";
+
+/* No comment provided by engineer. */
+"Add Transition" = "Add Transition";
+
+/* Media Grid View Options */
+"Added When" = "Added When";
+
+/* No comment provided by engineer. */
+"Adding an Action to a clip enables you to modify the properties of your video or screen recording over a period of time" = "Adding an Action to a clip enables you to modify the properties of your video or screen recording over a period of time";
+
+/* Preference Page name */
+"Advanced" = "Advanced";
+
+/* Undo name for changing the justification on a paragraph */
+"Alignment Change" = "Alignment Change";
+
+/* This is the category used in the Transition Inspector to show all transitions */
+"All" = "All";
+
+/* No comment provided by engineer. */
+"All Clips" = "All Clips";
+
+/* No comment provided by engineer. */
+"All Clips after current Clip" = "All Clips after current Clip";
+
+/* No comment provided by engineer. */
+"An error occurred (%ld)." = "An error occurred (%ld).";
+
+/* No comment provided by engineer. */
+"An error occurred that prevented communication with the unlock server.  Please make sure this machine is connected to the Internet and is allowed to make outgoing connections.\n\nThe error message was \"%@\"." = "An error occurred that prevented communication with the unlock server.  Please make sure this machine is connected to the Internet and is allowed to make outgoing connections.\n\nThe error message was \"%@\".";
+
+/* No comment provided by engineer. */
+"An export is currently in progress.  Please wait for the export to complete or cancel the export before quitting." = "An export is currently in progress.  Please wait for the export to complete or cancel the export before quitting.";
+
+/* No comment provided by engineer. */
+"annotations" = "annotations";
+
+/* Default pretty name of text clip */
+"Annotations" = "Annotations";
+
+/* No comment provided by engineer. */
+"Annotations Clip" = "Annotations Clip";
+
+/* No comment provided by engineer. */
+"Are you sure?  This operation cannot be undone." = "Are you sure?  This operation cannot be undone.";
+
+/* Action Context menu command */
+"Audio" = "Audio";
+
+/* No comment provided by engineer. */
+"Audio Action" = "Audio Action";
+
+/* Action Context menu command
+   Name in inspector panel */
+"Audio Filters" = "Audio Filters";
+
+/* No comment provided by engineer. */
+"Audio from" = "Audio from";
+
+/* No comment provided by engineer. */
+"Audio Snapback" = "Audio Snapback";
+
+/* Undo Manager Name */
+"Auto Level Change" = "Auto Level Change";
+
+/* H.264 Profile */
+"Automatic" = "Automatic";
+
+/* No comment provided by engineer. */
+"Available Formats" = "Available Formats";
+
+/* No comment provided by engineer. */
+"Bad caption duration." = "Bad caption duration.";
+
+/* No comment provided by engineer. */
+"Bad permissions on selected scratch path." = "Bad permissions on selected scratch path.";
+
+/* Name of transition in the Wipe Pack */
+"Bands" = "Bands";
+
+/* Transition name */
+"Bars Swipe" = "Bars Swipe";
+
+/* H.264 Profile */
+"Baseline" = "Baseline";
+
+/* Cursor hotspot location */
+"Bottom" = "Bottom";
+
+/* Transition Corner */
+"Bottom Left" = "Bottom Left";
+
+/* Transition Corner */
+"Bottom Right" = "Bottom Right";
+
+/* Cursor hotspot location */
+"Bottom-Left" = "Bottom-Left";
+
+/* Cursor hotspot location */
+"Bottom-Right" = "Bottom-Right";
+
+/* Name of transition in the Wipe Pack */
+"Boxes" = "Boxes";
+
+/* No comment provided by engineer. */
+"Built-in OS X" = "Built-in OS X";
+
+/* Text in the Welcome screen */
+"Buy" = "Buy";
+
+/* Name of button in transition inspector to take customer to store to purchase more transitions */
+"Buy More..." = "Buy More...";
+
+/* No comment provided by engineer. */
+"Calculating Volume Smoothing..." = "Calculating Volume Smoothing...";
+
+/* Action Context menu command */
+"Callout" = "Callout";
+
+/* No comment provided by engineer. */
+"Camera & Microphone Recording" = "Camera & Microphone Recording";
+
+/* No comment provided by engineer. */
+"Cancel" = "Cancel";
+
+/* Undo Manager Name */
+"Canvas Change" = "Canvas Change";
+
+/* Name appearing in undo menu after changing the document size */
+"Change Document Setup" = "Change Document Setup";
+
+/* No comment provided by engineer. */
+"Choose" = "Choose";
+
+/* No comment provided by engineer. */
+"Chroma Key" = "Chroma Key";
+
+/* Cursor Title */
+"circle" = "Circle";
+
+/* No comment provided by engineer. */
+"Circle - Dark" = "Circle - Dark";
+
+/* No comment provided by engineer. */
+"Circle - Light" = "Circle - Light";
+
+/* Name of transition in the Wipe Pack */
+"Circle Wipe" = "Circle Wipe";
+
+/* Timeline Context menu command
+   Undo Manager Name */
+"Clear All Captions" = "Clear All Captions";
+
+/* Undo name */
+"Clear Click Sound" = "Clear Click Sound";
+
+/* Undo Manager Name */
+"Clip Name Change" = "Clip Name Change";
+
+/* Undo name */
+"Clip Time Insert" = "Clip Time Insert";
+
+/* Name of transition in the Wipe Pack */
+"Clock Wipe" = "Clock Wipe";
+
+/* No comment provided by engineer. */
+"Close" = "Close";
+
+/* Clip Context menu command
+   Undo Manager Name */
+"Close Gap" = "Close Gap";
+
+/* Name of transition in the Wipe Pack */
+"Color Drop Wipe" = "Color Drop Wipe";
+
+/* No comment provided by engineer. */
+"Completed Upload" = "Completed Upload";
+
+/* No comment provided by engineer. */
+"Continue" = "Continue";
+
+/* No comment provided by engineer. */
+"copy" = "copy";
+
+/* Clip Context menu command */
+"Copy" = "Copy";
+
+/* Prepended to a copied export preset */
+"Copy of " = "Copy of ";
+
+/* Autosave Progress popover */
+"Copying Media:" = "Copying Media:";
+
+/* Maximum count in touch callouts */
+"Count must be between 1 and 4." = "Count must be between 1 and 4.";
+
+/* No comment provided by engineer. */
+"Countdown has a maximum value of 20 seconds." = "Countdown has a maximum value of 20 seconds.";
+
+/* No comment provided by engineer. */
+"Countdown seconds cannot be less than zero." = "Countdown seconds cannot be less than zero.";
+
+/* Undo name */
+"Create Template Action" = "Create Template Action";
+
+/* Clip Context menu command */
+"Create Template Action..." = "Create Template Action...";
+
+/* Validation error message when setting the video crop */
+"Cropping values cannot be greater than the horizontal dimension." = "Cropping values cannot be greater than the horizontal dimension.";
+
+/* Validation error message when setting the video crop */
+"Cropping values cannot be greater than the vertical dimension." = "Cropping values cannot be greater than the vertical dimension.";
+
+/* Validation error message when setting the video crop */
+"Cropping values cannot be less than 0." = "Cropping values cannot be less than 0.";
+
+/* Name of transition in the Wipe Pack */
+"Cross Blur" = "Cross Blur";
+
+/* Transition name */
+"Cross Dissolve" = "Cross Dissolve";
+
+/* Name of transition in the Wipe Pack */
+"Crosshair" = "Crosshair";
+
+/* Transition name */
+"Cube" = "Cube";
+
+/* Name of transition in the 3D Pack */
+"Cube Split" = "Cube Split";
+
+/* Name of transition in the 3D Pack */
+"Cube Twist" = "Cube Twist";
+
+/* No comment provided by engineer. */
+"Curve Type" = "Curve Type";
+
+/* No comment provided by engineer. */
+"Custom" = "Custom";
+
+/* No comment provided by engineer. */
+"Custom Presets" = "Custom Presets";
+
+/* Clip Context menu command
+   Undo Manager Name */
+"Cut" = "Cut";
+
+/* Undo Manager Name */
+"Cut Action" = "Cut Action";
+
+/* Undo Manager Name */
+"Cut Clip" = "Cut Clip";
+
+/* Cursor Title */
+"default" = "Default";
+
+/* Action Context menu command */
+"Default" = "Default";
+
+/* No comment provided by engineer. */
+"Default Format" = "Default Format";
+
+/* No comment provided by engineer. */
+"Delete" = "Delete";
+
+/* Undo Manager Name */
+"Delete All Markers" = "Delete All Markers";
+
+/* Name of undo action */
+"Delete Filter" = "Delete Filter";
+
+/* Undo Manager Name */
+"Delete Marker" = "Delete Marker";
+
+/* Context menu command */
+"Delete Media" = "Delete Media";
+
+/* No comment provided by engineer. */
+"Delete Media Source" = "Delete Media Source";
+
+/* Undo Manager Name */
+"Delete Media Sources" = "Delete Media Sources";
+
+/* Undo Manager Name */
+"Delete Range" = "Delete Range";
+
+/* Timeline Context menu command */
+"Delete Track" = "Delete Track";
+
+/* No comment provided by engineer. */
+"Delete Unused Media Sources" = "Delete Unused Media Sources";
+
+/* Clip Context menu command */
+"Detach Audio" = "Detach Audio";
+
+/* Transition name */
+"Dip to Black" = "Dip to Black";
+
+/* Transition name */
+"Dip to White" = "Dip to White";
+
+/* No comment provided by engineer. */
+"Discard" = "Discard";
+
+/* No comment provided by engineer. */
+"Document Upgrade Warning." = "Document Upgrade Warning.";
+
+/* No comment provided by engineer. */
+"Documents" = "Documents";
+
+/* Name of transition in the Wipe Pack */
+"Doors" = "Doors";
+
+/* No comment provided by engineer. */
+"Download & Installation of Audio Component Required." = "Download & Installation of Audio Component Required.";
+
+/* No comment provided by engineer. */
+"Download Flip4Mac" = "Download Flip4Mac";
+
+/* No comment provided by engineer. */
+"Download Windows Media Components." = "Download Windows Media Components.";
+
+/* Undo Action */
+"Drawing" = "Drawing";
+
+/* No comment provided by engineer. */
+"Due to limitations of the primary graphics card, certain functionality in ScreenFlow won\'t be available.  For example, Callouts aren\'t supported on this system.\n\nPlease see telestream.net for more information about system requirements." = "Due to limitations of the primary graphics card, certain functionality in ScreenFlow won\'t be available.  For example, Callouts aren\'t supported on this system.\n\nPlease see telestream.net for more information about system requirements.";
+
+/* Column in Media List
+   Media Grid View Options */
+"Duration" = "Duration";
+
+/* No comment provided by engineer. */
+"Duration cannot be less than or equal to zero." = "Duration cannot be less than or equal to zero.";
+
+/* Undo Manager Name */
+"Duration Change" = "Duration Change";
+
+/* No comment provided by engineer. */
+"Duration for new %@:" = "Duration for new %@:";
+
+/* No comment provided by engineer. */
+"Duration for new Video Actions" = "Duration for new Video Actions";
+
+/* No comment provided by engineer. */
+"Duration is longer than that of the source media." = "Duration is longer than that of the source media.";
+
+/* Name of text field in transition inspector */
+"Duration:" = "Duration:";
+
+/* Duration Label in main document window */
+"Duration: %@" = "Duration: %@";
+
+/* No comment provided by engineer. */
+"Duration: %@\n" = "Duration: %@\n";
+
+/* Transition Acceleration */
+"Ease In" = "Ease In";
+
+/* Transition Acceleration */
+"Ease In & Out" = "Ease In & Out";
+
+/* Transition Acceleration */
+"Ease Out" = "Ease Out";
+
+/* Action Context menu command */
+"Ease-In" = "Ease-In";
+
+/* Action Context menu command */
+"Ease-In & Out" = "Ease-In & Out";
+
+/* Action Context menu command */
+"Ease-Out" = "Ease-Out";
+
+/* Clip Context menu command */
+"Edit Nested Clip" = "Edit Nested Clip";
+
+/* No comment provided by engineer. */
+"Edit..." = "Edit...";
+
+/* No comment provided by engineer. */
+"Editing Nested Clips." = "Editing Nested Clips.";
+
+/* No comment provided by engineer. */
+"Enter Caption Text" = "Enter Caption Text";
+
+/* No comment provided by engineer. */
+"Enter Caption Text in %@" = "Enter Caption Text in %@";
+
+/* No comment provided by engineer. */
+"Error locating file" = "Error locating file";
+
+/* No comment provided by engineer. */
+"Error opening file" = "Error opening file";
+
+/* No comment provided by engineer. */
+"Exit" = "Exit";
+
+/* Timeline Context menu command */
+"Expand" = "Expand";
+
+/* No comment provided by engineer. */
+"Export All Templates..." = "Export All Templates...";
+
+/* No comment provided by engineer. */
+"Export Completed" = "Export Completed";
+
+/* No comment provided by engineer. */
+"Export in Progress" = "Export in Progress";
+
+/* Menu item command */
+"Export Selected Range..." = "Export Selected Range...";
+
+/* No comment provided by engineer. */
+"Export to File" = "Export to File";
+
+/* Timeline Context menu command */
+"Export to SRT..." = "Export to SRT...";
+
+/* No comment provided by engineer. */
+"Export will occur over the entire project" = "Export will occur over the entire project";
+
+/* Menu item command */
+"Export..." = "Export...";
+
+/* No comment provided by engineer. */
+"Exporting with a watermark." = "Exporting with a watermark.";
+
+/* No comment provided by engineer. */
+"Exporting:" = "Exporting:";
+
+/* No comment provided by engineer. */
+"Favorite Transitions" = "Favorite Transitions";
+
+/* No comment provided by engineer. */
+"Favorites" = "Favorites";
+
+/* Name of undo action when reordering the video or audio filters in a list */
+"Filter Reorder" = "Filter Reorder";
+
+/* Transition name */
+"Fire" = "Fire";
+
+/* Name of transition in the Wipe Pack */
+"Flip Over" = "Flip Over";
+
+/* Name of transition in the 3D Pack */
+"Flyover" = "Flyover";
+
+/* Name of transition in the 3D Pack */
+"Fold" = "Fold";
+
+/* No comment provided by engineer. */
+"Frame rate must be between 1 and 60 fps." = "Frame rate must be between 1 and 60 fps.";
+
+/* No comment provided by engineer. */
+"Freeze Frame" = "Freeze Frame";
+
+/* No comment provided by engineer. */
+"Freeze Frame from %@" = "Freeze Frame from %@";
+
+/* Transition Direction */
+"From Bottom to Top" = "From Bottom to Top";
+
+/* Transition Direction */
+"From Left to Right" = "From Left to Right";
+
+/* Transition Direction */
+"From Right to Left" = "From Right to Left";
+
+/* Transition Direction */
+"From Top to Bottom" = "From Top to Bottom";
+
+/* Preference Page name */
+"General" = "General";
+
+/* Text in the Welcome screen */
+"Get Help" = "Get Help";
+
+/* No comment provided by engineer. */
+"Gradient Wipe" = "Gradient Wipe";
+
+/* Name of transition in the Wipe Pack */
+"Grid Wipe" = "Grid Wipe";
+
+/* Name of transition in the Wipe Pack */
+"Grid Zoom" = "Grid Zoom";
+
+/* Clip Context menu command
+   Undo name */
+"Group" = "Group";
+
+/* No comment provided by engineer. */
+"H.264 video encoding at %@ kbits/sec." = "H.264 video encoding at %@ kbits/sec.";
+
+/* No comment provided by engineer. */
+"Hello and Welcome to ScreenFlow 5" = "Hello and Welcome to ScreenFlow 5";
+
+/* No comment provided by engineer. */
+"Hotspot" = "Hotspot";
+
+/* Visit Driver Download */
+"http://dynamic.telestream.net/downloads/download-screenflow-audio.asp" = "http://dynamic.telestream.net/downloads/download-screenflow-audio.asp";
+
+/* Visit Website */
+"http://www.telestream.net/screen-flow/overview.htm" = "http://www.telestream.net/screen-flow/overview.htm";
+
+/* Application Feedback URL */
+"http://www.telestream.net/telestream-support/screen-flow/contact-support.htm" = "http://www.telestream.net/telestream-support/screen-flow/contact-support.htm";
+
+/* Visit Support */
+"http://www.telestream.net/telestream-support/screen-flow/support.htm" = "http://www.telestream.net/telestream-support/screen-flow/support.htm";
+
+/* Timeline Context menu command */
+"Import from SRT..." = "Import from SRT...";
+
+/* No comment provided by engineer. */
+"Import Templates..." = "Import Templates...";
+
+/* Transition name */
+"Inner Cube" = "Inner Cube";
+
+/* Clip Context menu command */
+"Insert Annotation Clip" = "Insert Annotation Clip";
+
+/* Clip Context menu command */
+"Insert Media" = "Insert Media";
+
+/* Clip Context menu command */
+"Insert Text Box" = "Insert Text Box";
+
+/* No comment provided by engineer. */
+"Insert: %@" = "Insert: %@";
+
+/* No comment provided by engineer. */
+"Install" = "Install";
+
+/* Button for installing audio driver */
+"Install Driver" = "Install Driver";
+
+/* No comment provided by engineer. */
+"Invalid duration value" = "Invalid duration value";
+
+/* No comment provided by engineer. */
+"Invalid License Key." = "Invalid License Key.";
+
+/* No comment provided by engineer. */
+"Invalid speed value" = "Invalid speed value";
+
+/* Click Effect */
+"Invert" = "Invert";
+
+/* Name of preset in New Document */
+"iOS Capture - iPad Landscape" = "iOS Capture - iPad Landscape";
+
+/* Name of preset in New Document */
+"iOS Capture - iPad Portrait" = "iOS Capture - iPad Portrait";
+
+/* Name of preset in New Document */
+"iOS Capture - iPhone Landscape" = "iOS Capture - iPhone Landscape";
+
+/* Name of preset in New Document */
+"iOS Capture - iPhone Portrait" = "iOS Capture - iPhone Portrait";
+
+/* Name of transition in the Wipe Pack */
+"Jaws Wipe" = "Jaws Wipe";
+
+/* Text in the Welcome screen */
+"Join Mailing List" = "Join Mailing List";
+
+/* No comment provided by engineer. */
+"Label" = "Label";
+
+/* No comment provided by engineer. */
+"Language:" = "Language:";
+
+/* Name of transition in the Wipe Pack */
+"Lava Wipe" = "Lava Wipe";
+
+/* Cursor hotspot location */
+"Left" = "Left";
+
+/* No comment provided by engineer. */
+"Left Duration: %@\nRight Duration: %@" = "Left Duration: %1$@\nRight Duration: %2$@";
+
+/* Preference Page name */
+"Licenses" = "Licenses";
+
+/* Application name - do not localize */
+"LicenseTitleStr0" = "ScreenFlow";
+
+/* Application name - do not localize */
+"LicenseTitleStr1" = "ScreenFlow";
+
+/* Transition Acceleration */
+"Linear" = "Linear";
+
+/* Clip Context menu command
+   Menu Item Name
+   Undo Manager Name */
+"Lock Clip" = "Lock Clip";
+
+/* Menu Item Name */
+"Lock Clips" = "Lock Clips";
+
+/* H.264 Profile */
+"Main" = "Main";
+
+/* Menu command */
+"Make Settings Default" = "Make Settings Default";
+
+/* Menu command */
+"Make Settings Default for new Callouts" = "Make Settings Default for new Callouts";
+
+/* Menu command */
+"Make Settings Default for new Text Boxes" = "Make Settings Default for new Text Boxes";
+
+/* No comment provided by engineer. */
+"Making this modification would push the property value out of bounds.  Please modify the value on the left or right edge of the action instead." = "Making this modification would push the property value out of bounds.  Please modify the value on the left or right edge of the action instead.";
+
+/* Window name for markers */
+"Markers" = "Markers";
+
+/* No comment provided by engineer. */
+"Markers aren't supported inside nested clips, please add your marker at the top level of your document." = "Markers aren't supported inside nested clips, please add your marker at the top level of your document.";
+
+/* No comment provided by engineer. */
+"Maximum nested clip depth reached." = "Maximum nested clip depth reached.";
+
+/* No comment provided by engineer. */
+"Media File" = "Media File";
+
+/* No comment provided by engineer. */
+"Media in Document" = "Media in Document";
+
+/* No comment provided by engineer. */
+"Media Library" = "Media Library";
+
+/* No comment provided by engineer. */
+"Media Sources containing clips on the timeline will be deleted.  When you press 'Delete', these will also be deleted." = "Media Sources containing clips on the timeline will be deleted.  When you press 'Delete', these will also be deleted.";
+
+/* Transition name */
+"Melt" = "Melt";
+
+/* Cursor hotspot location */
+"Middle" = "Middle";
+
+/* No comment provided by engineer. */
+"Missing filename." = "Missing filename.";
+
+/* audio channels */
+"mono" = "mono";
+
+/* No comment provided by engineer. */
+"move" = "move";
+
+/* Undo Manager Name */
+"Move Marker" = "Move Marker";
+
+/* No comment provided by engineer. */
+"Multiple Filters" = "Multiple Filters";
+
+/* No comment provided by engineer. */
+"Must be an even number value." = "Must be an even number value.";
+
+/* Column in Media List
+   Media Grid View Options */
+"Name" = "Name";
+
+/* No comment provided by engineer. */
+"Need to record Computer Audio?" = "Need to record Computer Audio?";
+
+/* Undo manager action name */
+"Nest Clip" = "Nest Clip";
+
+/* Clip Context menu command */
+"Nest Clips" = "Nest Clips";
+
+/* The name of the newly created nested clip */
+"Nested Clip" = "Nested Clip";
+
+/* No comment provided by engineer. */
+"Nested clips cannot contain markers" = "Nested clips cannot contain markers";
+
+/* Duration Label in main document window */
+"Nested Duration: %@" = "Nested Duration: %@";
+
+/* No comment provided by engineer. */
+"New Document" = "New Document";
+
+/* No comment provided by engineer. */
+"New Recording" = "New Recording";
+
+/* No comment provided by engineer. */
+"Next" = "Next";
+
+/* No comment provided by engineer. */
+"No Audio Clips for Captions" = "No Audio Clips for Captions";
+
+/* No comment provided by engineer. */
+"No audio clips in the document" = "No audio clips in the document";
+
+/* No comment provided by engineer. */
+"No Available Devices" = "No Available Devices";
+
+/* No comment provided by engineer. */
+"No Available iOS Devices" = "No Available iOS Devices";
+
+/* No comment provided by engineer. */
+"No captions in the document" = "No captions in the document";
+
+/* No comment provided by engineer. */
+"No configurable properties for this transition" = "No configurable properties for this transition";
+
+/* No comment provided by engineer. */
+"No encoding selected" = "No encoding selected";
+
+/* No comment provided by engineer. */
+"No Markers" = "No Markers";
+
+/* No comment provided by engineer. */
+"No Properties" = "No Properties";
+
+/* Showen when the Recent Documents list has no documents that had been loaded recently */
+"No Recent Documents" = "No Recent Documents";
+
+/* No comment provided by engineer. */
+"No transitions in this category" = "No transitions in this category";
+
+/* Action Context menu command
+   Click Effect */
+"None" = "None";
+
+/* No comment provided by engineer. */
+"None Available" = "None Available";
+
+/* Separator when range is selected */
+"of" = "of";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
+/* No comment provided by engineer. */
+"Opacity must be between 0% and 100%." = "Opacity must be between 0% and 100%.";
+
+/* No comment provided by engineer. */
+"Operation cannot be undone." = "Operation cannot be undone.";
+
+/* Validation error message when setting text outline */
+"Outline cannot be greater than 500" = "Outline cannot be greater than 500";
+
+/* Validation error message when setting text outline */
+"Outline cannot be less than zero" = "Outline cannot be less than zero";
+
+/* Transition name */
+"Paper" = "Paper";
+
+/* Clip Context menu command
+   Undo Manager Name */
+"Paste" = "Paste";
+
+/* Undo Manager Name */
+"Paste Adjustments" = "Paste Adjustments";
+
+/* No comment provided by engineer. */
+"Paste Properties" = "Paste Properties";
+
+/* Transition name */
+"Plane" = "Plane";
+
+/* No comment provided by engineer. */
+"Please check the permissions on the path and try again." = "Please check the permissions on the path and try again.";
+
+/* No comment provided by engineer. */
+"Please check there is enough free space on the destination volume." = "Please check there is enough free space on the destination volume.";
+
+/* No comment provided by engineer. */
+"Please contact technical support for assistance." = "Please contact technical support for assistance.";
+
+/* No comment provided by engineer. */
+"Please download a fresh version of ScreenFlow from our website.  Please contact technical support if you continue to receive this error.\n\nIf you have a \'system optimizer\' installed that modifies or attempts to compress applications, please disable this functionality." = "Please download a fresh version of ScreenFlow from our website.  Please contact technical support if you continue to receive this error.\n\nIf you have a \'system optimizer\' installed that modifies or attempts to compress applications, please disable this functionality.";
+
+/* No comment provided by engineer. */
+"Please select a value between 1 and 8192 for the output value." = "Please select a value between 1 and 8192 for the output value.";
+
+/* No comment provided by engineer. */
+"Please try your export again and if the problem persists contact technical support." = "Please try your export again and if the problem persists contact technical support.";
+
+/* Undo name for moving an object */
+"Position" = "Position";
+
+/* Validation error message when setting the video scale */
+"Position cannot be less than or equal to -20,000 or greater than or equal to 20,000." = "Position cannot be less than or equal to -20,000 or greater than or equal to 20,000.";
+
+/* No comment provided by engineer. */
+"Preview" = "Preview";
+
+/* Context menu command */
+"Preview Source..." = "Preview Source...";
+
+/* No comment provided by engineer. */
+"Publish" = "Publish";
+
+/* No comment provided by engineer. */
+"Publish Completed" = "Publish Completed";
+
+/* No comment provided by engineer. */
+"Publish in Progress" = "Publish in Progress";
+
+/* Menu item command */
+"Publish to" = "Publish to";
+
+/* No comment provided by engineer. */
+"Publish to %@" = "Publish to %@";
+
+/* Publish menu item */
+"Publish to %@..." = "Publish to %@...";
+
+/* Menu item command */
+"Publish to Selected Range" = "Publish to Selected Range";
+
+/* No comment provided by engineer. */
+"Purchase..." = "Purchase...";
+
+/* Name of transition */
+"Push" = "Push";
+
+/* No comment provided by engineer. */
+"Quit" = "Quit";
+
+/* Click Effect */
+"Radar" = "Radar";
+
+/* Name of transition in the Wipe Pack */
+"Radial Wipe" = "Radial Wipe";
+
+/* Export audio description */
+"Raw PCM" = "Raw PCM";
+
+/* No comment provided by engineer. */
+"Recent Documents" = "Recent Documents";
+
+/* No comment provided by engineer. */
+"Recent Places" = "Recent Places";
+
+/* No comment provided by engineer. */
+"Record" = "Record";
+
+/* No comment provided by engineer. */
+"Record Desktop from your %@" = "Record Desktop from your %@";
+
+/* No comment provided by engineer. */
+"Recording Complete" = "Recording Complete";
+
+/* No comment provided by engineer. */
+"Recover" = "Recover";
+
+/* No comment provided by engineer. */
+"Recoverable data detected on \"%@\"" = "Recoverable data detected on \"%@\"";
+
+/* No comment provided by engineer. */
+"Recoverable Screencast Detected" = "Recoverable Screencast Detected";
+
+/* No comment provided by engineer. */
+"Refine Key" = "Refine Key";
+
+/* Clip Context menu command */
+"Remove" = "Remove";
+
+/* No comment provided by engineer. */
+"Remove Ending Transition" = "Remove Ending Transition";
+
+/* No comment provided by engineer. */
+"Remove Starting & Ending Transitions" = "Remove Starting & Ending Transitions";
+
+/* No comment provided by engineer. */
+"Remove Starting Transition" = "Remove Starting Transition";
+
+/* No comment provided by engineer. */
+"Remove Transition" = "Remove Transition";
+
+/* No comment provided by engineer. */
+"Remove: %@" = "Remove: %@";
+
+/* Clip Context menu command */
+"Rename Clip" = "Rename Clip";
+
+/* alert button */
+"Replace" = "Replace";
+
+/* No comment provided by engineer. */
+"Reset Timer" = "Reset Timer";
+
+/* Menu command */
+"Reset To Defaults" = "Reset To Defaults";
+
+/* No comment provided by engineer. */
+"Resolution unsupported." = "Resolution unsupported.";
+
+/* Name of transition in the Wipe Pack */
+"RGB Split" = "RGB Split";
+
+/* Cursor hotspot location */
+"Right" = "Right";
+
+/* Undo Manager Name */
+"Ripple Delete" = "Ripple Delete";
+
+/* No comment provided by engineer. */
+"Rotation value must be between -36000 and 36000." = "Rotation value must be between -36000 and 36000.";
+
+/* No comment provided by engineer. */
+"Runtime Error Detected" = "Runtime Error Detected";
+
+/* No comment provided by engineer. */
+"Save was cancelled." = "Save was cancelled.";
+
+/* No comment provided by engineer. */
+"Saving this document will upgrade it to the latest ScreenFlow document format.  You will not be able to open this document in older versions of ScreenFlow.\n\nIf you need compatibility with older versions of ScreenFlow, please save a copy of this document. " = "Saving this document will upgrade it to the latest ScreenFlow document format.  You will not be able to open this document in older versions of ScreenFlow.\n\nIf you need compatibility with older versions of ScreenFlow, please save a copy of this document. ";
+
+/* Undo name for scaling an object */
+"Scale" = "Scale";
+
+/* Validation error message when setting the video scale */
+"Scale cannot be greater than 100,000,000%" = "Scale cannot be greater than 100,000,000%";
+
+/* No comment provided by engineer. */
+"Scale cannot be less than or equal to 0." = "Scale cannot be less than or equal to 0.";
+
+/* Validation error message when setting the video scale */
+"Scale cannot be less than zero" = "Scale cannot be less than zero";
+
+/* Name of preset in New Document */
+"Screen Dimensions" = "Screen Dimensions";
+
+/* Action Context menu command */
+"Screen Recording" = "Screen Recording";
+
+/* No comment provided by engineer. */
+"Screen Recording %@" = "Screen Recording %@";
+
+/* No comment provided by engineer. */
+"Screen Recording Action" = "Screen Recording Action";
+
+/* No comment provided by engineer. */
+"Screen Recording Snapback" = "Screen Recording Snapback";
+
+/* No comment provided by engineer. */
+"Screencast duration warning" = "Screencast duration warning";
+
+/* No comment provided by engineer. */
+"ScreenFlow cannot export without a filename for the finished result.  Please enter a filename and try again." = "ScreenFlow cannot export without a filename for the finished result.  Please enter a filename and try again.";
+
+/* No comment provided by engineer. */
+"ScreenFlow cannot open recordings made on a different processor architecture.  This means you won't be able to open files created on a		PowerPC machine on an Intel one, and vice versa.  Please make your recordings on the same type of system." = "ScreenFlow cannot open recordings made on a different processor architecture.  This means you won't be able to open files created on a		PowerPC machine on an Intel one, and vice versa.  Please make your recordings on the same type of system.";
+
+/* No comment provided by engineer. */
+"ScreenFlow cannot open recordings made on a different processor architecture.  This means you won't be able to open files created on a PowerPC machine on an Intel one, and vice versa.  Please make your recordings on the same type of system." = "ScreenFlow cannot open recordings made on a different processor architecture.  This means you won't be able to open files created on a PowerPC machine on an Intel one, and vice versa.  Please make your recordings on the same type of system.";
+
+/* No comment provided by engineer. */
+"ScreenFlow cannot split clips at the very beginning or very end.  Please adjust the position of your split." = "ScreenFlow cannot split clips at the very beginning or very end.  Please adjust the position of your split.";
+
+/* Document load error detail message */
+"ScreenFlow does not recognize the document format.  This is typically caused when trying to open a document created by a newer version of ScreenFlow.  Please try opening this document using the latest verison of ScreenFlow." = "ScreenFlow does not recognize the document format.  This is typically caused when trying to open a document created by a newer version of ScreenFlow.  Please try opening this document using the latest verison of ScreenFlow.";
+
+/* No comment provided by engineer. */
+"ScreenFlow doesn't have permission to write to the scratch path you have selected.  Please select another path." = "ScreenFlow doesn't have permission to write to the scratch path you have selected.  Please select another path.";
+
+/* No comment provided by engineer. */
+"ScreenFlow encountered an internal validation error preventing it from saving the document.  Please try undoing your recent actions and then contact technical support with this message." = "ScreenFlow encountered an internal validation error preventing it from saving the document.  Please try undoing your recent actions and then contact technical support with this message.";
+
+/* No comment provided by engineer. */
+"ScreenFlow Executable Modified" = "ScreenFlow Executable Modified";
+
+/* No comment provided by engineer. */
+"ScreenFlow has a limit of 10 nested clips inside of one another.  Please reduce the number of nested clips in your presentation." = "ScreenFlow has a limit of 10 nested clips inside of one another.  Please reduce the number of nested clips in your presentation.";
+
+/* No comment provided by engineer. */
+"ScreenFlow has been successfully unlocked and registered to you.  You will not need to unlock the application again.\n\nThank you for purchasing ScreenFlow!" = "ScreenFlow has been successfully unlocked and registered to you.  You will not need to unlock the application again.\n\nThank you for purchasing ScreenFlow!";
+
+/* No comment provided by engineer. */
+"ScreenFlow has encounted a runtime error that can affect its ability to continue operating.  Please save your work and relaunch the application.  If the issue persists, please contact technical support and quote the message:\n\n%@" = "ScreenFlow has encounted a runtime error that can affect its ability to continue operating.  Please save your work and relaunch the application.  If the issue persists, please contact technical support and quote the message:\n\n%@";
+
+/* No comment provided by engineer. */
+"ScreenFlow is required to be launched from within the \'/Applications\' folder, and cannot run from it\'s current location of \"%@\"" = "ScreenFlow is required to be launched from within the \'/Applications\' folder, and cannot run from it\'s current location of \"%@\"";
+
+/* No comment provided by engineer. */
+"ScreenFlow needs the latest version of the Flip4Mac Windows Media components installed to be able to export to Windows Media.  Please download and install the latest version.\n\nYou will need to restart ScreenFlow after installing the components to complete the export." = "ScreenFlow needs the latest version of the Flip4Mac Windows Media components installed to be able to export to Windows Media.  Please download and install the latest version.\n\nYou will need to restart ScreenFlow after installing the components to complete the export.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was able to find unsaved data associated with the document.  Discarding will open the document from its last saved point." = "ScreenFlow was able to find unsaved data associated with the document.  Discarding will open the document from its last saved point.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was able to recover a screencast after a fatal error.  Press Recover to restore the original screencast, or Discard to delete it.\n" = "ScreenFlow was able to recover a screencast after a fatal error.  Press Recover to restore the original screencast, or Discard to delete it.\n";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to %@ \"%@\" located at \"%@\".\n\nThe error returned was %ld." = "ScreenFlow was unable to %1$@ \"%2$@\" located at \"%3$@\".\n\nThe error returned was %4$ld.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to copy \"%@\" located at \"%@\"." = "ScreenFlow was unable to copy \"%1$@\" located at \"%2$@\".";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to copy \"%@\" located at \"%@\".\n\nThe error returned was %ld." = "ScreenFlow was unable to copy \"%1$@\" located at \"%2$@\".\n\nThe error returned was %3$ld.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to find \"%@\" located at \"%@\".  Please try restoring the file back to this location." = "ScreenFlow was unable to find \"%1$@\" located at \"%2$@\".  Please try restoring the file back to this location.";
+
+/* Document load detail message */
+"ScreenFlow was unable to find the document data file.  This could have been caused by file corruption or a failure when saving the document.  Without the document data file, ScreenFlow will not be able to open this document." = "ScreenFlow was unable to find the document data file.  This could have been caused by file corruption or a failure when saving the document.  Without the document data file, ScreenFlow will not be able to open this document.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to find the file %@.  You can select a new location for this file, or remove it from your document." = "ScreenFlow was unable to find the file %@.  You can select a new location for this file, or remove it from your document.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to open a session on the graphics card.  If no monitor is attached to the machine, please attach one to reactivate the graphics card." = "ScreenFlow was unable to open a session on the graphics card.  If no monitor is attached to the machine, please attach one to reactivate the graphics card.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to open the file %@.\n\nThe error message was \"%@\"" = "ScreenFlow was unable to open the file %1$@.\n\nThe error message was \"%2$@\"";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to open the screen recording file.  This can occur if the file was corrupted during recording or if the application crashed before the file was closed.  Please try your recording again." = "ScreenFlow was unable to open the screen recording file.  This can occur if the file was corrupted during recording or if the application crashed before the file was closed.  Please try your recording again.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to save the document to the requested location.  Please check you have permission to save to this location and that the selected location is writable." = "ScreenFlow was unable to save the document to the requested location.  Please check you have permission to save to this location and that the selected location is writable.";
+
+/* No comment provided by engineer. */
+"ScreenFlow was unable to use the server result to unlock. Please try your request again and if the problem persists, contact Vara technical support." = "ScreenFlow was unable to use the server result to unlock. Please try your request again and if the problem persists, contact Vara technical support.";
+
+/* No comment provided by engineer. */
+"Search" = "Search";
+
+/* No comment provided by engineer. */
+"secs" = "secs";
+
+/* No comment provided by engineer. */
+"Select" = "Select";
+
+/* Context menu command */
+"Select Clips in Timeline" = "Select Clips in Timeline";
+
+/* Undo name */
+"Set Click Sound" = "Set Click Sound";
+
+/* Timeline Context menu command */
+"Set Current Language" = "Set Current Language";
+
+/* Undo name for changing the font size */
+"Set Font" = "Set Font";
+
+/* Undo name for changing the font style */
+"Set Font Attributes" = "Set Font Attributes";
+
+/* Undo name for changing the font size */
+"Set Font Size" = "Set Font Size";
+
+/* No comment provided by engineer. */
+"Set Timer" = "Set Timer";
+
+/* Clip Context menu command */
+"Show Clip Inspector..." = "Show Clip Inspector...";
+
+/* Clip Context menu command */
+"Show Transition Inspector..." = "Show Transition Inspector...";
+
+/* Timeline Context menu command */
+"Shrink" = "Shrink";
+
+/* No comment provided by engineer. */
+"Sign In" = "Sign In";
+
+/* Name of transition in the Wipe Pack */
+"Slat Wipe" = "Slat Wipe";
+
+/* Name of transition in the 3D Pack */
+"Slide & Zoom" = "Slide & Zoom";
+
+/* No comment provided by engineer. */
+"Snapback Action cannot be added" = "Snapback Action cannot be added";
+
+/* No comment provided by engineer. */
+"Solid Circle" = "Solid Circle";
+
+/* No comment provided by engineer. */
+"Source Name" = "Source Name";
+
+/* No comment provided by engineer. */
+"Sources cannot be restored once they have been deleted." = "Sources cannot be restored once they have been deleted.";
+
+/* Undo Manager Name */
+"Speed Change" = "Speed Change";
+
+/* No comment provided by engineer. */
+"Speed: %.0f%%\n" = "Speed: %.0f%%\n";
+
+/* Transition name */
+"Spin" = "Spin";
+
+/* No comment provided by engineer. */
+"Split" = "Split";
+
+/* No comment provided by engineer. */
+"Split Clip" = "Split Clip";
+
+/* Clip Context menu command */
+"Split Clip at Playhead" = "Split Clip at Playhead";
+
+/* No comment provided by engineer. */
+"Split Clips" = "Split Clips";
+
+/* No comment provided by engineer. */
+"Square" = "Square";
+
+/* Cursor Title */
+"square" = "Square";
+
+/* Name of transition in the Wipe Pack */
+"Square Reveal" = "Square Reveal";
+
+/* No comment provided by engineer. */
+"Squares Reveal" = "Squares Reveal";
+
+/* No comment provided by engineer. */
+"Startup Volume" = "Startup Volume";
+
+/* audio channels */
+"stereo" = "stereo";
+
+/* No comment provided by engineer. */
+"Still Images" = "Still Images";
+
+/* No comment provided by engineer. */
+"Stop Batch" = "Stop Batch";
+
+/* Name of transition in the 3D Pack */
+"Swap" = "Swap";
+
+/* No comment provided by engineer. */
+"System Presets" = "System Presets";
+
+/* No comment provided by engineer. */
+"System Requirements Warning" = "System Requirements Warning";
+
+/* No comment provided by engineer. */
+"Template name cannot be longer than 40 characters" = "Template name cannot be longer than 40 characters";
+
+/* Default startup text when adding a new text clip
+   Title for text panel */
+"Text" = "Text";
+
+/* Default pretty name of text clip */
+"Text Clip" = "Text Clip";
+
+/* Undo name for changing the size of a text object */
+"Text Size" = "Text Size";
+
+/* No comment provided by engineer. */
+"Thank you for downloading and evaluating ScreenFlow.  The application is fully functional but will watermark any documents you export (if you decide to purchase ScreenFlow, you\'ll be able to export your saved documents without the watermark).\n\nWe hope you enjoy using ScreenFlow." = "Thank you for downloading and evaluating ScreenFlow.  The application is fully functional but will watermark any documents you export (if you decide to purchase ScreenFlow, you\'ll be able to export your saved documents without the watermark).\n\nWe hope you enjoy using ScreenFlow.";
+
+/* No comment provided by engineer. */
+"Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you'll receive a discounted upgrade price to ScreenFlow 5.\n\nYou still have access to your old version of ScreenFlow in the same folder as ScreenFlow 5.  We hope you enjoy the new features of ScreenFlow." = "Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you'll receive a discounted upgrade price to ScreenFlow 5.\n\nYou still have access to your old version of ScreenFlow in the same folder as ScreenFlow 5.  We hope you enjoy the new features of ScreenFlow.";
+
+/* No comment provided by engineer. */
+"Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you\'ll receive a special discount on an upgrade to ScreenFlow 5.\n\nWe hope you enjoy the new features of ScreenFlow 5." = "Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you\'ll receive a special discount on an upgrade to ScreenFlow 5.\n\nWe hope you enjoy the new features of ScreenFlow 5.";
+
+/* No comment provided by engineer. */
+"The 3ivx QuickTime video codec has been detected on your system.  Under this version of Mac OS X, it causes crashes importing or exporting any media content with ScreenFlow.  Please check for the \'3ivxVideoCodec.component\' and remove, then quit and relaunch ScreenFlow.\n\nIt can exist in these folders:\n\n/Library/QuickTime/\n/System/Library/QuickTime/\n" = "The 3ivx QuickTime video codec has been detected on your system.  Under this version of Mac OS X, it causes crashes importing or exporting any media content with ScreenFlow.  Please check for the \'3ivxVideoCodec.component\' and remove, then quit and relaunch ScreenFlow.\n\nIt can exist in these folders:\n\n/Library/QuickTime/\n/System/Library/QuickTime/\n";
+
+/* Validation error message when callout build duration */
+"The build duration of the callout is larger than the maximum value of %.1fs." = "The build duration of the callout is larger than the maximum value of %.1fs.";
+
+/* No comment provided by engineer. */
+"The caption duration cannot be less than or equal to 0 seconds.  Please adjust the duration" = "The caption duration cannot be less than or equal to 0 seconds.  Please adjust the duration";
+
+/* No comment provided by engineer. */
+"The currently running batch export has not completed yet.  Please wait for the export to finish or press 'Stop Batch' to cancel." = "The currently running batch export has not completed yet.  Please wait for the export to finish or press 'Stop Batch' to cancel.";
+
+/* No comment provided by engineer. */
+"The document \"%@\" could not be saved." = "The document \"%@\" could not be saved.";
+
+/* No comment provided by engineer. */
+"The duration of the caption is too short." = "The duration of the caption is too short.";
+
+/* Validation error message when adjusting default duration in preferences */
+"The duration should be greater than 0 seconds and less than 30 seconds." = "The duration should be greater than 0 seconds and less than 30 seconds.";
+
+/* No comment provided by engineer. */
+"The duration value cannot be greater than %qd hours." = "The duration value cannot be greater than %qd hours.";
+
+/* No comment provided by engineer. */
+"The duration value cannot be less than or equal to 0.  Please adjust the duration to be a positive value." = "The duration value cannot be less than or equal to 0.  Please adjust the duration to be a positive value.";
+
+/* No comment provided by engineer. */
+"The error code returned by the system was %@.  Please try your export again and if the problem persists contact technical support." = "The error code returned by the system was %@.  Please try your export again and if the problem persists contact technical support.";
+
+/* No comment provided by engineer. */
+"The export path is not writable." = "The export path is not writable.";
+
+/* No comment provided by engineer. */
+"The export path is not writable.  Please check the permissions on the path and try again." = "The export path is not writable.  Please check the permissions on the path and try again.";
+
+/* No comment provided by engineer. */
+"The export volume has run out of space.  Please free up some space and try again." = "The export volume has run out of space.  Please free up some space and try again.";
+
+/* No comment provided by engineer. */
+"The exported filename contained illegal characters.  Please rename your export and try again." = "The exported filename contained illegal characters.  Please rename your export and try again.";
+
+/* No comment provided by engineer. */
+"The following media sources do not have clips in the timeline and can be automatically deleted." = "The following media sources do not have clips in the timeline and can be automatically deleted.";
+
+/* No comment provided by engineer. */
+"The License Key entered could not be validated.  Please check the key you entered carefully for mistakes, and if possible copy & paste the license from the original email receipt." = "The License Key entered could not be validated.  Please check the key you entered carefully for mistakes, and if possible copy & paste the license from the original email receipt.";
+
+/* Validation error message when adjusting annotation opacity */
+"The opacity should be between %@ and %@." = "The opacity should be between %1$@ and %2$@.";
+
+/* No comment provided by engineer. */
+"The scale percentage cannot be less than or equal to 0.  Please enter a positive scale percentage." = "The scale percentage cannot be less than or equal to 0.  Please enter a positive scale percentage.";
+
+/* No comment provided by engineer. */
+"The scale percentage would cause the output width or height to be greater than the maximum supported value of 8192." = "The scale percentage would cause the output width or height to be greater than the maximum supported value of 8192.";
+
+/* No comment provided by engineer. */
+"The selected path for writing the finished file to is not valid.  Please pick another folder and try again." = "The selected path for writing the finished file to is not valid.  Please pick another folder and try again.";
+
+/* No comment provided by engineer. */
+"The size of the video being imported is larger than the graphics cards maximum of %.0fx%.0f.  Please reduce the image size before importing." = "The size of the video being imported is larger than the graphics cards maximum of %1$.0fx%2$.0f.  Please reduce the image size before importing.";
+
+/* No comment provided by engineer. */
+"The speed value cannot be less than or equal to 0%.  Please adjust the speed to be a positive value." = "The speed value cannot be less than or equal to 0%.  Please adjust the speed to be a positive value.";
+
+/* No comment provided by engineer. */
+"The SRT file did not contain any captions that could be read" = "The SRT file did not contain any captions that could be read";
+
+/* No comment provided by engineer. */
+"The timer requires a value" = "The timer requires a value";
+
+/* No comment provided by engineer. */
+"The value entered is larger than the maximum." = "The value entered is larger than the maximum.";
+
+/* No comment provided by engineer. */
+"The value entered is smaller than the minimum." = "The value entered is smaller than the minimum.";
+
+/* No comment provided by engineer. */
+"There are no audio clips in the document to import the SRT file into." = "There are no audio clips in the document to import the SRT file into.";
+
+/* No comment provided by engineer. */
+"There are no captions in the document to export to an SRT file." = "There are no captions in the document to export to an SRT file.";
+
+/* No comment provided by engineer. */
+"There isn’t enough space.  Remove some files from the volume, and then try again." = "There isn’t enough space.  Remove some files from the volume, and then try again.";
+
+/* No comment provided by engineer. */
+"This example screencast shows you how to add a zoom and pan effect to your presentation by :\n\n1. Adding a Video Action.\n2. Resizing and moving the Screen Recording.\n" = "This example screencast shows you how to add a zoom and pan effect to your presentation by :\n\n1. Adding a Video Action.\n2. Resizing and moving the Screen Recording.\n";
+
+/* No comment provided by engineer. */
+"Tiles" = "Tiles";
+
+/* Preference Page name */
+"Timeline" = "Timeline";
+
+/* No comment provided by engineer. */
+"To record audio from your computer, you need to download and install an additional component.  This component will only be used by ScreenFlow to record audio from your computer\'s speakers." = "To record audio from your computer, you need to download and install an additional component.  This component will only be used by ScreenFlow to record audio from your computer\'s speakers.";
+
+/* No comment provided by engineer. */
+"To record audio from your computer\'s speakers requires the installation of the Telestream Audio driver.\n\nYou only need to install the driver once." = "To record audio from your computer\'s speakers requires the installation of the Telestream Audio driver.\n\nYou only need to install the driver once.";
+
+/* Cursor hotspot location */
+"Top" = "Top";
+
+/* Transition Corner */
+"Top Left" = "Top Left";
+
+/* Transition Corner */
+"Top Right" = "Top Right";
+
+/* Cursor hotspot location */
+"Top-Left" = "Top-Left";
+
+/* Cursor hotspot location */
+"Top-Right" = "Top-Right";
+
+/* No comment provided by engineer. */
+"Touch Callout" = "Touch Callout";
+
+/* Undo action name */
+"Touch Callout Move" = "Touch Callout Move";
+
+/* No comment provided by engineer. */
+"Track Selection" = "Track Selection";
+
+/* No comment provided by engineer. */
+"Transition" = "Transition";
+
+/* Undo Manager Name */
+"Transition Change" = "Transition Change";
+
+/* Undo Manager Name */
+"Transition Duration" = "Transition Duration";
+
+/* No comment provided by engineer. */
+"Transition duration cannot be less than or equal to 0." = "Transition duration cannot be less than or equal to 0.";
+
+/* Window title */
+"Transition Inspector" = "Transition Inspector";
+
+/* Undo Manager Name */
+"Transition Property Change" = "Transition Property Change";
+
+/* No comment provided by engineer. */
+"Transitions" = "Transitions";
+
+/* Undo Manager Name */
+"Trim End to Scrubber" = "Trim End to Scrubber";
+
+/* Undo Manager Name */
+"Trim Front to Scrubber" = "Trim Front to Scrubber";
+
+/* Media Grid View Options */
+"Type" = "Type";
+
+/* Undo Action Name */
+"Typing" = "Typing";
+
+/* No comment provided by engineer. */
+"Unable to %@ file \"%@\"" = "Unable to %1$@ file \"%2$@\"";
+
+/* No comment provided by engineer. */
+"Unable to allocate graphics resources." = "Unable to allocate graphics resources.";
+
+/* No comment provided by engineer. */
+"Unable to begin exporting" = "Unable to begin exporting";
+
+/* No comment provided by engineer. */
+"Unable to complete export." = "Unable to complete export.";
+
+/* No comment provided by engineer. */
+"Unable to copy file \"%@\"" = "Unable to copy file \"%@\"";
+
+/* No comment provided by engineer. */
+"Unable to find Audio Driver for installation" = "Unable to find Audio Driver for installation";
+
+/* No comment provided by engineer. */
+"Unable to find file \"%@\"" = "Unable to find file \"%@\"";
+
+/* Alert error header when using an out of bounds value */
+"Unable to further modify the %@." = "Unable to further modify the %@.";
+
+/* No comment provided by engineer. */
+"Unable to load captions" = "Unable to load captions";
+
+/* No comment provided by engineer. */
+"Unable to open document." = "Unable to open document.";
+
+/* No comment provided by engineer. */
+"Unable to open screen recording file." = "Unable to open screen recording file.";
+
+/* No comment provided by engineer. */
+"Unable to open ScreenFlow source." = "Unable to open ScreenFlow source.";
+
+/* No comment provided by engineer. */
+"Unable to open SRT file" = "Unable to open SRT file";
+
+/* No comment provided by engineer. */
+"Unable to optimize MPEG-4 for network usage" = "Unable to optimize MPEG-4 for network usage";
+
+/* No comment provided by engineer. */
+"Unable to parse SMPTE time string" = "Unable to parse SMPTE time string";
+
+/* Copy & Paste failure */
+"Unable to paste action." = "Unable to paste action.";
+
+/* No comment provided by engineer. */
+"Unable to run ScreenFlow outside of the \'Applications\' folder." = "Unable to run ScreenFlow outside of the \'Applications\' folder.";
+
+/* No comment provided by engineer. */
+"Unable to split clip" = "Unable to split clip";
+
+/* No comment provided by engineer. */
+"Unable to unlock license" = "Unable to unlock license";
+
+/* No comment provided by engineer. */
+"Under a minute" = "Under a minute";
+
+/* Clip Context menu command
+   Undo name */
+"Ungroup" = "Ungroup";
+
+/* Button for uninstalling audio driver */
+"Uninstall Driver" = "Uninstall Driver";
+
+/* Used by AngleFormatter */
+"UNIT_SEPERATOR" = "UNIT_SEPERATOR";
+
+/* Menu Item Name
+   Undo Manager Name */
+"Unlock Clip" = "Unlock Clip";
+
+/* Menu Item Name */
+"Unlock Clips" = "Unlock Clips";
+
+/* No comment provided by engineer. */
+"Unlock successful!" = "Unlock successful!";
+
+/* No comment provided by engineer. */
+"Unnamed Marker" = "Unnamed Marker";
+
+/* Undo manager action name */
+"Unnest Clip" = "Unnest Clip";
+
+/* Clip Context menu command */
+"Unnest Clips" = "Unnest Clips";
+
+/* No comment provided by engineer. */
+"Unrecognized file format" = "Unrecognized file format";
+
+/* No comment provided by engineer. */
+"Untitled Document" = "Untitled Document";
+
+/* No comment provided by engineer. */
+"Update Template" = "Update Template";
+
+/* Text in the Welcome screen */
+"Upgrade" = "Upgrade";
+
+/* No comment provided by engineer. */
+"Upgrade..." = "Upgrade...";
+
+/* No comment provided by engineer. */
+"Upload cancelled" = "Upload cancelled";
+
+/* Text field shown after upload completed */
+"Upload Complete" = "Upload Complete";
+
+/* No comment provided by engineer. */
+"Upload Completed" = "Upload Completed";
+
+/* Name of transition in the Wipe Pack */
+"Vacuum" = "Vacuum";
+
+/* No comment provided by engineer. */
+"Value must be between 2 and 8192." = "Value must be between 2 and 8192.";
+
+/* No comment provided by engineer. */
+"Value too large." = "Value too large.";
+
+/* No comment provided by engineer. */
+"Value too small." = "Value too small.";
+
+/* Action Context menu command */
+"Video" = "Video";
+
+/* No comment provided by engineer. */
+"Video Action" = "Video Action";
+
+/* No comment provided by engineer. */
+"video actions" = "video actions";
+
+/* Action Context menu command
+   Name in inspector panel */
+"Video Filters" = "Video Filters";
+
+/* No comment provided by engineer. */
+"Video Snapback" = "Video Snapback";
+
+/* No comment provided by engineer. */
+"Visit Website" = "Visit Website";
+
+/* No comment provided by engineer. */
+"Wait duration cannot be negative." = "Wait duration cannot be negative.";
+
+/* No comment provided by engineer. */
+"WARNING: 3ivx codec detected" = "WARNING: 3ivx codec detected";
+
+/* Name of transition in the Wipe Pack */
+"Wave Wipe" = "Wave Wipe";
+
+/* Name of preset in New Document */
+"Web" = "Web";
+
+/* No comment provided by engineer. */
+"Welcome" = "Welcome";
+
+/* Text in the Welcome screen */
+"Welcome to ScreenFlow 5" = "Welcome to ScreenFlow 5";
+
+/* Text in the Welcome screen */
+"What's New" = "What's New";
+
+/* No comment provided by engineer. */
+"When a nested clip is selected, ScreenFlow will export the project's timeline." = "When a nested clip is selected, ScreenFlow will export the project's timeline.";
+
+/* Name of transition in the Wipe Pack */
+"Windshield Wipe" = "Windshield Wipe";
+
+/* No comment provided by engineer. */
+"Wipe Pack" = "Wipe Pack";
+
+/* No comment provided by engineer. */
+"Wipe Pack Installed" = "Wipe Pack Installed";
+
+/* No comment provided by engineer. */
+"Wipes" = "Wipes";
+
+/* No comment provided by engineer. */
+"You are about to export a watermarked video. To avoid this in the future, please either activate your license by going to Preferences > Licenses, or purchase a ScreenFlow license." = "You are about to export a watermarked video. To avoid this in the future, please either activate your license by going to Preferences > Licenses, or purchase a ScreenFlow license.";
+
+/* No comment provided by engineer. */
+"You can add an additional recording to your document." = "You can add an additional recording to your document.";
+
+/* No comment provided by engineer. */
+"You can use the Tab key to quickly move to the next caption, or Shift and Tab to move to the previous caption.\n\nUse ⌘↑ to increase the duration of the current caption, ⌘↓ to decrease." = "You can use the Tab key to quickly move to the next caption, or Shift and Tab to move to the previous caption.\n\nUse ⌘↑ to increase the duration of the current caption, ⌘↓ to decrease.";
+
+/* No comment provided by engineer. */
+"You may edit the contents of a nested clip by either double clicking on the clip or selecting 'Edit Nested Clip' from the clip's action menu." = "You may edit the contents of a nested clip by either double clicking on the clip or selecting 'Edit Nested Clip' from the clip's action menu.";
+
+/* No comment provided by engineer. */
+"Your media has %ld clips in the timeline.  When you press 'Delete', these will also be deleted." = "Your media has %ld clips in the timeline.  When you press 'Delete', these will also be deleted.";
+
+/* No comment provided by engineer. */
+"Your media has a clip in the timeline.  When you press 'Delete', this will also be deleted." = "Your media has a clip in the timeline.  When you press 'Delete', this will also be deleted.";
+
+/* No comment provided by engineer. */
+"Your recording completed successfully.  You now have the option to create a new document or add to one of the open documents." = "Your recording completed successfully.  You now have the option to create a new document or add to one of the open documents.";
+
+/* No comment provided by engineer. */
+"YouTube only allows certain accounts to upload more than 15 minutes of content.  If the upload is rejected, you must reduce the duration of the screencast to 15 minutes in order to publish it to YouTube." = "YouTube only allows certain accounts to upload more than 15 minutes of content.  If the upload is rejected, you must reduce the duration of the screencast to 15 minutes in order to publish it to YouTube.";
+
+"Selected export preset no longer available." = "Selected export preset no longer available.";
+
+"Due to the removal of QuickTime, some presets have been deprecated and are no longer available.  If you had a lossless workflow, the recommended preset is 'Lossless – ProRes with Alpha'.  Other workflows will now default to 'Web – High' for export." = "Due to the removal of QuickTime, some presets have been deprecated and are no longer available.  If you had a lossless workflow, the recommended preset is 'Lossless – ProRes with Alpha'.  Other workflows will now default to 'Web – High' for export.";

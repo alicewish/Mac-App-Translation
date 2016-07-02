@@ -1031,7 +1031,7 @@ Change Code Cell Language|更改代码单元格语言
 Toggle Bulleted List|切换项目符号列表
 Two Panes|双栏
 Remove Link|删除链接
-Increase Heading Level|增加标题级别
+Increase Heading Level|提高标题级别
 Documentation|文档
 Copy Cell|复制单元格
 Scroll Sync|同步滚动
@@ -1081,7 +1081,7 @@ Report Issues|报告问题
 Side-by-Side Preview|侧并排预览
 Clear Formatting|清除格式
 Show Tutorial|显示教程
-Quiver Notes|Quiver注意事项
+Quiver Notes|Quiver笔记
 Delete Cell|删除单元格
 Insert Horizontal Rule|插入水平线
 New Shared Notebook|新建共享笔记本
@@ -1248,3 +1248,89 @@ Publish All Changes to Server…|发布所有更改到服务器...
 Edits will affect all selected rows of text.|编辑会影响文本的所有选定行。
 Reset all local files to "unchanged".|重置所有本地文件到“未变化”。
 Email Support with Transcript |带记录电子邮件支持
+Edit Note Tags|编辑笔记标签
+Toggle Editor/Preview|切换编辑/预览
+Open in New Window|在新窗口中打开
+About GIF Brewery|关于GIF Brewery
+Hide GIF Brewery|隐藏GIF Brewery
+Quit GIF Brewery|退出GIF Brewery
+New Video Recording|新建视频录制
+New Screen Recording|新建屏幕录制
+Movie|电影
+Resize...|调整尺寸…
+Crop...|裁剪…
+Rotate|旋转
+Rotate 90 Clockwise|顺时针旋转90°
+Rotate 90 Counterclockwise|逆时针旋转90°
+Straighten...|拉直...
+Mirror|镜像
+Mirror Horizontally|水平镜像
+Mirror Vertically|垂直镜像
+Reset Video|重置视频
+Jump 5 Seconds Forwards|向前跳转5秒
+Jump 5 Seconds Backwards|向后跳转5秒
+Toggle Volume|切换音量
+Toggle Clip Focus|切换剪辑焦点
+Overlays|覆盖
+Add Image Overlay...|叠加添加图像...
+Add Text Overlay...|叠加添加文本...
+Goto Clip Start|转到剪辑开始
+Goto Clip End|转到剪辑结束
+Set Clip Start|设置剪辑开始
+Set Clip End|设置剪辑结束
+Add Current Clip To Saved Frames|添加当前剪辑到保存的帧
+Choose Important Colors Rectangle...|选择重要色彩矩形...
+Reset Important Colors Rectangle|复重要颜色矩形
+Set Current GIF Properties as Default|设置当前GIF属性为默认值
+Import Properties From Another File...|从另一个文件导入属性...
+Filters|筛选器
+Blur|模糊
+Box Blur...|方块模糊…
+Disc Blur...|光盘模糊...
+Gaussian Blur...|高斯模糊...
+Median|中位数
+Color Adjust|色彩调整
+Color Controls...|色彩控制...
+Exposure Adjust...|曝光调整...
+Gamma Adjust...|伽玛调整...
+Hue Adjust...|色调调整...
+Vibrance...|鲜艳...
+White Point Adjust...|白点调整...
+Color Effect|色彩效果
+Invert|倒置
+Monochrome...|单色...
+False Color...|假色...
+Sepia Tone...|棕褐色色调...
+Vignette...|晕影...
+Maximum Component|最多组件
+Minimum Component|最少组件
+Halftone|半色调
+Dot Screen...|点屏幕...
+Photo Effect|照片效果
+Chrome|铬
+Fade|褪色
+Instant|瞬间
+Mono|单色
+Noir|黑色
+Process|处理
+Tonal|色调
+Transfer|转印
+Sharpen|锐化
+Sharpen...|锐化...
+Stylize|风格化
+Comic Effect|喜剧效果
+Line Overlay|线覆盖
+Remove All Filters|移除全部筛选器
+Preview Loop Of Current Clip|循环预览当前剪辑
+Create GIF From Current Clip|从当前剪辑创建GIF
+Create GIF From Saved Frames|从保存的帧创建GIF
+Export PNGs|导出PNG图片...
+Export Current Clip as PNGs...|导出当前剪辑到PNG图片...
+Export Saved Frames as PNGs...|导出保存的帧到PNG图片...
+Export MP4|导出MP4
+Export Current Clip as MP4...|导出当前剪辑到MP4...
+Export Saved Frames as MP4...|导出保存的帧到MP4...
+Customize Toolbar…|自定义工具栏...
+Toggle GIF Properties|切换GIF属性
+Toggle Frames|切换帧数
+Toggle Overlays|切换覆盖
