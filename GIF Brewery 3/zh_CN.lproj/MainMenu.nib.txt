@@ -4186,7 +4186,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>电影</string>
+<string>影像</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -4199,7 +4199,7 @@
 </dict>
 </dict>
 <string>OVN-Wh-46c.title</string>
-<string>电影</string>
+<string>影像</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -4224,7 +4224,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>电影</string>
+<string>影像</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -5613,7 +5613,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>覆盖</string>
+<string>叠加层</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -5626,7 +5626,7 @@
 </dict>
 </dict>
 <string>mhy-Be-M7I.title</string>
-<string>覆盖</string>
+<string>叠加层</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5651,7 +5651,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>覆盖</string>
+<string>叠加层</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -5723,7 +5723,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>叠加添加图像...</string>
+<string>添加叠加图像...</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -5736,7 +5736,7 @@
 </dict>
 </dict>
 <string>9DC-cg-WQg.title</string>
-<string>叠加添加图像...</string>
+<string>添加叠加图像...</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -5778,7 +5778,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>叠加添加文本...</string>
+<string>添加叠加文本...</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -5791,7 +5791,7 @@
 </dict>
 </dict>
 <string>FFI-BY-yRd.title</string>
-<string>叠加添加文本...</string>
+<string>添加叠加文本...</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -6552,7 +6552,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>筛选器</string>
+<string>滤镜</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -6565,7 +6565,7 @@
 </dict>
 </dict>
 <string>FJH-LY-0LX.title</string>
-<string>筛选器</string>
+<string>滤镜</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -6590,7 +6590,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>筛选器</string>
+<string>滤镜</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -6988,7 +6988,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>中位数</string>
+<string>中值模糊</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -7001,7 +7001,7 @@
 </dict>
 </dict>
 <string>0KN-Xk-LMz.title</string>
-<string>中位数</string>
+<string>中值模糊</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -7665,7 +7665,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>倒置</string>
+<string>反色</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -7678,7 +7678,7 @@
 </dict>
 </dict>
 <string>pvu-4r-UGI.title</string>
-<string>倒置</string>
+<string>反色</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -9269,7 +9269,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>线覆盖</string>
+<string>线叠加</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -9282,7 +9282,7 @@
 </dict>
 </dict>
 <string>ezs-Cr-Efq.title</string>
-<string>线覆盖</string>
+<string>线叠加</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -9362,7 +9362,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>移除全部筛选器</string>
+<string>移除全部滤镜</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -9375,7 +9375,7 @@
 </dict>
 </dict>
 <string>uw1-BF-cvA.title</string>
-<string>移除全部筛选器</string>
+<string>移除全部滤镜</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -10602,7 +10602,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>切换帧数</string>
+<string>切换帧</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -10615,7 +10615,7 @@
 </dict>
 </dict>
 <string>tEs-wK-duu.title</string>
-<string>切换帧数</string>
+<string>切换帧</string>
 <string>F</string>
 <dict>
 <key>$class</key>
@@ -10660,7 +10660,7 @@
 <integer>14</integer>
 </dict>
 <key>NS.string</key>
-<string>切换覆盖</string>
+<string>切换叠加层</string>
 <key>NSDev</key>
 <dict>
 <key>CF$UID</key>
@@ -10673,7 +10673,7 @@
 </dict>
 </dict>
 <string>Iw4-TD-JQI.title</string>
-<string>切换覆盖</string>
+<string>切换叠加层</string>
 <string>L</string>
 <dict>
 <key>$class</key>
