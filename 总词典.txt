@@ -41,7 +41,7 @@ Select Branch|选择分支
 Hide Others|隐藏其他
 Sentance|森泰斯
 Find…|查找…
-Find and Replace…|查找和替换...
+Find and Replace…|查找替换…
 Start Speaking|开始朗读
 Contract Selection|合约选择
 Unfocus|未聚焦
@@ -1334,3 +1334,64 @@ Customize Toolbar…|自定义工具栏...
 Toggle GIF Properties|切换GIF属性
 Toggle Frames|切换帧
 Toggle Overlays|切换叠加层
+Show Fonts Panel|显示字体面板
+Add Tags|添加标签
+Add Notes|添加笔记
+Add Fragment|添加片段
+Add Fragment From Clipboard|从剪贴板添加片段
+Copy Snippet|拷贝片段
+Copy Snippet with Styles|带样式拷贝片段
+Wrap Lines to Editor Width|按编辑器宽度换行
+Show Invisibles|显示不可见
+Structure|结构
+Convert Indentation to Spaces|将缩进转换为空格
+Convert Indentation to Tabs|将缩进转换为制表符
+Syntax Coloring|语法着色
+Prevent Editing|防止编辑
+Show Folders Sidebar|显示文件夹侧边栏
+Show Tags Sidebar|显示标签侧边栏
+SnippetsLab|SnippetsLab
+About SnippetsLab|关于SnippetsLab
+Install Alfred Workflow|安装Alfred Workflow
+Rate SnippetsLab for Mac|为SnippetsLab for Mac评分
+Hide SnippetsLab|隐藏SnippetsLab
+Quit SnippetsLab|退出SnippetsLab
+New Smart Group|新建智能组
+New Snippet|新建代码片段
+New Snippet From Clipboard|从剪贴板新建代码片段
+Import…|导入…
+Export…|导出…
+Restore from Backup…|从备份恢复...
+Sort By|排序按
+Date Modified|修改日期
+Date Created|创建日期
+Descending|降序
+Ascending|上升
+Compact Mode|紧凑模式
+Always Show Tags Field|始终显示标签字段
+Always Show Notes Field|始终显示笔记字段
+Markdown Preview Mode|Markdown预览模式
+Move Fragment Right|右移片段
+Move Fragment Left|左移片段
+Show Next Fragment|显示下一个片段
+Show Previous Fragment|显示上一个片段
+SnippetsLab Help|SnippetsLab帮助
+What’s New in SnippetsLab|SnippetsLab新功能
+Tips and Tricks|技巧和窍门
+Frequently Asked Questions|常见问题
+Provide SnippetsLab Feedback…|提供SnippetsLab反馈...
+Wrap|换行
+SearchTemplate|SearchTemplate
+Only Search Title|只搜索标题
+Search Title and Content|搜索标题和内容
+ActionTemplate|ActionTemplate
+Loupe|放大镜
+Pencil|铅笔
+HomeTemplate|HomeTemplate
+Folder:|文件夹：
+Snippet Name|代码片段名称
+Snippet Category|代码片段类别
+Date|日期
+Add Folders or Smart Groups|添加文件夹或智能组
+Clear Search|清除搜索
+Open Main Window|打开主窗口
