@@ -1395,3 +1395,138 @@ Date|日期
 Add Folders or Smart Groups|添加文件夹或智能组
 Clear Search|清除搜索
 Open Main Window|打开主窗口
+About licecap|关于licecap
+Hide licecap|隐藏licecap
+Quit licecap|退出licecap
+Application|应用
+App Controller|应用程序控制器
+File's Owner|文件拥有者
+Opacity:|不透明度：
+Outline|轮廓
+Font size:|字体大小：
+Line width:|行宽：
+Magnify:|放大：
+Align to bottom|对齐到底部
+Align to top|对齐到顶部
+Center align|居中对齐
+Left align|左对齐
+Middle align|居中对齐
+Right align|右对齐
+Toggle to enable to strikethrough|切换以启用删除线
+Toggle to enable to underline|切换以启用下划线
+Underline toggle|切换下划线
+Strike-through toggle|切换删除线
+SnagitApplication|SnagitApplication
+AppController|AppController
+Stop Recording|停止录制
+Start Recording|开始录制
+Cancel Recording|取消录制
+System Audio|系统音频
+Microphone Audio|麦克风音频
+Open Editor|打开编辑器
+Activate...|启用...
+Debug|调试
+Switch Environments|切换环境
+Stage|舞台
+Live|直播
+Feature Switches|功能开关
+Crash Now|现在崩溃
+Entitlement - Disable Screencast|授权 - 禁用截屏
+Convert Video…|转换视频...
+Log Responder Chain|登录响应链
+Log Open Documents|登录打开文档
+Helvetica|Helvetica
+Full Screen Separator|全屏分离器
+Import from My Places…|从我的位置导入...
+Open Share History|打开共享历史
+Register|注册
+Revert to Previous Version|恢复到上一个版本
+Share|分享
+About Snagit|关于Snagit
+New Image...|新建图像…
+Snagit Help|Snagit帮助
+Hide Snagit|隐藏Snagit
+Quit Snagit|退出Snagit
+Check Spelling|检查拼写
+Show Spelling…|显示拼写...
+SnagitFontManager|SnagitFontManager
+Resize Image…|调整图像大小...
+Stamp|戳记
+Step|步骤
+Arrow|箭头
+Shape|形状
+Fill|填充
+Eraser|橡皮
+Highlighter|荧光笔
+Close Capture|关闭捕获
+Zoom to Fit|缩放到适合
+Switch to Library/Editor|切换到文档库/编辑器
+Show Effects|显示效果
+Next Capture|下一个捕获
+Show/Hide Recent Captures|显示/隐藏最近捕获
+Previous Capture|上一个捕获
+Send Feedback|发送反馈
+Flatten|弄平
+Export to PDF…|导出为PDF ...
+Keyboard Shortcuts|键盘快捷键
+Middle|中间
+Bottom|底部
+Flip Horizontal|水平翻转
+Flip Vertical|垂直翻转
+Send to Back|置于底层
+Bring Forward|前移
+Send Backward|后移
+Bring to Front|置于顶层
+Online Tutorials|在线教程
+Trim|修剪
+Import Stamps…|导入戳记…
+Export Styles...|导出样式…
+Next Frame|下一帧
+Previous Frame|上一帧
+Beginning|开始
+Capture Frame|捕获帧
+Move to Trash|移到废纸篓
+New from Clipboard|从剪贴板中新建
+Change Canvas Color…|更改画布颜色...
+Rotate Image…|旋转图像...
+Import from Google Drive…|从Google Drive导入...
+Connect Mobile Device…|连接移动设备...
+Crop to Canvas|裁剪到画布
+Find Capture|查找捕获
+Quick Start Videos|快速开始视频
+Perspective|透视
+Magnify|放大
+Cut Out|剪下
+Show Properties|显示属性
+Copy All|全部拷贝
+Edges|边缘
+What's New|新功能
+Product Support|产品支持
+Shadow|阴影
+Flatten All|拼合所有
+Undo All|撤消所有
+Callout|标注
+New Capture...|新建捕获…
+Color Filters|彩色滤镜
+Border|边界
+Reflection|倒影
+Snagit|Snagit
+Import/Export|导入/导出
+Arrange|排布
+Align|对齐
+Dev|开发
+Cut|剪切
+Pen|钢笔
+Top|顶部
+End|底部
+New|新建
+LineStyleNoLine|LineStyleNoLine
+LineStyleSolid|LineStyleSolid
+LineStyleDashed|LineStyleDashed
+LineStyleDotted|LineStyleDotted
+Line style:|线条样式：
+NaN|NaN
+Padding:|填充：
+NeXT Encapsulated PostScript v1.2 pasteboard type|NeXT Encapsulated PostScript v1.2剪贴板类型
+NeXT TIFF v4.0 pasteboard type|NeXT TIFF v4.0剪贴板类型
+ShadowPickerView|ShadowPickerView
