@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger can save compiled script files in two formats." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Compiled Script</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../openinga.html">Opening and Saving Scripts</a>&#160;&gt; <a href="../../save.html">Save</a>&#160;&gt; <a href="../formats.html">Formats</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Compiled Script</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="applicat.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger can save <a href="../../../referencfolder/helpglossaryfolder/compiledscriptfile.html">compiled script files</a> in two formats. You can choose a format either from the File &gt; Script Format hierarchical menu or in the Save dialog.</p>
+
+    <ul>
+      <li><strong>Compiled Script</strong>. A file with the compiled <a href="../../../referencfolder/helpglossaryfolder/bytecode.html">bytecode</a> in the <a href="../../../referencfolder/helpglossaryfolder/fork.html">data fork</a>. This is the default format created by the current version of Apple&#8217;s Script Editor. It is backwards compatible to all versions of OS X and to very late versions of AppleScript in Mac OS 9.</li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/compiledScriptIcon.png" width="100" height="92" alt="image" /></div>
+
+    <ul>
+      <li>
+        <p><strong>Compiled Script Bundle</strong>. A <a href="../../../referencfolder/helpglossaryfolder/bundledef.html">bundle</a> (package) with the <a href="../../../referencfolder/helpglossaryfolder/bytecode.html">bytecode</a> as a <a href="../../../referencfolder/helpglossaryfolder/fork.html">data fork</a> compiled script file inside the bundle. This format was introduced in Panther (OS X 10.3) and is not backwards compatible to earlier systems. It has the advantage that you can store ancillary files inside the bundle.</p>
+
+        <p>Use the <a href="../../bundle.html">bundle inspector</a> to configure bundle settings and to manipulate the contents of the bundle&#8217;s <em>Resources</em> folder.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/scriptBundleIcon.png" width="83" height="107" alt="image" /></div>
+
+    <blockquote>
+      <p><strong>Historical Note:</strong> The oldest compiled script format is a file with the compiled <a href="../../../referencfolder/helpglossaryfolder/bytecode.html">bytecode</a> in the <a href="../../../referencfolder/helpglossaryfolder/fork.html">resource fork</a>. Script Debugger can open a script file in this format, but it will save with the bytecode in the data fork.</p>
+    </blockquote>
+
+    <p><strong>Warning</strong>: A compiled script saved in <a href="../../../developfolder/debug.html">debug mode</a> will not run normally in other environments (and will not even open in Apple&#8217;s Script Editor). Unless that&#8217;s what you intend, be sure to <em>save the script in normal mode</em> when you&#8217;re finished debugging it!</p>
+
+    <p>For a plain compiled script file, Script Debugger stores some <a href="../whatissaved.html">secondary information</a> in the file&#8217;s <a href="../../../referencfolder/helpglossaryfolder/fork.html">resource fork</a>. In a <a href="../../bundle.html">bundle</a> format file, however, no resource forks are used; secondary information is saved in separate files. (The <a href="../../descript.html">description</a> is saved in an <em>.rtfd</em> file, the <a href="../../openfolder/importre.html">recovery</a> text is saved in an <em>.rtf</em> file, and the other secondary information is saved in a <em>.plist</em> file.) For this reason, a bundle format file is the most compatible with version control systems, non-Mac filesystems, and so on.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle"></td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top"></td>
+<td align="right" style="width:50%" valign="top">
+<a href="applicat.html">Application</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="applicat.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

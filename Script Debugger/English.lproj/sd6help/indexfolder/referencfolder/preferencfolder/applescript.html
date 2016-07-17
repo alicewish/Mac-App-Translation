@@ -1,0 +1,180 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="About the Fonts &amp; Colors preferences pane." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Preferences: Fonts &amp; Colors</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../preferenc.html">Preferences</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Preferences: Fonts &amp; Colors</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="debugger.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <div class="menus">
+
+      <p>The Fonts &amp; Colors <a href="../preferenc.html">preferences pane</a> provides options having mostly to do with script formatting and text sizes.</p>
+
+      <h3 id="editor-colors">Editor Colors</h3>
+
+      <dl>
+        <dt>Background</dt>
+        <dd>
+          <p>The background color of the text area of <a href="../../developfolder/editfolder/scriptwi.html">script windows</a>, and of text views of <a href="../../explorefolder/explorer.html">explorers</a> (i.e., <a href="../../explorefolder/explorerfolder/source.html">Source</a> view and <a href="../../explorefolder/explorerfolder/aeprint.html">AEPrint</a> view).</p>
+        </dd>
+        <dt>Insertion Point</dt>
+        <dd>
+          <p>The color of the flashing insertion point cursor in a script.</p>
+        </dd>
+        <dt>Selection</dt>
+        <dd>
+          <p>The color of the selected stretch of text in the text area of <a href="../../developfolder/editfolder/scriptwi.html">script windows</a>, and of text views of <a href="../../explorefolder/explorer.html">explorers</a>.</p>
+        </dd>
+        <dt>Tab Stops</dt>
+        <dd>
+          <p>The color of the vertical lines marking <a href="../../developfolder/editfolder/scriptwifolder/viewfolder/tabstops.html">tab stops</a>, if visible.</p>
+        </dd>
+        <dt>Insertion Line Highlight</dt>
+        <dd>
+          <p>The highlight color of the entire line containing the insertion point in a script. The line is highlighted as long as the selection does not include any end-of-line characters. The checkbox toggles this feature off completely.</p>
+        </dd>
+        <dt>Current Line Highlight</dt>
+        <dd>
+          <p>The highlight color of the entire line that&#8217;s about to be executed in <a href="../../developfolder/debug.html">debug mode</a>. The checkbox toggles this feature off completely.</p>
+        </dd>
+        <dt>Error Line Highlight</dt>
+        <dd>
+          <p>The highlight color of the entire line marked as the location of an <a href="../../developfolder/runfolder/errors.html">error</a>. The checkbox toggles this feature off completely.</p>
+        </dd>
+      </dl>
+
+      <blockquote>
+        <p>Multiple colors can be overlaid on one another (because a line might be highlighted for multiple reasons, including being selected); that&#8217;s why the highlight colors all have some transparency by default. Feel free to experiment, but if you accidentally make your scripts illegible, click the Factory Defaults button to revert them.</p>
+      </blockquote>
+
+      <h3 id="applescript-formatting">AppleScript Formatting:</h3>
+
+      <p>The pretty-printing of <a href="../../developfolder/runfolder/compile.html">compiled</a> <a href="../helpglossaryfolder/compiledscriptfile.html">scripts</a> is provided by AppleScript (as part of the <a href="../helpglossaryfolder/bytecode.html">decompilation</a> process), not by Script Debugger. This part of the Fonts &amp; Colors preference pane thus accesses AppleScript&#8217;s preferences.</p>
+
+      <p>You can select a single line and summon the Fonts or Colors dialog to change its setting; or, select multiple lines of the table and summon the Fonts or Colors dialog to change their font or color all at once.</p>
+
+      <p>Changes are not sent to AppleScript <em>until you click the Apply button</em>. When you do, any compiled scripts that are open now, as well as any compiled script files that you open or create in the future, will take on the formatting you have specified. To cancel (changing your mind without applying your changes), switch to another pane, or close the window.</p>
+
+      <dl>
+        <dt>Apply color to method and handler names</dt>
+        <dd>
+          <p>If checked, Script Debugger will detect intelligently terms that are names of Objective-C methods and AppleScript handlers, and will apply this color to them (rather than the color that AppleScript would apply, which fails to distinguish such terms from variables).</p>
+        </dd>
+      </dl>
+
+      <h3 id="plain-text-formatting">Plain Text Formatting:</h3>
+
+      <p>The font and color of plain text in <a href="../../explorefolder/explorer.html">explorers</a> that is <em>not</em> formatted as decompiled AppleScript. For example, <a href="../../explorefolder/explorerfolder/aeprint.html">AEPrint</a> view is just plain text, so this preference applies to it. Similarly, a string in Best view is plain text — but the same string in Source view is an AppleScript literal.</p>
+
+      <h3 id="font-sizes">Font Sizes:</h3>
+
+      <dl>
+        <dt>Outliners/Inspectors</dt>
+        <dd>
+          <p>The text size in <a href="../../explorefolder/explorerfolder/bestfolder/outliner.html">outliners</a> and various <a href="../../developfolder/editfolder/scriptwi.html">script window</a> inspectors and panes such as the <a href="../../developfolder/editfolder/editingafolder/clipping.html">clippings pane</a>.</p>
+        </dd>
+        <dt>Event Log</dt>
+        <dd>
+          <p>The text size in the <a href="../../developfolder/runfolder/log.html">event log</a>.</p>
+        </dd>
+      </dl>
+
+    </div>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="textsubstitutions.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="textsubstitutions.html">Preferences: Text Substitution</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="debugger.html">Preferences: Execution</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="debugger.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

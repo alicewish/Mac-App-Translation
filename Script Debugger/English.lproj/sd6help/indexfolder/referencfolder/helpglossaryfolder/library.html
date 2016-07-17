@@ -1,0 +1,165 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Definition of &#8220;library script&#8221;" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Glossary: Library Script</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../helpglossary.html">Glossary</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Glossary: Library Script</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="objectmodel.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>A library script (or simply a <em>library</em>) is a compiled script located in one of these places:</p>
+
+    <ul>
+      <li>
+        <p>The user&#8217;s home <em>~/Library/Script Libraries</em> folder.</p>
+      </li>
+      <li>
+        <p>The top level <em>/Library/Script Libraries</em> folder.</p>
+      </li>
+      <li>
+        <p>In a <a href="../../openingafolder/savefolder/formatsfolder/compiled.html">compiled script bundle</a> or an <a href="../../openingafolder/savefolder/formatsfolder/applicat.html">application bundle</a>, inside the <em>Resources</em> folder (displayed in Script Debugger&#8217;s <a href="../../openingafolder/bundle.html">bundle inspector</a>), in a folder called <em>Script Libraries</em>.</p>
+      </li>
+    </ul>
+
+    <p>The advantage of placing a script in one of these special locations is that it can be loaded by any other script <em>using its name alone</em>.</p>
+
+    <blockquote>
+      <p>NOTE: This AppleScript feature was introduced in OS X 10.9 (Mavericks). AppleScript actually looks for library scripts in some additional locations, but you are unlikely to use them, and the list has varied in each subsequent system.</p>
+    </blockquote>
+
+    <p>For example, suppose <em>~/Library/Script Libraries</em> contains a compiled script file <em>Hello.scpt</em>, like this:</p>
+
+    <pre><code>property greeting : "Hello"
+property greetee : "World"
+on greet()
+    display dialog greeting &amp; ", " &amp; greetee &amp; "!"
+end greet
+</code></pre>
+
+    <p>Then another script can say:</p>
+
+    <pre><code>tell script "Hello"
+    set its greeting to "Howdy"
+    greet()
+end tell
+</code></pre>
+
+    <p>The phrase <code>script "Hello"</code> is a sufficient reference to <em>Hello.scpt</em>, because it is located in one of the <em>Script Libraries</em> folders.</p>
+
+    <p>That, however, is <em>not</em> the canonical way of referring to a library script. Library scripts are most commonly used in conjunction with AppleScript&#8217;s <a href="use.html"><code>use</code> statement</a>, and Script Debugger expects and recommends that you use them in that way (and so does Apple). Thus:</p>
+
+    <pre><code>use Hello : script "Hello"
+tell Hello
+    set its greeting to "Howdy"
+    greet()
+end tell
+</code></pre>
+
+    <blockquote>
+      <p><strong>TIP:</strong> Script Debugger&#8217;s <a href="../../developfolder/editfolder/editingafolder/completion.html">code completion</a> feature can help you enter a library script reference. If you type <code>script "</code> and ask for code completion (press Esc), Script Debugger pops up a list of available library scripts for you to choose from.</p>
+    </blockquote>
+
+    <p>The library script feature essentially supersedes the old <code>load script</code> mechanism. But in a script that runs on a system earlier than OS X 10.9, you could continue to use <code>load script</code>: you specify a script file by its pathname, load it with <code>load script</code>, receive a script object, and send messages to that object.</p>
+
+    <h3 id="editing-a-script-and-a-library-script-together">Editing a Script and a Library Script Together</h3>
+
+    <p>You will often want to edit a library script together with a main script that targets the library script, and then run the main script to test it. Script Debugger is happy to let you do this, and even helps you by making it easy to open the library script from within the main script: put the selection into a <code>script "MyScript"</code> line and chose File &gt; Open Script Library &#8220;MyScript&#8221;.</p>
+
+    <p>However, you are now in a tricky situation because of AppleScript&#8217;s internal caching mechanism. If you make a change in the library script, save the changed library script, and then just run the main script, the main script will be unaware that the library script has changed — it won&#8217;t reload it, because it has cached it. The solution is to remember to <a href="../../developfolder/runfolder/compile.html"><em>recompile</em> the main script</a> before running it.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="fork.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="fork.html">Glossary: Fork</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="objectmodel.html">Glossary: Object Model</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="objectmodel.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

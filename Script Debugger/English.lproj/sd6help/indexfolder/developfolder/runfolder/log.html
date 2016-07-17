@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="The event log lists the communications that pass between your script and target applications — Apple events and their results." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Event Log</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../run.html">Run</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Event Log</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="logfolder/logwindow.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>The event log lists the communications that pass between your script and target applications — Apple events and their results. You can also use it to hold messages sent by your script with the AppleScript <code>log</code> command.</p>
+
+    <p>The event log <strong>preserves the results</strong> of all Apple events performed during the <a href="execute.html">execution</a> of a script, and lets you <a href="../../explore.html">explore</a> those results. Thus it operates as a basic debugger, because, very often, what you said to an application and (especially) what answer that application gave is exactly what you want to know about your script.</p>
+
+    <p>By default, the event log is shown as a pane of the <a href="../editfolder/scriptwi.html">script window</a> — the <strong>event log pane</strong>. To <strong>display the event log pane</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose View &gt; Show Event Log.</p>
+      </li>
+      <li>
+        <p>Or, click Event Log in the script window toolbar so that it is highlighted (white icon on black background).</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/eventLogPane.png" width="538" height="382" alt="image" /></div>
+
+    <p>To <strong>hide the event log pane</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Chose View &gt; Hide Event Log.</p>
+      </li>
+      <li>
+        <p>Or, click Event Log in the script window toolbar so that it is unhighlighted (black icon on white background).</p>
+      </li>
+      <li>
+        <p>Or, click the X button in the event log pane&#8217;s scope bar (see next section).</p>
+      </li>
+    </ul>
+
+    <p>Instead of the event log pane, you may prefer to see the <a href="logfolder/logwindow.html">log in a separate window</a>.</p>
+
+    <blockquote>
+      <p><strong>WARNING</strong>: If the log is showing while your script runs, your script may run slower (because of the overhead of displaying the log&#8217;s contents in real time). If speed (or accurate timing) is of the essence, close the log display before you execute your script and open it afterwards.</p>
+    </blockquote>
+
+    <h3 id="scope-bar">Scope Bar</h3>
+
+    <p>At the top of the event log is a scope bar. Use it to <strong>filter</strong> what kinds of event are displayed in the event log (described in the next section).</p>
+
+    <p>You can <strong>show or hide the scope bar</strong>:</p>
+
+    <ul>
+      <li>Control-click in the event log and choose Show/Hide Scope Bar from the contextual menu.</li>
+    </ul>
+
+    <h3 id="subpanes">Subpanes</h3>
+
+    <p>The event log has two subpanes:</p>
+
+    <ul>
+      <li>
+        <p>The <strong>event list</strong>. This subpane is <em>always</em> displayed. It lists each Apple event, shown as an AppleScript command and accompanied by its result, along with its time and duration.</p>
+
+        <p>Events can be listed in three <strong>&#8220;languages&#8221;</strong>:</p>
+
+        <ul>
+          <li>
+            <p>Source (AppleScript). Choose View &gt; Log As Source, or click Source in the scope bar.</p>
+          </li>
+          <li>
+            <p>Raw (four-letter codes). Choose View &gt; Log As Raw (Chevron) Syntax, or click Raw Source in the scope bar.</p>
+          </li>
+          <li>
+            <p>AEPrint (the actual Apple event content). Choose View &gt; Log As AEPrint, or click AEPrint in the scope bar.</p>
+          </li>
+        </ul>
+
+        <p>Events can also be <strong>filtered</strong>, using buttons in the scope bar. Choices are:</p>
+
+        <ul>
+          <li>
+            <p><strong><code>'log'</code> Commands</strong>. Messages sent by the script by calling <code>log</code>.</p>
+          </li>
+          <li>
+            <p><strong>By Application</strong>. All applications with which an Apple event message was exchanged are listed. If an application isn&#8217;t highlighted, its Apple events are not displayed in the log.</p>
+          </li>
+        </ul>
+
+        <blockquote>
+          <p>If <code>'log'</code> Commands is not highlighted and no application is highlighted either, <em>the event log will be empty!</em></p>
+        </blockquote>
+
+        <p>To turn off filtering conveniently so that all events are shown, choose Show All Events from the contextual menu.</p>
+      </li>
+      <li>
+        <p>The <strong>log result explorer</strong>. This subpane is an <a href="../../explorefolder/explorer.html">explorer</a> showing the result of the event selected in the event list. To <strong>display the log result explorer</strong>:</p>
+
+        <ul>
+          <li>
+            <p>Choose View &gt; Show Log Result Explorer.</p>
+          </li>
+          <li>
+            <p>Or, Control-click in the event list subpane and choose Show Log Result Explorer from the contextual menu.</p>
+          </li>
+        </ul>
+
+        <div style="text-align:center"><img src="../../../images/eventLogPane2.png" width="874" height="248" alt="image" /></div>
+
+        <p>An alternate way to see an explorer for an Apple event result, without the overhead of showing two subpanes in the event log simultaneously, is to <strong>double-click the event</strong> in the event list. This opens a <strong>separate <a href="../../explorefolder/explorerfolder/explorerwindows.html">explorer window</a></strong> on the result.</p>
+      </li>
+    </ul>
+
+    <h3 id="miscellaneous">Miscellaneous</h3>
+
+    <p>You can <strong>copy</strong> an Apple event from the log. This is the message sent by your script to a scriptable application. To do so:</p>
+
+    <ul>
+      <li>
+        <p>Select a line in the event list, and choose File &gt; Copy.</p>
+      </li>
+      <li>
+        <p>Or, Control-click and choose Copy Event from the contextual menu.</p>
+      </li>
+      <li>
+        <p>Or, drag-and-drop a line of the event list into a text environment.</p>
+      </li>
+    </ul>
+
+    <p>You can <strong>copy a result</strong> of an Apple event from the log. This is the reply returned by a scriptable application to your script. To do so:</p>
+
+    <ul>
+      <li>Control-click and choose Copy Event Result from the contextual menu.</li>
+    </ul>
+
+    <p>During <a href="../debug.html">debugging</a>, a correspondence is maintained between each Apple event and the line of the script where it was performed. To <strong>highlight the corresponding script line</strong>:</p>
+
+    <ul>
+      <li>Select a line in the event list.</li>
+    </ul>
+
+    <p>By default, events remain in the log until the next execution of the script — that is, the default policy is to clear the log when execution begins. You can modify this policy. To <strong>clear the log immediately</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose Script &gt; Clear Event Log.</p>
+      </li>
+      <li>
+        <p>Or, click the Clear button in the event log&#8217;s scope bar.</p>
+      </li>
+    </ul>
+
+    <p>Just the opposite, to <strong>prevent the log from being cleared</strong> when the next execution begins:</p>
+
+    <ul>
+      <li>Choose Script &gt; Append To Event Log (so that it is checked).</li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+<table width="100%">
+<tr>
+<td align="left">
+<table>
+<tr>
+<td class="further" colspan="2">
+<b>Further Details:</b>
+</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td class="subs">
+<a href="logfolder/logwindow.html">Event Log Window</a><br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="errors.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="errors.html">Errors</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="record.html">Record</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="record.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

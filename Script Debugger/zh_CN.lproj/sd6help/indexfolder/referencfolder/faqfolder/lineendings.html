@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Why are line endings such an issue in AppleScript?" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>What&#8217;s The Big Deal With Line Endings?</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../faq.html">Frequently Asked Questions</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>What&#8217;s The Big Deal With Line Endings?</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="appsopen.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>AppleScript makes line endings a complicated issue. Script Debugger does a lot to make them simple, or at least transparent. But sooner or later you may run into problems with line endings, so here&#8217;s an explanation.</p>
+
+    <p>Imagine that two mighty forces are at work, tussling with line endings:</p>
+
+    <ul>
+      <li>
+        <p><strong>The AppleScript compiler</strong>. AppleScript is a <a href="../../developfolder/runfolder/compile.html">compiled</a> language, and this compilation involves a transformation performed directly on your code. Your code starts life as ordinary text, but when it is compiled, your file becomes a <a href="../helpglossaryfolder/compiledscriptfile.html">compiled script file</a>, and you are shown the decompiled <a href="../helpglossaryfolder/bytecode.html">bytecode</a>. The AppleScript compiler goes back to the early 1990s, a time when Macintosh line endings were all CR (ASCII 13). So, after compilation, every complete line of code in your compiled script file ends with a CR.</p>
+      </li>
+      <li>
+        <p><strong>Unix</strong>. OS X is Unix, and the standard Unix line-end character is LF (ASCII 10). For example, a script written in a Unix scripting language such as Perl or Ruby needs to have LF line endings or it may not run properly. Many OS X text applications conform to this standard as well. For example, when you create a new multi-line file in TextEdit and save it as plain text, the line endings are LF. This issue is particularly acute in AppleScript when you use <code>do shell script</code>, because a multi-line string intended for the Unix shell will usually expect LF as a line-end character.</p>
+      </li>
+    </ul>
+
+    <p>So, the AppleScript compiler wants your line endings to be CR, but OS X wants your line endings to be LF. The conflict between these forces is always going on. Sometimes this conflict works behind the scenes — for example, the AppleScript compiler <em>will</em> change your line endings to CR, no matter what they were before, and that&#8217;s that. But the conflict also arises up front, every time you press the Return key while you&#8217;re typing in a script file. At that moment, <em>some</em> character needs to be entered, so what should it be?</p>
+
+    <p>Script Debugger helps you deal with this conflict, in two main ways:</p>
+
+    <ul>
+      <li>
+        <p><strong>Visibility</strong>. Script Debugger makes it possible for you to <em>see</em> your line endings — you can <a href="../../developfolder/editfolder/scriptwifolder/viewfolder/invisibl.html">show invisibles</a>.</p>
+      </li>
+      <li>
+        <p><strong>Freedom of Choice</strong>. Script Debugger lets you choose what character the Return key enters; it&#8217;s an <a href="../preferencfolder/editor.html">Editor preference</a> (New Line Character). The factory default for this preference is LF, and if you create a new multi-line script with the preference set this way, and invisibles showing, you can actually watch AppleScript change the line endings from LF to CR when you compile.</p>
+      </li>
+    </ul>
+
+    <p>Script Debugger also lets you choose what line endings should be used when you save a script as <a href="../../openingafolder/savefolder/formatsfolder/text.html">text</a>. This, however, introduces a further complicating factor.</p>
+
+    <p>The problem stems from the fact that in AppleScript, a literal string can span multiple lines:</p>
+
+    <pre><code>  set s to "	
+  "
+</code></pre>
+
+    <p>The integrity of the line-end character within this string (which might be LF or CR) is preserved through decompilation, because behind the scenes the compiled script is just bytecode (and the byte in question is part of a literal string). But now suppose you elect to save this script as text. What should Script Debugger do? The character after the first <code>"</code> is a line ending. If you tell Script Debugger to save with CR line endings or LF line endings, this character will become CR or LF, respectively, regardless of what it is &#8220;really&#8221; supposed to be (thus possibly altering the functionality of your script).</p>
+
+    <p>This is why Script Debugger provides the As Is option (the default), which leaves all line endings in the resulting text file the same as in your compiled script. The totally safe solution, though, is not to use any literal line endings within quoted strings. Don&#8217;t use the &#8220;escaped&#8221; literals <code>"\r"</code> or <code>"\n"</code>, because the AppleScript decompiler turns these into actual line endings. Instead, construct your strings in code, generating line endings at runtime (using, for example, the <code>return</code> or <code>linefeed</code> global variable). Of course, if you never save as text, then the issue doesn&#8217;t arise in the first place.</p>
+
+    <p>Finally, be aware that pasting (or dragging) from a text file into a script can raise line-end character issues. What is pasted is text, which can have any kind of line ending. Script Debugger does not magically convert these as the paste is performed. If there are multi-line string literals in what is pasted, or if the target script is text, incorrect line endings may now be present in the script. Again, <a href="../../developfolder/editfolder/scriptwifolder/viewfolder/invisibl.html">show invisibles</a> will be a great help here.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="wheredidlibrariesgo.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="wheredidlibrariesgo.html">Where Are the Libraries?</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="appsopen.html">Why Do Applications Open Spontaneously?</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="appsopen.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

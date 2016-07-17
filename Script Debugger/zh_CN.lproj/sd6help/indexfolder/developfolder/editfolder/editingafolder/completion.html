@@ -1,0 +1,277 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Code completion means that you type the start of an AppleScript term and the rest of the term is typed for you." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Code Completion</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../edit.html">Edit</a>&#160;&gt; <a href="../editinga.html">Editing and Navigation</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Code Completion</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="substitution.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p><strong>Code completion</strong> means that you type the start of an AppleScript term and the rest of the term is typed for you.</p>
+
+    <p>To <strong>summon code completion</strong>:</p>
+
+    <ul>
+      <li>Press Esc. A list of possible completions appears.</li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/autocomplete.png" width="307" height="147" alt="image" /></div>
+
+    <p>This is essentially the same as the Complete or auto-suggestion functionality that appears generally in Cocoa applications such as TextEdit, Pages, and so on. Script Debugger creates a list of possible completions, based on:</p>
+
+    <ul>
+      <li>
+        <p>Identifiers in the script itself (such as handler names)</p>
+      </li>
+      <li>
+        <p>AppleScript terminology</p>
+      </li>
+      <li>
+        <p>Scripting addition terminology</p>
+      </li>
+      <li>
+        <p>Terminology of the application targeted by the current <a href="../../../referencfolder/helpglossaryfolder/tellcontext.html">tell context</a></p>
+      </li>
+      <li>
+        <p>Terminology imported by a <a href="../../../referencfolder/helpglossaryfolder/use.html"><code>use script</code></a> statement</p>
+      </li>
+      <li>
+        <p><a href="../../../referencfolder/helpglossaryfolder/asoc.html">Cocoa</a> terms  imported by a <a href="../../../referencfolder/helpglossaryfolder/use.html"><code>use framework</code></a> statement</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/asocCC.png" width="426" height="92" alt="image" /></div>
+
+    <p>Certain code completions help you construct a <a href="tell.html">tell or terms</a> target or a <a href="../../../referencfolder/helpglossaryfolder/use.html"><code>use</code> statement</a>:</p>
+
+    <ul>
+      <li>
+        <p>Code completion after <code>app "</code> or <code>application "</code> produces a list of <a href="../../../explorefolder/dictionafolder/opendictfolder/recentappdict.html">running, recent, and favorite</a> applications. Choosing from the list enters the name of the application. (If your text says <code>app id "</code> or <code>application id "</code>, choosing from the list enters the application&#8217;s id.)</p>
+      </li>
+      <li>
+        <p>Code completion after <code>script "</code> produces a list of available <a href="../../../referencfolder/helpglossaryfolder/library.html">library scripts</a>.</p>
+      </li>
+      <li>
+        <p>Code completion after <code>framework "</code>  produces a list of frameworks commonly targeted by <a href="../../../referencfolder/helpglossaryfolder/asoc.html">AppleScriptObjC</a>.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>accept</strong> a completion:</p>
+
+    <ul>
+      <li>
+        <p>Navigate the list with arrow keys to select the completion, and press Return.</p>
+      </li>
+      <li>
+        <p>Or, double-click the desired completion.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>cancel</strong> completion:</p>
+
+    <ul>
+      <li>Press Esc.</li>
+    </ul>
+
+    <p>Some completions involve placeholders, similar to <a href="clipping.html">clippings</a>. For example, if a code completion is a handler call, and if that handler takes parameters, the parameters are placeholders.</p>
+
+    <h3 id="code-completion-keyboard-shortcuts">Code Completion Keyboard Shortcuts</h3>
+
+    <p>While a term is undergoing code completion,  certain special <strong>keyboard shortcuts</strong> become available. This is best explained by an example:</p>
+
+    <div style="text-align:center"><img src="../../../../images/stringByA.png" width="386" height="121" alt="image" /></div>
+
+    <p>In the above screen shot, we have typed <code>stringByA</code> followed by Esc to get code completion. At this moment:</p>
+
+    <ul>
+      <li>
+        <p>Pressing <strong>left arrow</strong> or <strong>delete</strong> reduces the original typing by one character. If, starting from the screen shot, we press left arrow, we are now completing <code>stringBy</code>, and lots of additional completions appear, such as <code>stringByDeletingLastPathComponent</code>.</p>
+      </li>
+      <li>
+        <p>Pressing <strong>right arrow</strong> increases the original typing by one character. If, having pressed left arrow, we press right arrow, we are now completing <code>stringByA</code> once again.</p>
+      </li>
+      <li>
+        <p>Pressing <strong>Tab</strong> increases the original typing by one camelCased word or to the next internal underscore. If, starting from the screen shot, we press Tab, we are now completing <code>stringByAppending</code>, and our choice of completions is reduced to four.</p>
+      </li>
+    </ul>
+
+    <h3 id="applescriptobjc-completions">AppleScriptObjC Completions</h3>
+
+    <p><a href="../../../referencfolder/helpglossaryfolder/asoc.html">AppleScriptObjC</a> completions  are offered intelligently, based on:</p>
+
+    <ul>
+      <li>
+        <p><strong><code>use framework</code> statements</strong>. Completions will be offered only for frameworks actually used.</p>
+      </li>
+      <li>
+        <p><strong>A <code>use AppleScript version</code> statement</strong>. The system implied by the AppleScript version is the latest version for which completions will be offered.</p>
+      </li>
+      <li>
+        <p><strong>Context</strong>. It helps if you use the possessive syntax illustrated in the examples.</p>
+      </li>
+      <li>
+        <p><strong>Terminology clash</strong>. Pipes are inserted where clash would otherwise occur.</p>
+      </li>
+    </ul>
+
+    <p>A target, such as <code>current application's</code> or <code>its</code>, is inserted as needed; your settings determine <a href="refactoring.html">the details</a>.</p>
+
+    <p>Each <a href="../../../referencfolder/helpglossaryfolder/asoc.html">AppleScriptObjC</a> completion offered is accompanied by a <strong>notation stating its type</strong>. These are:</p>
+
+    <table border="1" style="margin-left:auto; margin-right:auto">
+<tr>
+<td align="center" colspan="2">
+<b>
+Types
+</b>
+</td>
+</tr>
+<tr>
+<td>
+<code>[class]</code>
+</td>
+<td>
+A class name
+</td>
+</tr>
+<tr>
+<td>
+<code>[const]</code>
+</td>
+<td>
+A constant
+</td>
+</tr>
+<tr>
+<td>
+<code>[=#]</code>
+</td>
+<td>
+An enum numerically equivalent to <code>#</code>
+</td>
+</tr>
+<tr>
+<td>
+<code>[ƒ type]</code>
+</td>
+<td>
+A function returning
+<code>type</code>
+</td>
+</tr>
+<tr>
+<td>
+<code>[+ type]</code>
+</td>
+<td>
+A class method returning
+<code>type</code>
+</td>
+</tr>
+<tr>
+<td>
+<code>[- type]</code>
+</td>
+<td>
+An instance method returning
+<code>type</code>
+</td>
+</tr>
+</table>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="balance.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="balance.html">Delimiters</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="substitution.html">Text Substitution</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="substitution.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

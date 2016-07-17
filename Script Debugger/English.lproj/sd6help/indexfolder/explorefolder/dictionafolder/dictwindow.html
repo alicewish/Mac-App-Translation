@@ -1,0 +1,228 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Meet Script Debugger’s dictionary display!" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Dictionary Window</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../explore.html">Explore</a>&#160;&gt; <a href="../dictiona.html">Dictionary</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Dictionary Window</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="dictwindowfolder/browser.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Meet Script Debugger&#8217;s dictionary display!</p>
+
+    <div style="text-align:center"><img src="../../../images/dictWindowNumberedNew.png" width="578" height="357" alt="image" /></div>
+
+    <blockquote>
+      <p>(The dictionary illustrated here is for a tiny scriptable application called Pairs, especially written for test purposes. You don&#8217;t have this application, so don&#8217;t go looking for it on your hard disk!)</p>
+    </blockquote>
+
+    <p>Here are the <strong>parts of the dictionary window</strong>:</p>
+
+    <ol>
+      <li>
+        <p>The <strong><a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a></strong>.</p>
+      </li>
+      <li>
+        <p>The <strong>dictionaries list</strong>. This is the same list that appears in the <a href="opendictfolder/dictionariesinsp.html">dictionaries inspector</a>, and in shortened form (without the All category) in the File &gt; <a href="opendictfolder/recentappdict.html">Open Dictionary</a> menu and the Edit &gt; <a href="../../developfolder/editfolder/editingafolder/tell.html">Paste Tell</a> menu. To <strong>work with an application&#8217;s <a href="../../referencfolder/helpglossaryfolder/dictionarydef.html">dictionary</a> or <a href="appexplorer.html">explorer</a></strong> starting in an existing dictionary window:</p>
+
+        <ul>
+          <li>
+            <p>Click the application&#8217;s name in the dictionaries list.</p>
+          </li>
+          <li>
+            <p>Control-click the application&#8217;s name and choose Open XXX Dictionary in New Window to create a separate dictionary window.</p>
+          </li>
+        </ul>
+
+        <p>To <strong>show or hide the dictionaries list</strong>:</p>
+
+        <ul>
+          <li>
+            <p>Choose Dictionary &gt; Show Dictionaries List.</p>
+
+            <p>If you hide the dictionaries list (to save screen real estate, perhaps), you might like to customize the dictionary window&#8217;s toolbar to add the Dictionaries button, which summons a pop-up menu containing the entire dictionaries list.</p>
+          </li>
+        </ul>
+
+        <p>The application names in the dictionaries list are draggable! Drag one into a <a href="../../developfolder/editfolder/scriptwi.html">script window</a>. The result is the same as <a href="../../developfolder/editfolder/editingafolder/dragdrop.html">dragging the application</a> from the Finder into the script.</p>
+      </li>
+      <li>
+        <p>The <strong><a href="dictwindowfolder/browser.html">terminology list</a></strong>. It&#8217;s a list of all terminology in the current dictionary. Select in the terminology list to see the corresponding dictionary entry in the info pane.</p>
+
+        <ul>
+          <li>
+            <p>The terminology list is replaced with search results when you <a href="dictwindowfolder/searchin.html">search</a> the dictionary.</p>
+          </li>
+          <li>
+            <p>The terminology list is replaced with an object model diagram when you display the <a href="dictwindowfolder/hierarch.html">object model</a>.</p>
+          </li>
+          <li>
+            <p>The terminology list is removed completely when you display the <a href="appexplorer.html">explorer</a>.</p>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <p>The <strong><a href="dictwindowfolder/info.html">info pane</a></strong>. It displays an entry or entries from the dictionary. To determine what entry is displayed here, select in the <a href="dictwindowfolder/browser.html">terminology list</a> (or in the results of a <a href="dictwindowfolder/searchin.html">search</a>).</p>
+
+        <ul>
+          <li>The info pane may be replaced with the <a href="appexplorer.html">explorer</a>.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <p>The dictionary window may appear in any of <strong>three modes</strong>, according to your choice in the Dictionary menu (or you can use the View buttons in the <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a>):</p>
+
+    <ul>
+      <li>
+        <p>Dictionary &gt; Show <strong>Dictionary</strong> (or the Dictionary button): Displays the dictionaries list (unless you&#8217;ve hidden it), the <a href="dictwindowfolder/browser.html">terminology list</a> (or the results of a <a href="dictwindowfolder/searchin.html">search</a>), and the <a href="dictwindowfolder/info.html">info pane</a>.</p>
+      </li>
+      <li>
+        <p>Dictionary &gt; Show <strong>Object Model</strong> (or the Object Model button): Displays the dictionaries list (unless you&#8217;ve hidden it), the <a href="dictwindowfolder/hierarch.html">object model diagram</a>, and the <a href="dictwindowfolder/info.html">info pane</a>.</p>
+      </li>
+      <li>
+        <p>Dictionary &gt; Show <strong>Explorer</strong> (or the Explorer button): Displays the dictionaries list (unless you&#8217;ve hidden it) and the application <a href="appexplorer.html">explorer</a>.</p>
+      </li>
+    </ul>
+
+    <p>Which mode  the dictionary window is in when it first appears or when you switch to another application&#8217;s dictionary depends on your choice in the <a href="../../referencfolder/preferencfolder/dictionaryprefs.html">Dictionary preferences</a>:</p>
+
+    <ul>
+      <li>
+        <p><strong>Show Dictionary; Show Object Model; Show Explorer</strong>: The dictionary window switches automatically to that mode.</p>
+      </li>
+      <li>
+        <p><strong>Remember state</strong>: The dictionary window switches to the mode it was last in <em>for that application</em>.</p>
+      </li>
+    </ul>
+
+    <p>You can save the current dictionary window&#8217;s configuration (such as its size) as the default for future new dictionary windows. To do so:</p>
+
+    <ul>
+      <li>
+        <p>Choose Window &gt; Set Default Dictionary Window Size &amp; State.</p>
+      </li>
+      <li>
+        <p>Choose Window &gt; Reset Default Dictionary Window Size &amp; State to revert to the built-in defaults.</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> The <a href="opendictfolder/scriptingadditionsdict.html">scripting additions dictionary</a> can appear only in the first mode, Dictionary. There&#8217;s no object model or explorer for scripting additions, because a scripting addition is not an application so it has no objects to diagram or explore.</p>
+    </blockquote>
+
+    <p>Here&#8217;s how to <a href="opendictfolder/dictopennewwindow.html">open multiple dictionary windows</a>.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+<table width="100%">
+<tr>
+<td align="left">
+<table>
+<tr>
+<td class="further" colspan="2">
+<b>Further Details:</b>
+</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td class="subs">
+<a href="dictwindowfolder/browser.html">Terminology List</a><br /><a href="dictwindowfolder/info.html">Dictionary Info Pane</a><br /><a href="dictwindowfolder/hierarch.html">Hierarchies and Diagrams</a><br /><a href="dictwindowfolder/searchin.html">Search in Dictionary</a><br /><a href="dictwindowfolder/lookupde.html">Look Up Definition</a><br /><a href="dictwindowfolder/backandf.html">Back and Forward</a><br /><a href="dictwindowfolder/otherthi.html">Miscellaneous Dictionary Actions</a><br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="opendict.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="opendict.html">Open Dictionary Window</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="appexplorer.html">Application Explorer</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="appexplorer.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

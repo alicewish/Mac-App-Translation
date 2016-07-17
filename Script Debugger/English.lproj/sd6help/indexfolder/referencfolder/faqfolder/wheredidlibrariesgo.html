@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="What happened to Script Debugger libraries?" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Where Are the Libraries?</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../faq.html">Frequently Asked Questions</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Where Are the Libraries?</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="lineendings.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger 5 and earlier provided native libraries as a way of incorporating other scripts into this script. This feature, however, is now superseded by AppleScript&#8217;s own <a href="../helpglossaryfolder/library.html">library scripts</a>. Therefore, the <strong>native libraries are not supported</strong> in Script Debugger 6.</p>
+
+    <p>A Script Debugger 5 script using native libraries, when opened in Script Debugger 6, will appear <em>without</em> those libraries. The native libraries are preserved, however, and will still be present if the script is opened again under Script Debugger 5.</p>
+
+    <p><strong>You are expected to update your code to use AppleScript library scripts.</strong> There are two ways to proceed:</p>
+
+    <ul>
+      <li>
+        <p>You can <strong>update a script manually</strong>. To help with this task, you can use Script Debugger&#8217;s <a href="scriptab.html">scriptability</a> to get a list of a script&#8217;s native libraries (<code>legacy script libraries</code>, <code>legacy script library files</code>) and relevant features of a script (<code>script properties</code>, <code>script handlers</code>).</p>
+      </li>
+      <li>
+        <p>You can use Script Debugger&#8217;s <strong>built-in library converter</strong>. When you open a script containing native libraries, Script Debugger 6 will detect this and will offer to convert them to library scripts for you. These scripts will be placed in your user <em>~/Library/Script Libraries</em> folder. If this would result in duplicates, you&#8217;ll be given the choice of overwriting or skipping any duplicate items.</p>
+
+        <p>After conversion, <em>the native libraries are stripped from the script</em>. Be sure to examine the newly created library scripts and make sure you&#8217;re happy with them. If you&#8217;re not, <strong>don&#8217;t save the script</strong> or it will lose its native libraries. If you&#8217;re in doubt, it might be wise to start with a <strong>copy</strong> of the original script and perform the conversion there.</p>
+      </li>
+    </ul>
+
+    <h3 id="technical-information-about-the-built-in-converter">Technical Information About the Built-In Converter</h3>
+
+    <p>The converter works by looking for all referenced Script Debugger 5 native libraries. If there are broken aliases, the conversion process will stop and direct you to open the script with Script Debugger 5 and correct the problem there.</p>
+
+    <p>As it creates each library script, the converter adds a corresponding <a href="../helpglossaryfolder/use.html"><code>use</code> statement</a> to your script. In addition, it adds <code>property</code> declarations for any top-level entities (such as properties) in the library script; thus, those top-level entities become global to this script. The result will therefore match the behavior of native libraries — except that duplicate entity names are ignored, whereas in Script Debugger 5, you would have been warned about this issue at compile time.</p>
+
+    <p>The converter is <em>not recursive</em>, so if you have any libraries that reference other libraries, you will need to open and convert them before you convert the main script that uses them.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="sediffs.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="sediffs.html">What are Persistent Properties?</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="lineendings.html">What&#8217;s The Big Deal With Line Endings?</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="lineendings.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

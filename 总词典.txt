@@ -1530,3 +1530,155 @@ Padding:|填充：
 NeXT Encapsulated PostScript v1.2 pasteboard type|NeXT Encapsulated PostScript v1.2剪贴板类型
 NeXT TIFF v4.0 pasteboard type|NeXT TIFF v4.0剪贴板类型
 ShadowPickerView|ShadowPickerView
+Step Over|逐过程
+Step Into|逐语句
+Step Out|跳出
+Pause|暂停
+Open Dictionary|打开字典
+Mini Debugger|迷你调试
+Clippings|剪报
+Code Signing|代码签名
+Don’t Code Sign|不要代码签名
+Execute|执行
+Parent Script|父脚本
+Paste Tell|粘贴Tell
+Scripts|脚本
+Default Target|默认目标
+Trace|跟踪
+Application...|应用...
+AppleScript:|AppleScript:
+Scripting Additions|脚本附加
+About Script Debugger|关于Script Debugger
+New Script|新建脚本
+Hide Script Debugger|隐藏Script Debugger
+Quit Script Debugger|退出Script Debugger
+Script Debugger Help|Script Debugger帮助
+Reveal In Finder|在Finder中显示
+Activate Application|激活应用程序
+Quit Application|退出应用程序
+Open Explorer|打开资源管理器
+Open In New Window|在新窗口打开
+Show Dictionary|显示字典
+Show Object Model|显示对象模型
+Show Explorer|显示浏览器
+Send Us Email|发送我们电邮
+Check For Updates|检查更新
+Change License...|更改许可证...
+Find...|查找…
+Find Again|再次查找
+Find Again Backwards|向后再次查找
+Find Selection|查找所选
+Find Selection Backwards|向后查找所选
+Replace|更换
+Replace &amp; Find Again|更换并再次查找
+Replace &amp; Find Again Backwards|更换并向后再次查找
+Replace All|全部替换
+Smaller Text|减小文本
+Show Inherited Definitions|显示继承的定义
+Show Extra Documentation|显示额外的文档
+Larger Text|增大文本
+Show Containment|显示限制
+Show Inheritance|显示继承
+Quick Look|快速查看
+Save Default Window Size &amp; State|保存默认窗口大小和状态
+Reset Default Window Size &amp; State|重置默认窗口大小和状态
+Reload All|刷新所有
+Toggle Navigation Bar|切换导航栏
+Result &amp; Variables Tab|结果与变量标签
+Source View|源视图
+Show Code Folding|显示代码折叠
+Show Tab Stops|显示制表位
+Show Spaces|显示空格
+Pretty Print|漂亮的打印
+Show Raw (Chevron) Syntax|显示原始（雪佛龙）语法
+Paste As String Literal|粘贴为字符串文字
+Balance|平衡
+Split Editor Vertically|垂直拆分编辑器
+Split Editor Horizontally|水平拆分编辑器
+Close Split View|关闭拆分视图
+Close All Split Views|关闭所有拆分视图
+Uncomment|取消注释
+Entab|Entab
+Detab|Detab
+Close All|关闭所有
+Save A Copy As...|保存拷贝为...
+New Script From Template...|新的脚本模板...
+Dictionary Activity Monitor|字典活动监视器
+New Explorer Worksheet|新建浏览器工作表
+New Viewer Window...|新建浏览器窗口...
+Dictionary|字典
+New Dictionary Window|新建词典窗口
+Show Dictionaries List|显示字典列表
+Compiled Script|编译脚本
+Compiled Script Bundle|编译脚本包
+Recover Damaged Script...|恢复损坏的脚本...
+Export Run-Only Script...|导出仅运行脚本...
+Show Leaks...|显示泄漏...
+Show Last Error...|显示上一错误...
+Show Result Explorer Window|显示结果浏览器窗口
+Recompile|重新编译
+Break on Breakpoints|打破断点
+Clear Code Coverage|清除代码覆盖
+Remove All Breakpoints|删除所有断点
+Break on Exceptions|例外时打破
+Set Temporary Breakpoint|设置临时断点
+New Expression|新建表达式
+Clear All Expressions|清除所有表达式
+Show Code Coverage|显示代码覆盖率
+Trace to Here|跟踪到这里
+Execute to Here|执行到这里
+Edit Breakpoint...|编辑断点...
+Compile|编译
+Copy to Expressions|拷贝到表达式
+Look Up Definition|查找定义
+Log As Source|记录为源
+Show Event Log|显示事件日志
+Copy Value|拷贝值
+Commit Placeholder|提交占位符
+New Script Tab|新建脚本选项卡
+New Script Tab From Template...|从模板新建脚本标签...
+Toggle Result Bar|切换结果栏
+Toggle Status Bar|切换状态栏
+Remove Breakpoint|删除断点
+Log As Raw (Chevron) Syntax|记录为原始（雪佛龙）语法
+Log As AEPrint|记录为AEPrint
+Clear Event Log|清除事件日志
+Append To Event Log|追加到事件日志
+Show Event Log Result Explorer|查看事件日志结果浏览器
+Best View|最佳浏览
+Resources Tab|资源选项卡
+Inspectors Tab|检查器标签
+Show Manifest...|清单显示...
+Find &amp; Replace...|查找和替换...
+Show Event Log in Window|在窗口中显示事件日志
+Edit with BBEdit|用BBEdit编辑
+New AppleScript Worksheet|新建AppleScript工作表
+Toggle Tab Bar|切换标签栏
+Show Startup Screen|显示启动画面
+Stay Open|继续打开
+Copy as Standalone Code|复制为独立代码
+Show Progress|显示进度
+Fold Block Comments|折叠块注释
+Migrate to Properties|迁移到属性
+Fold Handlers|折叠处理程序
+Migrate to Properties in Selection|将选中迁移到属性
+Unfold Handlers|展开处理程序
+Test 1|Test 1
+Unfold All|全部展开
+Set Breakpoint|设置断点
+Unfold|展开
+Test 2|Test 2
+Remove All Disabled Breakpoints|删除所有已禁用断点
+Show Line Numbers|显示行号
+Show AppleScript Release Notes|显示AppleScript的发行说明
+Persistent Properties|持久属性
+Migrate Properties When Completing|完成时迁移属性
+Script Debugger Release Notes|Script Debugger发行说明
+Browse Document Versions...|浏览的文档版本...
+Show AppleScript Language Guide|显示AppleScript语言指南
+Use Properties for Cocoa Terms|为Cocoa术语使用属性
+Unfold Block Comments|展开块注释
+Script Debugger|Script Debugger
+Script Format|脚本格式
+Application Options|应用程序选项
+AppleScriptObjC|AppleScriptObjC

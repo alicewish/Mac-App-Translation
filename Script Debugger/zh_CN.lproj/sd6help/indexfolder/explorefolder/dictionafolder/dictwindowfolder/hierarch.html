@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger can portray the classes in a dictionary as arranged in two hierarchies — the containment hierarchy and the inheritance hierarchy." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Hierarchies and Diagrams</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../explore.html">Explore</a>&#160;&gt; <a href="../../dictiona.html">Dictionary</a>&#160;&gt; <a href="../dictwindow.html">Dictionary Window</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Hierarchies and Diagrams</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="searchin.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger can portray the classes in a dictionary as arranged in two hierarchies — the <strong>containment hierarchy</strong> and the <strong>inheritance hierarchy</strong>. Choose Dictionary &gt; Show Object Model (or click Object Model in the <a href="../dictwindow.html">dictionary window&#8217;s</a> <a href="../../../referencfolder/windowsfolder/toolbar.html">toolbar</a>).</p>
+
+    <p>To <strong>toggle between the two hierarchies</strong>, choose Dictionary &gt; Show Containment (or click Contains) or Dictionary &gt; Show Inheritance (or click Inherits).</p>
+
+    <ul>
+      <li>
+        <p>The <strong>containment</strong> hierarchy reflects the fact that an object has attributes (properties and elements), and an attribute can be another object. Thus, in theory, it should be possible to start at the &#8220;top&#8221; of the hierarchy (which is usually the single instance of the <code>application</code> class) and describe the relationships between classes as a tree. This tree is sometimes referred to as the application&#8217;s <a href="../../../referencfolder/helpglossaryfolder/objectmodel.html">object model</a>. The containment hierarchy expresses a &#8220;has-a&#8221; relationship among classes.</p>
+      </li>
+      <li>
+        <p>The <strong>inheritance</strong> hierarchy is an artifice originally introduced as a way of making dictionaries smaller. For example, in the Finder, <code>folder</code> and <code>disk</code> are two different classes, but they have many properties and elements in common. For instance, they both have an <code>entire contents</code> property saying what&#8217;s in them, and they can both have <code>folder</code> elements and <code>file</code> elements reflecting the hierarchy of items on disk. Thus it saves space, and makes conceptual sense as well, to encapsulate these and all other attributes shared by folders and disks, and to express them as a separate class (here called <code>container</code>). The folder class and the disk class are then said to <em>inherit</em> from the container class, so that they share these properties and elements by virtue of this inheritance. The inheritance hierarchy expresses an &#8220;is-a&#8221; relationship among classes.</p>
+
+        <blockquote>
+          <p>Script Debugger&#8217;s dictionary display can flatten the display of inherited attributes in the <a href="info.html">info pane</a>. <a href="infofolder/inherita.html">Click here</a> to read more about this feature.</p>
+        </blockquote>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/objectModel.png" width="255" height="68" alt="image" /></div>
+
+    <p>The above illustration (showing Safari&#8217;s containment hierarchy) is typical of what you&#8217;ll see in the object model diagram.</p>
+
+    <p>Here are some clues about how the object model diagram works:</p>
+
+    <ul>
+      <li>
+        <p>Click any term in the diagram to <strong>see the information for that term</strong> displayed in the <a href="info.html">info pane</a>. Thus, the diagram is an additional way to navigate the dictionary.</p>
+
+        <blockquote>
+          <p><strong>Note:</strong> There&#8217;s no separate dictionary entry for a property name, so when you select a property name in the diagram, the info pane shows the info for that property&#8217;s class — and that class is also automatically selected in the diagram.</p>
+        </blockquote>
+      </li>
+      <li>
+        <p>Click the <strong>+</strong> or <strong>-</strong> button at the right end of any class&#8217;s name, to <strong>expand or collapse</strong> the hierarchy shown in the diagram from that point.</p>
+      </li>
+      <li>
+        <p>In the containment hierarchy, tick-marks indicate a one-to-one relationship (a property) or a one-to-many relationship (an element).</p>
+      </li>
+      <li>
+        <p>In the containment hierarchy, double-click a term in the diagram to <strong>dive into the hierarchy</strong> (the term is hoisted to the top of the hierarchy display). The path widget at the top left of the diagram shows you your place in the hierarchy and lets you navigate back up the hierarchy.</p>
+      </li>
+      <li>
+        <p>Some dictionaries have multiple separate inheritance hierarchies. In that case, buttons at the top left of the diagram let you switch between them.</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p>Click here for <a href="browserfolder/browseritemtypes.html">the meaning of the icons</a> to the left of the attribute names.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="info.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="info.html">Dictionary Info Pane</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="searchin.html">Search in Dictionary</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="searchin.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

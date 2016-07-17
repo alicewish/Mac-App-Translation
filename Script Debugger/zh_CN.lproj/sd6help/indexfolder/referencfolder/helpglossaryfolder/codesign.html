@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Definition of &#8220;code sign&#8221;" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Glossary: Code Sign</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../helpglossary.html">Glossary</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Glossary: Code Sign</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="compiledscriptfile.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>OS X comes with Gatekeeper, a mechanism that can alert the user that a strange application is being launched for the first time. A &#8220;strange&#8221; application is one that arrives from outside — for example, the user received it via email or downloaded it with a browser — and that did not come from the Mac App Store.</p>
+
+    <p>To make it easier for the user to trust a strange application, the application can be <em>code signed</em>. This constitutes a guarantee that:</p>
+
+    <ul>
+      <li>
+        <p>The application was written by a developer registered with Apple.</p>
+      </li>
+      <li>
+        <p>The contents of the application have not been tampered with; they are identical to what the developer intended.</p>
+      </li>
+    </ul>
+
+    <p>An <a href="../../openingafolder/savefolder/formatsfolder/applicat.html">applet</a> is an application. Therefore, it is subject to Gatekeeper&#8217;s oversight. If you have a membership with the <a href="https://developer.apple.com/programs/" class="external">Apple Developer Program</a>, you might wish to code sign your applet.</p>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> The user can launch your applet even if it is not code signed, but the procedure is slightly more involved and less intuitive than launching an applet that is code signed: the user must Control-click the applet in the Finder and choose Open from the contextual menu. A dialog then appears, warning that the applet is not from an identified developer, but permitting the user to proceed to launch the applet. The user needs to do this only once; thereafter, the application can be launched directly in the normal way.</p>
+    </blockquote>
+
+    <p>Before you can code sign an applet, your keychain must contain a Developer ID Application certificate. To code sign the applet while editing it:</p>
+
+    <ul>
+      <li>
+        <p>In the <a href="../../openingafolder/bundle.html">bundle inspector</a>, choose your certificate from the pop-up menu.</p>
+      </li>
+      <li>
+        <p>Or, in the File &gt; Code Signing menu, choose your certificate from the hierarchical menu.</p>
+      </li>
+    </ul>
+
+    <p>Once you have specified that an applet is to be code signed, Script Debugger will keep it code signed, so that its integrity remains guaranteed, every time you save it (unless you specify Don&#8217;t Code Sign).</p>
+
+    <blockquote>
+      <p><strong>WARNING:</strong> A code signed applet has its <a href="../faqfolder/sediffs.html">persistent global variables</a> switched off (as if you had unchecked Script &gt; Persistent Properties). This is because the saved state of the script must not change; it has to match the code signing checksum that guarantees its integrity. When you turn on code signing for your applet, Script Debugger will present a dialog warning you about this. If your script depends upon its properties maintaining state after quitting, it won&#8217;t work as a code signed applet.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="bytecode.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="bytecode.html">Glossary: Bytecode</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="compiledscriptfile.html">Glossary: Compiled Script File</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="compiledscriptfile.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger lets you run individual handlers in a script." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Testing Handlers</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../run.html">Run</a>&#160;&gt; <a href="../execute.html">Execute</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Testing Handlers</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../result.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger lets you <strong>run individual handlers</strong> in a script. This can be a valuable testing and debugging technique.</p>
+
+    <h3 id="standard-event-handlers">Standard Event Handlers</h3>
+
+    <p>You can <strong>run a standard event handler</strong>, such as an <code>idle</code> handler, an <code>open</code> handler, or a Folder Action handler. To do so, choose from the <strong>Event Handler menu</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose the handler from the hierarchical Script &gt; Execute submenu.</p>
+      </li>
+      <li>
+        <p>Or, hold down the mouse down on the Execute button in the toolbar. A pop-up menu appears; choose the handler in this menu.</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p>When you&#8217;re <a href="../../debug.html">debugging</a> a script, the same pop-up menu is attached to the Trace, Step Over, and Step Out menu items and toolbar buttons.</p>
+    </blockquote>
+
+    <p>For example, consider the <a href="../../../openingafolder/savefolder/formatsfolder/applicat.html">applet</a> script in the illustration below. If you simply run this script, you&#8217;ll see the &#8220;Howdy!&#8221; dialog. That&#8217;s because what you&#8217;ve just run is the <code>run</code> handler. But what if you want to test the <code>idle</code> handler? Choose Idle from the Event Handler menu.</p>
+
+    <div style="text-align:center"><img src="../../../../images/callIdle.png" width="248" height="242" alt="image" /></div>
+
+    <blockquote>
+      <p>A <code>continue</code> statement in an event handler called in this way will generate an error in Script Debugger. This is deliberate and may be safely ignored. The technical reason is that if, for example, we permitted a <code>continue quit</code> statement in a script&#8217;s <code>quit</code> handler to execute, Script Debugger itself would quit!</p>
+    </blockquote>
+
+    <h3 id="the-current-event">The Current Event</h3>
+
+    <p>When you choose from the Event Handler menu, that event becomes the script&#8217;s <strong>current event</strong>. This means that the event is now called <em>by default</em> when you run the script.</p>
+
+    <p>To alert you to this special situation:</p>
+
+    <ul>
+      <li>
+        <p>The current event is checked in the menu.</p>
+      </li>
+      <li>
+        <p>If the current event is not the <code>run</code> handler, a <strong>current event indicator</strong> appears above the text area of your script window:</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/currentEvent.png" width="229" height="218" alt="image" /></div>
+
+    <p>To set the script&#8217;s current event back to the <code>run</code> handler:</p>
+
+    <ul>
+      <li>
+        <p>Click the &#8220;x&#8221; in the current event indicator.</p>
+      </li>
+      <li>
+        <p>Or, choose Run from the Event Handler menu.</p>
+      </li>
+    </ul>
+
+    <p>To set a different current event <em>without</em> also running that event handler:</p>
+
+    <ul>
+      <li>Hold Shift as you choose from the Event Handler menu.</li>
+    </ul>
+
+    <h3 id="parameters-and-the-event-history">Parameters and the Event History</h3>
+
+    <p>The <code>open</code> handler and the event handlers defined in the Folder Actions and Digital Hub Actions suites expect <strong>parameters</strong>, which are aliases or files.</p>
+
+    <p>For example, an <code>open</code> handler expects a list of aliases to the files and folders. An <code>adding folder items to</code> handler expects two parameters, an alias to the watched folder and a list of aliases to the added files. And so forth.</p>
+
+    <p>Such a handler is listed in the Event Handler menu with an ellipsis (<code>…</code>) after its name. When you choose it from the Event Handler menu, Script Debugger presents a dialog where you can select files and folders. An appropriate parameter or parameters will then be passed to the specified handler.</p>
+
+    <blockquote>
+      <p>In the case of <code>adding folder items to</code> and <code>removing folder items from</code>, what you&#8217;re supplying in this dialog is the <em>second</em> parameter, the item(s) that are allegedly being added or removed. Script Debugger will then use the containing folder of the item(s) as the first parameter, the watched folder.</p>
+
+      <p>In the case of just the <code>open</code> handler, there is another alternative. Drag-and-drop files and folders directly from the Finder into your script. If your script has an <code>open</code> handler, one of the options in the resulting dialog is to invoke the <code>open</code> handler with these Finder items as parameter.</p>
+    </blockquote>
+
+    <p>Script Debugger remembers each alias or list of aliases produced in this way, along with the event handler it is to be passed to, and adds this information to the bottom of the Event Handler menu. This list of remembered event handlers and parameters is the <strong>event history</strong>.</p>
+
+    <p>Thus, the <em>next</em> time you want to <strong>test this same handler with these same parameters</strong>, you can choose it from the event history (or, if it is the current event, click the Execute button).</p>
+
+    <div style="text-align:center"><img src="../../../../images/eventParams.png" width="398" height="240" alt="image" /></div>
+
+    <p>The event history is remembered until you close the script window; or you can deliberately remove it by choosing Clear Menu (which is always the last item in the Event Handler menu if there is an event history).</p>
+
+    <h3 id="other-handlers">Other Handlers</h3>
+
+    <p>If the handler you want to test is <em>not</em> one of the standard event handlers already listed in the Event Handler menu, you can test it using Script Debugger&#8217;s <a href="../../../referencfolder/faqfolder/scriptab.html">scriptability</a>, which allows one script to call a handler in another script.</p>
+
+    <p>For example, suppose you have opened a script file containing this top-level handler:</p>
+
+    <pre><code>on justName(s)
+    set text item delimiters to ":"
+    return last text item of s
+end justName
+-- ... plus a lot of other stuff ...
+</code></pre>
+
+    <p>To test this handler without running the rest of that script, run this script from a second tab or script window:</p>
+
+    <pre><code>tell document 2
+    justName("this:is:a:test")
+end tell
+</code></pre>
+
+    <p>This calls <code>justName</code> in the first script (because it is behind the second script, and thus is <code>document 2</code>). Moreover, it <strong>adds this handler call with this parameter to the event history</strong> of the first script. Thus, having done this once, you no longer need the second script in order to test the first.</p>
+
+    <div style="text-align:center"><img src="../../../../images/callHandler.png" width="376" height="244" alt="image" /></div>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

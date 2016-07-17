@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Definition of &#8220;use statement&#8221;" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Glossary: Use Statement</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../helpglossary.html">Glossary</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Glossary: Use Statement</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../faq.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>The AppleScript <code>use</code> statement, introduced in OS X 10.9 (Mavericks), has the following uses:</p>
+
+    <h3 id="making-an-applications-terms-global">Making an Application&#8217;s Terms Global</h3>
+
+    <p>A <code>use application</code> statement causes that application&#8217;s terms to become global. For example, instead of this:</p>
+
+    <pre><code>tell application "Finder"
+    get desktop
+end tell
+</code></pre>
+
+    <p>You can say this:</p>
+
+    <pre><code>use application "Finder"
+get desktop
+</code></pre>
+
+    <p>But don&#8217;t say that! Making an application&#8217;s terms global is a really bad idea. There&#8217;s a good use for <code>use application</code> described later on this page.</p>
+
+    <h3 id="linking-to-a-cocoa-framework">Linking to a Cocoa Framework</h3>
+
+    <p>A <code>use framework</code> statement links to a Cocoa framework, thus incorporating Cocoa classes and their Objective-C commands. Your script can now speak <a href="asoc.html">AppleScriptObjC</a>. For example:</p>
+
+    <pre><code>use framework "Foundation"
+set s to current application's NSString's stringWithString:"the cat sat on the mat"
+set arr to s's componentsSeparatedByString:" "
+</code></pre>
+
+    <h3 id="loading-a-library-script">Loading a Library Script</h3>
+
+    <p>A <code>use script</code> statement loads a <a href="library.html">library script</a>:</p>
+
+    <pre><code>use script "Hello"
+</code></pre>
+
+    <p>However, the top-level entities in the loaded script do not become globally available; you still need a <code>tell</code> block to access them. Thus, it is more common (and canonical) to provide an identifier, as discussed in the next section.</p>
+
+    <blockquote>
+      <p>But if the script has a <a href="dictionarydef.html">dictionary</a>, a <code>use script</code> statement <em>does</em> make its terminology globally available (like an application).</p>
+    </blockquote>
+
+    <h3 id="providing-an-identifier">Providing an Identifier</h3>
+
+    <p>An identifier followed by a colon in a <code>use</code> statement specifying an application or a script turns the identifier into a synonym for that application or script. You can then target the identifier with a <code>tell</code> block (or its equivalent). For example:</p>
+
+    <pre><code>use Hello : script "Hello"
+tell Hello
+    set its greeting to "Howdy"
+    greet()
+end tell
+</code></pre>
+
+    <h3 id="requiring-a-version">Requiring a Version</h3>
+
+    <p>With a <code>version</code> parameter, <code>use applescript</code>, <code>use application</code>, and <code>use script</code> can force the script to fail if the version is not at least as high as requested. For example:</p>
+
+    <pre><code>use AppleScript version "2.5"
+-- won't run on systems earlier than OS X 10.11 (El Capitan)
+use application "Finder" version "10.10.5" without importing
+-- won't run on systems earlier than OS X 10.10.5 (Yosemite)
+-- note the "without importing"! prevents the terminology from becoming global
+use Hello : script "Hello" version "1.1"
+-- won't run without library script "Hello" version 1.1 or higher
+</code></pre>
+
+    <blockquote>
+      <p><strong>TIP:</strong> To give a library script a version number, save it as a compiled script bundle and set its version number in the <a href="../../openingafolder/bundle.html">bundle inspector</a>.</p>
+    </blockquote>
+
+    <h3 id="loading-scripting-additions">Loading Scripting Additions</h3>
+
+    <p>If any <code>use</code> statement appears, <a href="scriptingaddition.html">scripting additions</a> become unavailable unless:</p>
+
+    <ul>
+      <li>
+        <p>They are given a <code>use</code> statement of their own:</p>
+
+        <pre><code>  use scripting additions
+</code></pre>
+      </li>
+      <li>
+        <p>Or, they are used within an explicit <code>using terms from scripting additions</code> block.</p>
+      </li>
+    </ul>
+
+    <p>The latter is to be regarded as preferable, as it avoids making all scripting addition terminology global to the script.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="tellcontext.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="tellcontext.html">Glossary: Tell Context</a>
+</td>
+<td align="right" style="width:50%" valign="top"></td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle"></td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

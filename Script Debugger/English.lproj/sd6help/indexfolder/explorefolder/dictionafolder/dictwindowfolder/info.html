@@ -1,0 +1,179 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="The info pane of the dictionary window displays the dictionary entry for one or more terms selected in the terminology list or the object model ..." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Dictionary Info Pane</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../explore.html">Explore</a>&#160;&gt; <a href="../../dictiona.html">Dictionary</a>&#160;&gt; <a href="../dictwindow.html">Dictionary Window</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Dictionary Info Pane</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="infofolder/size.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>The <strong>info pane of the <a href="../dictwindow.html">dictionary window</a></strong> displays the <a href="../../../referencfolder/helpglossaryfolder/dictionarydef.html">dictionary</a> entry for one or more terms selected in the <a href="browser.html">terminology list</a> or the <a href="hierarch.html">object model diagram</a>. Script Debugger&#8217;s display of dictionary entries has these useful features:</p>
+
+    <ul>
+      <li>
+        <p><strong>Completeness</strong>. Script Debugger displays <em>all</em> the information in a dictionary, where other script editor applications may omit some information.</p>
+      </li>
+      <li>
+        <p><strong>Hyperlinking</strong>. Everything <span style="color:blue; border-bottom:1px blue dotted">in blue with a dotted underline</span> in a Script Debugger dictionary is a link. You click this link to follow it. For example, in the first illustration below, every time the <code>person</code> class is mentioned, it&#8217;s a link which you can click to jump to the dictionary&#8217;s entry on the <code>person</code> class. If you&#8217;re in doubt about what any linked word means, click on it! (There&#8217;s no penalty for doing so, as you can always <a href="backandf.html">come back</a> afterwards.)</p>
+      </li>
+    </ul>
+
+    <blockquote>
+      <p>Note: links with <em>solid</em> underlines are external (i.e. somewhere on the Internet) and will be displayed in your web browser.</p>
+    </blockquote>
+
+    <ul>
+      <li>
+        <p><strong>Cross-Referencing</strong>. Script Debugger analyzes the dictionary and displays the resulting information as cross-references. For example, at the bottom of the first illustration below, Script Debugger tells you what classes can be the object of the <code>pair</code> command. In the second illustration below, showing the <code>alias</code> entry from BBEdit&#8217;s dictionary, Script Debugger tells you every command that takes an alias as a parameter, and every class that has a property that&#8217;s an alias. Every cross-reference is a hyperlink.</p>
+      </li>
+      <li>
+        <p><strong>Extra Information</strong>. Script Debugger optionally provides extra information about built-in AppleScript types. For example, in the second illustration below, <code>alias</code> is a built-in AppleScript type. The <strong>Description</strong> section is extra information, coming not from the dictionary of the application (BBEdit) but from Script Debugger itself. This extra information is instructional and can be especially helpful to AppleScript beginners.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/dictWindowInfoNew.png" width="328" height="261" alt="image" /></div>
+
+    <p>The above illustration shows the typical features of a <strong>command</strong> as displayed in Script Debugger. The command&#8217;s syntax is demonstrated by a template (&#8220;Function Syntax&#8221;), which you can <a href="otherthi.html">insert into your script</a>. The result and parameters are clearly shown. (Not illustrated above: optional command parameters are displayed in grey.) Classes (<code>person</code>) and types (<code>boolean</code>) are hyperlinks. Classes that can be the object of this command are cross-referenced and hyperlinked.</p>
+
+    <div style="text-align:center"><img src="../../../../images/aliasInfoNew.png" width="367" height="361" alt="image" /></div>
+
+    <p>The above illustration shows the typical features of a <strong>class</strong> as displayed in Script Debugger. The class&#8217;s properties are clearly listed. Types (<code>file</code>, <code>text</code>) are hyperlinks. Commands where this class is a parameter, and classes where this class is a property or element, are cross-referenced and hyperlinked. This particular class is a built-in AppleScript type, so extra information about the type is provided in the Description section.</p>
+
+    <blockquote>
+      <p>The <a href="../../../developfolder/editfolder/editingafolder/find.html">Find command</a> (Search &gt; Find) works within the info pane, and can be a useful way to locate desired information quickly.</p>
+    </blockquote>
+
+    <p>You can tweak several <strong>aspects of the info pane display</strong>:</p>
+
+    <ul>
+      <li>
+        <p>You can change the <a href="infofolder/size.html">size</a> of the text.</p>
+      </li>
+      <li>
+        <p>You can set  whether a class&#8217;s information should include properties and elements <a href="infofolder/inherita.html">inherited from its superclass</a>.</p>
+      </li>
+      <li>
+        <p>You can set  whether to display <a href="infofolder/extra.html">extra documentation</a> supplied by dictionary authors, as well as Late Night Software&#8217;s own explanations of AppleScript&#8217;s built-in classes.</p>
+      </li>
+      <li>
+        <p>You can set  whether to reveal the <a href="infofolder/codes.html">raw Apple event codes</a> for dictionary terms.</p>
+      </li>
+    </ul>
+
+    <p>These settings apply to the dictionary display for one application at a time, and they are persistent (that is, they are remembered the next time you open the dictionary window for that particular application).</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+<table width="100%">
+<tr>
+<td align="left">
+<table>
+<tr>
+<td class="further" colspan="2">
+<b>Further Details:</b>
+</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td class="subs">
+<a href="infofolder/size.html">Size</a><br /><a href="infofolder/inherita.html">Inheritance</a><br /><a href="infofolder/extra.html">Extra Documentation</a><br /><a href="infofolder/codes.html">Apple Event Codes</a><br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="browser.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="browser.html">Terminology List</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="hierarch.html">Hierarchies and Diagrams</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="hierarch.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

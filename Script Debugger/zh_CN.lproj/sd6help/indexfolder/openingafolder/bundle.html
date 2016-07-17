@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="If a script’s format is a compiled script bundle or an application bundle, you can work with the bundle settings and contents using the bundle ..." />
+
+<link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" />
+
+<title>Bundle</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../openinga.html">Opening and Saving Scripts</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Bundle</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../explore.html"><img src="../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>If a script&#8217;s <a href="savefolder/formats.html">format</a> is a <a href="savefolder/formatsfolder/compiled.html">compiled script bundle</a> or an <a href="savefolder/formatsfolder/applicat.html">application bundle</a>, you can <strong>work with the <a href="../referencfolder/helpglossaryfolder/bundledef.html">bundle settings and contents</a></strong> using the bundle inspector.</p>
+
+    <p>To <strong>work with bundle settings and contents</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose View &gt; Resources Tab.</p>
+      </li>
+      <li>
+        <p>Or, click the <em>second</em> Show button in the <a href="../developfolder/editfolder/scriptwi.html">script window</a> <a href="../referencfolder/windowsfolder/toolbar.html">toolbar</a>.</p>
+      </li>
+    </ul>
+
+    <p>If the script is in a bundle format, the bundle inspector appears at the right of the <a href="../developfolder/editfolder/scriptwi.html">script window</a>.</p>
+
+    <div style="text-align:center"><img src="../../images/resources.png" width="234" height="241" alt="image" /></div>
+
+    <p>The bundle inspector is divided into three sections.</p>
+
+    <h3 id="description">Description</h3>
+
+    <p>A styled text <a href="descript.html">description</a> of the bundle. In the case of a bundle, you are actually editing the text of <em>Resources/description.rtfd</em> inside the bundle.</p>
+
+    <h3 id="settings">Settings</h3>
+
+    <p>These settings actually edit the contents of the <em>Info.plist</em> file inside the bundle.</p>
+
+    <dl>
+      <dt>Bundle ID</dt>
+      <dd>A unique identifier for the bundle. This is important particularly if the bundle is an <a href="savefolder/formatsfolder/applicat.html">applet</a>; every OS X application should have a unique identifier. By convention, the identifier starts with <code>com.</code> and is structured like a reverse URL hostname. By default, Script Debugger will combine the Bundle ID Prefix from your <a href="../referencfolder/preferencfolder/general.html">General preferences</a> with the name of the bundle.</dd>
+      <dt>Copyright</dt>
+      <dd>The copyright string appears in the Finder&#8217;s Get Info window for this file. By default, Script Debugger derives the copyright string for an <a href="savefolder/formatsfolder/applicat.html">applet</a> from the Copyright Notice from your <a href="../referencfolder/preferencfolder/general.html">General preferences</a>.</dd>
+      <dt>Version</dt>
+      <dd>The version string appears in the Finder&#8217;s Get Info window for this file. It can also be used to restrict a <a href="../referencfolder/helpglossaryfolder/use.html"><code>use script</code> statement</a>, referring to this script, to a minimum version.</dd>
+      <dt>Build #</dt>
+      <dd>A number entirely for your use. Check Increment On Save if you would like Script Debugger to increment this number each time the script is saved.</dd>
+      <dt>Scripting Def.</dt>
+      <dd>An <a href="../referencfolder/helpglossaryfolder/sdefglossary.html"><code>sdef</code></a> file in the bundle&#8217;s <em>Resources</em> folder. You can use this to define AppleScript English-like terminology for your script, thus giving your script a dictionary. This is useful particularly if this is a <a href="../referencfolder/helpglossaryfolder/library.html">library script</a> to be used by others, who can consult the script&#8217;s <a href="../referencfolder/helpglossaryfolder/dictionarydef.html">dictionary</a> to learn how to use your script.</dd>
+      <dt>Code Signing</dt>
+      <dd>A reference to a Developer ID Application certificate in your keychain, if you have one. This is useful if you want to <a href="../referencfolder/helpglossaryfolder/codesign.html">code sign</a> an applet for public distribution, as it makes it easier for users to get past Gatekeeper restrictions on opening &#8220;strange&#8221; applications.</dd>
+    </dl>
+
+    <h3 id="resources">Resources</h3>
+
+    <p>The Resources pane displays the contents of the <em>Resources</em> folder inside the bundle.</p>
+
+    <p>To <strong>add an existing file or folder</strong> to the bundle:</p>
+
+    <ul>
+      <li>
+        <p>Click the Plus button at the bottom of the bundle inspector.</p>
+      </li>
+      <li>
+        <p>Or, choose Add Existing Files from the contextual menu.</p>
+      </li>
+      <li>
+        <p>Or, drag an item from the Finder into the bundle inspector.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>delete a selected file or folder</strong> in the bundle:</p>
+
+    <ul>
+      <li>
+        <p>Click the Minus button at the bottom of the bundle inspector.</p>
+      </li>
+      <li>
+        <p>Or, choose Delete from the contextual menu.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>rename a selected file or folder</strong> in the bundle:</p>
+
+    <ul>
+      <li>
+        <p>Press Return to edit its name.</p>
+      </li>
+      <li>
+        <p>Or, choose Rename from the contextual menu.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>reveal a selected file or folder</strong> in the bundle:</p>
+
+    <ul>
+      <li>
+        <p>Cchoose File &gt; Reveal XXX in Finder.</p>
+      </li>
+      <li>
+        <p>Or, choose Reveal XXX in Finder from the contextual menu.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>create a new folder</strong> in the bundle:</p>
+
+    <ul>
+      <li>Choose New Folder from the contextual menu.</li>
+    </ul>
+
+    <p>To <strong>open</strong> a nonscript file in the bundle:</p>
+
+    <ul>
+      <li>Double-click the file in the bundle inspector.</li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="manifest.html"><img src="../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="manifest.html">Manifest</a>
+</td>
+<td align="right" style="width:50%" valign="top"></td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle"></td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

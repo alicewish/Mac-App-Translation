@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="When a script is paused while debugging, you can view the nest of handler calls currently being executed." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Call Stack</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../debug.html">Debug</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Call Stack</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="variablesdebug.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>When a script is <a href="pause.html">paused</a> while <a href="../debug.html">debugging</a>, you can view the <strong>nest of handler calls</strong> currently being executed. This is the <strong>call stack</strong> (or <strong>call chain</strong>).</p>
+
+    <blockquote>
+      <p>What is the <strong>call stack</strong>?</p>
+
+      <p>Execution typically starts with the script&#8217;s run handler (implicit or explicit). Code in this handler can call another handler, which can call another handler (or the same handler, recursively), and so on. Thus, at any given moment during the execution of your code, there is a <strong>nest or chain of handlers</strong> leading down from top level to the line currently being executed.</p>
+    </blockquote>
+
+    <p>The call stack is displayed in a <a href="../editfolder/scriptwi.html">script window</a> in <a href="../debug.html">debug mode</a> in the same tab as the <a href="../runfolder/result.html">result pane</a> and the <a href="variablesdebug.html">variables pane</a>. To <strong>see the call stack</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose View &gt; Result &amp; Variables Tab.</p>
+      </li>
+      <li>
+        <p>Or, click the <em>first</em> Show button in the <a href="../editfolder/scriptwi.html">script window</a> <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a>.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/stackPane.png" width="231" height="78" alt="image" /></div>
+
+    <p>Each entry in the call stack is a <strong>stack frame</strong>. The stack frames are ordered from innermost (the most recent handler call) to outermost (the oldest handler call, usually the script&#8217;s run handler). Thus, in the above illustration, top-level code has called the <code>rename</code> handler, which in turn has called the <code>pad</code> handler, in which we are paused.</p>
+
+    <p>Stack frames newly added since the last time the script paused are shown in red.</p>
+
+    <p>When multiple stack frames exist, the script can, in a sense, be paused at more than one line simultaneously. (Thus, in the above illustration, we are paused at three places, whose line numbers are given in the last column.) Therefore, the script is displayed with multiple green arrows. The line where we are <em>really</em> paused (within the deepest stack frame) has a <strong>solid green arrow</strong>; the others have <strong>transparent green arrows</strong>.</p>
+
+    <p>A stack frame, and the place where the script is paused within it, represent an entire environment. One stack frame is always the <strong>selected stack frame</strong>; by default, it is the deepest stack frame. The environment reflected in the script window changes when a different stack frame is selected. When you <strong>select a stack frame</strong>:</p>
+
+    <ul>
+      <li>
+        <p>The line of the script where we&#8217;re paused <em>in that stack frame</em> is <strong>highlighted</strong>.</p>
+      </li>
+      <li>
+        <p>The <a href="variablesdebug.html">variables pane</a> changes to reflect the <strong>variable values in scope</strong> <em>in that stack frame</em>.</p>
+      </li>
+      <li>
+        <p><a href="expressi.html">Expressions</a> are <strong>re-evaluated</strong> against <em>that stack frame</em>.</p>
+      </li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="trace.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="trace.html">Trace</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="variablesdebug.html">Variables (Debug Mode)</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="variablesdebug.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

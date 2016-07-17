@@ -1,0 +1,159 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Four Edit menu items help keep your AppleScriptObjC code neat." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>AppleScriptObjC Refactoring</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../edit.html">Edit</a>&#160;&gt; <a href="../editinga.html">Editing and Navigation</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>AppleScriptObjC Refactoring</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="misctype.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Four <a href="../../../referencfolder/menusfolder/editmenu.html">Edit menu items</a> help keep your <a href="../../../referencfolder/helpglossaryfolder/asoc.html">AppleScriptObjC</a> code neat.</p>
+
+    <p>To understand what they do, let&#8217;s take an example. Consider this code:</p>
+
+    <pre><code>set ss to current application's NSString's stringWithString:s
+set regex to current application's NSRegularExpressionSearch
+</code></pre>
+
+    <p>That code illustrates an essential problem with AppleScriptObjC code: everything must be explicitly targeted at the <code>current application</code>. AppleScriptObjC refactoring reorganizes that sort of code so that Cocoa names like NSString and NSRegularExpressionSearch are defined as properties of your script. Your code can then use the bare property names as a shorthand.</p>
+
+    <p>Thus, given the above code, if you choose Edit &gt; AppleScript Objective-C &gt; Migrate to Properties, your code is refactored into two pieces. First, some property definitions are inserted at the start of the script:</p>
+
+    <pre><code>-- classes, constants, and enums used
+property NSRegularExpressionSearch : a reference to 1024
+property NSString : a reference to current application's NSString
+</code></pre>
+
+    <p>Then, the code itself has <code>current application's</code> stripped out, so that the Cocoa names become the names of the script properties:</p>
+
+    <pre><code>set ss to NSString's stringWithString:s
+set regex to NSRegularExpressionSearch
+</code></pre>
+
+    <p>The extra work up front — the use of <code>property</code> declarations early in your code, along with the <code>a reference to</code> locution — streamlines your use of Cocoa terms later, reduces overhead at runtime, and avoids some other undesirable side effects.</p>
+
+    <p>There are four Edit &gt; AppleScriptObjC hierarchical menu items connected with refactoring:</p>
+
+    <div class="menus">
+
+      <dl>
+        <dt>Edit &gt; AppleScriptObjC &gt; Migrate to Properties</dt>
+        <dd>
+          <p>Performs the refactoring described above for the entire script.</p>
+        </dd>
+        <dt>Edit &gt; AppleScriptObjC &gt; Migrate to Properties in Selection</dt>
+        <dd>
+          <p>Performs the refactoring described above for just the selected code.</p>
+        </dd>
+        <dt>Edit &gt; AppleScriptObjC &gt; Use Properties for Cocoa Terms</dt>
+        <dd>
+          <p>If checked, then when <a href="completion.html">code completion</a> or a <a href="clipping.html">clipping</a> inserts Cocoa terms, it performs refactoring at the same time. An <a href="../../../referencfolder/preferencfolder/editor.html">Editor preference</a>, &#8220;Use properties for Cocoa terms in completion, clippings&#8221;, governs this behavior in general; this menu item lets you override that setting for an individual script.</p>
+        </dd>
+        <dt>Edit &gt; AppleScriptObjC &gt; Copy as Standalone Code</dt>
+        <dd>
+          <p>Copies the selected material to the clipboard. If that material is refactored as described above, the clipboard copy is unrefactored. Thus, for example, if you were to copy <code>set ss to NSString's stringWithString:s</code> as standalone code, it would be copied as <code>set ss to current application's NSString's stringWithString:s</code>, suitable for pasting into a different script (and then refactoring there, if desired).</p>
+        </dd>
+      </dl>
+
+    </div>
+
+    <blockquote>
+      <p>Refactoring requires that the script be <a href="../../runfolder/compile.html">compiled</a>, so these menu items (except for Use Properties, which is a setting) are disabled if the script needs compilation.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="substitution.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="substitution.html">Text Substitution</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="misctype.html">Miscellaneous Typing and Selection</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="misctype.html"><img src="../../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger can generate a manifest for your script — a list of its external dependencies." />
+
+<link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" />
+
+<title>Manifest</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../openinga.html">Opening and Saving Scripts</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Manifest</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="bundle.html"><img src="../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger can generate a <strong>manifest</strong> for your script — a list of its <em>external dependencies</em>.</p>
+
+    <p>This can be useful purely as information. It can also have practical implications. For example, suppose you intend to move the script to another machine or send it to another user. If the script requires a scriptable application, the script won&#8217;t run on a machine that lacks that application. Thanks to the manifest, you&#8217;ll be forewarned about such dependencies.</p>
+
+    <p>To <strong>see a script&#8217;s dependencies</strong> in the Manifest dialog:</p>
+
+    <ul>
+      <li>Choose File &gt; Show Manifest. (You can also add a Manifest button to the script window&#8217;s <a href="../referencfolder/windowsfolder/toolbar.html">toolbar</a>.)</li>
+    </ul>
+
+    <p>The script&#8217;s dependencies are listed by category:</p>
+
+    <ul>
+      <li>
+        <p><strong>Application Dependencies</strong>. These are applications specified in a <a href="../referencfolder/helpglossaryfolder/use.html"><code>use</code> statement</a> or a <code>tell</code> or <code>terms</code> block.</p>
+      </li>
+      <li>
+        <p><strong>Script Library Dependencies</strong>. These are <a href="../referencfolder/helpglossaryfolder/library.html">library scripts</a> specified in a <a href="../referencfolder/helpglossaryfolder/use.html"><code>use</code> statement</a>.</p>
+      </li>
+      <li>
+        <p><strong>Scripting Addition Dependencies</strong>. These are scripting additions specified in a <a href="../referencfolder/helpglossaryfolder/use.html"><code>use</code> statement</a> or (if the script contains no <code>use</code> statements) whose terms are used in the script. [<strong>Technical note</strong>: Rarely, a scripting addition may provide <strong>coercions</strong> in addition to terminology; Script Debugger cannot detect these.]</p>
+      </li>
+      <li>
+        <p><strong>Framework Dependencies</strong>. These are <a href="../referencfolder/helpglossaryfolder/asoc.html">frameworks</a> specified in a <a href="../referencfolder/helpglossaryfolder/use.html"><code>use</code> statement</a>.</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../images/manifest.png" width="433" height="336" alt="image" /></div>
+
+    <p>Buttons allow you to <strong>reveal</strong> a selected application, library script, scripting addition, or framework in the Finder.</p>
+
+    <p>You can also <strong>view the <a href="../explorefolder/dictiona.html">dictionary</a></strong> for a selected application, library script (if it has a <a href="../referencfolder/helpglossaryfolder/sdefglossary.html">dictionary</a>), or scripting addition.</p>
+
+    <blockquote>
+      <p>The Script Debugger 5 feature that exports the Manifest dialog&#8217;s contents as a text file is not present in Script Debugger 6. But you can write your own equivalent by <a href="../referencfolder/faqfolder/scriptab.html">scripting Script Debugger</a> to get a document&#8217;s <code>used applications</code>, <code>used script libraries</code>, <code>used scripting additions</code>, and <code>used frameworks</code>.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="descript.html"><img src="../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="descript.html">Description</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="bundle.html">Bundle</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="bundle.html"><img src="../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

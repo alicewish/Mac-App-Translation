@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Breakpoint conditions and actions can give a breakpoint tremendous additional power:" />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>Conditions and Actions</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../debug.html">Debug</a>&#160;&gt; <a href="../breakpoi.html">Breakpoints</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Conditions and Actions</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../step.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Breakpoint conditions and actions can give a breakpoint tremendous additional power:</p>
+
+    <ul>
+      <li>
+        <p>A <strong>condition</strong> means that when the <a href="../pausefolder/howtopause.html">path of execution</a> hits the breakpointed line, we <em>might or might not</em> <a href="../pause.html">pause</a> here.</p>
+      </li>
+      <li>
+        <p>An <strong>action</strong> is an <em>extra behavior</em> performed by the breakpoint when the <a href="../pausefolder/howtopause.html">path of execution</a> <a href="../pause.html">pauses</a> at the breakpointed line.</p>
+      </li>
+    </ul>
+
+    <p>To <strong>see and edit conditions and actions</strong> attached to a breakpoint:</p>
+
+    <ul>
+      <li>In the script gutter, double-click the breakpoint; or, select in the line and choose Script &gt; Edit Breakpoint. The conditions and actions appear in a popover beside the breakpoint.</li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/conditionsAndActionsPopover.png" width="347" height="136" alt="image" /></div>
+
+    <ul>
+      <li>In the <a href="breakpointsinsp.html">breakpoints inspector</a>, select the breakpoint listing and press Right Arrow (or click the triangle in the breakpoint listing).</li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../../images/conditionsAndActions.png" width="266" height="149" alt="image" /></div>
+
+    <h3 id="conditions">Conditions</h3>
+
+    <p>There are two kinds of <strong>condition</strong>. If one condition is checked, we will <a href="../pause.html">pause</a> at this breakpoint only if the checked condition is true. If both conditions are checked, we will pause at this breakpoint only if <em>both</em> conditions are true.</p>
+
+    <ul>
+      <li>
+        <p><strong>Hit count</strong>. We pause with respect to how many times this breakpoint has been encountered during this execution. You can set a number of times and a comparison operator.</p>
+
+        <p>(Recall that the <em>actual</em> hit count is visible in the last column of the <a href="breakpointsinsp.html">breakpoints inspector</a>.)</p>
+      </li>
+      <li>
+        <p><strong>Expression</strong>. Enter an AppleScript expression in the text field. The expression is evaluated when the breakpoint is encountered. We will pause or not, based on:</p>
+
+        <ul>
+          <li>
+            <p>The expression&#8217;s <strong>truth</strong> value. The expression must evaluate to a boolean; it is <em>not</em> implicitly coerced to a boolean.</p>
+          </li>
+          <li>
+            <p>Or, the expression&#8217;s <strong>exception</strong> value. You can pause because the expression does or does not generate an <a href="../exceptio.html">exception</a> (a runtime error).</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3 id="actions">Actions</h3>
+
+    <p>There are three kinds of <strong>action</strong>; you can specify as many as you like. Actions are performed only if we would pause at this breakpoint (because the breakpoint is encountered by the <a href="../pausefolder/howtopause.html">path of execution</a> and its conditions, if any, are true).</p>
+
+    <ul>
+      <li>
+        <p>Post a <strong>message</strong> to the <a href="../../runfolder/log.html">event log</a> and/or the status bar.</p>
+
+        <p>The status bar message appears in brackets after the normal status bar content. A subsequent status bar message can, of course, replace this one.</p>
+      </li>
+      <li>
+        <p>Clear the <strong>hit count</strong>.</p>
+
+        <p>If this breakpoint is encountered again during this execution, the hit count will be recorded as 1.</p>
+      </li>
+      <li>
+        <p>Perform an <strong>execution command</strong>. What should happen when we hit this breakpoint? The default command (the thing that usually happens at a breakpoint) is <a href="../pause.html">Pause</a>, but you can choose any other execution command, including <a href="../pause.html">Stop</a>, <a href="../executew.html">Resume</a> (i.e. proceed without pausing), or any of the <a href="../step.html">step</a> commands.</p>
+      </li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="breakpointsinsp.html"><img src="../../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="breakpointsinsp.html">Breakpoints Inspector</a>
+</td>
+<td align="right" style="width:50%" valign="top"></td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle"></td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

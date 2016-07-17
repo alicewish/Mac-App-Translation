@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="The most important thing to understand about debugging is when your script will pause." />
+
+<link rel="stylesheet" href="../../../../stylesheets/styles.css" type="text/css" />
+
+<title>How to Pause</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../../develop.html">Develop</a>&#160;&gt; <a href="../../debug.html">Debug</a>&#160;&gt; <a href="../pause.html">Pause</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>How to Pause</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../executew.html"><img src="../../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>The most important thing to understand about debugging is <em>when your script will <a href="../pause.html">pause</a></em>.</p>
+
+    <ul>
+      <li>
+        <p>Execution will pause automatically if <strong>the path of execution comes to an enabled <a href="../breakpoi.html">breakpoint</a></strong>. Execution pauses with the green arrow pointing <em>at</em> the breakpointed line, and <em>before executing</em> the breakpointed line.</p>
+
+        <p>You can suspend this rule by choosing Script &gt; Break on Breakpoints so that it is <strong>unchecked</strong>. Otherwise, enabled breakpoints take priority over everything else.</p>
+      </li>
+      <li>
+        <p>The <strong><a href="../step.html">step</a></strong> commands cause execution to <strong>proceed by a limited amount and then pause</strong>.</p>
+
+        <p>Each step command has its own rule for what &#8220;a limited amount&#8221; means (discussed <a href="../step.html">here</a>).</p>
+
+        <p>But remember, unless you&#8217;ve suspended breakpoints, breakpoints take priority. If a step command is in process and the path of execution hits an enabled breakpoint, the step command is cancelled and execution pauses at the breakpoint.</p>
+      </li>
+      <li>
+        <p>If you&#8217;ve elected to <a href="../exceptio.html">break on exceptions</a>, <strong>encountering a runtime error will pause your script</strong> — even if your script catches and handles the error.</p>
+      </li>
+      <li>
+        <p>During a lengthy bout of execution (or <a href="../trace.html">tracing</a>), you can <strong>manually pause the script</strong>:</p>
+
+        <ul>
+          <li>
+            <p>Choose Script &gt; Pause.</p>
+          </li>
+          <li>
+            <p>Or, click Pause in the toolbar.</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <p>If your script is paused but you can&#8217;t see where (because you&#8217;ve scrolled to examine some other region of the script), choose Edit &gt; Go to Current Line to bring the line containing the green arrow into view.</p>
+
+    <blockquote>
+      <p>What is the <strong>path of execution</strong>?</p>
+
+      <p>As your script runs, one line is executed, then another, then another. There are branches, so some lines might be skipped. There are loops and handlers, so some lines might be executed several times. Thus, line by line, like a mouse running in a maze, the computer traces a path of execution through your code. (You can actually <strong>watch this happening</strong> in debug mode, by <a href="../trace.html">tracing</a>.)</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

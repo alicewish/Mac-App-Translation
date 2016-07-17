@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Why do applications sometimes seem to start up all by themselves?" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Why Do Applications Open Spontaneously?</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../faq.html">Frequently Asked Questions</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Why Do Applications Open Spontaneously?</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="reformatting.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Why <em>do</em> applications open spontaneously? The trouble is that certain applications must be running in order to provide a <a href="../helpglossaryfolder/dictionarydef.html">dictionary</a>. So every time AppleScript needs the dictionary of such an application — not just in order for a script editor to display a dictionary, but in order to <a href="../../developfolder/runfolder/compile.html">compile</a> or <a href="../helpglossaryfolder/bytecode.html">decompile</a> a script that targets that application — the application must start up if it isn&#8217;t running. So this is a problem with the system, and with how AppleScript works. It has nothing to do with Script Debugger. In fact, Script Debugger does two things to <em>reduce</em> this behavior.</p>
+
+    <blockquote>
+      <p><strong>NOTE:</strong> To <em>compile</em> a script, you <em>must</em> let AppleScript launch any needed applications. Compilation is something that AppleScript does, not something that Script Debugger does; so Script Debugger can&#8217;t prevent this behavior.</p>
+    </blockquote>
+
+    <h3 id="opening-and-decompiling-a-script">Opening and Decompiling a Script</h3>
+
+    <p>When you open a script that targets an application which must be launched in order for AppleScript to <a href="../helpglossaryfolder/bytecode.html">decompile</a> it, Script Debugger detects this and <a href="../preferencfolder/general.html">optionally</a> (if the corresponding <a href="../preferencfolder/general.html">General preference</a> is checked) presents a dialog:</p>
+
+    <div style="text-align:center"><img src="../../../images/launchquery.png" width="358" height="170" alt="image" /></div>
+
+    <p>You can proceed to open the script (and allow the application to launch) if you wish, but perhaps the overhead of launching an application just to read a script seems unwarranted. If this script was saved with Script Debugger, it contains a <a href="../../openingafolder/openfolder/importre.html">text version</a>, and you can click Open As Text to open that instead. Thus you can read the script without launching the targeted application.</p>
+
+    <p>If the script does not contain a text version, the Open As Text button won&#8217;t appear; your only choices will be to open the script and let AppleScript launch BBEdit, or to cancel and not open the script at all.</p>
+
+    <h3 id="opening-a-dictionary">Opening a Dictionary</h3>
+
+    <p>Script Debugger makes heavy use of an application&#8217;s dictionary. For example, in order to calculate the <a href="../helpglossaryfolder/tellcontext.html">tell context</a>, Script Debugger must load the target application&#8217;s dictionary. This could cause the target application to launch if it is not running. And Script Debugger needs the tell context when you start to open the File menu (because of the <a href="../../explorefolder/dictionafolder/opendictfolder/currentcontextdict.html">Open XXX&#8217;s Dictionary menu item</a>), so there may be a delay as you choose from the File menu, while the target application launches. And then, of course, there&#8217;s the whole business of what happens when you <a href="../../explorefolder/dictionafolder/dictwindowfolder/lookupde.html">search the dictionaries</a> of multiple applications simultaneously.</p>
+
+    <p>The good news, however, is that this should happen only once for each application. Script Debugger <em>caches</em> an application&#8217;s dictionary (in <i>~/Library/Caches/Script Debugger</i>) when it opens the dictionary, provided you have not unchecked &#8220;Cache generated dictionaries&#8221; in the <a href="../preferencfolder/dictionaryprefs.html">Dictionary preferences</a>. So, as long as the application&#8217;s dictionary and location don&#8217;t change, Script Debugger won&#8217;t have to launch that application again in order to access its dictionary.</p>
+
+    <blockquote>
+      <p>Note that this has nothing to do with the discussion under &#8220;Opening and Decompiling a Script&#8221; earlier on this page. Even when Script Debugger has cached (say) BBEdit&#8217;s dictionary, AppleScript has not, so when you open a script that targets BBEdit, AppleScript will <em>still</em> try to launch BBEdit if it isn&#8217;t running.</p>
+    </blockquote>
+
+    <p>However, you <em>can</em> uncheck &#8220;Cache generated dictionaries&#8221;, or clear the cache on demand by clicking the Clear Cache button, and there are certain specialized circumstances where you might wish to do this. In particular, some applications with <code>'aete'</code> dictionaries allow those dictionaries to be extended through plug-ins (notable examples are QuarkXPress and InDesign). Script Debugger has no way to notice when you add or remove a plug-in, so the dictionary that it displays, coming from the cached copy, will be out of date.</p>
+
+    <blockquote>
+      <p>Applications that do <em>not</em> use this plug-in architecture do <em>not</em> present any difficulties, and are irrelevant here. If you install a new version of an application, Script Debugger will notice that the dictionary has changed and will automatically refresh the cached copy.</p>
+    </blockquote>
+
+    <p>So, if you use these applications, it is up to you to remember to remove the cached copy of the dictionary each time you alter the application by adding or removing plug-ins. There are three ways, or levels, for doing this:</p>
+
+    <ul>
+      <li>
+        <p>Uncheck &#8220;Cache generated dictionaries&#8221;. This prevents caching altogether. Applications will open whenever their dictionaries are needed.</p>
+      </li>
+      <li>
+        <p>Keep &#8220;Cache generated dictionaries&#8221; checked, but click the Clear Cache button when needed. You allow caching to work normally, but every once in a while you throw away the caches. So most of the time you are getting all the benefits of caching. But you are throwing away the caches for <em>all</em> the dictionaries, when only <em>one</em> dictionary (Quark or InDesign) is the problem.</p>
+      </li>
+      <li>
+        <p>Throw away the cache for just the problematic application, manually. This is the best solution. Here&#8217;s how:</p>
+
+        <ol>
+          <li>
+            <p>Quit Script Debugger.</p>
+          </li>
+          <li>
+            <p>Open <i>~/Library/Caches/Script Debugger</i>.</p>
+          </li>
+          <li>
+            <p>Find the cache for your problem application&#8217;s dictionary.</p>
+
+            <p>The start of the cache file&#8217;s name will be either the application&#8217;s name (e.g. &#8220;Microsoft Word 7c5d2075.sdef&#8221;) or its bundle identifier (e.g. &#8220;com.apple.mail b521204d.sdef&#8221;).</p>
+          </li>
+          <li>
+            <p>Move it to the Trash.</p>
+          </li>
+        </ol>
+      </li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="lineendings.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="lineendings.html">What&#8217;s The Big Deal With Line Endings?</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="reformatting.html">Hey, Script Debugger Changed My Formatting!</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="reformatting.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="When is AppleScript not AppleScript?" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>What are Persistent Properties?</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../faq.html">Frequently Asked Questions</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>What are Persistent Properties?</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="wheredidlibrariesgo.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>When a script is saved with Script Debugger, the current values of top-level properties and globals can be <a href="../../openingafolder/savefolder/whatissaved.html">saved</a> along with it, so that they are still there when the script is opened again later. This feature may be toggled on or off by checking or unchecking Script &gt; Persistent Properties.</p>
+
+    <p>When you open a compiled script with Script Debugger, and if Script &gt; Persistent Properties was checked at the time script was saved, the values of top-level entities <strong>persist from the last time the script was executed</strong>. They are not reinitialized to their base values until the next time the script is compiled. (Merely running a script, without changing it, does not compile it.)</p>
+
+    <p>So, for example, a script&#8217;s top-level property <code>greeting</code> might be <em>defined</em> as <code>"howdy"</code>, but it might not actually <em>be</em> <code>"howdy"</code> when you start running the script (unless you compile the script first), because <code>greeting</code>&#8217;s value might have been changed to something else (typically by the script itself as it ran last time), and the changed value will persist. Script Debugger <em>shows</em> you what the value <em>really</em> is, in the <a href="../../developfolder/runfolder/variable.html">variables pane</a>.</p>
+
+    <p>Note, however, that Apple&#8217;s Script Editor <strong>strips these values</strong> when it opens a script (because it recompiles the script). Thus, if you so much as open this script with Script Editor, the persistent value is stripped out, so now when the script is run, <code>greeting</code> is reinitialized to <code>"howdy"</code>.</p>
+
+    <blockquote>
+      <p><strong>Note:</strong> If AppleScript refuses to save your compiled script, generating a &#8220;Stack Overflow&#8221; error, the cause might be an AppleScript bug connected with persistent top-level values. Force the script to <a href="../../developfolder/runfolder/compile.html">recompile</a> to delete the persistent top-level values, and try saving again.</p>
+    </blockquote>
+
+    <p>There are certain contexts where persistent properties are a bad idea. That&#8217;s why Script Debugger gives you the ability to toggle this feature off for an individual script. Examples of places where you should generally <em>not</em> use persistent properties are:</p>
+
+    <ul>
+      <li>
+        <p><a href="../helpglossaryfolder/codesign.html">Code signed</a> scripts. To help you with this, Script Debugger will turn off persistent properties as soon as you code sign a script.</p>
+      </li>
+      <li>
+        <p>Scripts that use <a href="../helpglossaryfolder/asoc.html">AppleScriptObjC</a>. To help you with this, Script Debugger&#8217;s AppleScriptObjC <a href="../../openingafolder/openfolder/chooser.html">templates</a> have persistent properties turned off by default.</p>
+      </li>
+      <li>
+        <p>Scripts that use GUI scripting.</p>
+      </li>
+      <li>
+        <p>Scripts that involve confidential information, such as passwords.</p>
+      </li>
+    </ul>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="whatsinstalledwhere.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="whatsinstalledwhere.html">What&#8217;s Installed Where?</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="wheredidlibrariesgo.html">Where Are the Libraries?</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="wheredidlibrariesgo.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

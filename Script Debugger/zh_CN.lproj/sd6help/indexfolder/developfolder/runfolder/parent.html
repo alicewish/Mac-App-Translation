@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger lets you set another script as the implicit parent of the current script." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Parent Script</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../run.html">Run</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Parent Script</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="../debug.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger lets you set another script as the <strong>implicit parent</strong> of the current script. The mechanism involved is AppleScript&#8217;s script object inheritance.</p>
+
+    <p>To <strong>set a parent–child relationship</strong> between two scripts:</p>
+
+    <ul>
+      <li>
+        <p>Both scripts must be open.</p>
+      </li>
+      <li>
+        <p>Bring the &#8220;child&#8221; script frontmost. Choose Script &gt; Parent Script and the name of the parent script.</p>
+      </li>
+    </ul>
+
+    <p>This parent-child relationship persists only while both scripts are open. If you try to close the parent script, you&#8217;ll get a dialog warning that you&#8217;re about to break the parent-child relationship.</p>
+
+    <p>This feature can be employed to make a set of top-level entities (properties, handlers, etc.) from one script available in another (for example, you could use it test individual handlers in a script without altering that script), or for simulating a runtime environment where parent script relationships are used.</p>
+
+    <blockquote>
+      <p><strong>Note:</strong> Neither the &#8220;parent&#8221; script nor the &#8220;child&#8221; script may be in <a href="../debug.html">debug mode</a>.</p>
+    </blockquote>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="target.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="target.html">Default Target</a>
+</td>
+<td align="right" style="width:50%" valign="top"></td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle"></td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

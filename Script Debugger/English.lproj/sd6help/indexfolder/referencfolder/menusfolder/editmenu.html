@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Edit menu reference" />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Edit Menu</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../referenc.html">Reference</a>&#160;&gt; <a href="../menus.html">Menus</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Edit Menu</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="viewmenu.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <div class="menus">
+
+      <dl>
+        <dt>Undo</dt>
+        <dd>
+          <p>Undoes the most recent change to the current script.</p>
+        </dd>
+        <dt>Redo</dt>
+        <dd>
+          <p>Undoes the most recent undo to the current script.</p>
+        </dd>
+        <dt>Cut</dt>
+        <dd>
+          <p>Moves selected text from the current script to the clipboard. This includes formatted text suitable for pasting into a word processor.</p>
+        </dd>
+        <dt>Copy</dt>
+        <dd>
+          <p>Copies the selected material to the clipboard. The selection might be (for example) text in a script or a <a href="../../developfolder/runfolder/result.html">result</a>, text in the <a href="../../explorefolder/dictionafolder/dictwindow.html">info pane</a> of a dictionary window, a term in the <a href="../../explorefolder/dictionafolder/dictwindowfolder/browser.html">terminology list</a> of a dictionary window, a line of the <a href="../../developfolder/runfolder/log.html">event log</a>, or a line of an <a href="../../explorefolder/explorerfolder/bestfolder/outliner.html">outliner</a> (in which case what is copied is an AppleScript reference). This includes formatted text suitable for pasting into a word processor.</p>
+        </dd>
+        <dt>Copy Value</dt>
+        <dd>
+          <p>Copies the value (instead of a reference) of the selected line of an <a href="../../explorefolder/explorerfolder/bestfolder/outliner.html">outliner</a>. (Alternates with the previous menu item; hold Shift to see it.)</p>
+        </dd>
+        <dt>Paste</dt>
+        <dd>
+          <p>Pastes the clipboard into the current selection in a script.</p>
+        </dd>
+        <dt>Paste As String Literal</dt>
+        <dd>
+          <p>Pastes the clipboard into the current selection in a script, wrapped in quotation marks (unless the insertion point is already inside a string literal). Internal quotation marks, tabs, and line-end characters are escaped.</p>
+        </dd>
+        <dt>Paste Tell</dt>
+        <dd>
+          <p>Presents a hierarchical menu showing the <a href="../../explorefolder/dictionafolder/opendictfolder/dictionariesinsp.html">dictionaries list</a>, from which you can choose an application. Pastes a <a href="../../developfolder/editfolder/editingafolder/tell.html"><code>tell</code> block</a> into the current selection in a script. If no script window is open, or if you hold down the Option key, creates a new script window containing the <code>tell</code> block.</p>
+
+          <p>For a running application, further hierarchical menus allow you to paste a reference to an object in the application&#8217;s <a href="../helpglossaryfolder/objectmodel.html">object model</a>.</p>
+        </dd>
+        <dt>Delete</dt>
+        <dd>
+          <p>Clears the selected text without moving it to the clipboard. Also works on any selectable removable entity (an <a href="../../developfolder/debugfolder/expressi.html">expression</a>, a <a href="../../openingafolder/bundle.html">bundle resource</a>, etc.).</p>
+        </dd>
+        <dt>Select All</dt>
+        <dd>
+          <p>Selects all text in the current selection context.</p>
+        </dd>
+        <dt>Balance</dt>
+        <dd>
+          <p>Selects <a href="../../developfolder/editfolder/editingafolder/balance.html">surrounding delimiters</a> or <a href="../../developfolder/editfolder/editingafolder/block.html">block boundaries</a>.</p>
+        </dd>
+        <dt>Code Folding &gt; Fold / Unfold</dt>
+        <dd>
+          <p><a href="../../developfolder/editfolder/editingafolder/blockfolder/folding.html">Collapses or expands</a> the block containing the selection.</p>
+        </dd>
+        <dt>Code Folding &gt; Unfold All</dt>
+        <dd>
+          <p><a href="../../developfolder/editfolder/editingafolder/blockfolder/folding.html">Expands</a> all collapsed blocks in the script.</p>
+        </dd>
+        <dt>Code Folding &gt; Fold / Unfold Handlers</dt>
+        <dd>
+          <p><a href="../../developfolder/editfolder/editingafolder/blockfolder/folding.html">Collapses or expands</a> all handlers in the script.</p>
+        </dd>
+        <dt>Code Folding &gt; Fold / Unfold Block Comments</dt>
+        <dd>
+          <p><a href="../../developfolder/editfolder/editingafolder/blockfolder/folding.html">Collapses or expands</a> all block comments in the script.</p>
+        </dd>
+        <dt>AppleScriptObjC &gt; &#8230;</dt>
+        <dd>
+          <p>Click <a href="../../developfolder/editfolder/editingafolder/refactoring.html">here</a> to read about AppleScriptObjC refactoring.</p>
+        </dd>
+        <dt>Go to Line</dt>
+        <dd>
+          <p>Presents a <a href="../../developfolder/editfolder/editingafolder/goto.html">dialog</a> allowing you to jump to a line of a script by its <a href="../../developfolder/editfolder/scriptwifolder/viewfolder/linenumb.html">line number</a>.</p>
+        </dd>
+        <dt>Go to Current Line</dt>
+        <dd>
+          <p>Scrolls to the line of a script that has the green arrow in <a href="../../developfolder/debug.html">debug mode</a>.</p>
+        </dd>
+        <dt>Go to Previous / Next Handler</dt>
+        <dd>
+          <p>Selects and scrolls to the start of the next or previous <a href="../../developfolder/editfolder/editingafolder/navigate.html">handler</a> in the script.</p>
+        </dd>
+        <dt>Go to Previous / Next Placeholder</dt>
+        <dd>
+          <p>Selects and scrolls to the next or previous <a href="../../developfolder/editfolder/editingafolder/clipping.html">placeholder</a> in the script.</p>
+        </dd>
+        <dt>Commit Placeholder</dt>
+        <dd>
+          <p>Turns the currently selected <a href="../../developfolder/editfolder/editingafolder/clipping.html">placeholder</a> in the script into normal text.</p>
+        </dd>
+        <dt>Split Editor Vertically / Horizontally</dt>
+        <dd>
+          <p><a href="../../developfolder/editfolder/editingafolder/split.html">Splits</a> the <a href="../../developfolder/editfolder/scriptwi.html">script window</a> editing area.</p>
+        </dd>
+        <dt>Close Split View</dt>
+        <dd>
+          <p>Closes the current <a href="../../developfolder/editfolder/editingafolder/split.html">split pane</a> in the <a href="../../developfolder/editfolder/scriptwi.html">script window</a> editing area.</p>
+        </dd>
+        <dt>Close All Script Views.</dt>
+        <dd>
+          <p>Closes all <a href="../../developfolder/editfolder/editingafolder/split.html">split panes</a> in the <a href="../../developfolder/editfolder/scriptwi.html">script window</a> editing area. (Alternates with the previous menu item; hold Option to see it.)</p>
+        </dd>
+        <dt>Shift Left / Right</dt>
+        <dd>
+          <p>Removes or adds a <a href="../../developfolder/editfolder/editingafolder/shift.html">level of indentation</a> to the lines containing the selection.</p>
+        </dd>
+        <dt>Comment / Uncomment</dt>
+        <dd>
+          <p>Adds or removes a <a href="../../developfolder/editfolder/editingafolder/comment.html">level of comment characters</a> to the start of the lines containing the selection.</p>
+        </dd>
+        <dt>Entab / Detab</dt>
+        <dd>
+          <p>Changes leading indentation to <a href="../../developfolder/editfolder/editingafolder/tab.html">tabs or spaces</a> in the lines containing the selection.</p>
+        </dd>
+        <dt>Start Dictation</dt>
+        <dd>
+          <p>Standard OS X dictation command.</p>
+        </dd>
+        <dt>Emoji &amp; Symbols</dt>
+        <dd>
+          <p>Standard OS X character chooser command.</p>
+        </dd>
+      </dl>
+
+    </div>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="filemenu.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="filemenu.html">File Menu</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="viewmenu.html">View Menu</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="viewmenu.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

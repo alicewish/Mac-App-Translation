@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="Script Debugger can run (and debug) multiple scripts simultaneously." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>Execute</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../run.html">Run</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>Execute</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="executefolder/handlers.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>Script Debugger can run (and <a href="../debugfolder/executew.html">debug</a>) multiple scripts simultaneously. To <strong>execute (run) a script</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Choose Script &gt; Execute.</p>
+      </li>
+      <li>
+        <p>Or, click the Execute button in the toolbar (the second Action button).</p>
+      </li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/executeButton.png" width="48" height="26" alt="image" /></div>
+
+    <p>If the script needs <a href="compile.html">compiling</a>, it is automatically compiled first. If there is a compilation <a href="errors.html">error</a>, the script won&#8217;t run.</p>
+
+    <p><strong>While a script is running</strong>:</p>
+
+    <ul>
+      <li>A circular progress indicator spins at the right end of the title bar.</li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/busyExecuting.png" width="47" height="25" alt="image" /></div>
+
+    <ul>
+      <li>Whenever an Apple event has been sent to an application but the application has not yet replied, the application&#8217;s icon appears at the right end of the title bar. If the Apple event is in danger of timing out, the circular progress indicator changes to a &#8220;pie&#8221; icon tracking the remaining time.</li>
+    </ul>
+
+    <div style="text-align:center"><img src="../../../images/busyExecuting2.png" width="47" height="25" alt="image" /></div>
+
+    <ul>
+      <li>
+        <p>In the <a href="../editfolder/scriptwi.html">script window</a> <a href="../../referencfolder/windowsfolder/toolbar.html">toolbar</a>, the Execute button is disabled, while the Stop button (the first Action button) is enabled.</p>
+
+        <p>You can click Stop, or choose Script &gt; Stop, to <strong>interrupt execution</strong>.</p>
+      </li>
+      <li>
+        <p>In the <a href="../../referencfolder/menusfolder/scriptme.html">Script menu</a>, the Execute menu item changes to Running, is disabled, and has a check mark. Script &gt; Stop is enabled.</p>
+
+        <p>Additionally, if the script is in <a href="../debug.html">debug mode</a>, then when the script is <a href="../debugfolder/executew.html">executing</a>, the <a href="../debugfolder/pause.html">Pause button</a> replaces the Execute button in the toolbar, and Script &gt; Pause is enabled.</p>
+      </li>
+    </ul>
+
+    <p>If the script runs to completion with no runtime <a href="errors.html">error</a>, there is usually a <a href="result.html">result</a>.</p>
+
+    <p>You can run the frontmost script even when you&#8217;re <strong>in a different application</strong>:</p>
+
+    <ul>
+      <li>
+        <p>Use the <a href="../debugfolder/mini.html">Mini Debugger</a> floating window. It displays and lets you control the frontmost script.</p>
+      </li>
+      <li>
+        <p>Script Debugger&#8217;s Dock menu (Control-click its Dock icon) contains Execute and Stop menu items that operate on the frontmost script.</p>
+      </li>
+    </ul>
+
+    <p>Script Debugger helps you run <strong><a href="executefolder/handlers.html">individual handlers</a></strong> in a script.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+<table width="100%">
+<tr>
+<td align="left">
+<table>
+<tr>
+<td class="further" colspan="2">
+<b>Further Details:</b>
+</td>
+</tr>
+<tr>
+<td>&#160;</td>
+<td class="subs">
+<a href="executefolder/handlers.html">Testing Handlers</a><br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="compile.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="compile.html">Compile</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="result.html">Result</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="result.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>

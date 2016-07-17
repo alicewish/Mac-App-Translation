@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="generator" content="RubyFrontier" />
+<meta name="description" content="You can initiate a script outside Script Debugger and still debug it in Script Debugger." />
+
+<link rel="stylesheet" href="../../../stylesheets/styles.css" type="text/css" />
+
+<title>External Debugging</title>
+
+</head>
+<body>
+
+<!-- massive overall div to make css unique -->
+<div class="matt">
+<!-- breadcrumbs start -->
+<div class="breadcrumbs">
+
+<table width="100%">
+<tr>
+<td align="left">
+<b><a href="../../../index.html">Script Debugger Help</a>&#160;&gt; <a href="../../develop.html">Develop</a>&#160;&gt; <a href="../debug.html">Debug</a>&#160;&gt; </b>
+</td>
+<td align="right" style="width:130px">
+
+<b><a href="../../../toc.html">Table of Contents</a></b>
+
+</td>
+</tr>
+</table>
+
+</div>
+<!-- breadcrumbs end -->
+<br />
+<!-- titlebar start -->
+<div class="titlebar">
+<table cellspacing="0" width="100%">
+<tr>
+<td style="width:16px">
+
+<img src="../../../images/AppIcon.png" width="50" height="50" style="max-width:inherit" alt="image" />
+
+</td>
+<td>
+<h2>External Debugging</h2>
+</td>
+<td style="width:40px; vertical-align:middle">
+<a href="mini.html"><img src="../../../images/trueNext2.png" width="39" height="31" alt="image" /></a>
+</td>
+</tr>
+</table>
+</div>
+<!-- titlebar end -->
+<br />
+
+
+<!-- body start -->
+<div class="heart">
+
+    <p>You can <strong>initiate a script outside Script Debugger</strong> and still <a href="../debug.html">debug</a> it in Script Debugger. The script opens in Script Debugger and you can <a href="pause.html">pause</a> at <a href="breakpoi.html">breakpoints</a>, <a href="executew.html">resume</a> or <a href="step.html">step</a> through the script, and so forth. This is called <strong>external debugging</strong>.</p>
+
+    <blockquote>
+      <p>External debugging is probably the only situation where it makes sense to save a script in <a href="../debug.html">debug mode</a> and yet permit it to run in some application other than Script Debugger!</p>
+    </blockquote>
+
+    <p>It is often easier to use external debugging and test a script under the conditions in which it will actually run than to try to simulate those conditions artificially. A good candidate for external debugging is an applet, a folder action, an Apple Mail rule script, a BBEdit menu item script, or any script that is to be triggered automatically by some other application. External debugging is especially useful when parameters are supplied as part of the call that triggers the script, since it shows you what those parameters are.</p>
+
+    <p>It often happens that the host application triggers the script by calling into a handler. In that case, this handler becomes the <a href="../runfolder/executefolder/handlers.html">current event</a>. The current event indicator appears at the top of the script, and the call is recorded in the event history. You can then subsequently call the same handler again with the same parameters, directly from within Script Debugger.</p>
+
+    <p>To <strong>perform external debugging</strong>:</p>
+
+    <ol>
+      <li>
+        <p><a href="../../openingafolder/save.html">Save</a> a compiled script in <a href="../debug.html">debug mode</a>.</p>
+      </li>
+      <li>
+        <p>Trigger the script in some other application.</p>
+
+        <p>The script opens automatically in Script Debugger if it wasn&#8217;t open already.</p>
+
+        <p>If the script <strong>was already open</strong> in Script Debugger when it is triggered, it <strong>remains open</strong> after it finished. If it <strong>wasn&#8217;t already open</strong> in Script Debugger, then when the script finishes, it <strong>closes</strong>.</p>
+
+        <blockquote>
+          <p>If the script <strong>wasn&#8217;t already open</strong> in Script Debugger beforehand, the name of the script, in the script window&#8217;s title bar, will appear as the name of the host application with &#8220;(Debugging)&#8221; appended to it, as a sign that external debugging is proceeding in a temporary window.</p>
+        </blockquote>
+      </li>
+    </ol>
+
+    <h3 id="switching-the-frontmost-application">Switching the Frontmost Application</h3>
+
+    <p>Various <a href="../../referencfolder/preferencfolder/debugger.html">Execution preferences</a> determine how Script Debugger will behave with regard to pausing, and with regard to bringing itself and the initiating application to the foreground:</p>
+
+    <ul>
+      <li>
+        <p>&#8220;Pause script when external debugging begins.&#8221; If checked, Script Debugger inserts a temporary breakpoint before the first executable line, and pauses there when the host application initiates the script. This gives you a chance to configure breakpoints, for example.</p>
+      </li>
+      <li>
+        <p>&#8220;Restore active application when stepping/continuing.&#8221; If checked, the host application is brought back to the front when resuming after a pause.</p>
+      </li>
+      <li>
+        <p>&#8220;Bring Script Debugger to foreground when scripts pause.&#8221; If checked, Script Debugger is brought to the front when the script pauses.</p>
+      </li>
+      <li>
+        <p>&#8220;Bring Script Debugger to foreground when scripts ends.&#8221; If checked, Script Debugger is brought to the front when the script ends.</p>
+      </li>
+    </ul>
+
+    <p>If you decide that Script Debugger should <em>not</em> bring itself to the foreground, you can still control debugging from within the host application by using the <a href="mini.html">Mini Debugger</a>.</p>
+
+    <h3 id="hands-on-example">Hands-On Example</h3>
+
+    <p>Here&#8217;s an example, using an Apple Mail rule script. A rule script is structured like this:</p>
+
+    <pre><code>using terms from application "Mail"
+    on perform mail action with messages theMessages for rule theRule
+        tell application "Mail"
+            -- <i>do useful things here</i>
+        end tell
+    end perform mail action with messages
+end using terms from
+</code></pre>
+
+    <p>Compile that script, put it in debug mode, place a breakpoint on the &#8220;<code>tell</code>&#8221; line, save it, and then (in Mail) nominate this script as the Run AppleScript action in a Rule. Trigger the rule by selecting some messages and choosing Message &gt; Apply Rules. Depending on the choices you made in the <a href="../../referencfolder/preferencfolder/debugger.html">preferences</a>, Script Debugger may now come to the front; in any case, it is paused at the breakpointed line. You can examine <code>theMessages</code> to see what messages Mail has matched up with your rule&#8217;s criteria. Moreover, <code>perform mail action</code> is the current event, and has been added, with these parameters, to the event history.</p>
+
+  </div>
+<!-- body end -->
+<!-- subs start -->
+<div class="subs">
+
+</div>
+<!-- subs end -->
+<br />
+<!-- uplinkIfUpExists() -->
+<!-- nextprevs start -->
+<div class="nextprevs">
+<hr />
+<table width="100%">
+<tr>
+<td align="left" style="width:10px" valign="middle">
+<a href="codecove.html"><img src="../../../images/DWprevious.gif" width="9" height="14" alt="image" /></a>
+</td>
+<td>
+<table width="100%">
+<tr>
+<td align="left" style="width:50%" valign="top">
+<a href="codecove.html">Code Coverage</a>
+</td>
+<td align="right" style="width:50%" valign="top">
+<a href="mini.html">The Mini Debugger</a>
+</td>
+</tr>
+</table>
+</td>
+<td align="right" style="width:10px" valign="middle">
+<a href="mini.html"><img src="../../../images/DWnext.gif" width="9" height="14" alt="image" /></a>
+</td>
+</tr>
+</table>
+
+</div>
+<!-- nextprevs end -->
+
+</div>
+
+</body>
+
+</html>
