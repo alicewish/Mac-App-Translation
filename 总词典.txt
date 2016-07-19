@@ -1682,3 +1682,191 @@ Script Debugger|Script Debugger
 Script Format|脚本格式
 Application Options|应用程序选项
 AppleScriptObjC|AppleScriptObjC
+NO|不
+YES|是
+Array|数组
+Data|数据
+Boolean|布尔
+String|字符串
+Number|数值
+Null|空值
+Saved Property List Browsers|保存的属性列表浏览器
+Rename|重命名
+Open|打开
+Indented|缩进
+Condensed|简明
+File Format:|文件格式：
+JSON formatting:|JSON格式：
+Minimize Window|最小化窗口
+PlistEdit Pro|PlistEdit Pro
+About PlistEdit Pro|关于PlistEdit Pro
+PlistEdit Pro Help|PlistEdit Pro帮助
+Hide PlistEdit Pro|隐藏PlistEdit Pro
+Quit PlistEdit Pro|退出PlistEdit Pro
+Operations|操作
+New Sibling Of Type|新的同级型
+New Child Of Type|新的子类型
+Paste As Child|粘贴为子类
+Sort Keys|排序键
+Sort All Keys|排序所有键
+Save To…|存储为…
+Change the format in which the property list is written to disk|更改属性列表写入磁盘的格式
+Change Format|更改格式
+Binary|二进制
+ASCII|ASCII
+XML|XML
+New Sibling|新建同级
+New Child|新建子类
+Sort Values|排序值
+Sort All Values|排序所有值
+Zoom Window|缩放窗口
+Purchase PlistEdit Pro…|购买PlistEdit Pro…
+Registration…|注册…
+Synchronize the text and outline views|同步文本和大纲视图
+Open Help In Browser|在浏览器中打开帮助
+Visit The PlistEdit Pro Website|浏览The PlistEdit Pro网站
+Favorites|收藏夹
+Browser|浏览器
+Reveal Application|显示应用
+Move To Trash|移到废纸篓
+Launch Application|启动应用程序
+Refresh List|刷新列表
+Show Prefs Browser|显示偏好设置浏览器
+New Property List Browser|新建属性列表浏览器
+Remove From List|从列表中删除
+Validate|验证
+Go to a specific line in the property list text|转到属性列表文本的特定行
+Go To Line…|转到行...
+Edit the selected item's value in a sheet|编辑在工作表中所选项目的值
+Edit Value…|编辑值...
+Select Parent|选择父类
+Definition|定义
+Add Sibling Key|添加同级键
+Add Child Key|添加子类键
+Set To Default Value|设置为默认值
+Change the plist definition being used for the current document|改变当前正在使用的文档的plist定义
+Change Definition|改变定义
+Check For Updates…|检查更新…
+Open Saved Browser|打开保存的浏览器
+Organize Saved Browsers…|整理保存的浏览器...
+New Definition File|新建定义文件
+Sort By Subkey|排序子项
+Show Raw Keys/Values|显示原始键/值
+JSON|JSON
+New Dictionary With Selection|用所选新建字典
+New Array With Selection|用所选新建数列
+View As|查看方式
+Replace and Find Next|替换并查找下一个
+View By Subkey|按子项查看
+OK|好
+Editing %d values|编辑%d值
+Small System Font Text|小型系统字体文本
+Edit Value|编辑值
+Filename|文件名
+Property List Browser|属性列表浏览器
+Content|内容
+Search Scope|搜索范围
+Ends with|结尾
+Starts with|开头
+Equals|等于
+Contains|包含
+Content Find Options|内容查找选项
+Browser Items|浏览器项目
+Search:|搜索：
+Options...|选项​​...
+Top level only|只有顶级
+Ignore case|忽略大小写
+Invert found file set|反转找到的文件集
+Save As Default|保存为默认值
+Done|完成
+--|--
+Values only|仅值
+Shortcut|捷径
+File Type|文件类型
+Valid|有效
+Size|尺寸
+Keys & Values|键与值
+Keys only|仅键
+Class name|类名称
+Localized name|本地化名称
+Value|值
+Display Value|显示值
+Default Value:|默认值：
+Array children class:|数值子类
+Placeholder:|占位符：
+Class|类
+Default child class:|默认子类：
+Default key name:|默认键名：
+Identifying key:|识别键：
+Key|键
+Localized String|本地化的字符串
+Usage|用法
+Required|必须
+Optional|可选
+Deprecated|已过时
+Allowable Values:|允许值：
+<none>|<无>
+Empty|空
+VariantDictionary|VariantDictionary
+Variant Dictionary|变体字典
+Definition name:|定义名称：
+Definition identifier:|定义标识：
+Default array entries:|默认数组项：
+Variant|变体
+Dictionary Class|字典类
+Variant key:|变体键：
+Variant value:|变体值：
+Default Display Type:|默认显示类型：
+Plugin name:|插件名称：
+Plugin identifier:|插件标识符：
+Version:|版本：
+Box|框
+<<do not localize>>|<<do not localize>>
+Automatically update the text whenever a change is made to the outline|大纲更改时自动更新文本
+Update the text to reflect the changes made to the outline|更新文本以反映对大纲所做的更改
+Update the outline to reflect the changes made to the text|更新大纲以反映对文本所做的更改
+Goto|跳转
+Automatically sync text|自动同步文本
+Sync text ↓|同步文本↓
+Sync outline ↑|同步大纲↑
+Goto Line #:|转到行＃：
+Preferences|首选项
+General|通用
+Definitions|定义
+Browsing|浏览
+Extensions|扩展
+Display|显示
+Default class for new objects:|新建对象的默认等级：
+Default property list format:|默认属性列表格式：
+Automatically check for updates|自动检查更新
+Ask to revert when file changes on disk|文件在磁盘上更改时询问恢复
+Install command line tool|安装命令行工具
+Reveal definitions folder|显示定义文件夹
+Add files with extensions:|添加文件，扩展名为：
+=+|=+
+-|-
+When adding files and folders to a browser, only files with the extensions displayed here will be added|当添加文件和文件夹浏览器，文件只在这里显示的扩展将被添加
+Outline font:|轮廓字体：
+Choose...|选择...
+Text font:|文本字体：
+Browser font:|浏览器的字体：
+Color XML tags|为XML标签着色
+Case sensitive|区分大小写
+Numeric|数字
+Use for files with extensions:|适用于带有下述扩展名的文件：
+Use for files with filenames:|适用于带有下述文件名的文件：
+Path:|路径：
+Edit definition|编辑定义
+Type:|类型：
+<<do not localize>.|<<do not localize>.
+Path: %{value1}@|路径: %{value1}@
+Sort options|排序选项
+JSON text formatting|JSON文本格式
+Display as:|显示为：
+Save as:|另存为：
+Remember formatter types by key|按键位记格式化类型
+XML display|XML显示
+When PlistEdit Pro is activated:|当PlistEdit Pro被激活时：
+Do nothing|什么也不做
+Enable autosaving|启用自动保存
+Create a new document|创建一个新文档
