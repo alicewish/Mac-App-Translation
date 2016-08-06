@@ -4385,7 +4385,7 @@
 <integer>292</integer>
 </dict>
 </dict>
-<string>增加标题级别</string>
+<string>提高标题级别</string>
 <string>]</string>
 <string>increaseHeadingLevel:</string>
 <dict>

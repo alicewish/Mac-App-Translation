@@ -158,7 +158,7 @@
 <integer>10</integer>
 </dict>
 <key>NSWindowIsRestorable</key>
-<false/>
+<true/>
 <key>NSWindowRect</key>
 <dict>
 <key>CF$UID</key>
@@ -177,7 +177,7 @@
 <integer>11</integer>
 </dict>
 </dict>
-<string>{{159, 88.5}, {650, 600}}</string>
+<string>{{159, 100}, {650, 600}}</string>
 <string></string>
 <string>TTWindow</string>
 <string>{94, 86}</string>
@@ -249,7 +249,7 @@
 <key>$classname</key>
 <string>NSClassSwapper</string>
 </dict>
-<string>{{0, 0}, {1280, 777}}</string>
+<string>{{0, 0}, {1280, 800}}</string>
 <string>{94, 108}</string>
 <string>{10000000000000, 10000000000000}</string>
 <string>{0, 0}</string>
@@ -413,7 +413,7 @@
 <integer>33</integer>
 </dict>
 <key>NSWindowIsRestorable</key>
-<true/>
+<false/>
 <key>NSWindowRect</key>
 <dict>
 <key>CF$UID</key>
@@ -1507,7 +1507,7 @@ MAA=
 <key>$classname</key>
 <string>NSView</string>
 </dict>
-<string>{{0, 0}, {1280, 777}}</string>
+<string>{{0, 0}, {1280, 800}}</string>
 <string></string>
 <string>exportAlert</string>
 <dict>

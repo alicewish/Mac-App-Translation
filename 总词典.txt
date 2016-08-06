@@ -1933,3 +1933,9 @@ Quick Open…|快速打开…
 Edit Label…|编辑标签...
 Together|Together
 New From Stationery|从文具新建
+Always keep caret in middle|始终保持脱字符号在中间
+Textile|Textile
+More Topics...|更多话题...
+List Indentation|列表缩进
+Indent|缩进
+Outdent|减少缩进
