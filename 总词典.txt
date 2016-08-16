@@ -762,7 +762,7 @@ Next...|下一个...
 Name|名称
 Unicode|Unicode
 Char|Char
-Sub Category|子类别
+Sub Category|子分类
 Components|组件
 Add to Font|添加到字体
 Left|左
@@ -1147,7 +1147,7 @@ Previous Symbol|上一个符号
 Move…|移动…
 Compress "Filename"|压缩“文件名”
 Open With Finder|用Finder打开
-New Folder|新建文件夹
+New Folder|新文件夹
 New File|新建文件
 Upload / Download|上传/下载
 Look Up In Reference Books|在参考中查找
@@ -1939,3 +1939,116 @@ More Topics...|更多话题...
 List Indentation|列表缩进
 Indent|缩进
 Outdent|减少缩进
+Developer|开发人员
+Diagnostics|诊断
+View Edit History|查看编辑历史
+Reload Editor Web View|刷新编辑器Web视图
+Process Current Selection|处理当前所选
+Visualize Layout Constraints|可视化布局限制
+Run Mocha tests in editor web view|在编辑器Web视图下执行摩卡测试
+Dump PDF Compiler input HTML|转储PDF编译器输入HTML
+Dump Word Compiler input HTML|转储WORD编译器输入HTML
+Dump Bibliography HTML|转储参考书目HTML
+Dump Manuscript Template Report|转储Manuscript模板报告
+Log Local Manuscript Database URLs|录入本地Manuscript数据库网址
+Log Edited Section URLs|录入编辑节的网址
+Show Remote Databases for Document|显示文档远程数据库
+All Databases|所有数据库
+Manuscript Database|Manuscript数据库
+Reference Database|参考数据库
+Section Database|节数据库
+Shared Database|共享数据库
+Show Application Support Folder|显示应用程序支持文件夹
+Show Manuscript in Web Browser|在Web浏览器中显示Manuscript
+Show List of Journals|显示期刊列表
+Editorial Services…|编辑服务...
+Request Editing by American Journal Experts…|要求美国期刊专家编辑…
+Request Editing by Editage…|通过Editage请求编辑...
+Manuscripts|Manuscripts
+About Manuscripts|关于Manuscripts
+More Tools for Research|更多的研究工具
+Findings|Findings
+Studies|Studies
+EnzymeX|EnzymeX
+Enter License Code…|输入许可证代码...
+Retrieve Lost License Code…|找回丢失的许可证代码…
+Deactivate License|停用许可证
+Send Manuscripts Feedback|反馈给Manuscript
+Hide Manuscripts|隐藏Manuscript
+Quit Manuscripts|退出Manuscript
+Manuscript with Template…|模板Manuscript...
+Manuscript|Manuscript
+Content...|内容...
+Citation Style (CSL)|引文样式（CSL）
+Bibliography Data…|书目数据...
+From File…|从文件...
+Bookends Library…|Bookends库…
+EndNote Library…|EndNote库…
+Mendeley Library…|Mendeley库…
+Papers 3 Library…|Papers 3库…
+Zotero Library…|Zotero库…
+Repeat Last Import|重复上一次导入
+Reduce File Size|减少文件大小
+Copy As|拷贝为
+Paste As|粘贴为
+Menu will be dynamically populated|菜单将被动态填充
+Edit Manuscript Title|编辑Manuscript标题
+Edit Author List|编辑作者名单
+Section|节
+Move Back|退后
+Move Forward|前进
+Subsection|副节
+Paragraph Break|分段符
+Numbered List|编号列表
+Bullet List|项目符号列表
+Figure Panel|图片面板
+Pre-rendered Table|预渲染表格
+Listing|清单
+Equation|公式
+Inline Equation|内嵌公式
+Symbol|符号
+Cross-reference|交叉引用
+Choose…|选择…
+Citation|引文
+Bibliography|参考书目
+Endnote|尾注
+Highlighted Note|高亮笔记
+Make Plain Text|制作纯文本
+Body Text|正文文本
+Refresh Citations|刷新引文
+Refresh Cross-references|刷新交叉引用
+All Sections|所有节
+Selected Sections|所选节
+Enter Annotation Mode|进入注释模式
+Previous Section|上一节
+Next Section|下一节
+Show Outline|显示大纲
+Show Status Bar|显示状态栏
+Show Word and Character Counts|显示词数和字符计数
+Text Size|字体大小
+Increase Text Size|增大字体大小
+Decrease Text Size|缩小字体大小
+Return to Default Text Size|回到默认的文本大小
+Show Smart Gutter|显示智能分隔
+Submit to Journal…|提交给期刊…
+Show Bibliography Data|显示书目数据
+Open Bookends Bibliography Search|打开Bookends书目检索
+Purchase Manuscripts Unlimited License…|购买Manuscripts无限许可...
+Manuscripts Help|Manuscripts帮助
+Manuscripts Knowledge Base|Manuscripts知识库
+Request Support|请求支持
+Welcome to Manuscripts…|欢迎使用Manuscripts…
+Contributors|贡献者
+Equations|公式
+Figures|图像
+Share Copy of Manuscript|分享Manuscript副本
+Share as Word Document|分享为Word文档
+Share as Markdown|分享为Markdown
+Share as PDF|分享为PDF
+Insert a copy of the file in the manuscript.|在manuscript中插入文件的副本。
+Manuscript View Controller|Manuscript视图控制器
+Placeholder|占位符
+Tables|表格
+Equation...|公式…
+Figure...|图像…
+Table...|表格…
