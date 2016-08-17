@@ -2296,7 +2296,7 @@
 <integer>141</integer>
 </dict>
 </dict>
-<string>Cut</string>
+<string>剪切</string>
 <string>x</string>
 <string>cut:</string>
 <dict>
@@ -2369,7 +2369,7 @@
 <integer>638</integer>
 </dict>
 </dict>
-<string>立即检查文件</string>
+<string>立即检查文稿</string>
 <string>;</string>
 <string>checkSpelling:</string>
 <dict>
@@ -2951,7 +2951,7 @@
 <integer>197</integer>
 </dict>
 </dict>
-<string>输入时检查拼字</string>
+<string>键入时检查拼写</string>
 <string>toggleContinuousSpellChecking:</string>
 <dict>
 <key>$class</key>
@@ -4736,7 +4736,7 @@
 <integer>332</integer>
 </dict>
 </dict>
-<string>自动校正拼写错误</string>
+<string>自动纠正拼写</string>
 <string>toggleAutomaticSpellingCorrection:</string>
 <dict>
 <key>$class</key>
@@ -5212,7 +5212,7 @@
 <integer>368</integer>
 </dict>
 </dict>
-<string>居中对齐</string>
+<string>中央</string>
 <string>|</string>
 <string>alignCenter:</string>
 <dict>
@@ -6284,7 +6284,7 @@
 <integer>449</integer>
 </dict>
 </dict>
-<string>联系GitHub支持...</string>
+<string>联系GitHub支持…</string>
 <string>showSupport:</string>
 <dict>
 <key>$class</key>
@@ -6356,7 +6356,7 @@
 <integer>657</integer>
 </dict>
 </dict>
-<string>Go to Commit Message</string>
+<string>转到提交信息</string>
 <string>focusCommitMessageField:</string>
 <dict>
 <key>$class</key>
@@ -6469,7 +6469,7 @@
 <integer>462</integer>
 </dict>
 </dict>
-<string>添加本地库...</string>
+<string>添加本地库…</string>
 <string>o</string>
 <string>addLocalRepository:</string>
 <dict>
@@ -6523,7 +6523,7 @@
 <integer>467</integer>
 </dict>
 </dict>
-<string>放弃对选定文件的更改...</string>
+<string>放弃对选定文件的更改…</string>
 <string>discardAllSelectedChanges:</string>
 <dict>
 <key>$class</key>
@@ -7609,7 +7609,7 @@
 <integer>555</integer>
 </dict>
 </dict>
-<string>Go to Filter Repositories</string>
+<string>转到筛选库</string>
 <string>O</string>
 <string>focusFilterRepositoriesField:</string>
 <dict>
@@ -7665,7 +7665,7 @@
 <integer>560</integer>
 </dict>
 </dict>
-<string>创建Pull请求...</string>
+<string>创建Pull请求…</string>
 <string>r</string>
 <string>togglePullRequestView:</string>
 <dict>

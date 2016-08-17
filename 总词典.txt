@@ -3992,6 +3992,9 @@ Since the badges are associated with applications and not windows they are shown
 
 
 
+Go to Commit Message|转到提交信息
+Check for Updates...|检查更新...
+Go to Filter Repositories|转到筛选库
 
 
 
@@ -4048,10 +4051,3 @@ Since the badges are associated with applications and not windows they are shown
 
 
 
-
-
-
-
-Note: When Contexts launches it does not start tracking windows on other spaces until you switch to those spaces once and minimized windows until you unminimize them once.
-Groups and windows can be reordered by dragging them up or down on either the panel or the sidebar.
-IB auto generated at build time for view with ambiguity
