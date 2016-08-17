@@ -3910,3 +3910,117 @@ Principle|Principle
 Distribute|分布
 Close All
 Copy as
+Little Snitch Configuration
+About Little Snitch
+Purchase…
+Register…
+Debug Settings…
+Restart in Permissive Mode…
+Hide Little Snitch Configuration
+Quit Little Snitch Configuration
+Rules
+New Rule…
+New Rule for Selection…
+Duplicate…
+New Profile…
+Backup…
+Import from Backup…
+Restore Factory Defaults…
+Clear Undo History
+Paste to Selection
+Edit Rule…
+Approve
+Search Rules
+Search All Rules
+Spelling…
+Check Spelling as You Type
+All Rules
+Last 24 Hours
+Temporary Rules
+Unapproved Rules
+Background Processes
+Protected Rules
+Global Rules
+System Rules
+Incoming Connections
+Precedence
+Creation Date
+Focus on Rules Affecting Selection
+Show Disabled Rules
+Refresh Rule List
+Select Rule List
+Known Networks
+Little Snitch Help
+Welcome to Little Snitch
+Feedback &amp; Support…
+Diagnostics Report…
+Don’t show this message again
+LucidaGrande
+Debug Settings
+Admin Mode
+Filter factory rules
+Filter hidden rules
+Filter rules for current user
+Read user defaults from daemon
+Read rules from daemon
+Autosave Changes
+Changes to these settings require a restart of the application to take effect.
+Reload Objects
+AdministratorMode
+Little Snitch Configuration
+About Little Snitch
+Purchase…
+Register…
+Debug Settings…
+Restart in Permissive Mode…
+Hide Little Snitch Configuration
+Quit Little Snitch Configuration
+Rules
+New Rule…
+New Rule for Selection…
+Duplicate…
+New Profile…
+Backup…
+Import from Backup…
+Restore Factory Defaults…
+Clear Undo History
+Paste to Selection
+Edit Rule…
+Approve
+Search Rules
+Search All Rules
+Spelling…
+Check Spelling as You Type
+All Rules
+Last 24 Hours
+Temporary Rules
+Unapproved Rules
+Background Processes
+Protected Rules
+Global Rules
+System Rules
+Incoming Connections
+Precedence
+Creation Date
+Focus on Rules Affecting Selection
+Show Disabled Rules
+Refresh Rule List
+Select Rule List
+Known Networks
+Little Snitch Help
+Welcome to Little Snitch
+Feedback &amp; Support…
+Diagnostics Report…
+Don’t show this message again
+LucidaGrande
+Debug Settings
+Admin Mode
+Filter factory rules
+Filter hidden rules
+Filter rules for current user
+Read user defaults from daemon
+Read rules from daemon
+Autosave Changes
+Changes to these settings require a restart of the application to take effect.
+Reload Objects
+AdministratorMode
