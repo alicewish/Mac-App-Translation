@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Special File/Folder Handling</title>
+    <meta name="keywords" content="don't create empty folders, dissect packages, preserve comments, ignore invisibles, resolve aliases, verify copied data, disable safe-copy, basic, basic with verification, custom, options, option panel, preserve extended attributes, auto exclude, only at root level" />
+	<meta name="description" content="The special handling options from the Options panel explained" /></head>
+<body>
+	<div id="navbar">
+		<a href="../index.html">Options</a>
+		<a id="next" href="archivehandling.html"></a>
+	</div>
+
+  <h1>Special File/Folder Handling</h1>
+  <p>You can define how ChronoSync handles special types of files and/or situations using the &quot;Special File/Folder Handling&quot; option group. This panel presents preset handling modes, selected via a popup. There currently are three groups of settings. With &quot;Basic&quot; and &quot;Basic w/ Verification&quot;  the checkbox controls are disabled. If you choose &quot;Custom:&quot;, all the checkbox controls are enabled.</p>
+  <div align="center"><img src="../../../images/specialHandling.jpg" class="screenshot" /></div>
+<div class="box task">
+   	    <ul>
+        <li><span class="label">Basic</span> - Standard file copy, no extra handling.</li>
+        <li><span class="label">Basic w/ Verification</span> - Standard file copy, data is verified, no extra handling.</li>
+        <li><span class="label">Custom</span> - Can select your own options.</li>
+        </ul>
+</div>
+<div class="box task">
+   	    <h2>Special File/Folder Handling options explained:</h2>
+        <p><span class="label">SmartScan (when available)</span> - SmartScan can greatly increase performance when a sync or backup is configured to compare a very large number of files. It is only available for locally attached, fixed storage devices. It is not available for removable media or file servers. There are also a some rules for which it is not available. It works across ChronoAgent connections as long as the target volume is a fixed storage device attached to the ChronoAgent Mac. More details on SmartScan and when it should and should not be used can be found <a href="http://www.econtechnologies.com/smartscan.html">here</a>.<br />
+          <br />
+        NOTE: There are a handful of rules that require metadata that is not stored in the <a href="http://www.econtechnologies.com/chronosync/TN-CS-difference-engine.html">ChronoSync Difference Engine</a> database and thus an OS API needs to be called for each and every file that is being tested. Doing this completely negates the benefits of SmartScan and would, in fact, make sync times much slower.</p>
+  <p><span class="label">Verify copied data</span> - Compare all copied data to the data in the original file. This option is not ideal for initial synchronizations or bootable backups due to the potential for a large number of files being copied. Having this option turned on will cause the synchronization to run slower than normal.</p>
+  <p><span class="label">Disable safe-copy</span> - Bypasses the process of copying files to a temporary file and then deleting the file being replaced after the copy has been safely completed. This is a more dangerous behavior since you risk losing the backed up copy of a file if an error occurs. It is a useful option, however, in cases where the target volume's size is constrained and it cannot accommodate large, temporary files.</p>
+  <p><span class="label">Don't create empty folders</span> - Prevents creation of empty folder hierarchies.</p>
+  <p><span class="label">Package handling</span> - 'Standard' treats packaged files as a whole. 'Merge' attempts to merge changes of the packaged files. 'Dissect' treats packaged folders as regular folders and examines their content.</p>
+  <p><span class="label">Ignore Invisibles</span> - Invisible files and folders will not be scanned if this option is checked.</p>
+                
+                        <p><span class="label">Resolve aliases</span> - Refer to the original item when scanning and copying. Activating this feature will copy the original file and not the alias. &quot;Resolve aliases&quot; should not be checked for most synchronizations and backups and only used in special circumstances. <strong>Only at root level</strong> will only resolve alias files located at the root level of the targets.</p>
+                        
+      <p><span class="label">Auto-exclude new items</span> - New files and folders added to a target will be automatically excluded during the next sync. <strong>Only at root level</strong> will only exclude files located at the root level of the targets.</p>
+
+  <p><span class="label">Preserve comments</span> - Preserves Finder/Spotlight comments associated with files and folders. Note that performing a synchronization with Preserve comments turned on will cause the synchronization to run slower than normal.</p>
+        <p><span class="label">Preserve access control lists</span> - Controls optional ACL preservation on filesystems that support them. It may be possible to preserve ACLs between two systems, especially in agent-based synchronization situations. But, because of different user/group relationships on the two systems, the end result may not be what is expected or desired. This is why you might need to turn this setting OFF.</p>
+        <p><span class="label">Preserve extended attributes</span> - Controls extended attributes on filesystems that support them. Turning this setting OFF will restrict EA preservation in certain scenarios. If restricted, any target that is not connected via ChronoAgent AND is not HFS+ formatted will NOT allow the writing of extended attributes.</p>
+
+
+</div>
+<p class="inform">NOTE: Having &quot;Ignore invisibles&quot; disabled while &quot;Preserve comments&quot; is enabled may be redundant. This is because the invisible '.DSStore' file, which contains the Finder/Spotlight Comments for the files in each folder, will likely get copied.</p>
+</body>
+</html>

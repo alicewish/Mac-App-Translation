@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Reporting &amp; Error Handling</title>
+    <meta name="keywords" content="error handling, reporting, roll-backs, conflicts, display summary, log, detail, ignore extended attributes, access control list, options, options panel" />
+	<meta name="description" content="The error handling options from the Options panel explained" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="../index.html">Options</a>
+		<a id="next" href="specialhandling.html"></a>
+	</div>
+
+  <h1>Reporting &amp; Error Handling</h1>
+  <p>You can define how ChronoSync reports information and/or deals with errors in the &quot;Reporting &amp; Error Handling&quot; option group. Below, the Reporting & Error Handling options are explained:</p>
+  <div align="center"><img src="../../../images/errorHandling.jpg" class="screenshot" /></div>
+<div class="box task">
+   	    <h2>Errors</h2>
+        <p>Choose how errors should be handled:</p>
+        <p><span class="label">Report to User</span> - A sheet will display each time an error is encountered. This sheet requires user interaction. The synchronization will not continue until a selection is made and the sheet is dismissed.</p>
+        <p><span class="label">Skip</span> - Synchronization will resume as normal and nothing will be done with the offending files. If you will not be waiting around, or able to attend to each error that could possibly occur during a synchronization, this is the option you should choose. Once the synchronization is complete, you can browse the log to see the posted errors.</p>
+		<p><span class="label">Exclude</span> - Sometimes an error will repeatedly occur that simply cannot be corrected. For example, a file name may be too long to be synchronized with a target whose file system doesn&#146;t support long file names. In this case, you may quickly and easily &quot;Exclude&quot; the offending file from future synchronizations, if it is deemed unimportant.</p>
+		<p><span class="label">Abort</span> - You can abort the entire process by choosing &quot;Abort&quot;. This gives you a chance to immediately resolve the problem and then re-invoke the synchronization.</p>
+</div>
+<div class="box task">
+   	    <h2>Roll-backs</h2>
+        <p>Date roll-backs occur when the modification date of a file has gone back in time from its previous known setting. Under normal circumstances, this should never happen. It can accidentally happen, though, when you inadvertently replace a new file with an older one or it can also happen if something has gone wrong with clock synchronization between two computers or the system clock setting on your computer. This option will determine how roll-backs should be handled.</p>
+        <p class="inform">Note: This menu is not available if a bidirectional operation is chosen.</p>
+        <p><span class="label">Ask User</span> - A sheet will display each time a roll-back is encountered. This sheet requires user interaction. The synchronization will not continue until a selection is made and the sheet is dismissed.</p>
+        <p><span class="label">Skip</span> - Synchronization will resume as normal and nothing will be done with the offending files. Once the synchronization is complete, you can take care of the roll-back error. If you will not be waiting around, or able to attend to each error that could possibly occur during a synchronization, this is the option you should choose.</p>
+		<p><span class="label">Exclude</span> - Sometimes a roll-back error will repeatedly occur that simply cannot be corrected. In this case, you may quickly and easily &quot;Exclude&quot; the offending files from future synchronizations, if it is deemed unimportant.</p>
+		<p><span class="label">Copy</span> - The file of the source target is automatically copied to the destination target.</p>
+        <p><span class="label">Abort</span> - You can abort the entire process by choosing &quot;Abort&quot;. This gives you a chance to immediately resolve the problem and then re-invoke the synchronization.</p>
+</div>
+<div class="box task">
+   	    <h2>Conflicts</h2>
+        <p>A conflict arises when two files have been determined to have both changed since the time of last synchronization. While one file will likely be more recent than the other, ChronoSync decides to err on the side of caution and flag these files as a conflict. This option will determine how conflicts should be handled.</p>
+        <p class="inform">Note: This menu is only available if a bidirectional operation is chosen.</p>
+        <p><span class="label">Ask User</span> - A sheet will display each time a conflict is encountered. This sheet requires user interaction. The synchronization will not continue until a selection is made and the sheet is dismissed.</p>
+        <p><span class="label">Skip</span> - Synchronization will resume as normal and nothing will be done with the offending files. Once the synchronization is complete, you can take care of the files in conflict. If you will not be waiting around, or able to attend to each error that could possibly occur during a synchronization, this is the option you should choose.</p>
+		<p><span class="label">Exclude</span> - Sometimes a conflict will repeatedly occur that simply cannot be corrected. In this case, you may quickly and easily &quot;Exclude&quot; the offending files from future synchronizations, if it is deemed unimportant.</p>
+        <p><span class="label">Abort</span> - You can abort the entire process by choosing &quot;Abort&quot;. This gives you a chance to immediately resolve the problem and then re-invoke the synchronization.</p>
+        <p><span class="label">Use Newer</span> - If you wish to choose the newer of the two files for each conflict that arises, choose &quot;Use Newer&quot;.</p>
+        <p><span class="label">Use Older</span> - If you wish to choose the older of the two files for  each conflict that arises, choose &quot;Use Older&quot;.</p>
+        <p><span class="label">Use Left</span> - If you wish to choose the left file of the two files that are in conflict, choose &quot;Use Left&quot;.</p>
+        <p><span class="label">Use Right</span> - If you wish to choose the right file of the two files that are in conflict, choose &quot;Use Right&quot;.</p>
+</div>
+<div class="box task">
+        <p><span class="label">Automatic retry before handling errors</span> - If an error occurs during synchronization, ChronoSync will retry twice (if necessary) before an error is reported. Some errors, such as a file in use by other applications, may get cleared up by retrying.</p>
+        <p><span class="label">Display summary after synchronization completes</span> - Displays a completion summary sheet after a synchronization.</p>
+		<p><span class="label">Post more detailed information to the log</span> - Posts extensive entries to the local log.</p>
+		<p><span class="label">Ignore extended attribute and access control list errors</span> - Errors generated when extended attributes and/or access control lists cannot be preserved will be ignored. Some filesystems and servers don't support extended attributes and/or access control lists and, therefore, these errors might be quite common. That is why you would want to ignore them.</p>
+</div>
+</body>
+</html>

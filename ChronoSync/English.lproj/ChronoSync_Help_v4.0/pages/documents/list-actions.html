@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Document List Actions</title>
+    <meta name="keywords" content="document organizer, rename a document, duplicate a document, delete a document, schedule a document, open and trial sync, open and sync, reveal in finder, get info in finder, open other, document list, document window, document preferences, show document organizer, hide document organizer, view document organizer" />
+	<meta name="description" content="An explanation of the actions that can be performed on the documents listed in the Document Organizer." />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Document Organizer</a>
+		<a id="next" href="window-actions.html"></a>
+	</div>
+
+  <h1>Document List Actions</h1>
+  <p>When a document is selected in the list, actions can be performed upon that document by right-clicking (or ctrl-clicking). Doing this will bring up a contextual menu. Here's an explanation of each action:</p>
+  <div align="center"><img src="../../images/list-menu.jpg" class="screenshot" /><br />
+<br /></div>
+<ul style="list-style:none;">
+  	<li><label>Open:</label> 
+    <p>Opens the selected document. When opening a document, ChronoSync will make an attempt to connect to any remote targets. You may also open the selected document by clicking the &quot;Open&quot; button at the bottom of the list.</p>
+  	</li>
+    <li><label>Open &amp; Synchronize:</label>
+    <p>Opens the selected document and runs a synchronization immediately. If opening a container document, all contained documents will get synchronized.</p></li>
+    <li><label>Open &amp; Trial Sync.:</label>
+    <p>Opens the selected documents and performs a trial synchronization immediately on it. Note that this action is not available for container documents.</p></li>
+    <li><label>Schedule...:</label>
+    <p>Opens the "Add Scheduled Synchronization" window. Here you can set up a schedule for the selected document to run. For help on scheduling, browse the <a href="../scheduling/index.html">Scheduling</a> section. Note that if you already have a schedule for this particular document, you are NOT editing the schedule but instead you are adding a new schedule for this document. If this is the case, once saved, you will then have multiple schedules for that document. You may also schedule the selected document by clicking the &quot;Schedule...&quot; button at the bottom of the list.</p>
+    </li>
+    <li><label>Rename...:</label>
+    <p>Invokes the "Rename  Document" sheet where you can specify a new filename for the selected document. Note that any schedule that references this document will be updated accordingly. This action can also be executed by selecting "Rename..." in the "File" menu.</p></li>
+    <li><label>Duplicate...:</label>
+    <p>Invokes the "Duplicate  Document" sheet where you can specify a filename for the duplicate. If no filename is given, " copy" will be appended to the original filename. This action can also be executed by selecting &quot;Duplicate...&quot; in the &quot;File&quot; menu.</p>
+    </li>
+    <li><label>Remove...:</label>
+    <p>Invokes the "Remove or Delete Item" sheet. Here you can choose whether you want to remove the reference to the document (i.e, remove it from the document list) or permanently delete the document (i.e, will be deleted from your hard drive). This action can also be executed by selecting &quot;Delete...&quot; in the &quot;File&quot; menu.</p>
+    </li>
+    <li><label>Reveal in Finder:</label>
+    <p>Reveals the selected document's location in Finder.</p></li>
+    <li><label>Get Info in Finder:</label>
+    <p>Opens a 'Get Info' Finder window for the selected document.</p></li>
+    <li><label>Document Info Popover:</label>
+    <p>When you hover over an item in the list, an 'Info' button will appear to the right of your selection. Clicking it brings up a  window with much more detailed information about the selected document.</p>
+    </li>
+  </ul>
+
+<p>It is good practice to perform file changes in the Document Organizer rather than via Finder. If, for example, you wish to permanently delete a document and you do so in Finder, once ChronoSync determines the document isn't available, it will dim the entry in the documents list. ChonoSync will not remove the entry from the list because it's not sure if it's been deleted or if it's just on a volume that's currently unavailable.
+  If you truly want it out of the documents list, you'll have to perform a &quot;Remove...&quot; on it manually.</p>
+  <p><a name="openother"></a>To open a document that is not currently available in the list, choose "Open Other..." to invoke a file selection dialog for browsing to the desired file.</p>
+</body>
+</html>

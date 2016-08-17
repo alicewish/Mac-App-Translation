@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Synchronizer Operations</title>
+    <meta name="keywords" content="operations, backup, mirror, blind, bidirectional, synchronization, left to right, right to left, bootable">
+	<meta name="description" content="Explanation of synchronizer operations in the Setup panel">
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Setup</a>
+		<a id="next" href="containers.html"></a>
+	</div>
+
+  <h1>Synchronizer Operations</h1>
+  <p>With both targets selected, the next step in setting up a Synchronizer document is to determine the type of operation needed for your synchronization. The operation is selected from the popup menu labeled &#147;Operation&#148; at the very center of the Setup panel. The operation you choose depends entirely on the type of synchronization you wish to perform.</p>
+<div class="box task">
+<h2>Each operation and its function:</h2>
+
+<div style="height:auto; padding: 0px; clear:left;">
+<img src="../../images/RightArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Backup Left-to-right</span><br />
+        The left target will be monitored for changes and compared to the right target. Any changes detected will be copied to the right target. Note: The first time a Backup Left-to-right synchronization is run, files existing on the right target but missing on the left will <strong>not</strong> be deleted from the right target.<br />
+<br />
+</p>
+</div>
+  
+<div style="height:auto; padding: 0px; clear:left;">  
+        <img src="../../images/LeftArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Backup Right-to-left</span><br />
+        The right target will be monitored for changes and compared to the left target. Any changes detected will be copied to the left target. Note: The first time a Backup Right-to-left synchronization is run, files existing on the left target but missing on the right will <strong>not</strong> be deleted from the left target.<br />
+<br />
+</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">
+   <img src="../../images/BiArrows.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />    
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Synchronize Bidirectional</span><br />
+        Both targets will be monitored for changes. Any changes detected will be copied to the opposite target. Note that the first time a bidirectional synchronization is run, files existing on one target and not the other will not be deleted from the other target.<br />
+<br />
+</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">      
+        <img src="../../images/RightBlindArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Blind Backup Left-to-right</span><br />
+        The left target will be monitored for changes. Any changes detected will be copied to the right target. Important: If a file in the right target is modified or deleted, it will <u>not</u> get replaced by the same file in the left target unless the left file has actually changed. Also, the first time a Blind Backup Left-to-right synchronization is run, files existing on the right target but missing on the left will <strong>not</strong> be deleted from the right target.</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">      
+        <img src="../../images/LeftBlindArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Blind Backup Right-to-left</span><br />
+        The right target will be monitored for changes. Any changes detected will be copied to the left target. Important: If a file in the left target is modified or deleted, it will <u>not</u> get replaced by the same file in the right target unless the right file has actually changed. Also, the first time a Blind Backup Right-to-left synchronization is run, files existing on the left target but missing on the right will <strong>not</strong> be deleted from the left target.</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">      
+        <img src="../../images/BiRightArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Mirror Left-to-right</span><br />
+        Files will only be copied left-to-right. If a file on either the left or right target is modified, it will result in the left file overwriting the right file. Note: The first time a Mirror Left-to-right synchronization is run, files existing on the right target but missing on the left <strong>will</strong> be deleted from the right target.<br />
+<br />
+</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">    
+        <img src="../../images/BiLeftArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Mirror Right-to-left</span><br />
+        Files will only be copied right-to-left. If a file on either the left or right target is modified, it will result in the right file overwriting the left file. Note: The first time a Mirror Right-to-left synchronization is run, files existing on the left target but missing on the right <strong>will</strong> be deleted from the left target.<br />
+<br />
+</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">        
+        <img src="../../images/RightBootableArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Bootable Left-to-right</span><br />
+        A bootable copy of the left target will be copied to the right target. Only volumes can be specified for this operation.<br />
+<br />
+<br />
+</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">    
+        <img src="../../images/LeftBootableArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Bootable Right-to-left</span><br />
+        A bootable copy of the right target will be copied to the left target. Only volumes can be specified for this operation.<br />
+<br />
+<br />
+</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">        
+        <img src="../../images/RightBootableMirrorArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Bootable Mirror Left-to-right</span><br />
+        A bootable clone of the left target will be copied to the right target. If a file on either the left or right target is modified, it will result in the left file overwriting the right file. Note: The first time a Bootable Mirror Left-to-right synchronization is run, files existing on the right target but missing on the left <strong>will</strong> be deleted from the right target.<br />
+<br />
+</p>
+</div>
+
+<div style="height:auto; padding: 0px; clear:left;">       
+        <img src="../../images/LeftBootableMirrorArrow.png" width="65" height="65" style="float:left; left:0; top:0; padding-right:20px;" />
+<p style="margin-top:0px; overflow:hidden;"><span class="label">Bootable Mirror Right-to-left</span><br />
+        A bootable clone of the right target will be copied to the left target. If a file on either the left or right target is modified, it will result in the right file overwriting the left file. Note: The first time a Bootable Mirror Right-to-left synchronization is run, files existing on the left target but missing on the right <strong>will</strong> be deleted from the left target.</p>
+</div>
+
+</div>
+<p>Sometimes you may want files you deleted to also be deleted from the opposite target. To do this, turn ON the &#147;Synchronize Deletions&#148; checkbox. When this option is turned ON, ChronoSync will delete files in the opposite target whenever it detects a deletion, keeping the two targets identical. ChronoSync provides special deletion handling in the form of the &quot;Archived replaced files&quot; option, located on the Setup panel. This makes it safe to synchronize deletions without fear of losing your backups.</p>
+</div>
+</body>
+</html>

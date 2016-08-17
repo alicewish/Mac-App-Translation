@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Q&amp;A - Old Files</title>
+    <meta name="keywords" content="rename, moved files, move, synchronize deletions" />
+	<meta name="description" content="Old Files" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">ChronoSync FAQ's</a>
+		<a id="next" href="ts3.html"></a>
+	</div>
+
+   <div class="box links">
+  	<h2>I've renamed some files and moved some others to different folders. Why are my old files still in my backup target?</h2>
+    <p>ChronoSync doesn't recognize a 'Move' or 'Rename' operation. It sees this as a file/folder being deleted in one location and a new file/folder appearing in a new location in the sync tree. If you need to rename or move large files or folders, you can avoid the data transfer by performing the same file/folder rename/move operation on the destination target before syncing. If you do this, then the data won't be transferred. Only file and folder attributes will be synchronized.</p>
+     <p>You must have &#147;Synchronize Deletions&#148; turned on in the Setup panel in order for renamed or moved files to synchronize properly. This instructs ChronoSync to delete the file from the old location and synchronize it to the new location.</p>
+</div>
+</body>
+</html>

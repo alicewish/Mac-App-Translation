@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Q&amp;A - Preserve Comments Notice</title>
+    <meta name="keywords" content="Preserve Comments Notice, options panel" />
+	<meta name="description" content="Preserve Comments Notice" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">ChronoSync FAQ's</a>
+		<a id="next" href="ts20.html"></a>
+	</div>
+
+   <div class="box links">
+  	<h2>I get a &quot;Preserve Comments Notice&quot; in the Options panel. What is this?</h2>
+    <p>This notice informs you that having &quot;Ignore invisibles&quot; disabled while &quot;Preserve comments&quot; is enabled may be redundant. This is because the invisible '.DS_Store file, which contains the Finder/Spotlight Comments for the files in each folder where it resides, will likely get copied if &quot;Ignore invisibles&quot; is OFF. Thus turning 'Preserve comments' ON is potentially redundant since the invisible '.DS_Store file is getting copied regardless. If there are any rules and/or triggers in effect that would result in the .DS_Store file NOT getting copied, then it isn't redundant at all.</p>
+    <p>Mac OS X Leopard does away with the  .DS_Store technique of associated comments with files. Instead they are saved as extended attributes, which ChronoSync preserves. Thus if running Leopard, the &quot;Preserve Comments&quot; setting may be disabled and file/folder comments may still be preserved, regardless of the &quot;Ignore invisibles&quot; setting. Doing so would increase performance. The one exception to this is if you upgraded from Tiger (or older) and had a bunch of old files with comments - these are still using .DS_Store to associate the comments, at least until they are modified under Leopard.</p>
+</div>
+</body>
+</html>

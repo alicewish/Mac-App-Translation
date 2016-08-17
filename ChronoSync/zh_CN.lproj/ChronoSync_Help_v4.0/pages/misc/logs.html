@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Logs</title>
+    <meta name="keywords" content="logs, document logs, scheduler log, log options, mirror, external logs" />
+	<meta name="description" content="Logs in ChronoSync" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Miscellaneous</a>
+	</div>
+
+  <h1>Logs</h1>
+  <p>ChronoSync has the ability to maintain two separate log files - document  and scheduler logs.</p>
+<div class="box task">
+  <h2>Document Logs</h2>
+	<p>To view a document’s log, simply click the “Log” icon in the toolbar. The log for ChronoSync documents provides basic details about the document whenever it performs a synchronization. This includes summary information such as how many files were scanned, how many files were processed (copied) and how many errors may have occurred. The maximum log size is 4 MB. Document logs are available for both Synchronizer and Container documents.</p>
+</div>
+<div class="box task">
+  <h2>Scheduler Logs</h2>
+	<p>To view the scheduler log, simply click the “Log” icon at the upper left of the &quot;Scheduled Documents Manager&quot; window. This log contains a list of every attempt to to execute a scheduled document. The date and time of execution and the name of the document are listed. If any errors occurred, that fact is also reported. If a specific document is generating errors, you must open that document and inspect its own private log to determine what is going wrong.</p>
+</div>
+<p>Each log has the option of mirroring to an external text file.  If you have a document log open and choose &quot;Options&quot;, a sheet will drop down for you to choose a file to mirror the document's log to. Navigate to any location to keep a mirrored copy of your log file. You may also choose to set a maximum log file size.</p>
+<p>You can also view "Errors Only" or "Notices Only" by filtering the entries using the "Filter" menu. When your synchronization is large and it has errors, this is a simple way to view errors quickly, without having to scroll through the other log content.</p>
+<div align="center"><img src="../../images/logOptions.jpg" border="0" class="screenshot" /></div>
+<p class="inform">Note: Log files can grow quickly. Be aware of the size and location of this external file.</p>
+<p>External logs may be viewed by the Console application.</p>
+</body>
+</html>

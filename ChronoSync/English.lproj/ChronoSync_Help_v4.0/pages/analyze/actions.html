@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Analyze Panel Actions</title>
+    <meta name="keywords" content="compare files, restore files, exclude file, exclude folder, include files, include folders, force synchronize, delete files, synchronize selection, refresh file list, analyze, analyze panel, actions, trial synchronize" />
+	<meta name="description" content="Description of the actions available in the Analyze panel" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Analyze</a>
+		<a id="next" href="icons.html"></a>
+	</div>
+
+  <h1>Analyze Panel Actions</h1>
+  <p>Once a set of files is selected, various actions can be performed upon them. These actions can be invoked through the &quot;Actions&quot; menu or you can customize your toolbar to include the action commands on it. Some commands, including the &quot;Exclude&quot; and &quot;Force Synchronize&quot; commands, are saved with the ChronoSync document and used every time a synchronization is run.</p>
+<div class="box task">
+<h2>Available actions in the Analyze panel:</h2>
+   	    <p><span class="label">Compare</span> - This function simply opens the two files in their respective applications. This allows you to compare their contents to each other and is useful for determining which file is the correct one when a conflict arises. You can change what applications are used to compare two files by defining a &quot;<a href="../prefs/helpers.html">Helper Application</a>&quot; in the &quot;Preferences&quot;.</p>
+  <p><span class="label"><a href="restore.html">Restore</a></span> - Restores using the previously copied version of the file with the purpose of recovering lost or damaged files. For example, if a file is designated for a Left-to-right  synchronization, restore will replace the file on the left side with the file on the right side. In the case of bidirectional syncs, you can restore the  file on either target.</p>
+  <p><span class="label">Exclude</span> - ChronoSync will ignore a file if it is excluded. Entire folder branches can be marked for exclusion. This command is saved with the ChronoSync document.</p>
+        <p><span class="label">Include</span> - Includes a file or folder that has been previously excluded.</p>
+        <p><span class="label">Force Synchronize</span> - Overrides the file&#146;s default status and forces it to be synchronized in the specified direction on every synchronization. This command is saved with the ChronoSync document. This can be undone by using the &quot;Reset&quot; action command.</p>
+        <p><span class="label">Force Synchronize (Once)</span> - Overrides the file&#146;s default status and forces it to be synchronized in the specified direction for the next synchronization only. It is automatically reset once the synchronization is performed. This command is saved with the ChronoSync document. This can be undone by using the &quot;Reset&quot; action command.</p>
+        <p><span class="label">Delete From Left/Right...</span> - Deletes a file from the target specified. You can &quot;Delete Immediately&quot;, &quot;Move to Trash&quot;, or, when an Archive is available, &quot;Move to Archive&quot;.</p>
+  <p><span class="label">Reset Direction</span> - This option is available after a force synchronized option was chosen. It will reset the file-pair status so that a forced synchronization will not occur.</p>
+        <p><span class="label">Synchronize Selection</span> - Only the selected file-pair(s) will be immediately synchronized.</p>
+        <p><span class="label">Trial Synchronize Selection...</span> - Only the selected file-pair(s) will be immediately trial synchronized. The trial synchronize sheet will then appear.</p>
+        <p><span class="label">Refresh File List</span> - The state of the files displayed in the outline view will be re-evaluated based on the actual state of the files as stored on disk. This normally happens automatically, but sometimes ChronoSync needs to be told by the user when a filesystem change occurs.</p>
+        <p><span class="label">Show Info in Finder</span> - Opens two 'Get Info' windows, showing file information for both the left and right target file.</p>
+        <p><span class="label">Reveal in Finder</span> - Opens two Finder windows to where the selected file or folder resides.</p>
+        <p><span class="label">Open</span> - If a folder-pair is selected, two Finder windows will open, showing the contents of each folder. If a file-pair is selected, ChronoSync will attempt to open the files. If ChronoSync is unable, an error message will occur.</p>
+</div>
+<p class="inform">Note: All of these actions may be performed on multiple files. Multiple files may be selected by holding down either the SHIFT key or COMMAND key when selecting with your mouse. The SHIFT key will select a range (contiguous) of files/folders, whereas the COMMAND key will select noncontiguous cells.</p>
+
+</body>
+</html>

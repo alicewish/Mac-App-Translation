@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Archive Handling</title>
+    <meta name="keywords" content="archive handling, limit duplicates, purge files, options, compress files, copy files, archive, zip" />
+	<meta name="description" content="The archive handling options from the Options panel explained" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="../index.html">Options</a>
+		<a id="next" href="triggers.html"></a>
+	</div>
+
+  <h1>Archive Handling</h1>
+  <p>ChronoSync can maintain an 'archive', which is a repository of old files that were deleted or replaced during normal synchronization operations. Maintaining an archive is a good way to ensure that files, which are accidentally deleted or replaced, can be safely recovered. You can define how ChronoSync handles the archiving of files by using the &quot;Archive Handling&quot; option group.</p>
+  <div align="center"><img src="../../../images/archiveHandling.jpg" class="screenshot" /></div>
+<div class="box task">
+   	    <h2>Archive Handling options explained:</h2>
+        <p><span class="label">Limit duplicates in archive...</span> - Older file copies will be removed after the specified, maximum limit is reached.</p>
+        <p><span class="label">Purge files archived...</span> - Older file copies that have resided in the archive longer than the specified time period will be deleted.</p>
+		<p><span class="label">Keep at least...</span> - Ensures a minimum number of files are kept in the archive regardless of how old they are.</p>
+		<p><span class="label">Compress files added to archive</span> - Files added to the archive will receive ZIP compression to reduce space. This has the potential to slow down synchronization performance, depending on the size of the files being compressed.</p>
+        <p><span class="label">Copy files to archive instead of moving them</span>  - Files are copied to the archive instead of being moved. If you receive strange error messages when files are being copied to the archive, this option should be turned ON. Compressing files and copying them to the archive are mutually exclusive since a compress operation is essentially a copy operation, except the data is compressed as it is copied. If you are forced to copy instead of move due to filesystem limitations, you may as well consider the compress option.</p>
+        <p class="inform">Note: Copying files to archive may be time-consuming and should only be done if your destination filesystem does not properly support file-move operations.</p>
+</div>
+</body>
+</html>

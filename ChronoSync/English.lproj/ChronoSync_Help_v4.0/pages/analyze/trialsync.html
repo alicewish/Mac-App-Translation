@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Trial Synchronizations</title>
+    <meta name="keywords" content="trial synchronize, files, folder, information, compare, analyze" />
+	<meta name="description" content="How to rearrange and sort data in the Analyze panel" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Analyze</a>
+	</div>
+
+  <h1>Trial Synchronizations</h1>
+  <p>For peace of mind, run trial synchronizations before synchronizing. Trial synchronizations analyze all the files but don't actually synchronize. Instead, a list of file changes are displayed so you can see what happens before it happens.</p>
+  <p>If you select a file-pair in the window, you can view information on the pair by clicking on the &quot;File/Folder Information&quot; disclosure triangle. With the information provided, you can see basic information for both files as well as the differences (denoted in red). When a file-pair is selected, certain actions can be performed upon these files. These actions are listed below.</p>
+  <p>In the center of the Trial Synchronization window, statistics about the files are listed. Specifically it shows the number of conflicts, deletions and the  which direction the files will be synchronized. There is also a summary of the  number of bytes that will be copied as part of this synchronization.</p>
+  <div align="center"><img src="../../images/trialsync.jpg" class="screenshot" />  </div>
+<div class="box task">
+<h2>Available actions in the Trial Synchronization window and their key equivalents:</h2>
+   	    <p><span class="label">Compare</span> - This function simply opens the two files in their respective applications. This allows you to compare their contents to each other and is useful for determining which file is the correct one when a conflict arises. You can change what applications are used to compare two files by defining a &quot;Helper Application&quot; in the &quot;Preferences&quot;. <strong>Key Equivalent: CMD-I.</strong></p>
+  <p><span class="label">Exclude</span> - ChronoSync will ignore a file if it is excluded. Entire folder branches can be marked for exclusion. This command is saved with the ChronoSync document. This can be undone by using the &quot;Reset&quot; action command. <strong>Key Equivalent: CMD-Down Arrow.</strong></p>
+  <p><span class="label">Force Synchronize</span> - Overrides the file&#146;s default status and forces it to be synchronized in the specified direction on every synchronization.  This can be undone by using the &quot;Reset&quot; action command. <strong>Key Equivalent: OPTION-SHIFT-CMD-Right Arrow (or Left Arrow if forcing left).</strong></p>
+  <p><span class="label">Force Synchronize (Once)</span> - Overrides the file&#146;s default status and forces it to be synchronized in the specified direction for the next synchronization only. It is automatically reset once the synchronization is performed. This can be undone by using the &quot;Reset&quot; action command. <strong>Key Equivalent: OPTION-CMD-Right Arrow (or Left Arrow if forcing left).</strong></p>
+  <p><span class="label">Delete</span> - Deletes a file in one target or deletes both files. Will ask you to choose, if it is not obvious, which file should be deleted. When multiple files are selected, and it isn't obvious, a list appears with each selected file. <strong>Key Equivalent: CMD-K.</strong></p>
+  <p><span class="label">Reset</span> - This option is available after a force synchronized or delete option was chosen. It will reset the file-pair status to its original state. <strong>Key Equivalent: CMD-U.</strong></p>
+  <p><span class="label">Toggle Checkbox</span> - Will toggle the state of the item's checkbox. <strong>Key Equivalent: SPACEBAR.</strong></p>
+  <p><span class="label">Show Info in Finder</span> - Opens a 'Get Info' window showing file information for the selected file or folder.</p>
+  <p><span class="label">Reveal in Finder</span> - Opens a Finder window to where the selected file or folder resides.</p>
+  <p><span class="label">Open</span> - If a folder is selected, a Finder window will open, showing the contents of the folder. If a file is selected, ChronoSync will attempt to open the file. If ChronoSync is unable, an error message will occur.</p>
+</div>
+<p class="inform">Note: Clicking on the checkbox column header will toggle the state of all the checkboxes in the list based on the state of the first entry (i.e. if first entry is OFF, all entries become ON and vice versa).</p>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Q&amp;A - Permission Errors</title>
+    <meta name="keywords" content="permission errors, get info, admin access" />
+	<meta name="description" content="Permission Errors" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">ChronoSync FAQ's</a>
+		<a id="next" href="ts26.html"></a>
+	</div>
+
+   <div class="box links">
+  	<h2>Why am I getting permission errors when I synchronize?</h2>
+    <p>This is the most common error you're likely to encounter. Mac OS X, given its UNIX heritage, enforces ownership and access permissions on every file it manages. Most of the files that you normally access are owned by you and you have no problem synchronizing. Some files, however, are owned by other users of your system and some are owned by the operating system itself. You may not have the ability to see and/or modify these types of files.</p>
+	<p>When you get a permission error, It simply means that you do not have permission to copy the file. It may be because you don't &quot;own&quot; the file or perhaps it's just because you don't have read-access to the file. There are typically three solutions:</p>
+	<ol>
+    	<li>Ignore the error. When you encounter such a file, you should ask yourself if this is really a file that you need to be synchronizing? This is especially true if it is owned by the system. If you choose to ignore the error, we recommend that you &quot;Exclude&quot; the file from synchronization so you don't see the error again.</li>
+        <li>Grant yourself access to the file. Locate the file in question using the Finder and then use the &quot;Get Info&quot; command to raise the permissions of the file to the point that you can access it. If the file is not owned by you, you'll have to provide administrative authorization before doing so. Again, you should ask yourself if this really is a file you need to synchronize before doing this.</li>
+		<li>Connect to: &quot;Local Volumes (Admin Access)&quot; in the Setup panel. This provides full, unrestricted access to all files on any locally connected volume.</li>
+    </ol>
+    </div>
+</body>
+</html>

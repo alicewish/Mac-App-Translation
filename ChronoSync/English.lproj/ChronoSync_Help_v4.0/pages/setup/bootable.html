@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Bootable Backups</title>
+    <meta name="keywords" content="bootable, backup, authenticate, authentication, format, Admin access, startup disk, boot, drive, partition drive">
+	<meta name="description" content="Bootable Backups">
+    
+    <style type="text/css">
+		li p {
+			margin-left: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Setup</a>
+	</div>
+
+  <h1>Bootable Backups</h1>
+  <p>A bootable backup (or clone) is an exact copy of your entire system hard drive. The operating system, applications, your data files and all configuration settings get replicated on the second drive. The advantage of having a bootable backup is that if something goes wrong with your primary system drive, you can boot from the backup drive and be up and running with minimal downtime.</p>
+<div class="box task">
+  <h2>To create a Bootable Backup:</h2>
+	<ol>
+  		<li><p><span class="label">Choose a drive.</span> Bootable backups work with FireWire, USB, and other internal drives.</p></li>
+    	<li><span class="label">Format the drive.</span> Most drives you purchase are formatted for PCs so you need to reformat the drive for your Mac using Disk Utility (/Applications/Utilities/Disk Utility). The format should be "Mac OS Extended (Journaled)". Open &quot;Disk Utility&quot; and choose &quot;Erase&quot;. It is a good idea to choose the format that matches the drive you are cloning (to double-check and find out the format, do a Get Info on your source drive). Next, click on the &quot;Erase&quot; button to reformat. As the name implies this will erase all your data on the drive, so make sure you remove any data you want to save.
+        <p class="inform">Note: It is ABSOLUTELY mandatory that you specify the correct partition map scheme when reformatting the drive. For Intel-based Macs, choose GUID Partition Table.</p>
+   	  </li>
+        <li><span class="label">Set up the ChronoSync document.</span> Change the operation to either "Bootable Backup" or "Bootable Mirror". "Bootable Backup" should be chosen if you want to store other files on your destination drive in addition to the system backup, e.g. a "More Files" folder at the root level. Otherwise, "Bootable Mirror" is generally the preferred choice. If there is an OS image on the external prior to using ChronoSync to create a bootable, you should definitely choose "Bootable Mirror". You can always change the operation back to "Bootable Backup" after the initial sync.<br />
+<br />
+Next, click on the "Choose" button to select the Mac's HD as the &quot;left target&quot; and do the same for the  drive for the &quot;right target&quot;. You can reverse the order if you like. Note that  you cannot select a folder on the drives, you must select the entire drive.  Save the Synchronizer document and always run your backups from the same Synchronizer document. That's it. All the necessary settings will automatically adjust.
+          <p>When you choose a Bootable operation, ChronoSync will prompt you to enter your Admin password. This allows you to access all the files and folders on the system, rather than being restricted to just your 'Home' user files. To authenticate before setting up your Synchronizer document, you can choose “Authenticate...” from the ChronoSync application menu. This menu item is just an option for entering your password instead of waiting for ChronoSync to prompt for the password. Once authenticated, ChronoSync will no longer ask for an Admin password and will allow Admin access to all files until the program is quit.</p>
+<p>A “Deauthenticate” choice appears in the menu after an authentication is complete, in case you decide to no longer have ChronoSync authenticated. You may want to revoke such access, such as in a situation where you are stepping away from your computer with ChronoSync still running and you don't want someone else to sit at the machine and have full access to all files via ChronoSync.</p></li>
+        <li><p><span class="label">Run the backup.</span> Make sure there are no applications running and don't use your Mac while the backup is running.  The initial backup is going to most likely take several hours, depending on the size of the drive, number of files, speed of hardware, etc., so run the backup when you don't need to use your Mac. Click on the &quot;Synchronize&quot; button when you are ready to run the backup.</p></li>
+        <li><span class="label">Give it the boot</span>. After the backup runs, test it out. Restart the Mac and hold down the Option key. When a list of drives appears, choose the new bootable. Your system may run slightly slower since it is not running directly off the internal drive. Check it out but don't actually run any applications. When finished switch back to the internal drive. You can also switch drives in System Preferences under "Startup Disk".</li>
+  	</ol>
+</div>
+  <div class="box task">
+  <h2>A Few Options:</h2>
+  <p><span class="label">Adjustments.</span> You may want to adjust some settings in the &quot;Options&quot; panel. Just make sure you know what you are doing before you make a change.  You can schedule the backup or run it manually. If you are tight on disk space you can adjust the &quot;Archive&quot; option settings.</p>
+  <p><span class="label">Divide up your bootable backup.</span> Running daily backups or multiple daily backups is essential but backing up System files on a daily basis is not practical. To get around this, create two Synchronizer documents: One that backs your System up and one that backs your Users up. First, &quot;Exclude&quot; the Users folder from your bootable backup Synchronizer document. Go to the &quot;Analyze&quot; panel, tunnel to the Users folder, select it and &quot;Exclude&quot; it. Next, create a second Synchronizer document that backs up your Users folder. All the settings are the same except the targets are the User folders, the &quot;Operation&quot; is "Backup Left-to-right", and "Connect to:" is "Local Volumes (Admin access)" for both targets. Run the bootable backup once a week and after software updates. Run the Users backup frequently. <span class="inform">Note: If you do this, wait until after you have performed your initial, full bootable synchronization so that all the user files are placed on the destination drive and you can test it out.</span></p>
+  <p>If you have a lot of space on your drive and want to use the drive for storing other data you have a couple of options:</p>
+  <p><span class="label">Partition your drive.</span> It is ABSOLUTELY mandatory that you specify the correct partition map scheme when reformatting the drive. For Intel-based Macs, choose GUID Partition Table and for PPC-based Macs, choose Apple Partition Map. <a href="http://www.kenstone.net/fcp_homepage/partitioning_tiger.html">Here</a> is an online tutorial to guide you.</strong> You can partition the drive using Disk Utility. When you partition a drive, it divides it up creating multiple drives out of one drive. Then you can select one of the partitions as the bootable and use the other partitions for other uses. <span class="inform">Warning: When you partition drives you must partition them  specifically for Intel-based Macs and Power PC-based Macs (G3, G4, G5). Click on the Options button under Disk Utility under the Partition panel to select your Mac.</span></p>
+  <p><span class="label">Add a folder.</span> Instead of partitioning your Mac you can simply add a folder to the  drive to store more files. Make sure you &quot;Exclude&quot; this folder from your bootable backup Synchronizer document or the next time the synchronization is run, ChronoSync will see the folder on the destination but not the source and it will think that it needs to get deleted.</p>
+  </div>
+</body>
+</html>

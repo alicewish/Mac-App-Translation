@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Connections -- Mappings</title>
+    <meta name="keywords" content="connection, remote, agent, user, group, mappings" />
+	<meta name="description" content="A description of the Mappings panel in Connection Profiles" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Connection Profiles</a>
+	</div>
+
+  <h1>Connections -- Mappings</h1>
+  <p>With InterConneX connections, user and group ID mapping is not supported.<br />
+    <br />
+  Macintosh users have the ability to control who can access, modify, and see their personal files and folders. Every Mac uses a User/Group model to control file security. Every file is owned by a User and associated with a Group. Groups contain multiple users and are an easy way to grant multiple users access to files which they do not own.</p>
+<p>For more reading on users, groups and permissions, check out the following link:<br />
+					    <a href="http://www.macworld.com/article/1049831/tcopermissions.html">http://www.macworld.com/article/1049831/tcopermissions.html</a></p>
+<p>Users and groups simply map to numeric IDs. Each computer can have their own unique set of user/group names and numeric IDs associated with them so that when you copy a file from one computer to another it may lose its identity because the exact same users with the exact same IDs do not exist on each machine. This panel allows you to map different users and groups on each machine to each other. The "Mappings" panel has 3 different mapping modes from you to choose from. The are described below.</p>
+<div class="box task">
+<h2>Mapping Modes:</h2>
+	<ul>
+    	<li><span class="label">None</span> -  With ChronoAgent, user and group ID's will not be mapped across different computers. When mapping is disabled, ChronoSync will maintain the numeric ID for user/group membership, e.g. if a file has a user ownership that translates to an ID of 502 on one machine, it will get copied with an ID of 502 to the other machine, regardless of whether or not a user with an ID of 502 exists on the destination machine. If synchronizing between two computers that have single owners, consider choosing "Basic". If synchronizing between computers with many users (such as a file server), consider using "Advanced".</li>
+      <li><span class="label">Basic</span> - For each local user account, choose a remote user account that will be mapped to it. Multiple local accounts can be mapped to the same remote account.</li>
+        <li><span class="label">Advanced</span> - You may modify the mappings for all accounts on each computer. Mapping is a many-to-many relationship and thus you must edit how each account is mapped on both the local and remote side.</li>
+    </ul>
+</div>
+<div class="box task">
+<h2>Basic Mapping Mode</h2>
+	<p>The Basic mapping mode is rather straightforward. Your local user accounts are listed on the left under "Local User Account". To the right of each account, you'll see a popup menu. These are the user accounts on the remote agent. From the popup, you need to choose the correct user account that maps to your local user account. When you've correctly mapped your user accounts, you can click the "Save" button to save your settings and close the "Mappings" panel. At this time, your connection setup is complete.</p>
+  <div align="center"><img src="../../images/basic_map.jpg" alt="basic mapping" class="screenshot" /></div>
+</div>
+ <div class="box task">
+<h2>Advanced Mapping Mode</h2>
+  	<p>The Advanced mapping mode is much more involved. In this window, there are two panes: Local-to remote mappings and Remote-to-local mappings. &quot;Local-to-remote mappings&quot; refers to the mapping that is performed when copying a file from the local machine TO the remote machine. &quot;Remote-to-local&quot; is the opposite. In some instances, one side of the user/group mapping may be irrelevant. For example, if you use this connection profile only for left-to-right synchronizations and the right target is your remote agent, you only need to define local-to-remote mappings since you will never be copying files FROM the remote target back to the local machine. It doesn't hurt to map both sides, though.</p>
+    <p>By default, ChronoSync tries to establish the most meaningful user/group mapping it can. For example, if the user &quot;jdoe&quot; exists on the local machine, it looks for another user named &quot;jdoe&quot; on the remote machine. If it finds it, the mapping will automatically be established. &quot;jdoe&quot; on each machine can be associated to different numeric IDs and ChronoSync will automatically handle the translation. If another user by the same name doesn't exist, ChronoSync then looks for a matching ID. For example, if the local user named &quot;jdoe&quot; has an ID of 503, CS will look for a remote user whose ID is 503. If it finds it, the mapping will be established. If that fails, the user &quot;jdoe&quot; will be &quot;Not Mapped&quot;.</p>
+<p>Entries that are not mapped are displayed in red. A summary is displayed at the bottom of each mapping list to call attention to the fact that one or more entries may not be mapped. In some cases, it is perfectly acceptable to leave certain users/groups as &quot;Not Mapped&quot;. An example would be various &quot;System&quot; user accounts, such as &quot;xgridcontroller&quot;, that may exist on one computer but not the other. This mismatch would be irrelevant if all that is being synchronized are user-level files such as those in a user's Home folder.</p>
+<p>There is value of mapping to the "unknown" user (&quot;_unknown&quot; in Leopard). In Mac OS X, "unknown" is a special user that is accessible to all user accounts. In situations where you want to backup files from one machine to another and you simply want to make those files accessible to all users on the destination machine, just map the relevant users on the source machine to "unknown" on the destination.</p>
+<p>When you are satisfied with your user mappings, you can click the "Save" button to save your settings and close the "Mappings" panel. At this time, your connection setup is complete.</p>
+    <div align="center"><img src="../../images/advance_map.jpg" alt="advanced mapping" class="screenshot" /></div>
+</div>
+</body>
+</html>

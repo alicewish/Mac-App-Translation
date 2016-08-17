@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Connections -- Security</title>
+    <meta name="keywords" content="connection profile, security, secure connection, encrypted data, encryption, backwards compatible, timeouts, compression, WAN, reconnect, optimal host, throughput" />
+	<meta name="description" content="A description of the General panel in Connection Profiles" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Connection Profiles</a>
+        <a id="next" href="mappings.html"></a>
+	</div>
+
+  <h1>Connections -- Advanced</h1>
+  <p>The Advanced panel contains connection and security options. Connection options allow you to choose data compression or the ability to reconnect if dropped. Security options allow you to better protect your data when synchronizing to an agent.  The wizard at the bottom of the window provides an explanation of how security affects your synchronization. Note that security isn't usually necessary if communicating over a closed, private network.</p>
+<div align="center"><img src="../../images/advanced.jpg" alt="security panel" class="screenshot" /></div>
+<div class="box task">
+<h2>Connection options:</h2>
+  <p><span class="label">Data compression</span> - Uses data compression, if supported. This setting is available for connections to agents and sharespaces.</p>
+  <p><span class="label">Accessed on WAN</span> - Indicates the connection is accessed over a wide area network (WAN) or a relatively low speed network.</p>
+        <p><span class="label">Attempt reconnect on drops</span> - When enabled and if supported by the agent, ChronoSync will attempt to reconnect to the agent if the connection was dropped or lost.</p>
+        <p><span class="label">Optimal host routing</span> - When enabled, ChronoSync will choose the most optimal route for data transfer when multiple routes to the remote host exist.</p>
+        <p><span class="label">Limit throughput to...</span> - Limits the network throughput of the connection to the specified value.</p>
+        
+        
+        <h2>Custom timeouts:</h2>
+        <p><span class="label">Connection</span> - The number of seconds to wait for a response after a connection request has been initiated.</p>
+  <p><span class="label">Name resolution</span> - The number of seconds to try and resolve a service name to a network address.</p>
+        
+        <p><span class="label">Std. Command</span> - The number of seconds to wait for a response after a standard command has been sent to the remote service.</p>
+        <p><span class="label">Async. Command</span> - The number of seconds to wait for a response after an asynchronous command has been sent to the remote service.</p>
+        
+        <h2>Security:</h2>
+  <p><span class="label">Force all data to be encrypted</span> - Determines if communication with the remote agent should be encrypted for enhanced security. Turning this ON will likely slow the synchronization.</p>
+        <p><span class="label">Backwards compatible with older versions of ChronoAgent</span> - When enabled, allows connections to older versions of ChronoAgent that may conform to weaker security standards. When OFF, ChronoSync will require remote ChronoAgents to employ at least the same level of security that is utilized by the current version of ChronoSync. Leaving this OFF is the more secure option but it may require remote ChronoAgents to be updated at the same time as ChronoSync, if a newer version of ChronoSync employs more advanced security techniques.</p>
+</div>
+</body>
+</html>

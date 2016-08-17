@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Notifications</title>
+    <meta name="keywords" content="email, send email, summary, errors & summary, all log entries, only send on errors, send test, options, custom subject" />
+	<meta name="description" content="Notification options from the Options panel explained" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="../index.html">Options</a>
+		<a id="next" href="scripts.html"></a>
+	</div>
+
+  <h1>Notifications</h1>
+<p>Synchronization notifications can give you peace of mind after a synchronization runs. ChronoSync can post notifications to the Notification Center or you can receive notifications in email. Both methods allow you to view a summary of the synchronization and ensure that it was run without errors. Setting an email notification can be especially useful when you want to monitor computers that you don't have direct access to.</p>
+<div align="center"><img src="../../../images/email.jpg" class="screenshot" /></div>
+<div class="box task">
+   	    <h2>Notifications options explained:</h2>
+          <p><span class="label">Send email containing...</span> - An email will be generated  of the synchronization operation and sent to the email address(es) provided. The popup allows you to select the detail level: &quot;a summary&quot;, &quot;errors &amp; summary&quot;, and &quot;all log entries&quot;. Sending a notification can give you peace of mind that your synchronization ran. It can also point out errors so that you may address them.</p>
+        <blockquote><p class="inform">Note: To send emails to multiple addresses, separate the addresses with commas.</p>
+        		<p><span class="label">Only send when errors have occurred</span> - Will only generate an email if errors were encountered during the synchronization.</p>
+        <p><span class="label">Send Test</span> -  Sends a simple email message to the specified address(es) to ensure that they are entered properly and that email has been setup correctly.</p></blockquote>
+        
+        <div style="height:5px;"></div>
+        <hr width="100%" />
+        <div style="height:5px;"></div>
+        
+        <p><span class="label">Post messages via Notification Center</span> - Will post synchronization summary details to the Notification Center.</p>
+        <blockquote><p><span class="label">Only post when errors have occurred</span> - Will only post to the Notification Center if an error was encountered during the synchronization.</p></blockquote>
+        
+        <div style="height:5px;"></div>
+        <hr width="100%" />
+        <div style="height:5px;"></div>
+        
+        <p><span class="label">Push notification to ChronoMonitor with ID</span> - This will send a push notification to the ChronoMonitor app installed on your iPhone. ChronoMonitor’s Receiver ID can be found in the Notifications section of its Settings. Type or paste this ID into the field and push notifications will be sent to your device. To send push notifications to multiple devices, just enter multiple receiver IDs, separated by commas. More information on ChronoMonitor and its notification handling features can be found <a href="http://www.econtechnologies.com/cmpush.html">here</a>.</p>
+  <blockquote><p><span class="label">Only post when errors have occurred</span> - Will only generate a push notification if errors were encountered during the synchronization.</p>
+        <p><span class="label">Send Test</span> -  Sends a simple notification to the specified device(s) to ensure that they are entered properly and that notification has been setup correctly.</p>
+  </blockquote>
+        
+        <div style="height:5px;"></div>
+        <hr width="100%" />
+        <div style="height:5px;"></div>
+        
+  <p><span class="label">Custom notification subjects for this document</span> - Can provide custom subjects for normal notifications and those with errors. Subject lines, especially in emails, call attention to criticial synchronizations that may be failing.</p>
+
+</div>
+<p>ChronoSync defaults to sending email via Apple Mail. If you want to change this, visit the &quot;<a href="../../prefs/general.html">General</a>&quot; panel in &quot;Preferences&quot;. Aside from Apple Mail, there are  other popular clients that are supported.  ChronoSync can also send email directly without using an email client at all.</p>
+</body>
+</html>

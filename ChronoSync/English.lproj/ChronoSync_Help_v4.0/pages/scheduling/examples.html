@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Scheduling Examples</title>
+    <meta name="keywords" content="examples, scheduling intervals, schedule" />
+	<meta name="description" content="Examples of different scheduling scenarios" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Scheduling</a>
+        <a id="next" href="prefs.html"></a>
+	</div>
+
+  <h1>Scheduling Examples</h1>
+  <p>Scheduled synchronizations can be defined to run at very specific intervals at all hours of the day. With ChronoSync, it is simple to set up your schedule to run at any time that you wish. Here are some examples of how you can set up different intervals for scheduling synchronizations.</p>
+<p>The SHIFT and COMMAND (Apple) keys can be of great use when setting up your schedules. If you hold down the SHIFT key, you are able to multi-select an adjacent range of values. If you hold down the COMMAND key, you are able to multi-select  nonadjacent values.</p>
+<div class="box task">
+  <h2>EXAMPLE ONE:<br />
+	  Weekly, on Friday, every other hour at :00 and :30 past:</h2>
+      <div align="center"><img src="../../images/example1.jpg" class="screenshot" /></div>
+<ol>
+  		<li>Select &quot;Weekly&quot; from the &quot;Run Sync.&quot; popup menu.</li>
+    	<li>Select &quot;Friday&quot;.</li>
+        <li>Hold down the COMMAND key. With your mouse, click on &quot;12, 2, 4, 6...&quot; and so on in the &quot;Hours&quot; section.</li>
+        <li>Hold down the COMMAND key. With your mouse, click on &quot;0&quot; and &quot;30&quot; in the &quot;Minutes&quot; section.</li>
+  	</ol>
+</div>
+  <div class="box task">
+  <h2>EXAMPLE TWO:<br />
+      Weekly, on Thursday and Friday, at 6:00, 6:01, 6:02, 6:03, 6:04 and 6:05 p.m.:</h2>
+      <div align="center"><img src="../../images/example2.jpg" class="screenshot" /></div>
+  <ol>
+  		<li>Select &quot;Weekly&quot; from the &quot;Run Sync.&quot; popup menu.</li>
+    	<li>Hold down the COMMAND key. Select &quot;Thursday&quot; and &quot;Friday&quot;.</li>
+        <li>With your mouse, click on &quot;6 PM&quot; in the &quot;Hours&quot; section.</li>
+        <li>Hold down the SHIFT key. With your mouse, click on &quot;0&quot; in the &quot;Minutes&quot; section. Now, click on &quot;5&quot;. Everything in between should become highlighted.</li>
+  	</ol>
+</div>
+<div class="box task">
+  <h2>EXAMPLE THREE:<br />
+      The 7th, 14th, 21st and 28th of every month at 8:00, 8:01, 8:02, 8:50, 8:51 and 8:52 a.m.:</h2>
+      <div align="center"><img src="../../images/example3.jpg" class="screenshot" /></div>
+<ol>
+  		<li>Select &quot;Monthly&quot; from the &quot;Run Sync.&quot; popup menu.</li>
+    	<li>Hold down the COMMAND key. Select &quot;7&quot;, &quot;14&quot;, &quot;21&quot; and &quot;28&quot; in the &quot;Days&quot; section.</li>
+        <li>With your mouse, click on &quot;8 AM&quot;in the &quot;Hours&quot; section.</li>
+        <li>Hold down the SHIFT key. With your mouse, click on &quot;0&quot; in the &quot;Minutes&quot; section. Now, click on &quot;2&quot;. Everything in between should become highlighted. Now hold down the COMMAND key. With your mouse, click on &quot;50&quot;, &quot;51&quot;, and &quot;52&quot;.</li>
+  	</ol>
+</div>
+<p class="inform">Note: To de-select a selection, click on the selection while you have the COMMAND key held down.</p>
+<div class="box task">
+  <h2>Scheduling Options:</h2>
+  		<p><span class="label">Only run if target volumes/agents are available</span> - This item will be scheduled to run at the designated time but if the target volumes or agents are not presently available, it will not run. If this option is left OFF and the targets aren’t available, an error will be generated.</p>
+        <p><span class="label">Prompt user before running</span> - With this option ON, when a scheduled sync comes due, the user is prompted via the Notification Center as to whether or not the sync should be run. The prompt will remain visible until the user answers it, causing all subsequent syncs for the same item to be ignored until answered.</p>
+        <p><span class="label">Run no more than once every...</span> - When a document is scheduled to be run, ChronoSync will check the timestamp on the previously run synchronization. If the set value falls within the elapsed time, the synchronization will not run again.</p>
+        <p><span class="label">Abort if still running at...</span> - When you turn this ON, a time of day must be specified. If the scheduled sync is still running when that time of day is reached, it is suspended. This is intended to halt any long running syncs so they don’t interfere with daily activity, such as an overnight sync that may occasionally take a very long time to complete.</p>
+  <p><span class="label">Retry on errors</span> - If any errors occur during the synchronization, ChronoSync will reschedule the sync to run. Any scheduled item that shows &quot;w/error&quot; next to its last run time would qualify. "Retry on errors" takes precedence over "Run no more than once every...". This is new behavior for version 4.5.</p>
+        <p><span class="label">Interval between retries</span> - The number of minutes to wait before running the scheduled item again after an error. This time delay begins once the synchronization finishes.</p>
+        <p><span class="label">Maximum retry attempts</span> - The maximum number of retry attempts before giving up.</p>
+  	
+</div>
+</body>
+</html>

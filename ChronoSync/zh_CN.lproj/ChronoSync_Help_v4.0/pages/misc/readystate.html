@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Readiness State Messages</title>
+    <meta name="keywords" content="readiness state, errors, warnings, targets, bootable backup, security settings, cannot be located" />
+	<meta name="description" content="Explanation of readiness state messages" />
+    
+    <style type="text/css">
+		td{height:70px; vertical-align:top;};
+	</style>
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Miscellaneous</a>
+        <a id="next" href="logs.html"></a>
+	</div>
+
+  <h1>Readiness State Messages</h1>
+  <p>The list below describes readiness states encountered within the ChronoSync application. These can be found at the bottom of the Synchronizer document. Below, the error message is listed and a brief explanation of and solution for the state is given.</p>
+<div class="box task">
+  <h2><img src="../../images/ReadinessNO.png" width="48" height="48" border="0" />Error Conditions - synchronization cannot commence until addressed.</h2>
+<table>
+  		<tr>
+        	<td width="380" class="label">Both the left and right targets - or the left/right target - have not been specified</td>
+        	<td width="700">To synchronize, you must have both targets selected. To select a  target, click on the "Choose..." button under the target in the &quot;Setup&quot; panel.</td>
+        </tr>
+        <tr>
+            <td class="label">The left and right targets are identical to each other</td>
+   	      <td>If the targets are identical, then no synchronization will be performed since the contents are the same within each target. Choose a different target for the &quot;Left&quot; or &quot;Right Target&quot; by clicking on the "Choose..." button in the &quot;Setup&quot; panel.</td>
+        </tr>
+        <tr>
+        	<td class="label">A bootable backup cannot be created when both target volumes - or the left/right target volume - are  ignoring file ownership</td>
+   	      <td>Bootable backups require preservation of user and group ownership of all files. If the volume(s) are presently ignoring ownership,  this can't be done. To correct the problem, do a "Get Info" on the volume in Finder and uncheck the "Ignore ownership on this volume" setting.</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target's volume is read-only</td>
+        	<td>Since the  target is read-only, nothing can be written to it. Either change the permissions of the  target or select another  target by clicking on the "Choose..." button under the  target in the &quot;Setup&quot; panel.</td>
+        </tr>
+        <tr>
+        	<td class="label">The 'External Script' rule cannot execute script at path ___ on left/right target</td>
+   	      <td>Displayed when a user has an &quot;External Script&quot; rule defined but that script file is not accessible to either the left or right targets. If one of the targets is a remote agent, that script has to be accessible at exactly the same path on the remote machine.</td>
+         </tr>
+         <tr>
+            <td class="label">You cannot specify a target that resides on a file server when connecting to "Local Volumes (Admin Access)". Simply try "Local Volumes" instead</td>
+        	<td>This is displayed when you choose a file server as a target whenever "Local Volumes (Admin Access)" is selected. If you wish to backup a target residing on a file server, choose "Local Volumes" instead.</td>
+        </tr>
+        <tr>
+            <td class="label">The left/right target or both targets cannot be located</td>
+   	      <td>Displayed when ChronoSync cannot locate a target.</td>
+        </tr>
+        <tr>
+            <td class="label">You cannot perform a bootable backup with the current boot volume as your destination</td>
+   	      <td>You have chosen to make a bootable backup but have selected your destination volume to be the same volume that you just booted up from. This is not allowed because it would result in changing the currently running operating system out from underneath itself, leading to major problems.</td>
+        </tr>
+        <tr>
+            <td class="label">A bootable backup cannot be created without admin access to the left/right or both targets</td>
+   	      <td>Displayed when you don't have admin access to a target included in the  synchronization. Admin access must be obtained before a bootable backup of a target can be created.</td>
+        </tr>
+        <tr>
+            <td class="label">Left/Right target security settings and/or agent must be updated</td>
+   	      <td>You need to update ChronoAgent or turn "<a href="../profiles/security.html">Backwards compatible with older versions of ChronoAgent</a>" ON. This setting is located in the Advanced settings for Connection profile setup. If ON, connections to older versions of ChronoAgent that may conform to weaker security standards are allowed. It is recommended, if possible, to update ChronoAgent.</td>
+        </tr>
+  </table>
+</div>
+<div class="box task">
+  <h2><img src="../../images/ReadinessWARN.png" border="0" />Warnings - synchronization can be performed, but there may be problems.</h2>
+  <table>
+  		<tr>
+        	<td width="380" class="label">SmartScan is disabled because the following rules are incompatible</td>
+        	<td width="700">There are a handful of rules that require metadata that is not stored in the <a href="http://www.econtechnologies.com/chronosync/TN-CS-difference-engine.html">ChronoSync Difference Engine</a> database and thus an OS API needs to be called for each and every file that is being tested. Doing this completely negates the benefits of SmartScan and would, in fact, make sync times much slower.</td>
+    </tr>
+        <tr>
+        	<td width="380" class="label">Preserving comments while NOT ignoring invisibles may be redundant and lead to unexpected results</td>
+        	<td width="700">The invisible '.DSStore' file, which contains the Finder/Spotlight Comments for the files in each folder where it resides, will likely get copied if "Ignore Invisibles" is OFF. Thus turning &quot;Preserve Comments&quot; ON is potentially redundant since the invisible '.DSStore' file is getting copied regardless. If there are any rules and/or triggers in effect that would result in the .DSStore file NOT getting copied, then it isn't redundant at all.</td>
+        </tr>
+        <tr>
+            <td class="label">Owner/group membership of some files may not be preserved because you do not have full access to both targets or to the left or right target</td>
+   	      <td>Unrestricted access is required to preserve ownership and permissions of any file not owned by the user. Choosing "Local Volumes (Admin access)" as a connection method will solve this problem for locally attached volumes. In the case of file servers, this problem may not be solvable. Consider installing a ChronoAgent on the remote computer.</td>
+        </tr>
+        <tr>
+        	<td class="label">The left/right target volume is ignoring file ownership which may lead to unexpected owner/group membership of files</td>
+        	<td>Because the  volume is ignoring ownership, any file placed there will appear to be owned by the user that is logged in, regardless of the real ownership of the source file that is copied to it. If this matters, do a "Get Info" on the volume in Finder and uncheck the "Ignore ownership on this volume" setting.</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target volume has a case sensitive filesystem whereas the right target volume doesn't</td>
+        	<td>This could lead to problems because one filesystem treats "Read Me.txt" and "read me.txt" as two different files whereas the other one doesn't. This could lead to unexpected results.</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target volume doesn't support symbolic links whereas the right/left target volume does</td>
+        	<td>Symbolic links are a special kind of file that "point" to other files in the filesystem. Since the  volume doesn't support symbolic links, you will get errors should ChronoSync try to synchronize one. You can create a rule to ignore symbolic links to avoid a bunch of errors but keep in mind that the synchronization wont be 100% exact.</td>
+         </tr>
+         <tr>
+        	<td class="label">Owner/group membership of some files may not be preserved because both targets reside or the left/right target resides on a file server</td>
+        	<td>Few file servers allow unrestricted access for a logged in client to be able to change owner and group membership of files. In general, any file placed on a file server will be owned by the user that logged in to it regardless of the ownership on the local machine. Consider installing a ChronoAgent on the server if this is important.</td>
+         </tr>
+         <tr>
+        	<td class="label">Some attributes and metadata may not be preserved because the left/right target volume is not HFS+ formatted</td>
+        	<td>Mac OS X assigns all sorts of additional information to files and stores it on disk. This additional information is referred to as "metadata". If a filesystem is not HFS formatted, there is no guarantee that all metadata can be preserved. An example is a file's creation date cannot be preserved on PC file systems. There's no real solution for this - you just have to hope for the best.</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target has a restrictive filename length limit</td>
+        	<td>Some files with very long names might not be able to be copied to the specified target. Errors will be generated and you'll have to rename the files if you want them copied.</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target has 'MS-DOS' <a href="http://msdn.microsoft.com/en-us/library/aa365247(VS.85).aspx">file naming restrictions</a></td>
+        	<td>The MS-DOS filesystem (used by Windows PCs) has numerous characters that are considered 'illegal'. These characters are legal on Mac OS X filesystem, thus copying files with these characters in their name will lead to errors. An example is the "\" character. The only option is to rename the files to be PC safe.</td>
+         </tr>
+         <tr>
+        	<td class="label">Both target volumes or only the left/right volumes are getting full</td>
+        	<td>If both volumes reach capacity or just the left or right volumes, ChronoSync will generate errors. You might want to try and free up some disk space. If you're maintaining an archive on that volume, you might want to enable stricter maintenance settings so that it uses less space.</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target folder is nested within the right/left target</td>
+        	<td>This could lead to an "Infinite Synchronizing" situation, eventually failing when the volume is full. Doing this is legitimate only if used in conjunction with exclusions and/or rules that would prevent descending into the destination target folder when scanning the source target folder.</td>
+         </tr>
+         <tr>
+        	<td class="label">Some files might not synchronize because you do not have full access to the left/right target</td>
+        	<td>Displayed when you don't have admin access to a target included in the  synchronization. This simply means that you might not be able to see or read all the files in that target.</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target may have 'MS-DOS' file naming restrictions</td>
+        	<td>Reported for SMB mounted volumes. Such volumes most likely are WIndows servers, in which case the warning applies. However, you may be connected to a Unix box in which case naming restrictions may not apply (depending how SAMBA is configured).</td>
+         </tr>
+         <tr>
+        	<td class="label">The left/right target volume doesn't support extended security (ACLs) whereas the right/left target volume does</td>
+        	<td><a href="http://en.wikipedia.org/wiki/Access_control_list">ACLs</a> are an extended security model that go way beyond the simple rwx permission bits assigned to users/groups/everyone. ACL support was introduced in Tiger, so if you are going Tiger to pre-Tiger (or another OS altogether), files with ACLs will not have those ACLs preserved when copied. Also, even under Tiger & Leopard, ACL support must be enabled on a per-volume basis, so it is quite possible to synchronize with a local hard drive and get this warning.</td>
+         </tr>
+         <tr>
+        	<td class="label">Some file attributes may not be preserved because you have full access to the right/left target but not the left/right</td>
+        	<td>Unrestricted access to both volumes is required to preserve attributes of any file not owned by the user. Choosing "Local Volumes (Admin access)" as a connection method will solve this problem. In the case of file servers, this problem may not be solvable. Consider installing a ChronoAgent on the remote computer.</td>
+         </tr>
+         <tr>
+        	<td class="label">The 'External Script' rule cannot execute with admin privileges on the left/right target (security risk)</td>
+        	<td>You have an External Script rule defined that will execute a script to evaluate trigger conditions. This script will not execute when connecting to the filesystem with Admin Access or to a remote filesystem via ChronoAgent because the script will execute with full root privileges and this would allow malicious sync documents to be created.</td>
+         </tr>
+         <tr>
+        	<td class="label">The partition scheme of the destination drive is/may be different from the source drive</td>
+        	<td>This warning simply calls attention to the fact that the partition maps of the source and destination drives are/may be different. If a partition scheme of ONE of the volumes can't be determined, this warning will occur. It is still possible to synchronize with this warning; you must decide if it's really a problem or not.</td>
+         </tr>
+         <tr>
+        	<td class="label">The right/left target's remote agent is running in demo mode</td>
+        	<td>The selected remote connection is running under demo restrictions. ChronoSync will only be able to scan a maximum of 500 files on this connection. You can purchase ChronoAgent <a href="https://www.econtechnologies.com/osc/shipping.php">here</a>.</td>
+         </tr>
+  </table>
+</div>
+</body>
+</html>

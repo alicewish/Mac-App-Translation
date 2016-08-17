@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>General Preferences</title>
+    <meta name="keywords" content="preferences, general, window size, animation, send emails, behavior, menubar, check for updates, background scheduler, wake system" />
+	<meta name="description" content="General Preferences of ChronoSync" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Preferences</a>
+        <a id="next" href="scheduler.html"></a>
+	</div>
+
+  <h1>General Preferences</h1>
+  <p>There are several settings in the &quot;General&quot; preferences that can be used to set general ChronoSync defaults. Each available setting is described below.</p>
+  <div align="center"><img src="../../images/generalPrefs.jpg" class="screenshot" /></div>
+<div class="box task">
+  <h2>Application Behavior:</h2>
+	<p><span class="label">Launch at login</span> - Launches ChronoSync once login is complete. Hide will hide ChronoSync after it's launched at login.</p>
+        
+        <p><span class="label">Show ChronoSync menu in menubar</span> - Determines whether the ChronoSync menu will be displayed in the menubar. The &quot;Flash menu for notices&quot; option, when enabled, will flash an 'X' in the menubar icon when there is an error in the scheduled synchronization and a exclamation point will flash when an update is available. The &quot;Animate during scheduled syncs&quot; option will animate the menubar icon when a scheduled sync is running.</p>
+    <p><span class="label">Automatically check for updates</span> - Determines if ChronoSync will automatically check for newer versions.</p>
+    <p><span class="label">Keep backup copy of documents</span> - Maintains a backup copy of all Synchronizer and Container documents. The backup copy has a tilde (~) appended to its name. This way, if a Synchronizer document were to somehow get corrupted during a save operation, a backup copy exists from which custom document settings can be salvaged.</p>
+        <p><span class="label">Maintain documents folder</span> - Determines whether or not to maintain a dedicated folder for ChronoSync documents. You can "Choose..." the destination. Enabling this setting dictates whether you will be greeted by a naming sheet when creating new documents.</p>
+  	
+</div>
+  
+<div class="box task">
+  <h2>Window Behavior:</h2>
+  		<p><span class="label">Default Size</span> - Defines the default document size that new documents will open with. The &quot;Current&quot; button will set the default size to the current document's size.</p>
+    	<p><span class="label">Remember size &amp; position</span> - Indicates whether or not the size and position of windows is saved with documents.</p>
+        <p><span class="label">Interface animations</span> - Indicates whether or not various user interface animations should be displayed.</p>
+        <p><span class="label">Refresh archive outline on activate</span> - Expanded entries in the &quot;Archive&quot; panel will refresh when switching from another application to ChronoSync.</p>
+        <p><span class="label">'Resume' document windows</span> - Previously opened document windows will automatically open if enabled. This setting is only available on Mac OS X 10.7 (&quot;Lion&quot;) or later.</p>
+        <p><span class="label">Always show Document Organizer on launch</span> - When enabled, will display the Document Organizer window on every launch except when running a scheduled synchronization.</p>
+        <p><span class="label">Auto-show/hide the Document Organizer</span> - Will automatically show/hide as you open documents or switch applications.</p>
+        <p><span class="label">Compact toolbars</span> - The document editor and log windows will use a compact-style toolbar. This is only available for Mac OS X 10.10 and later.</p>
+  
+</div>
+
+<div class="box task">
+  <h2>Synchronization Behavior:</h2>
+  		<p><span class="label">Play sound on success</span> - Plays a sound when a synchronization successfully completes.</p>
+        <p><span class="label">Play sound on failure</span> - Plays a sound when a synchronization fails to complete without errors.</p>
+        <p><span class="label">Play attention sound</span> - Plays a sound when the user's attention is required.</p>
+        <p><span class="label">Send emails via</span> - The method in which email notifications are sent. ChronoSync defaults to sending email via Apple Mail. Aside from Apple Mail, there are  other popular clients that are supported.  ChronoSync can also send email directly without using an email client at all.</p>
+    <p class="inform">Note: Sounds can be overridden on a per document basis in the <a href="../options/sync/sounds.html">Sounds Option</a> panel.</p>
+</div>
+</body>
+</html>

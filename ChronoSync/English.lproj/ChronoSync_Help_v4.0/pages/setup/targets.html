@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Targets</title>
+    <meta name="keywords" content="targets, custom name, left target, right target, setup panel, local volumes, agent, remote, connect to, operation, target options, smartscan, assert volume ownership, strict volume identification, attempt to mount, aggressive mode" />
+	<meta name="description" content="How to specify targets for a synchronization and their options" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Setup</a>
+		<a id="next" href="operations.html"></a>
+	</div>
+
+  <h1>Targets</h1>
+  <p>ChronoSync allows you to choose both a left target and a right target. A target is simply a collection of files that will be synchronized. It is typically a folder but can be an entire hard drive. It can also be a package.</p>
+<div class="box task">
+<h2>To choose the target you would like to synchronize:</h2>
+  	<ol>
+   	    <li>Click on the respective &quot;Choose...&quot; button in the Setup panel.</li>
+        <li>A file selection sheet will appear where you can browse through folders, choosing the one you would like.</li>
+        <li>After making your selection, you&#146;ll notice the file path that was just chosen appears in the outlined box of the appropriate target.</li>
+  	</ol>
+</div>
+<p>Additionally, ChronoSync supports drag and drop. Open a Finder window or select a folder, or volume, from your desktop and drag it to the desired target. You can drop the folder, resulting in the file path appearing in the appropriate box. You may also drag in a volume icon if you wish to synchronize an entire hard drive.</p>
+<div align="center"><img src="../../images/specifyTargets.jpg" class="screenshot" /></div>
+
+<p>ChronoSync provides options for mounting targets. These options vary depending on whether you've mounted a locally attached drive or a network share.</p>
+<div class="box task">
+<h2>Mounting Options Explained:</h2>
+		<p><span class="label">Strict volume identification: </span>If the source and destination have the same name, you can turn this setting ON and ChronoSync will differentiate the two by comparing several low-level properties.</p>
+        
+        <p><span class="label">Attempt to mount volume/Attempt to mount server: </span>If this setting is checked, ChronoSync will attempt to mount the volume or server when the document loads (and if the volume or server is available).</p>
+        
+        <p><span class="label">Only when synchronizing: </span>The mount will only be attempted when synchronizing.</p>
+        
+        <p><span class="label">Login As: </span>ChronoSync will attempt to log in to the server with the provided username and password.</p>
+        
+        <p><span class="label">Dismount volume after synchronization/Dismount server after synchronization: </span>If checked, ChronoSync will dismount the volume or server after synchronization completes.</p>
+        
+        <p><span class="label">Only if mounted by this document: </span>The volume or server will only be dismounted if originally mounted by the ChronoSync document.</p>
+        
+        <p><span class="label">Assert volume ownership: </span>Turning this setting ON asserts the setting of the volume's "Ignore ownership" property. This is very handy when you have a system that tends to forget this setting. A couple notes: It will be disabled and forced to ON/Enabled if the sync is a bootable backup. Second, the option is only available if you have root access to the target i.e. "Local Volumes (Admin Access)" or a remote ChronoAgent.</p>
+        
+        <p><span class="label">Allow SmartScan: </span>Enabling this option allows ChronoSync to use the <a href="../options/sync/specialhandling.html">SmartScan feature</a>, if it's available. NOTE: If you intend to use SmartScan, you still need to turn it ON in the file/folder options section of the sync document editor.</p>
+        
+        <p><span class="label">Aggressive Mode: </span>Setting this option causes SmartScan to operate even faster at the expense of disabling some safeguards for recognizing certain kinds of (rare) file system events that may cause SmartScan to miss some changes.</p>
+        
+        <span style="padding-left:270px; padding-right:130px;">Locally Attached Drive Options</span>Network Share Options<br /><div align="center"><img src="../../images/localvolumeoptions.jpg" style="margin-right:20px; margin-top:5px;" class="screenshot" /><img src="../../images/networkshareoptions.jpg" style="margin-bottom:10px;" class="screenshot" /><br />
+      <br /></div>
+</div>
+
+<p>Targets can be custom named. If, for example, you are synchronizing your laptop (left target) to an external drive (right target), you may want to name your tagets laptop and external, respectively.</p>
+<div class="box task">
+<h2>To custom name targets:</h2>
+  	<ol>
+   	    <li>To custom name the left target, click on the left target tab. Note that when your cursor hovers over the tab, a Pencil icon appears. This  indicates that you can edit it.</li>
+        <div align="center"><br /><img src="../../images/target_tab.jpg" class="screenshot" /><br />
+      <br /></div>
+      <li>A &quot;Edit Left Target Name&quot; sheet will drop down.</li>
+        <li>Check the "Use custom name" checkbox and supply the desired name.</li>
+        <div align="center"><br /><img src="../../images/edit_target_name.jpg" class="screenshot" /><br />
+      <br /></div>
+        <li>Once satisfied with the name, click on OK to close the sheet.</li>
+        <li>You'll see the custom name in the tab of the respective target.</li>
+        <div align="center"><br /><img src="../../images/target_named.jpg" class="screenshot" /></div>
+  </ol>
+  <p class="inform">Note: This custom name appears in other areas of ChronoSync as well.</p>
+</div>
+</body>
+</html>

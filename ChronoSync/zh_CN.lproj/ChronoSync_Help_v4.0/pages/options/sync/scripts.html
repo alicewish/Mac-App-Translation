@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Scripts</title>
+    <meta name="keywords" content="scripts, script, pre-synchronization, post-synchronization, options, option panel" />
+	<meta name="description" content="The scripts options from the Options panel explained" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="../index.html">Options</a>
+		<a id="next" href="sounds.html"></a>
+	</div>
+
+  <h1>Scripts</h1>
+  <p>In the &quot;Scripts&quot; section, you can set up scripts to be executed either before or after the synchronization runs. ChronoSync can execute AppleScript files, shell script files and applications as a pre- or post- sync 'script'. In the case of applications, ChronoSync will simply launch the application but will not wait for it to terminate. ChronoSync will patiently wait for the scripts to finish executing before continuing. Check the appropriate box based on when you want a script to run and then select the &#147;Choose...&#148; button to select the script that you would like to run.</p>
+  <div align="center"><img src="../../../images/scripts.jpg" class="screenshot" /></div>
+<div class="box task">
+   	    <h2>Scripts options explained:</h2>
+        <p><span class="label">Pre-Synchronization Script</span> - Will run a script prior to the start of synchronization.</p>
+        <p><span class="label">Abort on script errors</span> - If errors are encountered while running the script, the synchronizer execution will abort.</p>
+        <p><span class="label">Post-Synchronization Script</span> - Will run a script after a synchronization has completed.</p>
+        <p><span class="label">Skip on synchronization errors</span> - If a synchronization error occurred, the selected &#147;post&#148; script will not run.</p>
+		<p>Each script has an associated &quot;Run&quot; button. This allows the scripts to be executed without the need to run the Synchronizer document.</p>
+</div>
+<p class="inform">Note: AppleScripts must be saved as &quot;Script&quot;, not as an application or other format.</p>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Q&amp;A - External Hard Drives</title>
+    <meta name="keywords" content="external hard drive, formatting, format drive, Mac OS Extended, MS-DOS file system, Disk Utility" />
+	<meta name="description" content="External Hard Drives" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">ChronoSync FAQ's</a>
+		<a id="next" href="ts22.html"></a>
+	</div>
+
+   <div class="box links">
+  	<h2>I backup to an external hard drive. How should I format the drive?</h2>
+    <p>Most external drives you purchase are formatted for PCs. If you are only going to use it with your Mac then you should reformat the drive by using "Mac OS Extended (Journaled)". If you are gong to use it with your Mac and a PC then use "MS-DOS file system" format. Here is an <a href="http://www.econtechnologies.com/chronosync/guide-format-hard-drives.html">online guide</a> that explains formatting and partitioning hard drives.</p>
+    <p>There are some limitations to "MS-DOS" file system:</p>
+    <ul>
+    	<li>File naming limitations (lack of support for many special characters).</li>
+        <li>Lack of support for file metadata such as type/creator code, Finder labels, creation date, etc.</li>
+        <li>Lack of support for resource forks (they are 'faked' by creating an invisible counterpart).</li>
+    </ul>
+    <p>To format or reformat a drive you will have to erase it. So before you erase the drive, copy your files to another drive.</p>
+    </div>
+    <div class="box links">
+    <h2>To find out how your drive is formatted:</h2>
+    <ol>
+    	<lI>Open Disk Utility and select the drive.</lI>
+        <li>Click on the Info button.</li>
+    </ol>
+    </div>
+    <div class="box links">
+    <h2>To re-format a drive:</h2>
+    <ol>
+    	<lI>Open Disk Utility and select the drive.</lI>
+        <li>Click on the Erase panel.</li>
+        <li>Choose a format from the Volume Format pop-up menu.</li>
+        <li>Type a name for the volume.</li>
+        <li>Click Erase.</li>
+    </ol>
+    </div>
+</body>
+</html>

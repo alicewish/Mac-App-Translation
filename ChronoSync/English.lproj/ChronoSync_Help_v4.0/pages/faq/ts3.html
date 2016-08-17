@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Q&amp;A - Changing Targets</title>
+    <meta name="keywords" content="change target, switch targets, target panel" />
+	<meta name="description" content="Changing Targets" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">ChronoSync FAQ's</a>
+		<a id="next" href="ts4.html"></a>
+	</div>
+
+   <div class="box links">
+  	<h2>I've setup a Synchronizer document and have been using it to sync my files. Is it safe to change one of my targets to another hard disk?</h2>
+    <p>Generally, no. Once you set up a ChronoSync document it is important to always run your synchronizations from the same document and not switch targets. This is because ChronoSync takes a 'snapshot' of all your files and their various properties. If you switch targets, ChronoSync may behave in an unexpected way. For instance, if synchronize deletions was enabled, and you switched targets, ChronoSync may think you deleted all the files in one target and proceed to delete all the files in the other target!</p>
+	<p>In some cases, it <strong>is</strong> safe to change targets - such as when doing a unidirectional synchronization. However, if you need to start synchronizing files to another location, we strongly suggest creating another Synchronizer document from scratch.</p>
+    </div>
+</body>
+</html>

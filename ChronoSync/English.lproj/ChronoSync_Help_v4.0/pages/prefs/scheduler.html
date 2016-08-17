@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Scheduler Preferences</title>
+    <meta name="keywords" content="preferences, scheduler, missed syncs, email, hide scheduler, sequentially, wake system, background scheduler, notification, chronomonitor" />
+	<meta name="description" content="Scheduler Preferences of ChronoSync" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Preferences</a>
+        <a id="next" href="templates.html"></a>
+	</div>
+
+  <h1>Scheduler Preferences</h1>
+  <p>Several scheduling  options can be found on the Scheduler panel in &quot;Preferences&quot;. Setting these options define the default scheduler behavior applied to every Synchronizer document. These options  are listed below.</p>
+  <div align="center"><img src="../../images/schPrefs.jpg" class="screenshot" /></div>
+<div class="box task">
+  <h2>Scheduling Behavior:</h2>
+  		<p><span class="label">Use background scheduler</span> - Enable this option to run scheduled documents even if ChronoSync is not running.</p>
+    	<p><span class="label">Wake system to synchronize</span> - Enable this option to <em>automagically</em> wake your Mac from sleep when a synchronization is scheduled to occur.</p>
+        <p><span class="label">Run scheduled items sequentially</span> - Enabling this option will allow only one scheduled synchronization to run at a time. When disabled, the scheduled synchronizations will run concurrently. This only applies when two or more synchronizations are scheduled to run at the same time. Sequentially is safer, but concurrently might offer some performance benefits.</p>
+        <p><span class="label">Automatically hide Scheduler window</span> - Determines whether or not the Scheduled Documents Manager window automatically hides itself whenever the application deactivates.</p>
+</div>
+<div class="box task">
+  <h2>Missed Sync Behavior:</h2>
+  		<p>The background scheduler will detect when synchronizations were missed because the computer was off, the user was logged out, or the system was in sleep mode. The three options here tell the background scheduler how to deal with these missed synchronizations. It can either run them immediately, post an error to the scheduler log or, simply ignore them.</p>
+</div>
+<div class="box task">
+  <h2>Notifications:</h2>
+  <p><span class="label">Send email to...</span> - An email will be generated of the scheduled synchronization operation and sent to the email address(es) provided. Sending a notification can give you peace of mind that your synchronization ran. It can also point out errors so that you may address them.</p>
+          <blockquote><p class="inform">Note: To send emails to multiple addresses, separate the addresses with commas.</p>
+        		<p><span class="label">Only send when errors have occurred</span> - Will only generate an email if errors were encountered during the synchronization.</p>
+        <p><span class="label">Send Test</span> -  Sends a simple email message to the specified address(es) to ensure that they are entered properly and that email has been setup correctly.</p></blockquote>
+        
+        <div style="height:5px;"></div>
+        <hr width="100%" />
+        <div style="height:5px;"></div>
+        
+  <p><span class="label">Post messages via Notification Center</span> - Will post synchronization summary details to the Notification Center.</p>
+        <blockquote>
+          <p><span class="label">Only post when errors have occurred</span> - Will only post to the Notification Center if an error was encountered during the scheduled synchronization.</p>
+        </blockquote>
+        
+        <div style="height:5px;"></div>
+        <hr width="100%" />
+        <div style="height:5px;"></div>
+        
+        <p><span class="label">Push notification to ChronoMonitor with ID</span> - This will send a push notification to the ChronoMonitor app installed on your iPhone. ChronoMonitor’s Receiver ID can be found in the Notifications section of its Settings. Type or paste this ID into the field and push notifications will be sent to your device. To send push notifications to multiple devices, just enter multiple receiver IDs, separated by commas. More information on ChronoMonitor and its notification handling features can be found <a href="http://www.econtechnologies.com/cmhelp.html">here</a>.</p>
+<blockquote>
+        <p><span class="label">Only post when errors have occurred</span> - Will only generate a push notification if errors were encountered during the scheduled synchronization.</p>
+        <p><span class="label">Send Test</span> -  Sends a simple notification to the specified device(s) to ensure that they are entered properly and that notification has been setup correctly.</p>
+  </blockquote>
+</div>
+<p>ChronoSync defaults to sending email via Apple Mail. If you want to change this, go to the <a href="general.html">General</a> panel in &quot;Preferences&quot;. Aside from Apple Mail, there are  other popular clients that are supported.  ChronoSync can also send email directly without using an email client at all.</p>
+</body>
+</html>

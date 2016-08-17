@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Sync Triggers</title>
+    <meta name="keywords" content="triggers, sync triggers, basic, basic with attributes, extended, custom, simmple attributes, complex attributes, modification date, allowed time difference, file size, timestamps, finder flags, HFS Type/Creator, bsd flags, Access Permissions, Locked Status, Owner/Group, always trigger, filename case, extended attributes, access control list, ea, acl, comments, options, options panel" />
+	<meta name="description" content="The sync triggers options from the Options panel explained" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="../index.html">Options</a>
+		<a id="next" href="email.html"></a>
+	</div>
+
+  <h1>Sync Triggers</h1>
+  <p>Sync Triggers indicate what file attributes ChronoSync monitors to detect that a file has changed. The most common attribute to monitor is the file's modification date - this date gets updated whenever a file's contents change. When ChronoSync detects a change in modification date, it will synchronize that file. This panel presents preset trigger modes, selected via a popup. There currently are four groups of settings: &quot;Basic&quot;, &quot;Basic w/ Attributes&quot;, &quot;Extended&quot; and &quot;Custom&quot;.</p>
+  <div align="center"><img src="../../../images/syncTriggers.jpg" class="screenshot" /></div>
+<div class="box task">
+   	    <ul>
+        <li><span class="label">Basic</span> - Modification date changes will trigger a synchronization.</li>
+        <li><span class="label">Basic w/ Attributes</span> - Modification date and all simple metadata changes will trigger a synchronization.</li>
+        <li><span class="label">Extended</span> - Modification date, data size, all simple and most complex metadata changes will trigger a synchronization.</li>
+        <li><span class="label">Custom</span> - Can select your own options.</li>
+        </ul>
+</div>
+<div class="box task">
+   	    <h2>Sync Triggers options explained:</h2>
+        <p><span class="label">Modification date (with allowed time difference)</span> - When two files are evaluated, the modification dates of those files are compared to determine if a change has occurred and which file has been changed more recently. The &quot;allowed time difference&quot; indicates the number of seconds difference that must exist between the two files before they are truly considered different.</p>
+        <p><span class="label">File size</span> - Changes in a file's size will synchronize.</p>
+        <p span class="inform">Note: The &quot;Modification date&quot; and &quot;File size&quot; triggers will cause an entire file to get copied. All of the other triggers will result in just the appropriate metadata changes being copied.</p>
+		<p><span class="label">Timestamps</span> - Changes in the creation date  of files or the creation and modification dates of folders will synchronize.</p>
+		<p><span class="label">Finder flags</span> - Attributes such as labels and the extension hiding flag are included in this grouping. There are other attributes but these are the most common. Any changes to these will synchronize.</p>
+        <p><span class="label">HFS type/creator</span> - Changes to HFS Type and Creator codes of a file will synchronize.</p>
+        <p><span class="label">BSD flags</span> - BSD Flags metadata changes of files and folders will synchronize. Examples are opaque, nodump, uchange.</p>
+        <p><span class="label">Access permissions</span> - Changes to the read/write privileges of a file will synchronize.</p>
+        <p><span class="label">Locked status</span> - A file can be either locked or unlocked. If locked, it is protected from changes. Changes to this state will cause a file to be synchronized. This setting is somewhat redundant with BSD flags, but not in all cases.</p>
+        <p><span class="label">Owner/group</span> - User/group ownership of the file will synchronize (requires admin access).</p>
+        <p class="inform">Note: The following &quot;Complex Attributes&quot;  have a performance overhead. Setting them can slow performance.</p>
+        <p><span class="label">Filename case</span> - The upper/lower case changes of the filename will synchronize.</p>
+        <p><span class="label">Extended Attributes</span> - Changes to extended attributes will trigger an attribute synchronization. Extended attributes extend the basic attributes associated with files and directories in the file system. They are stored as name:data pairs associated with file system objects.</p>
+        <p><span class="label">Access Control List</span> - Changes to a file's access control list will trigger an attribute synchronization. Access control lists, or ACLs, are a  way to control file permissions: who can do what to which files.</p>
+        <p><span class="label">Comments</span> - Changes to Finder/Spotlight comments will trigger an attribute synchronization. Under Leopard, this setting may be redundant with Extended Attributes since comments are  stored as extended attributes. Exceptions would be if synchronizing with a non-Leopard machine or synchronizing files that had comments created on a pre-Leopard system (such as prior to upgrading Tiger to Leopard).</p>
+        <p><span class="label">Always Trigger</span> - Forces a file to always be copied. Allows a Synchronizer document to be created whereby the custom rules are the sole determinator of whether or not a file gets copied.</p>
+</div>
+<p>For most general purpose synchronizations, the default settings are adequate.   If you change any of the &quot;Sync Triggers&quot; you should have an understanding of how the corresponding attribute affects your files.</p>
+</body>
+</html>

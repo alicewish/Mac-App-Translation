@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Adding a Schedule</title>
+    <meta name="keywords" content="add schedule, adding schedule, scheduled documents manager, Add Scheduled Synchronization, intervals, run no more than once, retry on errors, interval between retries, prompt user, abort" />
+	<meta name="description" content="How to add a scheduled synchronization" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Scheduling</a>
+        <a id="next" href="editSchedule.html"></a>
+	</div>
+
+  <h1>Adding a Schedule</h1>
+  <p>The scheduler can be used to automatically set up the synchronization of Synchronizer and/or Container documents. You can add as many documents as you would like to the &quot;Scheduled Documents Manager&quot;. You can even schedule the same Synchronizer document several times. They do not have to be open for the synchronization to occur.</p>
+<div class="box task">
+  <h2>Adding current document to scheduler:</h2>
+	<ol>
+  		<li>With the desired document open, choose &quot;Schedule...&quot; in the &quot;Actions&quot; menu. This will create a new scheduled synchronization. A Synchronizer document can be scheduled multiple times. <span class="inform">Note: The document must be saved before you can schedule it.</span></li>
+    	<li>After the &quot;Add Schedule&quot; sheet appears, provide the necessary information to specify the interval.</li>
+        <li>If you are satisfied with this schedule, then choose &quot;OK&quot;.</li>
+        <li>The entry will now appear in the &quot;Scheduled Documents Manager&quot; window.</li>
+  	</ol>
+    <p class="inform">Note: The scheduler may also be invoked by selecting the "Schedule..." option in the toolbar.</p>
+</div>
+  <div class="box task">
+  <h2>Adding a document to the scheduler via the Document Organizer</h2>
+	<ol>
+  		<li>Open the &quot;Document Organizer&quot; window by choosing &quot;Document Organizer&quot; in the &quot;Window&quot; menu.</li>
+   	  <li style="line-height:20px;">Look in the document list and select the document you want to schedule. Note: If there are no documents in the list, you can add them by choosing &quot;Open Other...&quot; and navigating to the document.</li>
+        <li>Once the document is selected, choose &quot;Schedule...&quot;.</li>
+        <li>The &quot;Add Schedule&quot; sheet appears. Provide the necessary information to specify the interval.</li>
+        <li>If you are satisfied with this schedule, then choose &quot;OK&quot;.</li>
+        <li>The entry will now appear in the &quot;Scheduled Documents Manager&quot; window.</li>
+  	</ol>
+</div>
+  
+  <div class="box task">
+  <h2>Adding a non-open document to scheduler</h2>
+	<ol>
+  		<li>Open the &quot;Scheduled Documents Manager&quot; window by choosing &quot;Scheduled Documents Manager&quot; in the &quot;Window&quot; menu. As a shortcut, it may also be opened by choosing the &quot;Open Scheduler&quot; toolbar option.</li>
+    	<li style="line-height:20px;">As a default, the window appears in the top right corner of your screen. To add an entry to it, click on the <img src="../../images/plus.png" alt="" width="21" height="20" align="absmiddle" /> button on the window.</li>
+        <li>After the &quot;Add Schedule&quot; sheet appears, choose the &quot;Choose...&quot; button to navigate to the document you wish to schedule.</li>
+        <li>Provide the necessary information to specify the interval.</li>
+        <li>If you are satisfied with this schedule, then choose &quot;OK&quot;.</li>
+        <li>The entry will now appear in the &quot;Scheduled Documents Manager&quot; window.</li>
+  	</ol>
+  </div>
+  <div align="center"><img src="../../images/addSchedule.jpg" class="screenshot" /></div>
+<div class="box task">
+   	    <h2>Scheduling Options:</h2>
+        <p><span class="label">Only run if target volumes/agents are available</span> - This item will be scheduled to run at the designated time but if the target volumes or agents are not presently available, it will not run. If this option is left OFF and the targets aren’t available, an error will be generated.</p>
+        <p><span class="label">Prompt user before running</span> - With this option ON, when a scheduled sync comes due, the user is prompted via the Notification Center as to whether or not the sync should be run. The prompt will remain visible until the user answers it, causing all subsequent syncs for the same item to be ignored until answered.</p>
+        <p><span class="label">Run no more than once every...</span> - When a document is scheduled to be run, ChronoSync will check the timestamp on the previously run synchronization. If the set value falls within the elapsed time, the synchronization will not run again.</p>
+        <p><span class="label">Abort if still running at...</span> - When you turn this ON, a time of day must be specified. If the scheduled sync is still running when that time of day is reached, it is suspended. This is intended to halt any long running syncs so they don’t interfere with daily activity, such as an overnight sync that may occasionally take a very long time to complete.</p>
+  <p><span class="label">Retry on errors</span> - If any errors occur during the synchronization, ChronoSync will reschedule the sync to run. Any scheduled item that shows &quot;w/error&quot; next to its last run time would qualify. "Retry on errors" takes precedence over "Run no more than once every...". This is new behavior for version 4.5.</p>
+        <p><span class="label">Interval between retries</span> - The number of minutes to wait before running the scheduled item again after an error. This time delay begins once the synchronization finishes.</p>
+        <p><span class="label">Maximum retry attempts</span> - The maximum number of retry attempts before giving up.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Analyze Panel Restore</title>
+    <meta name="keywords" content="restore, analyze, restore from right, restore from left, replace existing items" />
+	<meta name="description" content="How to restore files from the Analyze panel" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Analyze</a>
+		<a id="next" href="functions.html"></a>
+	</div>
+
+  <h1>Analyze Panel Restore</h1>
+  <p>The Analyze Panel Restore function performs an "opposite sync" whereby files are copied in the opposite direction of a standard synchronization with the purpose of recovering lost or damaged files.  In the case of bidirectional syncs, you can restore the  file on either target.</p>
+<div align="center"><img src="../../images/analyze_restore.jpg" class="screenshot" /></div>
+<div class="box task">
+  <h2>Analyze Restore options explained:</h2>
+  		<p><span class="label">Restore only items synchronized by this document</span> - When checked, only items synced by that particular Synchronizer document will be restored. If unchecked, all files that exist on the selected target will be restored to the destination, even if they were not placed there by ChronoSync. <span class="inform">Note that with this option turned on, all rules and exclusions that exist in the document are pertinent and thus rule/explicit excluded files will not be restored. With this setting OFF, however, rules and exclusions have no effect on the restore process.</span></p>
+    	<p><span class="label">Replace existing items</span> - If checked, existing files will be replaced. In the case of trying to recover accidentally deleted files, you would NOT want to have this setting turned ON. With the setting OFF, Restore will only copy back a file if it has no counterpart. This is a safe, quick and convenient way to recover files when you might not know the scope of you data loss an you just want to recover what's missing.</p>
+        <p><span class="label">only if replacing with...version</span> - Replaced files can be limited to only older or newer files.</p>
+  	    
+</div>
+</body>
+</html>

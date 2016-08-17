@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Email Notifications</title>
+    <meta name="keywords" content="rules, rule-base mode, simple, intermediate, advanced" />
+	<meta name="description" content="Rules Overview" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">Rules</a>
+		<a id="next" href="addRules.html"></a>
+	</div>
+
+  <h1>Rules Overview</h1>
+  <p>ChronoSync offers three different modes for the rule-base: &quot;Simple&quot;, &quot;Intermediate&quot;, and &quot;Advanced&quot;. These modes are specified using the &ldquo;Rule-base Mode&ldquo; popup menu at the top of the &quot;Rules&quot; panel.</p>
+  <p>It is important to understand that rules only determine what ChronoSync will consider for synchronization. This means that once a file passes a set of rules, ChronoSync will then examine the file to determine if it should be synchronized. If ChronoSync determines that the file in question has not been modified, it will not be synchronized. For example, it is not possible to create a rule that will always copy files with a &ldquo;.jpg&rdquo; extension regardless of whether or not they have changed (the exception to this is if you have the &quot;Always Trigger&quot; &quot;Sync Trigger&quot; turned ON).</p>
+  <div align="center"><img src="../../images/ruleBaseMode.jpg" class="screenshot" /></div>
+<div class="box task">
+        <p><span class="label">Simple</span> - The &quot;Simple&quot; rule-base mode has five predefined rules in it: &ldquo;Displayed Name&rdquo;, &ldquo;Filename Extension&rdquo;, &ldquo;File Size&rdquo;, &ldquo;Date/Time Last Modified&rdquo; and &ldquo;OS Type/Creator Codes&rdquo;. All five rules are disabled by default. You can enable just the desired rules and supply the necessary criteria. The &quot;Simple&quot; rule-base mode is the quickest and simplest way to introduce rule logic into your synchronizations.</p>
+        		<p><span class="label">Intermediate</span> - The &quot;Intermediate&quot; rule-base mode has no pre-defined rules. Instead, you must explicitly add rules to the rule-base. Unlike &quot;Simple&quot; mode, you have more than five rules to choose from. Furthermore, you can add the same type of rule multiple times (with different criteria, of course). Thus you can add a rule that includes files with a &ldquo;jpg&rdquo; extension and another rule which includes files with a &ldquo;tiff&rdquo; extension. The &quot;Intermediate&quot; rule-base mode uses implied inclusion/exclusion logic. This means that files that pass the rules in the &quot;Intermediate&quot; rule-base mode are considered for synchronization while files that fail the rules are never considered for synchronization.</p>
+        <p><span class="label">Advanced</span> -  The &quot;Advanced&quot; rule-base mode is similar to the &quot;Intermediate&quot; mode in that you can add any
+					  number or variety of rules. It differs from &quot;Intermediate&quot;, however, in that it uses explicit inclusion/exclusion logic. This means that you can independently define rules that determine if a file should be considered for synchronization and/or excluded from or not considered for  synchronization. Otherwise, &quot;Advanced&quot; mode is very similar to &quot;Intermediate&quot; mode.</p>
+</div>
+<p class="inform">Note: If a folder does not pass a rule, ChronoSync will not look inside that folder at other files to see if they pass the rule. ChronoSync will skip the folder and all of its contents.</p>
+</body>
+</html>

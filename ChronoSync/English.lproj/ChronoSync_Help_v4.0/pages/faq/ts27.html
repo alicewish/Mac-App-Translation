@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>	
+	<link href="../../styles/main.css" rel="stylesheet" media="all" />
+	<title>Q&amp;A - Extra Windows Files</title>
+    <meta name="keywords" content="Windows, extra files, Window files" />
+	<meta name="description" content="Extra Windows Files" />
+</head>
+<body>
+	<div id="navbar">
+		<a href="index.html">ChronoSync FAQ's</a>
+		<a id="next" href="../../index.html"></a>
+	</div>
+
+   <div class="box links">
+  	<h2>What are the extra files on the Windows Drive?</h2>
+    <p>Some files on the Mac contain supplemental information that is associated with the file. While the Mac can keep these associations intact, other operating systems (such as Windows) cannot since they are not built to understand such supplemental information. In an attempt to make sure that a file that is copied to another operating system and then back to a Mac, doesn't lose that supplemental information, Apple added a feature to the operating system whereby the supplemental information is split out of the file and saved to a separate file with the same name but with a "._" added to the beginning of the filename. When the file is copied back to the Mac, the "._" file is automatically merged back into its associated file. This automatic splitting and merging is done by the Mac operating system itself, and is not something that ChronoSync has control over.</p>
+    <p>These "._" files originally contained just the resource fork of files on the Mac. However, with Mac OS X 10.4 came the addition of all sorts of new types of supplemental information (metadata, extended attributes, access control lists, etc.) that also gets stored in the "._" files.</p>
+    <p>If the user is annoyed by having all of those extra "._" files on their Windows drive, then the user may wish to delete them. Keep in mind, that none of the data in the associated files will be affected by deleting the "._" files, only the supplemental information will be lost. However, the "._" files should only be deleted if the user is never going to copy the files back to a Mac. This is because the supplemental information would no longer be available when the files were copied back to the Mac, and the Mac may depend on the supplemental information in order to properly make use of the file. Also, the "._" files should not be deleted if the user wishes to use a Mac to directly edit or view the files on the Windows drive. Again, this is because the supplemental information would no longer be available, and the Mac may depend on the supplemental information in order to properly make use of the file.</p>
+    </div>
+</body>
+</html>
