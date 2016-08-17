@@ -1,0 +1,2306 @@
+/* Keyboard Maestro localizable strings */
+
+MWAllMacros								= "All Macros";
+MWAllActions							= "All Actions";
+MWFavoritesActions						= "Favorites";
+
+kmDeleteButton							= "Delete";
+kmCancelButton							= "Cancel";
+kmOKButton								= "OK";
+kmTryButton								= "Try";
+kmTryNButton							= "Try %d Actions";
+kmViewButton							= "View";
+kmMoveButton							= "Move";
+kmSaveButton							= "Save";
+kmRestoreButton							= "Move";
+
+kmEnableContextualMenu					= "Enable";
+kmDisableContextualMenu					= "Disable";
+kmEnableNContextualMenu					= "Enable %d Actions";
+kmDisableNContextualMenu				= "Disable %d Actions";
+
+ACProcessControl						= "Application Control";
+ACInterfaceControl						= "Interface Control";
+ACiTunesControl							= "iTunes Control";
+ACQuickTimePlayerControl				= "QuickTime Player Control";
+ACMailControl							= "Mail Control";
+ACWebBrowserControl						= "%@ Control";
+ACSystemControl							= "System Control";
+ACMIDI									= "MIDI";
+ACOpen									= "Open";
+ACExecute								= "Execute";
+ACWeb									= "Web";
+ACFile									= "File";
+ACImage									= "Image";
+ACText									= "Text";
+ACClipboard								= "Clipboard";
+ACVariables								= "Variables";
+ACActivateSwitcher						= "Switchers";
+ACNotifications							= "Notifications";
+ACControlFlow							= "Control Flow";
+ACKeyboardMaestro						= "Keyboard Maestro";
+ACDebugger								= "Debugger";
+ACPlugIns								= "Third Party Plug Ins";
+
+ACClipboardCut							= "Cut";
+ACClipboardCopy							= "Copy";
+ACClipboardPaste						= "Paste";
+
+ACClipboardToVariable					= "Set Clipboard to Variable";
+ACVariableToClipboard					= "Set Variable to Clipboard";
+ACSetKeychainPasswordToVariable			= "Set Keychain Password to Variable";
+
+ACDeleteCurrentClipboard				= "Delete Current Clipboard";
+
+csBrowserHelpFlavorTypesPrefix			= "Clipboard Content Types: ";
+csBrowserHelpTextPreviewPrefix			= "Text Preview:\r\r";
+
+csCopyActionMessage						= "Copy to the named clipboard:";
+csCutActionMessage						= "Cut to the named clipboard:";
+csPasteActionMessage					= "Paste from the named clipboard:";
+
+csHistoryActionMessage					= "Paste from the clipboard history:";
+NonTextClipboardMD5Format				= "Non-Text Clipboard %@";
+
+csInsertNewClipDataItem					= "< Create New Named Clipboard >";
+csNewClipboardTitleFormat				= "Clipboard #%d";
+csNewClipboardDefaultData				= "Default Clipboard Text";
+DefaultClipboardName					= "Default Clipboard";
+
+csNoClipboardsAvailable					= "No Clipboards Available";
+
+ClipboardHistorySwitcherPasteWindowTitle	= "Clipboard History Switcher";
+ClipboardNamedSwitcherCutWindowTitle		= "Named Clipboard Switcher - Cut";
+ClipboardNamedSwitcherCopyWindowTitle		= "Named Clipboard Switcher - Copy";
+ClipboardNamedSwitcherPasteWindowTitle		= "Clipboard Switcher - Paste";
+
+ReceivedClipboard						= "Received a clipboard";
+SentClipboard							= "Sent clipboard";
+SentClipboardAbandonded					= "Clipboard sending failed (too many retries)";
+
+PreferencesWindowTitle					= "Preferences: %@";
+IconChooserWindowTitle					= "Icon Chooser: %@";
+
+NoClipboardText							= "No Text in Clipboard";
+
+wsWindowSwitchNoWindowsString			= "No Windows Available";
+wsWindowSwitchNoAXAString				= "Accessibility Disabled";
+
+psProgramSwitchNoProgramsString			= "No Applications Available";
+
+kmKeystrokeBadErrorStr					= "Keystroke can not be used.";
+kmKeystrokeBadAlreadyUsedStr			= "The keystroke you have pressed for this hot key conflicts with a hot key in macro ‘%@’.";
+
+ManualSIVCNoNewVersionTitle				= "Keyboard Maestro is up to date.";
+ManualSIVCNoNewVersionStr				= "You are running the current version.";
+
+ManualSIVCErrorTitle					= "The version check failed.";
+ManualSIVCErrorStr						= "An error occurred while trying to check the current version of Keyboard Maestro.";
+
+SIVCTitle								= "Keyboard Maestro Update";
+SIVCHeading								= "A new version of Keyboard Maestro is available.";
+SIVCDescription							= "Keyboard Maestro %@ is now available (you have %@).  Would you like to download and install it now?";
+
+InstallFailedTitle						= "The automatic install failed.";
+InstallFailedStr						= "An error occurred while trying to instal the Keyboard Maestro update, redirecting to the download page.";
+
+MacroGroupAvailableHTML_All					= "Available in all applications.";
+MacroGroupAvailableHTML_Active				= "Available in these applications:";
+MacroGroupAvailableHTML_NotActive			= "Available <strong>except</strong> in these applications:";
+MacroGroupAvailableHTML_Running				= "Available when <strong>any</strong> of these applications are running:";
+MacroGroupAvailableHTML_RunningNotActive	= "Available when not in any but at least one of these applications are running:";
+MacroGroupAvailableHTML_NotRunning			= "Available when <strong>none</strong> of these applications are running:";
+
+MacroGroupActivationNormal				= "Activated always.";
+MacroGroupActivationOnceAfterTrigger	= "Activated for one action when:";
+MacroGroupActivationToggleWithTrigger	= "Activated/deactivated when:";
+MacroGroupActivationOnceWithPalette		= "Shows a palette for one action when:";
+MacroGroupActivationWithPalette			= "Shows/hides a palette when:";
+MacroGroupActivationAlwaysWithPalette	= "Shows a palette until:";
+MacroGroupActivationNormalUnderMouse				= "Activated always.";
+MacroGroupActivationOnceAfterTriggerUnderMouse		= "Activated for one action when:";
+MacroGroupActivationToggleWithTriggerUnderMouse		= "Activated/deactivated when:";
+MacroGroupActivationOnceWithPaletteUnderMouse		= "Shows a palette under mouse for one action when:";
+MacroGroupActivationWithPaletteUnderMouse			= "Shows/hides a palette under mouse when:";
+MacroGroupActivationAlwaysWithPaletteUnderMouse		= "Shows a palette under mouse until:";
+
+MacroGroupFrontWindowCondition_Always						= "Available in all windows.";
+MacroGroupFrontWindowCondition_Exists						= "Available when there is a focused window.";
+MacroGroupFrontWindowCondition_DoesNotExist					= "Available when there is no focused window.";
+MacroGroupFrontWindowCondition_TitleIs						= "Available when the focused window title is “%@”.";
+MacroGroupFrontWindowCondition_TitleIsNot					= "Available when the focused window title is not “%@”.";
+MacroGroupFrontWindowCondition_ExistsButTitleIsNot			= "Available when there is a focused window but its title is not “%@”.";
+MacroGroupFrontWindowCondition_TitleContains				= "Available when the focused window title contains “%@”.";
+MacroGroupFrontWindowCondition_TitleDoesNotContain			= "Available when the focused window title does not contain “%@”.";
+MacroGroupFrontWindowCondition_ExistsButTitleDoesNotContain	= "Available when there is a focused window but its title does not contain “%@”.";
+MacroGroupFrontWindowCondition_TitleMatches					= "Available when the focused window title matches “%@”.";
+MacroGroupFrontWindowCondition_TitleDoesNotMatch			= "Available when the focused window title does not match “%@”.";
+MacroGroupFrontWindowCondition_ExistsButTitleDoesNotMatch	= "Available when there is a focused window but its title does not match “%@”.";
+
+smiSubMenuItemTitleFormat				= "Sub-Menu %d:";
+
+csDeleteClipDataWarningStr				= "Are you sure you want to delete the selected clipboard position(s)?";
+
+smProgramSwitcherMacroName				= "Application Switcher";
+smWindowSwitcherMacroName				= "Window Switcher";
+smApplicationLauncherMacroName			= "Application Launcher";
+
+AskPermissionStr                        = "Keyboard Maestro Engine is Required for Macros to Function";
+AskPermissionText                       = "Keyboard Maestro will launch the Keyboard Maestro Engine which is what actually executes your macros and it should continue running after you quit Keyboard Maestro so that your macros continue to operate.\r\rYou only need the Keyboard Maestro editor when you change your macros.\r\rYou can quit the engine at any time by selecting Quit Keyboard Maestro Engine from the Keyboard Maestro status menu.  You should also enable Launch Engine at Login in the preferences so the engine will always be available.\r\rWhat should happen to the engine when you quit the Keyboard Maestro editor?\r";
+AskPermissionKeepRunningButton          = "Keep Running";
+AskPermissionAlwaysKeepRunningButton    = "Always Keep Running";
+AskPermissionQuitButton					= "Quit";
+
+WarnAccessibilityTitle					= "Accessibility Access is Required";
+WarnAccessibilityMessage				= "Accessibility access to control your computer is required to use many features including selecting menu items, manipulating windows, pressing buttons, typed string triggers and the window switcher.  Please enable Accessibility for Keyboard Maestro and Keyboard Maestro Engine in the Accessibility section of the Privacy section of the Security & Privacy system preference pane.";
+WarnAccessibilityDefaultButton			= "Open Preferences";
+WarnAccessibilityIgnoreButton			= "Later";
+WarnAccessibilityHelpButton				= "Help";
+WarnAccessibilityNotAgainButton			= "Don’t Ask Again";
+
+UniversalAccessWarningTitle				= "Accessibility Access is Required";
+UniversalAccessWarningMessage			= "Accessibility access to control your computer is required to use many features selecting menu items, manipulating windows, pressing buttons, typed string triggers and the window switcher.\r\rPlease enable Accessibility for Keyboard Maestro and Keyboard Maestro Engine in the Accessibility section of the Privacy section of the Security & Privacy system preference pane.";
+UniversalAccessWarningDefaultButton		= "Open System Preferences";
+UniversalAccessWarningIgnoreButton		= "Later";
+
+WarnKMSwitcherConflictStr				= "Keyboard Maestro has Switchers Enabled";
+WarnKMSwitcherConflictText				= "Keyboard Maestro Engine is running and has its own switchers enabled.  These may conflict with the switchers provided by Switcher Maestro, so you might want to disable them.";
+WarnKMSwitcherConflictDefaultButton		= "Launch Keyboard Maestro";
+WarnKMSwitcherConflictIgnoreButton		= "Maybe Later";
+WarnKMSwitcherConflictNotAgainButton	= "Don’t Ask Again";
+
+WarnPrefWriteFailedStr					= "Preference Write Failed";
+WarnPrefWriteFailedText					= "Keyboard Maestro failed to write the preferences file. %@ %@ You should quit and fix the problem and then relaunch Keyboard Maestro.";
+WarnPrefWriteFailedDefaultButton		= "Quit";
+WarnPrefWriteFailedContineButton		= "Continue Anyway";
+WarnPrefWriteFailedHelpButton			= "Help";
+
+SharingDisabledBecauseOfNewerWarningTitle			= "Macro Syncing Disabled";
+SharingDisabledBecauseOfNewerWarningMessage			= "Syncing macros has been disabled because the macro sync file is from a newer version of Keyboard Maestro.  Update this version of Keyboard Maestro to resume sharing, otherwise your local changes will be destroyed when you do update.";
+SharingDisabledBecauseOfNewerDefaultButton			= "Check For Update";
+SharingDisabledBecauseOfNewerStopButton				= "Stop Syncing";
+SharingDisabledBecauseOfNewerIgnoreButton			= "Live Dangerously";
+
+SecureInputWarningTitle					= "Secure Input is Enabled";
+SecureInputWarningMessageNoWho			= "Secure Input is enabled which means the system thinks you are currently in a password field and will not allow applications to monitor the keyboard.\r\rThis will stop typed string triggers from working, as well as stop Keyboard Maestro from sensing your keystrokes while setting hot keys.\r\rYou will need to find the application responsible (often 1Password or LastPass or their Chrome extensions) and quit it.";
+SecureInputWarningMessageWithWho		= "Secure Input is enabled which means the system thinks you are currently in a password field and will not allow applications to monitor the keyboard.\r\rThis will stop typed string triggers from working, as well as stop Keyboard Maestro from sensing your keystrokes while setting hot keys.\r\rYou will need to find the application responsible (probably %@) and quit it.";
+SecureInputDefaultButton				= "OK";
+SecureInputHelpButton					= "Help";
+
+Early1010WarningTitle					= "Early Version of Yosemite";
+Early1010WarningMessage					= "You are running an early version of OS X 10.10 Yosemite.  Versions of Yosemite prior to 10.10.3 had serious bugs in the accessibility preference setting system, making it very difficult to enable accessibility for both Keyboard Maestro and especially Keyboard Maestro Engine.  It is strongly recommended that you upgrade to 10.10.3 or later if at all possible.";
+Early1010DefaultButton					= "OK";
+Early1010HelpButton						= "Help";
+
+NamedClipboardDeleteWarningTitle		= "Named Clipboard in Use";
+NamedClipboardDeleteWarningMessage		= "One or more of the Named Clipboards you are trying to delete is currently in use by a macro.  You can delete it, but it will soon be recreated.";
+NamedClipboardDeleteDefaultButton		= "Delete";
+NamedClipboardDeleteCancelButton		= "Cancel";
+
+VariableDeleteWarningTitle				= "Variable in Use";
+VariableDeleteWarningMessage			= "One or more of the Variables you are trying to delete is currently in use by a macro.  You can delete it, but it may soon be recreated.";
+VariableDeleteDefaultButton				= "Delete";
+VariableDeleteCancelButton				= "Cancel";
+
+SharingOpenWarningTitle					= "This Will Replace All Your Macros";
+SharingOpenWarningMessage				= "Syncing from an existing macro sync file will replace all of your existing macros with the macros from the remote file you select.";
+SharingOpenDefaultButton				= "Replace All Macros";
+SharingOpenCancelButton					= "Cancel";
+
+ApplicationSwitcherPreferencePanelLabel	= "Application Switcher";
+WindowSwitcherPreferencePanelLabel		= "Window Switcher";
+ApplicationLauncherPreferencePanelLabel	= "Application Launcher";
+
+hkDefaultMacroGroupName					= "Global Macro Group";
+hkOldDefaultMacroGroupName				= "Global Macro Set";
+hkSwitcherGroupName						= "Switcher Group";
+menuQuitEngineItemTitle					= "Quit Engine";
+menuLaunchEngineItemTitle				= "Launch Engine";
+
+menuPurchaseUpgradeTitle				= "Purchase Keyboard Maestro Upgrade…";
+menuPurchaseTitle						= "Purchase Keyboard Maestro…";
+
+ExportMacrosDefaultFileName				= "Untitled Macro File";
+ExportMacrosSaveTitle					= "Export Macros";
+
+ExportMacrosDefaultGroupName			= "%@ Macros";
+ExportMacrosDefaultGroup2Name			= "%@ and Other Macros";
+
+ExportActionsDefaultFileName			= "Keyboard Maestro Actions";
+ExportActionsSaveTitle					= "Export Actions";
+
+SyncMacrosDefaultFileName				= "Keyboard Maestro Macros";
+SyncMacrosSaveTitle						= "Save Sync File";
+
+SyncMacrosFailedHeader					= "Failed to start syncing macros.";
+SyncMacrosFailedMessage					= "The attempt to start syncing the macros failed (%@).";
+
+SyncCreateMacrosSuccessTitle			= "Macro Syncing Started";
+SyncCreateMacrosSuccessMessage			= "The macros have been written to the sync file, and will be written whenever the local macros are changed. Any change to the sync file will result in the local macros being replaced from that file.";
+
+SyncOpenMacrosSuccessTitle				= "Macro Syncing Started";
+SyncOpenMacrosSuccessMessage			= "The macros have been replaced with those from sync file, and the macros will be written whenever the local macros are changed. Any change to the sync file will result in the local macros being replaced from that file.";
+
+ShareLibraryDefaultFileName				= "Untitled Library File";
+ShareLibrarySaveTitle					= "Share Library";
+
+ShareLibrary_Success_Title				= "Saved Shared Library";
+ShareLibrary_Success_Description0		= "The file was written, but no macros were saved.";
+ShareLibrary_Success_Description1		= "One macro was saved to a library.";
+ShareLibrary_Success_Description2		= "%d macros were saved to a library.";
+
+LibraryAllEntries						= "All Entries";
+
+ShareActionsOrMacrosFailedHeader		= "Failed to export %@.";
+ShareActionsOrMacrosFailedMessage		= "The attempt to export the %@ failed, the %@ have not been exported.";
+
+ExportMacrosFailedHeader				= "Failed to export macros.";
+ExportMacrosFailedMessage				= "The attempt to export the macros failed, the macros have not been exported.";
+
+ExportMacros_Success_Title				= "Exported Macros";
+ExportMacros_Success_Description0		= "The file was written, but no macros were exported.";
+ExportMacros_Success_Description1		= "One macro was exported.";
+ExportMacros_Success_Description2		= "%d macros were exported.";
+
+ExportActionsFailedHeader				= "Failed to export actions.";
+ExportActionsFailedMessage				= "The attempt to export the actions failed, the actions have not been exported.";
+
+ExportActions_Success_Title				= "Exported Actions";
+ExportActions_Success_Description0		= "The file was written, but no actions were exported.";
+ExportActions_Success_Description1		= "One action was exported.";
+ExportActions_Success_Description2		= "%d actions were exported.";
+
+ImportActions_Success_Title				= "Imported Actions";
+ImportActions_Success_Description0		= "The file was written, but no actions were importeded.";
+ImportActions_Success_Description1		= "One action was importeded.";
+ImportActions_Success_Description2		= "%d actions were importeded.";
+
+ImportActions_CantImportErrorTitle			= "Cannot Import Actions File";
+ImportActions_CantImportError_UnknownExplanation		= "The Actions File you selected is of an unknown format.";
+
+ImportMacros_CantImportErrorTitle			= "Cannot Import Macro File";
+ImportMacros_CantImportError_UnknownExplanation		= "The Macro File you selected is of an unknown format.";
+
+ImportMacros_Success_Title				= "Imported Macros";
+
+ImportLibrary_CantImportErrorTitle			= "Cannot Import Library File";
+ImportLibrary_CantImportError_UnknownExplanation		= "The Library File you select is of an unknown format.";
+
+ImportLibrary_Success_Title				= "Inserted Library";
+Import_Success_Description000			= "The file was read, but no macros were imported.";
+Import_Success_Description001			= "One smart group imported.";
+Import_Success_Description002			= "%%d smart groups imported.";
+Import_Success_Description110			= "One macro was imported.";
+Import_Success_Description111			= "One macro and one smart group were imported.";
+Import_Success_Description112			= "One macro and %%d smart groups were imported.";
+Import_Success_Description210			= "%d macros were imported into one macro group.";
+Import_Success_Description211			= "%d macros were imported into one macro group and one smart group was imported.";
+Import_Success_Description212			= "%d macros were imported into one macro group and %%d smart groups were imported.";
+Import_Success_Description220			= "%d macros were imported into %d macro groups.";
+Import_Success_Description221			= "%d macros were imported into %d macro groups and one smart group was imported.";
+Import_Success_Description222			= "%d macros were imported into %d macro groups and %%d smart groups were imported.";
+
+MacroGroupDefaultName_GlobalTarget		= "Macros for All Applications";
+MacroGroupDefaultName_SpecificApps		= "Macros for ";
+MacroGroupDefaultName_ExcludedApps		= "Macros Not Active In ";
+MacroGroupDefaultName_AppSeperator		= ", ";
+
+NagWindowTitle							= "Keyboard Maestro %@";
+NagWindowQuit							= "Quit";
+NagWindowTrial							= "Continue Trial";
+NagWindowQuitDescription				= "Your trial period has ended.";
+NagWindowTrialDescription				= "Your trial period is coming to an end.";
+
+DownloadURL								= "https://download.keyboardmaestro.com/";
+PurchaseURL								= "https://purchase.keyboardmaestro.com/";
+LostSerialURL							= "https://enquiry.stairways.com/";
+LostSerialURLFormat						= "https://enquiry.stairways.com/?email=%@";
+
+InvalidSerialHeader						= "You have entered an invalid email address or an invalid serial number.";
+InvalidSerialMessage					= "Make sure you enter your email address and serial number exactly as they appear on your registration acknowledgment email.";
+
+OldSerialHeader							= "You have entered an old serial number.";
+OldSerialMessage						= "The username and serial number you have entered is valid for an older version, you will need to enter your new serial number.";
+
+PurchaseUpgradeURL						= "https://upgrade.keyboardmaestro.com/?serial=%@";
+
+PSShowMenu								= "Show (s)";
+PSHideMenu								= "Hide (h)";
+
+PSLaunchMenu							= "Launch (l)";
+PSLaunchAndHideOthersMenu				= "Launch & Hide Others (d)";
+
+PSSwitchMenu							= "Activate (l)";
+PSSwitchAndHideOthersMenu				= "Activate & Hide Others (d)";
+
+ALLaunchMenu							= "Launch";
+ALLaunchAndHideOthersMenu				= "Launch & Hide Others";
+
+ALSwitchMenu							= "Activate";
+ALSwitchAndHideOthersMenu				= "Activate & Hide Others";
+
+SIVCLanguage							= "EN";
+
+AboutRegisteredTo						= "Registered to: %@";
+AboutTrialVersion						= "Trial Version";
+MacAppStoreVersion						= "Mac App Store Version";
+
+apmNoApplicationSelected				= "No Application Selected";
+apmMore									= "More…";
+apmOther								= "Other…";
+
+DefaultSearchTitle						= "Search the web with Google";
+DefaultSearchURL						= "https://www.google.com/search?q=%Search%";
+
+hkSwitchToLastApplication				= "Activate Last Application";
+hkSwitchToNextApplication				= "Activate Next Application";
+hkBringWindowsForward					= "Bring Application Windows to Front";
+hkSearch								= "Search the Web";
+hkTriggerByName							= "Trigger Macro by Name";
+hkOpen1File								= "Open a File, Folder or Application";
+hkFile									= "Move, Copy, or Trash a File";
+hkReadFile								= "Read a File";
+hkWriteFile								= "Write or Append a File";
+hkWriteFileWrite						= "Write to a File";
+hkWriteFileAppend						= "Append Text to a File";
+hkNewFolder								= "New Folder";
+hkPlugIn								= "Plug In";
+hkGetFileAttribute						= "Get File Attribute";
+hkSetFileAttribute						= "Set File Attribute";
+hkOpenFinderSelection					= "Open the Finder Selection";
+hkOpenURL								= "Open a URL";
+hkActivateApplication					= "Activate a Specific Application";
+hkQuitOthers							= "Quit Other Applications";
+hkQuitAll								= "Quit All Applications";
+hkQuitSpecificApp						= "Quit a Specific Application";
+hkQuitCurrentApp						= "Quit Front Application";
+hkHideOthers							= "Hide Other Applications";
+hkHideAll								= "Hide All Applications";
+hkHideCurrent							= "Hide Front Application";
+hkHideSpecificApp						= "Hide a Specific Application";
+hkShowAll								= "Show All Applications";
+hkShowSpecificApp						= "Show a Specific Application";
+hkInsertText							= "Insert Text";
+hkSetFindPasteboard						= "Set Find Pasteboard";
+hkSetNetworkLocation					= "Set Network Location";
+hkFastUserSwitch						= "Fast User Switch";
+hkSetKeyboardLayout						= "Set Keyboard Layout";
+hkQuickMacro							= "Record Quick Macro";
+hkSimulateKeystroke						= "Type a Keystroke";
+hkSimulateModifiers						= "Type Modifiers";
+hkSimulateHardwareKey					= "Simulate Hardware Key";
+hkExecuteAppleScript					= "Execute an AppleScript";
+hkExecuteJavaScript						= "Execute a JavaScript in Safari";
+hkExecuteShellScript					= "Execute a Shell Script";
+hkExecuteJavaScriptForAutomation		= "Execute a JavaScript For Automation";
+hkExecuteJavaScriptForCustomPrompt		= "Execute a JavaScript in Custom Prompt";
+hkExecuteJavaScriptForCustomPromptAll	= "Execute a JavaScript in all Custom Prompts";
+hkExecuteJavaScriptForCustomPromptTitle	= "Execute a JavaScript in Custom Prompt with ID ‘%@’";
+hkExecuteSwift							= "Execute a Swift Script";
+hkExecuteWorkflow						= "Execute an Automator Workflow";
+hkExecuteMacro							= "Execute a Macro";
+hkMarkMacro								= "Mark Macro";
+hkSetMacroEnable						= "Set Macro or Group Enable";
+hkSystemPrefPane						= "Open a System Preference Pane";
+hkOpen1Password							= "Open 1Password Bookmark";
+hkMouseMoveAndClick						= "Move or Click Mouse";
+hkSpeakText								= "Speak Text";
+hkPlaySound								= "Play Sound";
+hkSystemAction							= "Perform a System Action";
+hkDebuggerAction						= "Debugger Action";
+hkSystemVolume							= "Set System Output Volume";
+hkSendMIDIMessage						= "Send a MIDI Message";
+hkPause									= "Pause";
+hkPauseUntil							= "Pause Until";
+hkWhile									= "While";
+hkUntil									= "Until";
+hkRepeat								= "Repeat";
+hkGroup									= "Group";
+hkIfThenElse							= "If Then Else";
+hkSwitch								= "Switch/Case";
+hkFor									= "For Each";
+hkAlert									= "Alert";
+hkComment								= "Comment";
+hkCancel								= "Cancel Macros";
+hkMacroGroupToggle						= "Macro Group Toggle";
+hkConcealMacroPalettes					= "Conceal Macro Palettes";
+hkSelectMenuItem						= "Select or Show a Menu Item";
+hkiTunesControl							= "iTunes Control";
+hkQuickTimePlayerControl				= "QuickTime Player Control";
+hkScrollWheelEvent						= "Simulate Scroll Wheel";
+hkManipulateWindow						= "Manipulate a Window";
+hkHiliteLocation						= "Highlight Location";
+hkScreenCapture							= "Screen Capture";
+hkFindImage								= "Find Image on Screen";
+hkTransformImage						= "Transform Image";
+hkCompositeImage						= "Composite onto Image";
+hkDrawImage								= "Draw Shape onto Image";
+hkResizeImage							= "Resize Image";
+hkGetImageSize							= "Get Image Size";
+hkTrimImage								= "Trim Image";
+hkDisplayImage							= "Display Clipboard";
+hkNewImage								= "Create New Image";
+hkPressButtonItem						= "Press a Button";
+hkSemaphore								= "Semaphore";
+hkClipboardSwitcher						= "Use a Named Clipboard";
+hkCutCopyPaste							= "Cut Copy Paste";
+hkSetClipboardToText					= "Set Clipboard to Text";
+hkSetClipboardToPastClipboard			= "Set Clipboard to Past Clipboard";
+hkSetClipboardToNamedClipboard			= "Set Clipboard to Named Clipboard"; // depricated
+hkSaveClipboardToNamedClipboard			= "Save Clipboard to Named Clipboard"; // depricated
+hkCopyClipboard							= "Copy Clipboard to Clipboard";
+hkDeletePastClipboard					= "Delete Past Clipboard";
+hkFilterClipboard						= "Filter Clipboard";
+hkSearchReplaceClipboard				= "Search and Replace Clipboard";
+hkApplyStyle							= "Apply Style to Clipboard";
+hkApplyTextFactory						= "Apply a BBEdit Text Factory";
+hkSetVariableToText						= "Set Variable to Text";
+hkSetVariableToKeychainPassword			= "Set Variable to Keychain Password";
+hkSetKeychainPasswordToText				= "Set Keychain Password to Text";
+hkSetVariableToSafariField				= "Set Variable to Safari Field";
+hkSafariControl							= "Safari Control";
+hkSetSafariFieldToText					= "Set Safari Field to Text";
+hkSetSafariCheckbox						= "Set Safari Checkbox";
+hkSetSafariRadio						= "Set Safari Radio";
+hkSetMailStatus							= "Set Mail Status";
+hkMailSendMessage						= "Send Mail Message";
+hkSetVariableToCalculation				= "Set Variable to Calculation";
+hkSetActionDelay						= "Set Action Delay";
+hkSearchReplaceVariable					= "Search and Replace Variable";
+hkSearchVariable						= "Search Variable";
+hkSearchClipboard						= "Search Clipboard";
+hkSubstring								= "Substring of Variable or Clipboard";
+hkUseVariable							= "Use Variable";
+hkFilterVariable						= "Filter Variable";
+hkPromptForUserInput					= "Prompt for User Input";
+hkCustomPrompt							= "Custom HTML Prompt";
+
+hkProgramSwitcher						= "Activate Application Switcher";
+hkSMApplicationSwitcher					= "Activate Application Switcher";
+hkWindowSwitcher						= "Activate Window Switcher";
+hkApplicationLauncher					= "Activate Application Launcher";
+hkClipboardSwitcherCopy					= "Activate Clipboard Copy Switcher";
+hkClipboardSwitcherCut					= "Activate Clipboard Cut Switcher";
+hkClipboardSwitcherPaste				= "Activate Clipboard Paste Switcher";
+hkClipboardHistorySwitcher				= "Activate Clipboard History Switcher";
+
+hkGrowl									= "Growl";
+hkLog									= "Log";
+hkNotification							= "Notification";
+
+SelectMenuApplicationNotFound			= "Select Menu Item failed to find target application for %@.";
+SelectMenuApplicationNotFoundApp		= "Select Menu Item failed to find target application ‘%@’ for %%@.";
+SelectMenuBarNotFound					= "Select Menu Item failed to find target menu bar for %@.";
+SelectMenuItemNotFound					= "Select Menu Item failed to find target menu item %@.";
+SelectMenuItemDisabled					= "Select Menu Item failed because the menu item %@ is disabled.";
+SelectMenuItemFailed					= "Menu selection failed to pick menu %@ with error %ld.";
+SelectMenuItemRequiresAccess			= "Select Menu Item action requires Accessibility which is disabled.";
+
+PressButtonWindowNotFound				= "Press Button ‘%@’ failed to find window.";
+PressButtonButtonNotFound				= "Press Button ‘%@’ failed to find button.";
+PressButtonDisabled						= "Press Button ‘%@’ failed because the button is disabled.";
+PressButtonRequiresAccess				= "Press Button action requires Accessibility which is disabled.";
+
+MouseClickNoFrontWindow					= "Move or Click Mouse no front window found.";
+MouseClickNoImageFound					= "Move or Click Mouse no unique image found.";
+MouseClickNoImage						= "Move or Click Mouse no image specified.";
+MouseClickCalculateFailed				= "Move or Click Mouse calculation %@ failed.";
+
+TimeoutExceeded							= "Action timeout exceeded.";
+
+MacroCancelledFormat					= "%@ Macro ‘%@’ cancelled (while executing %@).";
+
+ActionFailedFormat						= "%@ In macro ‘%@’ (while executing %@).";
+
+CancelAllMacros							= "Cancel All Macros";
+CancelAllOtherMacros					= "Cancel All Other Macros";
+CancelThisMacro							= "Cancel This Macro";
+CancelJustThisMacro						= "Cancel Just This Macro";
+BreakFromLoop							= "Break From Loop";
+
+ConcealActionTitle							= "Conceal Macro Palettes";
+RevealActionTitle							= "Reveal Macro Palettes";
+ToggleActionTitle							= "Conceal/Reveal Macro Palettes";
+ConcealUntilAppSwitchActionTitle			= "Conceal Macro Palettes Until Switch";
+ConcealUntilAppSwitchOrRevealActionTitle	= "Conceal/Reveal Macro Palettes Until Switch";
+
+kmModifierKeySeparator					= "";
+kmModifierKeySuffix						= "";
+kmFKeyFormat							= "F%d";
+
+kmModifierKeyLongSeparator					= ",";
+kmModifierControl						= "Control";
+kmModifierOption						= "Option";
+kmModifierShift							= "Shift";
+kmModifierCommand						= "Command";
+
+kmActivateApplicationTitleFormat		= "Activate %@";
+
+kmHiliteLocationTitleRectangle			= "Highlight Rectangle at %@,%@,%@,%@";
+kmHiliteLocationTitleOval				= "Highlight Oval at %@,%@,%@,%@";
+kmHiliteLocationTitleTarget				= "Highlight Target at %@,%@,%@,%@";
+
+kmExecuteAppleScriptType				= "AppleScript";
+kmExecuteJavaScriptType					= "JavaScript in %@";
+kmExecuteShellScriptType				= "Shell Script";
+kmExecuteJavaScriptForAutomationType	= "JavaScript For Automation";
+kmExecuteSwiftScriptType				= "Swift Script";
+
+kmExecuteBaseScriptTitleFormat			= "Execute ‘%@’ %@";
+kmExecuteBaseScriptTitle				= "Execute %@";
+
+kmCustomPromptTitleFormat				= "Custom HTML Prompt ‘%@’";
+kmCustomPromptTitle						= "Custom HTML Prompt";
+
+kmFindImageHTML							= "Find%@ Image on Screen to Variable ‘%@’";
+
+kmExecuteBaseScriptResultsTitle			= "%@ Results";
+//kmExecuteBaseScriptFileFormatResultsDescription		= "The output of script ‘%@’ is:";
+//kmExecuteBaseScriptTextScriptResultsDescription		= "The output of the text script is:";
+kmExecuteRootScriptResultsDescription	= "The output of %@ is:";
+
+kmExecuteBaseScriptFileFormatLongName		= "script ‘%@’";
+kmExecuteBaseScriptTextLongName				= "the text script";
+
+ExecuteBaseScriptResultNone				= "";
+ExecuteBaseScriptResultWindow			= "Display %@ in a window.";
+ExecuteBaseScriptResultBriefly			= "Display %@ briefly.";
+ExecuteBaseScriptResultLarge			= "Display %@ large.";
+ExecuteBaseScriptResultTyping			= "Type %@.";
+ExecuteBaseScriptResultPasting			= "Paste %@.";
+ExecuteBaseScriptResultVariable			= "Save %@ to variable ‘%%@’.";
+ExecuteBaseScriptResultClipboard		= "Save %@ to %%@.";
+ExecuteBaseScriptResultAsynchronously	= "Execute asynchronously.";
+
+ExecuteBaseScriptResultTrim0StdErr0		= "results without errors";
+ExecuteBaseScriptResultTrim0StdErr1		= "results";
+ExecuteBaseScriptResultTrim1StdErr0		= "trimmed results without errors";
+ExecuteBaseScriptResultTrim1StdErr1		= "trimmed results";
+
+ExecuteJavaScriptForCustomPromptResult	= "results";
+kmExecuteJavaScriptForCustomPromptResultsDescription	= "The output of the script is:";
+kmExecuteJavaScriptForCustomPromptResultsTitle		= "JavaScript Results";
+
+kmPlugInLongScriptName					= "plug in action ‘%@’";
+
+kmExecuteWorkflowTitleFormat			= "Execute ‘%@’ Automator Workflow";
+
+kmExecuteMacroTitleFormat				= "Execute Macro ‘%@’";
+kmExecuteMacroAsynchronouslyTitleFormat	= "Execute Macro ‘%@’ Asynchronously";
+
+kmMarkMacroMarkTitleFormat					= "Mark Macro ‘%@’";
+kmMarkMacroUnmarkTitleFormat				= "Unmark Macro ‘%@’";
+kmMarkMacroToggleTitleFormat				= "Toggle Mark Macro ‘%@’";
+
+kmMarkUnknownMacroMarkTitleFormat				= "Mark Macro";
+kmMarkUnknownMacroUnmarkTitleFormat				= "Unmark Macro";
+kmMarkUnknownMacroToggleTitleFormat				= "Toggle Mark Macro";
+
+NoMacroSelectionName						= "None";
+
+kMacroGroupToggleInternalAutomatic			= "Internal Toggle Macro Group";
+kMacroGroupToggleOnce						= "Activate Macro Group for One Action";
+kMacroGroupToggleActivate					= "Activate Macro Group";
+kMacroGroupToggleDeactivate					= "Deactivate Macro Group";
+kMacroGroupToggleToggle						= "Activate/Deactivate Macro Group";
+kMacroGroupToggleOnceWithPalette			= "Show Macro Group for One Action";
+kMacroGroupToggleShowPalette				= "Show Macro Group";
+kMacroGroupToggleHidePalette				= "Hide Macro Group";
+kMacroGroupToggleTogglePalette				= "Show/Hide Macro Group";
+
+kMacroGroupToggleInternalAutomaticFormat	= "Internal Toggle Macro Group ‘%@’";
+kMacroGroupToggleOnceFormat					= "Activate Macro Group ‘%@’ for One Action";
+kMacroGroupToggleActivateFormat				= "Activate Macro Group ‘%@’";
+kMacroGroupToggleDeactivateFormat			= "Deactivate Macro Group ‘%@’";
+kMacroGroupToggleToggleFormat				= "Activate/Deactivate Macro Group ‘%@’";
+kMacroGroupToggleOnceWithPaletteFormat		= "Show Macro Group ‘%@’ for One Action";
+kMacroGroupToggleShowPaletteFormat			= "Show Macro Group ‘%@’";
+kMacroGroupToggleHidePaletteFormat			= "Hide Macro Group ‘%@’";
+kMacroGroupToggleTogglePaletteFormat		= "Show/Hide Macro Group ‘%@’";
+
+kSetMacroEnableEnableTitleFormat		= "Enable %@";
+kSetMacroEnableDisableTitleFormat		= "Disable %@";
+kSetMacroEnableToggleTitleFormat		= "Toggle %@ Enabled";
+kSetMacroEnableNoMacro					= "Unknown";
+
+kmMacroUnknownUnambiguousName			= "Macro/Macro Group None";
+kmMacroUnambiguousName					= "Macro ‘%@’";
+kmMacroGroupUnambiguousName				= "Macro Group ‘%@’";
+kmMacroSmartGroupUnambiguousName		= "Smart Group ‘%@’";
+
+kmApplyTextFactoryTitleFormat			= "Apply Text Factory ‘%@’";
+
+kmFileRevealOperation					= "Reveal";
+kmFileMoveOperation						= "Move or Rename";
+kmFileCopyOperation						= "Copy";
+kmFileDuplicateOperation				= "Duplicate";
+kmFileTrashOperation					= "Trash";
+kmFileDeleteOperation					= "Delete";
+kmFileRecursiveDeleteOperation			= "Recursively Delete";
+
+kmFileTitleFormat						= "%@ a File";
+kmFileTitleLongFormat					= "%@ File ‘%@’";
+
+kmReadFileToClipboardTitleFormat		= "Read File to Clipboard";
+kmReadFileToNamedClipboardTitleFormat	= "Read File to Named Clipboard ‘%@’";
+kmReadFileToVariableTitleFormat			= "Read File to Variable ‘%@’";
+
+kmWriteOperationNormal					= "Write";
+kmWriteOperationAppend					= "Append";
+
+kmWriteFileFromClipboardTitleFormat		= "%@ Clipboard";
+kmWriteFileFromNamedClipboardTitleFormat= "%@ Named Clipboard ‘%@’";
+kmWriteFileFromVariableTitleFormat		= "%@ Variable ‘%@’";
+kmWriteFileFromPlainTextTitleFormat		= "%@ Text";
+kmWriteFileFromStyledTextTitleFormat	= "%@ Styled Text";
+
+kmWriteFileMakeLongTitleFormat			= "%@ to File";
+
+kmActionTextSourceClipboard				= "%@ of Clipboard";
+kmActionTextSourceNamedClipboardFormat	= "%@ of Named Clipboard ‘%@’";
+kmActionTextSourceVariableFormat		= "%@ of Variable ‘%@’";
+kmActionTextSourceTextFormat			= "%@ of Text ‘%@’";
+
+kmSubstringActionName					= "Get Substring";
+kmSwitchActionName						= "Switch";
+
+kmSubstringDestinationHTMLClipboard					= "Store result to Clipboard";
+kmSubstringDestinationHTMLNamedClipboardFormat		= "Store result to Named Clipboard ‘%@’";
+kmSubstringDestinationHTMLVariableFormat			= "Store result to Variable ‘%@’";
+
+kmCompositeImageClipboard				= "Composite Clipboard onto Image";
+kmCompositeImageText					= "Composite Text onto Image";
+
+kmCompositeImageHTMLClipboard			= "Composite %@ onto Image in %@";
+kmCompositeImageHTMLText				= "Composite Text onto Image in %@";
+
+kmNewFolderTitleLongFormat				= "Create New Folder ‘%@’";
+
+kClipboardTargetClipboard				= "Clipboard";
+kClipboardTargetNamedClipboardFormat	= "Named Clipboard ‘%@’";
+
+kmApplyStyleHTMLDescriptionTitleFormat	= "Apply Style to %@";
+kmApplyTextFactoryHTMLDescriptionTitleFormat	= "Apply Text Factory to %@";
+
+kApplyStyleToAll						= "";
+kApplyStyleToTo							= "Apply up to character %@";
+kApplyStyleToFrom						= "Apply from character %@";
+kApplyStyleToLast						= "Apply to last %@ characters";
+kApplyStyleToRange						= "Apply from character %@ length %@";
+kApplyStyleToFromTo						= "Apply from character %@ to character %@";
+
+kSubstringRangeAll						= "";
+kSubstringRangeTo						= "Subrange up to character %@";
+kSubstringRangeFrom						= "Subrange from character %@";
+kSubstringRangeLast						= "Subrange of last %@ characters";
+kSubstringRangeRange					= "Subrange from character %@ length %@";
+kSubstringRangeFromTo					= "Subrange from character %@ to character %@";
+
+kSubstringRangeDeleteAll				= "";
+kSubstringRangeDeleteTo					= "Subrange deleting up to character %@";
+kSubstringRangeDeleteFrom				= "Subrange deleting from character %@";
+kSubstringRangeDeleteLast				= "Subrange deleting last %@ characters";
+kSubstringRangeDeleteRange				= "Subrange deleting from character %@ length %@";
+kSubstringRangeDeleteFromTo				= "Subrange deleting from character %@ to character %@";
+
+hkTrimImageHTMLTitle					= "Trim Image in %@";
+
+kmNewImageHTMLDescriptionTitleFormat	= "Create New Image in %@";
+
+kmDisplayImageFormat					= "Display %@";
+kmSetNetworkLocationFormat				= "Set Network Location to ‘%@’";
+
+kFileAttributeFileType					= "File Type";
+kFileAttributeFileSize					= "File Size";
+kFileAttributeCreationDate				= "Date Created";
+kFileAttributeModificationDate			= "Date Modifiers";
+kFileAttributeOwnerName					= "Owner Name";
+kFileAttributeOwnerID					= "Owner ID";
+kFileAttributeGroupName					= "Group Name";
+kFileAttributeGroupID					= "Group ID";
+kFileAttributePosixPermissions			= "Posix Permissions";
+kFileAttributeExtensionHidden			= "Extension Hidden";
+kFileAttributeHFSCreatorCode			= "HFS Creator Code";
+kFileAttributeHFSTypeCode				= "HFS Type Code";
+kFileAttributeTags						= "Tags";
+kFileAttributeTagsAdd					= "Tags (add)";
+kFileAttributeTagsToggle				= "Tags (toggle)";
+kFileAttributeTagsRemove				= "Tags (remove)";
+kFileAttributeParent					= "Parent";
+kFileAttributeName						= "File Name";
+kFileAttributeBaseName					= "Base Name";
+kFileAttributeExtension					= "Extension";
+kFileAttributeContentType				= "Content Type";
+kFileAttributeContentKind				= "Content Kind";
+kFileAttributeInvisible					= "Invisible";
+kFileAttributeAddedDate					= "Date Added";
+kFileAttributeDownloadedDate			= "Date Downloaded";
+kFileAttributeLastUsedDate				= "Date Last Used";
+kFileAttributeWhereFrom					= "Where From";
+kFileAttributeComment					= "Comment";
+
+kmGetFileAttributeTitleFormat			= "Get %@ to Variable ‘%@’";
+kmSetFileAttributeTitleFormat			= "Set %@ to ‘%@’";
+
+kmOpen1FileTitleFormat					= "Open ‘%@’";
+kmOpenPrefPaneTitleFormat				= "Open %@ Preference Pane";
+
+kmOpen1PasswordTitleFormat				= "Open 1Password Bookmark %@’";
+
+kmSimulateKeystrokePressAndReleaseTitleFormat	= "Type the %@ Keystroke";
+kmSimulateKeystrokePressAndHoldTitleFormat		= "Press and Hold the %@ Keystroke";
+kmSimulateKeystrokePressAndRepeatTitleFormat	= "Press and Repeat the %@ Keystroke";
+kmSimulateKeystrokeReleaseTitleFormat			= "Release the %@ Keystroke";
+
+kmSimulateModifiersPressAndReleaseTitleFormat	= "Type the %@ Modifier%@";
+kmSimulateModifiersPressAndHoldTitleFormat		= "Press and Hold the %@ Modifier%@";
+kmSimulateModifiersPressAndRepeatTitleFormat	= "Press and Repeat the %@ Modifier%@";
+kmSimulateModifiersReleaseTitleFormat			= "Release the %@ Modifier%@";
+kmSimulateModifiersNoModifiers					= "No";
+
+
+kmOpenURLTitleFormat					= "Open URL: %@";
+hkPauseTitleFormat						= "Pause for %@ Seconds";
+
+hkPauseUntilTitle						= "Pause Until Conditions Met";
+
+kmForTitle								= "For Each Item in a Collection Execute Actions";
+kmForHTMLTitle0							= "For Each With No Collections Will Do Nothing";
+kmForHTMLTitle1							= "For Each Item in the Collection Execute Actions";
+kmForHTMLTitle2							= "For Each Item in these Collections Execute Actions";
+
+kmForFinderSelection					= "For Each Path in Finder Selection";
+kmForFolder								= "For Each Path in Folder";
+kmClickAtFoundImage						= "Click at Found Image";
+
+kmWhileTitle							= "While Conditions Met Execute Actions";
+kmUntilTitle							= "Execute Actions Until Conditions Met";
+kmRepeatTitle							= "Repeat Actions";
+kmRepeatTitleFormat						= "Repeat Actions %@ Times";
+kmGroupTitle							= "Group Actions";
+kmIfThenElseTitle						= "If %@ Execute Actions";
+kmIfThenElseNoConditionsTitle			= "If With No Conditions Will Do Nothing";
+
+kmSwitchHasTextDescription				= "If it Has Text";
+kmSwitchDoesNotHaveTextDescription		= "If it Does Not Have Text";
+kmSwitchHasImageDescription				= "If it Has an Image";
+kmSwitchDoesNotHaveImageDescription		= "If it Does Not Have Image";
+kmSwitchExistsDescription				= "If it Exists";
+kmSwitchDoesNotExistDescription			= "If it Does Not Exist";
+kmSwitchIsEmptyDescription				= "If it Is Empty";
+kmSwitchIsNotEmptyDescription			= "If it Is Not Empty";
+kmSwitchIsDescription					= "If it Is “%@”";
+kmSwitchIsNotDescription				= "If it Is Not “%@”";
+kmSwitchContainsDescription				= "If it Contains “%@”";
+kmSwitchDoesNotContainDescription		= "If it Does Not Contain “%@”";
+kmSwitchMatchesDescription				= "If it Matches “%@”";
+kmSwitchDoesNotMatchDescription			= "If it Does Not Match “%@”";
+kmSwitchConformsToDescription			= "If it Conforms To “%@”";
+kmSwitchDoesNotConformToDescription		= "If it Does Not Conform To “%@”";
+kmSwitchOtherwiseDescription			= "Otherwise";
+
+kAlertDefaultTitle						= "Keyboard Maestro Alert";
+kAlertDefaultText						= "Would you like to continue execution or stop now?";
+hkAlertTitle							= "Alert ‘%@’";
+AlertContinueButton						= "Continue";
+AlertStopButton							= "Stop";
+
+kCommentDefaultTitle					= "Untitled";
+kCommentDefaultText						= "";
+hkCommentTitle							= "Comment ‘%@’";
+
+kGrowlDefaultTitle						= "Untitled";
+kGrowlDefaultText						= "";
+hkGrowlTitle							= "Growl ‘%@’";
+
+hkLogTitle								= "Log ‘%@’";
+
+kNotificationDefaultTitle				= "%ExecutingMacro%";
+kNotificationDefaultSubtitle			= "";
+kNotificationDefaultText				= "";
+hkNotificationTitle						= "Notification ‘%@’";
+
+kUntitledButton							= "OK";
+
+kQuitSpecificActionType_QuitFormat					= "Quit %@";
+kQuitSpecificActionType_QuitRelaunchFormat			= "Quit and Relaunch %@";
+kQuitSpecificActionType_ForceQuitFormat				= "Force Quit %@";
+kQuitSpecificActionType_ForceQuitRelaunchFormat		= "Force Quit and Relaunch %@";
+kQuitSpecificTargetFrontApplication					= "Front Application";
+
+kmHideSpecificAppTitleFormat			= "Hide %@";
+kmShowSpecificAppTitleFormat			= "Show %@";
+kmQuitSpecificAppTitleFormat			= "Quit %@";
+
+kmOpenFinderSelectionTitleFormat			= "Open Finder Selection in %@";
+kOpenFinderSelectionTargetCurrentApplication	= "Front Application";
+
+kmMoveMouseTitleFormat					= "Move Mouse to (%@,%@) from the %@";
+kmClickMouseTitleFormat					= "Click Mouse at (%@,%@) from the %@";
+kmMoveAndClickMouseTitleFormat			= "Move & Click Mouse at (%@,%@) from the %@";
+
+
+kmMouseTitleFormat						= "%@ %@ %@";
+kmMouseJustMoveTo						= "to";
+kmMouseClickAt							= "at";
+kmMouseTitleAtFormat					= "(%@,%@) from the %@";
+
+kmMouseActionClick9Title				= "Release %@";
+kmMouseActionClick10Title				= "Move Mouse";
+kmMouseActionClick11Title				= "%@";
+kmMouseActionClick12Title				= "Double %@";
+kmMouseActionClick13Title				= "Triple %@";
+kmMouseActionClickButton0				= "Click";
+kmMouseActionClickButton1				= "Right Click";
+kmMouseActionClickButton2				= "Center Click";
+kmMouseActionClickButton3				= "Button 4 Click";
+kmMouseActionClickButton4				= "Button 5 Click";
+kmMouseActionClickButton5				= "Button 6 Click";
+kmMouseActionReleaseButton0				= "Mouse Button";
+kmMouseActionReleaseButton1				= "Right Button";
+kmMouseActionReleaseButton2				= "Center Button";
+kmMouseActionReleaseButton3				= "Button 4";
+kmMouseActionReleaseButton4				= "Button 5";
+kmMouseActionReleaseButton5				= "Button 6";
+kmMouseActionAndDragTitle				= "and Drag";
+kmMouseActionAndHoldTitle				= "and Hold";
+kmMouseActionMoveAndTitle				= "Move and %@";
+kmMouseActionNoMoveAndTitle				= "%@";
+kmMouseActionScreenTitle				= "%@ of the Main Screen";
+kmMouseActionWindowTitle				= "%@ of the Front Window";
+kmMouseActionImageTitle					= "%@ of the Found Image";
+kmMouseActionImageFullTitle				= "%%@ of the Found Image in %@";
+kmMouseActionCurrentPositionTitle		= "Current Mouse Location";
+kmMouseActionAbsolutePositionTitle		= "Absolute Position";
+kmMouseActionTopLeftTitle				= "Top Left Corner";
+kmMouseActionTopRightTitle				= "Top Right Corner";
+kmMouseActionBottomLeftTitle			= "Bottom Left Corner";
+kmMouseActionBottomRightTitle			= "Bottom Right Corner";
+kmMouseActionCenterTitle				= "Center";
+
+
+kmUntitledMacro							= "Untitled Macro";
+kmUntitledMacroFormat					= "Untitled Macro %d";
+kmUntitledMacroRegEx					= "^Untitled Macro( \\d+)$";
+kmUntitledMacroGroup					= "Untitled Macro Group";
+kmUntitledMacroGroupFormat				= "Untitled Macro Group %d";
+kmUntitledMacroSmartGroup				= "Untitled Smart Group";
+kmUntitledMacroSmartGroupFormat			= "Untitled Smart Group %d";
+
+kmDefaultOpenURLValue					= "https://www.keyboardmaestro.com/";
+
+hkSemaphoreLockTitle					= "Semaphore Lock";
+hkSemaphoreUnlockTitle					= "Semaphore Unlock";
+hkSemaphoreResetTitle					= "Semaphore Reset";
+
+hkSystemActionSleepTitle				= "Put Computer to Sleep";
+hkSystemActionRestartTitle				= "Restart Computer";
+hkSystemActionShutdownTitle				= "Shut Down Computer";
+hkSystemActionLogOutTitle				= "Log Out";
+hkSystemActionLoginWindowTitle			= "Login Window";
+hkSystemActionOpenCloseCDROMTitle		= "Open/Close the CD Tray";
+hkSystemActionMuteVolumeTitle			= "Toggle System Sound Mute";
+hkSystemActionIncreaseVolumeTitle		= "Increase System Sound Volume";
+hkSystemActionDecreaseVolumeTitle		= "Decrease System Sound Volume";
+hkSystemActionIncreaseBrightnessTitle	= "Increase Screen Brightness";
+hkSystemActionDecreaseBrightnessTitle	= "Decrease Screen Brightness";
+hkSystemActionActivateScreenSaverTitle	= "Start Screen Saver";
+hkSystemActionStopScreenSaverTitle		= "Stop Screen Saver";
+hkSystemActionSleepDisplayTitle			= "Sleep Screen";
+hkSystemActionWakeDisplayTitle			= "Wake Screen";
+hkSystemActionSystemBeepTitle			= "System Beep";
+hkSystemActionShowMacroPaletteTitle		= "Show Global Macro Palette";
+hkSystemActionHideMacroPaletteTitle		= "Hide Global Macro Palette";
+hkSystemActionToggleMacroPaletteTitle	= "Toggle Global Macro Palette";
+hkSystemActionShowStatusMenuTitle		= "Show Status Menu";
+hkSystemActionClearTypedStringTitle		= "Clear Typed String Buffer";
+
+hkDebuggerActionStartTitle				= "Debugger Start";
+hkDebuggerActionFinishTitle				= "Debugger Finish";
+hkDebuggerActionToggleTitle				= "Debugger Toggle";
+hkDebuggerActionNewMacrosPausedTitle	= "Debugger New Macros Paused";
+hkDebuggerActionNewMacrosRunTitle		= "Debugger New Macros Run";
+hkDebuggerActionBreakpointTitle			= "Debugger Breakpoint This Macro";
+hkDebuggerActionBreakpointOthersTitle	= "Debugger Breakpoint All Other Macros";
+hkDebuggerActionBreakpointEveryTitle	= "Debugger Breakpoint All Macros";
+hkDebuggerActionStepOverOthersTitle		= "Debugger Step Over Other Macros";
+hkDebuggerActionStepIntoOthersTitle		= "Debugger Step Into Other Macros";
+hkDebuggerActionStepOutOthersTitle		= "Debugger Step Out Other Macros";
+hkDebuggerActionContinueTitle			= "Debugger Continue This Macro";
+hkDebuggerActionContinueEveryTitle		= "Debugger Continue All Macros";
+
+hkPlaySoundTitle						= "Play Sound ‘%@’";
+hkPlaySoundSystemBeepTitle				= "Play System Beep";
+
+kApplicationTargetFrontApplication		= "Front Application";
+
+kSpeakTextDefault						= "Action Completed";
+hkSpeakTextTitle						= "Speak Text ‘%@’";
+hkSpeakTextVoiceTitle					= "Speak Text With Voice ‘%@’ at %@ Rate";
+hkSpeakTextDefaultVoiceTitle			= "Speak Text With Default Voice ‘%@’ at %@ Rate";
+
+hkSpeakTextDefaultRate					= "Default";
+hkSpeakTextSlowRate						= "Slow";
+hkSpeakTextModerateRate					= "Moderate";
+hkSpeakTextNormalRate					= "Normal";
+hkSpeakTextQuickRate					= "Quick";
+hkSpeakTextFastRate						= "Fast";
+
+hkSystemVolumeTitleFormat				= "Set System Output Volume to %d%%";
+
+hkSendMIDIMessageNoteOnTitleFormat		= "Send MIDI channel %d note %d velocity %d";
+hkSendMIDIMessageNoteOffTitleFormat		= "Send MIDI channel %d note %d off";
+hkSendMIDIMessageControlChangeTitleFormat		= "Send MIDI channel %d control %d change to %d";
+
+hkSendMIDIMessageNoteOnTitle			= "Send MIDI Note On";
+hkSendMIDIMessageNoteOffTitle			= "Send MIDI Note Off";
+hkSendMIDIMessageControlChangeTitle		= "Send MIDI Control Change";
+
+SendMIDIMessageNoteLabel				= "for note";
+SendMIDIMessageCCLabel					= "for control";
+SendMIDIMessageVelocityLabel			= "with velocity";
+SendMIDIMessageValueLabel				= "with value";
+
+hkSelectMenuItemFrontAppName			= "the Front Application";
+
+hkSelectMenuItemTitleFormat	= "Select ‘%@’ in the Menu ‘%@’ in %@";
+
+hkShowMenuItemTitleFormat		= "Show Menu ‘%@’ in the Menu ‘%@’ in %@";
+hkShowMenuBarItemTitleFormat	= "Show Menu ‘%@’ in %@";
+
+hkSelectMenuItemHTMLTitleFormat				= "Select Menu Item in %@";
+hkShowMenuItemHTMLTitleFormat				= "Show Menu in %@";
+
+kAddRemoveMenuItemEntryControllerTitle		= "Menu Title";
+kAddRemoveMenuItemEntryControllerSubmenu	= "Submenu";
+kAddRemoveMenuItemEntryControllerItem		= "Menu Item";
+
+iTunesCmd_Untitled						= "Untitled";
+
+iTunesCmd_PlayPause_Title				= "Play/Pause Current Track";
+iTunesCmd_Stop_Title					= "Stop Current Track";
+iTunesCmd_Rewind_Title					= "Rewind Current Track";
+iTunesCmd_FastForward_Title				= "Fast-Forward Current Track";
+iTunesCmd_Pause_Title					= "Pause Current Track";
+iTunesCmd_NextTrack_Title				= "Next Track";
+iTunesCmd_BackTrack_Title				= "Previous Track";
+iTunesCmd_PlayRandomTrack_Title			= "Play a Random Track";
+
+iTunesCmd_PlayNamedTrack_TitleFormat	= "Play Track ‘%@’";
+iTunesCmd_PlayNamedTrack_Title			= "Play a Specific Track";
+iTunesCmd_PlayNamedPlaylist_TitleFormat	= "Play Playlist ‘%@’";
+iTunesCmd_PlayNamedPlaylist_Title		= "Play a Specific Playlist";
+iTunesCmd_PlayRandomPlaylistTrack_TitleFormat	= "Play a Random Track from Playlist ‘%@’";
+iTunesCmd_PlayRandomPlaylistTrack_Title	= "Play a Random Track from Playlist";
+
+iTunesCmd_IncreaseVolume_Title			= "Increase iTunes Volume by 10%";
+iTunesCmd_IncreaseVolume_ShortTitle		= "Increase iTunes Volume";
+iTunesCmd_DecreaseVolume_Title			= "Decrease iTunes Volume by 10%";
+iTunesCmd_DecreaseVolume_ShortTitle		= "Decrease iTunes Volume";
+iTunesCmd_SetVolume_TitleFormat			= "Set iTunes Volume to %d%%";
+iTunesCmd_SetVolume_Title				= "Set iTunes Volume";
+
+iTunesCmd_IncreaseRating_Title			= "Increase Rating by Half a Star";
+iTunesCmd_DecreaseRating_Title			= "Decrease Rating by Half a Star";
+iTunesCmd_SetRating_TitleFormat			= "Set Rating to %@";
+iTunesCmd_SetRating_Title				= "Set Rating";
+
+QuickTimePlayerCmd_Play_Title					= "Play Current Movie";
+QuickTimePlayerCmd_PlayPause_Title				= "Play/Pause Current Movie";
+QuickTimePlayerCmd_Pause_Title					= "Pause Current Movie";
+
+QuickTimePlayerCmd_StepForward_Title			= "Step Forward Current Movie %@ Frames";
+QuickTimePlayerCmd_StepForward_ShortTitle		= "Step Forward Current Movie";
+QuickTimePlayerCmd_StepBackward_Title			= "Step Backward Current Movie %@ Frames";
+QuickTimePlayerCmd_StepBackward_ShortTitle		= "Step Backward Current Movie";
+
+QuickTimePlayerCmd_IncreaseVolume_Title			= "Increase Current Movie Volume by 10%";
+QuickTimePlayerCmd_IncreaseVolume_ShortTitle	= "Increase Current Movie Volume";
+QuickTimePlayerCmd_DecreaseVolume_Title			= "Decrease Current Movie Volume by 10%";
+QuickTimePlayerCmd_DecreaseVolume_ShortTitle	= "Decrease Current Movie Volume";
+QuickTimePlayerCmd_SetVolume_TitleFormat		= "Set Current Movie Volume to %d%%";
+QuickTimePlayerCmd_SetVolume_Title				= "Set Current Movie Volume";
+
+kSafariCommandNewWindowShort			= "New %@ Window";
+kSafariCommandNewWindowLong				= "New %@ Window with URL ‘%@’";
+kSafariCommandNewTabShort				= "New %@ Tab";
+kSafariCommandNewTabLong				= "New %@ Tab with URL ‘%@’";
+kSafariCommandNextTab					= "Next %@ Tab";
+kSafariCommandPreviousTab				= "Previous %@ Tab";
+kSafariCommandSelectTabShort			= "Select %@ Tab";
+kSafariCommandSelectTabLong				= "Select %@ Tab ‘%@’";
+kSafariCommandSetTitleShort				= "Set %@ Title";
+kSafariCommandSetTitleLong				= "Set %@ Title to ‘%@’";
+kSafariCommandClickLinkShort			= "Click %@ Link";
+kSafariCommandClickLinkLong				= "Click %@ Link ‘%@’";
+kSafariCommandSubmitFormShort			= "Submit %@ Form";
+kSafariCommandSubmitFormLong			= "Submit %@ Form ‘%@’";
+kSafariCommandResetFormShort			= "Reset %@ Form";
+kSafariCommandResetFormLong				= "Reset %@ Form ‘%@’";
+kSafariCommandFocusFieldShort			= "Focus %@ Field";
+kSafariCommandFocusFieldLong			= "Focus %@ Field ‘%@’";
+kSafariCommandSelectFieldShort			= "Select %@ Field";
+kSafariCommandSelectFieldLong			= "Select %@ Field ‘%@’";
+kSafariCommandWaitForCompleteShort		= "Wait For %@ to Finish Loading";
+kSafariCommandWaitForCompleteLong		= "Wait For %@ to Finish Loading";
+kSafariCommandSetDocumentURLShort		= "Set %@ URL";
+kSafariCommandSetDocumentURLLong		= "Set %@ URL to ‘%@’";
+
+aScrollWheel_ActionDescFormatUp			= "Simulate Scroll Wheel Up %@";
+aScrollWheel_ActionDescFormatDown		= "Simulate Scroll Wheel Down %@";
+aScrollWheel_ActionDescFormatLeft		= "Simulate Scroll Wheel Left %@";
+aScrollWheel_ActionDescFormatRight		= "Simulate Scroll Wheel Right %@";
+
+aManipulateWindow_ResizeWindowByPercentFormat	= "Scale %@ by Percent";
+aManipulateWindow_ResizeWindowByFormat			= "Resize %@ by Pixels";
+aManipulateWindow_ResizeWindowToFormat			= "Resize %@ to Pixels";
+aManipulateWindow_MoveWindowByFormat			= "Move %@ by Pixels";
+aManipulateWindow_MoveWindowToFormat			= "Move %@ to Position";
+aManipulateWindow_MoveAndResizeFormat			= "Move and Resize %@";
+aManipulateWindow_CenterWindowFormat			= "Center %@";
+aManipulateWindow_CenterWindowAtFormat			= "Center %@ at Position";
+aManipulateWindow_CloseWindowFormat				= "Close %@";
+aManipulateWindow_ZoomWindowFormat				= "Zoom %@";
+aManipulateWindow_ReallyMinimizeWindowFormat	= "Minimize %@";
+aManipulateWindow_UnminimizeWindowFormat		= "Unminimize %@";
+aManipulateWindow_MinimizeWindowFormat			= "Minimize %@";
+aManipulateWindow_SelectWindowFormat			= "Bring %@ to Front";
+
+aManipulateWindow_FrontWindowName				= "Front Window";
+aManipulateWindow_NamedWindowFormat				= "Window Named ‘%@’";
+aManipulateWindow_WindowWithNameContainingFormat = "Window(s) With Name Containing ‘%@’";
+aManipulateWindow_WindowWithIndexFormat			= "Window With Index %@";
+
+aManipulateWindow_New_ResizeWindow			= "Resize a Window";
+aManipulateWindow_New_MoveAndResizeWindow	= "Move and Resize a Window";
+aManipulateWindow_New_MoveWindow			= "Move a Window";
+aManipulateWindow_New_ManipulateWindow		= "Manipulate a Window";
+aManipulateWindow_New_SelectWindow			= "Bring a Window to the Front";
+
+kmScreenCaptureTitle						= "Screen Capture %@";
+kmScreenCaptureSourceScreenMain				= "Screen Capture Main Screen";
+kmScreenCaptureSourceScreenIndex			= "Screen Capture Screen %@";
+kmScreenCaptureSourceWindowFront			= "Screen Capture Front Window";
+kmScreenCaptureSourceWindowIndex			= "Screen Capture Window %@";
+kmScreenCaptureSourceWindowName				= "Screen Capture Window ‘%@’";
+kmScreenCaptureSourceWindowNameContaining	= "Screen Capture Window With Name Containing ‘%@’";
+kmScreenCaptureSourceWindowNameMatching		= "Screen Capture Window With Name Matching ‘%@’";
+kmScreenCaptureSourceWindowArea				= "Screen Capture Area";
+
+kHScreenAreaScreenAllDescription		= "All Screens";
+kHScreenAreaScreenMainDescription		= "Main Screen";
+kHScreenAreaScreenIndexDescription		= "Screen %@";
+kHScreenAreaWindowFrontDescription		= "Front Window";
+kHScreenAreaWindowNameDescription				= "Window ‘%@’";
+kHScreenAreaWindowNameContainingDescription		= "Window With Name Containing ‘%@’";
+kHScreenAreaWindowNameMatchingDescription		= "Window With Name Matching ‘%@’";
+kHScreenAreaWindowIndexDescription				= "Window %@";
+kHScreenAreaAreaDescription						= "Area (%@)";
+
+kmDrawImageActionLine					= "Draw a Line onto Image";
+kmDrawImageActionRectangle				= "Draw a Rectangle onto Image";
+kmDrawImageActionOval					= "Draw a Oval onto Image";
+
+kmDrawImageActionHTML					= "Draw onto Image in %@";
+
+kmDrawImageLineHTML						= "Draw a line from (%@,%@) to (%@,%@), %@ thick.";
+kmDrawImageRectangleHTML				= "Draw a rectangle from (%@,%@), %@ wide, %@ high, %@ thick.";
+kmDrawImageOvalHTML						= "Draw an oval centered (%@,%@), %@ wide, %@ high.";
+
+kmTransformImageActionFlipHorizontal	= "Flip Image Horizontally";
+kmTransformImageActionFlipVertical		= "Flip Image Vertically";
+kmTransformImageActionRotateCW			= "Rotate Image Clockwise";
+kmTransformImageActionRotate180			= "Rotate Image 180°";
+kmTransformImageActionRotateCCW			= "Rotate Image Counter-Clockwise";
+kmTransformImageActionFreeRotate		= "Rotate Image ‘%@’";
+
+kmTransformImageActionHTMLFlipHorizontal	= "Flip Image in %@ Horizontally";
+kmTransformImageActionHTMLFlipVertical		= "Flip Image in %@ Vertically";
+kmTransformImageActionHTMLRotateCW			= "Rotate Image in %@ Clockwise";
+kmTransformImageActionHTMLRotate180			= "Rotate Image in %@ 180°";
+kmTransformImageActionHTMLRotateCCW			= "Rotate Image in %@ Counter-Clockwise";
+kmTransformImageActionHTMLFreeRotate		= "Rotate Image in %@ by ‘%@’";
+
+kmTransformImageActionFlip				= "Flip Image";
+kmTransformImageActionRotate			= "Rotate Image";
+
+kmGetImageSize							= "Get Image %@ of %@";
+
+kSizeAttributePixelSize					= "Pixel Size";
+kSizeAttributePixelWidth				= "Pixel Width";
+kSizeAttributePixekHeight				= "Pixel Height";
+kSizeAttributePointSize					= "Point Size";
+kSizeAttributePointWidth				= "Point Width";
+kSizeAttributePointHeight				= "Point Height";
+kSizeAttributeDPI						= "DPI";
+
+
+kmResizeImageActionScaleTo				= "Resize Image";
+kmResizeImageActionScaleToFit			= "Resize Image to Fit";
+kmResizeImageActionResizeTo				= "Resize Canvas";
+kmResizeImageActionAddMargin			= "Add or Remove Margins";
+kmResizeImageActionCrop					= "Crop Image";
+
+kmResizeImageActionHTMLScaleTo			= "Resize Image in %@";
+kmResizeImageActionHTMLScaleToFit		= "Resize Image in %@";
+kmResizeImageActionHTMLResizeTo			= "Resize Canvas in %@";
+kmResizeImageActionHTMLAddMargin		= "Add or Remove Margins to Image in %@";
+kmResizeImageActionHTMLCrop				= "Crop Image in %@";
+
+aInsertText_InsertTextTyping			= "Insert Text by Typing";
+aInsertText_InsertTextPasting			= "Insert Text by Pasting";
+aInsertText_DisplayText					= "Display Text";
+
+aInsertText_ByTyping					= "Insert Text ‘%@’ by Typing";
+aInsertText_ByPasting					= "Insert Text ‘%@’ by Pasting";
+aInsertText_ByPastingStyles				= "Insert Styled Text ‘%@’ by Pasting";
+aInsertText_DisplayWindow				= "Display Text ‘%@’ in Window";
+aInsertText_DisplayBriefly				= "Display Text ‘%@’ Briefly";
+aInsertText_DisplayLarge				= "Display Text ‘%@’ Large";
+
+aInsertTextHTML_ByTyping					= "Insert Text by Typing";
+aInsertTextHTML_ByPasting					= "Insert Text by Pasting";
+aInsertTextHTML_ByPastingStyles				= "Insert Styled Text by Pasting";
+aInsertTextHTML_DisplayWindow				= "Display Text in Window";
+aInsertTextHTML_DisplayBriefly				= "Display Text Briefly";
+aInsertTextHTML_DisplayLarge				= "Display Text Large";
+
+aSummaryReturnFormat					= "%@↩";
+aSummaryTextFormat						= "%@…";
+
+aInsertText_DisplayTitle				= "Display Text";
+aInsertText_DisplayDescription			= "The text is:";
+
+aFastUserSwitch_DescriptionFormat		= "Fast User Switch to ‘%@’";
+
+aSetKeyboardLayout_DescriptionFormat		= "Set Keyboard Layout to ‘%@’";
+
+kmSimulateHardwareKeyPressAndReleaseTitleFormat	= "Simulate the Hardware Key %@";
+kmSimulateHardwareKeyPressAndHoldTitleFormat	= "Press and Hold the Hardware Key %@";
+kmSimulateHardwareKeyPressAndRepeatTitleFormat	= "Press and Repeat the Hardware Key %@";
+kmSimulateHardwareKeyReleaseTitleFormat			= "Release the Hardware Key %@";
+
+aSetClipboardToText_Text						= "Text";
+aSetClipboardToText_StyledText					= "Styled Text";
+
+aSetClipboardToText_DescriptionFormat			= "Set %@ to %@";
+aSetClipboardToText_DescriptionExtendedFormat	= "%@ ‘%@’";
+
+aSetClipboardToText_DisplayTitle		= "Set Clipboard to Text";
+aSetClipboardToText_DisplayDescription	= "The clipboard would be:";
+
+aSetVariableToText_DescriptionFormat	= "Set Variable ‘%@’ to Text ‘%@’";
+aSetVariableToText_HTMLFormat			= "Set Variable ‘%@’ to Text";
+aSetVariableToSafariField_DescriptionFormat	= "Set Variable ‘%@’ to %@ Field ‘%@’";
+aSetVariableToSafariField_NewActionFormat	= "Set Variable to %@ Field";
+aSetVariableToCalculation_DescriptionFormat	= "Set Variable ‘%@’ To Calculation ‘%@’";
+
+aSetActionDelay00_DescriptionFormat		= "Set %@ Delay for This Macro to %@ Seconds";
+aSetActionDelay01_DescriptionFormat		= "Set %@ Delay Globally to %@ Seconds";
+aSetActionDelay10_DescriptionFormat		= "Reset %@ Delay for This Macro to %@ Seconds";
+aSetActionDelay11_DescriptionFormat		= "Reset %@ Delay Globally to %@ Seconds";
+
+aSetFindPasteboard_DescriptionFormat	= "Set Find Pasteboard to Text ‘%@’";
+
+aSetVariableToKeychainPassword_DescriptionFormat	= "Set Variable ‘%@’ to Keychain Password ‘%@’";
+aSetKeychainPasswordToText_DescriptionFormat	= "Set Keychain Password ‘%@’ to Text ‘%@’";
+
+aSetSafariFieldToText_DescriptionFormat	= "Set %@ Field ‘%@’ to Text";
+aSetSafariFieldToText_NewActionFormat	= "Set %@ Field to Text";
+
+aSetSafariCheckbox_DescriptionCheckedFormat		= "Set %@ Checkbox ‘%@’ to checked";
+aSetSafariCheckbox_DescriptionUncheckedFormat	= "Set %@ Checkbox ‘%@’ to unchecked";
+aSetSafariCheckbox_DescriptionValueFormat		= "Set %@ Checkbox ‘%@’ to ‘%@’";
+aSetSafariCheckbox_NewActionFormat				= "Set %@ Checkbox";
+
+aSetSafariRadio_DescriptionFormat		= "Set %@ Radio Button ‘%@’ to ‘%@’";
+aSetSafariRadio_NewActionFormat			= "Set %@ Radio Button";
+
+kSetMailStatus_DescriptionOnFormat = "Set Mail %@ to On";
+kSetMailStatus_DescriptionOffFormat = "Set Mail %@ to Off";
+kSetMailStatus_DescriptionFormat = "Set Mail %@ to %@";
+
+kMailFlagIndex							= "Flag Index";
+kMailFlagged							= "Flagged Status";
+kMailJunk								= "Junk Status";
+kMailRead								= "Read Status";
+
+kMailStatus0							= "Off";
+kMailStatus1							= "On";
+
+kMailFlagIndex0							= "Unflagged";
+kMailFlagIndex1							= "Red";
+kMailFlagIndex2							= "Oragne";
+kMailFlagIndex3							= "Yellow";
+kMailFlagIndex4							= "Green";
+kMailFlagIndex5							= "Blue";
+kMailFlagIndex6							= "Purple";
+kMailFlagIndex7							= "Gray";
+
+aMailSendMessage_DescriptionFormat		= "Send Mail Message with Subject ‘%@’";
+aSetVariableToText_HTML					= "Send Mail Message";
+
+aExecuteJavaScript_NewActionFormat		= "Execute a JavaScript in %@";
+
+aPromptForUserInput_Format				= "Prompt for User Input ‘%@’";
+
+hkFilterClipboardTitleFormat			= "Filter %@ with %@";
+hkFilterVariableTitleFormat				= "Filter Variable ‘%@’ with %@";
+
+kFilterRemoveStyles					= "Remove Styles";
+kFilterMacLineEndings				= "Mac Line Endings";
+kFilterUnixLineEndings				= "Unix Line Endings";
+kFilterWindowsLineEndings			= "Windows Line Endings";
+kFilterTrimWhitespace				= "Trim Whitespace";
+kFilterWrap							= "Wrap";
+kFilterUnwrap						= "Unwrap";
+kFilterLowercase					= "Lowercase";
+kFilterLowercaseFirst				= "Lowercase First";
+kFilterUppercase					= "Uppercase";
+kFilterUppercaseFirst				= "Uppercase First";
+kFilterCapitalize					= "Capitalize";
+kFilterTitleCase					= "Title Case";
+kFilterSmartQuotes					= "Smart Quotes";
+kFilterDumbQuotes					= "Dumb Quotes";
+kFilterFrenchQuotes					= "French Quotes";
+kFilterSpaces						= "Spaces";
+kFilterTabs							= "Tabs";
+kFilterEncodeHTMLEntities			= "Encode HTML Entities";
+kFilterEncodeNonASCIIHTMLEntities	= "Encode Non-ASCII HTML Entities";
+kFilterDecodeHTMLEntities			= "Decode HTML Entities";
+kFilterMakeHTMLList					= "HTML List";
+kFilterPercentEncodeForURL			= "Percent Encode for URL";
+kFilterPercentDecodeURL				= "Percent Decode URL";
+kFilterQuoteForAppleScript			= "Quote for AppleScript";
+kFilterQuoteForJavaScript			= "Quote for JavaScript";
+kFilterQuoteForShellScript			= "Quote for Shell Script";
+kFilterQuoteForSwift				= "Quote for Swift";
+kFilterLastPathComponent			= "Last Path Component";
+kFilterDeleteLastPathComponent		= "Delete Last Path Component";
+kFilterPathExtension				= "Path Extension";
+kFilterDeletePathExtension			= "Delete Path Extension";
+kFilterBaseName						= "Base Name";
+kFilterExpandTildeInPath			= "Expand Tilde In Path";
+kFilterAbbreviateWithTildeInPath	= "Abbreviate With Tilde In Path";
+kFilterResolveSymlinks				= "Resolve Symlinks";
+kFilterStandardizePath				= "Standardize Path";
+kFilterZapControlCharacters			= "Zap Control Characters";
+kFilterBulletControlCharacters		= "Bullet Control Characters";
+kFilterCalculate					= "Calculate";
+kFilterProcessTokens				= "Process Tokens";
+kFilterValueOfNamedVariable			= "Value of Named Variable";
+kFilterValueOfNamedClipboard		= "Value of Named Clipboard";
+kFilterCharacterCount				= "Character Count";
+kFilterWordCount					= "Word Count";
+kFilterLineCount					= "Line Count";
+
+SearchReplaceClipboardActionType::kCaseSensitiveString	= "Search and Replace %@ With String Matching (case sensitive)";
+SearchReplaceClipboardActionType::kIgnoreCaseString		= "Search and Replace %@ With String Matching (ignoring case)";
+SearchReplaceClipboardActionType::kCaseSensitiveRegEx	= "Search and Replace %@ Using Regular Expression (case sensitive)";
+SearchReplaceClipboardActionType::kIgnoreCaseRegEx		= "Search and Replace %@ Using Regular Expression (ignoring case)";
+
+SearchReplaceVariableActionType::kCaseSensitiveString	= "Search and Replace Variable ‘%@’ With String Matching (case sensitive)";
+SearchReplaceVariableActionType::kIgnoreCaseString		= "Search and Replace Variable ‘%@’ With String Matching (ignoring case)";
+SearchReplaceVariableActionType::kCaseSensitiveRegEx	= "Search and Replace Variable ‘%@’ Using Regular Expression (case sensitive)";
+SearchReplaceVariableActionType::kIgnoreCaseRegEx		= "Search and Replace Variable ‘%@’ Using Regular Expression (ignoring case)";
+
+SearchVariableActionType::kCaseSensitiveRegEx			= "Search Variable ‘%@’ Using Regular Expression (case sensitive)";
+SearchVariableActionType::kIgnoreCaseRegEx				= "Search Variable ‘%@’ Using Regular Expression (ignoring case)";
+
+SearchClipboardActionType::kCaseSensitiveRegEx			= "Search %@ Using Regular Expression (case sensitive)";
+SearchClipboardActionType::kIgnoreCaseRegEx				= "Search %@ Using Regular Expression (ignoring case)";
+
+UseVariableActionType::kSetMouse						= "Use Variable ‘%@’ to Set the Mouse Location";
+UseVariableActionType::kSetWindowPosition			= "Use Variable ‘%@’ to Set the Front Window Position";
+UseVariableActionType::kSetWindowSize				= "Use Variable ‘%@’ to Set the Front Window Size";
+UseVariableActionType::kSetWindowFrame				= "Use Variable ‘%@’ to Set the Front Window Frame";
+UseVariableActionType::kSetWindowByName				= "Use Variable ‘%@’ to Set the Front Window by Name";
+UseVariableActionType::kSetWindowByNameContains		= "Use Variable ‘%@’ to Set the Front Window by Name Contains";
+UseVariableActionType::kSetWindowByNameMatches		= "Use Variable ‘%@’ to Set the Front Window by Name Matching";
+UseVariableActionType::kSetApplicationByName			= "Use Variable ‘%@’ to Set the Front Application by Name";
+UseVariableActionType::kSetApplicationByNameContains	= "Use Variable ‘%@’ to Set the Front Application by Name Containing";
+UseVariableActionType::kSetApplicationByNameMatches	= "Use Variable ‘%@’ to Set the Front Application by Name Matching";
+UseVariableActionType::kSetSystemVolume				= "Use Variable ‘%@’ to Set the System Volume";
+
+
+WriteFileFormatPlainText		= "Plain Text";
+WriteFileFormatRTF				= "RTF";
+WriteFileFormatRTFD				= "RTFD";
+WriteFileFormatSimpleText		= "Simple Text";
+WriteFileFormatHTML				= "HTML";
+WriteFileFormatWebArchive		= "Web Archive";
+WriteFileFormatWordDoc			= "Word Doc";
+WriteFileFormatWordML			= "Word ML";
+WriteFileFormatOfficeOpenXML	= "Office Open XML";
+WriteFileFormatOpenDocument		= "Open Document";
+WriteFileFormatPNG				= "PNG";
+WriteFileFormatTIFF				= "TIFF";
+WriteFileFormatJPEG				= "JPEG";
+WriteFileFormatBMP				= "BMP";
+WriteFileFormatGIF				= "GIF";
+
+WriteFileEncodingMacRoman		= "Mac Roman";
+WriteFileEncodingLatin1			= "ISO Latin 1";
+WriteFileEncodingUTF8			= "UTF8";
+WriteFileEncodingUTF16			= "UTF16";
+
+aQuickMacro_DescriptionFormat			= "Record Quick Macro for Hot Key %@";
+aQuickMacro_TargetNameFormat			= "%@ [Quick Macro]";
+
+aMacroGroupToggle_TargetNameFormat		= "%@ [Macro Group]";
+
+aPressButton_DescriptionFormat			= "Press Button ‘%@’";
+
+hkSemaphoreLock_DescriptionFormat		= "Semaphore Lock ‘%@’";
+hkSemaphoreUnlock_DescriptionFormat		= "Semaphore Unlock ‘%@’";
+hkSemaphoreReset_DescriptionFormat		= "Semaphore Reset ‘%@’";
+
+SemaphoreUnlockFailed					= "Semaphore Unlock ‘%@’ failed on unlocked semaphore";
+
+aCSMacroAction_PasteFormat				= "Paste from Named Clipboard ‘%@’";
+aCSMacroAction_CopyFormat				= "Copy to Named Clipboard ‘%@’";
+aCSMacroAction_CutFormat				= "Cut to Named Clipboard ‘%@’";
+
+aCSMacroAction_PasteTitle				= "Paste from Named Clipboard";
+aCSMacroAction_CopyTitle				= "Copy to Named Clipboard";
+aCSMacroAction_CutTitle					= "Cut to Named Clipboard";
+
+aCSMacroEditor_Paste					= "from";
+aCSMacroEditor_Copy						= "to";
+aCSMacroEditor_Cut						= "to";
+
+aACutCopyPaste_CutTitle					= "Cut";
+aACutCopyPaste_CopyTitle				= "Copy";
+aACutCopyPaste_PasteTitle				= "Paste";
+
+aSetClipboardToNamedClipboardFormat		= "Set Clipboard to Named Clipboard ‘%@’";
+aSaveClipboardToNamedClipboardFormat	= "Save Clipboard to Named Clipboard ‘%@’";
+
+aSetClipboardToPastClipboardFormat		= "Set %@ to Past Clipboard %@";
+
+aCopyClipboardNothing					= "Copy Nothing";
+aCopyClipboard							= "Copy %@ to %@";
+
+aDeletePastClipboardFormat				= "Delete Past Clipboard %@";
+
+kNamedClipboardSystemClipboard			= "System Clipboard";
+
+UnitsIn1Second		= "1 second";
+UnitsInSeconds		= "%d seconds";
+UnitsIn1Minute		= "1 minute";
+UnitsInMinutes		= "%d minutes";
+UnitsIn1Hour			= "1 hour";
+UnitsInHours			= "%d hours";
+UnitsIn1Day			= "1 day";
+UnitsInDays			= "%d days";
+
+tHotKeyTriggerTitle						= "Hot Key Trigger";
+tMIDITriggerTitle						= "MIDI Trigger";
+tUSBDeviceTriggerTitle					= "USB Device Trigger";
+tVolumeTriggerTitle						= "Mounted Volume Trigger";
+tFocusedWindowTriggerTitle				= "Focused Window Trigger";
+tFolderTriggerTitle						= "Folder Trigger";
+tHIDTriggerTitle						= "Device Trigger";
+tTypedStringTriggerTitle				= "Typed String Trigger";
+tApplicationTriggerTitle				= "Application Trigger";
+tTimeTriggerTitle						= "Time of Day Trigger";
+tWhileLoggedInTriggerTitle				= "While Logged In Trigger";
+tLoginTriggerTitle						= "Login Trigger";
+tLaunchTriggerTitle						= "Launch Trigger";
+tGlobalMacroPaletteTitle				= "Global Macro Palette Trigger";
+tStatusMenuTitle						= "Status Menu Trigger";
+tWakeTitle								= "Wake Trigger";
+tSleepTitle								= "Sleep Trigger";
+tClipboardTitle							= "Clipboard Trigger";
+tPublicWebTitle							= "Public Web Trigger";
+tScriptTitle							= "Script Trigger";
+tWirelessNetworkTriggerTitle			= "Wireless Network Trigger";
+
+tHotKeyTriggerDescPressedFormat			= "The Hot Key %@ is pressed";
+tHotKeyTriggerDescWhileDownFormat		= "While the Hot Key %@ is down";
+tHotKeyTriggerDescReleasedFormat		= "The Hot Key %@ is released";
+tHotKeyTriggerDescTappedFormat			= "The Hot Key %@ is tapped";
+tHotKeyTriggerDescTappedOnceFormat		= "The Hot Key %@ is tapped once";
+tHotKeyTriggerDescTappedTwiceFormat		= "The Hot Key %@ is tapped twice";
+tHotKeyTriggerDescTappedTimesFormat		= "The Hot Key %@ is tapped %d times";
+
+tMIDITriggerDescPressedFormat			= "The MIDI note %d is pressed";
+tMIDITriggerDescWhileDownFormat			= "While the MIDI note %d is down";
+tMIDITriggerDescReleasedFormat			= "The MIDI note %d is released";
+
+tMIDITriggerShortDescFormat				= "♪%d";
+
+tUSBTriggerAny							= "Any USB Device is %%@";
+tUSBTriggerNamed						= "USB Device ‘%@’ is %%@";
+tUSBTriggerContaining					= "USB Device with Name Containing ‘%@’ is %%@";
+tUSBTriggerMatching						= "USB Device with Name Matching ‘%@’ is %%@";
+
+tUSBTriggerAttached						= "Attached";
+tUSBTriggerDetached						= "Detached";
+
+tUSBTriggerShortDesc					= "USB";
+
+tVolumeTriggerAny						= "Any Volume is %%@";
+tVolumeTriggerNamed						= "Volume ‘%@’ is %%@";
+tVolumeTriggerContaining				= "Volume with Name Containing ‘%@’ is %%@";
+tVolumeTriggerMatching					= "Volume with Name Matching ‘%@’ is %%@";
+
+tVolumeTriggerMounted					= "Mounted";
+tVolumeTriggerUnmounted					= "Unmounted";
+
+tVolumeTriggerShortDesc					= "💿";
+
+tFolderTriggerAddImmediate				= "Anything is added to folder ‘%@’ (immediately)";
+tFolderTriggerAddIgnorePartial			= "Anything is added to folder ‘%@’ (ignoring partial files)";
+tFolderTriggerAddWaitCompletion			= "Anything is added to folder ‘%@’ (ignoring partial or changing files)";
+tFolderTriggerRemoveImmediate			= "Anything is removed from folder ‘%@’ (immediately)";
+tFolderTriggerRemoveIgnorePartial		= "Anything is removed from folder ‘%@’ (ignoring partial files)";
+tFolderTriggerRemoveWaitCompletion		= "Anything is removed from folder ‘%@’ (ignoring partial files)";
+tFolderTriggerBothImmediate				= "Anything is added to or removed from folder ‘%@’ (immediately)";
+tFolderTriggerBothIgnorePartial			= "Anything is added to or removed from folder ‘%@’ (ignoring partial files)";
+tFolderTriggerBothWaitCompletion		= "Anything is added to or removed from folder ‘%@’ (ignoring partial or changing files)";
+
+tFolderTriggerShortDesc					= "📁";
+
+tFocusedWindowFocusedWindowChanges			= "The Focused Window Changes";
+tFocusedWindowFocusedWindowTitleChanges		= "The Focused Window Title Changes";
+tFocusedWindowFocusedWindowsTitleChanged		= "The Focused Window’s Title Changed";
+tFocusedWindowFocusedWindowsFrameChanged		= "The Focused Window’s Frame Changed";
+
+tFocusedWindow_ShortDescription		= "Window";
+
+tWirelessNetworkTriggerAny				= "Any Wireless Network is %%@";
+tWirelessNetworkTriggerNameIs			= "Wireless Network ‘%@’ is %%@";
+tWirelessNetworkTriggerNameContains		= "Wireless Network with Name Containing ‘%@’ is %%@";
+tWirelessNetworkTriggerNameMatches		= "Wireless Network with Name Matching ‘%@’ is %%@";
+tWirelessNetworkTriggerBSSID			= "Wireless Network with BSSID ‘%@’ is %%@";
+
+tWirelessNetworkTriggerConnected		= "Connected";
+tWirelessNetworkTriggerDisconnected		= "Disconnected";
+
+tWirelessNetworkTriggerShortDesc		= "✈";
+
+tHIDTriggerDescPressedFormat			= "The %@ key is pressed";
+tHIDTriggerDescWhileDownFormat			= "While the %@ key is down";
+tHIDTriggerDescReleasedFormat			= "The %@ key is released";
+tHIDTriggerDescTappedFormat				= "The %@ key is tapped";
+tHIDTriggerDescTappedOnceFormat			= "The %@ key is tapped once";
+tHIDTriggerDescTappedTwiceFormat		= "The %@ key is tapped twice";
+tHIDTriggerDescTappedTimesFormat		= "The %@ key is tapped %d times";
+
+tHIDTriggerShortDescFormat				= "⚀%@";
+
+tTypeStringTriggerDescWithoutDeleteFormat		= "The %@%@ ‘%@’ is typed (no deletes)";
+tTypeStringTriggerDescWithDeleteFormat			= "The %@%@ ‘%@’ is typed (then deleted)";
+tTypeStringSpaceShort							= "◇";
+tTypeStringSpaceLong							= "«Space»";
+tTypeStringTabShort								= "⇥";
+tTypeStringTabLong								= "«Tab»";
+tTypeStringReturnShort							= "«Return»";
+tTypeStringReturnLong							= "↩";
+tTypeStringEnterShort							= "«Enter»";
+tTypeStringEnterLong							= "⌤";
+
+tTypeStringExactCase							= "exact case string";
+tTypeStringIgnoreCase							= "case ignoring string";
+tTypeStringRememberCase							= "case considering string";
+tTypeStringMatch								= "regular expression";
+
+tTypeStringNoExtra								= "";
+tTypeStringDiacriticalsMatterAnywhere			= "";
+tTypeStringDiacriticalsMatterWordBreak			= " (after a word break)";
+tTypeStringDiacriticalsDontMatterAnywhere		= " (ignoring diacriticals)";
+tTypeStringDiacriticalsDontMatterWordBreak		= " (after a word break, ignoring diacriticals)";
+
+tApplicationTriggerLaunchesFormat				= "Application ‘%@’ launches";
+tApplicationTriggerActivatesFormat				= "Application ‘%@’ activates";
+tApplicationTriggerDeactivatesFormat			= "Application ‘%@’ deactivates";
+tApplicationTriggerQuitsFormat					= "Application ‘%@’ quits";
+tApplicationTriggerWhilteActiveFormat			= "While application ‘%@’ is active, %@";
+tApplicationTriggerWhileRunningFormat			= "While application ‘%@’ is running, %@";
+
+tCurrentApplicationTriggerLaunchesFormat		= "Any application launches";
+tCurrentApplicationTriggerActivatesFormat		= "Any application activates";
+tCurrentApplicationTriggerDeactivatesFormat		= "Any application deactivates";
+tCurrentApplicationTriggerQuitsFormat			= "Any application quits";
+tCurrentApplicationTriggerWhilteActiveFormat	= "While any application is active, %@";
+tCurrentApplicationTriggerWhileRunningFormat	= "While any application is running, %@";
+
+tApplicationTriggerDescFormatRepeat		= "repeating every %@";
+
+tTimeTrigger_DescFormat					= "At %@ %@";
+tTimeTrigger_TimeFormat					= "%d:%02d";
+tTimeTrigger_TimeBetweenFormat			= "%d:%02d-%d:%02d";
+tTimeTrigger_Login						= "Login";
+tTimeTrigger_LoginDescription			= "At Login";
+tTimeTrigger_Launch						= "Launch";
+tTimeTrigger_LaunchDescription			= "At Engine Launch";
+tTimeTrigger_ExecuteAyDescFormat		= "At %@ %@";
+tTimeTrigger_WhileLoggedInDescFormat	= "Every %@ between %@ %@";
+tTimeTrigger_EveryDay					= "every day";
+tTimeTrigger_Weekends					= "weekends";
+tTimeTrigger_NoDays						= "No Days";
+tTimeTrigger_WorkdaysAndWekendDays		= "%@ and %@";
+tTimeTrigger_CertainDaysFormat			= "on %@";
+tTimeTrigger_WeekdayRange				= "%@-%@";
+tTimeTrigger_Monday						= "Monday";
+tTimeTrigger_Tuesday					= "Tuesday";
+tTimeTrigger_Wednesday					= "Wednesday";
+tTimeTrigger_Thursday					= "Thursday";
+tTimeTrigger_Friday						= "Friday";
+tTimeTrigger_Saturday					= "Saturday";
+tTimeTrigger_Sunday						= "Sunday";
+tTimeTrigger_DaySep						= ", ";
+tTimeTrigger_RepeatingFormat			= " repeating every %d %@";
+
+tMacroPaletteTrigger_LongDescription	= "The Global Macro Palette";
+tMacroPaletteTrigger_ShortDescription	= "Palette";
+
+tStatusMenuTrigger_LongDescription		= "The Status Menu";
+tStatusMenuTrigger_ShortDescription		= "Menu";
+
+StatusMenuEmptyItem						= "No Active Status Menu Triggers";
+
+StatusMenuTriggerNoStatusMenu			= "This macro will be listed in the status menu WHICH IS CURRENTLY DISABLED so this trigger will never fire.";
+
+tPublicWebTrigger_LongDescription		= "Via Public Web Access";
+tPublicWebTrigger_ShortDescription		= "Public Web";
+
+tScriptTrigger_LongDescription			= "Script";
+tScriptTrigger_ShortDescription			= "Script";
+
+tWakeTrigger_LongDescription			= "At System Wake";
+tWakeTrigger_ShortDescription			= "Wake";
+
+tSleepTrigger_LongDescription			= "At System Sleep";
+tSleepTrigger_ShortDescription			= "Sleep";
+
+tClipboardTrigger_LongDescription		= "System Clipboard Changed";
+tClipboardTrigger_ShortDescription		= "Clipboard";
+
+TriggerByNameFormat						= "Name Search for ‘%@’";
+TriggerByWebServer						= "Web Server for ‘%@’";
+TriggerByURLScheme						= "URL Scheme (kmtrigger) for ‘%@’";
+TriggerByCustomPrompt					= "Custom HTML Prompt for ‘%@’";
+TriggerByMacroGroupPalette				= "Macro Set Palette";
+TriggerByDuplicateMacroPalette			= "Duplicate Macro Palette";
+TriggerByExecuteMacro					= "Execute Macro";
+TriggerByWhile							= "While";
+TriggerByDoScript						= "Do Script";
+TriggerByNameAction						= "Name";
+
+
+clRangeTitle							= "Number Range Collection";
+clRange_LongDescription					= "The numbers from %@ to %@";
+clRangeDown_LongDescription				= "The numbers from %@ down to %@";
+
+clApplicationsTitle						= "Running Applications Collection";
+clApplications_LongDescription			= "The running applications";
+
+clFilesTitle							= "Folder Contents Collection";
+clFiles_LongDescription					= "The direct contents of folder ‘%@’";
+clFilesRecursive_LongDescription		= "The recursive contents of folder ‘%@’";
+
+clFinderSelectionTitle					= "Finder’s Selection Collection";
+clFinderSelection_LongDescription		= "The items in the Finder selection";
+
+clFoundImagesTitle						= "Found Images Collection";
+clFoundImages_LongDescription			= "The matching images found on the screen";
+
+clVolumesTitle							= "Mounted Volumes Collection";
+clVolumes_LongDescription				= "The mounted volumes";
+
+clLinesInClipboardTitle					= "Lines In Collection";
+clLinesInClipboard_LongDescription		= "The lines in the current clipboard";
+
+clLinesInTitle									= "Lines In Collection";
+clLinesInVariable_LongDescription				= "The lines in variable ‘%@’";
+clLinesInFile_LongDescription					= "The lines in file ‘%@’";
+clLinesInSystemClipboard_LongDescription		= "The lines in system clipboard";
+clLinesInNamedClipboard_LongDescription			= "The lines in Named Clipboard ‘%@’";
+
+clSubstringsInTitle								= "Substrings In Collection";
+clSubstringsInVariable_LongDescription			= "The substrings in variable ‘%@’";
+clSubstringsInFile_LongDescription				= "The substrings in file ‘%@’";
+clSubstringsInSystemClipboard_LongDescription	= "The substrings in system clipboard";
+clSubstringsInNamedClipboard_LongDescription	= "The substrings in Named Clipboard ‘%@’";
+
+clPastClipboardsTitle					= "Clipboard History Collection";
+clPastClipboards_LongDescription		= "The past text clipboards";
+
+cConditionListAnyTitle					= "Any Condition Met";
+cConditionListAllTitle					= "All Conditions Met";
+cConditionListNoneTitle					= "No Condition Met";
+cConditionListNotAllTitle				= "Not All Conditions Met";
+
+cApplicationTitle						= "Application Condition";
+cApplication_LongDescription			= "Application ‘%@’ %@";
+
+cApplication_RunningDescription			= "is running";
+cApplication_NotRunningDescription		= "is not running";
+cApplication_ActiveDescription			= "is at the front";
+cApplication_NotActiveDescription		= "is not at the front";
+cApplication_RunningButNotActiveDescription	= "is running but not at the front";
+
+cFrontWindowTitle						= "Front Window Condition";
+
+cFrontWindow_LongDescription_Exists							= "Front window exists";
+cFrontWindow_LongDescription_DoesNotExist					= "Front window does not exist";
+cFrontWindow_LongDescription_TitleIs						= "Front window title is ‘%@’";
+cFrontWindow_LongDescription_TitleIsNot						= "Front window title is not ‘%@’";
+cFrontWindow_LongDescription_ExistsButTitleIsNot			= "Front window exists but title is not ‘%@’";
+cFrontWindow_LongDescription_TitleContains					= "Front window title contains ‘%@’";
+cFrontWindow_LongDescription_TitleDoesNotContain			= "Front window title does not contain ‘%@’";
+cFrontWindow_LongDescription_ExistsButTitleDoesNotContain	= "Front window exists but title does not contain ‘%@’";
+cFrontWindow_LongDescription_TitleMatches					= "Front window title matches ‘%@’";
+cFrontWindow_LongDescription_TitleDoesNotMatch				= "Front window title does not match ‘%@’";
+cFrontWindow_LongDescription_ExistsButTitleDoesNotMatch		= "Front window exists but title does not match ‘%@’";
+
+cAnyWindowTitle							= "Any Window Condition";
+
+cAnyWindow_LongDescription_TitleIs						= "Any window title is ‘%@’";
+cAnyWindow_LongDescription_TitleIsNot					= "Any window title is not ‘%@’";
+cAnyWindow_LongDescription_TitleContains				= "Any window title contains ‘%@’";
+cAnyWindow_LongDescription_TitleDoesNotContain			= "Any window title does not contain ‘%@’";
+cAnyWindow_LongDescription_TitleMatches					= "Any window title matches ‘%@’";
+cAnyWindow_LongDescription_TitleDoesNotMatch			= "Any window title does not match ‘%@’";
+
+cButtonTitle						= "Button Condition";
+
+cButton_LongDescription_Exists					= "Button %@ ‘%@’ exists";
+cButton_LongDescription_DoesNotExist				= "Button %@ ‘%@’ does not exist";
+cButton_LongDescription_IsEnabled					= "Button %@ ‘%@’ is enabled";
+cButton_LongDescription_IsNotEnabled				= "Button %@ ‘%@’ is not enabled";
+cButton_LongDescription_ExistsButIsNotEnabled		= "Button %@ ‘%@’ exists but is not enabled";
+cButton_LongDescription_IsOff						= "Button %@ ‘%@’ is off";
+cButton_LongDescription_IsOn						= "Button %@ ‘%@’ is on";
+cButton_LongDescription_IsMixed						= "Button %@ ‘%@’ is mixed";
+
+cButtonSelection_Is				= "with name";
+cButtonSelection_Contains		= "with name containing";
+cButtonSelection_Matches		= "with name matching";
+
+cWirelessNetworkTitle			= "Wireless Network Condition";
+
+cWirelessNetwork_AnyConnected		= "Any wireless network is connected";
+cWirelessNetwork_AnyNotConnected	= "No wireless network is connected";
+cWirelessNetwork_OtherIsConnected	= "A wireless network %@ is connected";
+cWirelessNetwork_OtherIsNotConnected	= "A wireless network %@ is not connected";
+cWirelessNetworkSelection_NameIs		= "with name ‘%@’";
+cWirelessNetworkSelection_NameContains	= "with name containing ‘%@’";
+cWirelessNetworkSelection_NameMatches	= "with name matching ‘%@’";
+cWirelessNetworkSelection_BSSID			= "with BSSID ‘%@’";
+
+cUSBDeviceTitle						= "USB Device Condition";
+
+cUSBDevice_LongDescription_Exists					= "USB device %@ ‘%@’ exists";
+cUSBDevice_LongDescription_DoesNotExist				= "USB device %@ ‘%@’ does not exist";
+
+cUSBDeviceSelection_Is				= "with name";
+cUSBDeviceSelection_Contains		= "with name containing";
+cUSBDeviceSelection_Matches			= "with name matching";
+
+cMenuTitle							= "Menu Condition";
+
+cMenu_LongDescription_Exists					= "Menu %@ ‘%@’ exists";
+cMenu_LongDescription_DoesNotExist				= "Menu %@ ‘%@’ does not exist";
+cMenu_LongDescription_IsEnabled					= "Menu %@ ‘%@’ is enabled";
+cMenu_LongDescription_IsNotEnabled				= "Menu %@ ‘%@’ is not enabled";
+cMenu_LongDescription_ExistsButIsNotEnabled		= "Menu %@ ‘%@’ exists but is not enabled";
+cMenu_LongDescription_IsMarked					= "Menu %@ ‘%@’ is marked";
+cMenu_LongDescription_IsNotMarked				= "Menu %@ ‘%@’ is not marked";
+cMenu_LongDescription_ExistsButIsNotMarked		= "Menu %@ ‘%@’ exists but is not marked";
+
+cMenuSelection_Is			= "with name";
+cMenuSelection_Contains		= "with name containing";
+cMenuSelection_Matches		= "with name matching";
+cMenuSelection_Path			= "with path";
+cMenuSelection_Shortcut		= "with shortcut";
+
+cModifiersTitle				= "Modifiers Condition";
+
+cModifiers_LongDescription_Always = "The modifiers are in any state (always true)";
+cModifiers_LongDescription_JustDown = "The modifiers %@ are down";
+cModifiers_LongDescription_JustUp = "The modifiers %@ are up";
+cModifiers_LongDescription_Both = "The modifiers %@ are down, and %@ are up";
+
+cKeyTitle							= "Key Condition";
+
+cKey_LongDescription_Down			= "The key %@ is down";
+cKey_LongDescription_Up				= "The key %@ is up";
+
+cTypedStringTitle					= "Typed String Condition";
+
+cTypedString_LongDescriptionTitle	= "The typed string was %@";
+cTypedStringNone					= "lowercase";
+cTypedStringTitleCase				= "title case";
+cTypedStringUpperCase				= "uppercase";
+
+cDiskTitle							= "Mounted Volume Condition";
+
+cDisk_LongDescription_Exists		= "Mounted Volume %@ ‘%@’ exists";
+cDisk_LongDescription_DoesNotExist	= "Mounted Volume %@ ‘%@’ does not exist";
+
+cDiskSelection_Is					= "with name";
+cDiskSelection_Contains				= "with name containing";
+cDiskSelection_Matches				= "with name matching";
+
+cPathTitle							= "Path Condition";
+
+cPath_LongDescription_NothingExists			= "Nothing exists at path ‘%@’";
+cPath_LongDescription_SomethingExists		= "Something exists at path ‘%@’";
+cPath_LongDescription_FileExists			= "A file exists at path ‘%@’";
+cPath_LongDescription_FileDoesNotExists		= "A file does not exist at path ‘%@’";
+cPath_LongDescription_FolderExists			= "A folder exists at path ‘%@’";
+cPath_LongDescription_FolderDoesNotExists	= "A folder does not exist at path ‘%@’";
+
+cClipboardTitle							= "Clipboard Condition";
+
+cClipboard_LongDescription_HasText				= "The clipboard has some text";
+cClipboard_LongDescription_DoesNotHaveText		= "The clipboard does not have any text";
+cClipboard_LongDescription_HasImage				= "The clipboard has an image";
+cClipboard_LongDescription_DoesNotHaveImage		= "The clipboard does not have an image";
+cClipboard_LongDescription_Is					= "The clipboard text is ‘%@’";
+cClipboard_LongDescription_IsNot				= "The clipboard text is not ‘%@’";
+cClipboard_LongDescription_IsBefore				= "The clipboard text is before ‘%@’";
+cClipboard_LongDescription_IsAfter				= "The clipboard text is after ‘%@’";
+cClipboard_LongDescription_Contains				= "The clipboard text contains ‘%@’";
+cClipboard_LongDescription_DoesNotContain		= "The clipboard text does not contain ‘%@’";
+cClipboard_LongDescription_Matches				= "The clipboard text matches ‘%@’";
+cClipboard_LongDescription_DoesNotMatch			= "The clipboard text does not match ‘%@’";
+cClipboard_LongDescription_ConformsTo			= "The clipboard text conforms to ‘%@’";
+cClipboard_LongDescription_DoesNotConformTo		= "The clipboard text does not conform to ‘%@’";
+
+cVariableTitle							= "Variable Condition";
+
+cVariable_LongDescription_Exists			= "The variable ‘%@’ exists";
+cVariable_LongDescription_DoesNotExist		= "The variable ‘%@’ does not exist";
+cVariable_LongDescription_IsEmpty			= "The variable ‘%@’ is empty";
+cVariable_LongDescription_IsNotEmpty		= "The variable ‘%@’ is not empty";
+cVariable_LongDescription_Is				= "The variable ‘%@’ is ‘%@’";
+cVariable_LongDescription_IsNot				= "The variable ‘%@’ is not ‘%@’";
+cVariable_LongDescription_IsBefore			= "The variable ‘%@’ is before ‘%@’";
+cVariable_LongDescription_IsAfter			= "The variable ‘%@’ is after ‘%@’";
+cVariable_LongDescription_Contains			= "The variable ‘%@’ contains ‘%@’";
+cVariable_LongDescription_DoesNotContain	= "The variable ‘%@’ does not contain ‘%@’";
+cVariable_LongDescription_Matches			= "The variable ‘%@’ matches ‘%@’";
+cVariable_LongDescription_DoesNotMatch		= "The variable ‘%@’ does not match ‘%@’";
+
+cTextTitle									= "Text Condition";
+
+cText_LongDescription_IsEmpty			= "The text ‘%@’ is empty";
+cText_LongDescription_IsNotEmpty		= "The text ‘%@’ is not empty";
+cText_LongDescription_Is				= "The text ‘%@’ is ‘%@’";
+cText_LongDescription_IsNot				= "The text ‘%@’ is not ‘%@’";
+cText_LongDescription_IsBefore			= "The text ‘%@’ is before ‘%@’";
+cText_LongDescription_IsAfter			= "The text ‘%@’ is after ‘%@’";
+cText_LongDescription_Contains			= "The text ‘%@’ contains ‘%@’";
+cText_LongDescription_DoesNotContain	= "The text ‘%@’ does not contain ‘%@’";
+cText_LongDescription_Matches			= "The text ‘%@’ matches ‘%@’";
+cText_LongDescription_DoesNotMatch		= "The text ‘%@’ does not match ‘%@’";
+
+cCalculationTitle						= "Calculation Condition";
+cCalculation_LongDescription			= "The calculation ‘%@’ returns true (non-zero)";
+
+cMacroTitle								= "Macro/Macro Group Condition";
+cMacro_LongDescription					= "The %@ is %@";
+cMacro_IsEnabled						= "enabled";
+cMacro_IsDisabled						= "disabled";
+cMacro_IsActive							= "active";
+cMacro_IsInactive						= "inactive";
+
+cEnvironmentVariableTitle				= "Environment Variable Condition";
+
+cEnvironmentVariable_LongDescription_Exists			= "The environment variable ‘%@’ exists";
+cEnvironmentVariable_LongDescription_DoesNotExist	= "The environment variable ‘%@’ does not exist";
+cEnvironmentVariable_LongDescription_IsEmpty		= "The environment variable ‘%@’ is empty";
+cEnvironmentVariable_LongDescription_IsNotEmpty		= "The environment variable ‘%@’ is not empty";
+cEnvironmentVariable_LongDescription_Is				= "The environment variable ‘%@’ is ‘%@’";
+cEnvironmentVariable_LongDescription_IsNot			= "The environment variable ‘%@’ is not ‘%@’";
+cEnvironmentVariable_LongDescription_IsBefore		= "The environment variable ‘%@’ is before ‘%@’";
+cEnvironmentVariable_LongDescription_IsAfter		= "The environment variable ‘%@’ is after ‘%@’";
+cEnvironmentVariable_LongDescription_Contains		= "The environment variable ‘%@’ contains ‘%@’";
+cEnvironmentVariable_LongDescription_DoesNotContain	= "The environment variable ‘%@’ does not contain ‘%@’";
+cEnvironmentVariable_LongDescription_Matches		= "The environment variable ‘%@’ matches ‘%@’";
+cEnvironmentVariable_LongDescription_DoesNotMatch	= "The environment variable ‘%@’ does not match ‘%@’";
+
+cScreenImageTitle							= "Found Image Condition";
+
+cScreenImage_LongDescription_Contains				= "The screen contains the image";
+cScreenImage_LongDescription_ContainsUnique			= "The screen contains the image uniquely";
+cScreenImage_LongDescription_DoesNotContain			= "The screen does not contains the image";
+cScreenImage_LongDescription_DoesNotContainUnique	= "The screen does not contains the image uniquely";
+
+cPixelTitle				= "Pixel Condition";
+
+cPixel_LongDescription_Is					= "The pixel at %@,%@ is";
+cPixel_LongDescription_IsNot				= "The pixel at %@,%@ is not";
+cPixel_LongDescription_IsBrighter			= "The pixel at %@,%@ is brighter than";
+cPixel_LongDescription_IsDarker				= "The pixel at %@,%@ is darker than";
+cPixel_LongDescription_IsMoreRed			= "The pixel at %@,%@ is more red";
+cPixel_LongDescription_IsLessRed			= "The pixel at %@,%@ is less red";
+cPixel_LongDescription_IsMoreGreen			= "The pixel at %@,%@ is more green";
+cPixel_LongDescription_IsLessGreen			= "The pixel at %@,%@ is less green";
+cPixel_LongDescription_IsMoreBlue			= "The pixel at %@,%@ is more red";
+cPixel_LongDescription_IsLessBlue			= "The pixel at %@,%@ is less red";
+
+cLocationTitle			= "Location Condition";
+
+cLocation_LongDescription_Is				= "The network location is ‘%@’";
+cLocation_LongDescription_IsNot				= "The network location is not ‘%@’";
+cLocation_LongDescription_Contains			= "The network location contains ‘%@’";
+cLocation_LongDescription_DoesNotContain	= "The network location does not contain ‘%@’";
+cLocation_LongDescription_Matches			= "The network location matches ‘%@’";
+cLocation_LongDescription_DoesNotMatch		= "The network location does not match ‘%@’";
+
+cScriptTitle			= "Script Condition";
+
+cScript_LongDescription_ReturnsSuccess		= "The script returns success";
+cScript_LongDescription_ReturnsError		= "The script returns an error";
+cScript_LongDescription_ReturnsStatus		= "The script returns status %d";
+cScript_LongDescription_Is					= "The script result is ‘%@’";
+cScript_LongDescription_IsNot				= "The script result is not ‘%@’";
+cScript_LongDescription_IsBefore			= "The script result is before ‘%@’";
+cScript_LongDescription_IsAfter				= "The script result is after ‘%@’";
+cScript_LongDescription_Contains			= "The script result contains ‘%@’";
+cScript_LongDescription_DoesNotContain		= "The script result does not contain ‘%@’";
+cScript_LongDescription_Matches				= "The script result matches ‘%@’";
+cScript_LongDescription_DoesNotMatch		= "The script result does not match ‘%@’";
+
+
+MacroDoActionListFormat					= "Execute macro ‘%@’ from trigger %@";
+
+ApplicationWebSiteURL					= "https://www.keyboardmaestro.com/";
+OnlineHelpURL							= "https://documentation.keyboardmaestro.com/";
+StairwaysSoftwareURL					= "https://www.stairways.com/";
+SupportEmailURL							= "mailto:support@stairways.com?subject=Question%20About%20Keyboard%20Maestro";
+
+SupportURL								= "https://support.keyboardmaestro.com/";
+QuickStartURL							= "https://www.stairways.com/action/linkthru?quickstart";
+RegularExpressionReferenceURL			= "https://www.stairways.com/action/linkthru?regularexpressionreference";
+ICUDateTimeReferenceURL					= "https://www.stairways.com/action/linkthru?icudatetimereference";
+RegularExpressionPropertiesReferenceURL	= "https://www.stairways.com/action/linkthru?regularexpressionproperties";
+WikiURL									= "https://wiki.keyboardmaestro.com/";
+ForumURL								= "https://forum.keyboardmaestro.com/";
+MacroGroupHelpURL						= "https://www.stairways.com/action/linkthru?macrogrouphelp";
+MacroSmartGroupHelpURL					= "https://www.stairways.com/action/linkthru?smartgrouphelp";
+SecureInputHelpURL						= "https://www.stairways.com/action/linkthru?secureinputmode";
+Early1010HelpURL						= "https://www.stairways.com/action/linkthru?earlyyosemite";
+WarnPrefWriteFailedHelpURL				= "https://www.stairways.com/action/linkthru?prefwritefailed";
+
+WebSeverPortError							= "The HTTP port number must be between 1024 and 65534.";
+
+WebServerPortDescription					= "HTTPS port is one more (%d).";
+WebServerBadPortDescription					= "Must be 1024-65534.  Still using %d.";
+
+
+WebServerStatusDisabledDescription				= "Web server is disabled.  No remote access.";
+
+WebServerStatusAuthention0Browser0iPhone0Clipboards0 = "Web server is enabled but all access is disabled.";
+WebServerStatusAuthention0Browser0iPhone0Clipboards1 = "Web server is enabled for receiving clipboards only.";
+WebServerStatusAuthention0Browser1iPhone0Clipboards0 = "Web server is enabled for Public triggers only.";
+WebServerStatusAuthention0Browser1iPhone0Clipboards1 = "Web server is enabled for Public triggers and receiving clipboards.";
+WebServerStatusAuthention1Browser0iPhone0Clipboards0 = "Web server is enabled but all access is disabled.";
+WebServerStatusAuthention1Browser0iPhone0Clipboards1 = "Web server is enabled for receiving clipboards only (username/password ignored).";
+WebServerStatusAuthention1Browser0iPhone1Clipboards0 = "Web server is enabled for iOS access only.";
+WebServerStatusAuthention1Browser0iPhone1Clipboards1 = "Web server is enabled for iOS access and receiving clipboards.";
+WebServerStatusAuthention1Browser1iPhone0Clipboards0 = "Web server is enabled for public and authenticated browser access.";
+WebServerStatusAuthention1Browser1iPhone0Clipboards1 = "Web server is enabled for public & authenticated access and receiving clipboards.";
+WebServerStatusAuthention1Browser1iPhone1Clipboards0 = "Web server is enabled for public & authenticated access and iOS access.";
+WebServerStatusAuthention1Browser1iPhone1Clipboards1 = "Web server is enabled for public & authenticated & iOS access and receiving clipboards.";
+
+WebServerTriggerDisabledDescription				= "Or via the web server but all remote access is disabled.";
+
+WebServerTriggerAuthention0Browser0iPhone0Clipboards0 = "Or via the web server but all remote access is disabled.";
+WebServerTriggerAuthention0Browser0iPhone0Clipboards1 = "Or via the web server but all remote access is disabled.";
+WebServerTriggerAuthention0Browser1iPhone0Clipboards0 = "Or via the web server for Public Web triggered macros only.";
+WebServerTriggerAuthention0Browser1iPhone0Clipboards1 = "Or via the web server for Public Web triggered macros only.";
+WebServerTriggerAuthention1Browser0iPhone0Clipboards0 = "Or via the web server but all remote access is disabled.";
+WebServerTriggerAuthention1Browser0iPhone0Clipboards1 = "Or via the web server but all remote access is disabled.";
+WebServerTriggerAuthention1Browser0iPhone1Clipboards0 = "Or via the web server for iOS access only.";
+WebServerTriggerAuthention1Browser0iPhone1Clipboards1 = "Or via the web server for iOS access only.";
+WebServerTriggerAuthention1Browser1iPhone0Clipboards0 = "Or via the web server for public and authenticated browser access.";
+WebServerTriggerAuthention1Browser1iPhone0Clipboards1 = "Or via the web server for public and authenticated browser access.";
+WebServerTriggerAuthention1Browser1iPhone1Clipboards0 = "Or via the web server for public, authenticated, and iOS access.";
+WebServerTriggerAuthention1Browser1iPhone1Clipboards1 = "Or via the web server for public, authenticated, and iOS access.";
+
+SendDiagnosticSendReport = "Send Report";
+SendDiagnosticSendReports = "Send Reports";
+
+TimeSavedFormat								= "Time Saved: %@";
+
+TimeSavedTimeFormat_None					= "none yet";
+TimeSavedTimeFormat_Little					= "not much";
+TimeSavedTimeFormat_Seconds					= "%ld seconds";
+TimeSavedTimeFormat_Minutes					= "%ld minutes";
+TimeSavedTimeFormat_Hours					= "%ld hours";
+TimeSavedTimeFormat_Days					= "%ld days";
+TimeSavedTimeFormat_Months					= "%ld months";
+TimeSavedTimeFormat_Years					= "%ld years";
+
+TimeSavedForSwitcherMaestro					= "Don’t waste time hunting around for your applications.";
+
+UnnamedUsername								= "Unnamed";
+
+NoTrigger									= "None";
+
+RecordingLabel								= "Recording";
+EnabledButton								= "Enabled";
+EnabledToolTip								= "Enabled";
+DisabledButton								= "Disabled";
+DisabledToolTip								= "Disabled";
+
+OtherHotKeyMenu								= "Other…";
+TypeHotKey									= "Type";
+ClickHotKey									= "Click";
+
+TypeHIDKey									= "Press and Release";
+TryAgainHIDKey								= "Try Again";
+ClickHIDKey									= "Click";
+
+HideActionsMenu								= "Hide Actions";
+ShowActionsMenu								= "Show Actions";
+
+
+
+TutorialDoneButton							= "Done";
+TutorialOffRails1							= "I am afraid you have deviated from the path of this tutorial.  Please try again.";
+TutorialOffRails2							= "I am afraid you have deviated from the path of this tutorial.  Please try again.";
+
+
+kInstallFailed								= "Keyboard Maestro Install Failed, redirecting to download page";
+kDownloadCorrupted							= "Keyboard Maestro Download Failed, corrupted file, redirecting to download page";
+kDownloadFailed								= "Keyboard Maestro Download Failed, redirecting to download page";
+
+FeedbackPostscript							= "(I am running Keyboard Maestro %@ on Mac OS X %@ and have so far saved %@)";
+
+MacroGroupNotDeleted_Title										= "Macro Group Not Deleted";
+MacroGroupNotDeleted_DescriptionWith0MacrosAnd0MacroGroups		= "Nothing was deleted, and one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith1MacrosAnd0MacroGroups		= "One macro was deleted but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith2MacrosAnd0MacroGroups		= "%1$d macros were deleted, but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith0MacrosAnd1MacroGroups		= "A Macro Group was deleted, but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith1MacrosAnd1MacroGroups		= "A Macro Group and a macro were deleted but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith2MacrosAnd1MacroGroups		= "A Macro Group and %1$d macros were deleted, but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith0MacrosAnd2MacroGroups		= "%2$d Macro Groups was deleted, but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith1MacrosAnd2MacroGroups		= "%2$d Macro Groups and a macro were deleted but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+MacroGroupNotDeleted_DescriptionWith2MacrosAnd2MacroGroups		= "%2$d Macro Groups and %1$d macros were deleted, but one or more Macro Groups were not deleted because they contained macros that were not selected.";
+
+GlobalMacroGroupNotDeleted_Title										= "Global Macro Group Not Deleted";
+GlobalMacroGroupNotDeleted_DescriptionWith0MacrosAnd0MacroGroups		= "Nothing was deleted, and the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith1MacrosAnd0MacroGroups		= "One macro was deleted but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith2MacrosAnd0MacroGroups		= "%1$d macros were deleted, but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith0MacrosAnd1MacroGroups		= "A Macro Group was deleted, but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith1MacrosAnd1MacroGroups		= "A Macro Group and a macro were deleted but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith2MacrosAnd1MacroGroups		= "A Macro Group and %1$d macros were deleted, but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith0MacrosAnd2MacroGroups		= "%2$d Macro Groups was deleted, but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith1MacrosAnd2MacroGroups		= "%2$d Macro Groups and a macro were deleted but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+GlobalMacroGroupNotDeleted_DescriptionWith2MacrosAnd2MacroGroups		= "%2$d Macro Groups and %1$d macros were deleted, but the Global Macro Groups is not allowed to be deleted (you can change it to Inactive if you desire).";
+
+kHardwareKey_SOUND_UP				= "Sound Up";
+kHardwareKey_SOUND_DOWN				= "Sound Down";
+kHardwareKey_BRIGHTNESS_UP			= "Brightness Up";
+kHardwareKey_BRIGHTNESS_DOWN		= "Brightness Down";
+kHardwareKey_CAPS_LOCK				= "Caps Lock";
+kHardwareKey_HELP					= "Help";
+kHardwareKey_POWER_KEY				= "Power Key";
+kHardwareKey_MUTE					= "Mute";
+kHardwareKey_NUM_LOCK				= "Num Lock";
+kHardwareKey_CONTRAST_UP			= "Contrast Up";
+kHardwareKey_CONTRAST_DOWN			= "Contrast Down";
+kHardwareKey_LAUNCH_PANEL			= "Launch Panel";
+kHardwareKey_EJECT					= "Eject";
+kHardwareKey_VIDMIRROR				= "Video Mirror";
+kHardwareKey_PLAY					= "Play";
+kHardwareKey_NEXT					= "Next";
+kHardwareKey_PREVIOUS				= "Previous";
+kHardwareKey_FAST					= "Fast";
+kHardwareKey_REWIND					= "Rewind";
+kHardwareKey_ILLUMINATION_UP		= "Illumination Up";
+kHardwareKey_ILLUMINATION_DOWN		= "Illumination Down";
+kHardwareKey_ILLUMINATION_TOGGLE	= "Illumination Toggle";
+
+
+kInsertToken = "
+%Calculate%1+2%:Calculation
+%|%:Position Cursor (Insert Text only)
+Clipboard
+%CurrentClipboard%:Current Clipboard
+%PastClipboard%1%:Past Clipboard
+%NamedClipboard%Default Clipboard%:Named Clipboard
+Date
+%LongDate%:Long Date
+%ShortDate%:Short Date
+%NumberDate%:Number Date
+%LongTime%:Time With Seconds
+%ShortTime%:Time
+%ICUDateTime%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time
+%ICUDateTimeFor%NOW()+20%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time For
+%ICUDateTimePlus%3*7%Days%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time Plus
+%ICUDateTimeMinus%3*7%Days%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time Minus
+System
+%UserName%:User Name
+%UserLoginID%:User Login ID
+%MacName%:Machine Name
+%MacIPAddress%:Machine IP Address
+%MacUUID%:Machine Unique ID
+%AddressBook%Name%:AddressBook Name
+%AddressBook%First%:AddressBook First Name
+%AddressBook%Last%:AddressBook Last Name
+%AddressBook%Nickname%:AddressBook Nickname
+%AddressBook%Organization%:AddressBook Organization
+%AddressBook%Note%:AddressBook Note
+%NetworkLocation%:Network Location
+%WirelessNetwork%:Wireless Network Name(s)
+%FindPasteboard%:Find Pasteboard
+%Application%1%:Front Application Name
+%Application%2%:Last Application Name
+%SystemVolume%:System Volume
+%FinderInsertionLocation%:Finder Insertion Location path
+Screen
+%WindowPosition%1%:Front Window Position
+%WindowSize%1%:Front Window Size
+%WindowFrame%1%:Front Window Frame
+%WindowName%1%:Front Window Name
+%CurrentMouse%:Current Mouse Location
+%Screen%Main%:Main Screen Frame
+%Screen%1%:First Screen Frame
+%Screen%2%:Second Screen Frame
+%ScreenVisible%Main%:Main Screen Visible Frame
+iTunes
+%CurrentTrack%name%:Current Track Name
+%CurrentTrack%artist%:Current Track Artist
+%CurrentTrack%album%:Current Track Album
+%CurrentTrack%ratingstars%:Current Track Rating
+Safari
+%SafariTitle%:Safari Document Title
+%SafariURL%:Safari Document URL
+%SafariReadyState%:Safari Ready State
+%SafariField%document.forms[0][0]%:Safari Field
+%SafariJavaScript%document.forms[0].innerHTML%:Safari JavaScript
+Google Chrome
+%ChromeTitle%:Google Chrome Document Title
+%ChromeURL%:Google Chrome Document URL
+%ChromeReadyState%:Google Chrome Ready State
+%ChromeField%document.forms[0][0]%:Google Chrome Field
+%ChromeJavaScript%document.forms[0].innerHTML%:Google Chrome JavaScript
+Mail
+%MailRecipients%:Mail Recipients
+%MailToRecipients%:Mail To Recipients
+%MailCCRecipients%:Mail CC Recipients
+%MailBCCRecipients%:Mail BCC Recipients
+%MailSender%:Mail Sender
+%MailReplyTo%:Mail Reply To
+%MailSubject%:Mail Subject
+%MailContents%:Mail Contents
+%MailRawSource%:Mail Raw Source
+Macro Information
+%MacroNameForUUID%UUID%:Macro Name For UUID
+%ExecutingMacro%:Executing Macro
+%ExecutingMacroUUID%:Executing Macro UUID
+%ExecutingMacroGroup%:Executing Macro Group
+%ExecutingThisMacro%:Executing This Macro
+%ExecutingThisMacroUUID%:Executing This Macro UUID
+%ExecutingThisMacroGroup%:Executing This Macro Group
+%TriggerBase%:Tripped Trigger Type
+%Trigger%:Tripped Trigger Text
+%TriggerValue%:Tripped Trigger Value
+%ActionResult%:Success Result of Last Action
+###
+";
+
+kInsertFunction = "Math
+ABS(value):ABS — Absolute Value
+CEIL(value):CEIL — Integer Ceiling
+FLOOR(value):FLOOR — Integer Floor
+TRUNC(value):TRUNC — Integer Truncated
+ROUND(value):ROUND — Integer Rounded
+MIN(value1,value2):MIN — Minimum
+MAX(value1,value2):MAX — Maximum
+SIN(value):SIN — Sine
+COS(value):COS — Cosine
+TAN(value):TAN — Tangent
+ASIN(value):ASIN — Arcsine
+ACOS(value):ACOS - Arcosine
+ATAN(value):ATAN — Arctangent
+ATAN2(y,x):ATAN2 — Arctangent 2
+SINH(value):SINH — Hyperbolic Sine
+COSH(value):COSH — Hyperbolic Cosine
+TANH(value):TANH — Hyperbolic Tangenet
+EXP(value):EXP — Raise e to the Power Of
+LOG(value):LOG — Natural Logarithm
+LOG2(value):LOG2 — Logarithm Base 2
+LOG10(value):LOG10 — Logarithm Base 10
+Random
+RAND(value):RAND — Integer Random
+RANDOM([value]):RANDOM — Random
+Time
+MICROSECONDS():MICROSECONDS — Since System Start
+MILLISECONDS():MILLISECONDS — Fractional Since System Start
+SECONDS():SECONDS — Fractional Since System Start
+NOW():NOW — Seconds Since 1970 (GMT)
+IDLE():IDLE — Seconds Since Last User Input
+TIME([year,month,day[,hour,minute,seconds]]):TIME - Seconds Since 1970 (GMT)
+TRIGGERTIME():TRIGGERTIME — Time macro was triggered, seconds Since 1970 (GMT)
+Date
+JD([year,month,day[,hour,minute,seconds]]):JD - Fractional Julian Date (GMT)
+MJD([year,month,day[,hour,minute,seconds]]):MJD - Fractional Modified Julian Date (GMT)
+TIME2JD(time):TIME2JD — Convert Unix Time to JD
+TIME2MJD(time):TIME2MJD — Convert Unix Time to MJD
+JD2TIME(jd):JD2TIME — Convert JD to Unix Time
+JD2MJD(jd):JD2MJD — Convert JD to MJD
+MJD2TIME(mjd):MJD2TIME — Convert MJD to Unix Time
+MJD2JD(mjd):MJD2JD — Convert MJD to JD
+YEAR([time]):YEAR - Current or Specified Year
+MONTH([time]):MONTH - Current or Specified Month
+DAY([time]):DAY - Current or Specified Day
+DOW([time]):DOW - Current or Specified Day of the Week (Sunday=1)
+HOUR([time]):HOUR - Current or Specified Hour
+MINUTE([time]):MINUTE - Current or Specified Minute
+SECOND([time]):SECOND - Current or Specified Second
+GMTOFFSET():GMTOFFSET - Seconds from GMT
+Screen
+MOUSEX():MOUSEX — Mouse X Coordinate
+MOUSEY():MOUSEY — Mouse Y Coordinate
+MOUSEBUTTON(button):MOUSEBUTTON — Mouse Button Value
+SCREEN(screen|Main|Second|Third|Internal|External|Front|Back|Mouse,Left|Right|Top|Bottom|Width|Height|MidX|MidY):SCREEN - Screen Frame Coordinate
+SCREENVISIBLE(screen|Main|Second|Third|Internal|External|Front|Back|Back2|Mouse,Left|Right|Top|Bottom|Width|Height|MidX|MidY):SCREEN - Screen Visible Frame Coordinate
+SCREENCOUNT():SCREENCOUNT — Screen Count
+WINDOW(window,Left|Right|Top|Bottom|Width|Height|MidX|MidY):WINDOW - Window Frame Coordinate
+WINDOWCOUNT():WINDOWCOUNT — Window Count
+MENUBARHEIGHT():MENUBARHEIGHT — Menu Bar Height
+Action Specific
+IMAGE(Width|Height):IMAGE - Action Image Size
+SOURCEIMAGE(Width|Height):SOURCEIMAGE - Action Source Image Size
+WINDOW(Left|Right|Top|Bottom|Width|Height|MidX|MidY):WINDOW - Action Window Coordinate
+LENGTH():LENGTH - Action Text Length
+FONTSIZE():FONTSIZE - Action font size
+Safari
+SAFARITABINDEX():SAFARITABINDEX - Safari Tab Index
+SAFARITABCOUNT():SAFARITABCOUNT - Safari Tab Count
+SAFARIISCOMPLETE():SAFARIISCOMPLETE - Safari Is Complete
+Google Chrome
+CHROMETABINDEX():CHROMETABINDEX - Google Chrome Tab Index
+CHROMETABCOUNT():CHROMETABCOUNT - Google Chrome Tab Count
+CHROMEISCOMPLETE():CHROMEISCOMPLETE - Google Chrome Is Complete
+Mail
+MAILDATERECEIVED():MAILDATERECEIVED - Mail Date Received
+MAILDATESENT():MAILDATESENT - Mail Date Sent
+MAILFLAG():MAILFLAG - Mail Flag Index
+MAILFLAGGED():MAILFLAGGED - Mail Flagged
+MAILREADSTATUS():MAILREADSTATUS - Mail Read Status
+MAILJUNKSTATUS():MAILJUNKSTATUS - Mail Junk Mail Status
+MAILWASFORWARDED():MAILWASFORWARDED - Mail Was Forwarded
+MAILWASREDIRECTED():MAILWASREDIRECTED - Mail Was Redirected
+MAILWASREPLIEDTO():MAILWASREPLIEDTO - Mail Was Replied To
+System
+APPLICATIONS():APPLICATIONS — Application Count
+BATTERY():BATTERY — Mac is on Battery Power
+CLIPBOARDSEED():CLIPBOARDSEED — Clipboard Seed
+ONLINE():ONLINE — Mac is Online
+SCREENSAVER():SCREENSAVER — Screen Saver is Running
+SYSTEMVOLUME():SYSTEMVOLUME — System Volume
+SECUREINPUT():SECUREINPUT — Mac is in Secure Input Mode
+CONCEALEDPALETTES():CONCEALEDPALETTES — Macro Palettes are Concealed
+Text
+CALCULATE(3+4):CALCULATE — Process Text Tokens and then Calculate
+CHARACTERS(text):CHARACTERS — Process Text Tokens and then count characters
+WORDS(text):WORDS — Process Text Tokens and then count words
+LINES(text):LINES — Process Text Tokens and then count lines
+###
+";
+
+NoPreferencePanesAvailable = "No Preference Panes Available";
+
+NumberPadSubmenu = "Key Pad";
+FunctionKeySubmenu = "Function Key";
+
+UnknownFileOrFolderName = "Unknown";
+
+EnterUniCharShort						= "⌤";
+EnterUniCharLong						= "Enter";
+TabUniCharShort							= "⇥";
+TabUniCharLong							= "Tab";
+DeleteUniCharShort						= "⌫";
+DeleteUniCharLong						= "Delete";
+EscapeUniCharShort						= "⎋";
+EscapeUniCharLong						= "Escape";
+ClearUniCharShort						= "⌧";
+ClearUniCharLong						= "Clear";
+DeleteRightUniCharShort					= "⌦";
+DeleteRightUniCharLong					= "Forward Delete";
+ReturnUniCharShort						= "↩";
+ReturnUniCharLong						= "Return";
+SpaceUniCharShort						= "Space";
+SpaceUniCharLong						= "Space";
+PageUpUniCharShort						= "⇞";
+PageUpUniCharLong						= "Page Up";
+PageDownUniCharShort					= "⇟";
+PageDownUniCharLong						= "Page Down";
+HelpUniCharShort						= "?";
+HelpUniCharLong							= "Help/Insert";
+HomeUniCharShort						= "↖︎";
+HomeUniCharLong							= "Home";
+EndUniCharShort							= "↘︎";
+EndUniCharLong							= "End";
+LeftArrowUniCharShort					= "←";
+LeftArrowUniCharLong					= "Left Arrow";
+RightArrowUniCharShort					= "→";
+RightArrowUniCharLong					= "Right Arrow";
+DownArrowUniCharShort					= "↓";
+DownArrowUniCharLong					= "Down Arrow";
+UpArrowUniCharShort						= "↑";
+UpArrowUniCharLong						= "Up Arrow";
+
+ISOSectionUniCharShort					= "§";
+ISOSectionUniCharLong					= "Section Sign";
+JISYenUniCharShort						= "¥";
+JISYenUniCharLong						= "JIS Yen";
+JISUnderscoreUniCharShort				= "Ⓙ_";
+JISUnderscoreUniCharLong				= "JIS Underscore";
+JISKeypadCommaUniCharShort				= "Ⓙ⊞,";
+JISKeypadCommaUniCharLong				= "JIS Key Pad ,";
+JISKeypadCommaUniCharName				= "JIS Key Pad Comma";
+JISEisuUniCharShort						= "Eisu";
+JISEisuUniCharLong						= "JIS Eisu";
+JISKanaUniCharShort						= "Kana";
+JISKanaUniCharLong						= "JIS Kana";
+
+NumberPadFormatShort					= "⊞%@";
+NumberPadFormatLong						= "Key Pad %@";
+
+kRevisions0000_01_01					= "Before Version 7";
+kRevisions9999_01_01					= "At Editor Launch";
+kRevisions9999_01_02					= "Before Last Revert";
+kRevisions9999_01_03					= "Before Last Sync";
+
+WidthCharacter = "↔";
+HeightCharacter = "↕";
+RightArrowCharacter = "→";
+RightToCenterArrowCharacter = "⇥";
+LeftArrowCharacter = "←";
+UpArrowCharacter = "↑";
+DownArrowCharacter = "↓";
+DownToCenterArrowCharacter = "⤓";
+
+kCheckLocalizedStrings					= "GOOD";
+
+MenuGlyph6F = "F1";
+MenuGlyph70 = "F2";
+MenuGlyph71 = "F3";
+MenuGlyph72 = "F4";
+MenuGlyph73 = "F5";
+MenuGlyph74 = "F6";
+MenuGlyph75 = "F7";
+MenuGlyph76 = "F8";
+MenuGlyph77 = "F9";
+MenuGlyph78 = "F10";
+MenuGlyph79 = "F11";
+MenuGlyph7A = "F12";
+MenuGlyph87 = "F13";
+MenuGlyph88 = "F14";
+MenuGlyph89 = "F15";
+MenuGlyph8F = "F16";
+MenuGlyph90 = "F17";
+MenuGlyph91 = "F18";
+MenuGlyph92 = "F19";
+

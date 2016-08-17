@@ -1,0 +1,2288 @@
+
+Available when there is a focused window but its title is not “%@”.
+Available when the focused window title contains “%@”.
+Available when the focused window title does not contain “%@”.
+Available when there is a focused window but its title does not contain “%@”.
+Available when the focused window title matches “%@”.
+Available when the focused window title does not match “%@”.
+Available when there is a focused window but its title does not match “%@”.
+Are you sure you want to delete the selected clipboard position(s)?
+Keyboard Maestro Engine is Required for Macros to Function
+Keep Running
+Always Keep Running
+Accessibility Access is Required
+Open Preferences
+Later
+Don’t Ask Again
+Open System Preferences
+Early Version of Yosemite
+The file was written, but no macros were saved.
+One macro was saved to a library.
+%d macros were saved to a library.
+Failed to export %@.
+The attempt to export the %@ failed, the %@ have not been exported.
+Failed to export macros.
+The attempt to export the macros failed, the macros have not been exported.
+Exported Macros
+The file was written, but no macros were exported.
+One macro was exported.
+%d macros were exported.
+Failed to export actions.
+The attempt to export the actions failed, the actions have not been exported.
+Exported Actions
+The file was written, but no actions were exported.
+One action was exported.
+%d actions were exported.
+Imported Actions
+The file was written, but no actions were importeded.
+One action was importeded.
+%d actions were importeded.
+Cannot Import Actions File
+The Actions File you selected is of an unknown format.
+Cannot Import Macro File
+The Macro File you selected is of an unknown format.
+Imported Macros
+Cannot Import Library File
+The Library File you select is of an unknown format.
+Inserted Library
+The file was read, but no macros were imported.
+One smart group imported.
+%%d smart groups imported.
+One macro was imported.
+One macro and one smart group were imported.
+One macro and %%d smart groups were imported.
+%d macros were imported into one macro group.
+%d macros were imported into one macro group and one smart group was imported.
+%d macros were imported into %d macro groups.
+%d macros were imported into %d macro groups and one smart group was imported.
+Macros for All Applications
+Macros for
+Macros Not Active In
+,
+Keyboard Maestro %@
+Show (s)
+Hide (h)
+Launch (l)
+Launch & Hide Others (d)
+Activate (l)
+Activate & Hide Others (d)
+Launch
+Launch & Hide Others
+EN
+Mac App Store Version
+More…
+Search the web with Google
+https://www.google.com/search?q
+Execute a JavaScript in Custom Prompt
+Execute a JavaScript in all Custom Prompts
+Execute a JavaScript in Custom Prompt with ID ‘%@’
+Set Clipboard to Named Clipboard"; // depricated
+Save Clipboard to Named Clipboard"; // depricated
+Select Menu Item failed to find target application for %@.
+Select Menu Item failed to find target application ‘%@’ for %%@.
+Select Menu Item failed to find target menu bar for %@.
+Select Menu Item failed to find target menu item %@.
+Select Menu Item failed because the menu item %@ is disabled.
+Menu selection failed to pick menu %@ with error %ld.
+Select Menu Item action requires Accessibility which is disabled.
+Press Button ‘%@’ failed to find window.
+Press Button ‘%@’ failed to find button.
+Press Button ‘%@’ failed because the button is disabled.
+Press Button action requires Accessibility which is disabled.
+Move or Click Mouse no front window found.
+Move or Click Mouse no unique image found.
+Move or Click Mouse no image specified.
+Move or Click Mouse calculation %@ failed.
+Action timeout exceeded.
+%@ Macro ‘%@’ cancelled (while executing %@).
+%@ In macro ‘%@’ (while executing %@).
+
+F%d
+Control
+Option
+Shift
+Command
+Highlight Rectangle at %@,%@,%@,%@
+Highlight Oval at %@,%@,%@,%@
+Highlight Target at %@,%@,%@,%@
+AppleScript
+JavaScript in %@
+Shell Script
+JavaScript For Automation
+Swift Script
+The output of script ‘%@’ is:
+The output of the text script is:
+The output of the script is:
+JavaScript Results
+Internal Toggle Macro Group
+Activate Macro Group for One Action
+Activate Macro Group
+Deactivate Macro Group
+Activate/Deactivate Macro Group
+Show Macro Group for One Action
+Show Macro Group
+Hide Macro Group
+Show/Hide Macro Group
+Internal Toggle Macro Group ‘%@’
+Activate Macro Group ‘%@’ for One Action
+Activate Macro Group ‘%@’
+Deactivate Macro Group ‘%@’
+Activate/Deactivate Macro Group ‘%@’
+Show Macro Group ‘%@’ for One Action
+Show Macro Group ‘%@’
+Hide Macro Group ‘%@’
+Show/Hide Macro Group ‘%@’
+Read File to Clipboard
+Read File to Named Clipboard ‘%@’
+Read File to Variable ‘%@’
+%@ Clipboard
+%@ Named Clipboard ‘%@’
+%@ Variable ‘%@’
+%@ Text
+%@ Styled Text
+%@ to File
+%@ of Clipboard
+%@ of Named Clipboard ‘%@’
+%@ of Variable ‘%@’
+%@ of Text ‘%@’
+Get Substring
+Switch
+Store result to Clipboard
+Store result to Named Clipboard ‘%@’
+Store result to Variable ‘%@’
+Composite Clipboard onto Image
+Composite Text onto Image
+Composite %@ onto Image in %@
+Composite Text onto Image in %@
+Create New Folder ‘%@’
+Named Clipboard ‘%@’
+Apply Style to %@
+Apply Text Factory to %@
+Apply up to character %@
+Apply from character %@
+Apply to last %@ characters
+Apply from character %@ length %@
+Apply from character %@ to character %@
+Subrange up to character %@
+Subrange from character %@
+Subrange of last %@ characters
+Subrange from character %@ length %@
+Subrange from character %@ to character %@
+Subrange deleting up to character %@
+Subrange deleting from character %@
+Subrange deleting last %@ characters
+Subrange deleting from character %@ length %@
+Subrange deleting from character %@ to character %@
+Trim Image in %@
+Create New Image in %@
+Display %@
+Set Network Location to ‘%@’
+Get %@ to Variable ‘%@’
+Set %@ to ‘%@’
+Open ‘%@’
+Open %@ Preference Pane
+Open 1Password Bookmark %@’
+For Each Item in a Collection Execute Actions
+For Each With No Collections Will Do Nothing
+For Each Item in the Collection Execute Actions
+For Each Item in these Collections Execute Actions
+If it Is “%@”
+If it Is Not “%@”
+If it Contains “%@”
+If it Does Not Contain “%@”
+If it Matches “%@”
+If it Does Not Match “%@”
+If it Conforms To “%@”
+If it Does Not Conform To “%@”
+Debugger Step Over Other Macros
+Debugger Step Into Other Macros
+Debugger Step Out Other Macros
+Speak Text ‘%@’
+Speak Text With Voice ‘%@’ at %@ Rate
+Speak Text With Default Voice ‘%@’ at %@ Rate
+Set System Output Volume to %d%%
+Send MIDI channel %d note %d velocity %d
+Send MIDI channel %d note %d off
+Send MIDI channel %d control %d change to %d
+Send MIDI Note On
+Send MIDI Note Off
+Send MIDI Control Change
+Step Forward Current Movie %@ Frames
+Step Forward Current Movie
+Step Backward Current Movie %@ Frames
+Step Backward Current Movie
+Increase Current Movie Volume by 10%
+Increase Current Movie Volume
+Decrease Current Movie Volume by 10%
+Decrease Current Movie Volume
+Set Current Movie Volume to %d%%
+Set Current Movie Volume
+Scale %@ by Percent
+Resize %@ by Pixels
+Resize %@ to Pixels
+Move %@ by Pixels
+Move %@ to Position
+Move and Resize %@
+Center %@
+Center %@ at Position
+Close %@
+Zoom %@
+Minimize %@
+Unminimize %@
+Bring %@ to Front
+Front Window
+Window Named ‘%@’
+Window(s) With Name Containing ‘%@’
+Window With Index %@
+Bring a Window to the Front
+Screen Capture %@
+Screen Capture Main Screen
+Screen Capture Screen %@
+Screen Capture Front Window
+Screen Capture Window %@
+Screen Capture Window ‘%@’
+Screen Capture Window With Name Containing ‘%@’
+Screen Capture Window With Name Matching ‘%@’
+Screen %@
+Window ‘%@’
+Window With Name Containing ‘%@’
+Window With Name Matching ‘%@’
+Window %@
+Area (%@)
+Draw a Line onto Image
+Draw a Rectangle onto Image
+Draw a Oval onto Image
+Draw onto Image in %@
+Draw a line from (%@,%@) to (%@,%@), %@ thick.
+Draw a rectangle from (%@,%@), %@ wide, %@ high, %@ thick.
+Draw an oval centered (%@,%@), %@ wide, %@ high.
+Flip Image in %@ Horizontally
+Flip Image in %@ Vertically
+Rotate Image in %@ Clockwise
+Rotate Image in %@ 180°
+Rotate Image in %@ Counter-Clockwise
+Rotate Image in %@ by ‘%@’
+Get Image %@ of %@
+Resize Image in %@
+Resize Canvas in %@
+Add or Remove Margins to Image in %@
+Crop Image in %@
+%@↩
+%@…
+The text is:
+Fast User Switch to ‘%@’
+Set Keyboard Layout to ‘%@’
+Simulate the Hardware Key %@
+Press and Hold the Hardware Key %@
+Press and Repeat the Hardware Key %@
+Release the Hardware Key %@
+Styled Text
+Set %@ to %@
+%@ ‘%@’
+The clipboard would be:
+Set Variable ‘%@’ to Text ‘%@’
+Set Variable ‘%@’ to Text
+Set Variable ‘%@’ to %@ Field ‘%@’
+Set Variable to %@ Field
+Set Variable ‘%@’ To Calculation ‘%@’
+Set %@ Delay for This Macro to %@ Seconds
+Set %@ Delay Globally to %@ Seconds
+Reset %@ Delay for This Macro to %@ Seconds
+Reset %@ Delay Globally to %@ Seconds
+Set Find Pasteboard to Text ‘%@’
+Set Variable ‘%@’ to Keychain Password ‘%@’
+Set Keychain Password ‘%@’ to Text ‘%@’
+Set %@ Field ‘%@’ to Text
+Set %@ Field to Text
+Set %@ Checkbox ‘%@’ to checked
+Set %@ Checkbox ‘%@’ to unchecked
+Set %@ Checkbox ‘%@’ to ‘%@’
+Set %@ Checkbox
+Set %@ Radio Button ‘%@’ to ‘%@’
+Set %@ Radio Button
+Set Mail %@ to On
+Set Mail %@ to Off
+Set Mail %@ to %@
+Flag Index
+Flagged Status
+Junk Status
+Read Status
+Off
+On
+Unflagged
+Red
+Oragne
+Send Mail Message with Subject ‘%@’
+Execute a JavaScript in %@
+Prompt for User Input ‘%@’
+Filter %@ with %@
+Filter Variable ‘%@’ with %@
+Remove Styles
+Mac Line Endings
+Unix Line Endings
+Windows Line Endings
+Trim Whitespace
+Unwrap
+Lowercase
+Lowercase First
+Uppercase
+Uppercase First
+Title Case
+Dumb Quotes
+French Quotes
+Spaces
+Tabs
+Encode HTML Entities
+Encode Non-ASCII HTML Entities
+Decode HTML Entities
+HTML List
+Percent Encode for URL
+Percent Decode URL
+Quote for AppleScript
+Quote for JavaScript
+Quote for Shell Script
+Quote for Swift
+Last Path Component
+Delete Last Path Component
+Path Extension
+Delete Path Extension
+Expand Tilde In Path
+Abbreviate With Tilde In Path
+Resolve Symlinks
+Standardize Path
+Zap Control Characters
+Bullet Control Characters
+Calculate
+Process Tokens
+Value of Named Variable
+Value of Named Clipboard
+Character Count
+Line Count
+Search and Replace %@ With String Matching (case sensitive)
+Search and Replace %@ With String Matching (ignoring case)
+Search and Replace %@ Using Regular Expression (case sensitive)
+Search and Replace %@ Using Regular Expression (ignoring case)
+Search and Replace Variable ‘%@’ With String Matching (case sensitive)
+Search and Replace Variable ‘%@’ With String Matching (ignoring case)
+Search and Replace Variable ‘%@’ Using Regular Expression (case sensitive)
+Search and Replace Variable ‘%@’ Using Regular Expression (ignoring case)
+Search Variable ‘%@’ Using Regular Expression (case sensitive)
+Search Variable ‘%@’ Using Regular Expression (ignoring case)
+Search %@ Using Regular Expression (case sensitive)
+Search %@ Using Regular Expression (ignoring case)
+Use Variable ‘%@’ to Set the Mouse Location
+Use Variable ‘%@’ to Set the Front Window Position
+Use Variable ‘%@’ to Set the Front Window Size
+Use Variable ‘%@’ to Set the Front Window Frame
+Use Variable ‘%@’ to Set the Front Window by Name
+Use Variable ‘%@’ to Set the Front Window by Name Contains
+Use Variable ‘%@’ to Set the Front Window by Name Matching
+Use Variable ‘%@’ to Set the Front Application by Name
+Use Variable ‘%@’ to Set the Front Application by Name Containing
+Use Variable ‘%@’ to Set the Front Application by Name Matching
+Use Variable ‘%@’ to Set the System Volume
+RTF
+RTFD
+Simple Text
+HTML
+Web Archive
+Word Doc
+Word ML
+Office Open XML
+Open Document
+PNG
+TIFF
+JPEG
+BMP
+GIF
+Mac Roman
+ISO Latin 1
+UTF8
+UTF16
+Record Quick Macro for Hot Key %@
+%@ [Quick Macro]
+%@ [Macro Group]
+Press Button ‘%@’
+Semaphore Lock ‘%@’
+Semaphore Unlock ‘%@’
+Semaphore Reset ‘%@’
+Semaphore Unlock ‘%@’ failed on unlocked semaphore
+Paste from Named Clipboard ‘%@’
+Copy to Named Clipboard ‘%@’
+Cut to Named Clipboard ‘%@’
+Paste from Named Clipboard
+Copy to Named Clipboard
+Cut to Named Clipboard
+Set Clipboard to Named Clipboard ‘%@’
+Save Clipboard to Named Clipboard ‘%@’
+Set %@ to Past Clipboard %@
+Copy Nothing
+Copy %@ to %@
+Delete Past Clipboard %@
+1 second
+%d seconds
+1 minute
+%d minutes
+1 hour
+%d hours
+1 day
+%d days
+USB Device Trigger
+Mounted Volume Trigger
+Focused Window Trigger
+Folder Trigger
+Device Trigger
+Typed String Trigger
+Application Trigger
+Time of Day Trigger
+While Logged In Trigger
+Login Trigger
+Launch Trigger
+Global Macro Palette Trigger
+Status Menu Trigger
+Wake Trigger
+Sleep Trigger
+Clipboard Trigger
+Public Web Trigger
+Script Trigger
+Wireless Network Trigger
+The Hot Key %@ is pressed
+While the Hot Key %@ is down
+The Hot Key %@ is released
+The Hot Key %@ is tapped
+The Hot Key %@ is tapped once
+The Hot Key %@ is tapped twice
+The Hot Key %@ is tapped %d times
+The MIDI note %d is pressed
+While the MIDI note %d is down
+The MIDI note %d is released
+♪%d
+Any USB Device is %%@
+USB Device ‘%@’ is %%@
+USB Device with Name Containing ‘%@’ is %%@
+USB Device with Name Matching ‘%@’ is %%@
+Attached
+Detached
+USB
+Any Volume is %%@
+Volume ‘%@’ is %%@
+Volume with Name Containing ‘%@’ is %%@
+Volume with Name Matching ‘%@’ is %%@
+💿
+Anything is added to folder ‘%@’ (immediately)
+Anything is added to folder ‘%@’ (ignoring partial files)
+Anything is added to folder ‘%@’ (ignoring partial or changing files)
+Anything is removed from folder ‘%@’ (immediately)
+Anything is removed from folder ‘%@’ (ignoring partial files)
+Anything is added to or removed from folder ‘%@’ (immediately)
+Anything is added to or removed from folder ‘%@’ (ignoring partial files)
+📁
+Any Wireless Network is %%@
+Wireless Network ‘%@’ is %%@
+Wireless Network with Name Containing ‘%@’ is %%@
+Wireless Network with Name Matching ‘%@’ is %%@
+Wireless Network with BSSID ‘%@’ is %%@
+✈
+⚀%@
+The %@%@ ‘%@’ is typed (no deletes)
+The %@%@ ‘%@’ is typed (then deleted)
+◇
+«Space»
+⇥
+«Tab»
+«Return»
+↩
+«Enter»
+⌤
+(after a word break)
+(ignoring diacriticals)
+(after a word break, ignoring diacriticals)
+At %@ %@
+%d:%02d
+%d:%02d-%d:%02d
+Every %@ between %@ %@
+every day
+weekends
+No Days
+%@ and %@
+on %@
+%@-%@
+repeating every %d %@
+The Status Menu
+No Active Status Menu Triggers
+Via Public Web Access
+Public Web
+At System Wake
+Wake
+At System Sleep
+Sleep
+System Clipboard Changed
+Name Search for ‘%@’
+Web Server for ‘%@’
+URL Scheme (kmtrigger) for ‘%@’
+Custom HTML Prompt for ‘%@’
+Macro Set Palette
+Duplicate Macro Palette
+Execute Macro
+Do Script
+Number Range Collection
+The numbers from %@ to %@
+The numbers from %@ down to %@
+Running Applications Collection
+The running applications
+Folder Contents Collection
+The direct contents of folder ‘%@’
+The recursive contents of folder ‘%@’
+Finder’s Selection Collection
+The items in the Finder selection
+Found Images Collection
+The matching images found on the screen
+Mounted Volumes Collection
+The mounted volumes
+Lines In Collection
+The lines in the current clipboard
+The lines in variable ‘%@’
+The lines in file ‘%@’
+The lines in system clipboard
+The lines in Named Clipboard ‘%@’
+Substrings In Collection
+The substrings in variable ‘%@’
+The substrings in file ‘%@’
+The substrings in system clipboard
+The substrings in Named Clipboard ‘%@’
+Clipboard History Collection
+The past text clipboards
+Front window exists
+Front window does not exist
+Front window title is ‘%@’
+Front window title is not ‘%@’
+Front window exists but title is not ‘%@’
+Front window title contains ‘%@’
+Front window title does not contain ‘%@’
+Front window exists but title does not contain ‘%@’
+Front window title matches ‘%@’
+Front window title does not match ‘%@’
+Front window exists but title does not match ‘%@’
+Any Window Condition
+Any window title is ‘%@’
+Any window title is not ‘%@’
+Any window title contains ‘%@’
+Any window title does not contain ‘%@’
+Any window title matches ‘%@’
+Any window title does not match ‘%@’
+Button Condition
+Button %@ ‘%@’ exists
+Button %@ ‘%@’ does not exist
+Button %@ ‘%@’ is enabled
+Button %@ ‘%@’ is not enabled
+Button %@ ‘%@’ exists but is not enabled
+Button %@ ‘%@’ is off
+Button %@ ‘%@’ is on
+Button %@ ‘%@’ is mixed
+with name
+with name containing
+with name matching
+Wireless Network Condition
+Any wireless network is connected
+No wireless network is connected
+A wireless network %@ is connected
+A wireless network %@ is not connected
+with name ‘%@’
+with name containing ‘%@’
+with name matching ‘%@’
+with BSSID ‘%@’
+USB Device Condition
+USB device %@ ‘%@’ exists
+USB device %@ ‘%@’ does not exist
+Menu Condition
+Menu %@ ‘%@’ exists
+Menu %@ ‘%@’ does not exist
+Menu %@ ‘%@’ is enabled
+Menu %@ ‘%@’ is not enabled
+Menu %@ ‘%@’ exists but is not enabled
+Menu %@ ‘%@’ is marked
+Menu %@ ‘%@’ is not marked
+Menu %@ ‘%@’ exists but is not marked
+with path
+with shortcut
+The modifiers are in any state (always true)
+The modifiers %@ are down
+The modifiers %@ are up
+The modifiers %@ are down, and %@ are up
+Key Condition
+The key %@ is down
+The key %@ is up
+Typed String Condition
+The typed string was %@
+lowercase
+title case
+uppercase
+Mounted Volume Condition
+Mounted Volume %@ ‘%@’ exists
+Mounted Volume %@ ‘%@’ does not exist
+Path Condition
+Nothing exists at path ‘%@’
+Something exists at path ‘%@’
+A file exists at path ‘%@’
+A file does not exist at path ‘%@’
+A folder exists at path ‘%@’
+A folder does not exist at path ‘%@’
+Clipboard Condition
+The clipboard has some text
+The clipboard does not have any text
+The clipboard has an image
+The clipboard does not have an image
+The clipboard text is ‘%@’
+The clipboard text is not ‘%@’
+The clipboard text is before ‘%@’
+The clipboard text is after ‘%@’
+The clipboard text contains ‘%@’
+The clipboard text does not contain ‘%@’
+The clipboard text matches ‘%@’
+The clipboard text does not match ‘%@’
+The clipboard text conforms to ‘%@’
+The clipboard text does not conform to ‘%@’
+The variable ‘%@’ exists
+The variable ‘%@’ does not exist
+The variable ‘%@’ is empty
+The variable ‘%@’ is not empty
+The variable ‘%@’ is ‘%@’
+The variable ‘%@’ is not ‘%@’
+The variable ‘%@’ is before ‘%@’
+The variable ‘%@’ is after ‘%@’
+The variable ‘%@’ contains ‘%@’
+The variable ‘%@’ does not contain ‘%@’
+The variable ‘%@’ matches ‘%@’
+The variable ‘%@’ does not match ‘%@’
+The text ‘%@’ is empty
+The text ‘%@’ is not empty
+The text ‘%@’ is ‘%@’
+The text ‘%@’ is not ‘%@’
+The text ‘%@’ is before ‘%@’
+The text ‘%@’ is after ‘%@’
+The text ‘%@’ contains ‘%@’
+The text ‘%@’ does not contain ‘%@’
+The text ‘%@’ matches ‘%@’
+The text ‘%@’ does not match ‘%@’
+Calculation Condition
+The calculation ‘%@’ returns true (non-zero)
+Macro/Macro Group Condition
+The %@ is %@
+The environment variable ‘%@’ is before ‘%@’
+The environment variable ‘%@’ is after ‘%@’
+The pixel at %@,%@ is
+The pixel at %@,%@ is not
+The pixel at %@,%@ is brighter than
+The pixel at %@,%@ is darker than
+The pixel at %@,%@ is more red
+The pixel at %@,%@ is less red
+The pixel at %@,%@ is more green
+The pixel at %@,%@ is less green
+The script result is before ‘%@’
+The script result is after ‘%@’
+Execute macro ‘%@’ from trigger %@
+The HTTP port number must be between 1024 and 65534.
+HTTPS port is one more (%d).
+Must be 1024-65534.  Still using %d.
+Web server is disabled.  No remote access.
+Web server is enabled but all access is disabled.
+Web server is enabled for receiving clipboards only.
+Web server is enabled for Public triggers only.
+Web server is enabled for Public triggers and receiving clipboards.
+Web server is enabled for iOS access only.
+Web server is enabled for iOS access and receiving clipboards.
+Web server is enabled for public and authenticated browser access.
+Web server is enabled for public & authenticated access and iOS access.
+Or via the web server but all remote access is disabled.
+Or via the web server for Public Web triggered macros only.
+Or via the web server for iOS access only.
+Or via the web server for public and authenticated browser access.
+Or via the web server for public, authenticated, and iOS access.
+Keyboard Maestro Install Failed, redirecting to download page
+Keyboard Maestro Download Failed, corrupted file, redirecting to download page
+Keyboard Maestro Download Failed, redirecting to download page
+(I am running Keyboard Maestro %@ on Mac OS X %@ and have so far saved %@)
+Macro Group Not Deleted
+Global Macro Group Not Deleted
+Math
+1)
+No Preference Panes Available
+Key Pad
+Function Key
+Tab
+⌫
+⎋
+⌧
+⌦
+⇞
+⇟
+?
+↖︎
+↘︎
+←
+→
+↓
+↑
+§
+Section Sign
+¥
+JIS Yen
+Ⓙ_
+JIS Underscore
+Ⓙ⊞,
+JIS Key Pad ,
+JIS Key Pad Comma
+Eisu
+JIS Eisu
+Kana
+JIS Kana
+⊞%@
+Key Pad %@
+↔
+↕
+⤓
+GOOD
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+F14
+F15
+F16
+F17
+F18
+F19
+Available when there is a focused window but its title is not “%@”.
+Available when the focused window title contains “%@”.
+Available when the focused window title does not contain “%@”.
+Available when there is a focused window but its title does not contain “%@”.
+Available when the focused window title matches “%@”.
+Available when the focused window title does not match “%@”.
+Available when there is a focused window but its title does not match “%@”.
+Are you sure you want to delete the selected clipboard position(s)?
+Keyboard Maestro Engine is Required for Macros to Function
+Keep Running
+Always Keep Running
+Accessibility Access is Required
+Open Preferences
+Later
+Don’t Ask Again
+Open System Preferences
+Early Version of Yosemite
+The file was written, but no macros were saved.
+One macro was saved to a library.
+%d macros were saved to a library.
+Failed to export %@.
+The attempt to export the %@ failed, the %@ have not been exported.
+Failed to export macros.
+The attempt to export the macros failed, the macros have not been exported.
+Exported Macros
+The file was written, but no macros were exported.
+One macro was exported.
+%d macros were exported.
+Failed to export actions.
+The attempt to export the actions failed, the actions have not been exported.
+Exported Actions
+The file was written, but no actions were exported.
+One action was exported.
+%d actions were exported.
+Imported Actions
+The file was written, but no actions were importeded.
+One action was importeded.
+%d actions were importeded.
+Cannot Import Actions File
+The Actions File you selected is of an unknown format.
+Cannot Import Macro File
+The Macro File you selected is of an unknown format.
+Imported Macros
+Cannot Import Library File
+The Library File you select is of an unknown format.
+Inserted Library
+The file was read, but no macros were imported.
+One smart group imported.
+%%d smart groups imported.
+One macro was imported.
+One macro and one smart group were imported.
+One macro and %%d smart groups were imported.
+%d macros were imported into one macro group.
+%d macros were imported into one macro group and one smart group was imported.
+%d macros were imported into %d macro groups.
+%d macros were imported into %d macro groups and one smart group was imported.
+Macros for All Applications
+Macros for
+Macros Not Active In
+,
+Keyboard Maestro %@
+Show (s)
+Hide (h)
+Launch (l)
+Launch & Hide Others (d)
+Activate (l)
+Activate & Hide Others (d)
+Launch
+Launch & Hide Others
+EN
+Mac App Store Version
+More…
+Search the web with Google
+https://www.google.com/search?q
+Execute a JavaScript in Custom Prompt
+Execute a JavaScript in all Custom Prompts
+Execute a JavaScript in Custom Prompt with ID ‘%@’
+Set Clipboard to Named Clipboard"; // depricated
+Save Clipboard to Named Clipboard"; // depricated
+Select Menu Item failed to find target application for %@.
+Select Menu Item failed to find target application ‘%@’ for %%@.
+Select Menu Item failed to find target menu bar for %@.
+Select Menu Item failed to find target menu item %@.
+Select Menu Item failed because the menu item %@ is disabled.
+Menu selection failed to pick menu %@ with error %ld.
+Select Menu Item action requires Accessibility which is disabled.
+Press Button ‘%@’ failed to find window.
+Press Button ‘%@’ failed to find button.
+Press Button ‘%@’ failed because the button is disabled.
+Press Button action requires Accessibility which is disabled.
+Move or Click Mouse no front window found.
+Move or Click Mouse no unique image found.
+Move or Click Mouse no image specified.
+Move or Click Mouse calculation %@ failed.
+Action timeout exceeded.
+%@ Macro ‘%@’ cancelled (while executing %@).
+%@ In macro ‘%@’ (while executing %@).
+
+F%d
+Control
+Option
+Shift
+Command
+Highlight Rectangle at %@,%@,%@,%@
+Highlight Oval at %@,%@,%@,%@
+Highlight Target at %@,%@,%@,%@
+AppleScript
+JavaScript in %@
+Shell Script
+JavaScript For Automation
+Swift Script
+The output of script ‘%@’ is:
+The output of the text script is:
+The output of the script is:
+JavaScript Results
+Internal Toggle Macro Group
+Activate Macro Group for One Action
+Activate Macro Group
+Deactivate Macro Group
+Activate/Deactivate Macro Group
+Show Macro Group for One Action
+Show Macro Group
+Hide Macro Group
+Show/Hide Macro Group
+Internal Toggle Macro Group ‘%@’
+Activate Macro Group ‘%@’ for One Action
+Activate Macro Group ‘%@’
+Deactivate Macro Group ‘%@’
+Activate/Deactivate Macro Group ‘%@’
+Show Macro Group ‘%@’ for One Action
+Show Macro Group ‘%@’
+Hide Macro Group ‘%@’
+Show/Hide Macro Group ‘%@’
+Read File to Clipboard
+Read File to Named Clipboard ‘%@’
+Read File to Variable ‘%@’
+%@ Clipboard
+%@ Named Clipboard ‘%@’
+%@ Variable ‘%@’
+%@ Text
+%@ Styled Text
+%@ to File
+%@ of Clipboard
+%@ of Named Clipboard ‘%@’
+%@ of Variable ‘%@’
+%@ of Text ‘%@’
+Get Substring
+Switch
+Store result to Clipboard
+Store result to Named Clipboard ‘%@’
+Store result to Variable ‘%@’
+Composite Clipboard onto Image
+Composite Text onto Image
+Composite %@ onto Image in %@
+Composite Text onto Image in %@
+Create New Folder ‘%@’
+Named Clipboard ‘%@’
+Apply Style to %@
+Apply Text Factory to %@
+Apply up to character %@
+Apply from character %@
+Apply to last %@ characters
+Apply from character %@ length %@
+Apply from character %@ to character %@
+Subrange up to character %@
+Subrange from character %@
+Subrange of last %@ characters
+Subrange from character %@ length %@
+Subrange from character %@ to character %@
+Subrange deleting up to character %@
+Subrange deleting from character %@
+Subrange deleting last %@ characters
+Subrange deleting from character %@ length %@
+Subrange deleting from character %@ to character %@
+Trim Image in %@
+Create New Image in %@
+Display %@
+Set Network Location to ‘%@’
+Get %@ to Variable ‘%@’
+Set %@ to ‘%@’
+Open ‘%@’
+Open %@ Preference Pane
+Open 1Password Bookmark %@’
+For Each Item in a Collection Execute Actions
+For Each With No Collections Will Do Nothing
+For Each Item in the Collection Execute Actions
+For Each Item in these Collections Execute Actions
+If it Is “%@”
+If it Is Not “%@”
+If it Contains “%@”
+If it Does Not Contain “%@”
+If it Matches “%@”
+If it Does Not Match “%@”
+If it Conforms To “%@”
+If it Does Not Conform To “%@”
+Debugger Step Over Other Macros
+Debugger Step Into Other Macros
+Debugger Step Out Other Macros
+Speak Text ‘%@’
+Speak Text With Voice ‘%@’ at %@ Rate
+Speak Text With Default Voice ‘%@’ at %@ Rate
+Set System Output Volume to %d%%
+Send MIDI channel %d note %d velocity %d
+Send MIDI channel %d note %d off
+Send MIDI channel %d control %d change to %d
+Send MIDI Note On
+Send MIDI Note Off
+Send MIDI Control Change
+Step Forward Current Movie %@ Frames
+Step Forward Current Movie
+Step Backward Current Movie %@ Frames
+Step Backward Current Movie
+Increase Current Movie Volume by 10%
+Increase Current Movie Volume
+Decrease Current Movie Volume by 10%
+Decrease Current Movie Volume
+Set Current Movie Volume to %d%%
+Set Current Movie Volume
+Scale %@ by Percent
+Resize %@ by Pixels
+Resize %@ to Pixels
+Move %@ by Pixels
+Move %@ to Position
+Move and Resize %@
+Center %@
+Center %@ at Position
+Close %@
+Zoom %@
+Minimize %@
+Unminimize %@
+Bring %@ to Front
+Front Window
+Window Named ‘%@’
+Window(s) With Name Containing ‘%@’
+Window With Index %@
+Bring a Window to the Front
+Screen Capture %@
+Screen Capture Main Screen
+Screen Capture Screen %@
+Screen Capture Front Window
+Screen Capture Window %@
+Screen Capture Window ‘%@’
+Screen Capture Window With Name Containing ‘%@’
+Screen Capture Window With Name Matching ‘%@’
+Screen %@
+Window ‘%@’
+Window With Name Containing ‘%@’
+Window With Name Matching ‘%@’
+Window %@
+Area (%@)
+Draw a Line onto Image
+Draw a Rectangle onto Image
+Draw a Oval onto Image
+Draw onto Image in %@
+Draw a line from (%@,%@) to (%@,%@), %@ thick.
+Draw a rectangle from (%@,%@), %@ wide, %@ high, %@ thick.
+Draw an oval centered (%@,%@), %@ wide, %@ high.
+Flip Image in %@ Horizontally
+Flip Image in %@ Vertically
+Rotate Image in %@ Clockwise
+Rotate Image in %@ 180°
+Rotate Image in %@ Counter-Clockwise
+Rotate Image in %@ by ‘%@’
+Get Image %@ of %@
+Resize Image in %@
+Resize Canvas in %@
+Add or Remove Margins to Image in %@
+Crop Image in %@
+%@↩
+%@…
+The text is:
+Fast User Switch to ‘%@’
+Set Keyboard Layout to ‘%@’
+Simulate the Hardware Key %@
+Press and Hold the Hardware Key %@
+Press and Repeat the Hardware Key %@
+Release the Hardware Key %@
+Styled Text
+Set %@ to %@
+%@ ‘%@’
+The clipboard would be:
+Set Variable ‘%@’ to Text ‘%@’
+Set Variable ‘%@’ to Text
+Set Variable ‘%@’ to %@ Field ‘%@’
+Set Variable to %@ Field
+Set Variable ‘%@’ To Calculation ‘%@’
+Set %@ Delay for This Macro to %@ Seconds
+Set %@ Delay Globally to %@ Seconds
+Reset %@ Delay for This Macro to %@ Seconds
+Reset %@ Delay Globally to %@ Seconds
+Set Find Pasteboard to Text ‘%@’
+Set Variable ‘%@’ to Keychain Password ‘%@’
+Set Keychain Password ‘%@’ to Text ‘%@’
+Set %@ Field ‘%@’ to Text
+Set %@ Field to Text
+Set %@ Checkbox ‘%@’ to checked
+Set %@ Checkbox ‘%@’ to unchecked
+Set %@ Checkbox ‘%@’ to ‘%@’
+Set %@ Checkbox
+Set %@ Radio Button ‘%@’ to ‘%@’
+Set %@ Radio Button
+Set Mail %@ to On
+Set Mail %@ to Off
+Set Mail %@ to %@
+Flag Index
+Flagged Status
+Junk Status
+Read Status
+Off
+On
+Unflagged
+Red
+Oragne
+Send Mail Message with Subject ‘%@’
+Execute a JavaScript in %@
+Prompt for User Input ‘%@’
+Filter %@ with %@
+Filter Variable ‘%@’ with %@
+Remove Styles
+Mac Line Endings
+Unix Line Endings
+Windows Line Endings
+Trim Whitespace
+Unwrap
+Lowercase
+Lowercase First
+Uppercase
+Uppercase First
+Title Case
+Dumb Quotes
+French Quotes
+Spaces
+Tabs
+Encode HTML Entities
+Encode Non-ASCII HTML Entities
+Decode HTML Entities
+HTML List
+Percent Encode for URL
+Percent Decode URL
+Quote for AppleScript
+Quote for JavaScript
+Quote for Shell Script
+Quote for Swift
+Last Path Component
+Delete Last Path Component
+Path Extension
+Delete Path Extension
+Expand Tilde In Path
+Abbreviate With Tilde In Path
+Resolve Symlinks
+Standardize Path
+Zap Control Characters
+Bullet Control Characters
+Calculate
+Process Tokens
+Value of Named Variable
+Value of Named Clipboard
+Character Count
+Line Count
+Search and Replace %@ With String Matching (case sensitive)
+Search and Replace %@ With String Matching (ignoring case)
+Search and Replace %@ Using Regular Expression (case sensitive)
+Search and Replace %@ Using Regular Expression (ignoring case)
+Search and Replace Variable ‘%@’ With String Matching (case sensitive)
+Search and Replace Variable ‘%@’ With String Matching (ignoring case)
+Search and Replace Variable ‘%@’ Using Regular Expression (case sensitive)
+Search and Replace Variable ‘%@’ Using Regular Expression (ignoring case)
+Search Variable ‘%@’ Using Regular Expression (case sensitive)
+Search Variable ‘%@’ Using Regular Expression (ignoring case)
+Search %@ Using Regular Expression (case sensitive)
+Search %@ Using Regular Expression (ignoring case)
+Use Variable ‘%@’ to Set the Mouse Location
+Use Variable ‘%@’ to Set the Front Window Position
+Use Variable ‘%@’ to Set the Front Window Size
+Use Variable ‘%@’ to Set the Front Window Frame
+Use Variable ‘%@’ to Set the Front Window by Name
+Use Variable ‘%@’ to Set the Front Window by Name Contains
+Use Variable ‘%@’ to Set the Front Window by Name Matching
+Use Variable ‘%@’ to Set the Front Application by Name
+Use Variable ‘%@’ to Set the Front Application by Name Containing
+Use Variable ‘%@’ to Set the Front Application by Name Matching
+Use Variable ‘%@’ to Set the System Volume
+RTF
+RTFD
+Simple Text
+HTML
+Web Archive
+Word Doc
+Word ML
+Office Open XML
+Open Document
+PNG
+TIFF
+JPEG
+BMP
+GIF
+Mac Roman
+ISO Latin 1
+UTF8
+UTF16
+Record Quick Macro for Hot Key %@
+%@ [Quick Macro]
+%@ [Macro Group]
+Press Button ‘%@’
+Semaphore Lock ‘%@’
+Semaphore Unlock ‘%@’
+Semaphore Reset ‘%@’
+Semaphore Unlock ‘%@’ failed on unlocked semaphore
+Paste from Named Clipboard ‘%@’
+Copy to Named Clipboard ‘%@’
+Cut to Named Clipboard ‘%@’
+Paste from Named Clipboard
+Copy to Named Clipboard
+Cut to Named Clipboard
+Set Clipboard to Named Clipboard ‘%@’
+Save Clipboard to Named Clipboard ‘%@’
+Set %@ to Past Clipboard %@
+Copy Nothing
+Copy %@ to %@
+Delete Past Clipboard %@
+1 second
+%d seconds
+1 minute
+%d minutes
+1 hour
+%d hours
+1 day
+%d days
+USB Device Trigger
+Mounted Volume Trigger
+Focused Window Trigger
+Folder Trigger
+Device Trigger
+Typed String Trigger
+Application Trigger
+Time of Day Trigger
+While Logged In Trigger
+Login Trigger
+Launch Trigger
+Global Macro Palette Trigger
+Status Menu Trigger
+Wake Trigger
+Sleep Trigger
+Clipboard Trigger
+Public Web Trigger
+Script Trigger
+Wireless Network Trigger
+The Hot Key %@ is pressed
+While the Hot Key %@ is down
+The Hot Key %@ is released
+The Hot Key %@ is tapped
+The Hot Key %@ is tapped once
+The Hot Key %@ is tapped twice
+The Hot Key %@ is tapped %d times
+The MIDI note %d is pressed
+While the MIDI note %d is down
+The MIDI note %d is released
+♪%d
+Any USB Device is %%@
+USB Device ‘%@’ is %%@
+USB Device with Name Containing ‘%@’ is %%@
+USB Device with Name Matching ‘%@’ is %%@
+Attached
+Detached
+USB
+Any Volume is %%@
+Volume ‘%@’ is %%@
+Volume with Name Containing ‘%@’ is %%@
+Volume with Name Matching ‘%@’ is %%@
+💿
+Anything is added to folder ‘%@’ (immediately)
+Anything is added to folder ‘%@’ (ignoring partial files)
+Anything is added to folder ‘%@’ (ignoring partial or changing files)
+Anything is removed from folder ‘%@’ (immediately)
+Anything is removed from folder ‘%@’ (ignoring partial files)
+Anything is added to or removed from folder ‘%@’ (immediately)
+Anything is added to or removed from folder ‘%@’ (ignoring partial files)
+📁
+Any Wireless Network is %%@
+Wireless Network ‘%@’ is %%@
+Wireless Network with Name Containing ‘%@’ is %%@
+Wireless Network with Name Matching ‘%@’ is %%@
+Wireless Network with BSSID ‘%@’ is %%@
+✈
+⚀%@
+The %@%@ ‘%@’ is typed (no deletes)
+The %@%@ ‘%@’ is typed (then deleted)
+◇
+«Space»
+⇥
+«Tab»
+«Return»
+↩
+«Enter»
+⌤
+(after a word break)
+(ignoring diacriticals)
+(after a word break, ignoring diacriticals)
+At %@ %@
+%d:%02d
+%d:%02d-%d:%02d
+Every %@ between %@ %@
+every day
+weekends
+No Days
+%@ and %@
+on %@
+%@-%@
+repeating every %d %@
+The Status Menu
+No Active Status Menu Triggers
+Via Public Web Access
+Public Web
+At System Wake
+Wake
+At System Sleep
+Sleep
+System Clipboard Changed
+Name Search for ‘%@’
+Web Server for ‘%@’
+URL Scheme (kmtrigger) for ‘%@’
+Custom HTML Prompt for ‘%@’
+Macro Set Palette
+Duplicate Macro Palette
+Execute Macro
+Do Script
+Number Range Collection
+The numbers from %@ to %@
+The numbers from %@ down to %@
+Running Applications Collection
+The running applications
+Folder Contents Collection
+The direct contents of folder ‘%@’
+The recursive contents of folder ‘%@’
+Finder’s Selection Collection
+The items in the Finder selection
+Found Images Collection
+The matching images found on the screen
+Mounted Volumes Collection
+The mounted volumes
+Lines In Collection
+The lines in the current clipboard
+The lines in variable ‘%@’
+The lines in file ‘%@’
+The lines in system clipboard
+The lines in Named Clipboard ‘%@’
+Substrings In Collection
+The substrings in variable ‘%@’
+The substrings in file ‘%@’
+The substrings in system clipboard
+The substrings in Named Clipboard ‘%@’
+Clipboard History Collection
+The past text clipboards
+Front window exists
+Front window does not exist
+Front window title is ‘%@’
+Front window title is not ‘%@’
+Front window exists but title is not ‘%@’
+Front window title contains ‘%@’
+Front window title does not contain ‘%@’
+Front window exists but title does not contain ‘%@’
+Front window title matches ‘%@’
+Front window title does not match ‘%@’
+Front window exists but title does not match ‘%@’
+Any Window Condition
+Any window title is ‘%@’
+Any window title is not ‘%@’
+Any window title contains ‘%@’
+Any window title does not contain ‘%@’
+Any window title matches ‘%@’
+Any window title does not match ‘%@’
+Button Condition
+Button %@ ‘%@’ exists
+Button %@ ‘%@’ does not exist
+Button %@ ‘%@’ is enabled
+Button %@ ‘%@’ is not enabled
+Button %@ ‘%@’ exists but is not enabled
+Button %@ ‘%@’ is off
+Button %@ ‘%@’ is on
+Button %@ ‘%@’ is mixed
+with name
+with name containing
+with name matching
+Wireless Network Condition
+Any wireless network is connected
+No wireless network is connected
+A wireless network %@ is connected
+A wireless network %@ is not connected
+with name ‘%@’
+with name containing ‘%@’
+with name matching ‘%@’
+with BSSID ‘%@’
+USB Device Condition
+USB device %@ ‘%@’ exists
+USB device %@ ‘%@’ does not exist
+Menu Condition
+Menu %@ ‘%@’ exists
+Menu %@ ‘%@’ does not exist
+Menu %@ ‘%@’ is enabled
+Menu %@ ‘%@’ is not enabled
+Menu %@ ‘%@’ exists but is not enabled
+Menu %@ ‘%@’ is marked
+Menu %@ ‘%@’ is not marked
+Menu %@ ‘%@’ exists but is not marked
+with path
+with shortcut
+The modifiers are in any state (always true)
+The modifiers %@ are down
+The modifiers %@ are up
+The modifiers %@ are down, and %@ are up
+Key Condition
+The key %@ is down
+The key %@ is up
+Typed String Condition
+The typed string was %@
+lowercase
+title case
+uppercase
+Mounted Volume Condition
+Mounted Volume %@ ‘%@’ exists
+Mounted Volume %@ ‘%@’ does not exist
+Path Condition
+Nothing exists at path ‘%@’
+Something exists at path ‘%@’
+A file exists at path ‘%@’
+A file does not exist at path ‘%@’
+A folder exists at path ‘%@’
+A folder does not exist at path ‘%@’
+Clipboard Condition
+The clipboard has some text
+The clipboard does not have any text
+The clipboard has an image
+The clipboard does not have an image
+The clipboard text is ‘%@’
+The clipboard text is not ‘%@’
+The clipboard text is before ‘%@’
+The clipboard text is after ‘%@’
+The clipboard text contains ‘%@’
+The clipboard text does not contain ‘%@’
+The clipboard text matches ‘%@’
+The clipboard text does not match ‘%@’
+The clipboard text conforms to ‘%@’
+The clipboard text does not conform to ‘%@’
+The variable ‘%@’ exists
+The variable ‘%@’ does not exist
+The variable ‘%@’ is empty
+The variable ‘%@’ is not empty
+The variable ‘%@’ is ‘%@’
+The variable ‘%@’ is not ‘%@’
+The variable ‘%@’ is before ‘%@’
+The variable ‘%@’ is after ‘%@’
+The variable ‘%@’ contains ‘%@’
+The variable ‘%@’ does not contain ‘%@’
+The variable ‘%@’ matches ‘%@’
+The variable ‘%@’ does not match ‘%@’
+The text ‘%@’ is empty
+The text ‘%@’ is not empty
+The text ‘%@’ is ‘%@’
+The text ‘%@’ is not ‘%@’
+The text ‘%@’ is before ‘%@’
+The text ‘%@’ is after ‘%@’
+The text ‘%@’ contains ‘%@’
+The text ‘%@’ does not contain ‘%@’
+The text ‘%@’ matches ‘%@’
+The text ‘%@’ does not match ‘%@’
+Calculation Condition
+The calculation ‘%@’ returns true (non-zero)
+Macro/Macro Group Condition
+The %@ is %@
+The environment variable ‘%@’ is before ‘%@’
+The environment variable ‘%@’ is after ‘%@’
+The pixel at %@,%@ is
+The pixel at %@,%@ is not
+The pixel at %@,%@ is brighter than
+The pixel at %@,%@ is darker than
+The pixel at %@,%@ is more red
+The pixel at %@,%@ is less red
+The pixel at %@,%@ is more green
+The pixel at %@,%@ is less green
+The script result is before ‘%@’
+The script result is after ‘%@’
+Execute macro ‘%@’ from trigger %@
+The HTTP port number must be between 1024 and 65534.
+HTTPS port is one more (%d).
+Must be 1024-65534.  Still using %d.
+Web server is disabled.  No remote access.
+Web server is enabled but all access is disabled.
+Web server is enabled for receiving clipboards only.
+Web server is enabled for Public triggers only.
+Web server is enabled for Public triggers and receiving clipboards.
+Web server is enabled for iOS access only.
+Web server is enabled for iOS access and receiving clipboards.
+Web server is enabled for public and authenticated browser access.
+Web server is enabled for public & authenticated access and iOS access.
+Or via the web server but all remote access is disabled.
+Or via the web server for Public Web triggered macros only.
+Or via the web server for iOS access only.
+Or via the web server for public and authenticated browser access.
+Or via the web server for public, authenticated, and iOS access.
+Keyboard Maestro Install Failed, redirecting to download page
+Keyboard Maestro Download Failed, corrupted file, redirecting to download page
+Keyboard Maestro Download Failed, redirecting to download page
+(I am running Keyboard Maestro %@ on Mac OS X %@ and have so far saved %@)
+Macro Group Not Deleted
+Global Macro Group Not Deleted
+Math
+1)
+No Preference Panes Available
+Key Pad
+Function Key
+Tab
+⌫
+⎋
+⌧
+⌦
+⇞
+⇟
+?
+↖︎
+↘︎
+←
+→
+↓
+↑
+§
+Section Sign
+¥
+JIS Yen
+Ⓙ_
+JIS Underscore
+Ⓙ⊞,
+JIS Key Pad ,
+JIS Key Pad Comma
+Eisu
+JIS Eisu
+Kana
+JIS Kana
+⊞%@
+Key Pad %@
+↔
+↕
+⤓
+GOOD
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+F14
+F15
+F16
+F17
+F18
+F19
+Available when there is a focused window but its title is not “%@”.
+Available when the focused window title contains “%@”.
+Available when the focused window title does not contain “%@”.
+Available when there is a focused window but its title does not contain “%@”.
+Available when the focused window title matches “%@”.
+Available when the focused window title does not match “%@”.
+Available when there is a focused window but its title does not match “%@”.
+Are you sure you want to delete the selected clipboard position(s)?
+Keyboard Maestro Engine is Required for Macros to Function
+Keep Running
+Always Keep Running
+Accessibility Access is Required
+Open Preferences
+Later
+Don’t Ask Again
+Open System Preferences
+Early Version of Yosemite
+The file was written, but no macros were saved.
+One macro was saved to a library.
+%d macros were saved to a library.
+Failed to export %@.
+The attempt to export the %@ failed, the %@ have not been exported.
+Failed to export macros.
+The attempt to export the macros failed, the macros have not been exported.
+Exported Macros
+The file was written, but no macros were exported.
+One macro was exported.
+%d macros were exported.
+Failed to export actions.
+The attempt to export the actions failed, the actions have not been exported.
+Exported Actions
+The file was written, but no actions were exported.
+One action was exported.
+%d actions were exported.
+Imported Actions
+The file was written, but no actions were importeded.
+One action was importeded.
+%d actions were importeded.
+Cannot Import Actions File
+The Actions File you selected is of an unknown format.
+Cannot Import Macro File
+The Macro File you selected is of an unknown format.
+Imported Macros
+Cannot Import Library File
+The Library File you select is of an unknown format.
+Inserted Library
+The file was read, but no macros were imported.
+One smart group imported.
+%%d smart groups imported.
+One macro was imported.
+One macro and one smart group were imported.
+One macro and %%d smart groups were imported.
+%d macros were imported into one macro group.
+%d macros were imported into one macro group and one smart group was imported.
+%d macros were imported into %d macro groups.
+%d macros were imported into %d macro groups and one smart group was imported.
+Macros for All Applications
+Macros for
+Macros Not Active In
+,
+Keyboard Maestro %@
+Show (s)
+Hide (h)
+Launch (l)
+Launch & Hide Others (d)
+Activate (l)
+Activate & Hide Others (d)
+Launch
+Launch & Hide Others
+EN
+Registered to: %@
+Mac App Store Version
+More…
+Search the web with Google
+https://www.google.com/search?q
+Execute a JavaScript in Custom Prompt
+Execute a JavaScript in all Custom Prompts
+Execute a JavaScript in Custom Prompt with ID ‘%@’
+Set Clipboard to Named Clipboard"; // depricated
+Save Clipboard to Named Clipboard"; // depricated
+Select Menu Item failed to find target application for %@.
+Select Menu Item failed to find target application ‘%@’ for %%@.
+Select Menu Item failed to find target menu bar for %@.
+Select Menu Item failed to find target menu item %@.
+Select Menu Item failed because the menu item %@ is disabled.
+Menu selection failed to pick menu %@ with error %ld.
+Select Menu Item action requires Accessibility which is disabled.
+Press Button ‘%@’ failed to find window.
+Press Button ‘%@’ failed to find button.
+Press Button ‘%@’ failed because the button is disabled.
+Press Button action requires Accessibility which is disabled.
+Move or Click Mouse no front window found.
+Move or Click Mouse no unique image found.
+Move or Click Mouse no image specified.
+Move or Click Mouse calculation %@ failed.
+Action timeout exceeded.
+%@ Macro ‘%@’ cancelled (while executing %@).
+%@ In macro ‘%@’ (while executing %@).
+
+F%d
+Control
+Option
+Shift
+Command
+Highlight Rectangle at %@,%@,%@,%@
+Highlight Oval at %@,%@,%@,%@
+Highlight Target at %@,%@,%@,%@
+AppleScript
+JavaScript in %@
+Shell Script
+JavaScript For Automation
+Swift Script
+The output of script ‘%@’ is:
+The output of the text script is:
+The output of the script is:
+JavaScript Results
+Internal Toggle Macro Group
+Activate Macro Group for One Action
+Activate Macro Group
+Deactivate Macro Group
+Activate/Deactivate Macro Group
+Show Macro Group for One Action
+Show Macro Group
+Hide Macro Group
+Show/Hide Macro Group
+Internal Toggle Macro Group ‘%@’
+Activate Macro Group ‘%@’ for One Action
+Activate Macro Group ‘%@’
+Deactivate Macro Group ‘%@’
+Activate/Deactivate Macro Group ‘%@’
+Show Macro Group ‘%@’ for One Action
+Show Macro Group ‘%@’
+Hide Macro Group ‘%@’
+Show/Hide Macro Group ‘%@’
+Read File to Clipboard
+Read File to Named Clipboard ‘%@’
+Read File to Variable ‘%@’
+%@ Clipboard
+%@ Named Clipboard ‘%@’
+%@ Variable ‘%@’
+%@ Text
+%@ Styled Text
+%@ to File
+%@ of Clipboard
+%@ of Named Clipboard ‘%@’
+%@ of Variable ‘%@’
+%@ of Text ‘%@’
+Get Substring
+Switch
+Store result to Clipboard
+Store result to Named Clipboard ‘%@’
+Store result to Variable ‘%@’
+Composite Clipboard onto Image
+Composite Text onto Image
+Composite %@ onto Image in %@
+Composite Text onto Image in %@
+Create New Folder ‘%@’
+Named Clipboard ‘%@’
+Apply Style to %@
+Apply Text Factory to %@
+Apply up to character %@
+Apply from character %@
+Apply to last %@ characters
+Apply from character %@ length %@
+Apply from character %@ to character %@
+Subrange up to character %@
+Subrange from character %@
+Subrange of last %@ characters
+Subrange from character %@ length %@
+Subrange from character %@ to character %@
+Subrange deleting up to character %@
+Subrange deleting from character %@
+Subrange deleting last %@ characters
+Subrange deleting from character %@ length %@
+Subrange deleting from character %@ to character %@
+Trim Image in %@
+Create New Image in %@
+Display %@
+Set Network Location to ‘%@’
+Get %@ to Variable ‘%@’
+Set %@ to ‘%@’
+Open ‘%@’
+Open %@ Preference Pane
+Open 1Password Bookmark %@’
+For Each Item in a Collection Execute Actions
+For Each With No Collections Will Do Nothing
+For Each Item in the Collection Execute Actions
+For Each Item in these Collections Execute Actions
+If it Is “%@”
+If it Is Not “%@”
+If it Contains “%@”
+If it Does Not Contain “%@”
+If it Matches “%@”
+If it Does Not Match “%@”
+If it Conforms To “%@”
+If it Does Not Conform To “%@”
+Debugger Step Over Other Macros
+Debugger Step Into Other Macros
+Debugger Step Out Other Macros
+Speak Text ‘%@’
+Speak Text With Voice ‘%@’ at %@ Rate
+Speak Text With Default Voice ‘%@’ at %@ Rate
+Set System Output Volume to %d%%
+Send MIDI channel %d note %d velocity %d
+Send MIDI channel %d note %d off
+Send MIDI channel %d control %d change to %d
+Send MIDI Note On
+Send MIDI Note Off
+Send MIDI Control Change
+Step Forward Current Movie %@ Frames
+Step Forward Current Movie
+Step Backward Current Movie %@ Frames
+Step Backward Current Movie
+Increase Current Movie Volume by 10%
+Increase Current Movie Volume
+Decrease Current Movie Volume by 10%
+Decrease Current Movie Volume
+Set Current Movie Volume to %d%%
+Set Current Movie Volume
+Scale %@ by Percent
+Resize %@ by Pixels
+Resize %@ to Pixels
+Move %@ by Pixels
+Move %@ to Position
+Move and Resize %@
+Center %@
+Center %@ at Position
+Close %@
+Zoom %@
+Minimize %@
+Unminimize %@
+Bring %@ to Front
+Front Window
+Window Named ‘%@’
+Window(s) With Name Containing ‘%@’
+Window With Index %@
+Bring a Window to the Front
+Screen Capture %@
+Screen Capture Main Screen
+Screen Capture Screen %@
+Screen Capture Front Window
+Screen Capture Window %@
+Screen Capture Window ‘%@’
+Screen Capture Window With Name Containing ‘%@’
+Screen Capture Window With Name Matching ‘%@’
+Screen %@
+Window ‘%@’
+Window With Name Containing ‘%@’
+Window With Name Matching ‘%@’
+Window %@
+Area (%@)
+Draw a Line onto Image
+Draw a Rectangle onto Image
+Draw a Oval onto Image
+Draw onto Image in %@
+Draw a line from (%@,%@) to (%@,%@), %@ thick.
+Draw a rectangle from (%@,%@), %@ wide, %@ high, %@ thick.
+Draw an oval centered (%@,%@), %@ wide, %@ high.
+Flip Image in %@ Horizontally
+Flip Image in %@ Vertically
+Rotate Image in %@ Clockwise
+Rotate Image in %@ 180°
+Rotate Image in %@ Counter-Clockwise
+Rotate Image in %@ by ‘%@’
+Get Image %@ of %@
+Resize Image in %@
+Resize Canvas in %@
+Add or Remove Margins to Image in %@
+Crop Image in %@
+%@↩
+%@…
+The text is:
+Fast User Switch to ‘%@’
+Set Keyboard Layout to ‘%@’
+Simulate the Hardware Key %@
+Press and Hold the Hardware Key %@
+Press and Repeat the Hardware Key %@
+Release the Hardware Key %@
+Styled Text
+Set %@ to %@
+%@ ‘%@’
+The clipboard would be:
+Set Variable ‘%@’ to Text ‘%@’
+Set Variable ‘%@’ to Text
+Set Variable ‘%@’ to %@ Field ‘%@’
+Set Variable to %@ Field
+Set Variable ‘%@’ To Calculation ‘%@’
+Set %@ Delay for This Macro to %@ Seconds
+Set %@ Delay Globally to %@ Seconds
+Reset %@ Delay for This Macro to %@ Seconds
+Reset %@ Delay Globally to %@ Seconds
+Set Find Pasteboard to Text ‘%@’
+Set Variable ‘%@’ to Keychain Password ‘%@’
+Set Keychain Password ‘%@’ to Text ‘%@’
+Set %@ Field ‘%@’ to Text
+Set %@ Field to Text
+Set %@ Checkbox ‘%@’ to checked
+Set %@ Checkbox ‘%@’ to unchecked
+Set %@ Checkbox ‘%@’ to ‘%@’
+Set %@ Checkbox
+Set %@ Radio Button ‘%@’ to ‘%@’
+Set %@ Radio Button
+Set Mail %@ to On
+Set Mail %@ to Off
+Set Mail %@ to %@
+Flag Index
+Flagged Status
+Junk Status
+Read Status
+Off
+On
+Unflagged
+Red
+Oragne
+Send Mail Message with Subject ‘%@’
+Execute a JavaScript in %@
+Prompt for User Input ‘%@’
+Filter %@ with %@
+Filter Variable ‘%@’ with %@
+Remove Styles
+Mac Line Endings
+Unix Line Endings
+Windows Line Endings
+Trim Whitespace
+Unwrap
+Lowercase
+Lowercase First
+Uppercase
+Uppercase First
+Title Case
+Dumb Quotes
+French Quotes
+Spaces
+Tabs
+Encode HTML Entities
+Encode Non-ASCII HTML Entities
+Decode HTML Entities
+HTML List
+Percent Encode for URL
+Percent Decode URL
+Quote for AppleScript
+Quote for JavaScript
+Quote for Shell Script
+Quote for Swift
+Last Path Component
+Delete Last Path Component
+Path Extension
+Delete Path Extension
+Expand Tilde In Path
+Abbreviate With Tilde In Path
+Resolve Symlinks
+Standardize Path
+Zap Control Characters
+Bullet Control Characters
+Calculate
+Process Tokens
+Value of Named Variable
+Value of Named Clipboard
+Character Count
+Line Count
+Search and Replace %@ With String Matching (case sensitive)
+Search and Replace %@ With String Matching (ignoring case)
+Search and Replace %@ Using Regular Expression (case sensitive)
+Search and Replace %@ Using Regular Expression (ignoring case)
+Search and Replace Variable ‘%@’ With String Matching (case sensitive)
+Search and Replace Variable ‘%@’ With String Matching (ignoring case)
+Search and Replace Variable ‘%@’ Using Regular Expression (case sensitive)
+Search and Replace Variable ‘%@’ Using Regular Expression (ignoring case)
+Search Variable ‘%@’ Using Regular Expression (case sensitive)
+Search Variable ‘%@’ Using Regular Expression (ignoring case)
+Search %@ Using Regular Expression (case sensitive)
+Search %@ Using Regular Expression (ignoring case)
+Use Variable ‘%@’ to Set the Mouse Location
+Use Variable ‘%@’ to Set the Front Window Position
+Use Variable ‘%@’ to Set the Front Window Size
+Use Variable ‘%@’ to Set the Front Window Frame
+Use Variable ‘%@’ to Set the Front Window by Name
+Use Variable ‘%@’ to Set the Front Window by Name Contains
+Use Variable ‘%@’ to Set the Front Window by Name Matching
+Use Variable ‘%@’ to Set the Front Application by Name
+Use Variable ‘%@’ to Set the Front Application by Name Containing
+Use Variable ‘%@’ to Set the Front Application by Name Matching
+Use Variable ‘%@’ to Set the System Volume
+RTF
+RTFD
+Simple Text
+HTML
+Web Archive
+Word Doc
+Word ML
+Office Open XML
+Open Document
+PNG
+TIFF
+JPEG
+BMP
+GIF
+Mac Roman
+ISO Latin 1
+UTF8
+UTF16
+Record Quick Macro for Hot Key %@
+%@ [Quick Macro]
+%@ [Macro Group]
+Press Button ‘%@’
+Semaphore Lock ‘%@’
+Semaphore Unlock ‘%@’
+Semaphore Reset ‘%@’
+Semaphore Unlock ‘%@’ failed on unlocked semaphore
+Paste from Named Clipboard ‘%@’
+Copy to Named Clipboard ‘%@’
+Cut to Named Clipboard ‘%@’
+Paste from Named Clipboard
+Copy to Named Clipboard
+Cut to Named Clipboard
+Set Clipboard to Named Clipboard ‘%@’
+Save Clipboard to Named Clipboard ‘%@’
+Set %@ to Past Clipboard %@
+Copy Nothing
+Copy %@ to %@
+Delete Past Clipboard %@
+1 second
+%d seconds
+1 minute
+%d minutes
+1 hour
+%d hours
+1 day
+%d days
+USB Device Trigger
+Mounted Volume Trigger
+Focused Window Trigger
+Folder Trigger
+Device Trigger
+Typed String Trigger
+Application Trigger
+Time of Day Trigger
+While Logged In Trigger
+Login Trigger
+Launch Trigger
+Global Macro Palette Trigger
+Status Menu Trigger
+Wake Trigger
+Sleep Trigger
+Clipboard Trigger
+Public Web Trigger
+Script Trigger
+Wireless Network Trigger
+The Hot Key %@ is pressed
+While the Hot Key %@ is down
+The Hot Key %@ is released
+The Hot Key %@ is tapped
+The Hot Key %@ is tapped once
+The Hot Key %@ is tapped twice
+The Hot Key %@ is tapped %d times
+The MIDI note %d is pressed
+While the MIDI note %d is down
+The MIDI note %d is released
+♪%d
+Any USB Device is %%@
+USB Device ‘%@’ is %%@
+USB Device with Name Containing ‘%@’ is %%@
+USB Device with Name Matching ‘%@’ is %%@
+Attached
+Detached
+USB
+Any Volume is %%@
+Volume ‘%@’ is %%@
+Volume with Name Containing ‘%@’ is %%@
+Volume with Name Matching ‘%@’ is %%@
+💿
+Anything is added to folder ‘%@’ (immediately)
+Anything is added to folder ‘%@’ (ignoring partial files)
+Anything is added to folder ‘%@’ (ignoring partial or changing files)
+Anything is removed from folder ‘%@’ (immediately)
+Anything is removed from folder ‘%@’ (ignoring partial files)
+Anything is added to or removed from folder ‘%@’ (immediately)
+Anything is added to or removed from folder ‘%@’ (ignoring partial files)
+📁
+Any Wireless Network is %%@
+Wireless Network ‘%@’ is %%@
+Wireless Network with Name Containing ‘%@’ is %%@
+Wireless Network with Name Matching ‘%@’ is %%@
+Wireless Network with BSSID ‘%@’ is %%@
+✈
+⚀%@
+The %@%@ ‘%@’ is typed (no deletes)
+The %@%@ ‘%@’ is typed (then deleted)
+◇
+«Space»
+⇥
+«Tab»
+«Return»
+↩
+«Enter»
+⌤
+(after a word break)
+(ignoring diacriticals)
+(after a word break, ignoring diacriticals)
+At %@ %@
+%d:%02d
+%d:%02d-%d:%02d
+Every %@ between %@ %@
+every day
+weekends
+No Days
+%@ and %@
+on %@
+%@-%@
+repeating every %d %@
+The Status Menu
+No Active Status Menu Triggers
+Via Public Web Access
+Public Web
+At System Wake
+Wake
+At System Sleep
+Sleep
+System Clipboard Changed
+Name Search for ‘%@’
+Web Server for ‘%@’
+URL Scheme (kmtrigger) for ‘%@’
+Custom HTML Prompt for ‘%@’
+Macro Set Palette
+Duplicate Macro Palette
+Execute Macro
+Do Script
+Number Range Collection
+The numbers from %@ to %@
+The numbers from %@ down to %@
+Running Applications Collection
+The running applications
+Folder Contents Collection
+The direct contents of folder ‘%@’
+The recursive contents of folder ‘%@’
+Finder’s Selection Collection
+The items in the Finder selection
+Found Images Collection
+The matching images found on the screen
+Mounted Volumes Collection
+The mounted volumes
+Lines In Collection
+The lines in the current clipboard
+The lines in variable ‘%@’
+The lines in file ‘%@’
+The lines in system clipboard
+The lines in Named Clipboard ‘%@’
+Substrings In Collection
+The substrings in variable ‘%@’
+The substrings in file ‘%@’
+The substrings in system clipboard
+The substrings in Named Clipboard ‘%@’
+Clipboard History Collection
+The past text clipboards
+Front window exists
+Front window does not exist
+Front window title is ‘%@’
+Front window title is not ‘%@’
+Front window exists but title is not ‘%@’
+Front window title contains ‘%@’
+Front window title does not contain ‘%@’
+Front window exists but title does not contain ‘%@’
+Front window title matches ‘%@’
+Front window title does not match ‘%@’
+Front window exists but title does not match ‘%@’
+Any Window Condition
+Any window title is ‘%@’
+Any window title is not ‘%@’
+Any window title contains ‘%@’
+Any window title does not contain ‘%@’
+Any window title matches ‘%@’
+Any window title does not match ‘%@’
+Button Condition
+Button %@ ‘%@’ exists
+Button %@ ‘%@’ does not exist
+Button %@ ‘%@’ is enabled
+Button %@ ‘%@’ is not enabled
+Button %@ ‘%@’ exists but is not enabled
+Button %@ ‘%@’ is off
+Button %@ ‘%@’ is on
+Button %@ ‘%@’ is mixed
+with name
+with name containing
+with name matching
+Wireless Network Condition
+Any wireless network is connected
+No wireless network is connected
+A wireless network %@ is connected
+A wireless network %@ is not connected
+with name ‘%@’
+with name containing ‘%@’
+with name matching ‘%@’
+with BSSID ‘%@’
+USB Device Condition
+USB device %@ ‘%@’ exists
+USB device %@ ‘%@’ does not exist
+Menu Condition
+Menu %@ ‘%@’ exists
+Menu %@ ‘%@’ does not exist
+Menu %@ ‘%@’ is enabled
+Menu %@ ‘%@’ is not enabled
+Menu %@ ‘%@’ exists but is not enabled
+Menu %@ ‘%@’ is marked
+Menu %@ ‘%@’ is not marked
+Menu %@ ‘%@’ exists but is not marked
+with path
+with shortcut
+The modifiers are in any state (always true)
+The modifiers %@ are down
+The modifiers %@ are up
+The modifiers %@ are down, and %@ are up
+Key Condition
+The key %@ is down
+The key %@ is up
+Typed String Condition
+The typed string was %@
+lowercase
+title case
+uppercase
+Mounted Volume Condition
+Mounted Volume %@ ‘%@’ exists
+Mounted Volume %@ ‘%@’ does not exist
+Path Condition
+Nothing exists at path ‘%@’
+Something exists at path ‘%@’
+A file exists at path ‘%@’
+A file does not exist at path ‘%@’
+A folder exists at path ‘%@’
+A folder does not exist at path ‘%@’
+Clipboard Condition
+The clipboard has some text
+The clipboard does not have any text
+The clipboard has an image
+The clipboard does not have an image
+The clipboard text is ‘%@’
+The clipboard text is not ‘%@’
+The clipboard text is before ‘%@’
+The clipboard text is after ‘%@’
+The clipboard text contains ‘%@’
+The clipboard text does not contain ‘%@’
+The clipboard text matches ‘%@’
+The clipboard text does not match ‘%@’
+The clipboard text conforms to ‘%@’
+The clipboard text does not conform to ‘%@’
+The variable ‘%@’ exists
+The variable ‘%@’ does not exist
+The variable ‘%@’ is empty
+The variable ‘%@’ is not empty
+The variable ‘%@’ is ‘%@’
+The variable ‘%@’ is not ‘%@’
+The variable ‘%@’ is before ‘%@’
+The variable ‘%@’ is after ‘%@’
+The variable ‘%@’ contains ‘%@’
+The variable ‘%@’ does not contain ‘%@’
+The variable ‘%@’ matches ‘%@’
+The variable ‘%@’ does not match ‘%@’
+The text ‘%@’ is empty
+The text ‘%@’ is not empty
+The text ‘%@’ is ‘%@’
+The text ‘%@’ is not ‘%@’
+The text ‘%@’ is before ‘%@’
+The text ‘%@’ is after ‘%@’
+The text ‘%@’ contains ‘%@’
+The text ‘%@’ does not contain ‘%@’
+The text ‘%@’ matches ‘%@’
+The text ‘%@’ does not match ‘%@’
+Calculation Condition
+The calculation ‘%@’ returns true (non-zero)
+Macro/Macro Group Condition
+The %@ is %@
+The environment variable ‘%@’ is before ‘%@’
+The environment variable ‘%@’ is after ‘%@’
+The pixel at %@,%@ is
+The pixel at %@,%@ is not
+The pixel at %@,%@ is brighter than
+The pixel at %@,%@ is darker than
+The pixel at %@,%@ is more red
+The pixel at %@,%@ is less red
+The pixel at %@,%@ is more green
+The pixel at %@,%@ is less green
+The script result is before ‘%@’
+The script result is after ‘%@’
+Execute macro ‘%@’ from trigger %@
+The HTTP port number must be between 1024 and 65534.
+HTTPS port is one more (%d).
+Must be 1024-65534.  Still using %d.
+Web server is disabled.  No remote access.
+Web server is enabled but all access is disabled.
+Web server is enabled for receiving clipboards only.
+Web server is enabled for Public triggers only.
+Web server is enabled for Public triggers and receiving clipboards.
+Web server is enabled for iOS access only.
+Web server is enabled for iOS access and receiving clipboards.
+Web server is enabled for public and authenticated browser access.
+Web server is enabled for public & authenticated access and iOS access.
+Or via the web server but all remote access is disabled.
+Or via the web server for Public Web triggered macros only.
+Or via the web server for iOS access only.
+Or via the web server for public and authenticated browser access.
+Or via the web server for public, authenticated, and iOS access.
+Keyboard Maestro Install Failed, redirecting to download page
+Keyboard Maestro Download Failed, corrupted file, redirecting to download page
+Keyboard Maestro Download Failed, redirecting to download page
+(I am running Keyboard Maestro %@ on Mac OS X %@ and have so far saved %@)
+Macro Group Not Deleted
+Global Macro Group Not Deleted
+Math
+1)
+No Preference Panes Available
+Key Pad
+Function Key
+Tab
+⌫
+⎋
+⌧
+⌦
+⇞
+⇟
+?
+↖︎
+↘︎
+←
+→
+↓
+↑
+§
+Section Sign
+¥
+JIS Yen
+Ⓙ_
+JIS Underscore
+Ⓙ⊞,
+JIS Key Pad ,
+JIS Key Pad Comma
+Eisu
+JIS Eisu
+Kana
+JIS Kana
+⊞%@
+Key Pad %@
+↔
+↕
+⤓
+GOOD
+F1
+F2
+F3
+F4
+F5
+F6
+F7
+F8
+F9
+F10
+F11
+F12
+F13
+F14
+F15
+F16
+F17
+F18
+F19

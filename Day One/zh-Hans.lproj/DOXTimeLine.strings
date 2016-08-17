@@ -1,6 +1,0 @@
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "H59-0U-hDz"; */
-"H59-0U-hDz.title" = "文本框";
-
-/* Class = "NSTableView"; ibExternalAccessibilityDescription = "Journal entries"; ObjectID = "b36-0F-XfR"; */
-"b36-0F-XfR.ibExternalAccessibilityDescription" = "日志条目";
-

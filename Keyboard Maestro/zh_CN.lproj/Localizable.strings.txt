@@ -114,21 +114,21 @@ MacroGroupAvailableHTML_NotRunning="这些应用程序<strong>无一</strong>运
 MacroGroupActivationNormal="始终激活。";
 MacroGroupActivationOnceAfterTrigger="为一个动作激活，当：";
 MacroGroupActivationToggleWithTrigger="激活/停用，当：";
-MacroGroupActivationOnceWithPalette="为一个动作显示悬浮窗，当：";
-MacroGroupActivationWithPalette="显示/隐藏悬浮窗，当：";
-MacroGroupActivationAlwaysWithPalette="显示一个悬浮窗，直到：";
+MacroGroupActivationOnceWithPalette="为一个动作显示浮动面板，当：";
+MacroGroupActivationWithPalette="显示/隐藏浮动面板，当：";
+MacroGroupActivationAlwaysWithPalette="显示一个浮动面板，直到：";
 MacroGroupActivationNormalUnderMouse="始终激活。";
 MacroGroupActivationOnceAfterTriggerUnderMouse="为一个动作激活，当：";
 MacroGroupActivationToggleWithTriggerUnderMouse="激活/停用，当：";
-MacroGroupActivationOnceWithPaletteUnderMouse="为一个动作在鼠标下方显示悬浮窗，当：";
-MacroGroupActivationWithPaletteUnderMouse="在鼠标下方显示/隐藏悬浮窗，当：";
-MacroGroupActivationAlwaysWithPaletteUnderMouse="在鼠标下方显示一个悬浮窗，直到：";
+MacroGroupActivationOnceWithPaletteUnderMouse="为一个动作在鼠标下方显示浮动面板，当：";
+MacroGroupActivationWithPaletteUnderMouse="在鼠标下方显示/隐藏浮动面板，当：";
+MacroGroupActivationAlwaysWithPaletteUnderMouse="在鼠标下方显示一个浮动面板，直到：";
 
-MacroGroupFrontWindowCondition_Always= "Available in all windows.";
-MacroGroupFrontWindowCondition_Exists= "Available when there is a focused window.";
-MacroGroupFrontWindowCondition_DoesNotExist= "Available when there is no focused window.";
-MacroGroupFrontWindowCondition_TitleIs= "Available when the focused window title is “%@”.";
-MacroGroupFrontWindowCondition_TitleIsNot= "Available when the focused window title is not “%@”.";
+MacroGroupFrontWindowCondition_Always="在所有窗口均可用。";
+MacroGroupFrontWindowCondition_Exists="当有一个聚焦窗口时可用。";
+MacroGroupFrontWindowCondition_DoesNotExist="当没有聚焦窗口时可用。";
+MacroGroupFrontWindowCondition_TitleIs="当聚焦窗口标题为“%@”时可用。";
+MacroGroupFrontWindowCondition_TitleIsNot="当聚焦窗口标题不为“%@”时可用。";
 MacroGroupFrontWindowCondition_ExistsButTitleIsNot= "Available when there is a focused window but its title is not “%@”.";
 MacroGroupFrontWindowCondition_TitleContains= "Available when the focused window title contains “%@”.";
 MacroGroupFrontWindowCondition_TitleDoesNotContain= "Available when the focused window title does not contain “%@”.";
@@ -137,13 +137,13 @@ MacroGroupFrontWindowCondition_TitleMatches= "Available when the focused window 
 MacroGroupFrontWindowCondition_TitleDoesNotMatch= "Available when the focused window title does not match “%@”.";
 MacroGroupFrontWindowCondition_ExistsButTitleDoesNotMatch= "Available when there is a focused window but its title does not match “%@”.";
 
-smiSubMenuItemTitleFormat= "Sub-Menu %d:";
+smiSubMenuItemTitleFormat="副菜单%d：";
 
 csDeleteClipDataWarningStr= "Are you sure you want to delete the selected clipboard position(s)?";
 
-smProgramSwitcherMacroName= "Application Switcher";
-smWindowSwitcherMacroName= "Window Switcher";
-smApplicationLauncherMacroName= "Application Launcher";
+smProgramSwitcherMacroName="应用程序切换器";
+smWindowSwitcherMacroName="窗口切换器";
+smApplicationLauncherMacroName="应用程序启动器";
 
 AskPermissionStr                        = "Keyboard Maestro Engine is Required for Macros to Function";
 AskPermissionText                       = "Keyboard Maestro will launch the Keyboard Maestro Engine which is what actually executes your macros and it should continue running after you quit Keyboard Maestro so that your macros continue to operate.\r\rYou only need the Keyboard Maestro editor when you change your macros.\r\rYou can quit the engine at any time by selecting Quit Keyboard Maestro Engine from the Keyboard Maestro status menu.  You should also enable Launch Engine at Login in the preferences so the engine will always be available.\r\rWhat should happen to the engine when you quit the Keyboard Maestro editor?\r";
@@ -163,25 +163,25 @@ UniversalAccessWarningMessage= "Accessibility access to control your computer is
 UniversalAccessWarningDefaultButton= "Open System Preferences";
 UniversalAccessWarningIgnoreButton= "Later";
 
-WarnKMSwitcherConflictStr= "Keyboard Maestro has Switchers Enabled";
+WarnKMSwitcherConflictStr="Keyboard Maestro已启用切换器";
 WarnKMSwitcherConflictText= "Keyboard Maestro Engine is running and has its own switchers enabled.  These may conflict with the switchers provided by Switcher Maestro, so you might want to disable them.";
-WarnKMSwitcherConflictDefaultButton= "Launch Keyboard Maestro";
-WarnKMSwitcherConflictIgnoreButton= "Maybe Later";
+WarnKMSwitcherConflictDefaultButton="启动Keyboard Maestro";
+WarnKMSwitcherConflictIgnoreButton="也许以后";
 WarnKMSwitcherConflictNotAgainButton= "Don’t Ask Again";
 
-WarnPrefWriteFailedStr= "Preference Write Failed";
+WarnPrefWriteFailedStr="首选项写入失败";
 WarnPrefWriteFailedText= "Keyboard Maestro failed to write the preferences file. %@ %@ You should quit and fix the problem and then relaunch Keyboard Maestro.";
 WarnPrefWriteFailedDefaultButton="退出";
-WarnPrefWriteFailedContineButton= "Continue Anyway";
+WarnPrefWriteFailedContineButton="仍然继续";
 WarnPrefWriteFailedHelpButton="帮助";
 
-SharingDisabledBecauseOfNewerWarningTitle= "Macro Syncing Disabled";
+SharingDisabledBecauseOfNewerWarningTitle="禁用宏同步功能";
 SharingDisabledBecauseOfNewerWarningMessage= "Syncing macros has been disabled because the macro sync file is from a newer version of Keyboard Maestro.  Update this version of Keyboard Maestro to resume sharing, otherwise your local changes will be destroyed when you do update.";
-SharingDisabledBecauseOfNewerDefaultButton= "Check For Update";
-SharingDisabledBecauseOfNewerStopButton= "Stop Syncing";
-SharingDisabledBecauseOfNewerIgnoreButton= "Live Dangerously";
+SharingDisabledBecauseOfNewerDefaultButton="检查更新";
+SharingDisabledBecauseOfNewerStopButton="停止同步";
+SharingDisabledBecauseOfNewerIgnoreButton="危险地生活";
 
-SecureInputWarningTitle= "Secure Input is Enabled";
+SecureInputWarningTitle="安全输入被启用";
 SecureInputWarningMessageNoWho= "Secure Input is enabled which means the system thinks you are currently in a password field and will not allow applications to monitor the keyboard.\r\rThis will stop typed string triggers from working, as well as stop Keyboard Maestro from sensing your keystrokes while setting hot keys.\r\rYou will need to find the application responsible (often 1Password or LastPass or their Chrome extensions) and quit it.";
 SecureInputWarningMessageWithWho= "Secure Input is enabled which means the system thinks you are currently in a password field and will not allow applications to monitor the keyboard.\r\rThis will stop typed string triggers from working, as well as stop Keyboard Maestro from sensing your keystrokes while setting hot keys.\r\rYou will need to find the application responsible (probably %@) and quit it.";
 SecureInputDefaultButton="好";
@@ -192,64 +192,64 @@ Early1010WarningMessage= "You are running an early version of OS X 10.10 Yosemit
 Early1010DefaultButton="好";
 Early1010HelpButton="帮助";
 
-NamedClipboardDeleteWarningTitle= "Named Clipboard in Use";
+NamedClipboardDeleteWarningTitle="命名的剪贴板使用中";
 NamedClipboardDeleteWarningMessage= "One or more of the Named Clipboards you are trying to delete is currently in use by a macro.  You can delete it, but it will soon be recreated.";
 NamedClipboardDeleteDefaultButton="删除";
 NamedClipboardDeleteCancelButton="取消";
 
-VariableDeleteWarningTitle= "Variable in Use";
+VariableDeleteWarningTitle="变量使用中";
 VariableDeleteWarningMessage= "One or more of the Variables you are trying to delete is currently in use by a macro.  You can delete it, but it may soon be recreated.";
 VariableDeleteDefaultButton="删除";
 VariableDeleteCancelButton="取消";
 
-SharingOpenWarningTitle= "This Will Replace All Your Macros";
+SharingOpenWarningTitle="这将替换您所有的宏";
 SharingOpenWarningMessage= "Syncing from an existing macro sync file will replace all of your existing macros with the macros from the remote file you select.";
-SharingOpenDefaultButton= "Replace All Macros";
+SharingOpenDefaultButton="替所有宏";
 SharingOpenCancelButton="取消";
 
-ApplicationSwitcherPreferencePanelLabel= "Application Switcher";
-WindowSwitcherPreferencePanelLabel= "Window Switcher";
-ApplicationLauncherPreferencePanelLabel= "Application Launcher";
+ApplicationSwitcherPreferencePanelLabel="应用程序切换器";
+WindowSwitcherPreferencePanelLabel="窗口切换器";
+ApplicationLauncherPreferencePanelLabel="应用程序启动器";
 
-hkDefaultMacroGroupName= "Global Macro Group";
-hkOldDefaultMacroGroupName= "Global Macro Set";
-hkSwitcherGroupName= "Switcher Group";
+hkDefaultMacroGroupName="全局宏组";
+hkOldDefaultMacroGroupName="全局宏集合";
+hkSwitcherGroupName="切换组";
 menuQuitEngineItemTitle="退出引擎";
 menuLaunchEngineItemTitle="启动引擎";
 
-menuPurchaseUpgradeTitle= "Purchase Keyboard Maestro Upgrade…";
+menuPurchaseUpgradeTitle="购买键盘大师升级...";
 menuPurchaseTitle="购买Keyboard Maestro…";
 
-ExportMacrosDefaultFileName= "Untitled Macro File";
-ExportMacrosSaveTitle= "Export Macros";
+ExportMacrosDefaultFileName="无标题宏文件";
+ExportMacrosSaveTitle="导出宏";
 
-ExportMacrosDefaultGroupName= "%@ Macros";
-ExportMacrosDefaultGroup2Name= "%@ and Other Macros";
+ExportMacrosDefaultGroupName="%@宏";
+ExportMacrosDefaultGroup2Name="%@和其他宏";
 
-ExportActionsDefaultFileName= "Keyboard Maestro Actions";
-ExportActionsSaveTitle= "Export Actions";
+ExportActionsDefaultFileName="Keyboard Maestro动作";
+ExportActionsSaveTitle="导出动作";
 
-SyncMacrosDefaultFileName= "Keyboard Maestro Macros";
-SyncMacrosSaveTitle= "Save Sync File";
+SyncMacrosDefaultFileName="Keyboard Maestro宏";
+SyncMacrosSaveTitle="保存同步文件";
 
-SyncMacrosFailedHeader= "Failed to start syncing macros.";
-SyncMacrosFailedMessage= "The attempt to start syncing the macros failed (%@).";
+SyncMacrosFailedHeader="无法启动同步宏。";
+SyncMacrosFailedMessage="开始同步宏的尝试失败了（%@）。";
 
-SyncCreateMacrosSuccessTitle= "Macro Syncing Started";
+SyncCreateMacrosSuccessTitle="宏同步正在启动";
 SyncCreateMacrosSuccessMessage= "The macros have been written to the sync file, and will be written whenever the local macros are changed. Any change to the sync file will result in the local macros being replaced from that file.";
 
-SyncOpenMacrosSuccessTitle= "Macro Syncing Started";
+SyncOpenMacrosSuccessTitle="宏同步正在启动";
 SyncOpenMacrosSuccessMessage= "The macros have been replaced with those from sync file, and the macros will be written whenever the local macros are changed. Any change to the sync file will result in the local macros being replaced from that file.";
 
-ShareLibraryDefaultFileName= "Untitled Library File";
-ShareLibrarySaveTitle= "Share Library";
+ShareLibraryDefaultFileName="无标题库文件";
+ShareLibrarySaveTitle="共享库";
 
-ShareLibrary_Success_Title= "Saved Shared Library";
+ShareLibrary_Success_Title="保存共享库";
 ShareLibrary_Success_Description0= "The file was written, but no macros were saved.";
 ShareLibrary_Success_Description1= "One macro was saved to a library.";
 ShareLibrary_Success_Description2= "%d macros were saved to a library.";
 
-LibraryAllEntries= "All Entries";
+LibraryAllEntries="所有条目";
 
 ShareActionsOrMacrosFailedHeader= "Failed to export %@.";
 ShareActionsOrMacrosFailedMessage= "The attempt to export the %@ failed, the %@ have not been exported.";
@@ -307,22 +307,22 @@ MacroGroupDefaultName_AppSeperator= ", ";
 
 NagWindowTitle= "Keyboard Maestro %@";
 NagWindowQuit="退出";
-NagWindowTrial= "Continue Trial";
-NagWindowQuitDescription= "Your trial period has ended.";
-NagWindowTrialDescription= "Your trial period is coming to an end.";
+NagWindowTrial="继续试用";
+NagWindowQuitDescription="您的试用期已经结束。";
+NagWindowTrialDescription="您的试用期即将结束。";
 
-DownloadURL= "https://download.keyboardmaestro.com/";
-PurchaseURL= "https://purchase.keyboardmaestro.com/";
-LostSerialURL= "https://enquiry.stairways.com/";
-LostSerialURLFormat= "https://enquiry.stairways.com/?email=%@";
+DownloadURL="https://download.keyboardmaestro.com/";
+PurchaseURL="https://purchase.keyboardmaestro.com/";
+LostSerialURL="https://enquiry.stairways.com/";
+LostSerialURLFormat="https://enquiry.stairways.com/?email";
 
-InvalidSerialHeader= "You have entered an invalid email address or an invalid serial number.";
+InvalidSerialHeader="您输入的电子邮件地址无效或序列号无效。";
 InvalidSerialMessage= "Make sure you enter your email address and serial number exactly as they appear on your registration acknowledgment email.";
 
-OldSerialHeader= "You have entered an old serial number.";
+OldSerialHeader="您输入了旧的序列号。";
 OldSerialMessage= "The username and serial number you have entered is valid for an older version, you will need to enter your new serial number.";
 
-PurchaseUpgradeURL= "https://upgrade.keyboardmaestro.com/?serial=%@";
+PurchaseUpgradeURL="https://upgrade.keyboardmaestro.com/?serial";
 
 PSShowMenu= "Show (s)";
 PSHideMenu= "Hide (h)";
@@ -341,13 +341,13 @@ ALSwitchAndHideOthersMenu="激活并隐藏其他";
 
 SIVCLanguage= "EN";
 
-AboutRegisteredTo="The Shark破解|墨问非名汉化20160629";
-AboutTrialVersion= "Trial Version";
+AboutRegisteredTo= "Registered to: %@";
+AboutTrialVersion="试用版";
 MacAppStoreVersion= "Mac App Store Version";
 
-apmNoApplicationSelected= "No Application Selected";
+apmNoApplicationSelected="没有选中应用";
 apmMore= "More…";
-apmOther= "Other…";
+apmOther="其他…";
 
 DefaultSearchTitle= "Search the web with Google";
 DefaultSearchURL= "https://www.google.com/search?q=%Search%";
@@ -357,8 +357,8 @@ hkSwitchToNextApplication="激活下一个应用程序";
 hkBringWindowsForward="前置应用程序窗口";
 hkSearch="搜索网页";
 hkTriggerByName="通过名称触发宏";
-hkOpen1File="打开一个文件，文件夹或应用程序";
-hkFile="移动，复制或把文件移到废纸篓";
+hkOpen1File="打开一个文件、文件夹或应用程序";
+hkFile="移动、复制或把文件移到废纸篓";
 hkReadFile="读取文件";
 hkWriteFile="写入或追加文件";
 hkWriteFileWrite="写入文件";
@@ -423,7 +423,7 @@ hkAlert="警报";
 hkComment="评论";
 hkCancel="取消宏";
 hkMacroGroupToggle="切换宏组";
-hkConcealMacroPalettes="隐藏宏悬浮窗";
+hkConcealMacroPalettes="隐藏宏浮动面板";
 hkSelectMenuItem="选择或显示一个菜单项";
 hkiTunesControl="iTunes控制";
 hkQuickTimePlayerControl="QuickTime播放器控制";
@@ -432,48 +432,48 @@ hkManipulateWindow="操作窗口";
 hkHiliteLocation="突出位置";
 hkScreenCapture="屏幕捕获";
 hkFindImage="发现屏幕上的影像";
-hkTransformImage= "Transform Image";
-hkCompositeImage= "Composite onto Image";
-hkDrawImage= "Draw Shape onto Image";
-hkResizeImage= "Resize Image";
-hkGetImageSize= "Get Image Size";
-hkTrimImage= "Trim Image";
-hkDisplayImage= "Display Clipboard";
-hkNewImage= "Create New Image";
-hkPressButtonItem= "Press a Button";
-hkSemaphore= "Semaphore";
-hkClipboardSwitcher= "Use a Named Clipboard";
-hkCutCopyPaste= "Cut Copy Paste";
-hkSetClipboardToText= "Set Clipboard to Text";
-hkSetClipboardToPastClipboard= "Set Clipboard to Past Clipboard";
+hkTransformImage="变换图像";
+hkCompositeImage="复合到图像上";
+hkDrawImage="画形状到图像上";
+hkResizeImage="调整图像";
+hkGetImageSize="获取图像尺寸";
+hkTrimImage="裁剪图像";
+hkDisplayImage="显示剪贴板";
+hkNewImage="建立新的图片";
+hkPressButtonItem="按下一个按钮";
+hkSemaphore="信号";
+hkClipboardSwitcher="使用命名剪贴板";
+hkCutCopyPaste="剪切复制粘贴";
+hkSetClipboardToText="将剪贴板文本";
+hkSetClipboardToPastClipboard="设置剪贴板过去剪贴板";
 hkSetClipboardToNamedClipboard= "Set Clipboard to Named Clipboard"; // depricated
 hkSaveClipboardToNamedClipboard= "Save Clipboard to Named Clipboard"; // depricated
-hkCopyClipboard= "Copy Clipboard to Clipboard";
-hkDeletePastClipboard= "Delete Past Clipboard";
-hkFilterClipboard= "Filter Clipboard";
-hkSearchReplaceClipboard= "Search and Replace Clipboard";
-hkApplyStyle= "Apply Style to Clipboard";
-hkApplyTextFactory= "Apply a BBEdit Text Factory";
-hkSetVariableToText= "Set Variable to Text";
-hkSetVariableToKeychainPassword= "Set Variable to Keychain Password";
-hkSetKeychainPasswordToText= "Set Keychain Password to Text";
-hkSetVariableToSafariField= "Set Variable to Safari Field";
-hkSafariControl= "Safari Control";
-hkSetSafariFieldToText= "Set Safari Field to Text";
-hkSetSafariCheckbox= "Set Safari Checkbox";
-hkSetSafariRadio= "Set Safari Radio";
-hkSetMailStatus= "Set Mail Status";
-hkMailSendMessage= "Send Mail Message";
-hkSetVariableToCalculation= "Set Variable to Calculation";
-hkSetActionDelay= "Set Action Delay";
-hkSearchReplaceVariable= "Search and Replace Variable";
-hkSearchVariable= "Search Variable";
-hkSearchClipboard= "Search Clipboard";
-hkSubstring= "Substring of Variable or Clipboard";
-hkUseVariable= "Use Variable";
-hkFilterVariable= "Filter Variable";
-hkPromptForUserInput= "Prompt for User Input";
-hkCustomPrompt= "Custom HTML Prompt";
+hkCopyClipboard="剪贴板复制到剪贴板";
+hkDeletePastClipboard="删除过去的剪贴板";
+hkFilterClipboard="过滤剪贴板";
+hkSearchReplaceClipboard="搜索并替换剪贴板";
+hkApplyStyle="应用样式到剪贴板";
+hkApplyTextFactory="应用一个BBEdit文本厂";
+hkSetVariableToText="设置变量到文本";
+hkSetVariableToKeychainPassword="设置变量到钥匙串密码";
+hkSetKeychainPasswordToText="设置钥匙串密码到文本";
+hkSetVariableToSafariField="设置变量到Safari域";
+hkSafariControl="Safari浏览器控制";
+hkSetSafariFieldToText="设置Safari域到文本";
+hkSetSafariCheckbox="设置Safari复选框";
+hkSetSafariRadio="设置Safari电台";
+hkSetMailStatus="设置邮件状态";
+hkMailSendMessage="发送邮件";
+hkSetVariableToCalculation="设置变量到计算";
+hkSetActionDelay="设置动作延迟";
+hkSearchReplaceVariable="搜索并替换变量";
+hkSearchVariable="搜索变量";
+hkSearchClipboard="搜索剪贴板";
+hkSubstring="变量或剪贴板的子字符串";
+hkUseVariable="使用变量";
+hkFilterVariable="筛选变量";
+hkPromptForUserInput="提示用户输入";
+hkCustomPrompt="自定义HTML提示";
 
 hkProgramSwitcher="激活应用程序切换器";
 hkSMApplicationSwitcher="激活应用程序切换器";
@@ -518,11 +518,11 @@ CancelThisMacro="取消此宏";
 CancelJustThisMacro="只取消此宏";
 BreakFromLoop="打破循环";
 
-ConcealActionTitle="隐藏宏悬浮窗";
-RevealActionTitle="显示宏悬浮窗";
-ToggleActionTitle="隐藏/显示宏悬浮窗";
-ConcealUntilAppSwitchActionTitle="隐藏宏悬浮窗直到切换";
-ConcealUntilAppSwitchOrRevealActionTitle="隐藏/显示宏悬浮窗直到切换";
+ConcealActionTitle="隐藏宏浮动面板";
+RevealActionTitle="显示宏浮动面板";
+ToggleActionTitle="隐藏/显示宏浮动面板";
+ConcealUntilAppSwitchActionTitle="隐藏宏浮动面板直到切换";
+ConcealUntilAppSwitchOrRevealActionTitle="隐藏/显示宏浮动面板直到切换";
 
 kmModifierKeySeparator= "";
 kmModifierKeySuffix= "";
@@ -577,7 +577,7 @@ ExecuteBaseScriptResultTrim0StdErr1="结果";
 ExecuteBaseScriptResultTrim1StdErr0="修剪的结果没有错误";
 ExecuteBaseScriptResultTrim1StdErr1="修剪的结果";
 
-ExecuteJavaScriptForCustomPromptResult= "results";
+ExecuteJavaScriptForCustomPromptResult="结果";
 kmExecuteJavaScriptForCustomPromptResultsDescription= "The output of the script is:";
 kmExecuteJavaScriptForCustomPromptResultsTitle= "JavaScript Results";
 
@@ -645,8 +645,8 @@ kmReadFileToClipboardTitleFormat= "Read File to Clipboard";
 kmReadFileToNamedClipboardTitleFormat= "Read File to Named Clipboard ‘%@’";
 kmReadFileToVariableTitleFormat= "Read File to Variable ‘%@’";
 
-kmWriteOperationNormal= "Write";
-kmWriteOperationAppend= "Append";
+kmWriteOperationNormal="写入";
+kmWriteOperationAppend="附加";
 
 kmWriteFileFromClipboardTitleFormat= "%@ Clipboard";
 kmWriteFileFromNamedClipboardTitleFormat= "%@ Named Clipboard ‘%@’";
@@ -711,32 +711,32 @@ kmDisplayImageFormat= "Display %@";
 kmSetNetworkLocationFormat= "Set Network Location to ‘%@’";
 
 kFileAttributeFileType="文件类型";
-kFileAttributeFileSize= "File Size";
+kFileAttributeFileSize="文件大小";
 kFileAttributeCreationDate="创建日期";
-kFileAttributeModificationDate= "Date Modifiers";
-kFileAttributeOwnerName= "Owner Name";
-kFileAttributeOwnerID= "Owner ID";
-kFileAttributeGroupName= "Group Name";
-kFileAttributeGroupID= "Group ID";
-kFileAttributePosixPermissions= "Posix Permissions";
-kFileAttributeExtensionHidden= "Extension Hidden";
-kFileAttributeHFSCreatorCode= "HFS Creator Code";
-kFileAttributeHFSTypeCode= "HFS Type Code";
-kFileAttributeTags= "Tags";
-kFileAttributeTagsAdd= "Tags (add)";
-kFileAttributeTagsToggle= "Tags (toggle)";
-kFileAttributeTagsRemove= "Tags (remove)";
+kFileAttributeModificationDate="修改日期";
+kFileAttributeOwnerName="所有者名称";
+kFileAttributeOwnerID="所有者ID";
+kFileAttributeGroupName="组名称";
+kFileAttributeGroupID="组ID";
+kFileAttributePosixPermissions="POSIX权限";
+kFileAttributeExtensionHidden="隐藏扩展名";
+kFileAttributeHFSCreatorCode="HFS创建者代码";
+kFileAttributeHFSTypeCode="HFS类型代码";
+kFileAttributeTags="标签";
+kFileAttributeTagsAdd="标签（添加）";
+kFileAttributeTagsToggle="标签（切换）";
+kFileAttributeTagsRemove="标签（删除）";
 kFileAttributeParent="父支";
-kFileAttributeName= "File Name";
-kFileAttributeBaseName= "Base Name";
-kFileAttributeExtension= "Extension";
-kFileAttributeContentType= "Content Type";
-kFileAttributeContentKind= "Content Kind";
-kFileAttributeInvisible= "Invisible";
-kFileAttributeAddedDate= "Date Added";
-kFileAttributeDownloadedDate= "Date Downloaded";
-kFileAttributeLastUsedDate= "Date Last Used";
-kFileAttributeWhereFrom= "Where From";
+kFileAttributeName="文件名";
+kFileAttributeBaseName="基本名称";
+kFileAttributeExtension="扩展名";
+kFileAttributeContentType="内容类型";
+kFileAttributeContentKind="内容种类";
+kFileAttributeInvisible="不可见";
+kFileAttributeAddedDate="添加日期";
+kFileAttributeDownloadedDate="下载日期";
+kFileAttributeLastUsedDate="上次使用日期";
+kFileAttributeWhereFrom="从哪里";
 kFileAttributeComment="评论";
 
 kmGetFileAttributeTitleFormat= "Get %@ to Variable ‘%@’";
@@ -781,14 +781,14 @@ kmGroupTitle="组合动作";
 kmIfThenElseTitle="如果%@就执行动作";
 kmIfThenElseNoConditionsTitle="如果没有条件，什么也不做";
 
-kmSwitchHasTextDescription= "If it Has Text";
-kmSwitchDoesNotHaveTextDescription= "If it Does Not Have Text";
-kmSwitchHasImageDescription= "If it Has an Image";
-kmSwitchDoesNotHaveImageDescription= "If it Does Not Have Image";
-kmSwitchExistsDescription= "If it Exists";
-kmSwitchDoesNotExistDescription= "If it Does Not Exist";
-kmSwitchIsEmptyDescription= "If it Is Empty";
-kmSwitchIsNotEmptyDescription= "If it Is Not Empty";
+kmSwitchHasTextDescription="如果它有文字";
+kmSwitchDoesNotHaveTextDescription="如果它没有文本";
+kmSwitchHasImageDescription="如果它有图像";
+kmSwitchDoesNotHaveImageDescription="如果它没有图像";
+kmSwitchExistsDescription="如果它存在";
+kmSwitchDoesNotExistDescription="如果它不存在";
+kmSwitchIsEmptyDescription="如果它是空的";
+kmSwitchIsNotEmptyDescription="如果它不是空的";
 kmSwitchIsDescription= "If it Is “%@”";
 kmSwitchIsNotDescription= "If it Is Not “%@”";
 kmSwitchContainsDescription= "If it Contains “%@”";
@@ -797,7 +797,7 @@ kmSwitchMatchesDescription= "If it Matches “%@”";
 kmSwitchDoesNotMatchDescription= "If it Does Not Match “%@”";
 kmSwitchConformsToDescription= "If it Conforms To “%@”";
 kmSwitchDoesNotConformToDescription= "If it Does Not Conform To “%@”";
-kmSwitchOtherwiseDescription= "Otherwise";
+kmSwitchOtherwiseDescription="除此以外";
 
 kAlertDefaultTitle="Keyboard Maestro警报";
 kAlertDefaultText="你想继续执行还是现在停止？";
@@ -815,7 +815,7 @@ hkGrowlTitle="Growl通知‘%@’";
 
 hkLogTitle="登录‘%@’";
 
-kNotificationDefaultTitle= "%ExecutingMacro%";
+kNotificationDefaultTitle="％ExecutingMacro％";
 kNotificationDefaultSubtitle= "";
 kNotificationDefaultText= "";
 hkNotificationTitle="通知‘%@’";
@@ -887,64 +887,64 @@ kmUntitledMacroGroupFormat="无题宏组%d";
 kmUntitledMacroSmartGroup="无标题智能组";
 kmUntitledMacroSmartGroupFormat="无标题智能组%d";
 
-kmDefaultOpenURLValue= "https://www.keyboardmaestro.com/";
+kmDefaultOpenURLValue="https://www.keyboardmaestro.com/";
 
-hkSemaphoreLockTitle= "Semaphore Lock";
-hkSemaphoreUnlockTitle= "Semaphore Unlock";
-hkSemaphoreResetTitle= "Semaphore Reset";
+hkSemaphoreLockTitle="信号锁定";
+hkSemaphoreUnlockTitle="信号解锁";
+hkSemaphoreResetTitle="复位信号";
 
-hkSystemActionSleepTitle= "Put Computer to Sleep";
-hkSystemActionRestartTitle= "Restart Computer";
-hkSystemActionShutdownTitle= "Shut Down Computer";
-hkSystemActionLogOutTitle= "Log Out";
-hkSystemActionLoginWindowTitle= "Login Window";
-hkSystemActionOpenCloseCDROMTitle= "Open/Close the CD Tray";
-hkSystemActionMuteVolumeTitle= "Toggle System Sound Mute";
-hkSystemActionIncreaseVolumeTitle= "Increase System Sound Volume";
-hkSystemActionDecreaseVolumeTitle= "Decrease System Sound Volume";
-hkSystemActionIncreaseBrightnessTitle= "Increase Screen Brightness";
-hkSystemActionDecreaseBrightnessTitle= "Decrease Screen Brightness";
-hkSystemActionActivateScreenSaverTitle= "Start Screen Saver";
-hkSystemActionStopScreenSaverTitle= "Stop Screen Saver";
-hkSystemActionSleepDisplayTitle= "Sleep Screen";
-hkSystemActionWakeDisplayTitle= "Wake Screen";
-hkSystemActionSystemBeepTitle= "System Beep";
-hkSystemActionShowMacroPaletteTitle= "Show Global Macro Palette";
-hkSystemActionHideMacroPaletteTitle= "Hide Global Macro Palette";
-hkSystemActionToggleMacroPaletteTitle= "Toggle Global Macro Palette";
-hkSystemActionShowStatusMenuTitle= "Show Status Menu";
-hkSystemActionClearTypedStringTitle= "Clear Typed String Buffer";
+hkSystemActionSleepTitle="把电脑进入睡眠";
+hkSystemActionRestartTitle="重新启动计算机";
+hkSystemActionShutdownTitle="关闭计算机";
+hkSystemActionLogOutTitle="登出";
+hkSystemActionLoginWindowTitle="登录窗口";
+hkSystemActionOpenCloseCDROMTitle="打开/关闭CD托盘";
+hkSystemActionMuteVolumeTitle="切换系统声音静音";
+hkSystemActionIncreaseVolumeTitle="增加系统音量";
+hkSystemActionDecreaseVolumeTitle="降低系统音量";
+hkSystemActionIncreaseBrightnessTitle="提高屏幕亮度";
+hkSystemActionDecreaseBrightnessTitle="降低屏幕亮度";
+hkSystemActionActivateScreenSaverTitle="启动屏幕保护程序";
+hkSystemActionStopScreenSaverTitle="停止屏幕保护程序";
+hkSystemActionSleepDisplayTitle="睡眠屏幕";
+hkSystemActionWakeDisplayTitle="唤醒屏幕";
+hkSystemActionSystemBeepTitle="系统哔声";
+hkSystemActionShowMacroPaletteTitle="显示全局宏浮动面板";
+hkSystemActionHideMacroPaletteTitle="隐藏全局宏浮动面板";
+hkSystemActionToggleMacroPaletteTitle="切换全局宏浮动面板";
+hkSystemActionShowStatusMenuTitle="显示状态菜单";
+hkSystemActionClearTypedStringTitle="清除键入字符串的缓冲区";
 
-hkDebuggerActionStartTitle= "Debugger Start";
-hkDebuggerActionFinishTitle= "Debugger Finish";
-hkDebuggerActionToggleTitle= "Debugger Toggle";
-hkDebuggerActionNewMacrosPausedTitle= "Debugger New Macros Paused";
-hkDebuggerActionNewMacrosRunTitle= "Debugger New Macros Run";
-hkDebuggerActionBreakpointTitle= "Debugger Breakpoint This Macro";
-hkDebuggerActionBreakpointOthersTitle= "Debugger Breakpoint All Other Macros";
-hkDebuggerActionBreakpointEveryTitle= "Debugger Breakpoint All Macros";
+hkDebuggerActionStartTitle="调试器启动";
+hkDebuggerActionFinishTitle="调试完成";
+hkDebuggerActionToggleTitle="调试器切换";
+hkDebuggerActionNewMacrosPausedTitle="调试器新的宏暂停";
+hkDebuggerActionNewMacrosRunTitle="调试器新的宏运行";
+hkDebuggerActionBreakpointTitle="断点调试这个宏";
+hkDebuggerActionBreakpointOthersTitle="断点调试所有其他的宏";
+hkDebuggerActionBreakpointEveryTitle="断点调试所有宏";
 hkDebuggerActionStepOverOthersTitle= "Debugger Step Over Other Macros";
 hkDebuggerActionStepIntoOthersTitle= "Debugger Step Into Other Macros";
 hkDebuggerActionStepOutOthersTitle= "Debugger Step Out Other Macros";
-hkDebuggerActionContinueTitle= "Debugger Continue This Macro";
-hkDebuggerActionContinueEveryTitle= "Debugger Continue All Macros";
+hkDebuggerActionContinueTitle="调试器继续这个宏";
+hkDebuggerActionContinueEveryTitle="调试器继续所有的宏";
 
-hkPlaySoundTitle= "Play Sound ‘%@’";
-hkPlaySoundSystemBeepTitle= "Play System Beep";
+hkPlaySoundTitle="播放声音 '％@'";
+hkPlaySoundSystemBeepTitle="播放系统哔声";
 
-kApplicationTargetFrontApplication= "Front Application";
+kApplicationTargetFrontApplication="前台应用程序";
 
-kSpeakTextDefault= "Action Completed";
+kSpeakTextDefault="动作已完成";
 hkSpeakTextTitle= "Speak Text ‘%@’";
 hkSpeakTextVoiceTitle= "Speak Text With Voice ‘%@’ at %@ Rate";
 hkSpeakTextDefaultVoiceTitle= "Speak Text With Default Voice ‘%@’ at %@ Rate";
 
 hkSpeakTextDefaultRate="默认";
-hkSpeakTextSlowRate= "Slow";
-hkSpeakTextModerateRate= "Moderate";
-hkSpeakTextNormalRate= "Normal";
-hkSpeakTextQuickRate= "Quick";
-hkSpeakTextFastRate= "Fast";
+hkSpeakTextSlowRate="慢";
+hkSpeakTextModerateRate="中等";
+hkSpeakTextNormalRate="正常";
+hkSpeakTextQuickRate="快";
+hkSpeakTextFastRate="快进";
 
 hkSystemVolumeTitleFormat= "Set System Output Volume to %d%%";
 
@@ -1071,11 +1071,11 @@ aManipulateWindow_NamedWindowFormat= "Window Named ‘%@’";
 aManipulateWindow_WindowWithNameContainingFormat = "Window(s) With Name Containing ‘%@’";
 aManipulateWindow_WindowWithIndexFormat= "Window With Index %@";
 
-aManipulateWindow_New_ResizeWindow= "Resize a Window";
-aManipulateWindow_New_MoveAndResizeWindow= "Move and Resize a Window";
-aManipulateWindow_New_MoveWindow= "Move a Window";
-aManipulateWindow_New_ManipulateWindow= "Manipulate a Window";
-aManipulateWindow_New_SelectWindow= "Select a Window";
+aManipulateWindow_New_ResizeWindow="调整窗口大小";
+aManipulateWindow_New_MoveAndResizeWindow="移动和调整窗口大小";
+aManipulateWindow_New_MoveWindow="移动一个窗口";
+aManipulateWindow_New_ManipulateWindow="操作窗口";
+aManipulateWindow_New_SelectWindow= "Bring a Window to the Front";
 
 kmScreenCaptureTitle= "Screen Capture %@";
 kmScreenCaptureSourceScreenMain= "Screen Capture Main Screen";
@@ -1085,10 +1085,10 @@ kmScreenCaptureSourceWindowIndex= "Screen Capture Window %@";
 kmScreenCaptureSourceWindowName= "Screen Capture Window ‘%@’";
 kmScreenCaptureSourceWindowNameContaining= "Screen Capture Window With Name Containing ‘%@’";
 kmScreenCaptureSourceWindowNameMatching= "Screen Capture Window With Name Matching ‘%@’";
-kmScreenCaptureSourceWindowArea= "Screen Capture Area";
+kmScreenCaptureSourceWindowArea="屏幕捕获区域";
 
-kHScreenAreaScreenAllDescription= "All Screens";
-kHScreenAreaScreenMainDescription= "Main Screen";
+kHScreenAreaScreenAllDescription="所有屏幕";
+kHScreenAreaScreenMainDescription="主屏幕";
 kHScreenAreaScreenIndexDescription= "Screen %@";
 kHScreenAreaWindowFrontDescription= "Front Window";
 kHScreenAreaWindowNameDescription= "Window ‘%@’";
@@ -1107,12 +1107,12 @@ kmDrawImageLineHTML= "Draw a line from (%@,%@) to (%@,%@), %@ thick.";
 kmDrawImageRectangleHTML= "Draw a rectangle from (%@,%@), %@ wide, %@ high, %@ thick.";
 kmDrawImageOvalHTML= "Draw an oval centered (%@,%@), %@ wide, %@ high.";
 
-kmTransformImageActionFlipHorizontal= "Flip Image Horizontally";
-kmTransformImageActionFlipVertical= "Flip Image Vertically";
-kmTransformImageActionRotateCW= "Rotate Image Clockwise";
-kmTransformImageActionRotate180= "Rotate Image 180°";
-kmTransformImageActionRotateCCW= "Rotate Image Counter-Clockwise";
-kmTransformImageActionFreeRotate= "Rotate Image ‘%@’";
+kmTransformImageActionFlipHorizontal="水平翻转图片";
+kmTransformImageActionFlipVertical="垂直翻转图片";
+kmTransformImageActionRotateCW="顺时针旋转图片";
+kmTransformImageActionRotate180="图像旋转180°";
+kmTransformImageActionRotateCCW="逆时针旋转图片";
+kmTransformImageActionFreeRotate="旋转图像‘%@’";
 
 kmTransformImageActionHTMLFlipHorizontal= "Flip Image in %@ Horizontally";
 kmTransformImageActionHTMLFlipVertical= "Flip Image in %@ Vertically";
@@ -1121,25 +1121,25 @@ kmTransformImageActionHTMLRotate180= "Rotate Image in %@ 180°";
 kmTransformImageActionHTMLRotateCCW= "Rotate Image in %@ Counter-Clockwise";
 kmTransformImageActionHTMLFreeRotate= "Rotate Image in %@ by ‘%@’";
 
-kmTransformImageActionFlip= "Flip Image";
-kmTransformImageActionRotate= "Rotate Image";
+kmTransformImageActionFlip="翻转图像";
+kmTransformImageActionRotate="旋转图像";
 
 kmGetImageSize= "Get Image %@ of %@";
 
-kSizeAttributePixelSize= "Pixel Size";
-kSizeAttributePixelWidth= "Pixel Width";
-kSizeAttributePixekHeight= "Pixel Height";
-kSizeAttributePointSize= "Point Size";
-kSizeAttributePointWidth= "Point Width";
-kSizeAttributePointHeight= "Point Height";
-kSizeAttributeDPI= "DPI";
+kSizeAttributePixelSize="像素大小";
+kSizeAttributePixelWidth="像素宽度";
+kSizeAttributePixekHeight="像素高度";
+kSizeAttributePointSize="点大小";
+kSizeAttributePointWidth="点宽";
+kSizeAttributePointHeight="点高度";
+kSizeAttributeDPI="DPI";
 
 
-kmResizeImageActionScaleTo= "Resize Image";
-kmResizeImageActionScaleToFit= "Resize Image to Fit";
-kmResizeImageActionResizeTo= "Resize Canvas";
-kmResizeImageActionAddMargin= "Add or Remove Margins";
-kmResizeImageActionCrop= "Crop Image";
+kmResizeImageActionScaleTo="调整图像";
+kmResizeImageActionScaleToFit="调整图像以适合";
+kmResizeImageActionResizeTo="调整画布";
+kmResizeImageActionAddMargin="添加或删除边距";
+kmResizeImageActionCrop="裁剪图片";
 
 kmResizeImageActionHTMLScaleTo= "Resize Image in %@";
 kmResizeImageActionHTMLScaleToFit= "Resize Image in %@";
@@ -1168,7 +1168,7 @@ aInsertTextHTML_DisplayLarge="大尺寸显示文字";
 aSummaryReturnFormat= "%@↩";
 aSummaryTextFormat= "%@…";
 
-aInsertText_DisplayTitle= "Display Text";
+aInsertText_DisplayTitle="显示文本";
 aInsertText_DisplayDescription= "The text is:";
 
 aFastUserSwitch_DescriptionFormat= "Fast User Switch to ‘%@’";
@@ -1186,7 +1186,7 @@ aSetClipboardToText_StyledText= "Styled Text";
 aSetClipboardToText_DescriptionFormat= "Set %@ to %@";
 aSetClipboardToText_DescriptionExtendedFormat= "%@ ‘%@’";
 
-aSetClipboardToText_DisplayTitle= "Set Clipboard to Text";
+aSetClipboardToText_DisplayTitle="将剪贴板文本";
 aSetClipboardToText_DisplayDescription= "The clipboard would be:";
 
 aSetVariableToText_DescriptionFormat= "Set Variable ‘%@’ to Text ‘%@’";
@@ -1238,7 +1238,7 @@ kMailFlagIndex6="紫色";
 kMailFlagIndex7="灰色";
 
 aMailSendMessage_DescriptionFormat= "Send Mail Message with Subject ‘%@’";
-aSetVariableToText_HTML= "Send Mail Message";
+aSetVariableToText_HTML="发送邮件";
 
 aExecuteJavaScript_NewActionFormat= "Execute a JavaScript in %@";
 
@@ -1279,7 +1279,7 @@ kFilterLastPathComponent= "Last Path Component";
 kFilterDeleteLastPathComponent= "Delete Last Path Component";
 kFilterPathExtension= "Path Extension";
 kFilterDeletePathExtension= "Delete Path Extension";
-kFilterBaseName= "Base Name";
+kFilterBaseName="基本名称";
 kFilterExpandTildeInPath= "Expand Tilde In Path";
 kFilterAbbreviateWithTildeInPath= "Abbreviate With Tilde In Path";
 kFilterResolveSymlinks= "Resolve Symlinks";
@@ -1365,9 +1365,9 @@ aCSMacroAction_PasteTitle= "Paste from Named Clipboard";
 aCSMacroAction_CopyTitle= "Copy to Named Clipboard";
 aCSMacroAction_CutTitle= "Cut to Named Clipboard";
 
-aCSMacroEditor_Paste= "from";
-aCSMacroEditor_Copy= "to";
-aCSMacroEditor_Cut= "to";
+aCSMacroEditor_Paste="从";
+aCSMacroEditor_Copy="到";
+aCSMacroEditor_Cut="到";
 
 aACutCopyPaste_CutTitle="剪切";
 aACutCopyPaste_CopyTitle="拷贝";
@@ -1383,7 +1383,7 @@ aCopyClipboard= "Copy %@ to %@";
 
 aDeletePastClipboardFormat= "Delete Past Clipboard %@";
 
-kNamedClipboardSystemClipboard= "System Clipboard";
+kNamedClipboardSystemClipboard="系统剪贴板";
 
 UnitsIn1Second= "1 second";
 UnitsInSeconds= "%d seconds";
@@ -1394,8 +1394,8 @@ UnitsInHours= "%d hours";
 UnitsIn1Day= "1 day";
 UnitsInDays= "%d days";
 
-tHotKeyTriggerTitle= "Hot Key Trigger";
-tMIDITriggerTitle= "MIDI Trigger";
+tHotKeyTriggerTitle="热键触发";
+tMIDITriggerTitle="MIDI触发";
 tUSBDeviceTriggerTitle= "USB Device Trigger";
 tVolumeTriggerTitle= "Mounted Volume Trigger";
 tFocusedWindowTriggerTitle= "Focused Window Trigger";
@@ -1445,8 +1445,8 @@ tVolumeTriggerNamed= "Volume ‘%@’ is %%@";
 tVolumeTriggerContaining= "Volume with Name Containing ‘%@’ is %%@";
 tVolumeTriggerMatching= "Volume with Name Matching ‘%@’ is %%@";
 
-tVolumeTriggerMounted= "Mounted";
-tVolumeTriggerUnmounted= "Unmounted";
+tVolumeTriggerMounted="安装";
+tVolumeTriggerUnmounted="卸载";
 
 tVolumeTriggerShortDesc= "💿";
 
@@ -1462,10 +1462,10 @@ tFolderTriggerBothWaitCompletion= "Anything is added to or removed from folder �
 
 tFolderTriggerShortDesc= "📁";
 
-tFocusedWindowFocusedWindowChanges= "The Focused Window Changes";
-tFocusedWindowFocusedWindowTitleChanges= "The Focused Window Title Changes";
-tFocusedWindowFocusedWindowsTitleChanged= "The Focused Window’s Title Changed";
-tFocusedWindowFocusedWindowsFrameChanged= "The Focused Window’s Frame Changed";
+tFocusedWindowFocusedWindowChanges="聚焦窗口更改";
+tFocusedWindowFocusedWindowTitleChanges="聚焦窗口标题更改";
+tFocusedWindowFocusedWindowsTitleChanged="聚焦窗口的标题更改";
+tFocusedWindowFocusedWindowsFrameChanged="聚焦窗口的框架改变";
 
 tFocusedWindow_ShortDescription="窗口";
 
@@ -1475,8 +1475,8 @@ tWirelessNetworkTriggerNameContains= "Wireless Network with Name Containing ‘%
 tWirelessNetworkTriggerNameMatches= "Wireless Network with Name Matching ‘%@’ is %%@";
 tWirelessNetworkTriggerBSSID= "Wireless Network with BSSID ‘%@’ is %%@";
 
-tWirelessNetworkTriggerConnected= "Connected";
-tWirelessNetworkTriggerDisconnected= "Disconnected";
+tWirelessNetworkTriggerConnected="连接的";
+tWirelessNetworkTriggerDisconnected="断开的";
 
 tWirelessNetworkTriggerShortDesc= "✈";
 
@@ -1531,10 +1531,10 @@ tApplicationTriggerDescFormatRepeat="每%@重复";
 tTimeTrigger_DescFormat= "At %@ %@";
 tTimeTrigger_TimeFormat= "%d:%02d";
 tTimeTrigger_TimeBetweenFormat= "%d:%02d-%d:%02d";
-tTimeTrigger_Login= "Login";
-tTimeTrigger_LoginDescription= "At Login";
+tTimeTrigger_Login="登录";
+tTimeTrigger_LoginDescription="在登录时";
 tTimeTrigger_Launch= "Launch";
-tTimeTrigger_LaunchDescription= "At Engine Launch";
+tTimeTrigger_LaunchDescription="在引擎启动时";
 tTimeTrigger_ExecuteAyDescFormat= "At %@ %@";
 tTimeTrigger_WhileLoggedInDescFormat= "Every %@ between %@ %@";
 tTimeTrigger_EveryDay= "every day";
@@ -1553,7 +1553,7 @@ tTimeTrigger_Sunday="星期日";
 tTimeTrigger_DaySep= ", ";
 tTimeTrigger_RepeatingFormat= " repeating every %d %@";
 
-tMacroPaletteTrigger_LongDescription= "The Global Macro Palette";
+tMacroPaletteTrigger_LongDescription="全局宏浮动面板";
 tMacroPaletteTrigger_ShortDescription="调色板";
 
 tStatusMenuTrigger_LongDescription= "The Status Menu";
@@ -1585,7 +1585,7 @@ TriggerByCustomPrompt= "Custom HTML Prompt for ‘%@’";
 TriggerByMacroGroupPalette= "Macro Set Palette";
 TriggerByDuplicateMacroPalette= "Duplicate Macro Palette";
 TriggerByExecuteMacro= "Execute Macro";
-TriggerByWhile= "While";
+TriggerByWhile="当";
 TriggerByDoScript= "Do Script";
 TriggerByNameAction="名称";
 
@@ -1717,7 +1717,7 @@ cMenuSelection_Matches= "with name matching";
 cMenuSelection_Path= "with path";
 cMenuSelection_Shortcut= "with shortcut";
 
-cModifiersTitle= "Modifiers Condition";
+cModifiersTitle="修饰键条件";
 
 cModifiers_LongDescription_Always = "The modifiers are in any state (always true)";
 cModifiers_LongDescription_JustDown = "The modifiers %@ are down";
@@ -1771,7 +1771,7 @@ cClipboard_LongDescription_DoesNotMatch= "The clipboard text does not match ‘%
 cClipboard_LongDescription_ConformsTo= "The clipboard text conforms to ‘%@’";
 cClipboard_LongDescription_DoesNotConformTo= "The clipboard text does not conform to ‘%@’";
 
-cVariableTitle= "Variable Condition";
+cVariableTitle="变量条件";
 
 cVariable_LongDescription_Exists= "The variable ‘%@’ exists";
 cVariable_LongDescription_DoesNotExist= "The variable ‘%@’ does not exist";
@@ -1786,7 +1786,7 @@ cVariable_LongDescription_DoesNotContain= "The variable ‘%@’ does not contai
 cVariable_LongDescription_Matches= "The variable ‘%@’ matches ‘%@’";
 cVariable_LongDescription_DoesNotMatch= "The variable ‘%@’ does not match ‘%@’";
 
-cTextTitle= "Text Condition";
+cTextTitle="文本条件";
 
 cText_LongDescription_IsEmpty= "The text ‘%@’ is empty";
 cText_LongDescription_IsNotEmpty= "The text ‘%@’ is not empty";
@@ -1804,10 +1804,10 @@ cCalculation_LongDescription= "The calculation ‘%@’ returns true (non-zero)"
 
 cMacroTitle= "Macro/Macro Group Condition";
 cMacro_LongDescription= "The %@ is %@";
-cMacro_IsEnabled= "enabled";
-cMacro_IsDisabled= "disabled";
-cMacro_IsActive= "active";
-cMacro_IsInactive= "inactive";
+cMacro_IsEnabled="启用";
+cMacro_IsDisabled="禁用";
+cMacro_IsActive="活动";
+cMacro_IsInactive="非活动";
 
 cEnvironmentVariableTitle="环境变量条件";
 
@@ -1870,23 +1870,23 @@ cScript_LongDescription_DoesNotMatch="脚本结果不匹配‘%@’";
 
 MacroDoActionListFormat= "Execute macro ‘%@’ from trigger %@";
 
-ApplicationWebSiteURL= "https://www.keyboardmaestro.com/";
-OnlineHelpURL= "https://documentation.keyboardmaestro.com/";
-StairwaysSoftwareURL= "https://www.stairways.com/";
-SupportEmailURL= "mailto:support@stairways.com?subject=Question%20About%20Keyboard%20Maestro";
+ApplicationWebSiteURL="https://www.keyboardmaestro.com/";
+OnlineHelpURL="https://documentation.keyboardmaestro.com/";
+StairwaysSoftwareURL="https://www.stairways.com/";
+SupportEmailURL="mailto:support@stairways.com?subject";
 
-SupportURL= "https://support.keyboardmaestro.com/";
-QuickStartURL= "https://www.stairways.com/action/linkthru?quickstart";
-RegularExpressionReferenceURL= "https://www.stairways.com/action/linkthru?regularexpressionreference";
-ICUDateTimeReferenceURL= "https://www.stairways.com/action/linkthru?icudatetimereference";
-RegularExpressionPropertiesReferenceURL= "https://www.stairways.com/action/linkthru?regularexpressionproperties";
-WikiURL= "https://wiki.keyboardmaestro.com/";
-ForumURL= "https://forum.keyboardmaestro.com/";
-MacroGroupHelpURL= "https://www.stairways.com/action/linkthru?macrogrouphelp";
-MacroSmartGroupHelpURL= "https://www.stairways.com/action/linkthru?smartgrouphelp";
-SecureInputHelpURL= "https://www.stairways.com/action/linkthru?secureinputmode";
-Early1010HelpURL= "https://www.stairways.com/action/linkthru?earlyyosemite";
-WarnPrefWriteFailedHelpURL= "https://www.stairways.com/action/linkthru?prefwritefailed";
+SupportURL="https://support.keyboardmaestro.com/";
+QuickStartURL="https://www.stairways.com/action/linkthru?quickstart";
+RegularExpressionReferenceURL="https://www.stairways.com/action/linkthru?regularexpressionreference";
+ICUDateTimeReferenceURL="https://www.stairways.com/action/linkthru?icudatetimereference";
+RegularExpressionPropertiesReferenceURL="https://www.stairways.com/action/linkthru?regularexpressionproperties";
+WikiURL="https://wiki.keyboardmaestro.com/";
+ForumURL="https://forum.keyboardmaestro.com/";
+MacroGroupHelpURL="https://www.stairways.com/action/linkthru?macrogrouphelp";
+MacroSmartGroupHelpURL="https://www.stairways.com/action/linkthru?smartgrouphelp";
+SecureInputHelpURL="https://www.stairways.com/action/linkthru?secureinputmode";
+Early1010HelpURL="https://www.stairways.com/action/linkthru?earlyyosemite";
+WarnPrefWriteFailedHelpURL="https://www.stairways.com/action/linkthru?prefwritefailed";
 
 WebSeverPortError= "The HTTP port number must be between 1024 and 65534.";
 
@@ -1924,8 +1924,8 @@ WebServerTriggerAuthention1Browser1iPhone0Clipboards1 = "Or via the web server f
 WebServerTriggerAuthention1Browser1iPhone1Clipboards0 = "Or via the web server for public, authenticated, and iOS access.";
 WebServerTriggerAuthention1Browser1iPhone1Clipboards1 = "Or via the web server for public, authenticated, and iOS access.";
 
-SendDiagnosticSendReport = "Send Report";
-SendDiagnosticSendReports = "Send Reports";
+SendDiagnosticSendReport="发送报告";
+SendDiagnosticSendReports="发送报告";
 
 TimeSavedFormat="节省时间：%@";
 
@@ -2020,199 +2020,201 @@ kHardwareKey_ILLUMINATION_DOWN="提高背光灯亮度";
 kHardwareKey_ILLUMINATION_TOGGLE="降低背光灯亮度";
 
 
-kInsertToken1 = "";
-kInsertToken2 = "%Calculate%1+2%:Calculation";
-kInsertToken3 = "%|%:Position Cursor (Insert Text only)";
-kInsertToken4="剪贴板";
-kInsertToken5 = "%CurrentClipboard%:Current Clipboard";
-kInsertToken6 = "%PastClipboard%1%:Past Clipboard";
-kInsertToken7 = "%NamedClipboard%Default Clipboard%:Named Clipboard";
-kInsertToken8="日期";
-kInsertToken9 = "%LongDate%:Long Date";
-kInsertToken10 = "%ShortDate%:Short Date";
-kInsertToken11 = "%NumberDate%:Number Date";
-kInsertToken12 = "%LongTime%:Time With Seconds";
-kInsertToken13 = "%ShortTime%:Time";
-kInsertToken14 = "%ICUDateTime%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time";
-kInsertToken15 = "%ICUDateTimeFor%NOW()+20%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time For";
-kInsertToken16 = "%ICUDateTimePlus%3*7%Days%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time Plus";
-kInsertToken17 = "%ICUDateTimeMinus%3*7%Days%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time Minus";
-kInsertToken18="系统";
-kInsertToken19 = "%UserName%:User Name";
-kInsertToken20 = "%UserLoginID%:User Login ID";
-kInsertToken21 = "%MacName%:Machine Name";
-kInsertToken22 = "%MacIPAddress%:Machine IP Address";
-kInsertToken23 = "%MacUUID%:Machine Unique ID";
-kInsertToken24 = "%AddressBook%Name%:AddressBook Name";
-kInsertToken25 = "%AddressBook%First%:AddressBook First Name";
-kInsertToken26 = "%AddressBook%Last%:AddressBook Last Name";
-kInsertToken27 = "%AddressBook%Nickname%:AddressBook Nickname";
-kInsertToken28 = "%AddressBook%Organization%:AddressBook Organization";
-kInsertToken29 = "%AddressBook%Note%:AddressBook Note";
-kInsertToken30 = "%NetworkLocation%:Network Location";
-kInsertToken31 = "%WirelessNetwork%:Wireless Network Name(s)";
-kInsertToken32 = "%FindPasteboard%:Find Pasteboard";
-kInsertToken33 = "%Application%1%:Front Application Name";
-kInsertToken34 = "%Application%2%:Last Application Name";
-kInsertToken35 = "%SystemVolume%:System Volume";
-kInsertToken36 = "%FinderInsertionLocation%:Finder Insertion Location path";
-kInsertToken37 = "Screen";
-kInsertToken38 = "%WindowPosition%1%:Front Window Position";
-kInsertToken39 = "%WindowSize%1%:Front Window Size";
-kInsertToken40 = "%WindowFrame%1%:Front Window Frame";
-kInsertToken41 = "%WindowName%1%:Front Window Name";
-kInsertToken42 = "%CurrentMouse%:Current Mouse Location";
-kInsertToken43 = "%Screen%Main%:Main Screen Frame";
-kInsertToken44 = "%Screen%1%:First Screen Frame";
-kInsertToken45 = "%Screen%2%:Second Screen Frame";
-kInsertToken46 = "%ScreenVisible%Main%:Main Screen Visible Frame";
-kInsertToken47 = "iTunes";
-kInsertToken48 = "%CurrentTrack%name%:Current Track Name";
-kInsertToken49 = "%CurrentTrack%artist%:Current Track Artist";
-kInsertToken50 = "%CurrentTrack%album%:Current Track Album";
-kInsertToken51 = "%CurrentTrack%ratingstars%:Current Track Rating";
-kInsertToken52 = "Safari";
-kInsertToken53 = "%SafariTitle%:Safari Document Title";
-kInsertToken54 = "%SafariURL%:Safari Document URL";
-kInsertToken55 = "%SafariReadyState%:Safari Ready State";
-kInsertToken56 = "%SafariField%document.forms[0][0]%:Safari Field";
-kInsertToken57 = "%SafariJavaScript%document.forms[0].innerHTML%:Safari JavaScript";
-kInsertToken58 = "Google Chrome";
-kInsertToken59 = "%ChromeTitle%:Google Chrome Document Title";
-kInsertToken60 = "%ChromeURL%:Google Chrome Document URL";
-kInsertToken61 = "%ChromeReadyState%:Google Chrome Ready State";
-kInsertToken62 = "%ChromeField%document.forms[0][0]%:Google Chrome Field";
-kInsertToken63 = "%ChromeJavaScript%document.forms[0].innerHTML%:Google Chrome JavaScript";
-kInsertToken64 = "Mail";
-kInsertToken65 = "%MailRecipients%:Mail Recipients";
-kInsertToken66 = "%MailToRecipients%:Mail To Recipients";
-kInsertToken67 = "%MailCCRecipients%:Mail CC Recipients";
-kInsertToken68 = "%MailBCCRecipients%:Mail BCC Recipients";
-kInsertToken69 = "%MailSender%:Mail Sender";
-kInsertToken70 = "%MailReplyTo%:Mail Reply To";
-kInsertToken71 = "%MailSubject%:Mail Subject";
-kInsertToken72 = "%MailContents%:Mail Contents";
-kInsertToken73 = "%MailRawSource%:Mail Raw Source";
-kInsertToken74 = "Macro Information";
-kInsertToken75 = "%MacroNameForUUID%UUID%:Macro Name For UUID";
-kInsertToken76 = "%ExecutingMacro%:Executing Macro";
-kInsertToken77 = "%ExecutingMacroUUID%:Executing Macro UUID";
-kInsertToken78 = "%ExecutingMacroGroup%:Executing Macro Group";
-kInsertToken79 = "%ExecutingThisMacro%:Executing This Macro";
-kInsertToken80 = "%ExecutingThisMacroUUID%:Executing This Macro UUID";
-kInsertToken81 = "%ExecutingThisMacroGroup%:Executing This Macro Group";
-kInsertToken82 = "%TriggerBase%:Tripped Trigger Type";
-kInsertToken83 = "%Trigger%:Tripped Trigger Text";
-kInsertToken84 = "%TriggerValue%:Tripped Trigger Value";
-kInsertToken85 = "%ActionResult%:Success Result of Last Action";
-kInsertToken86 = "###";
+kInsertToken = "
+%Calculate%1+2%:Calculation
+%|%:Position Cursor (Insert Text only)
+Clipboard
+%CurrentClipboard%:Current Clipboard
+%PastClipboard%1%:Past Clipboard
+%NamedClipboard%Default Clipboard%:Named Clipboard
+Date
+%LongDate%:Long Date
+%ShortDate%:Short Date
+%NumberDate%:Number Date
+%LongTime%:Time With Seconds
+%ShortTime%:Time
+%ICUDateTime%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time
+%ICUDateTimeFor%NOW()+20%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time For
+%ICUDateTimePlus%3*7%Days%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time Plus
+%ICUDateTimeMinus%3*7%Days%EEE, MMM d, yyyy h;;;mm%:Formatted (ICU) Date Time Minus
+System
+%UserName%:User Name
+%UserLoginID%:User Login ID
+%MacName%:Machine Name
+%MacIPAddress%:Machine IP Address
+%MacUUID%:Machine Unique ID
+%AddressBook%Name%:AddressBook Name
+%AddressBook%First%:AddressBook First Name
+%AddressBook%Last%:AddressBook Last Name
+%AddressBook%Nickname%:AddressBook Nickname
+%AddressBook%Organization%:AddressBook Organization
+%AddressBook%Note%:AddressBook Note
+%NetworkLocation%:Network Location
+%WirelessNetwork%:Wireless Network Name(s)
+%FindPasteboard%:Find Pasteboard
+%Application%1%:Front Application Name
+%Application%2%:Last Application Name
+%SystemVolume%:System Volume
+%FinderInsertionLocation%:Finder Insertion Location path
+Screen
+%WindowPosition%1%:Front Window Position
+%WindowSize%1%:Front Window Size
+%WindowFrame%1%:Front Window Frame
+%WindowName%1%:Front Window Name
+%CurrentMouse%:Current Mouse Location
+%Screen%Main%:Main Screen Frame
+%Screen%1%:First Screen Frame
+%Screen%2%:Second Screen Frame
+%ScreenVisible%Main%:Main Screen Visible Frame
+iTunes
+%CurrentTrack%name%:Current Track Name
+%CurrentTrack%artist%:Current Track Artist
+%CurrentTrack%album%:Current Track Album
+%CurrentTrack%ratingstars%:Current Track Rating
+Safari
+%SafariTitle%:Safari Document Title
+%SafariURL%:Safari Document URL
+%SafariReadyState%:Safari Ready State
+%SafariField%document.forms[0][0]%:Safari Field
+%SafariJavaScript%document.forms[0].innerHTML%:Safari JavaScript
+Google Chrome
+%ChromeTitle%:Google Chrome Document Title
+%ChromeURL%:Google Chrome Document URL
+%ChromeReadyState%:Google Chrome Ready State
+%ChromeField%document.forms[0][0]%:Google Chrome Field
+%ChromeJavaScript%document.forms[0].innerHTML%:Google Chrome JavaScript
+Mail
+%MailRecipients%:Mail Recipients
+%MailToRecipients%:Mail To Recipients
+%MailCCRecipients%:Mail CC Recipients
+%MailBCCRecipients%:Mail BCC Recipients
+%MailSender%:Mail Sender
+%MailReplyTo%:Mail Reply To
+%MailSubject%:Mail Subject
+%MailContents%:Mail Contents
+%MailRawSource%:Mail Raw Source
+Macro Information
+%MacroNameForUUID%UUID%:Macro Name For UUID
+%ExecutingMacro%:Executing Macro
+%ExecutingMacroUUID%:Executing Macro UUID
+%ExecutingMacroGroup%:Executing Macro Group
+%ExecutingThisMacro%:Executing This Macro
+%ExecutingThisMacroUUID%:Executing This Macro UUID
+%ExecutingThisMacroGroup%:Executing This Macro Group
+%TriggerBase%:Tripped Trigger Type
+%Trigger%:Tripped Trigger Text
+%TriggerValue%:Tripped Trigger Value
+%ActionResult%:Success Result of Last Action
+###
+";
 
-kInsertFunction1 = "Math";
-kInsertFunction2 = "ABS(value):ABS — Absolute Value";
-kInsertFunction3 = "CEIL(value):CEIL — Integer Ceiling";
-kInsertFunction4 = "FLOOR(value):FLOOR — Integer Floor";
-kInsertFunction5 = "TRUNC(value):TRUNC — Integer Truncated";
-kInsertFunction6 = "ROUND(value):ROUND — Integer Rounded";
-kInsertFunction7 = "MIN(value1,value2):MIN — Minimum";
-kInsertFunction8 = "MAX(value1,value2):MAX — Maximum";
-kInsertFunction9 = "SIN(value):SIN — Sine";
-kInsertFunction10 = "COS(value):COS — Cosine";
-kInsertFunction11 = "TAN(value):TAN — Tangent";
-kInsertFunction12 = "ASIN(value):ASIN — Arcsine";
-kInsertFunction13 = "ACOS(value):ACOS - Arcosine";
-kInsertFunction14 = "ATAN(value):ATAN — Arctangent";
-kInsertFunction15 = "ATAN2(y,x):ATAN2 — Arctangent 2";
-kInsertFunction16 = "SINH(value):SINH — Hyperbolic Sine";
-kInsertFunction17 = "COSH(value):COSH — Hyperbolic Cosine";
-kInsertFunction18 = "TANH(value):TANH — Hyperbolic Tangenet";
-kInsertFunction19 = "EXP(value):EXP — Raise e to the Power Of";
-kInsertFunction20 = "LOG(value):LOG — Natural Logarithm";
-kInsertFunction21 = "LOG2(value):LOG2 — Logarithm Base 2";
-kInsertFunction22 = "LOG10(value):LOG10 — Logarithm Base 10";
-kInsertFunction23 = "Random";
-kInsertFunction24 = "RAND(value):RAND — Integer Random";
-kInsertFunction25 = "RANDOM([value]):RANDOM — Random";
-kInsertFunction26 = "Time";
-kInsertFunction27 = "MICROSECONDS():MICROSECONDS — Since System Start";
-kInsertFunction28 = "MILLISECONDS():MILLISECONDS — Fractional Since System Start";
-kInsertFunction29 = "SECONDS():SECONDS — Fractional Since System Start";
-kInsertFunction30 = "NOW():NOW — Seconds Since 1970 (GMT)";
-kInsertFunction31 = "IDLE():IDLE — Seconds Since Last User Input";
-kInsertFunction32 = "TIME([year,month,day[,hour,minute,seconds]]):TIME - Seconds Since 1970 (GMT)";
-kInsertFunction33 = "TRIGGERTIME():TRIGGERTIME — Time macro was triggered, seconds Since 1970 (GMT)";
-kInsertFunction34="日期";
-kInsertFunction35 = "JD([year,month,day[,hour,minute,seconds]]):JD - Fractional Julian Date (GMT)";
-kInsertFunction36 = "MJD([year,month,day[,hour,minute,seconds]]):MJD - Fractional Modified Julian Date (GMT)";
-kInsertFunction37 = "TIME2JD(time):TIME2JD — Convert Unix Time to JD";
-kInsertFunction38 = "TIME2MJD(time):TIME2MJD — Convert Unix Time to MJD";
-kInsertFunction39 = "JD2TIME(jd):JD2TIME — Convert JD to Unix Time";
-kInsertFunction40 = "JD2MJD(jd):JD2MJD — Convert JD to MJD";
-kInsertFunction41 = "MJD2TIME(mjd):MJD2TIME — Convert MJD to Unix Time";
-kInsertFunction42 = "MJD2JD(mjd):MJD2JD — Convert MJD to JD";
-kInsertFunction43 = "YEAR([time]):YEAR - Current or Specified Year";
-kInsertFunction44 = "MONTH([time]):MONTH - Current or Specified Month";
-kInsertFunction45 = "DAY([time]):DAY - Current or Specified Day";
-kInsertFunction46 = "DOW([time]):DOW - Current or Specified Day of the Week (Sunday=1)";
-kInsertFunction47 = "HOUR([time]):HOUR - Current or Specified Hour";
-kInsertFunction48 = "MINUTE([time]):MINUTE - Current or Specified Minute";
-kInsertFunction49 = "SECOND([time]):SECOND - Current or Specified Second";
-kInsertFunction50 = "GMTOFFSET():GMTOFFSET - Seconds from GMT";
-kInsertFunction51 = "Screen";
-kInsertFunction52 = "MOUSEX():MOUSEX — Mouse X Coordinate";
-kInsertFunction53 = "MOUSEY():MOUSEY — Mouse Y Coordinate";
-kInsertFunction54 = "MOUSEBUTTON(button):MOUSEBUTTON — Mouse Button Value";
-kInsertFunction55 = "SCREEN(screen|Main|Second|Third|Internal|External|Front|Back|Mouse,Left|Right|Top|Bottom|Width|Height|MidX|MidY):SCREEN - Screen Frame Coordinate";
-kInsertFunction56 = "SCREENVISIBLE(screen|Main|Second|Third|Internal|External|Front|Back|Back2|Mouse,Left|Right|Top|Bottom|Width|Height|MidX|MidY):SCREEN - Screen Visible Frame Coordinate";
-kInsertFunction57 = "SCREENCOUNT():SCREENCOUNT — Screen Count";
-kInsertFunction58 = "WINDOW(window,Left|Right|Top|Bottom|Width|Height|MidX|MidY):WINDOW - Window Frame Coordinate";
-kInsertFunction59 = "WINDOWCOUNT():WINDOWCOUNT — Window Count";
-kInsertFunction60 = "MENUBARHEIGHT():MENUBARHEIGHT — Menu Bar Height";
-kInsertFunction61 = "Action Specific";
-kInsertFunction62 = "IMAGE(Width|Height):IMAGE - Action Image Size";
-kInsertFunction63 = "SOURCEIMAGE(Width|Height):SOURCEIMAGE - Action Source Image Size";
-kInsertFunction64 = "WINDOW(Left|Right|Top|Bottom|Width|Height|MidX|MidY):WINDOW - Action Window Coordinate";
-kInsertFunction65 = "LENGTH():LENGTH - Action Text Length";
-kInsertFunction65 = "FONTSIZE():FONTSIZE - Action font size";
-kInsertFunction66 = "Safari";
-kInsertFunction67 = "SAFARITABINDEX():SAFARITABINDEX - Safari Tab Index";
-kInsertFunction68 = "SAFARITABCOUNT():SAFARITABCOUNT - Safari Tab Count";
-kInsertFunction69 = "SAFARIISCOMPLETE():SAFARIISCOMPLETE - Safari Is Complete";
-kInsertFunction70 = "Google Chrome";
-kInsertFunction71 = "CHROMETABINDEX():CHROMETABINDEX - Google Chrome Tab Index";
-kInsertFunction72 = "CHROMETABCOUNT():CHROMETABCOUNT - Google Chrome Tab Count";
-kInsertFunction73 = "CHROMEISCOMPLETE():CHROMEISCOMPLETE - Google Chrome Is Complete";
-kInsertFunction74 = "Mail";
-kInsertFunction75 = "MAILDATERECEIVED():MAILDATERECEIVED - Mail Date Received";
-kInsertFunction76 = "MAILDATESENT():MAILDATESENT - Mail Date Sent";
-kInsertFunction77 = "MAILFLAG():MAILFLAG - Mail Flag Index";
-kInsertFunction78 = "MAILFLAGGED():MAILFLAGGED - Mail Flagged";
-kInsertFunction79 = "MAILREADSTATUS():MAILREADSTATUS - Mail Read Status";
-kInsertFunction80 = "MAILJUNKSTATUS():MAILJUNKSTATUS - Mail Junk Mail Status";
-kInsertFunction81 = "MAILWASFORWARDED():MAILWASFORWARDED - Mail Was Forwarded";
-kInsertFunction82 = "MAILWASREDIRECTED():MAILWASREDIRECTED - Mail Was Redirected";
-kInsertFunction83 = "MAILWASREPLIEDTO():MAILWASREPLIEDTO - Mail Was Replied To";
-kInsertFunction84="系统";
-kInsertFunction85 = "APPLICATIONS():APPLICATIONS — Application Count";
-kInsertFunction86 = "BATTERY():BATTERY — Mac is on Battery Power";
-kInsertFunction87 = "CLIPBOARDSEED():CLIPBOARDSEED — Clipboard Seed";
-kInsertFunction88 = "ONLINE():ONLINE — Mac is Online";
-kInsertFunction89 = "SCREENSAVER():SCREENSAVER — Screen Saver is Running";
-kInsertFunction90 = "SYSTEMVOLUME():SYSTEMVOLUME — System Volume";
-kInsertFunction91 = "SECUREINPUT():SECUREINPUT — Mac is in Secure Input Mode";
-kInsertFunction92 = "CONCEALEDPALETTES():CONCEALEDPALETTES — Macro Palettes are Concealed";
-kInsertFunction93="文本";
-kInsertFunction94 = "CALCULATE(3+4):CALCULATE — Process Text Tokens and then Calculate";
-kInsertFunction95 = "CHARACTERS(text):CHARACTERS — Process Text Tokens and then count characters";
-kInsertFunction96 = "WORDS(text):WORDS — Process Text Tokens and then count words";
-kInsertFunction97 = "LINES(text):LINES — Process Text Tokens and then count lines";
-kInsertFunction98 = "###";
+kInsertFunction = "Math
+ABS(value):ABS — Absolute Value
+CEIL(value):CEIL — Integer Ceiling
+FLOOR(value):FLOOR — Integer Floor
+TRUNC(value):TRUNC — Integer Truncated
+ROUND(value):ROUND — Integer Rounded
+MIN(value1,value2):MIN — Minimum
+MAX(value1,value2):MAX — Maximum
+SIN(value):SIN — Sine
+COS(value):COS — Cosine
+TAN(value):TAN — Tangent
+ASIN(value):ASIN — Arcsine
+ACOS(value):ACOS - Arcosine
+ATAN(value):ATAN — Arctangent
+ATAN2(y,x):ATAN2 — Arctangent 2
+SINH(value):SINH — Hyperbolic Sine
+COSH(value):COSH — Hyperbolic Cosine
+TANH(value):TANH — Hyperbolic Tangenet
+EXP(value):EXP — Raise e to the Power Of
+LOG(value):LOG — Natural Logarithm
+LOG2(value):LOG2 — Logarithm Base 2
+LOG10(value):LOG10 — Logarithm Base 10
+Random
+RAND(value):RAND — Integer Random
+RANDOM([value]):RANDOM — Random
+Time
+MICROSECONDS():MICROSECONDS — Since System Start
+MILLISECONDS():MILLISECONDS — Fractional Since System Start
+SECONDS():SECONDS — Fractional Since System Start
+NOW():NOW — Seconds Since 1970 (GMT)
+IDLE():IDLE — Seconds Since Last User Input
+TIME([year,month,day[,hour,minute,seconds]]):TIME - Seconds Since 1970 (GMT)
+TRIGGERTIME():TRIGGERTIME — Time macro was triggered, seconds Since 1970 (GMT)
+Date
+JD([year,month,day[,hour,minute,seconds]]):JD - Fractional Julian Date (GMT)
+MJD([year,month,day[,hour,minute,seconds]]):MJD - Fractional Modified Julian Date (GMT)
+TIME2JD(time):TIME2JD — Convert Unix Time to JD
+TIME2MJD(time):TIME2MJD — Convert Unix Time to MJD
+JD2TIME(jd):JD2TIME — Convert JD to Unix Time
+JD2MJD(jd):JD2MJD — Convert JD to MJD
+MJD2TIME(mjd):MJD2TIME — Convert MJD to Unix Time
+MJD2JD(mjd):MJD2JD — Convert MJD to JD
+YEAR([time]):YEAR - Current or Specified Year
+MONTH([time]):MONTH - Current or Specified Month
+DAY([time]):DAY - Current or Specified Day
+DOW([time]):DOW - Current or Specified Day of the Week (Sunday=1)
+HOUR([time]):HOUR - Current or Specified Hour
+MINUTE([time]):MINUTE - Current or Specified Minute
+SECOND([time]):SECOND - Current or Specified Second
+GMTOFFSET():GMTOFFSET - Seconds from GMT
+Screen
+MOUSEX():MOUSEX — Mouse X Coordinate
+MOUSEY():MOUSEY — Mouse Y Coordinate
+MOUSEBUTTON(button):MOUSEBUTTON — Mouse Button Value
+SCREEN(screen|Main|Second|Third|Internal|External|Front|Back|Mouse,Left|Right|Top|Bottom|Width|Height|MidX|MidY):SCREEN - Screen Frame Coordinate
+SCREENVISIBLE(screen|Main|Second|Third|Internal|External|Front|Back|Back2|Mouse,Left|Right|Top|Bottom|Width|Height|MidX|MidY):SCREEN - Screen Visible Frame Coordinate
+SCREENCOUNT():SCREENCOUNT — Screen Count
+WINDOW(window,Left|Right|Top|Bottom|Width|Height|MidX|MidY):WINDOW - Window Frame Coordinate
+WINDOWCOUNT():WINDOWCOUNT — Window Count
+MENUBARHEIGHT():MENUBARHEIGHT — Menu Bar Height
+Action Specific
+IMAGE(Width|Height):IMAGE - Action Image Size
+SOURCEIMAGE(Width|Height):SOURCEIMAGE - Action Source Image Size
+WINDOW(Left|Right|Top|Bottom|Width|Height|MidX|MidY):WINDOW - Action Window Coordinate
+LENGTH():LENGTH - Action Text Length
+FONTSIZE():FONTSIZE - Action font size
+Safari
+SAFARITABINDEX():SAFARITABINDEX - Safari Tab Index
+SAFARITABCOUNT():SAFARITABCOUNT - Safari Tab Count
+SAFARIISCOMPLETE():SAFARIISCOMPLETE - Safari Is Complete
+Google Chrome
+CHROMETABINDEX():CHROMETABINDEX - Google Chrome Tab Index
+CHROMETABCOUNT():CHROMETABCOUNT - Google Chrome Tab Count
+CHROMEISCOMPLETE():CHROMEISCOMPLETE - Google Chrome Is Complete
+Mail
+MAILDATERECEIVED():MAILDATERECEIVED - Mail Date Received
+MAILDATESENT():MAILDATESENT - Mail Date Sent
+MAILFLAG():MAILFLAG - Mail Flag Index
+MAILFLAGGED():MAILFLAGGED - Mail Flagged
+MAILREADSTATUS():MAILREADSTATUS - Mail Read Status
+MAILJUNKSTATUS():MAILJUNKSTATUS - Mail Junk Mail Status
+MAILWASFORWARDED():MAILWASFORWARDED - Mail Was Forwarded
+MAILWASREDIRECTED():MAILWASREDIRECTED - Mail Was Redirected
+MAILWASREPLIEDTO():MAILWASREPLIEDTO - Mail Was Replied To
+System
+APPLICATIONS():APPLICATIONS — Application Count
+BATTERY():BATTERY — Mac is on Battery Power
+CLIPBOARDSEED():CLIPBOARDSEED — Clipboard Seed
+ONLINE():ONLINE — Mac is Online
+SCREENSAVER():SCREENSAVER — Screen Saver is Running
+SYSTEMVOLUME():SYSTEMVOLUME — System Volume
+SECUREINPUT():SECUREINPUT — Mac is in Secure Input Mode
+CONCEALEDPALETTES():CONCEALEDPALETTES — Macro Palettes are Concealed
+Text
+CALCULATE(3+4):CALCULATE — Process Text Tokens and then Calculate
+CHARACTERS(text):CHARACTERS — Process Text Tokens and then count characters
+WORDS(text):WORDS — Process Text Tokens and then count words
+LINES(text):LINES — Process Text Tokens and then count lines
+###
+";
 
 NoPreferencePanesAvailable = "No Preference Panes Available";
 
 NumberPadSubmenu = "Key Pad";
 FunctionKeySubmenu = "Function Key";
 
-UnknownFileOrFolderName = "Unknown";
+UnknownFileOrFolderName="未知";
 
 EnterUniCharShort= "⌤";
 EnterUniCharLong="输入";

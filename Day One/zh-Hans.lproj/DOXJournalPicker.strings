@@ -1,9 +1,0 @@
-/* Class = "NSButton"; ibExternalAccessibilityDescription = "Journal options"; ObjectID = "G6q-MD-IBI"; */
-"G6q-MD-IBI.ibExternalAccessibilityDescription" = "日志选项";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "l4J-Ek-Kaq"; */
-"l4J-Ek-Kaq.title" = "文本框";
-
-/* Class = "NSButton"; ibExternalAccessibilityDescription = "New journal"; ObjectID = "rYO-94-m9H"; */
-"rYO-94-m9H.ibExternalAccessibilityDescription" = "新日志";
-

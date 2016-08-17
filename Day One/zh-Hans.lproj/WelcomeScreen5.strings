@@ -1,9 +1,0 @@
-/* Class = "NSTextFieldCell"; title = "Would you like to enable secure Sync and Cloud Backup?"; ObjectID = "JM8-zr-B6n"; */
-"JM8-zr-B6n.title" = "想要启用安全的同步和云备份吗？";
-
-/* Class = "NSButtonCell"; title = "No Thanks"; ObjectID = "ROm-Fl-71d"; */
-"ROm-Fl-71d.title" = "不，谢谢";
-
-/* Class = "NSButtonCell"; title = "Enable Sync"; ObjectID = "h61-Bf-Zw1"; */
-"h61-Bf-Zw1.title" = "启用同步";
-

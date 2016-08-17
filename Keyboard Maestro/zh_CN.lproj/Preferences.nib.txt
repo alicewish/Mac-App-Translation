@@ -2054,7 +2054,7 @@ MC41OTUwNzMwODQ3AA==
 <string>网络服务器</string>
 <string>已排除</string>
 <string>变量</string>
-<string>悬浮窗</string>
+<string>浮动面板</string>
 <string>剪贴板</string>
 <string>通用</string>
 <dict>
@@ -7957,7 +7957,7 @@ Public Web triggered macros will be available to anyone who can connect to your 
 <integer>16</integer>
 </dict>
 </dict>
-<string>状态菜单包括应用</string>
+<string>状态菜单包括应用程序</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -9759,7 +9759,7 @@ Public Web triggered macros will be available to anyone who can connect to your 
 <integer>16</integer>
 </dict>
 </dict>
-<string>将冲突悬浮窗放在鼠标下</string>
+<string>将冲突浮动面板放在鼠标下</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -9931,7 +9931,7 @@ Public Web triggered macros will be available to anyone who can connect to your 
 <integer>532</integer>
 </dict>
 </dict>
-<string>悬浮窗样式：</string>
+<string>浮动面板样式：</string>
 <dict>
 <key>$class</key>
 <dict>

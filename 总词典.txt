@@ -1470,24 +1470,24 @@ Beginning|开始
 Capture Frame|捕获帧
 Move to Trash|移到废纸篓
 New from Clipboard|从剪贴板中新建
-Change Canvas Color…|更改画布颜色...
-Rotate Image…|旋转图像...
+
+
 Import from Google Drive…|从Google Drive导入…
-Connect Mobile Device…|连接移动设备...
+
 Crop to Canvas|裁剪到画布
-Find Capture|查找捕获
+
 Quick Start Videos|快速开始视频
-Perspective|透视
-Magnify|放大
-Cut Out|剪下
-Show Properties|显示属性
+
+
+
+
 Copy All|全部拷贝
-Edges|边缘
+
 What's New|新功能
-Product Support|产品支持
-Shadow|阴影
-Flatten All|拼合所有
-Undo All|撤消所有
+
+
+
+
 Callout|标注
 New Capture…|新建捕获…
 Color Filters|彩色滤镜
@@ -1496,230 +1496,230 @@ Reflection|倒影
 Snagit|Snagit
 Import/Export|导入/导出
 Arrange|排布
-Align|对齐
-Dev|开发
+
+
 Cut|剪切
-Pen|钢笔
+
 Top|顶部
 End|底部
 New|新建
-LineStyleNoLine|LineStyleNoLine
-LineStyleSolid|LineStyleSolid
-LineStyleDashed|LineStyleDashed
-LineStyleDotted|LineStyleDotted
-Line style:|线条样式：
+
+
+
+
+
 NaN|NaN
-Padding:|填充：
+
 NeXT Encapsulated PostScript v1.2 pasteboard type|NeXT Encapsulated PostScript v1.2剪贴板类型
 NeXT TIFF v4.0 pasteboard type|NeXT TIFF v4.0剪贴板类型
 ShadowPickerView|ShadowPickerView
 Step Over|逐过程
 Step Into|逐语句
 Step Out|跳出
-Pause|暂停
-Open Dictionary|打开字典
-Mini Debugger|迷你调试
-Clippings|剪报
-Code Signing|代码签名
-Don’t Code Sign|不要代码签名
-Execute|执行
-Parent Script|父脚本
+
+
+
+
+
+
+
+
 Paste Tell|粘贴Tell
-Scripts|脚本
-Default Target|默认目标
-Trace|跟踪
-Application…|应用…
+
+
+
+
 AppleScript:|AppleScript:
-Scripting Additions|脚本附加
+
 About Script Debugger|关于Script Debugger
-New Script|新建脚本
+
 Hide Script Debugger|隐藏Script Debugger
 Quit Script Debugger|退出Script Debugger
 Script Debugger Help|Script Debugger帮助
-Activate Application|激活应用程序
-Open Explorer|打开资源管理器
-Open In New Window|在新窗口打开
-Show Dictionary|显示字典
-Show Object Model|显示对象模型
-Show Explorer|显示浏览器
-Send Us Email|发送我们电邮
-Change License…|更改许可证...
-Find Again|再次查找
+
+
+
+
+
+
+
+
+
 Find Again Backwards|向后再次查找
 Find Selection|查找所选
 Find Selection Backwards|向后查找所选
-Replace|更换
+
 Replace &amp; Find Again|更换并再次查找
 Replace &amp; Find Again Backwards|更换并向后再次查找
-Replace All|全部替换
+
 Smaller Text|减小文本
-Show Inherited Definitions|显示继承的定义
-Show Extra Documentation|显示额外的文档
+
+
 Larger Text|增大文本
 Show Containment|显示限制
-Show Inheritance|显示继承
-Quick Look|快速查看
+
+
 Save Default Window Size &amp; State|保存默认窗口大小和状态
 Reset Default Window Size &amp; State|重置默认窗口大小和状态
-Reload All|刷新所有
-Toggle Navigation Bar|切换导航栏
+
+
 Result &amp; Variables Tab|结果与变量标签
-Source View|源视图
-Show Code Folding|显示代码折叠
-Show Tab Stops|显示制表位
+
+
+
 Show Spaces|显示空格
-Pretty Print|漂亮的打印
-Show Raw (Chevron) Syntax|显示原始（雪佛龙）语法
-Paste As String Literal|粘贴为字符串文字
-Balance|平衡
+
+
+
+
 Split Editor Vertically|垂直拆分编辑器
 Split Editor Horizontally|水平拆分编辑器
-Close Split View|关闭拆分视图
+
 Close All Split Views|关闭所有拆分视图
-Uncomment|取消注释
-Entab|Entab
-Detab|Detab
-Close All|关闭所有
+
+
+
+
 Save A Copy As…|保存拷贝为…
-New Script From Template…|新的脚本模板...
-Dictionary Activity Monitor|字典活动监视器
+
+
 New Explorer Worksheet|新建浏览器工作表
 New Viewer Window…|新建浏览器窗口…
-Dictionary|字典
+
 New Dictionary Window|新建词典窗口
-Show Dictionaries List|显示字典列表
-Compiled Script|编译脚本
+
+
 Compiled Script Bundle|编译脚本包
-Recover Damaged Script…|恢复损坏的脚本...
+
 Export Run-Only Script…|导出仅运行脚本…
-Show Leaks…|显示泄漏...
-Show Last Error…|显示上一错误...
-Show Result Explorer Window|显示结果浏览器窗口
-Recompile|重新编译
-Break on Breakpoints|打破断点
-Clear Code Coverage|清除代码覆盖
-Remove All Breakpoints|删除所有断点
+
+
+
+
+
+
+
 Break on Exceptions|例外时打破
-Set Temporary Breakpoint|设置临时断点
+
 New Expression|新建表达式
-Clear All Expressions|清除所有表达式
-Show Code Coverage|显示代码覆盖率
-Trace to Here|跟踪到这里
-Execute to Here|执行到这里
-Edit Breakpoint…|编辑断点...
+
+
+
+
+
 Compile|编译
 Copy to Expressions|拷贝到表达式
-Look Up Definition|查找定义
+
 Log As Source|记录为源
-Show Event Log|显示事件日志
+
 Copy Value|拷贝值
-Commit Placeholder|提交占位符
+
 New Script Tab|新建脚本选项卡
 New Script Tab From Template…|从模板新建脚本标签…
 Toggle Result Bar|切换结果栏
-Toggle Status Bar|切换状态栏
-Remove Breakpoint|删除断点
+
+
 Log As Raw (Chevron) Syntax|记录为原始（雪佛龙）语法
 Log As AEPrint|记录为AEPrint
-Clear Event Log|清除事件日志
-Append To Event Log|追加到事件日志
-Show Event Log Result Explorer|查看事件日志结果浏览器
-Best View|最佳浏览
-Resources Tab|资源选项卡
+
+
+
+
+
 Inspectors Tab|检查器标签
-Show Manifest…|清单显示...
+
 Find &amp; Replace…|查找和替换…
 Show Event Log in Window|在窗口中显示事件日志
 Edit with BBEdit|用BBEdit编辑
 New AppleScript Worksheet|新建AppleScript工作表
-Toggle Tab Bar|切换标签栏
-Show Startup Screen|显示启动画面
+
+
 Stay Open|继续打开
-Copy as Standalone Code|复制为独立代码
-Show Progress|显示进度
-Fold Block Comments|折叠块注释
-Migrate to Properties|迁移到属性
-Fold Handlers|折叠处理程序
+
+
+
+
+
 Migrate to Properties in Selection|将选中迁移到属性
-Unfold Handlers|展开处理程序
+
 Test 1|Test 1
-Unfold All|全部展开
-Set Breakpoint|设置断点
-Unfold|展开
+
+
+
 Test 2|Test 2
-Remove All Disabled Breakpoints|删除所有已禁用断点
-Show AppleScript Release Notes|显示AppleScript的发行说明
+
+
 Persistent Properties|持久属性
 Migrate Properties When Completing|完成时迁移属性
 Script Debugger Release Notes|Script Debugger发行说明
-Browse Document Versions…|浏览的文档版本...
+
 Show AppleScript Language Guide|显示AppleScript语言指南
 Use Properties for Cocoa Terms|为Cocoa术语使用属性
-Unfold Block Comments|展开块注释
+
 Script Debugger|Script Debugger
-Script Format|脚本格式
-Application Options|应用程序选项
-AppleScriptObjC|AppleScriptObjC
+
+
+
 NO|不
-YES|是
+
 Array|数组
-Data|数据
-Boolean|布尔
+
+
 String|字符串
 Number|数值
-Null|空值
-Saved Property List Browsers|保存的属性列表浏览器
+
+
 Rename|重命名
-Open|打开
-Indented|缩进
-Condensed|简明
-File Format:|文件格式：
-JSON formatting:|JSON格式：
-Minimize Window|最小化窗口
+
+
+
+
+
+
 PlistEdit Pro|PlistEdit Pro
 About PlistEdit Pro|关于PlistEdit Pro
 PlistEdit Pro Help|PlistEdit Pro帮助
 Hide PlistEdit Pro|隐藏PlistEdit Pro
 Quit PlistEdit Pro|退出PlistEdit Pro
-Operations|操作
-New Sibling Of Type|新的同级型
-New Child Of Type|新的子类型
+
+
+
 Paste As Child|粘贴为子类
 Sort Keys|排序键
 Sort All Keys|排序所有键
 Save To…|存储为…
 Change the format in which the property list is written to disk|更改属性列表写入磁盘的格式
-Change Format|更改格式
-Binary|二进制
-ASCII|ASCII
-XML|XML
+
+
+
+
 New Sibling|新建同级
 New Child|新建子类
-Sort Values|排序值
-Sort All Values|排序所有值
-Zoom Window|缩放窗口
+
+
+
 Purchase PlistEdit Pro…|购买PlistEdit Pro…
-Registration…|注册…
-Synchronize the text and outline views|同步文本和大纲视图
+
+
 Open Help In Browser|在浏览器中打开帮助
 Visit The PlistEdit Pro Website|浏览The PlistEdit Pro网站
-Favorites|收藏夹
-Browser|浏览器
-Reveal Application|显示应用
-Refresh List|刷新列表
-Show Prefs Browser|显示偏好设置浏览器
+
+
+
+
+
 New Property List Browser|新建属性列表浏览器
-Remove From List|从列表中删除
-Validate|验证
+
+
 Go to a specific line in the property list text|转到属性列表文本的特定行
-Go To Line…|转到行...
+
 Edit the selected item's value in a sheet|编辑在工作表中所选项目的值
-Edit Value…|编辑值...
+
 Select Parent|选择父类
-Definition|定义
+
 Add Sibling Key|添加同级键
 Add Child Key|添加子类键
-Set To Default Value|设置为默认值
+
 Change the plist definition being used for the current document|改变当前正在使用的文档的plist定义
 Change Definition|改变定义
 Open Saved Browser|打开保存的浏览器
@@ -1818,7 +1818,7 @@ Ask to revert when file changes on disk|文件在磁盘上更改时询问恢复
 Install command line tool|安装命令行工具
 Reveal definitions folder|显示定义文件夹
 Add files with extensions:|添加文件，扩展名为：
-
+#ERROR!
 -|-
 When adding files and folders to a browser, only files with the extensions displayed here will be added|当添加文件和文件夹浏览器，文件只在这里显示的扩展将被添加
 Outline font:|轮廓字体：
@@ -2162,7 +2162,7 @@ PreferencesToolbar|PreferencesToolbar
 WebServer|网络服务器
 Excluded|已排除
 Variables|变量
-Palettes|悬浮窗
+Palettes|浮动面板
 Web Server|网络服务器
 Variable|变量
 PaletteIcon|PaletteIcon
@@ -2179,7 +2179,7 @@ Web server is enabled for public, authenticated and iOS access.|Web服务器启�
 Sync Macros|同步宏
 Save Clipboard History to Disk|保存剪贴板历史到磁盘
 Include Paste in Status Menu|状态菜单包括粘贴
-Include Applications in Status Menu|状态菜单包括应用
+Include Applications in Status Menu|状态菜单包括应用程序
 Status Menu Icon:|状态菜单图标：
 Get More…|得到更多…
 Send Diagnostics:|发送诊断：
@@ -2193,8 +2193,8 @@ Launch Engine at Login|登录时启动引擎
 Detect (and Conceal) Possible Passwords|检测（并遮盖）可能的密码
 Always Hide Other Applications|始终隐藏其他应用程序
 Save Recent Applications to Disk|保存最近的应用程序到磁盘
-Place Conflict Palette Under Mouse|将冲突悬浮窗放在鼠标下
-Palette Styles:|悬浮窗样式：
+Place Conflict Palette Under Mouse|将冲突浮动面板放在鼠标下
+Palette Styles:|浮动面板样式：
 Add Clipboard|添加剪贴板
 Add Variable|添加变量
 Delete Clipboard|删除剪贴板
@@ -2262,22 +2262,22 @@ Available when <strong>none</strong> of these applications are running:|这些�
 Activated always.|始终激活。
 Activated for one action when:|为一个动作激活，当：
 Activated/deactivated when:|激活/停用，当：
-Shows a palette for one action when:|为一个动作显示悬浮窗，当：
-Shows/hides a palette when:|显示/隐藏悬浮窗，当：
-Shows a palette until:|显示一个悬浮窗，直到：
-Shows a palette under mouse for one action when:|为一个动作在鼠标下方显示悬浮窗，当：
-Shows/hides a palette under mouse when:|在鼠标下方显示/隐藏悬浮窗，当：
-Shows a palette under mouse until:|在鼠标下方显示一个悬浮窗，直到：
+Shows a palette for one action when:|为一个动作显示浮动面板，当：
+Shows/hides a palette when:|显示/隐藏浮动面板，当：
+Shows a palette until:|显示一个浮动面板，直到：
+Shows a palette under mouse for one action when:|为一个动作在鼠标下方显示浮动面板，当：
+Shows/hides a palette under mouse when:|在鼠标下方显示/隐藏浮动面板，当：
+Shows a palette under mouse until:|在鼠标下方显示一个浮动面板，直到：
 Activate|激活
 Activate & Hide Others|激活并隐藏其他
-Ked by The Shark|The Shark破解，墨问非名汉化20160629
+Ked by The Shark|The Shark破解，墨问非名汉化20160817
 Activate Last Application|激活上一个应用程序
 Activate Next Application|激活下一个应用程序
 Bring Application Windows to Front|前置应用程序窗口
 Search the Web|搜索网页
 Trigger Macro by Name|通过名称触发宏
 Open a File, Folder or Application|打开一个文件、文件夹或应用程序
-Move, Copy, or Trash a File|移动，复制或把文件移到废纸篓
+Move, Copy, or Trash a File|移动、复制或把文件移到废纸篓
 Read a File|读取文件
 Write or Append a File|写入或追加文件
 Write to a File|写入文件
@@ -2337,7 +2337,7 @@ For Each|对于每个
 Alert|警报
 Cancel Macros|取消宏
 Macro Group Toggle|切换宏组
-Conceal Macro Palettes|隐藏宏悬浮窗
+Conceal Macro Palettes|隐藏宏浮动面板
 Select or Show a Menu Item|选择或显示一个菜单项
 Simulate Scroll Wheel|模拟滚轮
 Manipulate a Window|操作窗口
@@ -2359,10 +2359,10 @@ Cancel All Other Macros|取消所有其他宏
 Cancel This Macro|取消此宏
 Cancel Just This Macro|只取消此宏
 Break From Loop|打破循环
-Reveal Macro Palettes|显示宏悬浮窗
-Conceal/Reveal Macro Palettes|隐藏/显示宏悬浮窗
-Conceal Macro Palettes Until Switch|隐藏宏悬浮窗直到切换
-Conceal/Reveal Macro Palettes Until Switch|隐藏/显示宏悬浮窗直到切换
+Reveal Macro Palettes|显示宏浮动面板
+Conceal/Reveal Macro Palettes|隐藏/显示宏浮动面板
+Conceal Macro Palettes Until Switch|隐藏宏浮动面板直到切换
+Conceal/Reveal Macro Palettes Until Switch|隐藏/显示宏浮动面板直到切换
 Activate %@|激活%@
 Execute ‘%@’ %@|执行‘%@’%@
 Execute %@|执行%@
@@ -2708,3 +2708,1205 @@ Before Version 7|版本7之前
 At Editor Launch|在编辑器启动时
 Before Last Revert|最后还原前
 Before Last Sync|上次同步前
+
+Available in all windows.|在所有窗口均可用。
+Available when there is a focused window.|当有一个聚焦窗口时可用。
+Available when there is no focused window.|当没有聚焦窗口时可用。
+Available when the focused window title is “%@”.|当聚焦窗口标题为“%@”时可用。
+Available when the focused window title is not “%@”.|当聚焦窗口标题不为“%@”时可用。
+
+
+
+
+
+
+
+Sub-Menu %d:|副菜单%d：
+
+Application Switcher|应用程序切换器
+Window Switcher|窗口切换器
+Application Launcher|应用程序启动器
+
+
+
+
+
+
+
+
+Keyboard Maestro has Switchers Enabled|Keyboard Maestro已启用切换器
+Launch Keyboard Maestro|启动Keyboard Maestro
+Maybe Later|也许以后
+Preference Write Failed|首选项写入失败
+Continue Anyway|仍然继续
+Macro Syncing Disabled|禁用宏同步功能
+Check For Update|检查更新
+Stop Syncing|停止同步
+Live Dangerously|危险地生活
+Secure Input is Enabled|安全输入被启用
+
+Named Clipboard in Use|命名的剪贴板使用中
+Variable in Use|变量使用中
+This Will Replace All Your Macros|这将替换您所有的宏
+Replace All Macros|替所有宏
+Global Macro Group|全局宏组
+Global Macro Set|全局宏集合
+Switcher Group|切换组
+Purchase Keyboard Maestro Upgrade…|购买键盘大师升级...
+Untitled Macro File|无标题宏文件
+Export Macros|导出宏
+%@ Macros|%@宏
+%@ and Other Macros|%@和其他宏
+Keyboard Maestro Actions|Keyboard Maestro动作
+Export Actions|导出动作
+Keyboard Maestro Macros|Keyboard Maestro宏
+Save Sync File|保存同步文件
+Failed to start syncing macros.|无法启动同步宏。
+The attempt to start syncing the macros failed (%@).|开始同步宏的尝试失败了（%@）。
+Macro Syncing Started|宏同步正在启动
+Untitled Library File|无标题库文件
+Share Library|共享库
+Saved Shared Library|保存共享库
+
+
+
+All Entries|所有条目
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Continue Trial|继续试用
+Your trial period has ended.|您的试用期已经结束。
+Your trial period is coming to an end.|您的试用期即将结束。
+https://download.keyboardmaestro.com/|https://download.keyboardmaestro.com/
+https://purchase.keyboardmaestro.com/|https://purchase.keyboardmaestro.com/
+https://enquiry.stairways.com/|https://enquiry.stairways.com/
+https://enquiry.stairways.com/?email|https://enquiry.stairways.com/?email
+You have entered an invalid email address or an invalid serial number.|您输入的电子邮件地址无效或序列号无效。
+You have entered an old serial number.|您输入了旧的序列号。
+https://upgrade.keyboardmaestro.com/?serial|https://upgrade.keyboardmaestro.com/?serial
+
+
+
+
+
+
+
+
+
+Trial Version|试用版
+
+No Application Selected|没有选中应用
+
+
+
+
+
+
+Transform Image|变换图像
+Composite onto Image|复合到图像上
+Draw Shape onto Image|画形状到图像上
+Resize Image|调整图像
+Get Image Size|获取图像尺寸
+Trim Image|裁剪图像
+Display Clipboard|显示剪贴板
+Create New Image|建立新的图片
+Press a Button|按下一个按钮
+Semaphore|信号
+Use a Named Clipboard|使用命名剪贴板
+Cut Copy Paste|剪切复制粘贴
+Set Clipboard to Text|将剪贴板文本
+Set Clipboard to Past Clipboard|设置剪贴板过去剪贴板
+
+
+Copy Clipboard to Clipboard|剪贴板复制到剪贴板
+Delete Past Clipboard|删除过去的剪贴板
+Filter Clipboard|过滤剪贴板
+Search and Replace Clipboard|搜索并替换剪贴板
+Apply Style to Clipboard|应用样式到剪贴板
+Apply a BBEdit Text Factory|应用一个BBEdit文本厂
+Set Variable to Text|设置变量到文本
+Set Variable to Keychain Password|设置变量到钥匙串密码
+Set Keychain Password to Text|设置钥匙串密码到文本
+Set Variable to Safari Field|设置变量到Safari域
+Safari Control|Safari浏览器控制
+Set Safari Field to Text|设置Safari域到文本
+Set Safari Checkbox|设置Safari复选框
+Set Safari Radio|设置Safari电台
+Set Mail Status|设置邮件状态
+Send Mail Message|发送邮件
+Set Variable to Calculation|设置变量到计算
+Set Action Delay|设置动作延迟
+Search and Replace Variable|搜索并替换变量
+Search Variable|搜索变量
+Search Clipboard|搜索剪贴板
+Substring of Variable or Clipboard|变量或剪贴板的子字符串
+Use Variable|使用变量
+Filter Variable|筛选变量
+Prompt for User Input|提示用户输入
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Write|写入
+Append|附加
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+File Size|文件大小
+Date Modifiers|修改日期
+Owner Name|所有者名称
+Owner ID|所有者ID
+Group Name|组名称
+Group ID|组ID
+Posix Permissions|POSIX权限
+Extension Hidden|隐藏扩展名
+HFS Creator Code|HFS创建者代码
+HFS Type Code|HFS类型代码
+Tags|标签
+Tags (add)|标签（添加）
+Tags (toggle)|标签（切换）
+Tags (remove)|标签（删除）
+File Name|文件名
+Base Name|基本名称
+Extension|扩展名
+Content Type|内容类型
+Content Kind|内容种类
+Invisible|不可见
+Date Added|添加日期
+Date Downloaded|下载日期
+Date Last Used|上次使用日期
+Where From|从哪里
+
+
+
+
+
+
+
+
+
+If it Has Text|如果它有文字
+If it Does Not Have Text|如果它没有文本
+If it Has an Image|如果它有图像
+If it Does Not Have Image|如果它没有图像
+If it Exists|如果它存在
+If it Does Not Exist|如果它不存在
+If it Is Empty|如果它是空的
+If it Is Not Empty|如果它不是空的
+
+
+
+
+
+
+
+
+Otherwise|除此以外
+%ExecutingMacro%|％ExecutingMacro％
+https://www.keyboardmaestro.com/|https://www.keyboardmaestro.com/
+Semaphore Lock|信号锁定
+Semaphore Unlock|信号解锁
+Semaphore Reset|复位信号
+Put Computer to Sleep|把电脑进入睡眠
+Restart Computer|重新启动计算机
+Shut Down Computer|关闭计算机
+Log Out|登出
+Login Window|登录窗口
+Open/Close the CD Tray|打开/关闭CD托盘
+Toggle System Sound Mute|切换系统声音静音
+Increase System Sound Volume|增加系统音量
+Decrease System Sound Volume|降低系统音量
+Increase Screen Brightness|提高屏幕亮度
+Decrease Screen Brightness|降低屏幕亮度
+Start Screen Saver|启动屏幕保护程序
+Stop Screen Saver|停止屏幕保护程序
+Sleep Screen|睡眠屏幕
+Wake Screen|唤醒屏幕
+System Beep|系统哔声
+Show Global Macro Palette|显示全局宏浮动面板
+Hide Global Macro Palette|隐藏全局宏浮动面板
+Toggle Global Macro Palette|切换全局宏浮动面板
+Show Status Menu|显示状态菜单
+Clear Typed String Buffer|清除键入字符串的缓冲区
+Debugger Start|调试器启动
+Debugger Finish|调试完成
+Debugger Toggle|调试器切换
+Debugger New Macros Paused|调试器新的宏暂停
+Debugger New Macros Run|调试器新的宏运行
+Debugger Breakpoint This Macro|断点调试这个宏
+Debugger Breakpoint All Other Macros|断点调试所有其他的宏
+Debugger Breakpoint All Macros|断点调试所有宏
+
+
+
+Debugger Continue This Macro|调试器继续这个宏
+Debugger Continue All Macros|调试器继续所有的宏
+Play Sound ‘%@’|播放声音 '％@'
+Play System Beep|播放系统哔声
+Action Completed|动作已完成
+
+
+
+Slow|慢
+Moderate|中等
+Normal|正常
+Quick|快
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Resize a Window|调整窗口大小
+Move and Resize a Window|移动和调整窗口大小
+Move a Window|移动一个窗口
+Select a Window|选择一个窗口
+
+
+
+
+
+
+
+
+Screen Capture Area|屏幕捕获区域
+All Screens|所有屏幕
+Main Screen|主屏幕
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flip Image Horizontally|水平翻转图片
+Flip Image Vertically|垂直翻转图片
+Rotate Image Clockwise|顺时针旋转图片
+Rotate Image 180°|图像旋转180°
+Rotate Image Counter-Clockwise|逆时针旋转图片
+Rotate Image ‘%@’|旋转图像‘%@’
+
+
+
+
+
+
+Flip Image|翻转图像
+Rotate Image|旋转图像
+
+Pixel Size|像素大小
+Pixel Width|像素宽度
+Pixel Height|像素高度
+Point Size|点大小
+Point Width|点宽
+Point Height|点高度
+DPI|DPI
+Resize Image to Fit|调整图像以适合
+Resize Canvas|调整画布
+Add or Remove Margins|添加或删除边距
+Crop Image|裁剪图片
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+from|从
+
+
+
+
+
+
+System Clipboard|系统剪贴板
+
+
+
+
+
+
+
+
+Hot Key Trigger|热键触发
+MIDI Trigger|MIDI触发
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mounted|安装
+Unmounted|卸载
+
+
+
+
+
+
+
+
+
+The Focused Window Changes|聚焦窗口更改
+The Focused Window Title Changes|聚焦窗口标题更改
+The Focused Window’s Title Changed|聚焦窗口的标题更改
+The Focused Window’s Frame Changed|聚焦窗口的框架改变
+
+
+
+
+
+Connected|连接的
+Disconnected|断开的
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Login|登录
+At Login|在登录时
+At Engine Launch|在引擎启动时
+
+
+
+
+
+
+
+
+The Global Macro Palette|全局宏浮动面板
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Modifiers Condition|修饰键条件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Variable Condition|变量条件
+
+
+
+
+
+
+
+
+
+
+
+
+Text Condition|文本条件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+enabled|启用
+disabled|禁用
+active|活动
+inactive|非活动
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://documentation.keyboardmaestro.com/|https://documentation.keyboardmaestro.com/
+https://www.stairways.com/|https://www.stairways.com/
+mailto:support@stairways.com?subject|mailto:support@stairways.com?subject
+https://support.keyboardmaestro.com/|https://support.keyboardmaestro.com/
+https://www.stairways.com/action/linkthru?quickstart|https://www.stairways.com/action/linkthru?quickstart
+https://www.stairways.com/action/linkthru?regularexpressionreference|https://www.stairways.com/action/linkthru?regularexpressionreference
+https://www.stairways.com/action/linkthru?icudatetimereference|https://www.stairways.com/action/linkthru?icudatetimereference
+https://www.stairways.com/action/linkthru?regularexpressionproperties|https://www.stairways.com/action/linkthru?regularexpressionproperties
+https://wiki.keyboardmaestro.com/|https://wiki.keyboardmaestro.com/
+https://forum.keyboardmaestro.com/|https://forum.keyboardmaestro.com/
+https://www.stairways.com/action/linkthru?macrogrouphelp|https://www.stairways.com/action/linkthru?macrogrouphelp
+https://www.stairways.com/action/linkthru?smartgrouphelp|https://www.stairways.com/action/linkthru?smartgrouphelp
+https://www.stairways.com/action/linkthru?secureinputmode|https://www.stairways.com/action/linkthru?secureinputmode
+https://www.stairways.com/action/linkthru?earlyyosemite|https://www.stairways.com/action/linkthru?earlyyosemite
+https://www.stairways.com/action/linkthru?prefwritefailed|https://www.stairways.com/action/linkthru?prefwritefailed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Send Report|发送报告
+Send Reports|发送报告
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+About Principle|关于Principle
+Hide Principle|隐藏Principle
+Quit Principle|退出Principle
+Community|社区
+Horizontal Centers|水平居中
+Record without Cursor|不用游标并记录
+Rectangle|长方形
+Center Selection|将选择置于中间
+Side By Side|并排
+Import Images…|导入图像...
+Toggle Preview Cursor|切换预览光标
+Pick Color|选取颜色
+Import From Sketch...|从草图中导入...
+Toggle Visibility|切换可见性
+Ungroup Layers|取消组合图层
+Export for Mac|为Mac导出
+Horizontally|水平
+Start Preview Recording|开始录制预览
+Zoom Selection|缩放选择
+Vertically|垂直
+Vertical Centers|垂直居中
+What's New in This version?|这个版本的新增功能？
+Picture In Picture|画中画
+Text as Child|文本作为子支
+Rewind Preview|倒带预览
+Show Drivers|显示驱动程序
+Tutorials|教程
+Artboard|画板
+Contact Customer Support...|联系客户支持...
+Feedback...|反馈...
+Rectangle as Child|矩形作为子支
+Zoom Canvas|放大画布
+Rename Layer|重命名图层
+Check For Updates...|检查更新...
+Group Layers|图层组
+Show Animate|显示动画
+Principle|Principle
+Distribute|分布
+Close All
+Copy as

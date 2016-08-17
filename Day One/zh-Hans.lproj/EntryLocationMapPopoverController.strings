@@ -1,9 +1,0 @@
-/* Class = "NSMenuItem"; title = "Use Location"; ObjectID = "0gK-So-Fme"; */
-"0gK-So-Fme.title" = "使用位置";
-
-/* Class = "NSTextFieldCell"; placeholderString = "Search"; ObjectID = "Bxu-ay-u5U"; */
-"Bxu-ay-u5U.placeholderString" = "搜索";
-
-/* Class = "NSTextFieldCell"; title = "Text Cell"; ObjectID = "RNb-Hc-k2I"; */
-"RNb-Hc-k2I.title" = "文本框";
-

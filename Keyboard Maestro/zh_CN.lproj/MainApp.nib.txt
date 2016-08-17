@@ -6537,7 +6537,7 @@
 <integer>445</integer>
 </dict>
 </dict>
-<string>居中对齐</string>
+<string>中央</string>
 <string>|</string>
 <string>alignCenter:</string>
 <dict>
@@ -10492,8 +10492,8 @@
 <integer>671</integer>
 </dict>
 </dict>
-<string>Keyboard Maestro论坛</string>
-<string>Keyboard Maestro论坛</string>
+<string>Keyboard Maestro</string>
+<string>Keyboard Maestro</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -11069,7 +11069,7 @@
 <integer>690</integer>
 </dict>
 </dict>
-<string>关闭所有</string>
+<string>Close All</string>
 <dict>
 <key>$class</key>
 <dict>
@@ -11515,7 +11515,7 @@
 <integer>702</integer>
 </dict>
 </dict>
-<string>拷贝为</string>
+<string>Copy as</string>
 <dict>
 <key>$class</key>
 <dict>

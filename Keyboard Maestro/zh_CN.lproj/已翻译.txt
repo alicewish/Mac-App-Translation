@@ -85,42 +85,100 @@ Available when <strong>none</strong> of these applications are running:|这些�
 Activated always.|始终激活。
 Activated for one action when:|为一个动作激活，当：
 Activated/deactivated when:|激活/停用，当：
-Shows a palette for one action when:|为一个动作显示悬浮窗，当：
-Shows/hides a palette when:|显示/隐藏悬浮窗，当：
-Shows a palette until:|显示一个悬浮窗，直到：
+Shows a palette for one action when:|为一个动作显示浮动面板，当：
+Shows/hides a palette when:|显示/隐藏浮动面板，当：
+Shows a palette until:|显示一个浮动面板，直到：
 Activated always.|始终激活。
 Activated for one action when:|为一个动作激活，当：
 Activated/deactivated when:|激活/停用，当：
-Shows a palette under mouse for one action when:|为一个动作在鼠标下方显示悬浮窗，当：
-Shows/hides a palette under mouse when:|在鼠标下方显示/隐藏悬浮窗，当：
-Shows a palette under mouse until:|在鼠标下方显示一个悬浮窗，直到：
+Shows a palette under mouse for one action when:|为一个动作在鼠标下方显示浮动面板，当：
+Shows/hides a palette under mouse when:|在鼠标下方显示/隐藏浮动面板，当：
+Shows a palette under mouse until:|在鼠标下方显示一个浮动面板，直到：
+Available in all windows.|在所有窗口均可用。
+Available when there is a focused window.|当有一个聚焦窗口时可用。
+Available when there is no focused window.|当没有聚焦窗口时可用。
+Available when the focused window title is “%@”.|当聚焦窗口标题为“%@”时可用。
+Available when the focused window title is not “%@”.|当聚焦窗口标题不为“%@”时可用。
+Sub-Menu %d:|副菜单%d：
+Application Switcher|应用程序切换器
+Window Switcher|窗口切换器
+Application Launcher|应用程序启动器
 Quit|退出
 Help|帮助
+Keyboard Maestro has Switchers Enabled|Keyboard Maestro已启用切换器
+Launch Keyboard Maestro|启动Keyboard Maestro
+Maybe Later|也许以后
+Preference Write Failed|首选项写入失败
 Quit|退出
+Continue Anyway|仍然继续
 Help|帮助
+Macro Syncing Disabled|禁用宏同步功能
+Check For Update|检查更新
+Stop Syncing|停止同步
+Live Dangerously|危险地生活
+Secure Input is Enabled|安全输入被启用
 OK|好
 Help|帮助
 OK|好
 Help|帮助
+Named Clipboard in Use|命名的剪贴板使用中
 Delete|删除
 Cancel|取消
+Variable in Use|变量使用中
 Delete|删除
 Cancel|取消
+This Will Replace All Your Macros|这将替换您所有的宏
+Replace All Macros|替所有宏
 Cancel|取消
+Application Switcher|应用程序切换器
+Window Switcher|窗口切换器
+Application Launcher|应用程序启动器
+Global Macro Group|全局宏组
+Global Macro Set|全局宏集合
+Switcher Group|切换组
 Quit Engine|退出引擎
 Launch Engine|启动引擎
+Purchase Keyboard Maestro Upgrade…|购买键盘大师升级...
 Purchase Keyboard Maestro…|购买Keyboard Maestro…
+Untitled Macro File|无标题宏文件
+Export Macros|导出宏
+%@ Macros|%@宏
+%@ and Other Macros|%@和其他宏
+Keyboard Maestro Actions|Keyboard Maestro动作
+Export Actions|导出动作
+Keyboard Maestro Macros|Keyboard Maestro宏
+Save Sync File|保存同步文件
+Failed to start syncing macros.|无法启动同步宏。
+The attempt to start syncing the macros failed (%@).|开始同步宏的尝试失败了（%@）。
+Macro Syncing Started|宏同步正在启动
+Macro Syncing Started|宏同步正在启动
+Untitled Library File|无标题库文件
+Share Library|共享库
+Saved Shared Library|保存共享库
+All Entries|所有条目
 Quit|退出
+Continue Trial|继续试用
+Your trial period has ended.|您的试用期已经结束。
+Your trial period is coming to an end.|您的试用期即将结束。
+https://download.keyboardmaestro.com/|https://download.keyboardmaestro.com/
+https://purchase.keyboardmaestro.com/|https://purchase.keyboardmaestro.com/
+https://enquiry.stairways.com/|https://enquiry.stairways.com/
+https://enquiry.stairways.com/?email|https://enquiry.stairways.com/?email
+You have entered an invalid email address or an invalid serial number.|您输入的电子邮件地址无效或序列号无效。
+You have entered an old serial number.|您输入了旧的序列号。
+https://upgrade.keyboardmaestro.com/?serial|https://upgrade.keyboardmaestro.com/?serial
 Activate|激活
 Activate & Hide Others|激活并隐藏其他
-Ked by The Shark|The Shark破解|墨问非名汉化20160629
+Trial Version|试用版
+No Application Selected|没有选中应用
+Other…|其他…
 Activate Last Application|激活上一个应用程序
 Activate Next Application|激活下一个应用程序
 Bring Application Windows to Front|前置应用程序窗口
 Search the Web|搜索网页
 Trigger Macro by Name|通过名称触发宏
-Open a File, Folder or Application|打开一个文件，文件夹或应用程序
-Move, Copy, or Trash a File|移动，复制或把文件移到废纸篓
+Open a File, Folder or Application|打开一个文件、文件夹或应用程序
+Move, Copy, or Trash a File|移动、复制或把文件移到废纸篓
 Read a File|读取文件
 Write or Append a File|写入或追加文件
 Write to a File|写入文件
@@ -182,7 +240,7 @@ Alert|警报
 Comment|评论
 Cancel Macros|取消宏
 Macro Group Toggle|切换宏组
-Conceal Macro Palettes|隐藏宏悬浮窗
+Conceal Macro Palettes|隐藏宏浮动面板
 Select or Show a Menu Item|选择或显示一个菜单项
 iTunes Control|iTunes控制
 QuickTime Player Control|QuickTime播放器控制
@@ -191,6 +249,46 @@ Manipulate a Window|操作窗口
 Highlight Location|突出位置
 Screen Capture|屏幕捕获
 Find Image on Screen|发现屏幕上的影像
+Transform Image|变换图像
+Composite onto Image|复合到图像上
+Draw Shape onto Image|画形状到图像上
+Resize Image|调整图像
+Get Image Size|获取图像尺寸
+Trim Image|裁剪图像
+Display Clipboard|显示剪贴板
+Create New Image|建立新的图片
+Press a Button|按下一个按钮
+Semaphore|信号
+Use a Named Clipboard|使用命名剪贴板
+Cut Copy Paste|剪切复制粘贴
+Set Clipboard to Text|将剪贴板文本
+Set Clipboard to Past Clipboard|设置剪贴板过去剪贴板
+Copy Clipboard to Clipboard|剪贴板复制到剪贴板
+Delete Past Clipboard|删除过去的剪贴板
+Filter Clipboard|过滤剪贴板
+Search and Replace Clipboard|搜索并替换剪贴板
+Apply Style to Clipboard|应用样式到剪贴板
+Apply a BBEdit Text Factory|应用一个BBEdit文本厂
+Set Variable to Text|设置变量到文本
+Set Variable to Keychain Password|设置变量到钥匙串密码
+Set Keychain Password to Text|设置钥匙串密码到文本
+Set Variable to Safari Field|设置变量到Safari域
+Safari Control|Safari浏览器控制
+Set Safari Field to Text|设置Safari域到文本
+Set Safari Checkbox|设置Safari复选框
+Set Safari Radio|设置Safari电台
+Set Mail Status|设置邮件状态
+Send Mail Message|发送邮件
+Set Variable to Calculation|设置变量到计算
+Set Action Delay|设置动作延迟
+Search and Replace Variable|搜索并替换变量
+Search Variable|搜索变量
+Search Clipboard|搜索剪贴板
+Substring of Variable or Clipboard|变量或剪贴板的子字符串
+Use Variable|使用变量
+Filter Variable|筛选变量
+Prompt for User Input|提示用户输入
+Custom HTML Prompt|自定义HTML提示
 Activate Application Switcher|激活应用程序切换器
 Activate Application Switcher|激活应用程序切换器
 Activate Window Switcher|激活窗口切换器
@@ -207,11 +305,11 @@ Cancel All Other Macros|取消所有其他宏
 Cancel This Macro|取消此宏
 Cancel Just This Macro|只取消此宏
 Break From Loop|打破循环
-Conceal Macro Palettes|隐藏宏悬浮窗
-Reveal Macro Palettes|显示宏悬浮窗
-Conceal/Reveal Macro Palettes|隐藏/显示宏悬浮窗
-Conceal Macro Palettes Until Switch|隐藏宏悬浮窗直到切换
-Conceal/Reveal Macro Palettes Until Switch|隐藏/显示宏悬浮窗直到切换
+Conceal Macro Palettes|隐藏宏浮动面板
+Reveal Macro Palettes|显示宏浮动面板
+Conceal/Reveal Macro Palettes|隐藏/显示宏浮动面板
+Conceal Macro Palettes Until Switch|隐藏宏浮动面板直到切换
+Conceal/Reveal Macro Palettes Until Switch|隐藏/显示宏浮动面板直到切换
 Activate %@|激活%@
 Execute ‘%@’ %@|执行‘%@’%@
 Execute %@|执行%@
@@ -234,6 +332,7 @@ results without errors|结果没有错误
 results|结果
 trimmed results without errors|修剪的结果没有错误
 trimmed results|修剪的结果
+results|结果
 plug in action ‘%@’|插入动作‘%@’
 Execute ‘%@’ Automator Workflow|执行‘%@’的Automator工作流
 Execute Macro ‘%@’|执行宏‘%@’
@@ -263,10 +362,36 @@ Delete|删除
 Recursively Delete|递归删除
 %@ a File|%@文件
 %@ File ‘%@’|%@文件‘%@’
+Write|写入
+Append|附加
 Clipboard|剪贴板
 File Type|文件类型
+File Size|文件大小
 Date Created|创建日期
+Date Modifiers|修改日期
+Owner Name|所有者名称
+Owner ID|所有者ID
+Group Name|组名称
+Group ID|组ID
+Posix Permissions|POSIX权限
+Extension Hidden|隐藏扩展名
+HFS Creator Code|HFS创建者代码
+HFS Type Code|HFS类型代码
+Tags|标签
+Tags (add)|标签（添加）
+Tags (toggle)|标签（切换）
+Tags (remove)|标签（删除）
 Parent|父支
+File Name|文件名
+Base Name|基本名称
+Extension|扩展名
+Content Type|内容类型
+Content Kind|内容种类
+Invisible|不可见
+Date Added|添加日期
+Date Downloaded|下载日期
+Date Last Used|上次使用日期
+Where From|从哪里
 Comment|评论
 Type the %@ Keystroke|键入%@按键
 Press and Hold the %@ Keystroke|长按%@按键
@@ -290,6 +415,15 @@ Repeat Actions %@ Times|重复动作%@次
 Group Actions|组合动作
 If %@ Execute Actions|如果%@就执行动作
 If With No Conditions Will Do Nothing|如果没有条件，什么也不做
+If it Has Text|如果它有文字
+If it Does Not Have Text|如果它没有文本
+If it Has an Image|如果它有图像
+If it Does Not Have Image|如果它没有图像
+If it Exists|如果它存在
+If it Does Not Exist|如果它不存在
+If it Is Empty|如果它是空的
+If it Is Not Empty|如果它不是空的
+Otherwise|除此以外
 Keyboard Maestro Alert|Keyboard Maestro警报
 Would you like to continue execution or stop now?|你想继续执行还是现在停止？
 Alert ‘%@’|警报‘%@’
@@ -300,6 +434,7 @@ Comment ‘%@’|评论‘%@’
 Untitled|无标题
 Growl ‘%@’|Growl通知‘%@’
 Log ‘%@’|登录‘%@’
+%ExecutingMacro%|％ExecutingMacro％
 Notification ‘%@’|通知‘%@’
 OK|好
 Quit %@|退出%@
@@ -358,7 +493,51 @@ Untitled Macro Group|无题宏组
 Untitled Macro Group %d|无题宏组%d
 Untitled Smart Group|无标题智能组
 Untitled Smart Group %d|无标题智能组%d
+https://www.keyboardmaestro.com/|https://www.keyboardmaestro.com/
+Semaphore Lock|信号锁定
+Semaphore Unlock|信号解锁
+Semaphore Reset|复位信号
+Put Computer to Sleep|把电脑进入睡眠
+Restart Computer|重新启动计算机
+Shut Down Computer|关闭计算机
+Log Out|登出
+Login Window|登录窗口
+Open/Close the CD Tray|打开/关闭CD托盘
+Toggle System Sound Mute|切换系统声音静音
+Increase System Sound Volume|增加系统音量
+Decrease System Sound Volume|降低系统音量
+Increase Screen Brightness|提高屏幕亮度
+Decrease Screen Brightness|降低屏幕亮度
+Start Screen Saver|启动屏幕保护程序
+Stop Screen Saver|停止屏幕保护程序
+Sleep Screen|睡眠屏幕
+Wake Screen|唤醒屏幕
+System Beep|系统哔声
+Show Global Macro Palette|显示全局宏浮动面板
+Hide Global Macro Palette|隐藏全局宏浮动面板
+Toggle Global Macro Palette|切换全局宏浮动面板
+Show Status Menu|显示状态菜单
+Clear Typed String Buffer|清除键入字符串的缓冲区
+Debugger Start|调试器启动
+Debugger Finish|调试完成
+Debugger Toggle|调试器切换
+Debugger New Macros Paused|调试器新的宏暂停
+Debugger New Macros Run|调试器新的宏运行
+Debugger Breakpoint This Macro|断点调试这个宏
+Debugger Breakpoint All Other Macros|断点调试所有其他的宏
+Debugger Breakpoint All Macros|断点调试所有宏
+Debugger Continue This Macro|调试器继续这个宏
+Debugger Continue All Macros|调试器继续所有的宏
+Play Sound ‘%@’|播放声音 '％@'
+Play System Beep|播放系统哔声
+Front Application|前台应用程序
+Action Completed|动作已完成
 Default|默认
+Slow|慢
+Moderate|中等
+Normal|正常
+Quick|快
+Fast|快进
 for note|对于笔记
 for control|对于控制
 with velocity|速度为
@@ -428,6 +607,33 @@ Simulate Scroll Wheel Up %@|模拟滚轮向上%@
 Simulate Scroll Wheel Down %@|模拟滚轮向下%@
 Simulate Scroll Wheel Left %@|模拟滚轮向左%@
 Simulate Scroll Wheel Right %@|模拟滚轮向右%@
+Resize a Window|调整窗口大小
+Move and Resize a Window|移动和调整窗口大小
+Move a Window|移动一个窗口
+Manipulate a Window|操作窗口
+Screen Capture Area|屏幕捕获区域
+All Screens|所有屏幕
+Main Screen|主屏幕
+Flip Image Horizontally|水平翻转图片
+Flip Image Vertically|垂直翻转图片
+Rotate Image Clockwise|顺时针旋转图片
+Rotate Image 180°|图像旋转180°
+Rotate Image Counter-Clockwise|逆时针旋转图片
+Rotate Image ‘%@’|旋转图像‘%@’
+Flip Image|翻转图像
+Rotate Image|旋转图像
+Pixel Size|像素大小
+Pixel Width|像素宽度
+Pixel Height|像素高度
+Point Size|点大小
+Point Width|点宽
+Point Height|点高度
+DPI|DPI
+Resize Image|调整图像
+Resize Image to Fit|调整图像以适合
+Resize Canvas|调整画布
+Add or Remove Margins|添加或删除边距
+Crop Image|裁剪图片
 Insert Text by Typing|通过键入插入文本
 Insert Text by Pasting|通过粘贴插入文本
 Display Text|显示文本
@@ -443,21 +649,39 @@ Insert Styled Text by Pasting|通过粘贴插入带样式文本
 Display Text in Window|在窗口中显示文本
 Display Text Briefly|短暂显示文字
 Display Text Large|大尺寸显示文字
+Display Text|显示文本
 Text|文本
+Set Clipboard to Text|将剪贴板文本
 Yellow|黄色
 Green|绿色
 Blue|蓝色
 Purple|紫色
 Gray|灰色
+Send Mail Message|发送邮件
 Wrap|换行
 Capitalize|首字母大写
 Smart Quotes|智能引号
+Base Name|基本名称
 Word Count|字数
 Plain Text|纯文本
+from|从
+to|到
+to|到
 Cut|剪切
 Copy|拷贝
 Paste|粘贴
+System Clipboard|系统剪贴板
+Hot Key Trigger|热键触发
+MIDI Trigger|MIDI触发
+Mounted|安装
+Unmounted|卸载
+The Focused Window Changes|聚焦窗口更改
+The Focused Window Title Changes|聚焦窗口标题更改
+The Focused Window’s Title Changed|聚焦窗口的标题更改
+The Focused Window’s Frame Changed|聚焦窗口的框架改变
 Window|窗口
+Connected|连接的
+Disconnected|断开的
 The %@ key is pressed|%@键被按下
 While the %@ key is down|当%@键被按下时
 The %@ key is released|%@键被释放
@@ -482,6 +706,9 @@ Any application quits|任何应用程序退出
 While any application is active, %@|当任何应用程序活动时，%@
 While any application is running, %@|当任何应用程序运行时，%@
 repeating every %@|每%@重复
+Login|登录
+At Login|在登录时
+At Engine Launch|在引擎启动时
 Monday|星期一
 Tuesday|星期二
 Wednesday|星期三
@@ -489,11 +716,13 @@ Thursday|星期四
 Friday|星期五
 Saturday|星期六
 Sunday|星期日
+The Global Macro Palette|全局宏浮动面板
 Palette|调色板
 Menu|菜单
 Script|脚本
 Script|脚本
 Clipboard|剪贴板
+While|当
 Name|名称
 Any Condition Met|满足任何条件
 All Conditions Met|满足所有条件
@@ -507,6 +736,13 @@ is at the front|在前台
 is not at the front|不在前台
 is running but not at the front|运行中，但不在前台
 Front Window Condition|前台窗口条件
+Modifiers Condition|修饰键条件
+Variable Condition|变量条件
+Text Condition|文本条件
+enabled|启用
+disabled|禁用
+active|活动
+inactive|非活动
 Environment Variable Condition|环境变量条件
 The environment variable ‘%@’ exists|环境变量‘%@’存在
 The environment variable ‘%@’ does not exist|环境变量‘%@’不存在
@@ -541,6 +777,24 @@ The script result contains ‘%@’|脚本结果包含‘%@’
 The script result does not contain ‘%@’|脚本结果不包含‘%@’
 The script result matches ‘%@’|脚本结果匹配‘%@’
 The script result does not match ‘%@’|脚本结果不匹配‘%@’
+https://www.keyboardmaestro.com/|https://www.keyboardmaestro.com/
+https://documentation.keyboardmaestro.com/|https://documentation.keyboardmaestro.com/
+https://www.stairways.com/|https://www.stairways.com/
+mailto:support@stairways.com?subject|mailto:support@stairways.com?subject
+https://support.keyboardmaestro.com/|https://support.keyboardmaestro.com/
+https://www.stairways.com/action/linkthru?quickstart|https://www.stairways.com/action/linkthru?quickstart
+https://www.stairways.com/action/linkthru?regularexpressionreference|https://www.stairways.com/action/linkthru?regularexpressionreference
+https://www.stairways.com/action/linkthru?icudatetimereference|https://www.stairways.com/action/linkthru?icudatetimereference
+https://www.stairways.com/action/linkthru?regularexpressionproperties|https://www.stairways.com/action/linkthru?regularexpressionproperties
+https://wiki.keyboardmaestro.com/|https://wiki.keyboardmaestro.com/
+https://forum.keyboardmaestro.com/|https://forum.keyboardmaestro.com/
+https://www.stairways.com/action/linkthru?macrogrouphelp|https://www.stairways.com/action/linkthru?macrogrouphelp
+https://www.stairways.com/action/linkthru?smartgrouphelp|https://www.stairways.com/action/linkthru?smartgrouphelp
+https://www.stairways.com/action/linkthru?secureinputmode|https://www.stairways.com/action/linkthru?secureinputmode
+https://www.stairways.com/action/linkthru?earlyyosemite|https://www.stairways.com/action/linkthru?earlyyosemite
+https://www.stairways.com/action/linkthru?prefwritefailed|https://www.stairways.com/action/linkthru?prefwritefailed
+Send Report|发送报告
+Send Reports|发送报告
 Time Saved: %@|节省时间：%@
 none yet|还没有
 not much|还不多
@@ -589,12 +843,7 @@ Rewind|快退
 Illumination Up|提升
 Illumination Down|提高背光灯亮度
 Illumination Toggle|降低背光灯亮度
-Clipboard|剪贴板
-Date|日期
-System|系统
-Date|日期
-System|系统
-Text|文本
+Unknown|未知
 Enter|输入
 Delete|删除
 Escape|退出

@@ -1,9 +1,0 @@
-/* Class = "NSTextFieldCell"; title = "Would you like to import your Day One Classic Journal?"; ObjectID = "4zw-5q-NhP"; */
-"4zw-5q-NhP.title" = "是否导入 Day One Classic 中的日志";
-
-/* Class = "NSButtonCell"; title = "No Thanks"; ObjectID = "gA8-33-8Rt"; */
-"gA8-33-8Rt.title" = "不，谢谢";
-
-/* Class = "NSButtonCell"; title = "Import"; ObjectID = "h61-Bf-Zw1"; */
-"h61-Bf-Zw1.title" = "导入";
-
