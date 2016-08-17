@@ -1,0 +1,618 @@
+All Macros|所有宏
+All Actions|所有动作
+Favorites|收藏夹
+Delete|删除
+Cancel|取消
+OK|好
+Try|尝试
+Try %d Actions|尝试%d动作
+View|视图
+Move|移动
+Save|保存
+Move|移动
+Enable|启用
+Disable|关闭
+Enable %d Actions|启用%d动作
+Disable %d Actions|禁用%d动作
+Application Control|应用控制
+Interface Control|接口控制
+iTunes Control|iTunes控制
+QuickTime Player Control|QuickTime播放器控制
+Mail Control|邮件控制
+%@ Control|%@控制
+System Control|系统控制
+MIDI|MIDI
+Open|打开
+Execute|执行
+Web|Web
+File|文件
+Image|图片
+Text|文本
+Clipboard|剪贴板
+Variables|变量
+Switchers|切换器
+Notifications|通知
+Control Flow|控制流
+Keyboard Maestro|Keyboard Maestro
+Debugger|调试器
+Third Party Plug Ins|第三方插件
+Cut|剪切
+Copy|复制
+Paste|粘贴
+Set Clipboard to Variable|设置剪贴板到变量
+Set Variable to Clipboard|设置变量到剪贴板
+Set Keychain Password to Variable|设置钥匙串密码到变量
+Delete Current Clipboard|删除当前剪贴板
+Clipboard Content Types:|剪贴板内容类型：
+Text Preview:\r\r|文本预览：\r\r
+Copy to the named clipboard:|复制到已命名剪贴板：
+Cut to the named clipboard:|剪切到已命名剪贴板：
+Paste from the named clipboard:|从已命名剪贴板粘贴：
+Paste from the clipboard history:|从剪贴板历史粘贴：
+Non-Text Clipboard %@|非文本剪贴板%@
+< Create New Named Clipboard >|<新建命名剪贴板>
+Clipboard #%d|剪贴板＃%d
+Default Clipboard Text|默认剪贴板文本
+Default Clipboard|默认剪贴板
+No Clipboards Available|没有剪贴板可用
+Clipboard History Switcher|剪贴板历史记录切换器
+Named Clipboard Switcher - Cut|已命名剪贴板切换器 - 剪切
+Named Clipboard Switcher - Copy|已命名剪贴板切换器 - 复制
+Clipboard Switcher - Paste|剪贴板切换器 - 粘贴
+Received a clipboard|收到剪贴板
+Sent clipboard|发送剪贴板
+Clipboard sending failed (too many retries)|剪贴板发送失败（太多重试）
+Preferences: %@|首选项：%@
+Icon Chooser: %@|图标选配：%@
+No Text in Clipboard|剪贴板没有文本
+No Windows Available|没有可用的窗口
+Accessibility Disabled|残疾人无障碍
+No Applications Available|没有可用的应用程序
+Keystroke can not be used.|击键不能使用。
+Keyboard Maestro is up to date.|Keyboard Maestro是最新的。
+You are running the current version.|您正在运行最新的版本。
+The version check failed.|版本检查失败。
+An error occurred while trying to check the current version of Keyboard Maestro.|试图检查键盘大师的当前版本时出现错误。
+Keyboard Maestro Update|Keyboard Maestro更新
+A new version of Keyboard Maestro is available.|Keyboard Maestro新版本已可用。
+The automatic install failed.|自动安装失败。
+Available in all applications.|在所有应用程序中可用。
+Available in these applications:|在这些应用程序中可用：
+Available <strong>except</strong> in these applications:|<strong>除</strong>这些应用程序外可用：
+Available when <strong>any</strong> of these applications are running:|这些应用程序<strong>任一</strong>运行时可用：
+Available when not in any but at least one of these applications are running:|在且仅在这些应用程序任一运行时可用：
+Available when <strong>none</strong> of these applications are running:|这些应用程序<strong>无一</strong>运行时可用：
+Activated always.|始终激活。
+Activated for one action when:|为一个动作激活，当：
+Activated/deactivated when:|激活/停用，当：
+Shows a palette for one action when:|为一个动作显示悬浮窗，当：
+Shows/hides a palette when:|显示/隐藏悬浮窗，当：
+Shows a palette until:|显示一个悬浮窗，直到：
+Activated always.|始终激活。
+Activated for one action when:|为一个动作激活，当：
+Activated/deactivated when:|激活/停用，当：
+Shows a palette under mouse for one action when:|为一个动作在鼠标下方显示悬浮窗，当：
+Shows/hides a palette under mouse when:|在鼠标下方显示/隐藏悬浮窗，当：
+Shows a palette under mouse until:|在鼠标下方显示一个悬浮窗，直到：
+Quit|退出
+Help|帮助
+Quit|退出
+Help|帮助
+OK|好
+Help|帮助
+OK|好
+Help|帮助
+Delete|删除
+Cancel|取消
+Delete|删除
+Cancel|取消
+Cancel|取消
+Quit Engine|退出引擎
+Launch Engine|启动引擎
+Purchase Keyboard Maestro…|购买Keyboard Maestro…
+Quit|退出
+Activate|激活
+Activate & Hide Others|激活并隐藏其他
+Ked by The Shark|The Shark破解|墨问非名汉化20160629
+Activate Last Application|激活上一个应用程序
+Activate Next Application|激活下一个应用程序
+Bring Application Windows to Front|前置应用程序窗口
+Search the Web|搜索网页
+Trigger Macro by Name|通过名称触发宏
+Open a File, Folder or Application|打开一个文件，文件夹或应用程序
+Move, Copy, or Trash a File|移动，复制或把文件移到废纸篓
+Read a File|读取文件
+Write or Append a File|写入或追加文件
+Write to a File|写入文件
+Append Text to a File|追加文本文件
+New Folder|新建文件夹
+Plug In|插入
+Get File Attribute|获取文件属性
+Set File Attribute|设置文件属性
+Open the Finder Selection|打开Finder选择
+Open a URL|打开网址
+Activate a Specific Application|激活特定应用程序
+Quit Other Applications|退出其他应用程序
+Quit All Applications|退出所有应用程序
+Quit a Specific Application|退出特定应用程序
+Quit Front Application|退出前台应用程序
+Hide Other Applications|隐藏其他应用程序
+Hide All Applications|隐藏所有应用程序
+Hide Front Application|隐藏前台应用程序
+Hide a Specific Application|隐藏特定应用程序
+Show All Applications|显示所有的应用程序
+Show a Specific Application|显示特定应用程序
+Insert Text|插入文本
+Set Find Pasteboard|设置查找粘贴板
+Set Network Location|设置网络位置
+Fast User Switch|快速用户切换
+Set Keyboard Layout|设置键盘布局
+Record Quick Macro|录制快速宏
+Type a Keystroke|键入按键
+Type Modifiers|键入修饰键
+Simulate Hardware Key|模拟硬件密钥
+Execute an AppleScript|执行一个AppleScript
+Execute a JavaScript in Safari|在Safari内执行一个JavaScript
+Execute a Shell Script|执行一个Shell脚本
+Execute a JavaScript For Automation|执行一个JavaScript来自动化
+Execute a Swift Script|执行一个Swift脚本
+Execute an Automator Workflow|执行一个Automator工作流
+Execute a Macro|执行宏
+Mark Macro|标记宏
+Set Macro or Group Enable|设置宏或组为启用
+Open a System Preference Pane|打开系统偏好设置面板
+Open 1Password Bookmark|打开1Password书签
+Move or Click Mouse|移动或点击鼠标
+Speak Text|朗读文本
+Play Sound|播放声音
+Perform a System Action|执行系统操作
+Debugger Action|调试动作
+Set System Output Volume|设置系统输出音量
+Send a MIDI Message|发送MIDI信息
+Pause|暂停
+Pause Until|暂停，直到
+While|当
+Until|直到
+Repeat|重复
+Group|组合
+If Then Else|如果然后否则
+Switch/Case|切换/情形
+For Each|对于每个
+Alert|警报
+Comment|评论
+Cancel Macros|取消宏
+Macro Group Toggle|切换宏组
+Conceal Macro Palettes|隐藏宏悬浮窗
+Select or Show a Menu Item|选择或显示一个菜单项
+iTunes Control|iTunes控制
+QuickTime Player Control|QuickTime播放器控制
+Simulate Scroll Wheel|模拟滚轮
+Manipulate a Window|操作窗口
+Highlight Location|突出位置
+Screen Capture|屏幕捕获
+Find Image on Screen|发现屏幕上的影像
+Activate Application Switcher|激活应用程序切换器
+Activate Application Switcher|激活应用程序切换器
+Activate Window Switcher|激活窗口切换器
+Activate Application Launcher|激活应用程序启动器
+Activate Clipboard Copy Switcher|激活剪贴板复制切换器
+Activate Clipboard Cut Switcher|激活剪贴板剪切切换器
+Activate Clipboard Paste Switcher|激活剪贴板粘贴切换器
+Activate Clipboard History Switcher|激活剪贴板历史记录切换器
+Growl|Growl通知
+Log|日志
+Notification|通知
+Cancel All Macros|取消所有宏
+Cancel All Other Macros|取消所有其他宏
+Cancel This Macro|取消此宏
+Cancel Just This Macro|只取消此宏
+Break From Loop|打破循环
+Conceal Macro Palettes|隐藏宏悬浮窗
+Reveal Macro Palettes|显示宏悬浮窗
+Conceal/Reveal Macro Palettes|隐藏/显示宏悬浮窗
+Conceal Macro Palettes Until Switch|隐藏宏悬浮窗直到切换
+Conceal/Reveal Macro Palettes Until Switch|隐藏/显示宏悬浮窗直到切换
+Activate %@|激活%@
+Execute ‘%@’ %@|执行‘%@’%@
+Execute %@|执行%@
+Custom HTML Prompt ‘%@’|自定义HTML提示‘%@’
+Custom HTML Prompt|自定义HTML提示
+Find%@ Image on Screen to Variable ‘%@’|查找%@图像在屏幕上变‘%@’
+%@ Results|%@结果
+The output of %@ is:|%@的输出为：
+script ‘%@’|脚本‘%@’
+the text script|文字脚本
+Display %@ in a window.|在一个窗口中显示%@。
+Display %@ briefly.|短暂显示%@。
+Display %@ large.|大尺寸显示%@。
+Type %@.|键入%@。
+Paste %@.|粘贴%@。
+Save %@ to variable ‘%%@’.|保存%@到变量‘%%@’。
+Save %@ to %%@.|保存%@到%%@.
+Execute asynchronously.|异步执行。
+results without errors|结果没有错误
+results|结果
+trimmed results without errors|修剪的结果没有错误
+trimmed results|修剪的结果
+plug in action ‘%@’|插入动作‘%@’
+Execute ‘%@’ Automator Workflow|执行‘%@’的Automator工作流
+Execute Macro ‘%@’|执行宏‘%@’
+Execute Macro ‘%@’ Asynchronously|异步执行宏‘%@’
+Mark Macro ‘%@’|标记宏‘%@’
+Unmark Macro ‘%@’|取消标记宏‘%@’
+Toggle Mark Macro ‘%@’|切换标记宏‘%@’
+Mark Macro|标记宏
+Unmark Macro|取消标记宏
+Toggle Mark Macro|切换标记宏
+None|无
+Enable %@|启用%@
+Disable %@|禁用%@
+Toggle %@ Enabled|切换%@启用
+Unknown|未知
+Macro/Macro Group None|宏/宏组无
+Macro ‘%@’|宏‘%@’
+Macro Group ‘%@’|宏组‘%@’
+Smart Group ‘%@’|智能组‘%@’
+Apply Text Factory ‘%@’|应用文本工厂‘%@’
+Reveal|显示
+Move or Rename|移动或重命名
+Copy|拷贝
+Duplicate|复制
+Trash|移到废纸篓
+Delete|删除
+Recursively Delete|递归删除
+%@ a File|%@文件
+%@ File ‘%@’|%@文件‘%@’
+Clipboard|剪贴板
+File Type|文件类型
+Date Created|创建日期
+Parent|父支
+Comment|评论
+Type the %@ Keystroke|键入%@按键
+Press and Hold the %@ Keystroke|长按%@按键
+Press and Repeat the %@ Keystroke|重复按%@按键
+Release the %@ Keystroke|松开%@按键
+Type the %@ Modifier%@|键入%@修饰键%@
+Press and Hold the %@ Modifier%@|长按%@修饰键%@
+Press and Repeat the %@ Modifier%@|重复按%@修饰键%@
+Release the %@ Modifier%@|松开%@修饰键%@
+No|无
+Open URL: %@|打开网址：%@
+Pause for %@ Seconds|暂停%@秒
+Pause Until Conditions Met|暂停，直到满足条件：
+For Each Path in Finder Selection|对于在Finder中选择的每个路径
+For Each Path in Folder|对于文件夹中的每个路径
+Click at Found Image|点击发现的图片
+While Conditions Met Execute Actions|当满足条件时执行动作
+Execute Actions Until Conditions Met|执行动作，直到条件满足
+Repeat Actions|重复动作
+Repeat Actions %@ Times|重复动作%@次
+Group Actions|组合动作
+If %@ Execute Actions|如果%@就执行动作
+If With No Conditions Will Do Nothing|如果没有条件，什么也不做
+Keyboard Maestro Alert|Keyboard Maestro警报
+Would you like to continue execution or stop now?|你想继续执行还是现在停止？
+Alert ‘%@’|警报‘%@’
+Continue|继续
+Stop|停止
+Untitled|无标题
+Comment ‘%@’|评论‘%@’
+Untitled|无标题
+Growl ‘%@’|Growl通知‘%@’
+Log ‘%@’|登录‘%@’
+Notification ‘%@’|通知‘%@’
+OK|好
+Quit %@|退出%@
+Quit and Relaunch %@|退出并重新打开%@
+Force Quit %@|强制退出%@
+Force Quit and Relaunch %@|强制退出并重新打开%@
+Front Application|前台应用程序
+Hide %@|隐藏%@
+Show %@|显示%@
+Quit %@|退出%@
+Open Finder Selection in %@|在%@中打开Finder选择
+Front Application|前台应用程序
+Move Mouse to (%@,%@) from the %@|移动鼠标到(%@,%@)从%@
+Click Mouse at (%@,%@) from the %@|点击鼠标在(%@,%@)从%@
+Move & Click Mouse at (%@,%@) from the %@|移动并点击鼠标(%@,%@)在%@
+%@ %@ %@|%@%@%@
+to|到
+at|在
+(%@,%@) from the %@|(%@,%@)相对于%@
+Release %@|释放%@
+Move Mouse|移动鼠标
+%@|单次%@
+Double %@|双次%@
+Triple %@|三次%@
+Click|点击
+Right Click|右键点击
+Center Click|中键点击
+Button 4 Click|按钮4点击
+Button 5 Click|按钮5点击
+Button 6 Click|按钮6点击
+Mouse Button|鼠标按钮
+Right Button|右键
+Center Button|中键
+Button 4|按钮4
+Button 5|按钮5
+Button 6|按钮6
+and Drag|并拖动
+and Hold|并按住
+Move and %@|移动到并%@
+%@|%@
+%@ of the Main Screen|主屏幕的%@
+%@ of the Front Window|前台窗口的%@
+%@ of the Found Image|在发现图像的%@
+%%@ of the Found Image in %@|在%@中发现图像的%%@
+Current Mouse Location|当前鼠标位置
+Absolute Position|绝对位置
+Top Left Corner|左上角
+Top Right Corner|右上角
+Bottom Left Corner|左下角
+Bottom Right Corner|右下角
+Center|中央
+Untitled Macro|无标题宏
+Untitled Macro %d|无题宏%d
+^Untitled Macro( \\d+)$|^无标题宏( \\d+)$
+Untitled Macro Group|无题宏组
+Untitled Macro Group %d|无题宏组%d
+Untitled Smart Group|无标题智能组
+Untitled Smart Group %d|无标题智能组%d
+Default|默认
+for note|对于笔记
+for control|对于控制
+with velocity|速度为
+with value|值为
+the Front Application|前台的应用程序
+Select ‘%@’ in the Menu ‘%@’ in %@|选择‘%@’在菜单‘%@’在应用%@中
+Show Menu ‘%@’ in the Menu ‘%@’ in %@|显示菜单‘%@’在菜单‘%@’在应用%@中
+Show Menu ‘%@’ in %@|显示菜单‘%@’在应用%@中
+Select Menu Item in %@|选择菜单项在应用%@中
+Show Menu in %@|显示菜单在应用%@中
+Menu Title|菜单标题
+Submenu|子菜单
+Menu Item|菜单项
+Untitled|无标题
+Play/Pause Current Track|播放/暂停当前曲目
+Stop Current Track|停止当前曲目
+Rewind Current Track|快退当前曲目
+Fast-Forward Current Track|快进当前曲目
+Pause Current Track|暂停当前​​曲目
+Next Track|下一曲目
+Previous Track|上一曲目
+Play a Random Track|播放随机曲目
+Play Track ‘%@’|播放曲目‘%@’
+Play a Specific Track|播放特定曲目
+Play Playlist ‘%@’|播放播放列表‘%@’
+Play a Specific Playlist|播放特定播放列表
+Play a Random Track from Playlist ‘%@’|从播放列表中播放随机曲目‘%@’
+Play a Random Track from Playlist|从播放列表中播放随机曲目
+Increase iTunes Volume by 10%|增加iTunes音量10％
+Increase iTunes Volume|增加iTunes音量
+Decrease iTunes Volume by 10%|减少iTunes音量10％
+Decrease iTunes Volume|减少iTunes音量
+Set iTunes Volume to %d%%|设置iTunes音量到%d%%
+Set iTunes Volume|设置iTunes音量
+Increase Rating by Half a Star|评级增加半个星
+Decrease Rating by Half a Star|评级减少半个星
+Set Rating to %@|设置评级为
+Set Rating|设置评级
+Play Current Movie|播放当前电影
+Play/Pause Current Movie|播放/暂停当前电影
+Pause Current Movie|暂停当前​​电影
+New %@ Window|新建%@窗口
+New %@ Window with URL ‘%@’|新建%@窗口URL‘%@’
+New %@ Tab|新建%@标签
+New %@ Tab with URL ‘%@’|新建%@标签URL‘%@’
+Next %@ Tab|下一个%@标签
+Previous %@ Tab|上一个%@标签
+Select %@ Tab|选择%@标签
+Select %@ Tab ‘%@’|选择%@标签‘%@’
+Set %@ Title|设置%@标题
+Set %@ Title to ‘%@’|设置%@标题为‘%@’
+Click %@ Link|点击链接%@
+Click %@ Link ‘%@’|点击链接%@‘%@’
+Submit %@ Form|提交表单%@
+Submit %@ Form ‘%@’|提交表单%@‘%@’
+Reset %@ Form|重置%@表单
+Reset %@ Form ‘%@’|重置%@表单为
+Focus %@ Field|聚焦%@域
+Focus %@ Field ‘%@’|聚焦%@域‘%@’
+Select %@ Field|选择%@域
+Select %@ Field ‘%@’|选择%@域‘%@’
+Wait For %@ to Finish Loading|等待%@完成加载
+Wait For %@ to Finish Loading|等待%@完成加载
+Set %@ URL|设置%@网址
+Set %@ URL to ‘%@’|设置%@网址为‘%@’
+Simulate Scroll Wheel Up %@|模拟滚轮向上%@
+Simulate Scroll Wheel Down %@|模拟滚轮向下%@
+Simulate Scroll Wheel Left %@|模拟滚轮向左%@
+Simulate Scroll Wheel Right %@|模拟滚轮向右%@
+Insert Text by Typing|通过键入插入文本
+Insert Text by Pasting|通过粘贴插入文本
+Display Text|显示文本
+Insert Text ‘%@’ by Typing|通过键入插入文本‘%@’
+Insert Text ‘%@’ by Pasting|通过粘贴插入文本‘%@’
+Insert Styled Text ‘%@’ by Pasting|通过粘贴插入带样式文本‘%@’
+Display Text ‘%@’ in Window|在窗口中显示文本‘%@’
+Display Text ‘%@’ Briefly|短暂显示文本‘%@’
+Display Text ‘%@’ Large|大尺寸显示文本‘%@’
+Insert Text by Typing|通过键入插入文本
+Insert Text by Pasting|通过粘贴插入文本
+Insert Styled Text by Pasting|通过粘贴插入带样式文本
+Display Text in Window|在窗口中显示文本
+Display Text Briefly|短暂显示文字
+Display Text Large|大尺寸显示文字
+Text|文本
+Yellow|黄色
+Green|绿色
+Blue|蓝色
+Purple|紫色
+Gray|灰色
+Wrap|换行
+Capitalize|首字母大写
+Smart Quotes|智能引号
+Word Count|字数
+Plain Text|纯文本
+Cut|剪切
+Copy|拷贝
+Paste|粘贴
+Window|窗口
+The %@ key is pressed|%@键被按下
+While the %@ key is down|当%@键被按下时
+The %@ key is released|%@键被释放
+The %@ key is tapped|%@键被轻击
+The %@ key is tapped once|%@键被轻击一次
+The %@ key is tapped twice|%@键被轻击两次
+The %@ key is tapped %d times|%@键被轻击%d次
+exact case string|确切的字符串
+case ignoring string|忽略大小写的字符串
+case considering string|不忽略大小写的字符串
+regular expression|正则表达式
+Application ‘%@’ launches|应用程序‘%@’启动
+Application ‘%@’ activates|应用程序‘%@’激活
+Application ‘%@’ deactivates|应用程序‘%@’停用
+Application ‘%@’ quits|应用程序‘%@’退出
+While application ‘%@’ is active, %@|当应用程序‘%@’活动时，%@
+While application ‘%@’ is running, %@|当应用程序‘%@’运行时，%@
+Any application launches|任何应用程序启动
+Any application activates|任何应用程序激活
+Any application deactivates|任何应用程序停用
+Any application quits|任何应用程序退出
+While any application is active, %@|当任何应用程序活动时，%@
+While any application is running, %@|当任何应用程序运行时，%@
+repeating every %@|每%@重复
+Monday|星期一
+Tuesday|星期二
+Wednesday|星期三
+Thursday|星期四
+Friday|星期五
+Saturday|星期六
+Sunday|星期日
+Palette|调色板
+Menu|菜单
+Script|脚本
+Script|脚本
+Clipboard|剪贴板
+Name|名称
+Any Condition Met|满足任何条件
+All Conditions Met|满足所有条件
+No Condition Met|不满足任何条件
+Not All Conditions Met|未满足所有条件
+Application Condition|应用程序条件
+Application ‘%@’ %@|应用程序‘%@’%@
+is running|运行中
+is not running|未运行
+is at the front|在前台
+is not at the front|不在前台
+is running but not at the front|运行中，但不在前台
+Front Window Condition|前台窗口条件
+Environment Variable Condition|环境变量条件
+The environment variable ‘%@’ exists|环境变量‘%@’存在
+The environment variable ‘%@’ does not exist|环境变量‘%@’不存在
+The environment variable ‘%@’ is empty|环境变量‘%@’是空的
+The environment variable ‘%@’ is not empty|环境变量‘%@’不为空
+The environment variable ‘%@’ is ‘%@’|环境变量‘%@’是‘%@’
+The environment variable ‘%@’ is not ‘%@’|环境变量‘%@’不是‘%@’
+The environment variable ‘%@’ contains ‘%@’|环境变量‘%@’包含‘%@’
+The environment variable ‘%@’ does not contain ‘%@’|环境变量‘%@’不包含‘%@’
+The environment variable ‘%@’ matches ‘%@’|环境变量‘%@’匹配‘%@’
+The environment variable ‘%@’ does not match ‘%@’|环境变量‘%@’不匹配‘%@’
+Found Image Condition|发现图像条件
+The screen contains the image|屏幕包含图像
+The screen contains the image uniquely|屏幕包含图像且唯一
+The screen does not contains the image|屏幕不包含图像
+The screen does not contains the image uniquely|屏幕不唯一包含图像
+Pixel Condition|像素条件
+Location Condition|位置条件
+The network location is ‘%@’|网络位置是‘%@’
+The network location is not ‘%@’|网络位置不是‘%@’
+The network location contains ‘%@’|网络位置包含‘%@’
+The network location does not contain ‘%@’|网络位置不包含‘%@’
+The network location matches ‘%@’|网络位置匹配‘%@’
+The network location does not match ‘%@’|网络位置不匹配‘%@’
+Script Condition|脚本条件
+The script returns success|脚本返回成功
+The script returns an error|脚本返回一个错误
+The script returns status %d|脚本返回状态是%d
+The script result is ‘%@’|脚本结果是‘%@’
+The script result is not ‘%@’|脚本结果不是‘%@’
+The script result contains ‘%@’|脚本结果包含‘%@’
+The script result does not contain ‘%@’|脚本结果不包含‘%@’
+The script result matches ‘%@’|脚本结果匹配‘%@’
+The script result does not match ‘%@’|脚本结果不匹配‘%@’
+Time Saved: %@|节省时间：%@
+none yet|还没有
+not much|还不多
+%ld seconds|%ld秒
+%ld minutes|%ld分钟
+%ld hours|%ld小时
+%ld days|%ld天
+%ld months|%ld月
+%ld years|%ld年
+Don’t waste time hunting around for your applications.|不要浪费时间四处寻找您的应用程序。
+Unnamed|未命名
+None|无
+Recording|录制
+Enabled|已启用
+Enabled|已启用
+Disabled|已禁用
+Disabled|已禁用
+Other…|其他…
+Type|按键
+Click|键击
+Press and Release|按下并释放
+Try Again|再试一次
+Click|点击
+Hide Actions|隐藏动作
+Show Actions|显示动作
+Done|完成
+Sound Up|提高音量
+Sound Down|降低音量
+Brightness Up|提高亮度
+Brightness Down|降低亮度
+Caps Lock|大写锁定
+Help|帮助
+Power Key|电源键
+Mute|静音
+Num Lock|键盘锁
+Contrast Up|提高对比度
+Contrast Down|降低对比度
+Launch Panel|启动面板
+Eject|弹出
+Video Mirror|视频镜像
+Play|播放
+Next|下一个
+Previous|上一个
+Fast|快进
+Rewind|快退
+Illumination Up|提升
+Illumination Down|提高背光灯亮度
+Illumination Toggle|降低背光灯亮度
+Clipboard|剪贴板
+Date|日期
+System|系统
+Date|日期
+System|系统
+Text|文本
+Enter|输入
+Delete|删除
+Escape|退出
+Clear|清除
+Forward Delete|向前删除
+Return|回车
+Space|空格
+Space|空格
+Page Up|向上翻页
+Page Down|向下翻页
+Help/Insert|帮助/插入
+Home|主页
+End|结尾
+Left Arrow|左箭头
+Right Arrow|右箭头
+Down Arrow|下箭头
+Up Arrow|上箭头
+Before Version 7|版本7之前
+At Editor Launch|在编辑器启动时
+Before Last Revert|最后还原前
+Before Last Sync|上次同步前
