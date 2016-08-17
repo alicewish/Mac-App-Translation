@@ -1470,24 +1470,24 @@ Beginning|开始
 Capture Frame|捕获帧
 Move to Trash|移到废纸篓
 New from Clipboard|从剪贴板中新建
-
-
+Change Canvas Color…|更改画布颜色...
+Rotate Image…|旋转图像...
 Import from Google Drive…|从Google Drive导入…
-
+Connect Mobile Device…|连接移动设备...
 Crop to Canvas|裁剪到画布
-
+Find Capture|查找捕获
 Quick Start Videos|快速开始视频
-
-
-
-
+Perspective|透视
+Magnify|放大
+Cut Out|剪下
+Show Properties|显示属性
 Copy All|全部拷贝
-
+Edges|边缘
 What's New|新功能
-
-
-
-
+Product Support|产品支持
+Shadow|阴影
+Flatten All|拼合所有
+Undo All|撤消所有
 Callout|标注
 New Capture…|新建捕获…
 Color Filters|彩色滤镜
@@ -1496,230 +1496,230 @@ Reflection|倒影
 Snagit|Snagit
 Import/Export|导入/导出
 Arrange|排布
-
-
+Align|对齐
+Dev|开发
 Cut|剪切
-
+Pen|钢笔
 Top|顶部
 End|底部
 New|新建
-
-
-
-
-
+LineStyleNoLine|LineStyleNoLine
+LineStyleSolid|LineStyleSolid
+LineStyleDashed|LineStyleDashed
+LineStyleDotted|LineStyleDotted
+Line style:|线条样式：
 NaN|NaN
-
+Padding:|填充：
 NeXT Encapsulated PostScript v1.2 pasteboard type|NeXT Encapsulated PostScript v1.2剪贴板类型
 NeXT TIFF v4.0 pasteboard type|NeXT TIFF v4.0剪贴板类型
 ShadowPickerView|ShadowPickerView
 Step Over|逐过程
 Step Into|逐语句
 Step Out|跳出
-
-
-
-
-
-
-
-
+Pause|暂停
+Open Dictionary|打开字典
+Mini Debugger|迷你调试
+Clippings|剪报
+Code Signing|代码签名
+Don’t Code Sign|不要代码签名
+Execute|执行
+Parent Script|父脚本
 Paste Tell|粘贴Tell
-
-
-
-
+Scripts|脚本
+Default Target|默认目标
+Trace|跟踪
+Application…|应用…
 AppleScript:|AppleScript:
-
+Scripting Additions|脚本附加
 About Script Debugger|关于Script Debugger
-
+New Script|新建脚本
 Hide Script Debugger|隐藏Script Debugger
 Quit Script Debugger|退出Script Debugger
 Script Debugger Help|Script Debugger帮助
-
-
-
-
-
-
-
-
-
+Activate Application|激活应用程序
+Open Explorer|打开资源管理器
+Open In New Window|在新窗口打开
+Show Dictionary|显示字典
+Show Object Model|显示对象模型
+Show Explorer|显示浏览器
+Send Us Email|发送我们电邮
+Change License…|更改许可证...
+Find Again|再次查找
 Find Again Backwards|向后再次查找
 Find Selection|查找所选
 Find Selection Backwards|向后查找所选
-
+Replace|更换
 Replace &amp; Find Again|更换并再次查找
 Replace &amp; Find Again Backwards|更换并向后再次查找
-
+Replace All|全部替换
 Smaller Text|减小文本
-
-
+Show Inherited Definitions|显示继承的定义
+Show Extra Documentation|显示额外的文档
 Larger Text|增大文本
 Show Containment|显示限制
-
-
+Show Inheritance|显示继承
+Quick Look|快速查看
 Save Default Window Size &amp; State|保存默认窗口大小和状态
 Reset Default Window Size &amp; State|重置默认窗口大小和状态
-
-
+Reload All|刷新所有
+Toggle Navigation Bar|切换导航栏
 Result &amp; Variables Tab|结果与变量标签
-
-
-
+Source View|源视图
+Show Code Folding|显示代码折叠
+Show Tab Stops|显示制表位
 Show Spaces|显示空格
-
-
-
-
+Pretty Print|漂亮的打印
+Show Raw (Chevron) Syntax|显示原始（雪佛龙）语法
+Paste As String Literal|粘贴为字符串文字
+Balance|平衡
 Split Editor Vertically|垂直拆分编辑器
 Split Editor Horizontally|水平拆分编辑器
-
+Close Split View|关闭拆分视图
 Close All Split Views|关闭所有拆分视图
-
-
-
-
+Uncomment|取消注释
+Entab|Entab
+Detab|Detab
+Close All|关闭所有
 Save A Copy As…|保存拷贝为…
-
-
+New Script From Template…|新的脚本模板...
+Dictionary Activity Monitor|字典活动监视器
 New Explorer Worksheet|新建浏览器工作表
 New Viewer Window…|新建浏览器窗口…
-
+Dictionary|字典
 New Dictionary Window|新建词典窗口
-
-
+Show Dictionaries List|显示字典列表
+Compiled Script|编译脚本
 Compiled Script Bundle|编译脚本包
-
+Recover Damaged Script…|恢复损坏的脚本...
 Export Run-Only Script…|导出仅运行脚本…
-
-
-
-
-
-
-
+Show Leaks…|显示泄漏...
+Show Last Error…|显示上一错误...
+Show Result Explorer Window|显示结果浏览器窗口
+Recompile|重新编译
+Break on Breakpoints|打破断点
+Clear Code Coverage|清除代码覆盖
+Remove All Breakpoints|删除所有断点
 Break on Exceptions|例外时打破
-
+Set Temporary Breakpoint|设置临时断点
 New Expression|新建表达式
-
-
-
-
-
+Clear All Expressions|清除所有表达式
+Show Code Coverage|显示代码覆盖率
+Trace to Here|跟踪到这里
+Execute to Here|执行到这里
+Edit Breakpoint…|编辑断点...
 Compile|编译
 Copy to Expressions|拷贝到表达式
-
+Look Up Definition|查找定义
 Log As Source|记录为源
-
+Show Event Log|显示事件日志
 Copy Value|拷贝值
-
+Commit Placeholder|提交占位符
 New Script Tab|新建脚本选项卡
 New Script Tab From Template…|从模板新建脚本标签…
 Toggle Result Bar|切换结果栏
-
-
+Toggle Status Bar|切换状态栏
+Remove Breakpoint|删除断点
 Log As Raw (Chevron) Syntax|记录为原始（雪佛龙）语法
 Log As AEPrint|记录为AEPrint
-
-
-
-
-
+Clear Event Log|清除事件日志
+Append To Event Log|追加到事件日志
+Show Event Log Result Explorer|查看事件日志结果浏览器
+Best View|最佳浏览
+Resources Tab|资源选项卡
 Inspectors Tab|检查器标签
-
+Show Manifest…|清单显示...
 Find &amp; Replace…|查找和替换…
 Show Event Log in Window|在窗口中显示事件日志
 Edit with BBEdit|用BBEdit编辑
 New AppleScript Worksheet|新建AppleScript工作表
-
-
+Toggle Tab Bar|切换标签栏
+Show Startup Screen|显示启动画面
 Stay Open|继续打开
-
-
-
-
-
+Copy as Standalone Code|复制为独立代码
+Show Progress|显示进度
+Fold Block Comments|折叠块注释
+Migrate to Properties|迁移到属性
+Fold Handlers|折叠处理程序
 Migrate to Properties in Selection|将选中迁移到属性
-
+Unfold Handlers|展开处理程序
 Test 1|Test 1
-
-
-
+Unfold All|全部展开
+Set Breakpoint|设置断点
+Unfold|展开
 Test 2|Test 2
-
-
+Remove All Disabled Breakpoints|删除所有已禁用断点
+Show AppleScript Release Notes|显示AppleScript的发行说明
 Persistent Properties|持久属性
 Migrate Properties When Completing|完成时迁移属性
 Script Debugger Release Notes|Script Debugger发行说明
-
+Browse Document Versions…|浏览的文档版本...
 Show AppleScript Language Guide|显示AppleScript语言指南
 Use Properties for Cocoa Terms|为Cocoa术语使用属性
-
+Unfold Block Comments|展开块注释
 Script Debugger|Script Debugger
-
-
-
+Script Format|脚本格式
+Application Options|应用程序选项
+AppleScriptObjC|AppleScriptObjC
 NO|不
-
+YES|是
 Array|数组
-
-
+Data|数据
+Boolean|布尔
 String|字符串
 Number|数值
-
-
+Null|空值
+Saved Property List Browsers|保存的属性列表浏览器
 Rename|重命名
-
-
-
-
-
-
+Open|打开
+Indented|缩进
+Condensed|简明
+File Format:|文件格式：
+JSON formatting:|JSON格式：
+Minimize Window|最小化窗口
 PlistEdit Pro|PlistEdit Pro
 About PlistEdit Pro|关于PlistEdit Pro
 PlistEdit Pro Help|PlistEdit Pro帮助
 Hide PlistEdit Pro|隐藏PlistEdit Pro
 Quit PlistEdit Pro|退出PlistEdit Pro
-
-
-
+Operations|操作
+New Sibling Of Type|新的同级型
+New Child Of Type|新的子类型
 Paste As Child|粘贴为子类
 Sort Keys|排序键
 Sort All Keys|排序所有键
 Save To…|存储为…
 Change the format in which the property list is written to disk|更改属性列表写入磁盘的格式
-
-
-
-
+Change Format|更改格式
+Binary|二进制
+ASCII|ASCII
+XML|XML
 New Sibling|新建同级
 New Child|新建子类
-
-
-
+Sort Values|排序值
+Sort All Values|排序所有值
+Zoom Window|缩放窗口
 Purchase PlistEdit Pro…|购买PlistEdit Pro…
-
-
+Registration…|注册…
+Synchronize the text and outline views|同步文本和大纲视图
 Open Help In Browser|在浏览器中打开帮助
 Visit The PlistEdit Pro Website|浏览The PlistEdit Pro网站
-
-
-
-
-
+Favorites|收藏夹
+Browser|浏览器
+Reveal Application|显示应用
+Refresh List|刷新列表
+Show Prefs Browser|显示偏好设置浏览器
 New Property List Browser|新建属性列表浏览器
-
-
+Remove From List|从列表中删除
+Validate|验证
 Go to a specific line in the property list text|转到属性列表文本的特定行
-
+Go To Line…|转到行...
 Edit the selected item's value in a sheet|编辑在工作表中所选项目的值
-
+Edit Value…|编辑值...
 Select Parent|选择父类
-
+Definition|定义
 Add Sibling Key|添加同级键
 Add Child Key|添加子类键
-
+Set To Default Value|设置为默认值
 Change the plist definition being used for the current document|改变当前正在使用的文档的plist定义
 Change Definition|改变定义
 Open Saved Browser|打开保存的浏览器
@@ -2752,7 +2752,7 @@ Replace All Macros|替所有宏
 Global Macro Group|全局宏组
 Global Macro Set|全局宏集合
 Switcher Group|切换组
-Purchase Keyboard Maestro Upgrade…|购买键盘大师升级...
+Purchase Keyboard Maestro Upgrade…|购买键盘大师升级…
 Untitled Macro File|无标题宏文件
 Export Macros|导出宏
 %@ Macros|%@宏
@@ -3882,7 +3882,7 @@ Side By Side|并排
 Import Images…|导入图像...
 Toggle Preview Cursor|切换预览光标
 Pick Color|选取颜色
-Import From Sketch...|从草图中导入...
+Import From Sketch…|从草图中导入…
 Toggle Visibility|切换可见性
 Ungroup Layers|取消组合图层
 Export for Mac|为Mac导出
@@ -3898,157 +3898,160 @@ Rewind Preview|倒带预览
 Show Drivers|显示驱动程序
 Tutorials|教程
 Artboard|画板
-Contact Customer Support...|联系客户支持...
-Feedback...|反馈...
+Contact Customer Support…|联系客户支持...
+Feedback…|反馈…
 Rectangle as Child|矩形作为子支
 Zoom Canvas|放大画布
 Rename Layer|重命名图层
-Check For Updates...|检查更新...
+Check For Updates…|检查更新…
 Group Layers|图层组
 Show Animate|显示动画
 Principle|Principle
 Distribute|分布
-Close All
-Copy as
-Little Snitch Configuration
-About Little Snitch
-Purchase…
-Register…
-Debug Settings…
-Restart in Permissive Mode…
-Hide Little Snitch Configuration
-Quit Little Snitch Configuration
-Rules
-New Rule…
-New Rule for Selection…
-Duplicate…
-New Profile…
-Backup…
-Import from Backup…
-Restore Factory Defaults…
-Clear Undo History
-Paste to Selection
-Edit Rule…
-Approve
-Search Rules
-Search All Rules
-Spelling…
-Check Spelling as You Type
-All Rules
-Last 24 Hours
-Temporary Rules
-Unapproved Rules
-Background Processes
-Protected Rules
-Global Rules
-System Rules
-Incoming Connections
-Precedence
-Creation Date
-Focus on Rules Affecting Selection
-Show Disabled Rules
-Refresh Rule List
-Select Rule List
-Known Networks
-Little Snitch Help
-Welcome to Little Snitch
-Feedback &amp; Support…
-Diagnostics Report…
-Don’t show this message again
-LucidaGrande
-Debug Settings
-Admin Mode
-Filter factory rules
-Filter hidden rules
-Filter rules for current user
-Read user defaults from daemon
-Read rules from daemon
-Autosave Changes
-Changes to these settings require a restart of the application to take effect.
-Reload Objects
-AdministratorMode
-Little Snitch Configuration
-About Little Snitch
-Purchase…
-Register…
-Debug Settings…
-Restart in Permissive Mode…
-Hide Little Snitch Configuration
-Quit Little Snitch Configuration
-Rules
-New Rule…
-New Rule for Selection…
-Duplicate…
-New Profile…
-Backup…
-Import from Backup…
-Restore Factory Defaults…
-Clear Undo History
-Paste to Selection
-Edit Rule…
-Approve
-Search Rules
-Search All Rules
-Spelling…
-Check Spelling as You Type
-All Rules
-Last 24 Hours
-Temporary Rules
-Unapproved Rules
-Background Processes
-Protected Rules
-Global Rules
-System Rules
-Incoming Connections
-Precedence
-Creation Date
-Focus on Rules Affecting Selection
-Show Disabled Rules
-Refresh Rule List
-Select Rule List
-Known Networks
-Little Snitch Help
-Welcome to Little Snitch
-Feedback &amp; Support…
-Diagnostics Report…
-Don’t show this message again
-LucidaGrande
-Debug Settings
-Admin Mode
-Filter factory rules
-Filter hidden rules
-Filter rules for current user
-Read user defaults from daemon
-Read rules from daemon
-Autosave Changes
-Changes to these settings require a restart of the application to take effect.
-Reload Objects
-AdministratorMode
-Check Now
-Launch Contexts at login
-Quit Contexts
-Track applications with no windows
-View Versions History
-Show dock icon badges
-Update to beta versions
-You have version 1.0.
-Interface Size:
-Large
-Small
-Contexts will still launch on login if auto-launch is enabled.
-Number of Groups:
-Contexts can launch automatically when you start your Mac.
-Check Now
-Launch Contexts at login
-Quit Contexts
-Track applications with no windows
-View Versions History
-Show dock icon badges
-Update to beta versions
-You have version 1.0.
-Interface Size:
-Large
-Small
-Contexts will still launch on login if auto-launch is enabled.
-Number of Groups:
-Contexts can launch automatically when you start your Mac.
+Close All|全部关闭
+Copy as|拷贝为
+Little Snitch Configuration|Little Snitch配置
+About Little Snitch|关于Little Snitch
+Purchase…|购买…
+Register…|注册…
+Debug Settings…|调试设置...
+Restart in Permissive Mode…|在默许模式下重新启动…
+Hide Little Snitch Configuration|隐藏Little Snitch配置
+Quit Little Snitch Configuration|退出Little Snitch配置
+Rules|规则
+New Rule…|新建规则…
+New Rule for Selection…|为所选新建规则…
+Duplicate…|复制…
+New Profile…|新建配置文件…
+Backup…|备份...
+Import from Backup…|从备份导入...
+Restore Factory Defaults…|恢复出厂默认值...
+Clear Undo History|清除撤消历史
+Paste to Selection|粘贴到所选
+Edit Rule…|编辑规则...
+Approve|允许
+Search Rules|搜索规则
+Search All Rules|搜索所有规则
+Spelling…|拼写...
+Check Spelling as You Type|在您键入时检查拼写
+All Rules|所有规则
+Last 24 Hours|最近24小时
+Temporary Rules|临时规则
+Unapproved Rules|未经批准的规则
+Background Processes|后台进程
+Protected Rules|受保护规则
+Global Rules|全局规则
+System Rules|系统规则
+Incoming Connections|传入连接
+Precedence|优先权
+Creation Date|创建日期
+Focus on Rules Affecting Selection|聚焦影响所选的规则
+Show Disabled Rules|显示禁用规则
+Refresh Rule List|刷新规则列表
+Select Rule List|选择规则列表
+Known Networks|已知网络
+Little Snitch Help|Little Snitch帮助
+Welcome to Little Snitch|欢迎使用Little Snitch
+Feedback &amp; Support…|反馈和支持…
+Diagnostics Report…|诊断报告...
+Don’t show this message again|不要再显示此消息
+LucidaGrande|LucidaGrande
+Debug Settings|调试设置
+Admin Mode|管理模式
+Filter factory rules|筛选出厂规则
+Filter hidden rules|筛选潜规则
+Filter rules for current user|为当前用户筛选规则
+Read user defaults from daemon|从守护程序读取用户默认
+Read rules from daemon|从守护程序读取规则
+Autosave Changes|自动保存更改
+Changes to these settings require a restart of the application to take effect.|更改这些设置需要应用程序的重新启动才能生效。
+Reload Objects|刷新对象
+AdministratorMode|AdministratorMode
+GUI Applications|GUI应用程序
+Check Now|现在检查
+Launch Contexts at login|在登录时启动Contexts
+Quit Contexts|退出Contexts
+Track applications with no windows|跟踪没有窗口的应用程序
+View Versions History|查看历史版本
+Show dock icon badges|显示Dock图标徽章
+Update to beta versions|更新到测试版
+You have version 1.0.|你有1.0版本。
+Interface Size:|界面尺寸：
+Large|大
+Small|小
+Contexts will still launch on login if auto-launch is enabled.|如果启用自动启动，Contexts仍然会在登录时启动。
+Number of Groups:|组数：
+Contexts can launch automatically when you start your Mac.|当您启动Mac时Contexts可以自动启动。
+Recognize slide gesture along left edge|识别沿左边缘的滑动手势
+Recognize slide gesture along right edge|识别沿右边缘的滑动手势
+Show selection on panel|在面板上显示所选
+Show selection on sidebar|在侧边栏显示所选
+This will change the selection on the panel or the sidebar. Lift finger to bring forward the selected window.|这将改变面板或侧边栏上的所选。抬起手指将选定的窗口前置。
+To switch to a window, slide one finger vertically along the edge of the trackpad.|要切换到某个窗口，沿触控板边缘垂直滑动手指。
+Since the badges are associated with applications and not windows they are shown on all windows of an application.|由于徽章与应用程序而不是窗口关联，它们都显示在应用程序的所有窗口。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note: When Contexts launches it does not start tracking windows on other spaces until you switch to those spaces once and minimized windows until you unminimize them once.
+Groups and windows can be reordered by dragging them up or down on either the panel or the sidebar.
+IB auto generated at build time for view with ambiguity
