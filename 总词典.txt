@@ -4024,3 +4024,31 @@ Autosave Changes
 Changes to these settings require a restart of the application to take effect.
 Reload Objects
 AdministratorMode
+Check Now
+Launch Contexts at login
+Quit Contexts
+Track applications with no windows
+View Versions History
+Show dock icon badges
+Update to beta versions
+You have version 1.0.
+Interface Size:
+Large
+Small
+Contexts will still launch on login if auto-launch is enabled.
+Number of Groups:
+Contexts can launch automatically when you start your Mac.
+Check Now
+Launch Contexts at login
+Quit Contexts
+Track applications with no windows
+View Versions History
+Show dock icon badges
+Update to beta versions
+You have version 1.0.
+Interface Size:
+Large
+Small
+Contexts will still launch on login if auto-launch is enabled.
+Number of Groups:
+Contexts can launch automatically when you start your Mac.
