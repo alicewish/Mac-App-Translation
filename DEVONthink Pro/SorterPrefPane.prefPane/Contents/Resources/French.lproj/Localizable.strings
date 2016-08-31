@@ -1,0 +1,60 @@
+/* Label text describing the Start at login checkbox */
+"Availability:" = "Disponibilité :";
+
+/* Button title for error alert */
+"Cancel" = "Annuler";
+
+/* Button title for error alert */
+"Check" = "Vérifier";
+
+/* Label text for hotkey selector */
+"Copy Selection Hotkey:" = "Raccourci Copier la sélection :";
+
+/* Error message when Sorter login item can't be added */
+"Could not add the login item." = "Ne peut ajouter l'élément à Ouverture.";
+
+/* Error message when Sorter login item can't be removed */
+"Could not remove the login item." = "Ne peut supprimer l'élément d'Ouverture.";
+
+/* Checkbox title that describes that the tab is fully opaque */
+"Full" = "Plein";
+
+/* Button for quitting the Sorter */
+"Quit" = "Quitter";
+
+/* Title of button that does what it says */
+"Reset Fullscreen Settings" = "Réinitaliser les réglages plein écran";
+
+/* Button for showing the Sorter */
+"Show" = "Afficher";
+
+/* Label that indicates a restart is required (after hot key changes) */
+"Sorter needs to restart." = "Sorter doit redémarrer.";
+
+/* Title of checkbox that sets the Sorter as a login item */
+"Start Sorter at login" = "Afficher en ouvrant";
+
+/* Label text for hotkey selector */
+"Take Note Hotkey:" = "Raccourci Prendre une note :";
+
+/* Label text describing functionality of Sorter helper app */
+"The Sorter helps to collect information from any application to specified groups even if a database is not available.\n\nThe Sorter appears as a `DEVONthink' tab attached to a screen border." = "Sorter permet de recueillir des informations depuis n'importe quelle application dans des groupes spécifiques, même si une base de données n'est pas disponible.\n\nLe Sorter apparaît comme un onglet « DEVONthink » rattaché à un bord de l'écran.";
+
+/* Partial error message when hot keys collide */
+"this combination is used for the `Copy Selection' hot key" = "cette combinaison est utilisée pour le raccourci “Copier la sélection”";
+
+/* Partial error message when hot keys collide */
+"this combination is used for the `Take Note' hot key" = "cette combinaison est utilisée pour le raccourci “Prendre une note”";
+
+/* Label text for checkbox that makes tab more or less visible */
+"Visibility:" = "Visibilité :";
+
+/* Recovery message when Sorter login item can't be added/removed */
+"You may not have permissions to change the `Login Items'. Do you want to check this in the System Preferences > Accounts preferences?" = "Vous n'avez peut-être pas l'autorisation de modifier « Ouverture ». Voulez-vous le vérifier dans Préférences Système > Comptes ?";
+
+/* Label for the application hide list */
+"Hide Sorter in Full Screen:" = "Hide Sorter in Full Screen:";
+
+/* Label for the application hide table headings */
+"Application" = "Application";
+"Hide" = "Cache";

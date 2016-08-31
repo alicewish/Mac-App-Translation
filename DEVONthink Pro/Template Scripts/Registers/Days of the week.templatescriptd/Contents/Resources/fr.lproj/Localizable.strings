@@ -1,0 +1,13 @@
+/* Localized Strings occurred is misspelled */
+
+"Days of the week" = "Jours de semaine";
+
+"Monday" = "Lundi";
+"Tuesday" = "Mardi";
+"Wednesday" = "Mercredi";
+"Thursday" = "Jeudi";
+"Friday" = "Vendredi";
+"Saturday" = "Samedi";
+"Sunday" = "Dimanche";
+
+"An error occurred when adding the note." = "Une erreur s'est produite en ajoutant la note.";

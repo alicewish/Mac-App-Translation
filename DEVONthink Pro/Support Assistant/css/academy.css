@@ -1,0 +1,132 @@
+/*
+
+	DEVONtechnologies SUPPORT ASSISTANT
+	© 2011–2012 DEVONtechnologies, LLC
+
+	Written by Eric Böhnisch-Volkmann, Apr 7, 2011
+	Updated by Eric Böhnisch-Volkmann, Jul 26, 2012
+	
+	CSS for tips and tutorials page
+
+*/
+
+
+#main
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 860px;
+	height: 480px;
+	padding: 30px 50px 30px 50px;
+	 font-size: 10pt;
+	font-family: "Lucida Grande", Arial;
+	color: #444;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.37, white), color-stop(0.37, rgb(230, 230, 230)), color-stop(0.6, white), to(white));
+}
+.tabs { width: 860px; height: 460px; }
+.tabnavigation { width: 815px; padding-right: 45px; text-align: right; font-weight: bold; }
+.tabnavigation a { text-decoration: none; color: #888; display: block; }
+.tabnavigation a:hover { text-decoration: underline; }
+.tabnavigation a:active { color: #444; }
+.tabnavigation a.current { display: none; }
+#notepaper
+{
+	position: absolute;
+	top: 20px;
+	left: 152px;
+	width: 654px;
+	height: 336px;
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(255, 255, 255, 0.2)));
+}
+#activityindicator { position: absolute; top: 412px; left: 464px; z-index: 10000; }
+
+/* TIPS */
+
+#tips { position: absolute; top: 65px; left: 190px; width: 580px; height: 260px; margin: 0px auto 0px auto; }
+#tips .scrollable { width: 500px; height: 260px; } /* Overriding defaults from scrollable.css */
+#tips .items > div { width: 500px; }
+#tips a.browse { background: url(../images/ui/pagearrows-horizontal-light.png) no-repeat; margin-top: 115px; }
+#tips a.right { background-position: 0 -30px; clear:right; margin-right: 0px;}
+#tips a.right:hover { background-position:-30px -30px; }
+#tips a.right:active { background-position:-60px -30px; } 
+#tips a.left { margin-left: 0px; } 
+#tips a.left:hover { background-position:-30px 0; }
+#tips a.left:active { background-position:-60px 0; }
+.tip { font-family: "Chalkboard"; color: rgba(255, 255, 255, 0.7); font-size: 100%; -webkit-user-select: text; cursor: auto; }
+.tip h1 { text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-family: "Chalkboard"; font-size: 200%; line-height: 130%; color: rgba(255, 255, 255, 0.7); }
+.tip p { text-align: justify; line-height: 120%; }
+.tip-link a { text-decoration: none; color: rgba(100, 200, 100, 0.7); }
+.tip-link a:hover { text-decoration: underline; }
+p.tip-link { /* text-align: right; */ }
+
+/* TUTORIALS */
+
+#tutorials { position: absolute; top: 370px; left: 50px; width: 860px; height: 80px; margin: 0px auto 0px auto; }
+#tutorials .scrollable { /* Overriding defaults from scrollable.css */ width: 778px; height: 116px; }
+#tutorials a.browse { margin-top: 41px; }
+.tutorialitem
+{
+	position: relative;
+	width: 158px;
+	height: 79px;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	float: left;
+	padding: 15px 20px 20px 80px;
+	overflow: hidden;
+	margin-right: -1px;
+	margin-bottom: -1px;
+	background-image: url("../images/icons/tutorials-64.png");
+	background-repeat: no-repeat; background-position: 8px 12px;
+	cursor: pointer;
+}
+.tutorialitem:nth-of-type(1) { -webkit-border-top-left-radius:5px; -webkit-border-bottom-left-radius:5px; }
+.tutorialitem:nth-of-type(3) { -webkit-border-top-right-radius:5px; -webkit-border-bottom-right-radius:5px; }
+.tutorialitem:nth-of-type(1), .tutorialitem:nth-of-type(3) { background-color: rgb(245, 245, 245); }
+.tutorialitem h1, #tutoriallist-textcell h1 { margin: 0px 0px 5px 0px; color: #000; font-size: 10pt; font-weight: bold; text-align: left; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.tutorialitem p, #tutoriallist-textcell p, #tutoriallist-datecell { margin: 0px 0px 5px 0px; color: #888; font-size: 8pt; line-height: 120% }
+.tutorialitem p.installbutton { position: absolute; left: 10px; bottom: 5px; }
+.materialdescription { }
+.materialdateline { position: absolute; left: 80px; bottom: 10px; }
+
+/* OVERLAYS */
+
+.overlay
+{
+	display: none;
+	background-color: #fff;
+	background-color: none;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.4); /* background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(50, 50, 50, 0.9)), to(rgba(20, 20, 20, 0.9))); */ /* border: 3px black solid; */
+	min-width: 750px;
+	min-height: 452px;
+	padding: 15px;
+	border-radius: 8px;
+	text-align: center;
+}
+.overlay iframe { display: inline-block; }
+.overlay iframe.tutorial { margin-top: 25px; }
+.overlay .close { width: 28px; height: 28px; background-image: url(../images/ui/overlay-close.png); position: absolute; right: -14px; top: -10px; cursor: pointer; }
+
+/* TUTORIAL LIST */
+
+.tutoriallist { width: 780px; height: 450px; margin: 0px 40px 10px 40px; border: 1px solid #ddd; -webkit-border-radius: 5px; background-color: #fff; overflow: auto; }
+.tutoriallist table { width: 100%; display: table; border-collapse: collapse; border-bottom: 1px solid #ddd; }
+.tutoriallist tr { border-bottom: 1px solid #ddd; }
+.tutoriallist tr:hover { background-color: #eee; }
+.tutoriallist tr:last-child { border-bottom: none; }
+.tutoriallist td { padding-top: 10px; padding-bottom: 10px; padding-right: 20px; cursor: pointer; }
+.tutoriallist td:first-child { padding-left: 40px; }
+.tutoriallist td:last-child { padding-right: 40px; }
+#tutoriallist-iconcell { width: 10%; }
+#tutoriallist-iconcell img { height: 32px; width: 32px; }
+#tutoriallist-textcell { width: 70%; }
+#tutoriallist-datecell { width: 20%; }
+
+/* CUSTOM SCROLLBARS */
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment  { height: 0px; display: block; background-color: transparent; }
+::-webkit-scrollbar-track-piece { background-color: transparent; }
+::-webkit-scrollbar-thumb:vertical { height: 50px; background-color: #bbb; -webkit-border-radius: 6px; }

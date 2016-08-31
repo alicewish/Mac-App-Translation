@@ -1,0 +1,40 @@
+{
+	"strings":
+	[
+		{
+			"en":	"Install Extras",
+			"fr":	"Installer des extras",
+			"de":	"Extras installieren"
+		},
+		{
+			"en":	"Welcome",
+			"fr":	"Bienvenue",
+			"de":	"Willkommen"
+		},
+		{
+			"en":	"Get Support",
+			"fr":	"Support",
+			"de":	"Kundendienst"
+		},
+		{
+			"en":	"Setup",
+			"fr":	"Configurer",
+			"de":	"Programm einrichten"
+		},
+		{
+			"en":	"No extras available for this app at the moment.",
+			"fr":	"Aucun extra dispo. pour cette app. pour l’instant.",
+			"de":	"Zurzeit sind keine Extras für dieses Programm verfügbar."
+		},
+		{
+			"en":	"Tips &amp; Tutorials",
+			"fr":	"Astuces &amp; Tutoriels",
+			"de":	"Tipps &amp; Einführungen"
+		},
+		{
+			"en":	"All tutorials",
+			"fr":	"Tous les tutoriels",
+			"de":	"Alle Einführungen"
+		}
+	]
+}

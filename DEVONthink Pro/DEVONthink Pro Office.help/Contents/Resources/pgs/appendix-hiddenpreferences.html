@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Appendix : Hidden preferences</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox">
+<a name="appendix-hiddenpreferences"> </a>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Hidden preferences</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>There are a few settings in DEVONthink Pro Office that you cannot set through the <em>
+<a href="preferences.html#">Preferences</a>
+</em> window. Most of them are intended to facilitate customer support but they might be interesting for you as well.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>These hidden preferences are not an official feature and could be changed or removed with any update.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="accessing"> </a>
+<p class="subsection">How to access the hidden preferences</p>
+<p>All hidden preferences are simple on/off switches. You set and unset them using the "defaults" command in the Terminal or using the special ON and OFF links provided below. To set preferences via the Terminal DEVONthink Pro Office must not be running or it will overwrite your changes when you close it.</p>
+<p>To set a preference using the Terminal, the command line looks like this:</p>
+<div class="terminalbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname terminal">Terminal:</span>
+</p>
+<p xmlns="" class="terminal-command">
+<kbd><b>$ </b>defaults write com.devon-technologies.thinkpro2 ShouldScaleAttachedImages -bool TRUE</kbd>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>The above command activates the preference with the key "ShouldScaleAttachedImages". Change TRUE to FALSE to deactivate it. Use any of the preferences keys below to activate or deactivate them.</p>
+<p>The preference AdditionalPlainTextExtensions is best set from the Terminal. As it replaces the list of additional plain text extensions we recommend that you read the current list first (empty by default) before adding your own to the end of the list.</p>
+<div class="terminalbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname terminal">Terminal:</span>
+</p>
+<p xmlns="" class="terminal-command">
+<kbd><b>$ </b>defaults read com.devon-technologies.thinkpro2 AdditionalPlainTextExtensions</kbd>
+</p>
+<p xmlns="" class="terminal-output">
+<kbd>2014-07-31 08:25:27.101 defaults[21950:3312262] The domain/default pair of (/Users/eb/Library/Preferences/com.devon-technologies.thinkpro2, AdditionalPlainTextExtensions) does not exist</kbd>
+</p>
+<p xmlns="" class="terminal-command">
+<kbd><b>$ </b>defaults write com.devon-technologies.thinkpro2 AdditionalPlainTextExtensions -string .otl.todotxt</kbd>
+</p>
+<p xmlns="" class="terminal-command">
+<kbd><b>$ </b>defaults read com.devon-technologies.thinkpro2 AdditionalPlainTextExtensions</kbd>
+</p>
+<p xmlns="" class="terminal-output">
+<kbd>.otl.todotxt</kbd>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="list"> </a>
+<p class="subsection">Available hidden preferences keys</p>
+<ul>
+<li>
+<span class="pname">EnableApplicationFiles:</span> Applications can be imported/indexed. <a href="x-devonthink://preference?key=EnableApplicationFiles&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=EnableApplicationFiles&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">EnableThreadedFeeds:</span> Feeds are downloaded in threads instead of by a background task. <a href="x-devonthink://preference?key=EnableThreadedFeeds&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=EnableThreadedFeeds&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">DisableBadgeLabel:</span> Disable the badge label on DEVONthink Pro Office's Dock icon. <a href="x-devonthink://preference?key=DisableBadgeLabel&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=DisableBadgeLabel&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">DisableOpenMeta:</span> OpenMeta tags aren't exported/set. <a href="x-devonthink://preference?key=DisableOpenMeta&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=DisableOpenMeta&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">DisableFileSystemEvents:</span> DEVONthink Pro Office no longer listens to file system events. <a href="x-devonthink://preference?key=DisableFileSystemEvents&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=DisableFileSystemEvents&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">DisableFinderTags:</span> DEVONthink Pro Office no longer imports or exports Finder tags. <a href="x-devonthink://preference?key=DisableFinderTags&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=DisableFinderTags&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">RichNotesWithoutAttachments:</span> Services create RTF instead of RTFD. <a href="x-devonthink://preference?key=RichNotesWithoutAttachments&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=RichNotesWithoutAttachments&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">ShouldScaleAttachedImages:</span> Enables image scaling in RTF documents. <a href="x-devonthink://preference?key=ShouldScaleAttachedImages&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=ShouldScaleAttachedImages&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">DisableAutomaticUpdatingOfIndexedItems:</span> Disables automatic updating of indexed items. <a href="x-devonthink://preference?key=DisableAutomaticUpdatingOfIndexedItems&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=DisableAutomaticUpdatingOfIndexedItems&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">RenderMarkdown:</span> Show Markdown documents rendered by default. <a href="x-devonthink://preference?key=RenderMarkdown&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=RenderMarkdown&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">PlainTextIsMarkdown:</span> Treat all plain text files as markdown. <a href="x-devonthink://preference?key=PlainTextIsMarkdown&amp;value=yes" target="_blank" class="weblink">On</a> | <a href="x-devonthink://preference?key=PlainTextIsMarkdown&amp;value=no" target="_blank" class="weblink">Off</a>
+</li>
+<li>
+<span class="pname">AdditionalPlainTextExtensions:</span> Set the list of additional plain text extensions, separated by dots.</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="appendix-metadata.html">&#8592; Metadata</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right" />
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

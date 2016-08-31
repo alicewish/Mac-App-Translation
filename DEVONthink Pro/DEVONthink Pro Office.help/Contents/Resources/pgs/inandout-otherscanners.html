@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>In &amp; out : Capturing paper (ScanSnap and other scanners)</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="inandout-otherscanners"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="inandout-otherscanners.html#scansnap" class="quicklinks">Using a ScanSnap or ExactScan</a>
+<br />
+<a href="inandout-otherscanners.html#unsupportedscanner" class="quicklinks">Using an unsupported scanner</a>
+<br />
+<a href="inandout-otherscanners.html#importwithocr" class="quicklinks">Importing existing files with OCR</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Capturing paper (ScanSnap and other scanners)</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>DEVONthink Pro Office also works with the <a href="http://www.fujitsu.com/us/services/computing/peripherals/scanners/scansnap" target="_blank" class="weblink">Fujitsu ScanSnap</a>, <a href="http://www.exactscan.com" target="_blank" class="weblink">ExactCode ExactScan</a>, and other scanners that are not directly supported. In addition, you can add already scanned pages to your DEVONthink Pro Office database and <a href="inandout-otherscanners.html#importwithocr">manually convert them</a> to searchable PDFs using the software's built-in OCR.</p>
+<a name="scansnap"> </a>
+<a name="_scansnap"> </a>
+<p class="subsection">Using a ScanSnap or ExactScan</p>
+<p>DEVONthink Pro Office's integration with the <a href="http://www.fujitsu.com/us/services/computing/peripherals/scanners/scansnap" target="_blank" class="weblink">Fujitsu ScanSnap</a> as well as <a href="http://www.exactscan.com" target="_blank" class="weblink">ExactCode ExactScan</a> scan software is nearly seamless.</p>
+<p>Whenever you start DEVONthink Pro Office, the application checks to see if the ScanSnap Manager or ExactScan software is installed on your Mac. If it is, DEVONthink Pro Office also checks if DEVONthink Pro Office is the default application for scanned documents. If not, DEVONthink Pro Office asks if it should change the ScanSnap Manager's or ExactScan's preferences so that all scanned files are sent to DEVONthink Pro Office when the scan is done. DEVONthink Pro Office recognizes where the incoming scans come from and runs OCR on them if necessary.</p>
+<p class="image">
+<img src="../gfx/plugins/scansnap.png" alt="" />
+</p>
+<p>If you don't want to use DEVONthink Pro Office as the default target for your scans, you can check <em>Never ask me again</em> in the dialog window, and DEVONthink Pro Office will never again ask if you want to use DEVONthink Pro Office with your scan software.</p>
+<p>
+<span class="pname">Reactivating scan software support: </span>If you change your mind and want to re-activate the ScanSnap or ExactScan support, start the Terminal application and execute the appropriate commands on one line. It is best use copy/paste as the command is case-sensitive):</p>
+<p class="sourcecode">defaults remove com.devon-technologies.thinkpro2 "ScanSnapSupport.NeverCheckForPresence"</p>
+<p class="sourcecode">defaults remove com.devon-technologies.thinkpro2 "ExactScanSupport.NeverCheckForPresence"</p>
+<p>You can, of course, also set DEVONthink Pro Office as the default application for scanned documents in the ScanSnap Manager or ExactScan at any time without that special help from DEVONthink Pro Office.</p>
+<p>
+<span class="pname">Switching off the Quick Menu option: </span>If activating ScanSnap support does not work, it may be that the <em>Quick Menu</em> is still activated in ScanSnap Manager. DEVONthink Pro Office sometimes cannot switch off this option automatically, so you need to do it manually. Check if <em>Use Quick Menu</em> is checked in <em>ScanSnap Manager's Dock menu.</em> If it is checked, uncheck it.</p>
+<a name="unsupportedscanner"> </a>
+<p class="subsection">Using an unsupported scanner</p>
+<p>You can also capture paper using an unsupported scanner and import the finished scans into DEVONthink Pro Office. To do this, use the scan application that came with your scanner or a third-party scan application. Check the scan application's preferences and look out for an option that allows you to open the finished scan with another application, e.g., an image editor. Change the default application for the scan to DEVONthink Pro Office.</p>
+<p>DEVONthink Pro Office knows the identifiers of many scan applications and will convert the incoming scan to a searchable PDF if possible. If DEVONthink Pro Office does not recognize your scan application, please create a Zip archive of the application and <a href="http://www.devontechnologies.com/redirect.php?id=contact" target="_blank" class="weblink">send it to us</a> so that we can add its identifier to a future release of DEVONthink Pro Office.</p>
+<a name="importwithocr"> </a>
+<p class="subsection">Importing existing files with OCR</p>
+<p>If you already have an archive of documents that have been scanned without OCR, or if you cannot use the Capture function for whatever reason, you can import image files while applying OCR.</p>
+<p class="image">
+<img src="../gfx/menus/capture.png" alt="" />
+</p>
+<p>To import an image file while applying OCR, choose <em>
+<a href="menus-file.html#import">File &gt; Import &gt; Image with OCR</a>
+</em>. The image will be fed through DEVONthink Pro Office's OCR engine and be imported to the database as a PDF document. If you have checked <em>Set PDF attributes</em> in the <a href="preferences-ocr.html#attributes">OCR preferences</a>, DEVONthink Pro Office will show the metadata entry window when the OCR process is completed (before the file is actually imported to the database). In the file selector, check <em>Move to Trash</em> if you want to move the file to the trash after it has been successfully imported with OCR.</p>
+<p>The date of the created document is set to the date of the original file. Thus, for archival purposes, the searchable document is identical to the original one. The modification date is set to the current date and time to reflect the addition of the searchable text layer. The keywords of the original PDF are retained and used as tags.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="inandout-imagecapture.html">&#8592; Capturing paper</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="inandout-websharing.html">Web sharing &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

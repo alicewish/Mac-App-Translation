@@ -1,0 +1,18 @@
+/* Localized Strings */
+
+"Reference" = "Literaturverweis";
+
+/* Text blocks */
+
+"vol." = "Band";
+"issue" = "Ausgabe";
+
+/* Placeholders in the text */
+
+"Click here to view reference in EndNote" = "Diesen Literaturverweis in EndNote zeigen";
+"Type here." = "Hier eingeben.";
+
+/* Error messages*/
+
+"Please open an EndNote database and make sure that an EndNote window with at least one selected reference is open. Then try again." = "Bitte öffnen Sie Ihre EndNote-Datenbank und stellen Sie sicher, dass ein Fenster geöffnet und mindestens ein Literaturverweis ausgewählt ist.";
+"An error occured when adding the reference." = "Beim Hinzufügen des Literaturverweises ist ein Fehler aufgetreten.";

@@ -1,0 +1,7 @@
+/* Localized Strings */
+
+"Reference" = "Référence";
+"Click here to view citation in Sente" = "Cliquez ici pour voir cette référence en Sente";
+"No citation identifier provided by Sente" = "Pas d'identification en Sente pour cette référence";
+"An error occured when adding the reference." = "Une erreur etait produite quand la nouvelle référence a été crée.";
+"Please select one or more references in Sente, then try again." = "S'il vous plaît, selectionné une ou plusieurs des références et utilisez cette modèle encore.";

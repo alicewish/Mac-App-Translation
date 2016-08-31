@@ -1,0 +1,23 @@
+/* Localized Strings */
+
+"Reminder" = "Wiedervorlage";
+
+"Set reminder" = "Wiedervorlage setzen";
+"Please choose when you want to get reminded of the item" = "Bitte wählen Sie, wann Sie an das Dokument";
+"%choice prompt end%" = " erinnert werden möchten";
+"No due date" = "Keine Erinnerung";
+"Tomorrow" = "Morgen";
+"In two days" = "Übermorgen";
+"In three days" = "In drei Tagen";
+"In one week" = "In einer Woche";
+"In two weeks" = "In zwei Wochen";
+"In one month" = "In einem Monat";
+"In two months" = "In zwei Monaten";
+"In three months" = "In drei Monaten";
+"In six months" = "In sechs Monaten";
+"In one year" = "In einem Jahr";
+
+"Please select a document or group, then try again." = "Bitte wählen Sie ein Dokument oder eine Gruppe aus, dann versuchen Sie es nocheinmal.";
+"Please select only one document or group, then try again." = "Bitte wählen Sie nur ein Dokument oder eine Gruppe aus, dann versuchen Sie es nocheinmal.";
+"Error when adding item to Task Paper" = "Fehler beim Hinzufügen zu Task Paper";
+"Task Paper is not available." = "Task Paper ist nicht verfügbar.";

@@ -1,0 +1,46 @@
+/*
+
+	DEVONtechnologies SUPPORT ASSISTANT
+	© 2011–2012 DEVONtechnologies, LLC
+
+	Written by Eric Böhnisch-Volkmann, Apr 7, 2011
+	Updated by Eric Böhnisch-Volkmann, Jul 26, 2012
+	
+	CSS for the welcome page
+
+*/
+
+#welcome {	 position: relative; font-size: 10pt; font-family: "Lucida Grande", Arial; color: #444; }
+
+/* MAIN STAGE */
+
+#welcome > #main
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 619px;
+	height: 411px;
+	padding: 50px;
+	border: none;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.45, white), color-stop(0.45, rgb(230, 230, 230)), color-stop(0.6, white), to(white));
+}
+
+/* The box for picture, text, and movie */
+
+#introtext { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; text-align: center; }
+#introtext > h1
+{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 24pt;
+	font-weight: normal;
+	color: #222;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 1.0)));
+	text-shadow: 0px 0px 1px #eee;
+}
+#introtext > h2 { padding-left: 160px; padding-right: 160px; font-size: 13pt; }
+#introtext > p { padding-left: 60px; padding-right: 60px; font-size: 11pt; line-height: normal; }
+#intropicture { width: 650px; height: 230px; margin-top: 60px; margin-bottom: 0px; }
+#intromovie { position: absolute; top: 71px; left: 71px; width: 576px; height: 360px; border: 1px solid #ccc; }
+p#offline { color: red; display: none; }  /* A paragraph in red that say: Offline — Sorry */

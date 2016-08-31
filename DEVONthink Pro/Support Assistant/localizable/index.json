@@ -1,0 +1,20 @@
+{
+	"strings":
+	[
+		{
+			"en":	"Oops!",
+			"fr":	"Aïe !",
+			"de":	"Autsch!"
+		},
+		{
+			"en":	"Your Mac is not connected to the Internet.",
+			"fr":	"Votre Mac n’est pas connecté à l’Internet.",
+			"de":	"Ihr Mac ist leider nicht mit dem Internet verbunden."
+		},
+		{
+			"en":	"Something went wrong.",
+			"fr":	"Quelque chose a mal tourné.",
+			"de":	"Irgendetwas ist hier schief gelaufen."
+		},
+	]
+}

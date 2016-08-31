@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+
+DEVONTECHNOLOGIES SUPPORT ASSISTANT
+© 2011–2012 DEVONtechnologies, LLC
+
+Version 2.0.3
+Written by Eric Böhnisch-Volkmann, Feb 17, 2010
+Rewritten by Eric Böhnisch-Volkmann in April 2011
+Updated by Eric Böhnisch-Volkmann, July 26, 2012
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Welcome</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/academy.css"/>
+		<link rel="stylesheet" type="text/css" href="css/scrollable.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+ 		<script type="text/javascript" src="javascript/jsapi.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery-ui.js"></script>
+		<script type="text/javascript" src="javascript/jquery.form.js"></script>
+		<script type="text/javascript" src="javascript/formvalidation.js"></script>
+		<script type="text/javascript" src="javascript/basics.js"></script>
+		<script type="text/javascript" src="javascript/localization.js"></script>
+		<script type="text/javascript" src="javascript/rss.js"></script>
+		<script type="text/javascript" src="javascript/jquery.tools.min.js"></script>
+		<script type="text/javascript">
+			
+			$(document).ready(function()
+			{
+				initLocalization("localizable/academy.json", "pageDidLoadWithLocalization");
+			});
+
+			function pageDidLoadWithLocalization()
+			{
+				localize();
+				
+				// Initialize tab navigation for tips & tutorials vs. tutorial list tabs
+				$(".tabnavigation").tabs(".tabs > div", {effect: 'fade'});
+
+				// Load feeds
+				FORM_DATA = createRequestObject();
+				$(".app").html(normalizedAppName(FORM_DATA["app"]));
+				var testflag = (FORM_DATA["test"] != undefined) ? true : false;
+				loadMaterialsFeed(RSS_SUPPORTMATERIALS, normalizedAppName(FORM_DATA["app"]), "processFeed", testflag);
+
+				// Remove elements that are only used when showing this page on the website
+				if (FORM_DATA["target"] == "online")
+				{
+					$("div.bottombar").remove();				// Remove bottom bar
+					loadResource("css/online.css", "css")	// Load online.css file with adjustments for showing this on the website
+				}
+			
+			}
+			
+			function localize()
+			{
+				$("#bottombar-home").html(localizedString("欢迎"));
+				$("#bottombar-firstlaunch").html(localizedString("安装"));
+				$("#bottombar-extras").html(localizedString("安装扩展功能"));
+				$("#bottombar-support").html(localizedString("获取支持"));
+				$("#tabnavigation-link1").html(localizedString("提示与教程") + " &#9656;");
+				$("#tabnavigation-link2").html(localizedString("所有教程") + " &#9656;");
+			}
+
+			// Load and process materials
+
+			var feed = [];
+			function processFeed(data)
+			{
+				feed = data;  // Save feed for later
+				if (feed)
+				{
+					processTips();
+					processTutorials();
+					$(".scrollable").scrollable();
+					$("div[rel], tr[rel]").overlay(
+					{
+						effect: 'default',
+						mask: {color:'#000', opacity:0.8, loadSpeed:200},
+						closeOnClick: true,
+						speed: 'slow',
+						top: 'center',
+						onLoad: overlayLoaded,  // Event handler for when an overlay is loaded
+						onBeforeClose: overlayWillClose  // Event handler for when an overlay is closed
+					});
+
+					// Scroll to selected tip or tutorial if a tipID is given
+					if (FORM_DATA["tipID"] != undefined)
+					{
+						scrollToTipOrTutorial(FORM_DATA["tipID"]);
+					}
+					
+					// Hide the activity indicator
+					$("#activityindicator").css("visibility", "hidden");
+				}
+			}
+			
+			function scrollToTipOrTutorial(tipID)
+			{
+				// Search for tip with the given ID and if found, scroll to it
+				var tipElements = $("#tips .tip");
+				for (i = 0; i < tipElements.length; i++)
+				{
+					if (tipElements[i].id == tipID)
+					{
+						$("#tips .scrollable").data("scrollable").seekTo(i, 0);
+						break;
+					}
+				}
+				
+				// Search for a tutorial with the given ID and if found, scroll to it and then open its overlay
+				var tutorialBlocks = $("#tutorials .items > div");
+				for (i = 0; i < tutorialBlocks.length; i++)  // Find the block with the tutorial with the given ID
+				{
+					var tutorialElementsInBlock = tutorialBlocks[i].children;
+					for (j = 0; j < tutorialElementsInBlock.length; j++)  // With the element with the given ID in the "rel" attribute
+					{
+						var tutorialElement = jQuery(tutorialElementsInBlock[j]);
+						if (tutorialElement.attr("rel") == ("#" + tipID))
+						{
+							$("#tutorials .scrollable").data("scrollable").seekTo(i, 0);  // Scroll to the enclosing block
+							tutorialElement.data("overlay").load();  // Open it
+							break;
+						}
+					}
+				}
+			}
+
+			function processTips()
+			{
+				var indices = indicesForCategories(feed, [RSS_CATEGORY_TIPS]);
+				if (indices.length > 0)
+				{
+					var newTip = "";
+					for (i = 0; i < indices.length; i++)
+					{
+						newTip += "<div class='tip' id='" + rssArticleUUID(feed, indices[i]) + "'>";
+						newTip += "<h1>" + rssArticleTitle(feed, indices[i]) + "</h1>";
+						var description = rssArticleDescription(feed, indices[i]);
+						description = description.replace(new RegExp("\\n", "g"), "</p><p>");
+						newTip += "<p>" + description + "</p>";
+						var url = rssArticleURL(feed, indices[i]);
+						if (url != undefined)
+						{
+							newTip += "<p class='tip-link'><a href='" + url+ "' target='blank'>" + shortenString(url, 60, true) +"</a></p>"; /* &#9656; */
+						}
+						newTip += "</div>";
+					}
+
+					// Add constructed pane to target DIV
+					$("#tips").children("div").children(".scrollable").children(".items").html(newTip);
+
+					// Work around a bug in jQuery Tools
+					if (indices.length == 1)
+					{	
+						$("#tips").find("a.browse").css("visibility", "hidden");
+					}
+				}
+			}
+
+			function processTutorials()
+			{
+				var indices = indicesForCategories(feed, [RSS_CATEGORY_VIDEOS, RSS_CATEGORY_TUTORIALS]);
+				processTutorials_Blocks(indices);
+				processTutorials_List(indices);
+			}
+			
+			function processTutorials_Blocks(indices)
+			{
+				if (indices.length > 0)
+				{
+					var newItems = "<div>";
+					var blockCounter = 0;
+					var pageCount = 1;
+					for (i = 0; i < indices.length; i++)
+					{
+						var newItem = "<div class='tutorialitem' style='background-image:url(images/icons/" + rssArticleCategory(feed, indices[i]).toLowerCase() + "-64.png)'";
+						if (rssArticleUUID(feed, indices[i]) != undefined)
+						{
+							newItem += " rel='#" + rssArticleUUID(feed, indices[i]) + "'";
+						}
+						newItem += ">";
+						newItem += "<h1>" + rssArticleTitle(feed, indices[i]) + "</h1>";
+						newItem += "<p>" + rssArticleDescription(feed, indices[i]) + "</p>";
+						newItem += "<p class='materialdateline'>" + rssArticleDate(feed, indices[i]).toLocaleDateString() + "</p>";
+						newItem += "</div>";
+						newItems += newItem;
+						
+						addOverlayForURL(rssArticleURL(feed, indices[i]), rssArticleUUID(feed, indices[i]));
+						
+						blockCounter++;
+						if (blockCounter == 3 && i < indices.length-1)
+						{
+							newItems += "</div><div>";
+							blockCounter = 0;
+							pageCount++;
+						}
+					}
+					if (blockCounter < 3)
+					{
+						for (i = 0; i < 3 - blockCounter; i++)
+						{
+							newItems += "<div class='tutorialitem' style='background-image: none;'></div>";
+						}
+					}
+					newItems += "</div>";
+
+					// Add constructed pane to target DIV
+					$("#tutorials").children("div").children(".scrollable").children(".items").html(newItems);
+					
+					// Work around a bug in jQuery Tools
+					if (indices.length <= 3)
+					{	
+						$("#tutorials").find("a.browse").css("visibility", "hidden");
+					}
+					
+					// Make DIVs visible
+					$("#tutorials").css("visibility", "visible");
+					$(".tabnavigation").css("visibility", "visible");
+				}
+				else
+				{
+					// No tutorials available for this app; add placeholder text
+					$("#tutorials").css("visibility", "hidden");
+					$(".tabnavigation").css("visibility", "hidden");
+				}
+			}
+			
+			function processTutorials_List(indices)
+			{
+				if (indices.length > 0)
+				{
+					var newItems = "<table cellpadding='0' cellspacing='0'>";
+					for (i = 0; i < indices.length; i++)
+					{
+						newItems += "<tr";
+						if (rssArticleUUID(feed, indices[i]) != undefined)
+						{
+							newItems += " rel='#" + rssArticleUUID(feed, indices[i]) + "'";
+						}
+						newItems += ">";
+						newItems += "<td id='tutoriallist-iconcell'><img src='images/icons/" + rssArticleCategory(feed, indices[i]).toLowerCase() + "-64.png' /></td>";
+						newItems += "<td id='tutoriallist-textcell'><h1>" + rssArticleTitle(feed, indices[i]) + "</h1>";
+						newItems += "<p>" + rssArticleDescription(feed, indices[i]) + "</p></td>";
+						newItems += "<td id='tutoriallist-datecell'>" + rssArticleDate(feed, indices[i]).toLocaleDateString() + "</td>";
+						newItems += "</tr>";
+					}
+					newItems += "</table>";
+				}
+				
+				$("#tutoriallist").html(newItems);
+				
+				if ($(".tutoriallist table").height() > 450)
+				{	
+					$(".tutoriallist table").css("border-bottom", "none");
+				}
+
+			}
+			
+			function addOverlayForURL(url, uuid)
+			{
+				if (url.indexOf("vimeo.com") >= 0)
+				{
+					var videoID = url.substring(url.lastIndexOf("/") + 1, url.length);
+					var overlayElement = "<div class='overlay vimeo' id='" + uuid + "' v_id='" + videoID + "'></div>";
+					$("#overlays").append(overlayElement);
+				}
+				else if (url.indexOf("tutorials") >= 0)
+				{
+					// It's an online tutorial
+					var overlayElement = "<div class='overlay' id='" + uuid + "' t_url='" + url + "'>";
+					overlayElement += "</div>";
+					$("#overlays").append(overlayElement);
+				}
+			}
+			
+			// Called by an overlay onBeforeClose event. Removes the video player iframe and so stops the video
+			function overlayWillClose(obj)
+			{
+				var overlay = this.getOverlay();
+				var videoID = $(overlay).attr("v_id");
+				var tutorialURL = $(overlay).attr("t_url");
+				if (videoID != undefined || tutorialURL != undefined)
+				{
+					$(overlay).find("iframe").remove();
+					console.log("Video or tutorial overlay has been emptied.");
+				}
+			}
+			
+			// Called by an overlay onLoad event. Adds the video player and starts playing
+			function overlayLoaded(obj)
+			{
+				var overlay = this.getOverlay();
+				var videoID = $(overlay).attr("v_id");
+				var tutorialURL = $(overlay).attr("t_url");
+				if (videoID != undefined)
+				{
+					var playerElement = "<iframe title='Vimeo video player' width='720px' height='450px' src='http://player.vimeo.com/video/" + videoID + "?title=0&byline=0&portrait=0&autoplay=1' frameborder='0' allowfullscreen></iframe>";
+					$(overlay).append(playerElement);
+					console.log("Video overlay " + videoID + " opened");
+				}
+				else if (tutorialURL != undefined)
+				{
+					var completeURL = "javascript/slideshow.html?url=" + tutorialURL + (FORM_DATA["target"] ? "&target=" + FORM_DATA["target"] : "");
+					var tutorialElement = "<iframe class='tutorial' title='Tutorial' width='750px' height='400px' src='" + completeURL + "' frameborder='0'></iframe>";
+					$(overlay).append(tutorialElement);
+					console.log("Tutorial overlay for URL " + tutorialURL + " opened");
+				}
+			}
+		</script>
+	</head>
+	
+	<!-- The actual body -->
+	
+	<body>
+	<!--<body oncontextmenu="return false;">-->
+
+		<div id="main">
+
+			<div class="tabs">
+
+				<div>
+					<img id="notepaper" src="images/misc/whiteboard.png" />
+					<img id="activityindicator" src="images/ui/progressindicator.gif" />
+					
+					<!-- Tips scrollable -->
+					<div id="tips">
+						<div>
+							<a class='prev browse left'></a>
+							<div class="scrollable">
+								<div class="items">
+									<!-- Filled programatically -->
+								</div>
+							</div>
+							<a class='next browse right'></a>
+						</div>
+					</div>
+		
+					<!-- Tutorials scrollable -->
+					<div id="tutorials" style="visibility:hidden">
+						<div>
+							<a class='prev browse left'></a>
+							<div class="scrollable">
+								<div class="items">
+									<!-- Filled programatically -->
+								</div>
+							</div>
+							<a class='next browse right'></a>
+						</div>
+					</div>
+				</div>
+
+				<div>
+					<div class="tutoriallist" id="tutoriallist">
+						<!-- Filled programmatically -->
+					</div>
+				</div>
+
+			</div>
+
+			<div class="tabnavigation" style="visibility:hidden">
+				<a href="#" id="tabnavigation-link1">提示和教程 &#9656;</a>
+				<a href="#" id="tabnavigation-link2">所有教程 &#9656;</a>
+			</div>
+
+		</div>
+
+		<div class="bottombar">
+			<p>
+				<a id="bottombar-home" href="index.html" onclick="switchTo('welcome.html'); return false;">主页</a>&emsp;|&emsp;
+				<a id="bottombar-support" href="support.html" onclick="switchTo('support.html'); return false;">获取支持</a>&emsp;|&emsp;
+				<a id="bottombar-extras" href="academy.html" onclick="switchTo('extras.html'); return false;">安装扩展</a>
+			</p>
+		</div>
+		
+		<!-- Collector DIV for all overlays -->
+		<div id="overlays">
+		</div>
+
+	</body>
+
+</html>

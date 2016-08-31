@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Troubleshooting : Repairing a defective database</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="troubleshooting-verify"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="troubleshooting-verify.html#step1" class="quicklinks">Step 1: Verify &amp; Repair</a>
+<br />
+<a href="troubleshooting-verify.html#step2" class="quicklinks">Step 2: Restore from backup</a>
+<br />
+<a href="troubleshooting-verify.html#step3" class="quicklinks">Step 3: Rebuild your database</a>
+<br />
+<a href="troubleshooting-verify.html#step4" class="quicklinks">Step 4: Time Machine or manual rescue</a>
+<br />
+<a href="troubleshooting-verify.html#step5" class="quicklinks">Step 5: Contact support</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Repairing a defective database</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>DEVONthink Pro Office databases are packages containing of your files and the supporting AI-based index. In rare cases this index can get corrupted or out-of-sync. But as your files are stored separately, this is not the end of the world. If your database starts behaving strangely, or if DEVONthink Pro Office finds inconsistencies during start-up, it is time for some housekeeping.</p>
+<a name="step1"> </a>
+<p class="subsection">Step 1: Verify &amp; Repair</p>
+<p>As a first step, use <em>
+<a href="menus-tools.html#verify">Tools &gt; Verify &amp; Repair</a>
+</em> to check your database's consistency and allow DEVONthink Pro Office to take all necessary steps to repair any discovered problems. If <em>Verify &amp; Repair</em> was able to repair your database, use <em>
+<a href="menus-tools.html#verify">Tools &gt; Backup &amp; Optimize</a>
+</em> to optimize your database and have DEVONthink Pro Office create an internal copy of the index.</p>
+<p>If <em>Verify &amp; Repair</em> was not successful or your problems are not resolved, proceed with the next step.</p>
+<a name="step2"> </a>
+<p class="subsection">Step 2: Restore from backup</p>
+<p>DEVONthink Pro Office keeps up to two copies of the index files in case that the index is damaged beyond repair. By changing the factory settings, you can change when and how many internal backups DEVONthink Pro Office keeps in the <em>
+<a href="preferences-backup.html#">Preferences, Backup tab</a>
+</em>.</p>
+<p>To restore the index file(s) from a previously saved internal backup, use <em>
+<a href="menus-tools.html#verify">Tools &gt; Restore Backup</a>
+</em> DEVONthink Pro Office presents you with a list of all available backups. Choose the latest one and click <em>Open.</em> This swaps the current set of index files with the copy (the current set of index files becomes the backup, the backup becomes the current set) so that data is never overwritten. Run <em>
+<a href="menus-tools.html#verify">Tools &gt; Verify &amp; Repair</a>
+</em> to check the consistency of this index version and if everything is in the right order <em>
+<a href="menus-tools.html#verify">Tools &gt; Backup &amp; Optimize</a>
+</em> to optimize your database and have DEVONthink Pro Office create a fresh internal copy of the good index.</p>
+<p>If the backed-up index files are also defective, try the other backups, if available. If all backups are broken or corrupted, proceed with the next step.</p>
+<a name="step3"> </a>
+<p class="subsection">Step 3: Rebuild your database</p>
+<p>Since your files and DEVONthink Pro Office's index are stored independently within the database package the index can be rebuilt at any time without you losing too much metadata. To rebuild the database from scratch, use <em>
+<a href="menus-tools.html#verify">Tools &gt; Rebuild Database</a>
+</em>. </p>
+<p>The global inbox database cannot (yet) be rebuilt using the steps above. Use the following steps to rebuild the global inbox database manually:</p>
+<ul>
+<li>Quit DEVONthink Pro Office.</li>
+<li>Move ~/Library/Application Support/DEVONthink Pro 2/Inbox.dtBase2 to the Desktop.</li>
+<li>Open the moved database by double-clicking on it</li>
+<li>Rebuild the global inbox database.</li>
+<li>Move everything from the moved database to the now empty global inbox.</li>
+<li>Quit DEVONthink Pro Office, delete the moved database.</li>
+</ul>
+<p>During the rebuild process, the complete index is re-created; your actual files are not touched. Any problems that occured during this process are <a href="windows-log.html#">logged</a>.</p>
+<p>
+<span class="pname">Orphaned files: </span>Orphaned files that could not be imported while repairing are logged and moved to the folder "Orphans" inside the database package. To access the contents of the package, show the database package in the Finder, right-click it, and choose <em>Show package contents</em> from the contextual menu. Move the files in the "Orphans" subfolder to a save location, e.g., the Desktop, or directly re-import the files by dragging them to DEVONthink Pro Office's Dock icon. Please do not change anything here except for rescuing the orphaned files.</p>
+<a name="step4"> </a>
+<p class="subsection">Step 4: Time Machine or manual rescue</p>
+<p>If everything above failed, your database is severely damaged. You have two options now:</p>
+<ul>
+<li>
+<span class="pname">Option 1:</span> Restore your database from your<a href="http://www.apple.com/macosx/what-is-macosx/time-machine.html" target="_blank" class="weblink">Time Machine</a> backup or whichever backup medium you use. If you don't use Time Machine, we strongly advise you to do so. External hard disks are cheap, and Time Machine makes backing up your important files quick and simple.</li>
+<li>
+<span class="pname">Option 2:</span> If you do not have a current backup of your documents, you can rescue your files manually, but you will lose any group structure. To manually copy your files from the defective database, show the database package in the Finder, right-click it, and choose <em>Show package contents</em> from the contextual menu. Copy the files in the "Files" subfolder, which are sorted by kind, to a save location, e.g., the Desktop. Then create a new database, re-import the files and recreate your group structure.</li>
+</ul>
+<a name="step5"> </a>
+<p class="subsection">Step 5: Contact support</p>
+<p>If none of the above steps helped solving the problems you have with your database, please <a href="http://www.devontechnologies.com/redirect.php?id=contact" target="_blank" class="weblink">contact DEVONtechnologies' support staff</a> with a precise-as-possible description of your problem.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="troubleshooting-devonthinktogo2.html">&#8592; Problems synchronizing with DEVONthink To Go 1.x</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="troubleshooting-revertmanually.html">DEVONthink Pro Office crashes when opened &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

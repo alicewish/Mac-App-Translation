@@ -1,0 +1,17 @@
+/* Localized Strings */
+
+"Event" = "Événement";
+"scheduled" = "prévu";
+"scheduled for" = "programmé pour le";
+"from" = "de";
+"Cancel" = "Annuler";
+"Looking up event in iCal" = "Rechercher l'événement en iCal";
+"Looking up event in Calendar" = "Rechercher l'événement en Calendrier";
+"Calendar: " = "Calendrier: ";
+"No event on the clipboard. Please select an event in iCal and select Edit > Copy or press Command-C to copy it to the clipboard. Then try again to use this template." = "Pas de date sur le presse-papiers. S'il vous plaît sélectionnez un événement dans iCal et sélectionnez Édition > Copier ou appuyez Commande-C pour copier-le dans le presse-papiers. Puis essayez à nouveau d'utiliser ce modèle.";
+"No event on the clipboard. Please select an event in Calendar and select Edit > Copy or press Command-C to copy it to the clipboard. Then try again to use this template." = "Pas de date sur le presse-papiers. S'il vous plaît sélectionnez un événement dans Calendrier et sélectionnez Édition > Copier ou appuyez Commande-C pour copier-le dans le presse-papiers. Puis essayez à nouveau d'utiliser ce modèle.";
+"Calendar is not open. Please open Calendar and select an event, then try again." = "Calendrier n'est pas ouvert. S'il vous plaît ouvrez Calendrier et essayez encore.";
+"iCal is not open. Please open iCal and select an event, then try again." = "iCal n'est pas ouvert. S'il vous plaît ouvrez iCal et essayez encore.";
+"Error when accessing iCal." = "Erreur accèssant iCal.";
+"Error when accessing Calendar." = "Erreur accèssant Calendrier.";
+"An error occured when adding the event" = "Une erreur etait produite";

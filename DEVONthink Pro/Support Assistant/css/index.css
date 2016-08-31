@@ -1,0 +1,16 @@
+/*
+
+	DEVONtechnologies SUPPORT ASSISTANT
+	© 2011–2012 DEVONtechnologies, LLC
+
+	Written by Eric Böhnisch-Volkmann, Apr 7, 2011
+	Updated by Eric Böhnisch-Volkmann, Jul 26, 2012
+	
+	CSS for redirects
+
+*/
+
+
+.redirect { display: table; width: 960px; height: 540px; }
+.redirect div { display: table-cell; vertical-align: middle; }
+.redirect p { width: 40%; margin: 0px auto; text-align: center; font-size: 13pt; color: #999; }

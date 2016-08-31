@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>In &amp; out : Archiving email</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="inandout-email"> </a>
+<a name="_emailarchiving"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="inandout-email.html#preparations" class="quicklinks">Preparations</a>
+<br />
+<a href="inandout-email.html#window" class="quicklinks">The Import Email window</a>
+<br />
+<a href="inandout-email.html#applemail" class="quicklinks">Importing from Apple Mail</a>
+<br />
+<a href="inandout-email.html#reply" class="quicklinks">Replying to imported messages</a>
+<br />
+<a href="inandout-email.html#toolbar" class="quicklinks">Toolbar</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Archiving email</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>The Mail import function lets you conveniently import email messages or archive complete mailboxes from your preferred email applications to your DEVONthink Pro Office database.</p>
+<p class="image">
+<img src="../gfx/plugins/archivemail.png" alt="" />
+</p>
+<p>DEVONthink Pro Office currently supports the following email applications:</p>
+<ul>
+<li>Apple Mail</li>
+<li>
+<a href="http://www.microsoft.com/mac/" target="_blank" class="weblink">Microsoft Entourage</a>
+</li>
+<li>
+<a href="http://www.microsoft.com/mac/outlook/" target="_blank" class="weblink">Microsoft Outlook 2011</a>
+</li>
+<li>
+<a href="http://www.ctmdev.com/" target="_blank" class="weblink">PowerMail 5.x and later</a>
+</li>
+<li>
+<a href="http://www.barebones.com/products/mailsmith/" target="_blank" class="weblink">BareBones Mailsmith</a>
+</li>
+<li>All email applications using standard Unix mailboxes, like <a href="http://www.mozilla.com/thunderbird/" target="_blank" class="weblink">Thunderbird</a> or <a href="http://www.collaboration-world.com/gnumail/" target="_blank" class="weblink">GNUmail</a>
+</li>
+</ul>
+<p>The imported email messages are saved in their original file format and are displayed using <a href="documents-quicklook.html#">QuickLook.</a> <a href="http://www.indev.ca" target="_blank" class="weblink">MailTags</a> metadata is preserved in the comments. In addition, the "read" and "flagged" status of email messages are transferred from Microsoft Entourage and Microsoft Outlook independently from your settings in <em>
+<a href="preferences-email.html#fonts">Preferences, Email</a>
+</em> tab.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>If you need to transfer email from an application like Outlook or Eudora to Apple Mail, take a look at <a href="http://www.hawkwings.net/plugins.htm#switch" target="_blank" class="weblink">Hawk Wings</a>. The site has hundreds of tips for Apple Mail, including a list of useful plugins and utilities.</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>Importing messages from PowerMail only captures messages, not attachments. To archive messages and their attachments, export your PowerMail mailboxes as Unix mailboxes,then import them into DEVONthink Pro Office using the standard Unix mailbox approach.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="preparations"> </a>
+<p class="subsection">Preparations</p>
+<p>DEVONthink Pro Office communicates with your email application using either AppleScript or, if you are using Apple Mail, through a special plugin that implements a direct link between Mail and DEVONthink Pro Office. If the plugin is not automatically installed <a href="x-devonthink://install-add-ons" target="_blank" class="weblink">click here</a> or select <a href="menus-application.html#addons">DEVONthink Pro Office &gt; Install Add-Ons</a> to install it.</p>
+<p>In addition to speeding up the transfer of emails from Apple Mail to DEVONthink Pro Office, the plugin inserts <a href="inandout-email.html#window">new menu commands</a> into Mail's menus that allow you to directly archive selected messages or mailboxes to your DEVONthink Pro Office database. When accessing a supported mail application via AppleScript, automatic fetching of new mail is disabled. This does not happen when you use Apple Mail with the DEVONthink Pro Office plugin installed.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>We highly recommend you install the Apple Mail plugin, as the AppleScript implementation in Apple Mail is slow. Also, due to limitations in the AppleScript interface of Mailit, it's not possible to archive complete conversations from Apple Mail without the plugin installed.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="window"> </a>
+<p class="subsection">The Import Email window</p>
+<p>Open the Import Email window from <em>
+<a href="menus-file.html#import">File &gt; Import &gt; Email</a>
+</em> menu. It is designed to match the main window of most major email applications, with a mailbox list to the left and a list of messages contained in a selected mailbox to the right.</p>
+<p>To access the mailboxes and messages stored in your email application, select your email application in the toolbar's Source pop-up menu. DEVONthink Pro Office automatically selects your default email application. (DEVONthink Pro Office will only list applications installed on your Mac that it directly supports.) If you are using an unsupported mail application that uses Unix mailboxes, like Thunderbird, choose <em>Unix mailbox</em> and locate the mailbox file you want to use.</p>
+<p>You can also drop ".mbx" or ".mbox" files onto DEVONthink Pro Office's application icon to import them, thus bypassing this window.</p>
+<p>DEVONthink Pro Office then immediately launches your email application and shows the list of available mailboxes. Select any mailbox to show its content, and use the triangles in front of the mailbox icon to expand the mailbox and see its sub-mailboxes.</p>
+<p>To import a complete mailbox, including messages, select the mailbox in the folder list, and click the <em>Archive Mailbox</em> icon in the toolbar. This imports the complete mailbox including all sub-mailboxes and recreates the mailbox hierarchy by using groups in your DEVONthink Pro Office database. To import one or multiple messages, select them in the list of messages and click the <em>Import</em> icon in the toolbar. The imported messages are placed into the <a href="appendix-glossary.html#">default destination.</a>
+</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>While importing mail, your email application is put offline temporarily. As soon as the import is complete, it will be put back online again.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<span class="pname">Import vs. Archive Mailbox: </span>If you want to archive whole mailboxes, including all sub-mailboxes, use the <em>Archive Mailbox</em> icon in the Import Mail window's toolbar. Select the mailbox that you want to archive and click the <em>Archive Mailbox</em> icon in the toolbar. DEVONthink Pro Office imports all new (!) messages of the selected mailbox and all sub-mailboxes to the <em>Email</em> group of the current database. This <em>Email</em> group is shared by all mailboxes archived.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>The option <em>Archive Mailbox</em> is not available for Unix mailbox files. If you are using IMAP, you will want to make sure that your email client is keeping a local cache of all messages, and that your IMAP mailboxes are fully synchronized to the online server before you import your messages to DEVONthink Pro Office. This will make the import more reliable and faster.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<span class="pname">Filter: </span>Change any filter settings on the right-hand side of the window to narrow down the list of messages. The following filters are available:</p>
+<ul>
+<li>Show only Read, Unread messages (by default it shows both)</li>
+<li>Show only Flagged messages</li>
+<li>Show messages marked as being high priority</li>
+<li>Show only messages in a given date range</li>
+<li>Hide messages already imported into DEVONthink Pro Office</li>
+<li>Hide deleted messages</li>
+<li>Hide messages marked as junk</li>
+</ul>
+<a name="applemail"> </a>
+<p class="subsection">Importing from Apple Mail</p>
+<p>If you are using Apple Mail, you're one step ahead of those using other mail applications. This is because the plugin that DEVONthink Pro Office installs for Apple Mail not only directly links DEVONthink Pro Office to the application, but also inserts two very convenient menu commands. These commands allow you to directly import selected messages, or complete mailboxes from Apple Mail to DEVONthink Pro Office.</p>
+<p>Alternatively you can drag messages directly from Apple Mail to DEVONthink Pro Office.</p>
+<p class="image">
+<img src="../gfx/plugins/archivemail.png" alt="" />
+</p>
+<p>To import complete mailboxes from Apple Mail to DEVONthink Pro Office, select one or more mailboxes in Apple Mail and choose <em>Mailbox &gt; Add to DEVONthink Pro Office.</em> To import one or more selected messages, choose <em>Message &gt; Add to DEVONthink Pro Office.</em> The imported messages are stored in the inbox.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>The <em>Mailbox &gt; Add to DEVONthink Pro Office</em> command imports only the selected mailbox, not its sub-mailboxes. To import mailboxes and sub-mailboxes from Apple Mail, and preserve the mailbox hierarchy, use the <a href="inandout-email.html#window">Mail Import window.</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="reply"> </a>
+<p class="subsection">Replying to imported messages</p>
+<p>To reply to an archived email message, right-click it and choose <em>
+<a href="windows-main.html#contextual">Send Reply</a>
+</em>. Choose <em>
+<a href="windows-main.html#contextual">Send by Email</a>
+</em> to email a selected document.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>Some email applications, e.g., Mozilla Thunderbird, do not support AppleScript and so DEVONthink Pro Office cannot properly create a new email with attachment. Instead, it tries to stuff as much information into a URL and send this to the application. But since a URL can only be of limited length, the data has to be trimmed. As a result, you will see the message "This is a summary of the selected record text!" instead of the quoted text in the newly created message.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="toolbar"> </a>
+<p class="subsection">Toolbar</p>
+<p>The toolbar of the Import Mail window contains the following commands:</p>
+<ul>
+<li>
+<span class="pname">Import:</span> Imports the selected messages.</li>
+<li>
+<span class="pname">Archive Mailbox:</span> Archives all (new) messages of the selected mailbox (and its sub-mailboxes) to the <em>Email</em> group of the current database. Messages already archived are skipped.</li>
+<li>
+<span class="pname">Mail Source:</span> Lists all available email applications and lets you choose the source from where you want to import.</li>
+<li>
+<span class="pname">Search:</span> Searches in the name, subject, and address fields within the selected mailbox.</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="inandout-sorter.html">&#8592; Sorter</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="inandout-imagecapture.html">Capturing paper &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

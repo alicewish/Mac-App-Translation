@@ -1,0 +1,81 @@
+{
+	"strings":
+	[
+		{
+			"en":	"Welcome to %app%",
+			"fr":	"Bienvenue dans %app%",
+			"de":	"Willkommen bei %app%",
+			"jp":	"%app% ようこそ"
+		},
+		{
+			"en":	"Step 1",
+			"fr":	"Étape 1",
+			"de":	"Schritt 1"
+		},
+		{
+			"en":	"Step 2",
+			"fr":	"Étape 2",
+			"de":	"Schritt 2"
+		},
+		{
+			"en":	"Step 3",
+			"fr":	"Étape 3",
+			"de":	"Schritt 3"
+		},
+		{
+			"en":	"Make a Database",
+			"fr":	"Créer une BDD",
+			"de":	"Neue Datenbank"
+		},
+		{
+			"en":	"Install Add-Ons",
+			"fr":	"Installer",
+			"de":	"Zusatzmodule"
+		},
+		{
+			"en":	"Customize",
+			"fr":	"Personnaliser",
+			"de":	"Einstellungen"
+		},
+		{
+			"en":	/* App name */ "stores documents in databases. An Inbox database is already waiting for you. Now make one for your documents.",
+			"fr":	"maintient les documents dans une base de données. Une base pour la boîte de réception vous attend déjà. Créez-en une maintenant pour vos documents.",
+			"de":	"speichert Dokumente in Datenbanken. Der Eingangskorb wartet bereits auf Sie. Erstellen Sie nun eine Datenbank für Ihre Arbeit."
+		},
+		{
+			"en":	"Browser extensions, scripts, and services integrate" /* … */,
+			"fr":	"Extensions de navigateur, scripts et services intègrent",
+			"de":	"Browsererweiterungen, Skripte und Dienste integrieren"
+		},
+		{
+			"en":	/* … App name */ "with the rest of your Mac. No need to install all of them.",
+			"fr":	"avec le reste de votre Mac. Pas besoin de tous les installer.",
+			"de":	"mit anderen Programmen. Installieren Sie nur, was Sie brauchen."
+		},
+		{
+			"en":	/* App name */ "is highy customizable and adapts to your personal workflow. Adjust the preferences to fit your needs.",
+			"fr":	"est hautement personnalisable et s’adapte à votre routine de travail personnelle. Ajustez les préférences selon vos besoins.",
+			"de":	"passt sich Ihren Anforderungen flexibel an. Richten Sie seine Einstellungen entsprechend Ihrer persönlichen Arbeitsweise ein."
+		},
+		{
+			"en":	"Create a new database",
+			"fr":	"Créer une nouvelle BDD",
+			"de":	"Datenbank jetzt erstellen"
+		},
+		{
+			"en":	"Install the add-ons",
+			"fr":	"Installer les modules add.",
+			"de":	"Zusatzmodule installieren"
+		},
+		{
+			"en":	"Open Preferences",
+			"fr":	"Ouvrir les préférences",
+			"de":	"Voreinstellungen öffnen"
+		},
+		{
+			"en":	"Done!",
+			"fr":	"Terminé !",
+			"de":	"Fertig!"
+		}
+	]
+}

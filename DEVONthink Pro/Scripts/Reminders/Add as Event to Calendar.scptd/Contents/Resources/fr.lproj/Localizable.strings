@@ -1,0 +1,22 @@
+﻿/* Localized Strings */
+
+"Reminder" = "Rappel";
+
+"Set reminder" = "Programmer le rappel";
+"Please choose when you want to get reminded of the item" = "S'il vous plaît choisissez le moment de vous rappeler du document";
+"%choice prompt end%" = "%choice prompt end%";
+"Tomorrow" = "Demain";
+"In two days" = "Dans deux jours";
+"In three days" = "Dans trois jours";
+"In one week" = "Dans une semaine";
+"In two weeks" = "Dans deux semaines";
+"In one month" = "Dans un mois";
+"In two months" = "Dans deux mois";
+"In three months" = "Dans trois mois";
+"In six months" = "Dans six mois";
+"In one year" = "Dans un an";
+
+"Please select a document or group, then try again." = "Veuillez sélectionner un document ou un groupe, puis essayez à nouveau.";
+"Please select only one document or group, then try again." = "Veuillez sélectionner un seul document ou groupe, puis essayez à nouveau.";
+"Error when adding item to iCal" = "Erreur lors de l'ajout d'un élément à iCal.";
+"Please set up at least one calendar in iCal." = "S'il vous plaît créez au moins un calendrier dans iCal.";

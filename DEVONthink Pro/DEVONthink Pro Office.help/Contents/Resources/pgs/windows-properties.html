@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Windows &amp; panels : Database Properties</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="windows-properties"> </a>
+<a name="_databaseproperties"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="windows-properties.html#location" class="quicklinks">Location</a>
+<br />
+<a href="windows-properties.html#statistics" class="quicklinks">Statistics</a>
+<br />
+<a href="windows-properties.html#name" class="quicklinks">Name and comments</a>
+<br />
+<a href="windows-properties.html#protection" class="quicklinks">Protection</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Database Properties</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>The <em>Database Properties</em> panel defines preferences which are directly related to the database and not to the application in general. Open the properties panel using <em>
+<a href="menus-file.html#">File &gt; Database Properties</a>
+</em> for every open database including the global inbox.</p>
+<p class="image">
+<img src="../gfx/windows/databaseproperties.png" alt="" />
+</p>
+<a name="location"> </a>
+<p class="subsection">Location</p>
+<p>This section of the properties panel shows the location of the database package and any additional options:</p>
+<p>
+<span class="pname">Location: </span>Double-click any part of the database location to reveal it in the Finder.</p>
+<p>
+<span class="pname">Create Spotlight Index: </span>Check to make this database available to Spotlight. Checking this option lets DEVONthink Pro Office create a folder in "~/Library/Cache/Metadata" that Spotlight uses for accessing the documents in the database. If you ever feel that this folder is out-of-sync with the database, click <em>Rebuild</em> to recreate this folder from scratch.</p>
+<p>When viewing Spotlight results in a window, make sure to have the <em>Show all file extensions</em> option in Finder's <em>Preferences, Advanced tab</em> unchecked. If this option is checked, the Finder displays the generic names of the metadata cache files instead of the name of the referenced document.</p>
+<p>Starting with version 2.0.6, DEVONthink Pro Office adds information to the Spotlight metadata that makes it possible to preview many file types directly from the Spotlight results window. Supported are text and rich text (RTF and RTFD), image, movie, audio, PDF, HTML, XML, and web archive files. DEVONthink Pro Office needs to be installed on the machine viewing the Spotlight results. You may need to rebuild the Spotlight index to activate this function.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>Rebuilding the Spotlight index can become necessary after copying a database from one computer to another or after using a third-party utility like <a href="http://www.woodenbrain.com/index-sw.html" target="_blank" class="weblink">DevonSync</a>.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<span class="pname">Share Database: </span>Check to make this database is searchable and browsable through the <a href="inandout-websharing.html#">web server</a>.</p>
+<p>
+<span class="pname">Read only: </span>Check to share this database through the <a href="inandout-websharing.html#">web server</a> as read-only, and to prevent visitors from modifying or deleting your documents.</p>
+<p>
+<span class="pname">Exclude Groups from Tagging: </span>Excludes all groups in this database from being used as tags. Ordinary tags can always be added to items using the Tag bar.</p>
+<a name="statistics"> </a>
+<p class="subsection">Statistics</p>
+<p>This section displays some basic statistics about how many documents your database contains, file sizes, etc.</p>
+<a name="name"> </a>
+<p class="subsection">Name and comments</p>
+<p>
+<span class="pname">Name: </span>Enter a name for your database here. It will appear in the title bar of every <a href="windows-main.html#">main window</a> of this database.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>This does not change the file name for the database package. You cannot change the name of or add commments to the database representing the global inbox.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<span class="pname">Comments: </span>Enter your own comments about the database here, e.g., a project description.</p>
+<a name="protection"> </a>
+<p class="subsection">Protection</p>
+<p>To prevent other people from opening DEVONthink Pro Office and accessing your data, click on the <em>padlock button</em> to unlock the entry fields, enter a user name and password, and then click on the <em>padlock button</em> again to lock your changes and hide the password.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>This is a simple password protection. DEVONthink Pro Office does not yet provide file encryption for enhanced security. For better protection, create an encrypted disk image using Disk Utility and store your database on that encrypted volume or disk.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="windows-preferences.html">&#8592; Preferences</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="windows-assistant.html">Assistant &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

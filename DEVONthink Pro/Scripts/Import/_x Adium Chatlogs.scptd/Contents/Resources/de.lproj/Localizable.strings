@@ -1,0 +1,32 @@
+/* Localized Strings */
+
+/* Progress Indicator Messages */
+
+"Converting chat with" =			"Konvertiere Chat mit";
+"Converting" =						"Konvertiere";
+"Importing from Adium" =			"Importiere von Adium";
+"Importing converted chatlogs" =	"Importiere konvertierte Chatlogs";
+"Deleting old chatlogs" =			"Lösche alte Chatlogs";
+
+/* Error Messages */
+
+"Chat log" = "Chatlog";
+"in old .AdiumHTMLLog format. Only copied, not converted." = "im alten .AdiumHTMLLog-Dateiformat. Nur kopiert, nicht konvertiert.";
+"not converted. Bad XML code." = "nicht konvertiert. XML-Format defekt.";
+"not converted." = "nicht konvertiert.";
+
+"Adium does not seem to be installed." = "Adium scheint nicht installiert zu sein.";
+"The folder ~/Library/Application Support/Adium 2.0 does not exist. Install and run Adium to use this function." = "Der Ordner ~/Library/Application Support/Adium 2.0 ist nicht vorhanden. Bitte installieren und öffnen Sie Adium, um diese Funktion verwenden zu können.";
+
+"No database is currently open." = "Es ist keine Datenbank geöffnet.";
+"Conversion failed." = "Konvertierung fehlgeschlagen.";
+"Import failed." = "Import fehlgeschlagen.";
+"Deleting failed." = "Löschen fehlgeschlagen.";
+
+"Do you want to delete the original chatlogs after importing?" = "Möchten Sie die Originaldateien der Chatlogs nach dem Importieren löschen?";
+
+/* Alert Dialog Buttons */
+
+"Cancel" =	"Abbrechen";
+"Yes" =		"Ja";
+"No" =		"Nein";

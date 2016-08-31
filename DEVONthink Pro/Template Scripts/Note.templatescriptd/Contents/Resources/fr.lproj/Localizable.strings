@@ -1,0 +1,6 @@
+/* Localized Strings */
+
+"Note" = "Note";
+"Type your note here." = "Entrez votre note ici.";
+"Link 1: " = "Lien 1: ";
+"An error occured when adding the note." = "Une erreur etait produite quand la nouvelle note a été crée.";

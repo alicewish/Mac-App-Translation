@@ -1,0 +1,21 @@
+/* Localized Strings */
+
+"New Project" = "Neues Projekt";
+"About this project" = "Über dieses Projekt";
+
+/* UI strings */
+"Please enter a name for this project" = "Bitte geben Sie einen Namen für dieses Projekt ein";
+"Cancel" = "Abbrechen";
+"OK" = "OK";
+
+/* Template strings */
+"Type your name here" = "Ihr Name";
+"my@email.com" = "my@email.de";
+"Type dept. name here" = "Ihre Abteilung";
+"123-456-7890" = "0711-1234567";
+
+/* Error messages */
+"An error occured when creating the new project structure" = "Beim Erstellen der neuen Projektstruktur ist ein Fehler aufgetreten";
+"An error occured when accessing the address book." = "Beim Zugriff auf das Adressbuch ist ein Fehler aufgetreten.";
+"An error occured when accessing your Contacts card." = "Beim Zugriff auf Ihre Visitenkarte ist ein Fehler aufgetreten.";
+"Please select your address card in Contacts and mark it as your card (via the menu command Card > Make This My Card). Then try again to use this template." = "Bitte wählen Sie Ihre Visitenkarte im Programm Kontakte und markieren Sie sie als Ihre Karte (mit dem Menübefehl Visitenkarte > Dies ist meine Visitenkarte). Versuchen Sie dann noch einmal, diese Vorlage zu benutzen.";

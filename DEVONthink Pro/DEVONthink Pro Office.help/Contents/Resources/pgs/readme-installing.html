@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Read me : Installing, updating, uninstalling</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="readme-installing"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="readme-installing.html#installing" class="quicklinks">Installing and updating</a>
+<br />
+<a href="readme-installing.html#upgrading" class="quicklinks">Upgrading to DEVONthink Pro (Office)</a>
+<br />
+<a href="readme-installing.html#downgrading" class="quicklinks">Downgrading to DEVONthink Personal</a>
+<br />
+<a href="readme-installing.html#removing" class="quicklinks">Uninstalling</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Installing, updating, uninstalling</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>The following procedures do not apply when you have purchased DEVONthink Pro Office on the Mac App Store. Installing, updating, and uninstalling are handled by the App Store application in this case.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="installing"> </a>
+<p class="subsection">Installing and updating</p>
+<p>Move the DEVONthink Pro Office application package to the Applications folder or any preferred directory. Please note that Mac OS X Services and the connection to <a href="otherproducts-devonagent.html#">DEVONagent</a> work only for applications installed into the Applications folder, and that logout and login or a restart is required after installation.</p>
+<p>To update an existing version of DEVONthink Pro Office, simply copy the application package from the disk image to your Applications folder, replacing the old version. Your database(s) will not be affected. If you purchased DEVONthink Pro Office in the Mac App Store you can also download the update from the <a href="http://www.devontechnologies.com" target="_blank" class="weblink">DEVONtechnologies website</a>. It will retrieve the existing receipt and accept it as valid license.</p>
+<a name="upgrading"> </a>
+<p class="subsection">Upgrading to DEVONthink Pro (Office)</p>
+<p>When upgrading from DEVONthink Personal to DEVONthink Pro, the application will copy your existing DEVONthink Personal database to your documents folder ('~/Documents/DEVONthink.dtBase2').</p>
+<p>If this fails to occur automatically, do the following: 1) Copy the complete folder "~/Library/Application Support/DEVONthink 2" to your Desktop, and 2) Rename the folder and add the filename suffix, ".dtBase2" (without quotes). The folder has now become a DEVONthink Pro Office database icon, which you can double-click.</p>
+<p>If your old database was created by DEVONthink Personal 1.x, it will be the folder named "DEVONthink" at "~/Library/Application Support/". Follow the instructions as above, but in this case use the filename suffix ".dtBase" (no quotes, but case is important). The folder has now become a DEVONthink Pro Office 1.x database. From DEVONthink Pro Office choose <em>
+<a href="menus-file.html#new">File &gt; Open Database</a>
+</em> and select the resulting database file. You will be offered the opportunity to convert the database to a new DEVONthink Pro Office 2.x database. Choose "Accept," and you now have a converted DEVONthink Pro Office 2.x database.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>We don't recommend installing both DEVONthink Personal and DEVONthink Pro on the same machine. Among the reasons why: Both applications use the same Services menu shortcuts, and Mac OS X would assign the shortcuts sometimes to DEVONthink Personal, other times to DEVONthink Pro. And <a href="otherproducts-devonagent.html#">DEVONagent</a> stores contents in DEVONthink Pro if it's available, which means contents would not be stored in DEVONthink Personal.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="downgrading"> </a>
+<p class="subsection">Downgrading to DEVONthink Personal</p>
+<p>If you want to downgrade from DEVONthink Pro to Personal, copy the database you want to use to "~/Library/Application Support" and rename it to "DEVONthink", removing the file name extension ".dtBase2". The database package becomes a regular folder and will now be used by DEVONthink Personal.</p>
+<a name="removing"> </a>
+<p class="subsection">Uninstalling</p>
+<p>To remove (uninstall) DEVONthink Pro Office completely from your Mac, trash the following files and folders (~ stands for your Home folder):</p>
+<ul>
+<li>DEVONthink Pro Office</li>
+<li>~/Library/Application Support/DEVONthink Pro 2</li>
+<li>~/Library/Mail/Bundles/DEVONMailConduit.mailbundle</li>
+<li>~/Library/Preferences/com.devon-technologies.thinkpro.*</li>
+<li>All DEVONthink Pro Office-specific scripts in ~/Library/Scripts/</li>
+<li>All DEVONthink Pro Office-specific workflows in ~/Library/Workflows/</li>
+<li>All DEVONthink Pro Office-specific scripts in ~/Library/PDF Services/</li>
+<li>Dashboard widgets</li>
+<li>Bookmarklets from your web browser</li>
+<li>The reference to the global inbox folder in your Finder's sidebar</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="readme-requirements.html">&#8592; System requirements</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="readme-whatsnew.html">Version history &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

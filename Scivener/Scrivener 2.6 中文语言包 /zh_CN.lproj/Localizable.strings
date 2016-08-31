@@ -1,0 +1,1197 @@
+/* 
+Scrivener 2.6 for Mac
+翻译：scomper
+twitter：@scomper
+ */
+ 
+/* 菜单部分的 */
+"New %@" = "新建%@";
+
+"Registration..." = "注册...";
+
+"Check for Updates..." = "检查更新...";
+
+"Scrivenings" = "层叠模式";
+
+"Document" = "文档";
+
+"Corkboard" = "软木板";
+
+"corkboard" = "软木板";
+
+"Outline" = "大纲";
+
+"Select with Subdocuments" = "选择并包含子组";
+
+"Select Current Text" = "选择当前文本";
+
+"Spelling and Grammar" = "拼写与检查";
+
+"No Bookmarks" = "没有书签";
+
+"Enter Composition Mode" = "进入写作模式";
+
+"Select %@" = "选择 %@";
+
+"Play Media File" = "播放媒体文件";
+
+"Stop Media File" = "停止媒体文件";
+
+"Lock Group View Mode" = "组模式锁定";
+
+"Favorites" = "收藏夹";
+
+"Editor" = "编辑器";
+
+"Other Editor" = "其他编辑器";
+
+"Top Editor Only" = "上方编辑器";
+
+"Bottom Editor Only" = "下方编辑器";
+
+"Supporting Editor" = "支持编辑器";
+
+"Search Results" = "搜索结果";
+
+"Set Selection As Templates Folder" = "设定为模板文件夹";
+
+"Clear Templates Folder" = "清除模板文件夹";
+
+"No templates folder set for project" = "项目中没有设置模板文件夹";
+
+"With Compilable Subdocuments" = "可编译输出的子文档";
+
+"Auto-Generate Synopsis" = "自动生成摘要";
+
+"Auto-Generate Synopses" = "自动生成摘要";
+
+"Send Synopsis to Main Text" = "发送摘要到正文";
+
+"Send Synopses to Main Text" = "发送摘要到正文";
+
+"to Folder" = "为文件夹";
+
+"to File" = "为文件";
+
+"Web Page to Text" = "网页为文本";
+
+"Take Snapshot" = "创建快照";
+
+"Take Snapshot With Title" = "创建包含标题的快照";
+
+"Remove Color" = "移除颜色";
+
+"Screenplay" = "电影剧本";
+
+"Script Mode" = "剧本模式";
+
+"Remove Current Revision Color" = "移除当前修订颜色";
+
+"Remove All Revisions" = "移除全部修订颜色";
+
+"Save Icon as File..." = "保存图标为文件...";
+
+"Project Templates" = "项目模板";
+
+"Synopsis" = "摘要";
+
+"Use %@ Color In" ="使用 %@ 颜色到";
+
+"Title" = "标题";
+
+"and Synopsis" = "和摘要";
+
+"with Icons" = "和图标";
+
+
+"Created Date" = "创建日期";
+
+"Modified Date" = "修改日期";
+
+"Word Count" = "单词计数";
+
+"Character Count" = "字符计数";
+
+"Total Word Count" = "单词总数";
+
+"Total Character Count" = "字符总数";
+
+"Include in Compile" = "包括在编译";
+
+"Page Break Before" = "段前分页";
+
+"Compile As-Is" = "原样编译";
+
+"Title and Synopsis" = "标题和摘要";
+
+"Target" = "目标";
+
+"Target Type" = "目标类型";
+
+"Progress" = "进度";
+
+"Total Target" = "总目标";
+
+"Total Progress" = "总进度";
+
+"Annotation" = "注释";
+
+"Select Annotation" = "选择注释";
+
+"in %@" = "使用 %@";
+
+"Take Snapshots of Selected Documents" = "为选择的文档创建快照";
+
+"Take Titled Snapshots of Selected Documents" = "为选择的文档创建带标题的快照";
+
+"Auto-Generate Title" = "自动生成标题";
+
+"Convert Web Page to Text" = "转换网页为文本";
+
+
+"Append \".%@\" extension" = "附加扩展名 \".%@\"";
+
+
+"Append \".txt\" extension." = "附加扩展名 \".txt\".";
+
+
+"Append Clipping" = "附加到剪贴板";
+
+
+"Append clippings service" = "附加到剪贴服务";
+
+
+"Append selection" = "附加选择内容";
+
+
+"Append selection failed." = "附加选区失败.";
+
+
+"Append Selection to Document" = "附加选择内容到文档";
+
+
+"Append Synopses to Main Text" = "附加摘要到正文";
+
+
+"Append Synopsis to Main Text" = "附加摘要到正文";
+
+
+"Append Text To" = "附加文本到";
+
+"Export to this format does not support all text features (e.g. images)." = "导出为此格式并不能支持所有的文本特性(例如图像)";
+
+"Closed QuickReference Panels" = "最近关闭的快速参考面板";
+
+/*  右键菜单 */
+"Bottom Editor" = "下方编辑器";
+
+"Top Editor" = "上方编辑器";
+
+"Left Editor" = "左侧编辑器";
+
+"Right Editor" = "右侧编辑器";
+
+"Left Editor Only" = "左侧编辑器";
+
+"Right Editor Only" = "右侧编辑器";
+
+"Reset Icon to Default" = "重设图标为默认";
+
+"Convert to Folder" = "转为文件夹";
+
+"Convert to File" = "转为文件";
+
+"Recent" = "最近访问";
+
+"Manage Icons..." = "管理图标...";
+
+"Look Up" = "查找";
+
+"Cut" = "剪切";
+
+"Copy" = "复制";
+
+"Paste" = "粘贴";
+
+"Save As Picture..." = "另存图片为...";
+
+"Scale Image..." = "缩放图片...";
+
+"Paste and Match Style" = "粘贴并匹配样式";
+
+"Split at Selection" = "自选择处切分";
+
+"Split with Selection as Title" = "切分并选择内容为标题";
+
+"Set Selected Text as Title" = "设置选择内容为标题";
+
+"Add Selection to Auto-Complete List" = "添加选择到自动完成列表";
+
+"Scrivener Link" = "Scrivener 链接";
+
+"Open Scrivener Link in" = "打开 Scrivener 链接于";
+
+"Update Links to Use Target Titles" = "用目标标题更新链接";
+
+"Suggestions" = "建议";
+
+"Current Editor" = "当前编辑器";
+
+"QuickReference Panel" = "快速参考面板";
+
+"Text Color" = "文本颜色";
+
+"Highlight Color" = "高亮颜色";
+
+"Apply Formatting Preset" = "应用预设格式";
+
+"Font" = "字体";
+
+"Speech" = "语音";
+
+"Writing Tools" = "写作工具";
+
+"New Collection" = "新建档案集";
+
+"Share" = "共享";
+
+"New..." = "新建...";
+
+"New Link..." = "新建链接...";
+
+"Start Speaking" = "开始朗读";
+
+"Stop Speaking" = "停止朗读";
+
+"Check Document Now" = "立即检查文档";
+
+"Look Up in Dictionary and Thesaurus" = "查找字典和词典";
+
+"Search in Spotlight" = "在 Spotlight 中搜索";
+
+"Search in Google" = "在 Google 中搜索";
+
+"Search in Wikipedia" = "在 Wikipedia 中搜索";
+
+"Bold" = "粗体";
+
+"Italic" = "斜体";
+
+"Underline" = "下划线";
+
+"Strikethrough" = "删除线";
+
+"Words" = "单词数";
+
+"Chars" = "字符数";
+
+"Open Link" = "打开链接";
+
+"Copy Link" = "复制链接";
+
+"Link to Document" = "链接到文档";
+
+"Open Document Link in" = "打开文档链接 使用";
+
+"Remove Link" = "移除链接";
+
+"Compilable Subdocuments" = "编译子文档";
+
+"Add Rows Above" = "在上面添加行";
+
+"Add Rows Below" = "在下面添加行";
+
+"Delete Rows" = "删除行";
+
+"Add Row Above" = "在上面添加行";
+
+"Add Row Below" = "在下面添加行";
+
+"Add Column Before" = "在前面添加列";
+
+"Add Column After" = "在后面添加列";
+
+"Delete Column" = "删除列";
+
+"Delete Row" = "删除行";
+
+"Borders" = "边框";
+
+"Table..." = "表格...";
+
+"Remove Table" = "移除表格";
+
+"Remove All Borders" = "移除全部边框";
+
+"Remove Vertical Borders" = "移除垂直边框";
+
+"Remove Horizontal Borders" = "移除水平边框";
+
+"Remove Left Border" = "移除左边边框";
+
+"Remove Right Border" = "移除右边边框";
+
+"Remove Top Border" = "移除顶部边框";
+
+"Remove Bottom Border" = "移除底部边框";
+
+"Distribute Rows Evenly" = "平均分布各行";
+
+"Distribute Columns Evenly" = "平均分布各列";
+
+
+/* 工具栏 */
+"Binder" = "文件栏";
+
+"Layouts" = "布局";
+
+"Scratch Pad" = "便签本";
+
+"Web Page" = "网页";
+
+"Move to Trash" = "移到废纸篓";
+
+"Expand all" = "全部展开";
+
+"Collapse all" = "全部收缩";
+
+"Find Synopsis" = "查找摘要";
+
+"Mode" = "模式";
+
+"Move Up" = "上移";
+
+"Move Down" = "下移";
+
+"Move Left" = "左移";
+
+"Move Right" = "右移";
+
+"Settings" = "设置";
+
+"Format Bar" = "格式栏";
+
+"QuickReference" = "快速参考";
+
+"Inline Footnote" = "行内脚注";
+
+"Script" = "剧本";
+
+"Open Externally" = "从外部打开";
+
+"Toggle Ruler" = "标尺";
+
+"Typewriter" = "打字机";
+
+"Spelling" = "拼写";
+
+"Dictionary" = "字典";
+
+"Print" = "打印";
+
+"Fonts" = "字体";
+
+"Colors" = "颜色";
+
+"Copy Format" = "复制格式";
+
+"Paste Format" = "粘贴格式";
+
+"Bigger" = "增大";
+
+"Smaller" = "减小";
+
+"Subscript" = "下标";
+
+"Superscript" = "上标";
+
+"Table" = "表格";
+
+"Invisibles" = "不可见元素";
+
+"Snapshot" = "快照";
+
+"Titled Snapshot" = "带标题快照";
+
+"Statistics" = "统计";
+
+"Text Stats" = "文本统计";
+
+"Project Replace" = "项目替换";
+
+"Back Up To" = "备份到";
+
+"Back Up Now" = "立即备份";
+
+"Back Up" = "备份";
+
+"Customize" = "自定义";
+
+"Appearance" = "外观";
+
+"Compose" = "写作模式";
+
+"Navigation" = "导航";
+
+"Corrections" = "自动改正";
+
+"Import/Export" = "导入/导出";
+
+"Import" = "导入";
+
+"Export" = "导出";
+
+"Backup" = "备份";
+
+"Collections" = "档案集";
+
+"Add" = "新增";
+
+"Trash" = "废纸篓";
+
+"Keywords" = "关键词";
+
+"QuickRef" = "快速参考";
+
+"Footnote" = "脚注";
+
+"Comment" = "批注";
+
+"Wrap" = "切换";
+
+"Compile" = "编译";
+
+"Group Mode" = "群组模式";
+
+"View Mode" = "视图模式";
+
+"Search" = "搜索";
+
+"Search " = "搜索 ";
+
+"Inspector" = "检查器";
+
+"Text" = "文本";
+
+"Folder" = "文件夹";
+
+"Notes" = "笔记";
+
+"Reset" = "重设";
+
+"Edit..." = "编辑...";
+
+/*  偏好面板 */
+"General" = "通用";
+
+"Sharing" = "分享";
+
+"Automatically check for updates:" = "自动更新检查周期:";
+
+"Automatic Quit" = "自动退出";
+
+"Themes" = "主题";
+
+"Options" = "选项";
+
+"Formatting" = "格式化";
+
+"Revisions" = "修订";
+
+"Outliner" = "大纲视图";
+
+"Index Cards" = "索引卡";
+
+"Main Editor" = "主编辑器";
+
+"Page View" = "页面视图";
+
+"Textual Marks" = "文本标记";
+
+"Startup" = "启动";
+
+"Saving" = "保存";
+
+"Services" = "服务";
+
+"Citations" = "引文";
+
+"Separators" = "分隔符";
+
+"Warnings" = "警告";
+
+"Editing" = "编辑";
+
+"Sync" = "同步";
+
+"Behaviors" = "行为";
+
+"Folders & Files" = "文件夹 & 文件";
+
+"References & Links" = "参考引用 & 链接";
+
+"Composition Mode" = "写作模式";
+
+"Playback" = "回放";
+
+"Dragging & Dropping" = "拖拽";
+
+"Double-Clicking" = "双击";
+
+"Return Key" = "Return 键";
+
+"General Interface" = "通用界面";
+
+"Snapshots" = "快照";
+
+"Target Progress Bars" = "目标进度条";
+
+"Full Screen" = "全屏";
+
+"Auto-Correction" = "自动改正";
+
+"Import & Export" = "导入 & 导出";
+
+"Merged documents" = "合并的文档";
+
+"Defaults" = "默认";
+
+
+ /*编译面板 */
+"Layout" = "布局";
+
+"Contents" = "内容";
+
+"Cancel" = "取消";
+
+"Cover" = "封面";
+
+"Insert page break before text documents with subdocuments" = "在文本文档的子文档之前插入分页符";
+
+"Insert section break before text documents with subdocuments" = "在文本文档的子文档之前插入分节符";
+
+
+"Print Settings" = "打印设置";
+
+"Some fonts may be substituted during conversion." = "某些字体可能在转换过程中被取代.";
+
+"Title Adjustments" = "标题调整";
+
+"Page break" = "分页符";
+
+"Transformations" = "转换";
+
+"Convert em-dashes to double hyphens" = "转换破折号为双横线";
+
+"PDF Settings" = "PDF 设置";
+
+"Replacements" = "替换";
+
+"Tables" = "表格";
+
+"Title Page Meta-Data" = "标题页元数据";
+
+"Script Settings" = "剧本设置";
+
+"Meta-Data" = "元数据";
+
+"Page Settings" = "页面设置";
+
+"Section break" = "分节符";
+
+"Chapter break" = "章分隔";
+
+"Footnotes/Comments" = "脚注/批注";
+
+"Footnotes & Comments" = "脚注 & 批注";
+
+"HTML Settings" = "HTML设置";
+
+"Choose..." = "选择...";
+
+"Choose KindleGen Path" = "选择 KindleGen 路径";
+
+"Quick Font Override" = "字体覆盖";
+
+"File Conversion Warning" = "文件转换警告";
+
+"RTF Compatibility Options" = "RTF 兼容性选项";
+
+"RTF Compatibility" = "RTF 兼容性";
+
+"Note that for this format, footnotes will become endnotes when compiled." = "注意，此格式在编译时脚注会成为尾注.";
+
+"Documents with" = "文档的";
+
+"To export to the Kindle format, you need to install KindleGen, a free tool from Amazon. To do so, follow the link below and download and install KindleGen to your hard drive. Once KindleGen is installed, click on \"Choose...\" to tell Scrivener where it is located." = "若要导出 Kindle 格式首先需要安装 KindleGen,作为免费工具你可以从亚马逊网站获取.请单击下面的链接下载 KindleGen 并安装到您的硬盘上.安装完成后,请单击\"选择...\"让Scrivener知道它所在的位置.";
+
+"Change..." = "改变...";
+
+"KindleGen Installed" = "KindleGen 已安装";
+
+"KindleGen requires access to /private/tmp to create files. Please click on \"Confirm\" to grant access." = "KindleGen 需要访问 /private/tmp 来创建文件. 请点击 \"确认\" 允许它的访问.";
+
+"KindleGen, the tool from Amazon that enables Scrivener to export to a Kindle-compatible format, is installed. If for some reason you need to choose a different version of the KindleGen file your system, you can do so by clicking on \"Change...\" below." = "安装 KindleGen 后，Scrivener就能输出Kindle兼容的格式,如果由于某种原因需要选择不同版本的KindleGen,点击下面的\"改变...\" .";
+
+"Compatibility" = "兼容性";
+
+"LaTeX Options" = "LaTex 选项";
+
+"Convert em-dashes to triple hyphens" = "转换破折号为三短横";
+
+"Custom" = "自定义";
+
+"Manage Compile Format Presets..." = "管理预设编译格式...";
+
+"Margin comments" = "页边批注";
+
+"This will let Scrivener perform common auto-population tasks such as automatically adding your name and address to title pages. To change this setting, open System Preferences and choose Security & Privacy." = "决定是否允许Scrivener完成通常的自动布局任务，如自动将您的姓名和地址添加到标题页。要更改此设置，打开系统偏好设置，然后选择“安全性与隐私”。";
+
+
+/* Simplenote 同步*/
+"Project keyword:" = "项目关键词:"; 
+
+"Change Settings" = "改变设置";
+
+"Continue" = "继续";
+
+"Go Back" = "返回";
+
+"OK" = "确认";
+
+"Save" = "保存";
+
+/* 目标 */
+"Target" = "目标";
+
+"Targets" = "目标";
+
+"Deadline" = "截止日期";
+
+"Edit" = "编辑";
+
+"Apply" = "应用";
+
+/* 便笺本 */
+
+"Import as Subdocument of" = "作为子文档导入到";
+
+/* 检查器 */
+"Project Notes" = "项目笔记"; 
+
+"Compare" = "比较"; 
+
+
+/* 预设格式 */
+"Redefine style:" = "重定义样式";
+
+/* 快照 */
+"Original" = "原稿";
+
+"Yes" = "是";
+
+"No" = "否";
+
+"Take Snapshot Before Rolling Back?" = "回滚前创建快照吗？"; 
+
+"Rolling back to a different version of the document '%@' will cause the current version to be lost. To avoid this, would you like to take a snapshot of the current version before rolling back?" = "回滚“% @”文档到不同的版本将导致当前版本丢失.为了避免这种情况,回滚操作前你想为当前版本创建一个快照吗?";
+
+"Roll Back" = "回滚";
+
+/* 备份 */
+
+
+"Backing up original project..." = "备份原始项目...";
+
+"Backing up project to %@" = "备份项目到 %@";
+
+"For end-of-page footnote support, choose \"Proofing\" under \"Print Settings\"." = "页尾的脚注支持,选择“打印设置”下的“打样”.";
+
+"Page padding: " = "页边距: ";
+
+"Authenticating..." = "验证中...";
+
+
+"Downloading note %i of %i..." = "正在下载笔记 %1$i  之 %2$i...";
+
+"Downloading" = "正在下载";
+
+"Syncing %i of %i" = "正在同步 %1$i 之 %2$i";
+
+"Syncing note %i of %i..." = "正在同步笔记 %1$i 之 %2$i...";
+
+"Syncing note..." = "同步笔记...";
+
+"Syncing..." = "正在同步...";
+
+
+/* 其他 */
+"  and Synopsis" = "  和摘要";
+
+
+"  with Icons" = "  和图标";
+
+
+" (%@ %@ left to excise)" = " (清除 %1$@ %2$@ 从左到右)";
+
+
+" (%@ %@ left to write, though)" = " (书写 %1$@ %2$@ 从左到右)";
+
+
+" (%@ %@ to go!)" = " (%1$@ %2$@ 的目标！)";
+
+
+" (%@)" = " (%@)";
+
+
+" (as Compiled)" = " (可编译的)";
+
+
+" (Composite)" = " (复合)";
+
+
+" (Just %@ %@ left to write...)" = " (仅 %1$@ %2$@ 从左到右书写...)";
+
+
+" (Notes)" = " (笔记)";
+
+
+" (Project Notes)" = " (项目笔记)";
+
+
+" (Synopsis)" = " (摘要)";
+
+
+" (The bold formatting is set in the \"Formatting\" pane of the Preferences.)" = " (加粗格式设置在偏好设置中的 \"格式\" 面板).";
+
+
+" (The bold formatting is set in the Text Preferences panel, available from the Project menu.)" = " (加粗格式设置在文本参数面板,可通过项目菜单进行设置).";
+
+
+" (Unsorted)" = " (未排序)";
+
+
+" - image" = " - 图片";
+
+
+" [Done]" = " [完成]";
+
+
+" at path '%@'" = " 路径在 '%@'";
+
+
+" Auto-Complete List" = " 自动完成列表";
+
+
+" Backup" = " 备份";
+
+
+" because the serial number seems to be associated with a returned order" = " 由于序列号被关联到一个返回的订单";
+
+
+" because the serial number was not recognized" = " 由于序列号无法被识别";
+
+
+" because this serial number has been blacklisted" = " 由于序列号被加入黑名单";
+
+
+" by %@" = " 由 %@";
+
+
+" by someone else" = " 由其他某人";
+
+
+" characters" = " 字符";
+
+
+" characters." = " 字符.";
+
+
+" chars" = " 字符.";
+
+
+" compile settings" = " 编译设置";
+
+
+" Composition Backdrop" = " 写作模式背景";
+
+
+" Custom Meta-Data" = " 自定义元数据";
+
+
+" Files that could be recovered have been saved to %@. The project will now close." = " 文件能恢复到 %@. 项目现在将关闭.";
+
+
+" Folder" = " 文件夹";
+
+
+" Formatting" = " 格式";
+
+
+" has been achieved." = " 已经完成.";
+
+
+" Label List" = " 标签列表";
+
+
+" line" = " 行";
+
+
+" lines" = " 行";
+
+
+" Notes" = " 笔记";
+
+
+" of " = " 之 ";
+
+
+" on %@" = " 在 %@";
+
+
+" on %@)" = " 在 %@)";
+
+
+" Only" = " 仅";
+
+
+" pages" = " 页";
+
+
+" pages." = " 页.";
+
+
+" Properties" = " 属性";
+
+
+" Snapshots" = " 快照";
+
+
+" Status List" = " 状态列表";
+
+
+" Templates Folder" = " 模板文件夹";
+
+
+" The project will now close." = " 项目现在将关闭.";
+
+
+" was saved." = " 已经保存.";
+
+
+" words" = " 字";
+
+"words" = " 字";
+
+" words." = " 字.";
+
+"Word frequency" = "单词频率";
+
+"%@ %@ written in @ScrivenerApp today!%@ #amwriting" = "今天完成了 %1$@ %2$@ 的写作 @ScrivenerApp !%3$@ #amwriting";
+
+
+"%@ %i of %i..." = "%1$@ %2$i 之 %3$i...";
+
+
+"%@ (%i of %i index cards)" = "%1$@ (%2$i 之 %3$i 索引卡片)";
+
+
+"%@ (%i of %i)" = "%1$@ (%2$i 之 %3$i)";
+
+
+"%@ as Compatibility File..." = "%@ 作为兼容文件...";
+
+
+"%@ could not open project at %@." = "%1$@ 不能打开项目于 %2$@.";
+
+
+"%@ Target" = "目标 %@";
+
+
+"%@ today's writing target of %@ %@ in @ScrivenerApp!%@. #amwriting" = "%1$@ 今天的撰写目标是 %2$@ %3$@ en @ScrivenerApp!%4$@. #amwriting";
+
+
+"%@%@%@ (%i of %i)" = "%1$@%2$@%3$@ (%4$i 之 %5$i)";
+
+
+"%@: %@ (%i of %i)" = "%1$@: %2$@ (%3$i 之 %4$i)";
+
+
+"%@\nReason: %@\nUser Info: %@" = "%1$@\n原因: %2$@\n用户信息: %3$@";
+
+/* Status displayed in find panel when indicated number of matches are replaced. */
+"%d replaced" = "%d 被替换";
+
+
+"%i documents changed" = "%i 个文档已改变";
+
+"%i seconds" = "%i 秒";
+
+"%i files selected for export." = "导出 %i 个选择的文件.";
+
+
+"Hide %@ & Status Columns" = "隐藏状态列 %@ &";
+
+
+"Hide \"Getting Started\"" = "隐藏 \"使用入门\"";
+
+
+"Hide Binder" = "隐藏文件栏";
+
+
+"Hide Collections" = "隐藏档案集";
+
+
+"Hide Colors" = "隐藏颜色";
+
+
+"Hide Compiled Footnote Numbers in Inspector" = "在检查器中隐藏编译脚注编号";
+
+
+"Hide Fonts" = "隐藏字体";
+
+
+"Hide Footer View" = "隐藏状态栏";
+
+
+"Hide Format Bar" = "隐藏格式栏";
+
+
+"Hide Header View" = "隐藏标题栏";
+
+
+"Hide Inspector" = "隐藏检查器";
+
+
+"Hide Invisibles" = "隐藏不可见元素";
+
+
+"Hide Layouts" = "隐藏布局";
+
+
+"Hide Page View" = "隐藏页视图";
+
+
+"Hide Project Keywords" = "隐藏项目关键词";
+
+
+"Hide Project Notepad" = "隐藏项目笔记";
+
+
+"Hide Project Targets" = "隐藏项目目标";
+
+
+"Hide Ruler" = "隐藏标尺";
+
+
+"Hide Scratch Pad" = "隐藏便签本";
+
+
+"Hide Synopses" = "隐藏摘要";
+
+
+"Hide Toolbar" = "隐藏工具栏";
+
+
+"Hide Markup" = "隐藏标记";
+
+
+"Show %@ & Status columns" = "显示状态列 %@ &";
+
+
+"Show %@ Pins" = "显示 %@ 图钉";
+
+
+"Show %@ Stamps" = "显示 %@ 图章";
+
+
+"Show \"Applications\" in Finder" = "在Finder中显示 \"应用程序\"";
+
+
+"Show \"Getting Started\"" = "显示 \"快速入门\"";
+
+
+"Show Binder" = "显示文件栏";
+
+
+"Show Collections" = "显示收藏夹";
+
+
+"Show Colors" = "显示颜色";
+
+
+"Show Colors..." = "更多颜色...";
+
+
+"Show Compiled Footnote Numbers in Inspector" = "在检查器中显示编译脚注的编号";
+
+
+"Show Fonts" = "显示字体";
+
+
+"Show Fonts..." = "显示字体...";
+
+
+"Show Footer View" = "显示状态栏";
+
+
+"Show Format Bar" = "显示格式栏";
+
+
+"Show Header View" = "显示标题栏";
+
+
+"Show Inspector" = "显示检查器";
+
+
+"Show Instructions" = "显示说明";
+
+
+"Show Invisibles" = "显示不可见元素";
+
+
+"Show Layouts" = "显示布局";
+
+
+"Show Page View" = "显示页视图";
+
+
+"Show Project Keywords" = "显示项目关键词";
+
+
+"Show Project Notepad" = "显示项目笔记";
+
+
+"Show Project Targets" = "显示项目目标";
+
+
+"Show Ruler" = "显示标尺";
+
+
+"Show Scratch Pad" = "显示便签本";
+
+
+"Show Spelling" = "显示拼写检查";
+
+
+"Show Spelling and Grammar" = "显示拼写和语法检查";
+
+
+"Show Synopses" = "显示摘要";
+
+
+"Show Toolbar" = "显示工具栏";
+
+
+"Show Markup" = "显示标记";
+
+
+/* No comment provided by engineer. */
+"Checking Draft documents..." = "检查草稿文档...";
+
+/* No comment provided by engineer. */
+"Checking external Draft files..." = "检查外部草稿文件...";
+
+/* No comment provided by engineer. */
+"Checking files..." = "检查文件...";
+
+/* No comment provided by engineer. */
+"Checking for notes to remove..." = "检查移除的笔记...";
+
+/* No comment provided by engineer. */
+"Checking other external files..." = "检查其他外部文件...";
+
+/* No comment provided by engineer. */
+"Checking other text documents..." = "检查其他文本文档...";
+
+/* No comment provided by engineer. */
+"Removing note %i of %i..." = "正在移除笔记 %1$i 之 %2$i...";
+
+/* No comment provided by engineer. */
+"Removing note 1 of %i..." = "正在移除笔记 1 之 %i...";
+
+/* No comment provided by engineer. */
+"Step %i of %i" = "步骤 %1$i 之 %2$i";
+
+/* No comment provided by engineer. */
+"Step 1 of %i" = "步骤 1之 %i";
+
+/* No comment provided by engineer. */
+"Note (%@), %@" = "笔记 (%1$@), %2$@";
+
+/* No comment provided by engineer. */
+"Note [%@]" = "笔记 [%@]";
+
+/* No comment provided by engineer. */
+"Note on:" = "笔记在:";
+
+/* No comment provided by engineer. */
+"Note, %@" = "笔记, %@";
+
+/* No comment provided by engineer. */
+"Page %i of %i" = "页 %1$i 之 %2$i";
+
+/* No comment provided by engineer. */
+"Pages %i-%i of %i" = "页 %1$i-%2$i 之 %3$i";
+
+/* No comment provided by engineer. */
+"Creating %i mobile resources..." = "创建 %i 移动资源...";
+
+/* No comment provided by engineer. */
+"Sync Failed (HTTP Status Code: %i)" = "同步失败 (HTTP状态编码: %i)";
+
+/* No comment provided by engineer. */
+"Custom - %@" = "自定义 - %@";
+
+/* No comment provided by engineer. */
+"Days Left" = "剩余天数";
+
+/* No comment provided by engineer. */
+"DAY" = "天";
+
+/* No comment provided by engineer. */
+"Project Targets" = "项目目标";
+
+/* No comment provided by engineer. */
+"Paper Height" = "纸张高度";
+
+/* No comment provided by engineer. */
+"Paper Width" = "纸张宽度";
+
+/* No comment provided by engineer. */
+"Background" = "背景";
+
+/* No comment provided by engineer. */
+"Background Fade" = "背景淡出";
+
+/* No comment provided by engineer. */
+"This project seems to contain personal information - are you sure you want to save it as a template?" = "这个项目中包含个人信息 - 你确认保存它们到模板中吗?";
+
+/* No comment provided by engineer. */
+"Personal information such as your name, address, telephone number or email address was detected in the project%@. If you intend to share this template with others, you may wish to remove this information.\n\nYou can replace elements such as name and address with tags which get replaced with information from the user's Address Book when a new project is created from the template - see the tags list in the Help menu for more information.\n\nIf this template is for personal use only, you can safely ignore this warning" = "项目%@检测到个人信息，如你的姓名、地址、电话号吗或邮件地址. 如果你想要共享这个模板给其他人, 你可能希望删除这些信息.\n\n你能替换这些信息为标签 - 帮助中的标签列表中提供了这些能自动由通讯簿读取信息的占位符标签.\n\n如果仅是你个人的使用，可以忽略这个警告";
+
+/* No comment provided by engineer. */
+"Scrivener needs to create a directory in which to save scratch pad notes." = "Scrivener需要创建一个目录来保存便签本笔记.";
+
+/* No comment provided by engineer. */
+"Scratch pad notes" = "便签本笔记";
+
+/* No comment provided by engineer. */
+"Scratch Pad Notes" = "便签本笔记";
+
+/* No comment provided by engineer. */
+"Scratch pad notes are saved as rich text files in a folder of your choosing on your system, and are not associated with any particular project. You can send the text of scratch pad notes to a document in an open project, or import scratch pad notes as documents, using the \"Send to Project...\" button.\n\nBy default, Scrivener will save scratch pad notes into %@. If you would prefer to save the notes to a different location, please change this setting in the General pane of Scrivener's Preferences before continuing." = "便签本保存富文本文件到你选择的文件夹中,它并没有关联到任何个别的项目.你能发送便签本文本到打开项目的文档中或者作为文档导入便签本笔记,使用\"发送到项目...\"按钮。\n\n缺省情况下,Scrivener将保存便签本笔记到 %@. 如果你想保存笔记到不同的位置, 请在继续前通过偏好设置中的通用面板进行设置.";
+
+/* No comment provided by engineer. */
+"Scratch Pad Notes Background" = "便签本笔记背景";
+
+/* No comment provided by engineer. */
+"Scratch Pad notes folder" = "便签本笔记文件夹";
+
+/* No comment provided by engineer. */
+"Scratch pad save error" = "便签本保存错误";
+
+/* No comment provided by engineer. */
+"Scratch pad update error" = "便签本更新错误";
+
+"Create" = "创建";

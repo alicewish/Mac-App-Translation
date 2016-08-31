@@ -1,0 +1,6 @@
+/* Localized Strings */
+
+"Address Card" = "Carte d'adresse";
+"Click here to open in Address Book" = "Ouvrez en Carnet d'adresses";
+"Please select at least one card in Address Book." = "Selectionnez au moins d'une adresse en Carnet d'adresses.";
+"An error occured when adding the address." = "Une erreur etait produite quand la nouvelle adresse a été crée.";

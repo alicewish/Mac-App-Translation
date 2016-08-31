@@ -1,0 +1,524 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+
+DEVONTECHNOLOGIES SUPPORT ASSISTANT
+© 2011 DEVONtechnologies, LLC
+
+Version 2.0.2
+Written by Eric Böhnisch-Volkmann, Feb 17, 2010
+Rewritten by Eric Böhnisch-Volkmann in April 2011
+Updated by Eric Böhnisch-Volkmann, Nov 29, 2011
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Welcome</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/welcome.css"/>
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css"/>
+
+		<script type="text/javascript" src="javascript/date.js"></script>
+ 		<script type="text/javascript" src="javascript/jsapi.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery-ui.js"></script>
+		<script type="text/javascript" src="javascript/jquery.form.js"></script>
+		<script type="text/javascript" src="javascript/formvalidation.js"></script>
+		<script type="text/javascript" src="javascript/basics.js"></script>
+		<script type="text/javascript" src="javascript/localization.js"></script>
+		<script type="text/javascript" src="javascript/rss.js"></script>
+		<script type="text/javascript" src="javascript/userinterface.js"></script>
+		<script src="http://a.vimeocdn.com/js/froogaloop2.min.js?0f59f-1351071913"></script>
+		<script type="text/javascript">
+		
+			$(document).ready(function()
+			{
+				// Add listeners
+				$('#signup-submit').click(function()
+				{
+					if (!$('#signup-submit').hasClass('inactive'))
+					{
+						$(this).parents().filter("form").trigger("submit");
+					}
+				});
+				$(".sidebar-element-overlay-closelink").click(function()
+				{
+					hideSuccessOverlays();
+				});
+				
+				// Disable form submission by pressing the Enter key
+				$("form").bind("keypress", function(e)
+				{
+					if (e.keyCode == 13) { return false; }
+				});
+
+				// Initialize the localization and continue
+				initLocalization("localizable/welcome.json", "pageDidLoadWithLocalization");
+			});
+
+			function pageDidLoadWithLocalization()
+			{
+				// Localize hard-coded strings in the HTML code
+				localize();
+
+				// Insert app name
+				FORM_DATA = createRequestObject();
+				appName = FORM_DATA["app"];
+				$(".app").html(normalizedAppName(FORM_DATA["app"]));
+				$("#app4").val(normalizedAppName(FORM_DATA["app"]));
+
+				initEmailAddresses();			
+
+				// Set picture
+				var introPicture = "images/intros/";
+				switch (normalizedAppName(FORM_DATA["app"]))
+				{
+					case "DEVONagent":
+					case "DEVONagent Pro":
+						introPicture += "devonagent.png";
+						break;
+					case "DEVONnote":
+						introPicture += "devonnote.png";
+						break;
+					case "DEVONthink Personal":
+						introPicture += "devonthink-personal.png";
+						break;
+					case "DEVONthink Pro":
+						introPicture += "devonthink-pro.png";
+						break;
+					case "DEVONthink Pro Office":
+						introPicture += "devonthink-pro-office.png";
+						break;
+					default:
+						introPicture += "default.png";
+				}
+				$("#intropicture").attr("src", introPicture);
+				
+				// Build bottom bar
+				var bottombarHTML = "<p><a href='support.html' onclick='switchTo(\"support.html\"); return false;'>" + localizedString("获取支持") + "</a>";
+				if (FORM_DATA["app"] == "DEVONthink Pro" || FORM_DATA["app"] == "DEVONthink Pro Office")
+					bottombarHTML += "&emsp;|&emsp;<a href='firstlaunch.html' onclick='switchTo(\"firstlaunch.html\"); return false;'>" + localizedString("安装") + "</a>";
+				bottombarHTML += "&emsp;|&emsp;<a href='extras.html' onclick='switchTo(\"extras.html\"); return false;'>" + localizedString("安装扩展功能") + "</a>";
+				bottombarHTML += "&emsp;|&emsp;<a href='academy.html' onclick='switchTo(\"academy.html\"); return false;'>" + localizedString("提示和教程") + "</a>";
+				bottombarHTML += "&emsp;|&emsp;<a href='http://www.devontechnologies.com/redirect.php?id=recommend&app=" + normalizedAppName(FORM_DATA["app"]) + "'>" + localizedString("推荐") + " " + normalizedAppName(FORM_DATA["app"]) + "</a></p>";
+				$("#bottombar-welcome").html(bottombarHTML);
+				
+				// Initialize movie code
+				var moviePlaceholderHTML = "";
+				var movieID = undefined;
+				switch (normalizedAppName(FORM_DATA["app"]))
+				{
+					case "DEVONthink Personal":
+					case "DEVONthink Pro":
+					case "DEVONthink Pro Office":	movieID = "50131167";	break;
+					case "DEVONagent":
+					case "DEVONagent Pro":			movieID = "52067662";	break;
+					case "DEVONnote":
+					default:
+						break;
+				}
+				
+				if (movieID!= undefined)
+				{
+					// There is an intro movie available
+					// Fade movie in when placeholder is clicked
+					$("#introtext").click(function()
+					{
+						if ($("#intromovie").css("visibility") == "hidden" && feed != undefined)
+						{
+							$(this).fadeOut("slow", function()
+							{
+								$(this).fadeIn("slow");
+
+								var videotagHTML = "<iframe id='player' src='http://player.vimeo.com/video/"+movieID+"?autoplay=1&api=1&player_id=player' width='576' height='360' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen ></iframe>";
+								$("#intromovie").html(videotagHTML);
+								if (movieID == "52067662")  // Workaround for old DEVONagent Pro intro; remove for new video
+								{
+									$("#intromovie").css("height", 432);
+									$("#intromovie").css("top", 50);
+									$("#player").attr("height", "432");
+								}
+								$("#intromovie").css("visibility", "visible");
+								$("#introtext").css("visibility", "hidden");  // Don't use display=none as this element needs to prevent clicks from being routed to the background
+							});
+						}
+						else
+						{
+							console.log("Meep");
+						}
+					});
+
+					// Fade movie out when background is clicked; only when movie is shown
+					$("#intromovie").click(function()
+					{
+						console.log("Meep");
+						return false;
+					});
+					$("#main").click(function()
+					{
+						if ($("#intromovie").css("display") == "block")
+						{
+							var player = $f(document.getElementById('player'));
+							if (player != undefined)
+							{
+								player.api('pause');
+							}
+							$(this).fadeOut("slow", function()
+							{
+								$("#intromovie").css("visibility", "hidden");
+								$("#player").remove();
+								$("#introtext").css("visibility", "visible");
+								$(this).fadeIn("slow");
+							});
+						}
+					});
+				}
+				else
+				{
+					// No intro movie available, change text
+					$("#introtext-subheadline").html(localizedString("了解这个应用程序的最好方法就是简单地试用一下."));
+					$("#introtext-text").html(localizedString("如果您是刚开始使用这个应用程序, 不要犹豫. 试用所有的功能, 查看在线帮助. 如果您真的遇到问题, 使用帮助和支持助手回到这里."));
+					$("#clicktoplay").css("display", "none");
+				}
+				
+				// Bind tutorial button
+				$("#clickfortutorials").click(function() { switchTo("academy.html", undefined, undefined); });
+
+				// Start timers
+				validatetyping();
+			
+				// Load the RSS feed
+				showSpinner($("#tip-element").children(".sidebar-element-frame"), true);
+				showSpinner($("#extras-element").children(".sidebar-element-frame"), true);
+				var testflag = (FORM_DATA["test"] != undefined) ? true : false;
+				loadMaterialsFeed(RSS_SUPPORTMATERIALS, normalizedAppName(FORM_DATA["app"]), "processFeed", testflag);
+			}
+			
+			function initEmailAddresses()
+			{
+				// Insert email address if given
+				if (FORM_DATA["email"] != undefined)
+				{
+					$("#signup-email").val(FORM_DATA["email"]);
+				}
+			}
+		
+			// LOCALIZATION
+			
+			function localize()
+			{
+				$("#introtext > h1").html(localizedString("欢迎使用 <span class=\"app\">*Meep*</span>"));
+				$("#introtext > h2").html(localizedString("了解 <span class=\"app\">*Meep*</span> 最好的方法就是观看它的操作."));	
+				$("#introtext > p:first").html(localizedString("观看入门之旅，并通过我们的教程来了解如何使用这个应用程序驾驭管理海量信息."));
+				$("#clicktoplay > p").html(localizedString("点按进行播放") + " <img src='images/ui/button-play.png' />");
+				$("#clickfortutorials > p").html(localizedString("教程"));
+
+				$("#newsletter-element > h1").html(localizedString("新闻"));
+				$("#newsletter-element > div.sidebar-element-frame > p:first").html(localizedString("订阅我们的免费新闻，让您不会错过任何重要消息. 开始时有 5－8 个欢迎提示."));
+				$("#newsletter-element > div.sidebar-element-frame > form > p.inputline-description > span").first().html(localizedString("您的 Email 地址"));
+				$("#newsletter-element > div.sidebar-element-frame > div.sidebar-element-overlay > h2").html(localizedString("成功订阅!"));
+				$("#newsletter-element > div.sidebar-element-frame > div.sidebar-element-overlay > p").html(localizedString("您将获得 <b>自动</b> 取消订阅功能."));
+				$("#newsletter-element > div.sidebar-element-frame > div.sidebar-element-overlay p.sidebar-element-overlay-closelink").html(localizedString("关闭此消息"));
+				
+				$("#tip-element > h1").html(localizedString("每日提示"));
+				$("#tip-link").html(localizedString("更多提示和教程"));
+				$("#extras-element > h1").html(localizedString("每日扩展功能"));
+				$("#extras-element > div.sidebar-element-frame > p.learnmore > a").html(localizedString("更多扩展功能"));
+				
+				$("#offline").html(localizedString("您的 Mac为离线状态. 有些功能不可用."));
+			}
+
+			// FORM SUBMISSION HANDLERS
+
+			google.setOnLoadCallback(function()
+			{
+				$(function()
+				{
+					// Attach the jQuery form plugin to the lost license form
+					var optionsSignup = { url: 'http://www.devontechnologies.com/fileadmin/templates/filemaker/subscribe.php', success: showResponseSignup, resetForm: true, type: 'post' }; 
+					$('#signup-form').submit(function(e)
+					{
+						showSpinner($(this).parents(), true);
+						e.preventDefault();
+						$(this).ajaxSubmit(optionsSignup);
+					});
+
+					function showResponseSignup(responseText, statusText)
+					{
+						showSpinner($("#signup-form").parents(), false);
+						$("#signup-form").parents().children(".sidebar-element-overlay").css("visibility", "visible");
+						$("#signup-form").parents().children(".sidebar-element-overlay").css("opacity", "1.0");
+					}
+				});
+			});
+
+			// Hide all overlays
+			function hideSuccessOverlays()
+			{
+				$(".sidebar-element-overlay").css("visibility", "hidden");
+				$(".sidebar-element-overlay").css("opacity", "0.0");
+				initEmailAddresses();
+			}
+
+			// TIP OF THE DAY
+			
+			var feed = {};
+			
+			function processFeed(data)
+			{
+				feed = data;  // Save feed for later
+				
+				showRandomTip();
+				showRandomExtra();
+				
+				// If we're offline, disable form and movie
+				if (feed == undefined)
+				{
+					$("#signup-email").attr("disabled", "disabled");
+					$("#signup-submit").css("display", "none");
+					$("#bottombar-welcome > p > a").removeAttr("href");
+					$("#bottombar-welcome > p > a").removeAttr("onclick");
+					$("#introtext").unbind("click", false);
+					$("#intromovie").unbind("click", false);
+					$("#main").unbind("click", false);
+					$("#offline").css("display", "block");
+					$("#clicktoplay").css("display", "none");
+				}
+			}
+			
+			function showRandomTip()
+			{
+				var success = false;
+				if (feed != undefined)
+				{
+					var indices = indicesForCategories(feed, [RSS_CATEGORY_TIPS, RSS_CATEGORY_TUTORIALS, RSS_CATEGORY_VIDEOS]);
+					if (indices.length > 0)
+					{
+						var articleDate = rssArticleDate(feed, indices[0]);
+						var lastWeekDate = Date.today();
+						lastWeekDate.add(-1).weeks();
+						if (articleDate >= lastWeekDate)  // If the latest tip was published within a week's time, use it
+						{
+							numberOfItem = indices[0];
+						}
+						else  // Otherwise choose a random one
+						{
+							numberOfItem = indices[Math.floor(Math.random()*indices.length)];
+						}
+						
+						success = true;
+						showFeedArticle(numberOfItem);
+					}
+				}
+				if (!success)
+				{
+					$("#tip-element > h1").html(localizedString("博客"));
+					$("#tip-headline").html(localizedString("访问我们总裁的博客"));
+					$("#tip-text").html(localizedString("在我们的博客中, 我们的总裁 Balcony 会谈即将推出的新版本、分享有趣的链接和文章，以及有时会流露一两句尚未披露的产品信息."));
+					if (feed != undefined)
+					{
+						$("#tip-link").html(localizedString("访问 Balcony"));
+						$("#tip-link").attr("href", "http://www.devontechnologies.com/redirect.php?id=blog");
+						$("#link-tip").click(function()
+						{
+							switchTo('http://www.devontechnologies.com/redirect.php?id=blog');
+							return false;
+						});
+					}
+					else
+					{
+						$("#tip-link").parent().remove();
+					}
+					showSpinner($("#tip-element").children(".sidebar-element-frame"), false);
+				}
+			}
+			
+			function showFeedArticle(numberOfItem)
+			{
+				$('#tip-headline').html(rssArticleTitle(feed, numberOfItem));
+				var description = rssArticleDescription(feed, numberOfItem);
+				if (description.indexOf('\n') > 50)
+				{
+					description = description.substring(0, description.indexOf('\n'));
+				}
+				description = shortenString(description, 100);
+
+				$("#tip-text").html(description);
+				$("#tip-link").attr("href", "academy.html?tipID=" + rssArticleUUID(feed, numberOfItem));
+				$("#tip-link").attr("onclick", "");
+				$("#tip-link").click(function()
+				{
+					switchTo('academy.html', 'tipID', rssArticleUUID(feed, numberOfItem));
+					return false;
+				});
+				showSpinner($("#tip-element").children(".sidebar-element-frame"), false);
+			}
+			
+			// EXTRAS
+
+			function showRandomExtra()
+			{
+				var success = false;
+				if (feed != undefined)
+				{	
+					var indices = indicesForCategories(feed, [RSS_CATEGORY_SCRIPTS, RSS_CATEGORY_TEMPLATES, RSS_CATEGORY_PLUGINS]);
+					if (indices.length > 0)
+					{
+						var articleDate = rssArticleDate(feed, indices[0]);
+						var lastWeekDate = Date.today();
+						lastWeekDate.add(-1).weeks();
+						if (articleDate >= lastWeekDate)  // If the latest tip was published within a week's time, use it
+						{
+							numberOfItem = indices[0];
+						}
+						else  // Otherwise choose a random one
+						{
+							numberOfItem = indices[Math.floor(Math.random()*indices.length)];
+						}
+						
+						success = true;
+						showExtra(numberOfItem);
+					}
+				}
+
+				if (!success)
+				{
+					$("#extras-headline").replaceWith("<p id='extras-headline'>" + localizedString("没有此应用程序的可用扩展.") + "</p>");
+					$("#extras-text").remove();
+					$("#extras-headline + p.learnmore").remove();
+				}
+				showSpinner($("#extras-element").children(".sidebar-element-frame"), false);
+			}
+			
+			function showExtra(numberOfItem)
+			{
+				// Set headline
+				$('#extras-headline').html("<img class='icon' src='" + iconFileForCategory(rssArticleCategory(feed, numberOfItem), RSS_CATEGORY_ICON_SMALL) + "' />" + rssArticleTitle(feed, numberOfItem));
+				
+				// Get and shorten description, if necessary
+				var description = rssArticleDescription(feed, numberOfItem);
+				if (description.indexOf('\n') > 50)
+				{
+					description = description.substring(0, description.indexOf('\n'));
+				}
+				description = shortenString(description, 100);
+
+				// Add install location
+				var installLocation = rssArticleEnclosureInstallLocation(feed, numberOfItem);
+				if (installLocation != null)
+				{
+					description += " " + localizedString("将被安装在部分") + " '" + installLocation + "'.";
+				}
+				
+				// Set text and link
+				$("#extras-text").html(description);
+				$("#extras-link").attr("href", "extras.html?extraID=" + rssArticleUUID(feed, numberOfItem));
+				$("#extras-link").click(function()
+				{	
+					switchTo('extras.html', 'extraID', rssArticleUUID(feed, numberOfItem));
+					return false;
+				});
+			}
+			
+			// FORM VALIDATION
+
+			function validatetyping()
+			{
+				// Email address
+				if ($('#signup-email').val() ==" "
+					|| !checkemail($('#signup-email').val())
+				    || feed == undefined)
+				{
+					// $('#signup-submit').attr("src", "images/ui/accept-inactive.png");
+					$('#signup-submit').addClass("inactive");
+					$('#signup-submit').attr("disabled", "disabled");
+				}
+				else
+				{
+					// $('#signup-submit').attr("src", "images/ui/accept.png");
+					$('#signup-submit').removeClass("inactive");
+					$('#signup-submit').removeAttr("disabled");
+				}
+			
+				setTimeout("validatetyping()", 100);
+			}
+		</script>
+	</head>
+	
+	<!-- The actual body -->
+	
+	<!-- <body oncontextmenu="return false;"> -->
+	<body>
+		<div id="welcome">
+		
+			<!-- The main stage -->
+			<div id="main">
+				<div id="introtext">
+					<img id="intropicture" src="images/intros/default.png" />
+					<h1>欢迎使用 <span class="app">DEVONthink Pro Office 应用程序</span></h1>
+					<h2 id="introtext-subheadline">了解 <span class="app">此应用程序</span>最好的方法就是观看它的操作.</h2>
+					<p id="introtext-text">观看入门之旅，并通过我们的教程来了解如何使用这个应用程序驾驭管理海量信息. &#9656;</p>
+					<p id="offline">您的 Mac 为离线状态. 有些功能将不可用.</p>
+					<div id="clicktoplay" class="clicktoplaybutton"><p>点按播放 <img src="images/ui/button-play.png" /></p></div>
+					<div id="clickfortutorials" class="clicktoplaybutton"><p>教程</p></div>
+				</div>
+				<div id="intromovie" style="visibility:hidden"></div>
+			</div>
+			
+			<!-- The bottom bar with links to support etc. -->
+			<div class="bottombar" id="bottombar-welcome">
+				<p><a href=''>支持</a></p>
+			</div>
+			
+			<!-- The sidebar -->
+			<div class="sidebar">
+				<div class="sidebar-element" id="newsletter-element">
+					<h1>新闻</h1>
+					<div class="sidebar-element-frame">
+						<div class="spinner" style="visibility:hidden; opacity:0.0;"></div>
+						<div class="sidebar-element-overlay" style="visibility:hidden; opacity:0.0;">
+							<h2>成功订阅!</h2>
+							<p>您将具有 <b>自动</b> 取消订阅功能.</p>
+							<p class="support-link sidebar-element-overlay-closelink">关闭此消息</p>
+						</div>
+						<p>订阅我们的免费新闻，让您不会错过任何重要消息. 五至八名的欢迎提示让你开始. 有五至八个欢迎提示让您开始.</p>
+						<form method='post' action='http://www.devontechnologies.com/fileadmin/templates/filemaker/subscribe.php' name='signup-form' id='signup-form'>
+							<input type="text" class="inputline" name="email" id="signup-email" style="width:100%" placeholder="you@somewhere.com"/>
+							<input type='hidden' name='tips' value='yes' checked='checked' />
+							<input type='hidden' name='newsletter' value='yes' checked='checked' />
+							<input type='hidden' name='productname' id='app4' value=''/>
+							<input type='hidden' name='action' value='subscribe' />
+							<!-- <p class="inputline-description"><span>Your email address</span><img id="signup-submit" class="accept-button" src="images/ui/accept.png" style="float: right" /></p> -->
+							<p class="inputline-description"><span>您的 Email 地址</span><span id="signup-submit" class="accept-button" style="float: right"></span></p>
+						</form>
+					</div>
+				</div>
+				<div class="sidebar-element" id="tip-element">
+					<h1>每日提示</h1>
+					<div class="sidebar-element-frame">
+						<div class="spinner" style="visibility:hidden; opacity:0.0;"></div>
+						<h2 id="tip-headline"></h2>
+						<p id="tip-text"></p>
+						<p class="learnmore"><a id="tip-link" href="academy.html">更多提示和教程</a> &#9656;</p>
+					</div>
+				</div>
+				<div class="sidebar-element" id="extras-element">
+					<h1>新建的扩展</h1>
+					<div class="sidebar-element-frame">
+						<div class="spinner" style="visibility:hidden; opacity:0.0;"></div>
+						<h2 id="extras-headline"></h2>
+						<p id="extras-text"></p>
+						<p class="learnmore"><a id="extras-link" href="extras.html">更多扩展</a> &#9656;</p>
+					</div>
+				</div>
+			</div>
+		
+		</div>
+
+	</body>
+
+</html>

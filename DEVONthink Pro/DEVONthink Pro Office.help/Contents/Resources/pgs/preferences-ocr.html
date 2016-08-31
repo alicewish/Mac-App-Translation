@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Preferences : OCR</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="preferences-ocr"> </a>
+<a name="_preferences-ocr"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="preferences-ocr.html#incomingscans" class="quicklinks">Incoming Scans</a>
+<br />
+<a href="preferences-ocr.html#originaldocument" class="quicklinks">Original Document</a>
+<br />
+<a href="preferences-ocr.html#attributes" class="quicklinks">Searchable PDF</a>
+<br />
+<a href="preferences-ocr.html#languages" class="quicklinks">Languages for OCR</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">OCR</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="image">
+<img src="../gfx/preferences/ocr.png" srcset="../gfx/preferences/ocr.png 1x, ../gfx/preferences/ocr@2x.png 2x" alt="" />
+</p>
+<p>DEVONthink Pro Office contains an optical character recognition (OCR) module that allows you to import scanned documents and make them searchable. These documents are "read" by the embedded OCR engine and stored as PDF files that contain an additional (invisible) text layer with the recognized, computer-readable text. Use these options to fine tune the OCR process.</p>
+<p>You can <a href="menus-file.html#import">import scanned documents</a>, or <a href="menus-file.html#import">scan them directly</a> from within DEVONthink Pro Office.</p>
+<a name="incomingscans"> </a>
+<p class="subsection">Incoming Scans</p>
+<p>Check <em>Convert to searchable PDF</em> to apply OCR to PDFs that have been sent from a known scanning software, e.g., ExactScan (full edition), CanoScan ToolBox, and others. The resulting file is a standard PDF containing the original image and a computer-readable text layer.</p>
+<a name="originaldocument"> </a>
+<p class="subsection">Original Document</p>
+<p>Check <em>Move to Trash</em> if you want DEVONthink Pro Office to move the original documents to the trash after they have been successfully imported using OCR. If files are <a href="menus-data.html#capture">converted by OCR</a> within the database, the original document is deleted from the database. If files are converted at import, the original document is moved to the Finder's trash. Using this option is a great way to prevent your incoming group/folder or database from growing cluttered after OCR has produced searchable PDFs.</p>
+<a name="attributes"> </a>
+<p class="subsection">Searchable PDF</p>
+<p>Check <em>Enter metadata after text recognition</em> to make DEVONthink Pro Office show a metadata entry dialog whenever a PDF is imported using OCR. Use this dialog window to enter the preferred document name, the author of the document, and any keywords describing the document. You can also adjust the timestamp of the PDF to the actual date of the paper document. The dialog window is shown when OCR processing has been completed.</p>
+<p>When checked, the metadata entry dialog will appear whenever you scan a document or import an image file with OCR. You may want to switch this option off when you are scanning/importing multiple files in a batch.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>Information you enter in this dialog will be available to Spotlight and can be changed in the Preview application. The <em>title</em> field will be used to name the document, the <em>keywords</em> will go into the <em>
+<a href="windows-info.html#additionalelements">Comments</a>
+</em> field, and the <em>creation date</em> will become the creation date of the document in DEVONthink Pro Office. You can access this information in the <a href="windows-documentproperties.html#">Document Properties</a> panel.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<font face="Lucida Grande,Arial,sans-serif">
+<span class="pname">Additional options:</span>
+</font>
+</p>
+<ul>
+<li>
+<span class="pname">Resolution &amp; Quality:</span> Use these two options to control the dpi resolution, as well as the picture quality of the PDF created by the OCR. In general, the higher the resolution and the better the quality, the larger the resulting PDF document. Check <em>Same as scan</em> to keep the original image resolution of black-and-white scans.</li>
+<li>
+<span class="pname">Recognition:</span> Control the accuracy vs. the speed of the text recognition. <em>Accurate</em> gives you better text recognition, but it takes a lot longer. <em>Fast</em> makes the OCR go fast, but results are less accurate. <em>Automatic</em> is a good compromise.</li>
+</ul>
+<a name="languages"> </a>
+<p class="subsection">Languages for OCR</p>
+<p>The Languages section of the OCR preferences lets you identify the languages of the documents you scan in. DEVONthink Pro Office's OCR engines uses this information to improve the accuracy of the text recognition. DEVONthink Pro Office comes with more than 150 different language dictionaries.</p>
+<p>Select the languages you intend to scan or import with OCR. Set a primary language and add one or more secondary languages using the pop-up menu . Simply select the languages you want to use from the list on the right ('Available') and move them to the left side ('Selected') using the right-to-left arrow button. To deactivate a selected secondary language, select it from the list on the left and move it to the right using the arrow button. You can select a maximum of four secondary languages.</p>
+<p>The primary language and the secondary languages are treated equally.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="preferences-email.html">&#8592; Email</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="preferences-sync.html">Sync &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

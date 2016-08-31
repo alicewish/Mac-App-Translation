@@ -1,3 +1,6 @@
+/* Error message from licensing system */
+"  The error code was %d." = "  The error code was %d.";
+
 /* Free disk for capture volume */
 " (%ldGB free)" = " (%ldGB free)";
 
@@ -46,6 +49,12 @@
 /* No comment provided by engineer. */
 "%@ [Customized]" = "%@ [Customized]";
 
+/* No comment provided by engineer. */
+"%@ effect duration" = "%@ effect duration";
+
+/* Frames per second in YouTube publish popup */
+"%@ fps" = "%@ fps";
+
 /* Audio driver installation tool-tip */
 "%@ Installed" = "%@ Installed";
 
@@ -57,9 +66,6 @@
 
 /* No comment provided by engineer. */
 "%d Markers" = "%d Markers";
-
-/* No comment provided by engineer. */
-"(Unsupported on PowerPC)" = "(Unsupported on PowerPC)";
 
 /* No comment provided by engineer. */
 "(Unsupported on this GPU)" = "(Unsupported on this GPU)";
@@ -80,6 +86,9 @@
 "15 fps" = "15 fps";
 
 /* No comment provided by engineer. */
+"25 fps" = "25 fps";
+
+/* No comment provided by engineer. */
 "30 fps" = "30 fps";
 
 /* No comment provided by engineer. */
@@ -87,6 +96,9 @@
 
 /* Transition name */
 "3D Shatter" = "3D Shatter";
+
+/* No comment provided by engineer. */
+"5 fps" = "5 fps";
 
 /* Name of preset in New Document */
 "720p HD" = "720p HD";
@@ -131,6 +143,9 @@
 "A snapback action can only be added when there is at least one action of the type it is snapping back to behind it." = "A snapback action can only be added when there is at least one action of the type it is snapping back to behind it.";
 
 /* No comment provided by engineer. */
+"A value is required." = "A value is required.";
+
+/* No comment provided by engineer. */
 "AAC audio encoding at %@ kbits/sec." = "AAC audio encoding at %@ kbits/sec.";
 
 /* No comment provided by engineer. */
@@ -151,8 +166,11 @@
 /* No comment provided by engineer. */
 "Action templates cannot be restored once they have been deleted." = "Action templates cannot be restored once they have been deleted.";
 
-/* No comment provided by engineer. */
-"Activate" = "Activate";
+/* Message in licensing system */
+"Activated without ScreenFlow license" = "Activated without ScreenFlow license";
+
+/* Error message in licensing system */
+"Activation Limit Exceeded" = "Activation Limit Exceeded";
 
 /* Add Template Action
    Menu command */
@@ -189,6 +207,9 @@
 "Add Marker..." = "Add Marker...";
 
 /* No comment provided by engineer. */
+"Add media to the timeline at the current scrubber position." = "Add media to the timeline at the current scrubber position.";
+
+/* No comment provided by engineer. */
 "Add Starting & Ending Transitions" = "Add Starting & Ending Transitions";
 
 /* No comment provided by engineer. */
@@ -222,6 +243,9 @@
 /* This is the category used in the Transition Inspector to show all transitions */
 "All" = "All";
 
+/* Clip Context menu command */
+"All Channels" = "All Channels";
+
 /* No comment provided by engineer. */
 "All Clips" = "All Clips";
 
@@ -231,8 +255,8 @@
 /* No comment provided by engineer. */
 "An error occurred (%ld)." = "An error occurred (%ld).";
 
-/* No comment provided by engineer. */
-"An error occurred that prevented communication with the unlock server.  Please make sure this machine is connected to the Internet and is allowed to make outgoing connections.\n\nThe error message was \"%@\"." = "An error occurred that prevented communication with the unlock server.  Please make sure this machine is connected to the Internet and is allowed to make outgoing connections.\n\nThe error message was \"%@\".";
+/* Error message in licensing system */
+"An error occurred communicating with the Telestream licensing server.  Please check your Internet connection and try again." = "An error occurred communicating with the Telestream licensing server.  Please check your Internet connection and try again.";
 
 /* No comment provided by engineer. */
 "An export is currently in progress.  Please wait for the export to complete or cancel the export before quitting." = "An export is currently in progress.  Please wait for the export to complete or cancel the export before quitting.";
@@ -255,12 +279,18 @@
 /* No comment provided by engineer. */
 "Audio Action" = "Audio Action";
 
+/* No comment provided by engineer. */
+"Audio Channel %d from %@" = "Audio Channel %1$d from %2$@";
+
 /* Action Context menu command
    Name in inspector panel */
 "Audio Filters" = "Audio Filters";
 
 /* No comment provided by engineer. */
 "Audio from" = "Audio from";
+
+/* No comment provided by engineer. */
+"Audio Mix not Supported" = "Audio Mix not Supported";
 
 /* No comment provided by engineer. */
 "Audio Snapback" = "Audio Snapback";
@@ -334,6 +364,9 @@
 /* Name appearing in undo menu after changing the document size */
 "Change Document Setup" = "Change Document Setup";
 
+/* Audio channel to extract */
+"Channel %d" = "Channel %d";
+
 /* No comment provided by engineer. */
 "Choose" = "Choose";
 
@@ -359,8 +392,14 @@
 /* Undo name */
 "Clear Click Sound" = "Clear Click Sound";
 
+/* No comment provided by engineer. */
+"Clip #%d" = "Clip #%d";
+
 /* Undo Manager Name */
 "Clip Name Change" = "Clip Name Change";
+
+/* Undo Manager Name */
+"Clip Replace" = "Clip Replace";
 
 /* Undo name */
 "Clip Time Insert" = "Clip Time Insert";
@@ -439,6 +478,9 @@
 "Cube Twist" = "Cube Twist";
 
 /* No comment provided by engineer. */
+"Current Size" = "Current Size";
+
+/* No comment provided by engineer. */
 "Curve Type" = "Curve Type";
 
 /* No comment provided by engineer. */
@@ -457,10 +499,13 @@
 /* Undo Manager Name */
 "Cut Clip" = "Cut Clip";
 
+/* No comment provided by engineer. */
+"Data rate cannot be greater than 100000." = "Data rate cannot be greater than 100000.";
+
 /* Cursor Title */
 "default" = "Default";
 
-/* Action Context menu command */
+/* No comment provided by engineer. */
 "Default" = "Default";
 
 /* No comment provided by engineer. */
@@ -495,6 +540,15 @@
 
 /* No comment provided by engineer. */
 "Delete Unused Media Sources" = "Delete Unused Media Sources";
+
+/* License header text */
+"Demo Mode" = "Demo Mode";
+
+/* License header text */
+"Demo Mode - Deactivated" = "Demo Mode - Deactivated";
+
+/* No comment provided by engineer. */
+"Detach All Audio Channels" = "Detach All Audio Channels";
 
 /* Clip Context menu command */
 "Detach Audio" = "Detach Audio";
@@ -531,6 +585,9 @@
 
 /* No comment provided by engineer. */
 "Due to limitations of the primary graphics card, certain functionality in ScreenFlow won\'t be available.  For example, Callouts aren\'t supported on this system.\n\nPlease see telestream.net for more information about system requirements." = "Due to limitations of the primary graphics card, certain functionality in ScreenFlow won\'t be available.  For example, Callouts aren\'t supported on this system.\n\nPlease see telestream.net for more information about system requirements.";
+
+/* No comment provided by engineer. */
+"Due to the removal of QuickTime, some presets have been deprecated and are no longer available.  If you had a lossless workflow, the recommended preset is 'Lossless – ProRes with Alpha'.  Other workflows will now default to 'Web – High' for export." = "Due to the removal of QuickTime, some presets have been deprecated and are no longer available.  If you had a lossless workflow, the recommended preset is 'Lossless – ProRes with Alpha'.  Other workflows will now default to 'Web – High' for export.";
 
 /* Column in Media List
    Media Grid View Options */
@@ -605,6 +662,15 @@
 /* Timeline Context menu command */
 "Expand" = "Expand";
 
+/* Action Context menu command */
+"Exponential Ease-In" = "Exponential Ease-In";
+
+/* Action Context menu command */
+"Exponential Ease-In & Out" = "Exponential Ease-In & Out";
+
+/* Action Context menu command */
+"Exponential Ease-Out" = "Exponential Ease-Out";
+
 /* No comment provided by engineer. */
 "Export All Templates..." = "Export All Templates...";
 
@@ -634,6 +700,15 @@
 
 /* No comment provided by engineer. */
 "Exporting:" = "Exporting:";
+
+/* Clip Context menu command */
+"Extract Audio" = "Extract Audio";
+
+/* No comment provided by engineer. */
+"Extract Audio Channel" = "Extract Audio Channel";
+
+/* No comment provided by engineer. */
+"Facebook only allows 40 minutes or less of content to be uploaded.  If the upload is rejected, you must reduce the duration of the screencast to 40 minutes in order to publish it to Facebook." = "Facebook only allows 40 minutes or less of content to be uploaded.  If the upload is rejected, you must reduce the duration of the screencast to 40 minutes in order to publish it to Facebook.";
 
 /* No comment provided by engineer. */
 "Favorite Transitions" = "Favorite Transitions";
@@ -677,6 +752,12 @@
 /* Transition Direction */
 "From Top to Bottom" = "From Top to Bottom";
 
+/* No comment provided by engineer. */
+"Gain cannot be greater than 300%" = "Gain cannot be greater than 300%";
+
+/* No comment provided by engineer. */
+"Gain cannot be less than zero." = "Gain cannot be less than zero.";
+
 /* Preference Page name */
 "General" = "General";
 
@@ -684,7 +765,13 @@
 "Get Help" = "Get Help";
 
 /* No comment provided by engineer. */
+"Go to Support Site" = "Go to Support Site";
+
+/* No comment provided by engineer. */
 "Gradient Wipe" = "Gradient Wipe";
+
+/* Video Motion Effect */
+"Gravity" = "Gravity";
 
 /* Name of transition in the Wipe Pack */
 "Grid Wipe" = "Grid Wipe";
@@ -700,7 +787,16 @@
 "H.264 video encoding at %@ kbits/sec." = "H.264 video encoding at %@ kbits/sec.";
 
 /* No comment provided by engineer. */
-"Hello and Welcome to ScreenFlow 5" = "Hello and Welcome to ScreenFlow 5";
+"Height:" = "Height:";
+
+/* No comment provided by engineer. */
+"Hello and Welcome to ScreenFlow 6" = "Hello and Welcome to ScreenFlow 6";
+
+/* Text in the Welcome screen */
+"Help us improve ScreenFlow by sending anonymous usage data" = "Help us improve ScreenFlow by sending anonymous usage data";
+
+/* H.264 Profile */
+"High" = "High";
 
 /* No comment provided by engineer. */
 "Hotspot" = "Hotspot";
@@ -747,8 +843,8 @@
 /* No comment provided by engineer. */
 "Invalid duration value" = "Invalid duration value";
 
-/* No comment provided by engineer. */
-"Invalid License Key." = "Invalid License Key.";
+/* Message in licensing system */
+"Invalid serial number" = "Invalid serial number";
 
 /* No comment provided by engineer. */
 "Invalid speed value" = "Invalid speed value";
@@ -763,10 +859,25 @@
 "iOS Capture - iPad Portrait" = "iOS Capture - iPad Portrait";
 
 /* Name of preset in New Document */
-"iOS Capture - iPhone Landscape" = "iOS Capture - iPhone Landscape";
+"iOS Capture - iPhone 5 Landscape" = "iOS Capture - iPhone 5 Landscape";
 
 /* Name of preset in New Document */
-"iOS Capture - iPhone Portrait" = "iOS Capture - iPhone Portrait";
+"iOS Capture - iPhone 5 Portrait" = "iOS Capture - iPhone 5 Portrait";
+
+/* Name of preset in New Document */
+"iOS Capture - iPhone 6 Landscape" = "iOS Capture - iPhone 6 Landscape";
+
+/* Name of preset in New Document */
+"iOS Capture - iPhone 6 Plus Landscape" = "iOS Capture - iPhone 6 Plus Landscape";
+
+/* Name of preset in New Document */
+"iOS Capture - iPhone 6 Plus Portrait" = "iOS Capture - iPhone 6 Plus Portrait";
+
+/* Name of preset in New Document */
+"iOS Capture - iPhone 6 Portrait" = "iOS Capture - iPhone 6 Portrait";
+
+/* No comment provided by engineer. */
+"iTunes Content" = "iTunes Content";
 
 /* Name of transition in the Wipe Pack */
 "Jaws Wipe" = "Jaws Wipe";
@@ -798,7 +909,8 @@
 /* Application name - do not localize */
 "LicenseTitleStr1" = "ScreenFlow";
 
-/* Transition Acceleration */
+/* Action Context menu command
+   Transition Acceleration */
 "Linear" = "Linear";
 
 /* Clip Context menu command
@@ -808,6 +920,18 @@
 
 /* Menu Item Name */
 "Lock Clips" = "Lock Clips";
+
+/* No comment provided by engineer. */
+"Loop Record Hours must be greater than or equal to 0." = "Loop Record Hours must be greater than or equal to 0.";
+
+/* No comment provided by engineer. */
+"Loop Record Hours must be less than 13." = "Loop Record Hours must be less than 13.";
+
+/* No comment provided by engineer. */
+"Loop Record Minutes must be greater than 0." = "Loop Record Minutes must be greater than 0.";
+
+/* No comment provided by engineer. */
+"Loop Record Minutes must be less than 61." = "Loop Record Minutes must be less than 61.";
 
 /* H.264 Profile */
 "Main" = "Main";
@@ -854,6 +978,9 @@
 /* No comment provided by engineer. */
 "Missing filename." = "Missing filename.";
 
+/* Tooltip for audio channel pan */
+"Modify panning into stereo output" = "Modify panning into stereo output";
+
 /* audio channels */
 "mono" = "mono";
 
@@ -864,7 +991,13 @@
 "Move Marker" = "Move Marker";
 
 /* No comment provided by engineer. */
+"Multiple Effect Durations" = "Multiple Effect Durations";
+
+/* No comment provided by engineer. */
 "Multiple Filters" = "Multiple Filters";
+
+/* No comment provided by engineer. */
+"Multiple Values" = "Multiple Values";
 
 /* No comment provided by engineer. */
 "Must be an even number value." = "Must be an even number value.";
@@ -900,6 +1033,9 @@
 /* No comment provided by engineer. */
 "Next" = "Next";
 
+/* Clip Context menu command */
+"No Audio" = "No Audio";
+
 /* No comment provided by engineer. */
 "No Audio Clips for Captions" = "No Audio Clips for Captions";
 
@@ -919,6 +1055,9 @@
 "No configurable properties for this transition" = "No configurable properties for this transition";
 
 /* No comment provided by engineer. */
+"No Effect Duration" = "No Effect Duration";
+
+/* No comment provided by engineer. */
 "No encoding selected" = "No encoding selected";
 
 /* No comment provided by engineer. */
@@ -929,6 +1068,9 @@
 
 /* Showen when the Recent Documents list has no documents that had been loaded recently */
 "No Recent Documents" = "No Recent Documents";
+
+/* No comment provided by engineer. */
+"No Sources" = "No Sources";
 
 /* No comment provided by engineer. */
 "No transitions in this category" = "No transitions in this category";
@@ -947,7 +1089,10 @@
 "OK" = "OK";
 
 /* No comment provided by engineer. */
-"Opacity must be between 0% and 100%." = "Opacity must be between 0% and 100%.";
+"Old Key: %@" = "Old Key: %@";
+
+/* No comment provided by engineer. */
+"Opacity must be between 0% and 100%." = "Opacity must be between 0%1$ and 100%2$.";
 
 /* No comment provided by engineer. */
 "Operation cannot be undone." = "Operation cannot be undone.";
@@ -987,7 +1132,13 @@
 "Please download a fresh version of ScreenFlow from our website.  Please contact technical support if you continue to receive this error.\n\nIf you have a \'system optimizer\' installed that modifies or attempts to compress applications, please disable this functionality." = "Please download a fresh version of ScreenFlow from our website.  Please contact technical support if you continue to receive this error.\n\nIf you have a \'system optimizer\' installed that modifies or attempts to compress applications, please disable this functionality.";
 
 /* No comment provided by engineer. */
+"Please select a value between 1 and 4096 for the output value." = "Please select a value between 1 and 4096 for the output value.";
+
+/* No comment provided by engineer. */
 "Please select a value between 1 and 8192 for the output value." = "Please select a value between 1 and 8192 for the output value.";
+
+/* Message shown when the user tries to start a recording while one is already in progress */
+"Please stop the current recording before beginning a new one.  You can end the recording using the %@ hotkey or from the status bar menu item." = "Please stop the current recording before beginning a new one.  You can end the recording using the %@ hotkey or from the status bar menu item.";
 
 /* No comment provided by engineer. */
 "Please try your export again and if the problem persists contact technical support." = "Please try your export again and if the problem persists contact technical support.";
@@ -997,6 +1148,9 @@
 
 /* Validation error message when setting the video scale */
 "Position cannot be less than or equal to -20,000 or greater than or equal to 20,000." = "Position cannot be less than or equal to -20,000 or greater than or equal to 20,000.";
+
+/* No comment provided by engineer. */
+"Preset Sizes" = "Preset Sizes";
 
 /* No comment provided by engineer. */
 "Preview" = "Preview";
@@ -1024,6 +1178,9 @@
 
 /* Menu item command */
 "Publish to Selected Range" = "Publish to Selected Range";
+
+/* Video Motion Effect */
+"Pulse" = "Pulse";
 
 /* No comment provided by engineer. */
 "Purchase..." = "Purchase...";
@@ -1053,10 +1210,10 @@
 "Record" = "Record";
 
 /* No comment provided by engineer. */
-"Record Desktop from your %@" = "Record Desktop from your %@";
-
-/* No comment provided by engineer. */
 "Recording Complete" = "Recording Complete";
+
+/* Message shown when the user tries to start a recording while one is already in progress */
+"Recording currently in progress." = "Recording currently in progress.";
 
 /* No comment provided by engineer. */
 "Recover" = "Recover";
@@ -1093,6 +1250,12 @@
 
 /* alert button */
 "Replace" = "Replace";
+
+/* Clip Context menu command */
+"Replace Media" = "Replace Media";
+
+/* Tooltip to reset the canvas rectangle back to its default */
+"Reset canvas" = "Reset canvas";
 
 /* No comment provided by engineer. */
 "Reset Timer" = "Reset Timer";
@@ -1182,16 +1345,22 @@
 "ScreenFlow has a limit of 10 nested clips inside of one another.  Please reduce the number of nested clips in your presentation." = "ScreenFlow has a limit of 10 nested clips inside of one another.  Please reduce the number of nested clips in your presentation.";
 
 /* No comment provided by engineer. */
-"ScreenFlow has been successfully unlocked and registered to you.  You will not need to unlock the application again.\n\nThank you for purchasing ScreenFlow!" = "ScreenFlow has been successfully unlocked and registered to you.  You will not need to unlock the application again.\n\nThank you for purchasing ScreenFlow!";
-
-/* No comment provided by engineer. */
 "ScreenFlow has encounted a runtime error that can affect its ability to continue operating.  Please save your work and relaunch the application.  If the issue persists, please contact technical support and quote the message:\n\n%@" = "ScreenFlow has encounted a runtime error that can affect its ability to continue operating.  Please save your work and relaunch the application.  If the issue persists, please contact technical support and quote the message:\n\n%@";
+
+/* License header text */
+"ScreenFlow is licensed" = "ScreenFlow is licensed";
 
 /* No comment provided by engineer. */
 "ScreenFlow is required to be launched from within the \'/Applications\' folder, and cannot run from it\'s current location of \"%@\"" = "ScreenFlow is required to be launched from within the \'/Applications\' folder, and cannot run from it\'s current location of \"%@\"";
 
 /* No comment provided by engineer. */
 "ScreenFlow needs the latest version of the Flip4Mac Windows Media components installed to be able to export to Windows Media.  Please download and install the latest version.\n\nYou will need to restart ScreenFlow after installing the components to complete the export." = "ScreenFlow needs the latest version of the Flip4Mac Windows Media components installed to be able to export to Windows Media.  Please download and install the latest version.\n\nYou will need to restart ScreenFlow after installing the components to complete the export.";
+
+/* Message in licensing system */
+"ScreenFlow successfully activated!" = "ScreenFlow successfully activated!";
+
+/* Message in licensing system */
+"ScreenFlow successfully deactivated" = "ScreenFlow successfully deactivated";
 
 /* No comment provided by engineer. */
 "ScreenFlow was able to find unsaved data associated with the document.  Discarding will open the document from its last saved point." = "ScreenFlow was able to find unsaved data associated with the document.  Discarding will open the document from its last saved point.";
@@ -1230,9 +1399,6 @@
 "ScreenFlow was unable to save the document to the requested location.  Please check you have permission to save to this location and that the selected location is writable." = "ScreenFlow was unable to save the document to the requested location.  Please check you have permission to save to this location and that the selected location is writable.";
 
 /* No comment provided by engineer. */
-"ScreenFlow was unable to use the server result to unlock. Please try your request again and if the problem persists, contact Vara technical support." = "ScreenFlow was unable to use the server result to unlock. Please try your request again and if the problem persists, contact Vara technical support.";
-
-/* No comment provided by engineer. */
 "Search" = "Search";
 
 /* No comment provided by engineer. */
@@ -1243,6 +1409,15 @@
 
 /* Context menu command */
 "Select Clips in Timeline" = "Select Clips in Timeline";
+
+/* No comment provided by engineer. */
+"Selected export preset no longer available." = "Selected export preset no longer available.";
+
+/* Text in the Welcome screen */
+"Send diagnostic and usage information" = "Send diagnostic and usage information";
+
+/* Error message in licensing system */
+"Serial number is no longer valid" = "Serial number is no longer valid";
 
 /* Undo name */
 "Set Click Sound" = "Set Click Sound";
@@ -1262,6 +1437,9 @@
 /* No comment provided by engineer. */
 "Set Timer" = "Set Timer";
 
+/* Tooltip on button for selecting a partial screen capture region */
+"Setup and Start Partial Screen Capture" = "Setup and Start Partial Screen Capture";
+
 /* Clip Context menu command */
 "Show Clip Inspector..." = "Show Clip Inspector...";
 
@@ -1280,11 +1458,17 @@
 /* Name of transition in the 3D Pack */
 "Slide & Zoom" = "Slide & Zoom";
 
+/* Tooltip on button in the canvas editor to snap the editor region to. */
+"Snap canvas to foreground window." = "Snap canvas to foreground window.";
+
 /* No comment provided by engineer. */
 "Snapback Action cannot be added" = "Snapback Action cannot be added";
 
 /* No comment provided by engineer. */
 "Solid Circle" = "Solid Circle";
+
+/* Tooltip for audio channel soloing */
+"Solo this channel" = "Solo this channel";
 
 /* No comment provided by engineer. */
 "Source Name" = "Source Name";
@@ -1312,6 +1496,9 @@
 
 /* No comment provided by engineer. */
 "Split Clips" = "Split Clips";
+
+/* Video Motion Effect */
+"Spring" = "Spring";
 
 /* No comment provided by engineer. */
 "Square" = "Square";
@@ -1346,9 +1533,6 @@
 /* No comment provided by engineer. */
 "System Requirements Warning" = "System Requirements Warning";
 
-/* No comment provided by engineer. */
-"Template name cannot be longer than 40 characters" = "Template name cannot be longer than 40 characters";
-
 /* Default startup text when adding a new text clip
    Title for text panel */
 "Text" = "Text";
@@ -1359,14 +1543,17 @@
 /* Undo name for changing the size of a text object */
 "Text Size" = "Text Size";
 
+/* Message in licensing system */
+"Thank you for activating ScreenFlow." = "Thank you for activating ScreenFlow.";
+
 /* No comment provided by engineer. */
 "Thank you for downloading and evaluating ScreenFlow.  The application is fully functional but will watermark any documents you export (if you decide to purchase ScreenFlow, you\'ll be able to export your saved documents without the watermark).\n\nWe hope you enjoy using ScreenFlow." = "Thank you for downloading and evaluating ScreenFlow.  The application is fully functional but will watermark any documents you export (if you decide to purchase ScreenFlow, you\'ll be able to export your saved documents without the watermark).\n\nWe hope you enjoy using ScreenFlow.";
 
 /* No comment provided by engineer. */
-"Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you'll receive a discounted upgrade price to ScreenFlow 5.\n\nYou still have access to your old version of ScreenFlow in the same folder as ScreenFlow 5.  We hope you enjoy the new features of ScreenFlow." = "Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you'll receive a discounted upgrade price to ScreenFlow 5.\n\nYou still have access to your old version of ScreenFlow in the same folder as ScreenFlow 5.  We hope you enjoy the new features of ScreenFlow.";
+"Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you'll receive a discounted upgrade price to ScreenFlow 6.\n\nYou still have access to your old version of ScreenFlow in the same folder as ScreenFlow 6.  We hope you enjoy the new features of ScreenFlow." = "Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you'll receive a discounted upgrade price to ScreenFlow 6.\n\nYou still have access to your old version of ScreenFlow in the same folder as ScreenFlow 6.  We hope you enjoy the new features of ScreenFlow.";
 
 /* No comment provided by engineer. */
-"Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you\'ll receive a special discount on an upgrade to ScreenFlow 5.\n\nWe hope you enjoy the new features of ScreenFlow 5." = "Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you\'ll receive a special discount on an upgrade to ScreenFlow 5.\n\nWe hope you enjoy the new features of ScreenFlow 5.";
+"Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you\'ll receive a special discount on an upgrade to ScreenFlow 6.\n\nWe hope you enjoy the new features of ScreenFlow 6." = "Thank you for downloading and evaluating ScreenFlow.  The application will watermark any documents you export, but as an existing ScreenFlow customer, you\'ll receive a special discount on an upgrade to ScreenFlow 6.\n\nWe hope you enjoy the new features of ScreenFlow 6.";
 
 /* No comment provided by engineer. */
 "The 3ivx QuickTime video codec has been detected on your system.  Under this version of Mac OS X, it causes crashes importing or exporting any media content with ScreenFlow.  Please check for the \'3ivxVideoCodec.component\' and remove, then quit and relaunch ScreenFlow.\n\nIt can exist in these folders:\n\n/Library/QuickTime/\n/System/Library/QuickTime/\n" = "The 3ivx QuickTime video codec has been detected on your system.  Under this version of Mac OS X, it causes crashes importing or exporting any media content with ScreenFlow.  Please check for the \'3ivxVideoCodec.component\' and remove, then quit and relaunch ScreenFlow.\n\nIt can exist in these folders:\n\n/Library/QuickTime/\n/System/Library/QuickTime/\n";
@@ -1396,28 +1583,28 @@
 "The duration value cannot be less than or equal to 0.  Please adjust the duration to be a positive value." = "The duration value cannot be less than or equal to 0.  Please adjust the duration to be a positive value.";
 
 /* No comment provided by engineer. */
-"The error code returned by the system was %@.  Please try your export again and if the problem persists contact technical support." = "The error code returned by the system was %@.  Please try your export again and if the problem persists contact technical support.";
-
-/* No comment provided by engineer. */
 "The export path is not writable." = "The export path is not writable.";
 
 /* No comment provided by engineer. */
 "The export path is not writable.  Please check the permissions on the path and try again." = "The export path is not writable.  Please check the permissions on the path and try again.";
 
 /* No comment provided by engineer. */
-"The export volume has run out of space.  Please free up some space and try again." = "The export volume has run out of space.  Please free up some space and try again.";
-
-/* No comment provided by engineer. */
-"The exported filename contained illegal characters.  Please rename your export and try again." = "The exported filename contained illegal characters.  Please rename your export and try again.";
-
-/* No comment provided by engineer. */
 "The following media sources do not have clips in the timeline and can be automatically deleted." = "The following media sources do not have clips in the timeline and can be automatically deleted.";
-
-/* No comment provided by engineer. */
-"The License Key entered could not be validated.  Please check the key you entered carefully for mistakes, and if possible copy & paste the license from the original email receipt." = "The License Key entered could not be validated.  Please check the key you entered carefully for mistakes, and if possible copy & paste the license from the original email receipt.";
 
 /* Validation error message when adjusting annotation opacity */
 "The opacity should be between %@ and %@." = "The opacity should be between %1$@ and %2$@.";
+
+/* Error message in licensing system */
+"The operation could not be completed after an error occurred with the licensing server.  The error code returned was %d.  Please try again." = "The operation could not be completed after an error occurred with the licensing server.  The error code returned was %d.  Please try again.";
+
+/* Error message in licensing system */
+"The operation could not be completed after an error occurred.  The error code is %d.  Please try again." = "The operation could not be completed after an error occurred.  The error code is %d.  Please try again.";
+
+/* No comment provided by engineer. */
+"The record loop hours requires a value" = "The record loop hours requires a value";
+
+/* No comment provided by engineer. */
+"The record loop minutes requires a value" = "The record loop minutes requires a value";
 
 /* No comment provided by engineer. */
 "The scale percentage cannot be less than or equal to 0.  Please enter a positive scale percentage." = "The scale percentage cannot be less than or equal to 0.  Please enter a positive scale percentage.";
@@ -1428,6 +1615,27 @@
 /* No comment provided by engineer. */
 "The selected path for writing the finished file to is not valid.  Please pick another folder and try again." = "The selected path for writing the finished file to is not valid.  Please pick another folder and try again.";
 
+/* Error message in licensing system */
+"The serial number does not match this version" = "The serial number does not match this version";
+
+/* Message in licensing system */
+"The serial number entered is for ScreenFlow 5 and earlier.   For more information on upgrading or downloading a previous version, please see our knowledge base at our support site." = "The serial number entered is for ScreenFlow 5 and earlier.   For more information on upgrading or downloading a previous version, please see our knowledge base at our support site.";
+
+/* Message in licensing system */
+"The serial number entered was not valid.  Please check what was entered and try again." = "The serial number entered was not valid.  Please check what was entered and try again.";
+
+/* Message in licensing system */
+"The serial number entered was rejected by the server.  If you believe this message is in error, please contact Telestream support." = "The serial number entered was rejected by the server.  If you believe this message is in error, please contact Telestream support.";
+
+/* Message in licensing system */
+"The serial number has already been activated on the maximum number of computers permitted by your license. For more information on deactivating a previous machine or to purchase another license, please visit our support site." = "The serial number has already been activated on the maximum number of computers permitted by your license. For more information on deactivating a previous machine or to purchase another license, please visit our support site.";
+
+/* Message in licensing system */
+"The serial number has been deactivated on this machine and the application is no longer licensed." = "The serial number has been deactivated on this machine and the application is no longer licensed.";
+
+/* Message in licensing system */
+"The serial number was successfully activated but did not contain the right to use ScreenFlow.  Please check to make sure you have entered the correct serial number and check against the product you purchased." = "The serial number was successfully activated but did not contain the right to use ScreenFlow.  Please check to make sure you have entered the correct serial number and check against the product you purchased.";
+
 /* No comment provided by engineer. */
 "The size of the video being imported is larger than the graphics cards maximum of %.0fx%.0f.  Please reduce the image size before importing." = "The size of the video being imported is larger than the graphics cards maximum of %1$.0fx%2$.0f.  Please reduce the image size before importing.";
 
@@ -1436,6 +1644,9 @@
 
 /* No comment provided by engineer. */
 "The SRT file did not contain any captions that could be read" = "The SRT file did not contain any captions that could be read";
+
+/* Error message in licensing system */
+"The system did not authorize the privileged operation.  Please quit the application and try again." = "The system did not authorize the privileged operation.  Please quit the application and try again.";
 
 /* No comment provided by engineer. */
 "The timer requires a value" = "The timer requires a value";
@@ -1469,6 +1680,15 @@
 
 /* No comment provided by engineer. */
 "To record audio from your computer\'s speakers requires the installation of the Telestream Audio driver.\n\nYou only need to install the driver once." = "To record audio from your computer\'s speakers requires the installation of the Telestream Audio driver.\n\nYou only need to install the driver once.";
+
+/* Tooltip for timeline status bar */
+"Toggles audio waveforms on timeline clips." = "Toggles audio waveforms on timeline clips.";
+
+/* Tooltip for timeline status bar */
+"Toggles snapping of the timeline scrubber and clips to other clips in the timeline.  This also controls snapping of clips in the canvas." = "Toggles snapping of the timeline scrubber and clips to other clips in the timeline.  This also controls snapping of clips in the canvas.";
+
+/* Tooltip for timeline status bar */
+"Toggles thumbnails on timeline clips." = "Toggles thumbnails on timeline clips.";
 
 /* Cursor hotspot location */
 "Top" = "Top";
@@ -1530,6 +1750,9 @@
 /* No comment provided by engineer. */
 "Unable to %@ file \"%@\"" = "Unable to %1$@ file \"%2$@\"";
 
+/* Error message in licensing system */
+"Unable to activate serial number" = "Unable to activate serial number";
+
 /* No comment provided by engineer. */
 "Unable to allocate graphics resources." = "Unable to allocate graphics resources.";
 
@@ -1537,10 +1760,10 @@
 "Unable to begin exporting" = "Unable to begin exporting";
 
 /* No comment provided by engineer. */
-"Unable to complete export." = "Unable to complete export.";
-
-/* No comment provided by engineer. */
 "Unable to copy file \"%@\"" = "Unable to copy file \"%@\"";
+
+/* Error message */
+"Unable to create GIF" = "Unable to create GIF";
 
 /* No comment provided by engineer. */
 "Unable to find Audio Driver for installation" = "Unable to find Audio Driver for installation";
@@ -1582,9 +1805,6 @@
 "Unable to split clip" = "Unable to split clip";
 
 /* No comment provided by engineer. */
-"Unable to unlock license" = "Unable to unlock license";
-
-/* No comment provided by engineer. */
 "Under a minute" = "Under a minute";
 
 /* Clip Context menu command
@@ -1603,9 +1823,6 @@
 
 /* Menu Item Name */
 "Unlock Clips" = "Unlock Clips";
-
-/* No comment provided by engineer. */
-"Unlock successful!" = "Unlock successful!";
 
 /* No comment provided by engineer. */
 "Unnamed Marker" = "Unnamed Marker";
@@ -1644,6 +1861,12 @@
 "Vacuum" = "Vacuum";
 
 /* No comment provided by engineer. */
+"Value cannot be greater than %@." = "Value cannot be greater than %@.";
+
+/* No comment provided by engineer. */
+"Value cannot be less than %@." = "Value cannot be less than %@.";
+
+/* No comment provided by engineer. */
 "Value must be between 2 and 8192." = "Value must be between 2 and 8192.";
 
 /* No comment provided by engineer. */
@@ -1664,6 +1887,9 @@
 /* Action Context menu command
    Name in inspector panel */
 "Video Filters" = "Video Filters";
+
+/* No comment provided by engineer. */
+"Video Motion" = "Video Motion";
 
 /* No comment provided by engineer. */
 "Video Snapback" = "Video Snapback";
@@ -1687,13 +1913,16 @@
 "Welcome" = "Welcome";
 
 /* Text in the Welcome screen */
-"Welcome to ScreenFlow 5" = "Welcome to ScreenFlow 5";
+"Welcome to ScreenFlow 6" = "Welcome to ScreenFlow 6";
 
 /* Text in the Welcome screen */
 "What's New" = "What's New";
 
 /* No comment provided by engineer. */
 "When a nested clip is selected, ScreenFlow will export the project's timeline." = "When a nested clip is selected, ScreenFlow will export the project's timeline.";
+
+/* No comment provided by engineer. */
+"Width:" = "Width:";
 
 /* Name of transition in the Wipe Pack */
 "Windshield Wipe" = "Windshield Wipe";
@@ -1731,6 +1960,8 @@
 /* No comment provided by engineer. */
 "YouTube only allows certain accounts to upload more than 15 minutes of content.  If the upload is rejected, you must reduce the duration of the screencast to 15 minutes in order to publish it to YouTube." = "YouTube only allows certain accounts to upload more than 15 minutes of content.  If the upload is rejected, you must reduce the duration of the screencast to 15 minutes in order to publish it to YouTube.";
 
-"Selected export preset no longer available." = "Selected export preset no longer available.";
+/* No comment provided by engineer. */
+"Zooms the timeline. Use the View menu item \"Zoom Timeline to Fit\" to quickly see everything in your timeline." = "Zooms the timeline. Use the View menu item \"Zoom Timeline to Fit\" to quickly see everything in your timeline.";
 
-"Due to the removal of QuickTime, some presets have been deprecated and are no longer available.  If you had a lossless workflow, the recommended preset is 'Lossless – ProRes with Alpha'.  Other workflows will now default to 'Web – High' for export." = "Due to the removal of QuickTime, some presets have been deprecated and are no longer available.  If you had a lossless workflow, the recommended preset is 'Lossless – ProRes with Alpha'.  Other workflows will now default to 'Web – High' for export.";
+"Click to select a capture region on this screen" = "Click to select a capture region on this screen";
+

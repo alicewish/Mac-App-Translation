@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Appendix : Item links</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox">
+<a name="appendix-itemlinks"> </a>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Item links</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>DEVONthink Pro Office provides a URL (<a href="https://en.wikipedia.org/wiki/Uniform_Resource_Locator" target="_blank" class="weblink">uniform resource locator</a>) for all documents and groups in its databases. While web URL typically begin with "http://" or "https://", DEVONthink Pro Office's URLs take the form of "x-devonthink-item://" followed by a long alphanumeric ID.</p>
+<p>You get this item link by selecting a document or group and choosing <em>
+<a href="menus-edit.html#cut">Edit &gt; Copy Item Link</a>
+</em>, and you can use it in any application that supports URLs, e.g. the notes fields of OmniFocus tasks. For audio and video documents as well as for PDF pages you can also get URLs that directly link to a designated time or page using the contextual menu.</p>
+<p>In addition you can manually extend the copied URL with the following parameters:</p>
+<ul>
+<li>
+<span class="pname">page:</span> Directly jumps to the specified page of a PDF. Usage: page=&lt;integer&gt;.</li>
+<li>
+<span class="pname">reveal:</span> Reveals a group instead of opening them. Usage: reveal=1.</li>
+<li>
+<span class="pname">search:</span> Directly jumps to the first occurence of the search string. Usage: search=&lt;string&gt;.</li>
+<li>
+<span class="pname">time:</span> Directly jumps to the specified time in seconds in a video or audio document. Usage: time=&lt;float&gt;.</li>
+</ul>
+<div class="examplebox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname example">Example: </span>
+<br />
+		x-devonthink-item://&lt;groupID&gt;?reveal=1
+		x-devonthink-item://&lt;pdfID&gt;?page=5
+		<br />x-devonthink-item://&lt;textFileID&gt;?search=iPad%20Pro
+		<br />x-devonthink-item://&lt;movieID&gt;?time=43.5
+		</p>
+</td>
+</tr>
+</table>
+</div>
+<p>The first parameter after the ID is always added after a questionmark (?), additional ones after an ampersand (&amp;).</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="appendix-wikitemplates.html">&#8592; Template tags for Wiki-style links</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="appendix-metadata.html">Metadata &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

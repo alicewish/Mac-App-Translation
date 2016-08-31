@@ -1,0 +1,21 @@
+/* Localized Strings */
+
+"PubMed Article" = "PubMed-Artikel";
+"New PubMed Query" = "Neue PubMed-Anfrage";
+"Please enter your query for PubMed:" = "Bitte geben Sie Ihre Anfrage an PubMed ein:";
+"PubMed Research: " = "PubMed-Suchergebnis: ";
+"Click here to view article in PubMed" = "Klicken Sie hier, um den Originalartikel anzuzeigen";
+
+/* Progress indicator steps */
+"Researching on PubMed" = "Forschen auf PubMed";
+"Making a group for the results" = "Erstelle Gruppe für die Ergebnisse";
+"Sending query" = "Sende Anfrage";
+"Downloading result list" = "Lade Ergebnisliste herunter";
+"Downloading articles from PubMed" = "Lade Artikel herunter";
+
+/* Error messages */
+"Could not create group." = "Konnte die Gruppe nicht erstellen.";
+"An error has occured." = "Ein Fehler ist aufgetreten.";
+"No abstract available." = "Keine Zusammenfassung verfügbar.";
+"503 Service Temporarily Unavailable" = "503 Dienst vorübergehend nicht verfügbar";
+"No results." = "Keine Ergebnisse.";

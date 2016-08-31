@@ -1,0 +1,217 @@
+* {
+    font-family: Helvetica  ! important;
+    font-size: 12px ! important;
+}
+
+html, body {
+    margin: 0px ! important;
+    padding: 0px ! important;
+}
+
+#x-apple-ql-inner-mail {
+    background-color: white;
+    position: relative ! important;
+    padding: 10px ! important;
+    margin: 0px ! important;
+    padding-left: 8px ! important;
+    padding-right: 8px ! important;
+}
+
+div#x-apple-ql-headers {
+    margin: 0px;
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+table#x-apple-ql-headers {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 8px;
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    -apple-text-size-adjust: none;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(222, 222, 222);
+    border-bottom-style: solid;
+}
+
+table#x-apple-ql-headers tr {
+    padding: 0px;
+    margin: 0px;
+    max-height: 43px;
+}
+
+table#x-apple-ql-headers tr td.header_key {
+    color: rgb(128, 128, 128);
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+    margin: 0px;
+    padding: 0px;
+    vertical-align: top;
+}
+
+table#x-apple-ql-headers tr td.header_value {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 7px;
+    vertical-align: top;
+    width: 100%;
+}
+
+table#x-apple-ql-headers tr td.header_value_subject {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 7px;
+    vertical-align: top;
+    width: 100%;
+    font-weight: bold;
+}
+
+span.x-apple-ql-address {
+    white-space: nowrap;
+}
+
+span.x-apple-ql-address_more {
+    white-space: nowrap;
+}
+
+span.x-apple-ql-address_morecount {
+    color: navy;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+span.x-apple-ql-address_others {
+    display: none;
+}
+
+blockquote[type=cite] {
+    color: rgb(0, 75, 184);
+    border-left-width: 2px;
+    border-left-color: rgb(0, 75, 184);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote {
+    color: rgb(0, 102, 0);
+    border-left-width: 2px;
+    border-left-color: rgb(0, 102, 0);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote blockquote {
+    color: rgb(98, 0, 0);
+    border-left-width: 2px;
+    border-left-color: rgb(98, 0, 0);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote blockquote blockquote {
+    color: rgb(0, 75, 184);
+    border-left-width: 2px;
+    border-left-color: rgb(0, 75, 184);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote blockquote blockquote blockquote {
+    color: rgb(0, 102, 0);
+    border-left-width: 2px;
+    border-left-color: rgb(0, 102, 0);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote blockquote blockquote blockquote blockquote {
+    color: rgb(98, 0, 0);
+    border-left-width: 2px;
+    border-left-color: rgb(98, 0, 0);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote blockquote blockquote blockquote blockquote blockquote {
+    color: rgb(0, 75, 184);
+    border-left-width: 2px;
+    border-left-color: rgb(0, 75, 184);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote blockquote blockquote blockquote blockquote blockquote blockquote {
+    color: rgb(0, 102, 0);
+    border-left-width: 2px;
+    border-left-color: rgb(0, 102, 0);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+blockquote[type=cite] blockquote blockquote blockquote blockquote blockquote blockquote blockquote blockquote {
+    color: rgb(98, 0, 0);
+    border-left-width: 2px;
+    border-left-color: rgb(98, 0, 0);
+    border-left-style: solid;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding-left: 5px
+}
+
+img.x-apple-embedded-image {
+    max-width: 100% ! important;
+    margin: 2px ! important;
+}
+
+div.x-apple-attachment {
+    display: inline-table ! important;
+}
+
+img.x-apple-attachment-icon {
+    margin-left: auto ! important;
+    margin-right: auto ! important;
+    display: table-row ! important;
+    width: 32px ! important;
+    height: 32px ! important;
+}
+
+div.x-apple-attachment-filename {
+    color: rgb(0, 0, 255) ! important;
+    display: table-row ! important;
+    font-family: LucidaGrande, sans-serif ! important;
+    font-size: 10px ! important;
+    max-width: 150px ! important;
+    text-align: center ! important;
+}
+
+.ApplePlainTextBody {
+    word-wrap: break-word;
+}

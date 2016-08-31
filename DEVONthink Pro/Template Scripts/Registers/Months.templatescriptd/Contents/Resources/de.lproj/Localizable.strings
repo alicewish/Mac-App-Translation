@@ -1,0 +1,18 @@
+/* Localized Strings */
+
+"Months" = "Monate";
+
+"January" = "Januar";
+"February" = "Februar";
+"March" = "März";
+"April" = "April";
+"May" = "Mai";
+"June" = "Juni";
+"July" = "Juli";
+"August" = "August";
+"September" = "September";
+"October" = "October";
+"November" = "November";
+"December" = "Dezember";
+
+"An error occurred when adding the register." = "Beim Hinzufügen des Registers ist ein Fehler aufgetreten.";

@@ -1,0 +1,93 @@
+/*
+
+	DEVONtechnologies SUPPORT ASSISTANT
+	© 2011–2012 DEVONtechnologies, LLC
+
+	Written by Eric Böhnisch-Volkmann, Apr 7, 2011
+	Updated by Eric Böhnisch-Volkmann, Sep 12, 2012
+	
+	CSS for the first launch page
+
+*/
+
+#firstlaunch
+{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 860px;
+	height: 480px;
+	padding: 30px 50px 30px 50px;
+	font-size: 10pt;
+	font-family: "Lucida Grande", Arial;
+	color: #444;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.37, white), color-stop(0.37, rgb(230, 230, 230)), color-stop(0.6, white), to(white));
+	/* border: 1px solid fuchsia; */ /* For debugging in Safari */
+	overflow: hidden;
+}
+#firstlaunch p { margin: 0px 0px 1em 0px; }
+#firstlaunch-icon { text-align: center; }
+#firstlaunch-icon > img
+{
+	position: absolute;
+	top: 110px;
+	left: 352px;
+	width: 256px;
+	height: 256px;
+	-webkit-transform: scale(4.0);
+	opacity: 0.0;
+	-webkit-transition: -webkit-transform 0.7s ease-in, opacity 0.7s ease-in;
+}
+#firstlaunch-icon > h1
+{
+	position: absolute;
+	/* top: 550px; */
+	top: 425px;
+	left: 130px;
+	width: 700px;
+	display: block;
+	font-size: 24pt;
+	font-weight: normal;
+	color: #222;
+	-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 1.0)));
+	-webkit-transform: scale(4.0);
+	opacity: 0.0;
+	-webkit-transition: -webkit-transform 0.7s ease-in, opacity 0.7s ease-in, top 0.7s ease-in;
+}
+#firstlaunch-icon > img.animated-step1 { -webkit-transform: scale(1.0); opacity: 1.0; }
+#firstlaunch-icon > img.animated-step2 { opacity: 0.0; }
+#firstlaunch-icon > h1.animated-step1 { top: 375px; -webkit-transform: scale(1.4); opacity: 1.0; }
+#firstlaunch-icon > h1.animated-step2 { top: 20px; -webkit-transform: scale(1.0); }
+
+#firstlaunch-step-container
+{
+	width: 560px;
+	height: 300px;
+	position: absolute;
+	top: 80px;
+	left: 200px;
+	margin: 0px auto 0px auto;
+	opacity: 0.0;
+	-webkit-transition: opacity 0.7s ease-in;
+}
+#firstlaunch-step-container.animated-step1 { opacity: 1.0; }
+#firstlaunch-step-container a { color: #006600; text-decoration: none; }
+#firstlaunch-step-container a:hover { text-decoration: underline; cursor: pointer; }.firstlaunch-step { float: left; width: 33.33%; text-align: center; }
+
+.firstlaunch-step > h1 { font-size: 15pt; font-weight: normal; margin: 0px; }
+.firstlaunch-step > h2 { font-size: 13pt; font-weight: normal; color: #999; margin: 20px 0px 5px 0px; }
+.firstlaunch-step > a { display: block; width: 160px; height: 160px; background: white; display: inline-block; }
+.firstlaunch-step > a > img:hover { opacity: 1.0; -webkit-transition: opacity 0.25s linear; }
+.firstlaunch-step > a > img
+{
+	width: 160px;
+	height: 160px;
+	-webkit-box-reflect: below 2px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(255, 255, 255, 0.3)));
+	opacity: 0.6;
+	border: 1px solid #999;
+	-webkit-transition: opacity 0.25s linear;
+}
+.firstlaunch-step > p { display: inline-block; width: 160px; text-align: left; color: #999; font-size: 8pt; }
+.firstlaunch-step > p:nth-of-type(1) { margin-top: 1em !important; }
+
+#bottombar-firstlaunch { top: 390px; height: 48px; width: 560px; }

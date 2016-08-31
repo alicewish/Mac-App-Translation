@@ -1,0 +1,123 @@
+/*
+
+	DEVONtechnologies SUPPORT ASSISTANT
+	© 2011–2012 DEVONtechnologies, LLC
+
+	Written by Eric Böhnisch-Volkmann, Apr 7, 2011
+	Updated by Eric Böhnisch-Volkmann, Jul 26, 2012
+	
+	Main CSS file
+
+*/
+
+body
+{
+	width: 960px;
+	height: 540px;
+	margin: 0px;
+	padding: 0px;
+	background: #fff;
+	font-size: 10pt;
+	font-family: "Lucida Grande", Arial;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	cursor: default;
+}
+p { line-height: 150%; }
+h1 { text-align: center; margin: 0px 0px 20px 0px; font-family: "Lucida Grande", Arial; font-size: 18pt; font-weight: normal; color: #444; }
+img { -webkit-user-drag: none; }
+
+
+/* BUTTONS */
+
+.modernbutton
+{
+	background: -webkit-gradient(linear, left top, left bottom, from(#387dff), to(#2654b7));
+	display: inline-block;
+	padding: 5px 10px 6px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 7.5pt;
+	font-weight: bold;
+	line-height: 1;
+	-webkit-border-radius: 2px;
+	-webkit-box-shadow: 0 1px 3px #999;
+	text-shadow: 0 -1px 1px #222;
+	border-bottom: 1px solid #222;
+	position: relative;
+	cursor: pointer;
+}
+.modernbutton:active { background: -webkit-gradient(linear, left top, left bottom, from(#2757b3), to(#142e65)); }
+.buttongreen { background: -webkit-gradient(linear, left top, left bottom, from(#090), to(#060)); }
+.buttongreen:active { background: -webkit-gradient(linear, left top, left bottom, from(#060), to(#040)); }
+.buttongrey { background: -webkit-gradient(linear, left top, left bottom, from(#999), to(#666)); }
+.buttongrey:active { background: -webkit-gradient(linear, left top, left bottom, from(#777), to(#444)); }
+.inputline
+{
+	border-top: 0px !important;
+	border-left: 0px !important;
+	border-right: 0px !important;
+	border-bottom: 1px dotted #aaa !important;
+	outline-width: 0 !important;
+	padding: 0px 0px 2px 0px !important;
+	background-color: transparent;
+	margin: 10px 0px 5px 0px;
+}
+.inputline-description { margin: 0px !important; font-size: 7pt !important; color: #999 !important; }
+.accept-button
+{
+	width: 16px;
+	height: 16px;
+	background-image: url(../images/ui/accept.png);
+	float: right;
+	visibility: visible;
+	opacity: 1.0;
+	-webkit-transition: opacity .25s linear, visibility 1s linear;
+	cursor: pointer;
+}
+.accept-button.inactive { visibility: hidden; opacity: 0.0; -webkit-transition: opacity .25s linear, visibility 1s linear; }
+.accept-button:active { background-image: url(../images/ui/accept-active.png); }
+
+/* The click-to-play button */
+
+.clicktoplaybutton { width: 150px; display: inline-block; text-align: center; margin-right: 15px; /* margin-left: auto; margin-right: auto; */ } 
+div.clicktoplaybutton p
+{
+	display:						block;
+	padding:						4px 0px 4px 5px !important;
+	margin:						0px 0px 1px 0px !important;
+	border:						1px solid #555;
+	background:				-webkit-gradient(linear, left top, left bottom, from(#aaa), to(#555));
+	-webkit-border-radius:	21px;
+	-webkit-box-shadow:	0 2px 5px #999;
+	font-size:					13pt;
+	color:							#fff;
+}
+div.clicktoplaybutton p:active { background: -webkit-gradient(linear, left top, left bottom, from(#555), to(#aaa)); }
+div.clicktoplaybutton p img { vertical-align: middle; margin-top: -4px; }
+
+/* SPINNER */
+
+.spinner
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	margin: -5px;
+	padding: 5px;
+	-webkit-transition: opacity .25s linear, visibility 1s linear;
+	background-image: url(../images/ui/progressindicator.gif);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/* BOTTOM BAR */
+
+.bottombar { position: absolute; left: 0px; top: 511px; overflow: hidden; width: 960px; height: 29px; text-align: center; background: #fff; }
+.bottombar > p { margin: 0px 10px 0px 10px; line-height: 30px; color: #aaa; font-size: 11px; }
+.bottombar > p > a { color: #aaa; text-decoration: none; }
+.bottombar > p > a:hover { text-decoration: underline; }
+.bottombar > p > a:active { color: #777; }
+#bottombar-welcome { width: 719px; }

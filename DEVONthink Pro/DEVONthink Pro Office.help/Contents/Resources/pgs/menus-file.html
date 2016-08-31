@@ -1,0 +1,224 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Menus : The File menu</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="menus-file"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="menus-file.html#new" class="quicklinks">New, Open, Open Recent</a>
+<br />
+<a href="menus-file.html#newwindow" class="quicklinks">New Window</a>
+<br />
+<a href="menus-file.html#import" class="quicklinks">Import</a>
+<br />
+<a href="menus-file.html#export" class="quicklinks">Export</a>
+<br />
+<a href="menus-file.html#index" class="quicklinks">Index, Update Indexed Items</a>
+<br />
+<a href="menus-file.html#sync" class="quicklinks">Synchronize</a>
+<br />
+<a href="menus-file.html#properties" class="quicklinks">Properties</a>
+<br />
+<a href="menus-file.html#printing" class="quicklinks">Page Setup, Print</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">The File menu</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>The File menu contains all commands that deal directly with files in your volumes, databases, or files that can be imported, exported, or indexed. Also, the File menu contains commands for printing documents.</p>
+<a name="new"> </a>
+<p class="subsection">New, Open, Open Recent</p>
+<p>
+<span class="pname">New Database: </span>Creates a new database. Give it a name and save it wherever you like in your file system. DEVONthink Pro Office will add the file name extension ".dtBase2" to enable the operating system to recognize it as a DEVONthink Pro Office database package (technically a folder).</p>
+<p>
+<span class="pname">Open Database: </span>Opens previously created databases. You can select multiple databases. If a database has been saved in version 1.x format, DEVONthink Pro Office offers to convert it.</p>
+<p>
+<span class="pname">Open Recent: </span>Presents a list of recently used databases, which gives you quick access to your frequently used databases. Choose <em>Clear Menu</em> to remove all items from the menu.</p>
+<a name="newwindow"> </a>
+<p class="subsection">New Window</p>
+<p>
+<span class="pname">New Window: </span>Opens a new <a href="windows-main.html#">main window</a> for an open database. (If only one database is open, no sub-menu is available.) DEVONthink Pro Office windows present all documents and groups of a database in a Finder-like fashion, and are used to access all stored items. Some views also contain a view/edit pane for easy viewing and editing of documents.</p>
+<a name="import"> </a>
+<p class="subsection">Import</p>
+<p>
+<span class="pname">Import: </span>Imports files or complete folders from your volumes into the database. You can find a list of all supported file formats in the <a href="appendix-fileformats.html#">appendix</a>. If not stated differently, data is imported to the <a href="appendix-glossary.html#">default destination</a>. Finder labels, tags, and Spotlight comments are honored whenever possible.</p>
+<p>The flexible plug-in architecture of DEVONthink Pro Office allows other import modules to be added. DEVONthink Pro Office comes with the following default import plug-ins:</p>
+<ul>
+<li>
+<span class="pname">Contacts:</span> Imports addresses from the Contacts application as a sheet, as vcards (.vcf), or as bookmarks. Previously created groups are reused. Tip: To import all addresses, select all addresses in the group "All" and import them. Address card bookmarks link to the original card in the Contacts application.</li>
+<li>
+<span class="pname">Bookmarks:</span> Imports bookmarks from <a href="http://www.caminobrowser.org" target="_blank" class="weblink">Camino</a>, <a href="http://www.mozilla.org" target="_blank" class="weblink">Firefox</a>, <a href="http://www.google.com/chrome" target="_blank" class="weblink">Google Chrome</a>, <a href="http://www.omnigroup.com" target="_blank" class="weblink">OmniWeb</a>, or Safari as bookmarks. Only new bookmarks are imported if you use this command again.</li>
+<li>
+<span class="pname">Email:</span> Imports email messages from your email application including threading information, formatting, and attachments. <a href="inandout-email.html#">Read more...</a>
+</li>
+<li>
+<span class="pname">Images (with OCR):</span> Imports images (PDFs, JPEGs, or TIFF, etc.) and applies optical character recognition (OCR). This makes all written text searchable and available to DEVONthink Pro Office's AI functions. The image plus text layer is imported to the database as a PDF document. You can change the <a href="preferences-ocr.html#">OCR settings</a> in the Preferences window. <a href="inandout-otherscanners.html#importwithocr">Read more...</a>
+</li>
+<li>
+<span class="pname">Notes from Evernote:</span> Imports the notebook selected in Evernote including names, dates, and tags. Notes are stored as formatted notes. Already imported notes are not updated again. The URL of the imported notes links back to the original notes in Evernote. This option requires the Evernote app be installed; it is not available in the App Store variant.</li>
+<li>
+<span class="pname">Items from Yojimbo:</span> Imports selected items from <a href="http://www.barebones.com/products/Yojimbo/" target="_blank" class="weblink">Yojimbo</a>. Imported items retain name, label, flag, URL, comments, tags and creation/modification dates. Items without a URL link back to the original item in Yojimbo. Yojimbo 4.0 and later is required; this option is not available in the App Store variant.</li>
+<li>
+<span class="pname">References from Bookends:</span> Imports multiple references from Bookends into a newly created group named "Bookends". Already imported references are updated (requires Bookends 11.3.5 or later). The keywords assigned to a Bookends reference are added to the <em>
+<a href="windows-documentproperties.html#">Document Properties</a>
+</em> of the created rich text document. Use the <a href="windows-assistant.html#extras">optional script</a> <em>Scripts &gt; Tags &gt; Convert keywords to tags</em> to convert the keywords to tags if needed.</li>
+<li>
+<span class="pname">Website:</span> Opens the <a href="windows-download.html#">Download Manager</a> and downloads a complete web page/site for archiving and offline viewing. Make sure the <a href="windows-download.html#options">download options</a> are set correctly, especially the options that define which links DEVONthink Pro Office should follow (if any). All links within the site are modified so that they point to the downloaded images or other embedded objects. This ensures that the page/site can be displayed at any time. By default, groups created by the Download Manager are excluded from tagging.</li>
+<li>
+<span class="pname">From Scanner or Camera:</span> Imports printed documents from a connected scanner or camera. In addition, DEVONthink Pro Office comes with a built-in OCR (optical character recognition) engine for making scanned documents searchable. <a href="inandout-imagecapture.html#">Read more...</a>
+</li>
+<li>
+<span class="pname">Clip to DEVONthink:</span> Opens the <em>
+<a href="inandout-bookmarklets.html#">Clip to DEVONthink</a>
+</em> panel for quickly clipping copied texts or web addresses.</li>
+</ul>
+<a name="export"> </a>
+<p class="subsection">Export</p>
+<p>This sub-menu allows you to export selected documents or groups to the file system.</p>
+<p>
+<span class="pname">Files and Folders: </span>Exports the selected documents and recreates the hierarchy you have built in DEVONthink Pro Office almost exactly. Metadata files (".DEVONtech_storage") make sure that no metadata such as comments, URLs, etc., are lost. DEVONthink Pro Office reads these files when importing and recreates your original data structure. If you don't need the metadata, you can safely delete the ".DEVONtech_storage" files. Exporting also exports tags in OS X 10.9 Mavericks and OpenMeta formats (on OS X Mavericks and earlier).</p>
+<p>
+<span class="pname">Document: </span>Exports the currently viewed document.</p>
+<p>In addition, the <em>Export</em> sub-menu provides export methods based on plug-ins. DEVONthink Pro Office comes with a number of standard plug-ins for exporting documents in different formats. Currently the following plug-ins are included:</p>
+<ul>
+<li>
+<span class="pname">as Text:</span> Exports the selected items as one large plain text file. You can choose the desired encoding.</li>
+<li>
+<span class="pname">as RTF Document:</span> Exports the selected items as one large rich text file without embedded images, etc.</li>
+<li>
+<span class="pname">as RTFD Document:</span> Exports the selected items as one large rich text file with embedded images, etc.</li>
+<li>
+<span class="pname">as Word Document:</span> Exports the selected items as one large <a href="http://www.microsoft.com/mac/" target="_blank" class="weblink">Microsoft Word</a> file.</li>
+<li>
+<span class="pname">as Unix Mailbox:</span> Exports all selected email messages (of type ".eml"; does not apply for email messages converted to rich text using an earlier version of DEVONthink Pro Office), and saves them as Unix mailbox file that can be imported into other email applications.</li>
+<li>
+<span class="pname">as OPML:</span> Exports the selected items as one <a href="http://en.wikipedia.org/wiki/OPML" target="_blank" class="weblink">OPML</a> file.</li>
+<li>
+<span class="pname">as Website:</span> Exports the selected items as standalone web site that you can upload to your web server and share with colleagues. In the appearing dialog window, choose the desired template, text encoding, and whether DEVONthink Pro Office should convert diacritics and accented characters to HTML entities or not. Check <em>Create Index Pages</em> to create "index.html" pages with cross-links to all included documents.  Markdown and formatted notes are rendered to HTML, other file types that cannot be displayed in a web browser, e.g., Pages files, are converted to PDF if possible. Cross-links are converted correctly. For the export <a href="appendix-websiteexporttemplates.html#">templates</a> are used that you can modify yourself. </li>
+<li>
+<span class="pname">as Template:</span> Saves the selected documents as a template, which can then be used to quickly create new documents using <em>
+<a href="menus-data.html#new">Data &gt; New &gt; With Template</a>
+</em>. To remove a saved template or to organize your templates in sub-folders, visit the folder '~/Library/Application Support/DEVONthink Pro 2/Templates.noindex' in the Finder, then create sub-folders, move items, rename them, or trash them. Export multiple documents and/or groups at once to create e.g. a project template.</li>
+<li>
+<span class="pname">Database Archive:</span> Creates a clean copy of the frontmost database and compresses it as a .Zip archive. Back up the copy to any medium or server to keep your data safe from hardware or software failures.</li>
+</ul>
+<p>For images exported from a separately opened document window, DEVONthink Pro Office lets you choose the desired file format or image quality.</p>
+<a name="index"> </a>
+<p class="subsection">Index, Update Indexed Items</p>
+<p>
+<span class="pname">Index: </span>Adds selected files to your database, but only as references, not in their entirety. DEVONthink Pro Office indexes the contents of the file and uses this for classification and other content-related functions. Indexed items show a little arrow after their name. For unknown file types, this command creates a bookmark. You can also drag files from the Finder to DEVONthink Pro Office; hold down the &#8984; and &#8997; keys to index them. This is similar to creating an alias in the Finder.</p>
+<p>Indexed groups are excluded from tagging by default and changes to an indexed document are immediately reflected in its OpenMeta metadata (and are so noticable by external tagging applications). By default DEVONthink Pro Office automatically updates selected items when they're shown, e.g. when you show a group's contents. Sub-groups that are not visible are not updated automatically, however.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>External indexed files or folders located in "/System/", "/Library/" or "~/Library/" are never renamed or deleted to prevent users from accidentally harming the system.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<span class="pname">Update Indexed Items: </span>If you need to be sure everything is up-to-date use his command. If nothing is selected, the enclosing group of the current group is used. It also reads changes made to the Finder or Spotlight comments of the to-be-updated files and applies the changes to the files' counterparts in the database. Finally, this command removes indexed items that have lost their external counterpart. It does not affect items moved manually to the group. Use <em>Update Indexed Items</em> to keep indexed groups and their originating folders in sync or to manually update an item that you have changed directly inside the database package when DEVONthink Pro Office was not running.</p>
+<p>To create this connection between the item in the database and the folder or file in the file system, which is maintained by the <em>Path</em> field in the <a href="windows-info.html#">Info panel</a>, you have to freshly import/index your folder of choice.</p>
+<p>Select the groups and documents and choose <em>File &gt; Update Indexed Items</em> to import all files that have been newly added to the connected folders in the file system.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>The update for groups is one-way only, from the file system to the database. But when you rename a document, its file is renamed, too, and when you change the Spotlight comments of a document this is reflected in the file system, as well.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="sync"> </a>
+<p class="subsection">Synchronize</p>
+<p>
+<span class="pname">Synchronize: </span>Synchronizes the selected database with all designated locations. If the database is not yet set up for synchronization this command opens the <em>
+<a href="preferences-sync.html#">Preferences, Sync tab</a>
+</em>.</p>
+<p>
+<span class="pname">Synchronize All: </span>Synchronizes all open databases with its designated locations.</p>
+<a name="properties"> </a>
+<p class="subsection">Properties</p>
+<p>
+<span class="pname">Database Properties: </span>Opens the <a href="windows-properties.html#">Database Properties panel</a> for the selected database (if only one database is open no sub-menu is available) that allows you to change properties such as database name, comments, and username/password.</p>
+<p>
+<span class="pname">Close Database: </span>Closes a selected database (if only one database is open no sub-menu is available). If multiple databases are open, use <em>Close All</em> to close them all in one go.</p>
+<p>
+<span class="pname">Delete Database: </span>Closes a selected database and moves it to the Finder trash.</p>
+<a name="printing"> </a>
+<p class="subsection">Page Setup, Print</p>
+<p>
+<span class="pname">Page Setup: </span>Sets your preferred page size.</p>
+<p>
+<span class="pname">Print: </span>Prints the selected or front-most document.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="menus-application.html">&#8592; The Application menu</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="menus-edit.html">The Edit menu &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

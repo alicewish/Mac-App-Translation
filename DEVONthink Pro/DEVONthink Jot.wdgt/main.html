@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="front">
+        <div id="background-front-top"></div>
+        <div id="background-front-bottom">
+            <div id="info"></div>
+            <div id="savebutton"></div>
+            <div id="resize" onmousedown="startResize(event)"></div>
+        </div>
+        <div id="notearea"></div>
+        <div id="text"></div>
+        <input id="tags" type="text" name="tags" value="" onclick="onFocusTags(event)" onblur="onBlurTags(event)" onfocus="onFocusTags(event)">
+        <textarea id="note" name="note" onclick="focusNote(event)" onfocus="onFocusNote(event)" onblur="onBlurNote(event)" onchange="onChangeNote(event)" onkeypress="onChangeNote(event)" onkeydown="onChangeNote(event)" onkeyup="onChangeNote(event)"></textarea>
+    </div>
+    <div id="back">
+        <img src="Images/Back%202.png" id="background-backside">
+        <div id="done"></div>
+        <div id="text-backside"></div>
+        <div id="websitebutton" onclick="openHomepage(event)"></div>
+        <div id="fontmenu"></div>
+        <div id="text1"></div>
+        <div id="text2"></div>
+        <input id="defaulttags" type="text" name="defaulttags" value="">
+    </div>
+</body>
+</html>

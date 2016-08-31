@@ -1,0 +1,22 @@
+/*
+
+	DEVONtechnologies SUPPORT ASSISTANT
+	© 2011?2012 DEVONtechnologies, LLC
+
+	Written by Eric Böhnisch-Volkmann, Apr 7, 2011
+	Updated by Eric Böhnisch-Volkmann, Jul 26, 2012
+	
+	Additional rules for displaying the assistant online 
+
+*/
+
+body { background: transparent; width: 750px; }
+#main { background-image: none; padding: 30px 30px 30px 30px; }
+#notepaper { left: 132px; }
+#tips { left: 170px; }
+#tutorials { left: 30px; }
+#activityindicator { left: 444px; }
+
+/* slideshow.html */
+
+#exposeMask { background: none !important; }

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.ScriptEditor.id.DA0D38EF-9783-485C-8770-5316CA279A0C</string>
+	<key>WindowState</key>
+	<dict>
+		<key>bundleDividerCollapsed</key>
+		<true/>
+		<key>bundlePositionOfDivider</key>
+		<real>0.0</real>
+		<key>dividerCollapsed</key>
+		<true/>
+		<key>eventLogLevel</key>
+		<integer>2</integer>
+		<key>name</key>
+		<string>ScriptWindowState</string>
+		<key>positionOfDivider</key>
+		<real>502</real>
+		<key>savedFrame</key>
+		<string>279 59 1042 968 0 0 1680 1027 </string>
+		<key>selectedTab</key>
+		<string>log</string>
+	</dict>
+</dict>
+</plist>

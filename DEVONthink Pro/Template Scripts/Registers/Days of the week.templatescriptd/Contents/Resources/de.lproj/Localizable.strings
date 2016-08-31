@@ -1,0 +1,13 @@
+/* Localized Strings */
+
+"Days of the week" = "Wochentage";
+
+"Monday" = "Montag";
+"Tuesday" = "Dienstag";
+"Wednesday" = "Mittwoch";
+"Thursday" = "Donnerstag";
+"Friday" = "Freitag";
+"Saturday" = "Samstag";
+"Sunday" = "Sonntag";
+
+"An error occurred when adding the register." = "Beim Hinzufügen des Registers ist ein Fehler aufgetreten.";

@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Scripts : Internal scripts</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="scripts-scriptsmenu"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="scripts-scriptsmenu.html#comments" class="quicklinks">Comments</a>
+<br />
+<a href="scripts-scriptsmenu.html#data" class="quicklinks">Data</a>
+<br />
+<a href="scripts-scriptsmenu.html#dates" class="quicklinks">Dates</a>
+<br />
+<a href="scripts-scriptsmenu.html#download" class="quicklinks">Download</a>
+<br />
+<a href="scripts-scriptsmenu.html#edit" class="quicklinks">Edit</a>
+<br />
+<a href="scripts-scriptsmenu.html#execute" class="quicklinks">Execute</a>
+<br />
+<a href="scripts-scriptsmenu.html#export" class="quicklinks">Export</a>
+<br />
+<a href="scripts-scriptsmenu.html#feeds" class="quicklinks">Feeds</a>
+<br />
+<a href="scripts-scriptsmenu.html#format" class="quicklinks">Format</a>
+<br />
+<a href="scripts-scriptsmenu.html#images" class="quicklinks">Images</a>
+<br />
+<a href="scripts-scriptsmenu.html#import" class="quicklinks">Import</a>
+<br />
+<a href="scripts-scriptsmenu.html#reminders" class="quicklinks">Reminders</a>
+<br />
+<a href="scripts-scriptsmenu.html#rename" class="quicklinks">Rename</a>
+<br />
+<a href="scripts-scriptsmenu.html#sheets" class="quicklinks">Sheets</a>
+<br />
+<a href="scripts-scriptsmenu.html#toolbar" class="quicklinks">Toolbar</a>
+<br />
+<a href="scripts-scriptsmenu.html#thumbnails" class="quicklinks">Thumbnails</a>
+<br />
+<a href="scripts-scriptsmenu.html#about" class="quicklinks">About this menu</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Internal scripts</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>The internal scripts menu of DEVONthink Pro Office, located to the left of the <em>Help</em> menu (in DEVONthink Pro Office's menu bar), gives you access to a large number of pre-made scripts and <a href="scripts-automator.html#">Automator workflows</a> that extend DEVONthink Pro Office with additional, more specialized commands and functions.</p>
+<p>More scripts are available as extras. <a href="windows-assistant.html#extras">Read more...</a>
+</p>
+<p>Of course, you can easily modify all these scripts using the AppleScript Editor (and the workflows using Automator) or add your own scripts and workflows to the menu. They are located in "~/Library/Application Support/DEVONthink Pro/Scripts". Open this folder in the Finder with <em>Scripts &gt; Open Scripts Folder.</em>
+</p>
+<p>
+<span class="pname">Keyboard shortcuts: </span>If you want to add keyboard shortcuts to scripts in this menu, either use the System Preferences or add the shortcut description to the file name of the script in "~/Library/Application Support/DEVONthink Pro/Scripts" or "~/Library/Scripts". Example: "eMail Current URL (Mail)___Cmd-Alt-M.scpt". The naming convention is three underline characters followed by the shortcut description. "Cmd" stands for the &#8984;Command, "Alt" for the &#8997;Option, "Ctrl" for the &#x2303;Control, and "Shift" for the &#8679;Shift keys.</p>
+<p>
+<span class="pname">Caching: </span>All scripts in this menu are cached and therefore their properties are persistent until you quit and relaunch the application or DEVONthink Pro Office automatically updates the menu, e.g. after adding or removing scripts.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>If you have modified the contents of the script menu and want to go back to the default set, delete the Scripts folder in "~/Library/Application Support/DEVONthink Pro/". DEVONthink Pro Office will recreate this folder, including it's content, the next time you launch the application.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="comments"> </a>
+<p class="subsection">Comments</p>
+<ul>
+<li>
+<span class="pname">Assemble:</span> Collects the comments of the selected documents and creates a new document listing them.</li>
+<li>
+<span class="pname">Speak:</span> Speaks the comments of the selected documents.</li>
+</ul>
+<a name="data"> </a>
+<p class="subsection">Data</p>
+<ul>
+<li>
+<span class="pname">Convert to Tags:</span> Converts the tag contained in the comments field to real tags if the comments field of the selected document contains tags separated by commas. <a href="appendix-tagging.html#">Read more...</a>
+</li>
+<li>
+<span class="pname">Move Duplicates to Trash:</span> Moves all duplicates of the selected document to the trash.</li>
+<li>
+<span class="pname">Find &amp; Remove Similar Contents:</span> Finds and removes similar documents.</li>
+<li>
+<span class="pname">Group With Duplicates:</span> Creates a group with duplicates of the selected documents.</li>
+<li>
+<span class="pname">Group With Replicants:</span> Creates a group with replicants of the selected documents.</li>
+</ul>
+<a name="dates"> </a>
+<p class="subsection">Dates</p>
+<ul>
+<li>
+<span class="pname">Creation &gt; Modification Date:</span> Sets the modification date of the selected items to their creation dates.</li>
+<li>
+<span class="pname">Modification &gt; Creation Date:</span> Sets the creation date of the selected items to their modification dates.</li>
+<li>
+<span class="pname">Touch Creation Date:</span> Sets the creation date and time of the selected items to the current date and time.</li>
+</ul>
+<a name="download"> </a>
+<p class="subsection">Download</p>
+<ul>
+<li>
+<span class="pname">Images of Page:</span> Adds the images of a displayed web page to the database.</li>
+<li>
+<span class="pname">Linked Images of Page:</span> Adds linked images of a displayed web page to the database.</li>
+<li>
+<span class="pname">Links of Page:</span> Adds links contained on a displayed web page to the database.</li>
+<li>
+<span class="pname">Create Offline Archive:</span> Creates an offline version of a displayed web page.</li>
+</ul>
+<a name="edit"> </a>
+<p class="subsection">Edit</p>
+<ul>
+<li>
+<span class="pname">Count Characters:</span> Counts the characters in the current selection.</li>
+<li>
+<span class="pname">Count Words:</span> Counts the words in the current selection.</li>
+</ul>
+<a name="execute"> </a>
+<p class="subsection">Execute</p>
+<ul>
+<li>
+<span class="pname">AppleScript:</span> Executes an AppleScript script.</li>
+<li>
+<span class="pname">Perl:</span> Executes a Perl script.</li>
+<li>
+<span class="pname">Shell:</span> Executes a shell script.</li>
+</ul>
+<a name="export"> </a>
+<p class="subsection">Export</p>
+<p>The following scripts provide some seldom-used export functions and help you create backups of your database (for copying them to external media such as CD-R or JungleDisk).</p>
+<ul>
+<li>
+<span class="pname">Listing:</span> Saves a UTF-8 text file containing a text listing of the names of all contents/groups of the current database.</li>
+<li>
+<span class="pname">Daily Backup Archive:</span> Creates a backup of the database in "~/Backup". All backups are named after the current date so that multiple backups are kept.</li>
+<li>
+<span class="pname">To JungleDisk:</span> Exports all items in the database as a Zip archive and copies the backup archive to your <a href="http://www.jungledisk.com" target="_blank" class="weblink">JungleDisk</a>. Please note that for this script to work, your JungleDisk needs to be named "JungleDisk".</li>
+</ul>
+<a name="feeds"> </a>
+<p class="subsection">Feeds</p>
+<p>DEVONthink Pro Office can be used as a news feed reader. To work with news feeds, use the dedicated <a href="documents-html.html#">feed document</a> type.</p>
+<p>The following scripts demonstrate additional methods of how DEVONthink Pro Office can directly plug into live information sources by the use of AppleScript.</p>
+<ul>
+<li>
+<span class="pname">Apple -- Hot News:</span> Creates an HTML document with Apple's Hot News.</li>
+<li>
+<span class="pname">Nature -- Hubble News:</span> Downloads the latest Hubble news.</li>
+<li>
+<span class="pname">iTMS -- Added Albums:</span> Downloads covers of albums recently added to the iTunes Music Store.</li>
+</ul>
+<a name="format"> </a>
+<p class="subsection">Format</p>
+<ul>
+<li>
+<span class="pname">Body Normal:</span> Formats selected text as "Body Normal".</li>
+<li>
+<span class="pname">Body Small:</span> Formats selected text as "Body Small".</li>
+<li>
+<span class="pname">Header Capitalized:</span> Formats selected text as "Header Capitalized".</li>
+<li>
+<span class="pname">Header Normal:</span> Formats selected text as "Header Normal".</li>
+<li>
+<span class="pname">Header Secondary:</span> Formats selected text as "Header Secondary".</li>
+<li>
+<span class="pname">Source:</span> Formats selected text as Source.</li>
+<li>
+<span class="pname">Reset Spacing:</span> Resets the line and paragraph spacing of selected rich text.</li>
+</ul>
+<a name="images"> </a>
+<p class="subsection">Images</p>
+<ul>
+<li>
+<span class="pname">Copy Info to Comment:</span> Copies basic image info to the comment field.</li>
+<li>
+<span class="pname">Flip Horizontal / Vertical:</span> Flips the image horizontally/vertically.</li>
+<li>
+<span class="pname">Rotate Left / Right:</span> Rotates the image left/right.</li>
+<li>
+<span class="pname">Landscape to Portrait:</span> Rotates only landscape images to portrait.</li>
+<li>
+<span class="pname">Portrait to Landscape:</span> Rotates only portrait images to landscape.</li>
+<li>
+<span class="pname">Scale to 1024 pixels wide:</span> Scales the image to 1,024 pixels wide.</li>
+<li>
+<span class="pname">Scale to 1024 pixels:</span> Scales the image to 1,024 pixels.</li>
+<li>
+<span class="pname">Scale to 200%:</span> Scales the image to 200 percent.</li>
+<li>
+<span class="pname">Scale to 50%:</span> Scales the image to 50 percent.</li>
+</ul>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>While these scripts work with PDF documents it is not advisable to do so. The functions only act on the first page of a multi-page PDF; the resulting document will contain the first page only.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="import"> </a>
+<p class="subsection">Import</p>
+<p>These scripts demonstrate DEVONthink Pro Office's ability to import data from various sources, including web sites.</p>
+<ul>
+<li>
+<span class="pname">Astronomy Picture of the Day:</span> Imports the Astronomy Picture of the Day.</li>
+<li>
+<span class="pname">Daily Dilbert:</span> Imports the Daily Dilbert.</li>
+<li>
+<span class="pname">Del.icio.us:</span> Imports your <a href="http://del.icio.us" target="_blank" class="weblink">del.icio.us</a> bookmarks. The descriptions are used to name the imported bookmarks; the notes and the tags are added to the comments. If the keychain does not contain a key for del.icio.us, dialogs pop up allowing you to enter the user name and password.</li>
+<li>
+<span class="pname">Man Page:</span> Imports a UNIX manual page as a PDF document.</li>
+<li>
+<span class="pname">Mars Explorer Rover Mission Im.:</span> Imports Mars Explorer Rover Mission Images.</li>
+<li>
+<span class="pname">Perldoc:</span> Imports the documentation of Perl pages, modules, functions, or programs.</li>
+<li>
+<span class="pname">Phone List:</span> Imports all phone numbers from Contacts.</li>
+</ul>
+<p>The following scripts import chatlogs and call logs from popular instant messaging clients as well as from your mobile phone:</p>
+<ul>
+<li>
+<span class="pname">Adium Chatlogs:</span> Imports all your chatlogs from the <a href="http://www.adiumx.com" target="_blank" class="weblink">Adium</a> instant messaging client, converts them to readable HTML, and stores them in your database. The Contacts applications is used to resolve instant messaging account names if possible.</li>
+<li>
+<span class="pname">iChat Chatlogs:</span> Imports your iChat chatlogs.</li>
+</ul>
+<a name="reminders"> </a>
+<p class="subsection">Reminders</p>
+<ul>
+<li>
+<span class="pname">Add as Event to Calendar:</span> Adds a new event to Calendar or iCal linking back to the selected item in DEVONthink Pro Office.</li>
+<li>
+<span class="pname">Add as To Do to iCal:</span> Adds the selected item as a to-do item to iCal.</li>
+<li>
+<span class="pname">Add as To Do to OmniFocus:</span> Adds the selected item as a to-do item to <a href="http://www.omnigroup.com/products/omnifocus/" target="_blank" class="weblink">OmniFocus</a>.</li>
+<li>
+<span class="pname">Add as To Do to Reminders:</span> Adds the selected item as a to-do item to Reminders.</li>
+<li>
+<span class="pname">Add as To Do to Task Paper:</span> Adds the selected item as a to-do item to <a href="http://www.hogbaysoftware.com/products/taskpaper" target="_blank" class="weblink">Task Paper</a>.</li>
+<li>
+<span class="pname">Add as To Do to The Hit List:</span> Adds the selected item as a to-do item to <a href="http://www.potionfactory.com/thehitlist/" target="_blank" class="weblink">The Hit List</a>.</li>
+<li>
+<span class="pname">Add as To Do to Things:</span> Adds the selected item as a to-do item to <a href="http://culturedcode.com/things/" target="_blank" class="weblink">Things</a>.</li>
+</ul>
+<a name="rename"> </a>
+<p class="subsection">Rename</p>
+<ul>
+<li>
+<span class="pname">Add Prefix:</span> Adds a prefix to the titles of selected documents.</li>
+<li>
+<span class="pname">Add Suffix:</span> Adds a suffix to the titles of selected documents.</li>
+<li>
+<span class="pname">Append Selected Text:</span> Appends the selected text to the title of the currently selected item.</li>
+<li>
+<span class="pname">Replace Text:</span> Replaces a text passage in the titles of selected documents.</li>
+<li>
+<span class="pname">Selected Text:</span> Sets the title of the currently selected item to the selected text.</li>
+<li>
+<span class="pname">To Subject:</span> Sets the titles of the selected documents to the subject lines of the email messages if the selected documents are email messages.</li>
+<li>
+<span class="pname">To Webpage Title:</span> Sets the titles of the selected documents to the names of the web pages pointed to by their URL fields.</li>
+</ul>
+<a name="sheets"> </a>
+<p class="subsection">Sheets</p>
+<p>Even though DEVONthink Pro Office is not a spreadsheet application, it does have scripts that implement basic sum and mean value functionality for sheets.</p>
+<ul>
+<li>
+<span class="pname">Add Multiple Records:</span> Adds up to 999 empty records to a sheet.</li>
+<li>
+<span class="pname">Column Sum&amp;Mean Value:</span> Calculates the sum and average of a table column.</li>
+<li>
+<span class="pname">Row Sum&amp;Mean Value:</span> Calculates the sum and average of a table row.</li>
+<li>
+<span class="pname">Check sums in last column:</span> Checks the sums in the last column on validity.</li>
+</ul>
+<a name="toolbar"> </a>
+<p class="subsection">Toolbar</p>
+<p>By default this contains no scripts. Add your own scripts here and also to the toolbar of <a href="windows-main.html#">main</a> and <a href="windows-search.html#">search windows</a> using <em>
+<a href="menus-view.html#showtoolbar">View &gt; Customize Toolbar</a>
+</em>.</p>
+<a name="thumbnails"> </a>
+<p class="subsection">Thumbnails</p>
+<ul>
+<li>
+<span class="pname">Flip Horizontal / Vertical:</span> Flips the thumbnails of selected documents horizontally/vertically.</li>
+<li>
+<span class="pname">Rotate Left / Right:</span> Rotates the thumbnails of selected documents left/right.</li>
+<li>
+<span class="pname">Landscape to Portrait:</span> Rotates only landscape thumbnails to portrait.</li>
+<li>
+<span class="pname">Portrait to Landscape:</span> Rotates only portrait thumbnails to landscape.</li>
+</ul>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>While these scripts work with all image formats including PDF, they should not be used for PDF documents. They will only work on the first page of the PDF and destroy all embedded metadata.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="about"> </a>
+<p class="subsection">About this menu</p>
+<p>Shows an information dialog window about the Scripts menu.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="scripts-installation.html">&#8592; Installation</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="scripts-scriptmenuextra.html">Browsers, email, and more &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

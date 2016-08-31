@@ -1,0 +1,22 @@
+/* Localized Strings */
+
+"Reminder" = "Reminder";
+
+"Set reminder" = "Set reminder";
+"Please choose when you want to get reminded of the item" = "Please choose when you want to get reminded of the item";
+"%choice prompt end%" = "";
+"Tomorrow" = "Tomorrow";
+"In two days" = "In two days";
+"In three days" = "In three days";
+"In one week" = "In one week";
+"In two weeks" = "In two weeks";
+"In one month" = "In one month";
+"In two months" = "In two months";
+"In three months" = "In three months";
+"In six months" = "In six months";
+"In one year" = "In one year";
+
+"Please select a document or group, then try again." = "Please select a document or group, then try again.";
+"Please select only one document or group, then try again." = "Please select only one document or group, then try again.";
+"Error when adding item to iCal" = "Error when adding item to iCal.";
+"Please set up at least one calendar in iCal." = "Please set up at least one calendar in iCal.";

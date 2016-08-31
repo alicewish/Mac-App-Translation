@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Appendix : Search operators</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="appendix-operators"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="appendix-operators.html#case" class="quicklinks">Case</a>
+<br />
+<a href="appendix-operators.html#precedence" class="quicklinks">Precedence of terms</a>
+<br />
+<a href="appendix-operators.html#wildcards" class="quicklinks">Wildcards</a>
+<br />
+<a href="appendix-operators.html#operators" class="quicklinks">Boolean operators</a>
+<br />
+<a href="appendix-operators.html#whitespace" class="quicklinks">White space handling</a>
+<br />
+<a href="appendix-operators.html#examples" class="quicklinks">Examples</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Search operators</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>In the <a href="windows-main.html#toolbar">toolbar search field</a>, as well as in both the interactive and the simple <a href="inandout-websharing.html#">web interface,</a> you can use standard and extended Boolean operators, parenthesis, and more to fine tune your search.</p>
+<p>The syntax of the operators is compatible to <a href="otherproducts-devonagent.html#">DEVONagent</a> and <a href="otherproducts-freeware.html#">EasyFind,</a> the Finder, Spotlight, common search engines as well as common programming languages such as C, C++, Objective-C, Java, and JavaScript. The complexity of the query is unlimited.</p>
+<a name="case"> </a>
+<p class="subsection">Case</p>
+<p>All terms are case-insensitive. You may, if you wish, use capitalization for proper names in a query, but DEVONthink Pro Office will ignore case in interpreting the query.</p>
+<a name="precedence"> </a>
+<p class="subsection">Precedence of terms</p>
+<p>Search terms and associated operators will be interpreted from left to right, except as modified by including portions of the query within parentheses.</p>
+<a name="wildcards"> </a>
+<p class="subsection">Wildcards</p>
+<p>You can replace parts of words with wildcards matching one, multiple, or a range of characters:</p>
+<ul>
+<li>
+<span class="pname">?:</span> Matches exactly one character.</li>
+<li>
+<span class="pname">*:</span> Matches none, one, or multiple characters.</li>
+<li>
+<span class="pname">[a-b]:</span> Matches one character of the range "a" through "b".</li>
+<li>
+<span class="pname">[abc...] or [a|b|c|...]:</span> Matches one character out of the given list of characters.</li>
+<li>
+<span class="pname">[^...]:</span> Matches one character that is not contained in the given list or range.</li>
+</ul>
+<a name="operators"> </a>
+<p class="subsection">Boolean operators</p>
+<p>The operators (often called Boolean operators) are words or symbols that establish logical rules for the terms in the search query. If no operator is given, DEVONthink Pro Office infers AND. The available Boolean operators are:</p>
+<ul>
+<li>
+<span class="pname">term1 AND term2:</span> Contains term1 AND term2</li>
+<li>
+<span class="pname">term1 BUT term2:</span> Contains term1 AND term2</li>
+<li>
+<span class="pname">term1 OR term2:</span> Contains term1 OR term2</li>
+<li>
+<span class="pname">term1 XOR term2:</span> Contains term1 or term2, but not both</li>
+<li>
+<span class="pname">term1 EOR term2:</span> Contains term1 or term2, but not both</li>
+<li>
+<span class="pname">NOT term:</span> Does not contain term</li>
+<li>
+<span class="pname">"term1":</span> Contains the string of words term1, in exactly this form</li>
+</ul>
+<p>Besides the classic Boolean operators, DEVONthink Pro Office uses a number of operators that usually are found in high-end databases. Use these operators as a replacement for AND and "quotes" to fine tune your query.</p>
+<ul>
+<li>
+<span class="pname">term1 OPT term2:</span> term1 needs to occur, term2 can. If term2 does, the found document ranks higher in the search results.</li>
+<li>
+<span class="pname">term1 NEAR term2:</span> term1 occurs 10 words or less before or after term2</li>
+<li>
+<span class="pname">term1 NEAR/n term2:</span> term1 occurs n or less words before or after term2</li>
+<li>
+<span class="pname">term1 BEFORE term2:</span> term1 occurs before term2</li>
+<li>
+<span class="pname">term1 BEFORE/n term2:</span> term1 occurs n or less words before term2</li>
+<li>
+<span class="pname">term1 NEXT term2:</span> term1 occurs right before term2 (shortcut for BEFORE/1)</li>
+<li>
+<span class="pname">term1 NEXT/n term2:</span> term 1 occurs n or less words before term2 (synonym for BEFORE/n)</li>
+<li>
+<span class="pname">term1 AFTER term2:</span> term1 occurs after term2</li>
+<li>
+<span class="pname">term1 AFTER/n term2:</span> term1 occurs n or less words after term2</li>
+<li>
+<span class="pname">~term1:</span> Contains term1, also as part of a word</li>
+</ul>
+<p>For convenience, some of these operators can also be abbreviated using commonly used symbols:</p>
+<ul>
+<li>
+<span class="pname">AND:</span> &amp;, &amp;&amp;, +</li>
+<li>
+<span class="pname">OR:</span> |, ||</li>
+<li>
+<span class="pname">XOR:</span> ^, ^^</li>
+<li>
+<span class="pname">NOT:</span> !, -</li>
+</ul>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>The symbols above are also used by the Finder and Spotlight for searches. Enter the vertical ruler character for the OR operator by pressing &#8997;<em>7</em> (e.g. on European keyboards).</p>
+</td>
+</tr>
+</table>
+</div>
+<p>Operators are evaluated in the following priority: parenthesis &gt; phrase/hyphens &gt; (NOT) BEFORE/AFTER/NEAR/NEXT &gt; NOT &gt; AND/OR/XOR/EOR. Terms with same priority but without parenthesis are evaluated from left to right.</p>
+<a name="whitespace"> </a>
+<p class="subsection">White space handling</p>
+<p>Words linked by non-white separators (e.g. www.devon-technologies.com or page_id) are treated like phrases put into "quotes". Words separated by hyphens are handled like word1word2 OR "word1 word2". Characters separated by dots are considered to be abbreviations and therefore handled like words separated by hyphens, e.g., the term t.a.t.u is equal to "t a t u" OR tatu</p>
+<a name="examples"> </a>
+<p class="subsection">Examples</p>
+<p>By using any or all of the operators and rules layed out above you can create complex queries that find the exact information you're looking for. Here are some example queries that show how the operators are used.</p>
+<div class="examplebox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname example">Example: </span>Devonian Dinosaurs</p>
+</td>
+</tr>
+</table>
+</div>
+<p>This query looks for all documents that contain the words "devonian" and "dinosaurs".</p>
+<div class="examplebox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname example">Example: </span>(Steve NEAR Jobs) AND iMac BUT NOT MacBook OPT Pro</p>
+</td>
+</tr>
+</table>
+</div>
+<p>This query looks for documents that contain the words "Steve" and "Jobs" no farther ten words away from each other, as well as the word "iMac" (no specific position relative to Steve and Jobs), but not the word "MacBook". The word "Pro" does not need to occur, but if it does, the document is ranked higher in the list of search results.</p>
+<div class="examplebox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname example">Example: </span>Paracetamol NEAR (~effect OR impact) AND ((side OR second*) NEAR/2 ~effect)</p>
+</td>
+</tr>
+</table>
+</div>
+<p>This query looks for documents containing the word "Paracetamol" near (within 10 words) to words either starting with "effect" (and so also "effects") or  "impact". In addition, the document needs to contain the word "side" or any word starting with "second" located within two words range of any word starting with "effect".</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="appendix-websiteexporttemplates.html">&#8592; Web site export templates</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="appendix-wikitemplates.html">Template tags for Wiki-style links &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- (c) 2011–2014 DEVONtechnologies, LLC -->
+
+<!--
+file:///Users/eb/Documents/DEVONtechnologies/Development/DEVONthink/Welcome%20Assistant/Support%20Assistant/javascript/slideshow.html?url=http://www.devontechnologies.com/files/academy/tutorials/20110415/care/slidelist.json
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Tutorial</title>
+
+		<link rel="stylesheet" type="text/css" href="../css/scrollable.css" />
+		<link rel="stylesheet" type="text/css" href="../css/slideshow.css" />
+		<link rel="stylesheet" type="text/css" href="../css/online.css" />
+ 		<script type="text/javascript" src="jsapi.js"></script>
+ 		<script type="text/javascript" src="jquery.js"></script>
+ 		<script type="text/javascript" src="basics.js"></script>
+		<script type="text/javascript" src="jquery.tools.min.js"></script>
+		<script type="text/javascript">
+
+			// Global variables
+			var slides = {};
+			var baseURL = "";
+			
+			// Load JSON file
+			function loadSlides(url, useproxy, delegate)
+			{  
+				baseURL = url;
+				jsonURL = proxyURL = url + "/slidelist.json";
+				if (useproxy)
+					jsonURL = "http://www.devontechnologies.com/fileadmin/applicationsupport/academyproxy.php?url=" + proxyURL;
+				$.getJSON(jsonURL, function(data)
+				{
+					slides = data;
+					window[delegate](slides);
+				});
+			}
+			
+			function slidesLoaded(theSlides)
+			{
+				$("#slideshow-title").html(theSlides.title);
+				var newItems = "";
+				for (i = 0; i < theSlides.slides.length; i++)
+				{
+					newItems += "<div class='slide'>";
+					newItems += "<div class='image'><img src='" + baseURL + "/" + theSlides.slides[i].image + "' /></div>";
+					newItems += "<div class='description'>";
+					newItems += theSlides.slides[i].text;
+					newItems += "</div>";
+					newItems +="</div>";
+				}
+				$("#slides").children("div").children(".scrollable").children(".items").html(newItems);
+				$(".scrollable").scrollable();
+				$(".scrollable").parent().scrollable().navigator();
+			}
+			
+			$(document).ready(function()
+			{
+				FORM_DATA = createRequestObject();
+				
+				var useproxy = FORM_DATA["target"] == "online";
+				if (FORM_DATA["url"] != undefined)
+				{
+					loadSlides(FORM_DATA["url"], useproxy, 'slidesLoaded');
+				}
+			});
+
+		</script>
+	</head>
+	
+	<body>
+
+		<h1 id="slideshow-title"></h1>
+
+		<div id="slides">
+			<div>
+				<a class='prev browse left'></a>
+				<div class="scrollable">
+					<div class="items">
+						<!-- Filled programatically -->
+					</div>
+				</div>
+				<a class='next browse right'></a>
+				<div class='navi'></div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

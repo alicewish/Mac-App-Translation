@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Troubleshooting : DEVONthink Pro Office crashes when opened</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox">
+<a name="troubleshooting-revertmanually"> </a>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">DEVONthink Pro Office crashes when opened</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>If a database is heavily damaged, it may be that DEVONthink Pro Office crashed when starting up or when opening the database. In this case you cannot use the built-in mechanisms to recover your data. But you can revert to an internal backup manually. With its factory setting, DEVONthink Pro Office keeps up to two copies of the index files in case the index is damaged beyond repair. You can change how many internal backups DEVONthink Pro Office keeps in the <em>
+<a href="preferences-backup.html#">Preferences, Backup tab</a>
+</em>.</p>
+<p>To revert to one of the internal backups, quit DEVONthink Pro Office and locate the database package in the Finder. Then do the following:</p>
+<ul>
+<li>Select the database in the Finder, and choose "Show Package Contents" in the contextual menu</li>
+<li>Copy (!) the most recent Backup folder to the desktop</li>
+<li>Copy (!) the Files.noindex folder into the copied (!) Backup folder</li>
+<li>Add the file extension .dtBase2 to the Backup folder</li>
+</ul>
+<p>Now you should be able to open the copied Backup folder as a new database by double-clicking it. Afterwards, use <em>
+<a href="menus-tools.html#verify">Tools &gt; Verify &amp; Repair</a>
+</em> to ensure that the database is operating properly.</p>
+<p>If this solution di not help, please <a href="http://www.devontechnologies.com/redirect.html?id=contact" target="_blank" class="weblink">contact DEVONtechnologies' support staff</a> with a precise-as-possible description of your problem.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="troubleshooting-verify.html">&#8592; Repairing a defective database</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="troubleshooting-lostpassword.html">Recovering a lost password &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

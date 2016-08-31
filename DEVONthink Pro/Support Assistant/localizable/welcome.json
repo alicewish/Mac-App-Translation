@@ -1,0 +1,156 @@
+{
+	"strings":
+	[
+		{
+			"en":	"Welcome to <span class=\"app\">*Meep*</span>",
+			"fr":	"Bienvenue dans <span class=\"app\">*Meep*</span>",
+			"de":	"Willkommen bei <span class=\"app\">*Meep*</span>"
+		},
+		{
+			"en":	"The best way to get to know <span class=\"app\">*Meep*</span> is to see it in action.",
+			"fr":	"La meilleure façon de découvrir <span class=\"app\">*Meep*</span> est de le voir en action.",
+			"de":	"Die beste Art, <span class=\"app\">*Meep*</span> kennenzulernen, ist, es zu sehen."
+		},
+		{
+			"en":	"Watch the Getting Started Tour and work through our Tutorials to see how you can use this application to tame the information flood.",
+			"fr":	"Visioner la visite guidée et travailler à travers nos tutoriels pour decouvrir comment il peut vous aider à maîtriser le déluge d’informations.",
+			"de":	"Sehen Sie sich unseren Einführungsfilm an und arbeiten Sie unsere Einführungen durch, die Ihnen zeigen, wie Sie die Informationsflut meistern."
+		},
+		{
+			"en":	"Click to Play",
+			"fr":	"Lire la vidéo",
+			"de":	"Film spielen"
+		},
+		{
+			"en":	"Tutorials",
+			"fr":	"Tutoriels",
+			"de":	"Einführungen"
+		},
+		{
+			"en":	"The best way to get to know this app is to simply try it.",
+			"fr":	"La meilleure façon de découvrir cette app est de l’essayer.",
+			"de":	"Neu hier? Probieren Sie dieses Programm einfach aus."
+		},
+		{
+			"en":	"If you are new to this app, don't hesitate. Just do it. Try everything out, read the online help, and if you really get stuck, use Help &gt; Support Assistant to get back to here.",
+			"fr":	"Si vous découvrez cette app, n’héistez pas, testez simplement ce que vous voulez, lisez l’aide et si vous êtes bloqué, utilisez Aide &gt; Support pour revenir ici.",
+			"de":	"Die eingebaute Hilfe ist immer für Sie da und wenn Sie einmal feststecken, kommen Sie mit Hilfe &gt; Support-Assistent immer wieder hierher zurück."
+		},
+		{
+			"en":	"Blog",
+			"fr":	"Blog",
+			"de":	""
+		},
+		{
+			"en":	"Visit our President's blog",
+			"fr":	"Lisez le blog de notre président",
+			"de":	"Besuchen Sie unser Blog"
+		},
+		{
+			"en":	"In our blog, The Balcony, our President talks about upcoming releases, shares interesting links and articles, and, sometimes, drops a word or two about yet undisclosed products.",
+			"fr":	"Sur notre blog, le Balcon, notre président parle des future sorties, partage liens et articles et parfois, mentionne une chose ou deux sur les produits à venir",
+			"de":	"In unserem Blog spricht unser Geschäftsführer über künftige Programmversionen, teilt interessante Links und Artikel, und verliert ab und an ein Wort (oder zwei) über bisher unangekündigte Produkte."
+		},
+		{
+			"en":	"Visit the Balcony",
+			"fr":	"Visitez le Balcon",
+			"de":	"Besuchen Sie das Blog"
+		},
+		{
+			"en":	"Get Support",
+			"fr":	"Support",
+			"de":	"Kundendienst"
+		},
+		{
+			"en":	"Setup",
+			"fr":	"Configurer",
+			"de":	"Programm einrichten"
+		},
+		{
+			"en":	"Install Extras",
+			"fr":	"Installer des extras",
+			"de":	"Extras installieren"
+		},
+		{
+			"en":	"Tips &amp; Tutorials",
+			"fr":	"Astuces &amp; tutoriels",
+			"de":	"Tipps &amp; Einführungen"
+		},
+		{
+			"en":	"Recommend",
+			"fr":	"Recommandé",
+			"de":	"Empfehlen Sie"
+		},
+		{
+			"en":	"There are no extras available for this application yet.",
+			"fr":	"Il n’y a pas encore d’extra pour cette application",
+			"de":	"Für dieses Programm sind noch keine Extras verfügbar."
+		},
+		{
+			"en":	"New extras",
+			"fr":	"Nouveaux extras",
+			"de":	"Neue Extras"
+		},
+		{
+			"en":	"Extra of the day",
+			"fr":	"Extra du jour",
+			"de":	"Extra des Tages"
+		},
+		{
+			"en":	"Will be installed in the section",
+			"fr":	"Sera installé dans la section",
+			"de":	"Wird installiert im Bereich"
+		},
+		{
+			"en":	"More extras",
+			"fr":	"Plus d’extras",
+			"de":	"Mehr Extras"
+		},
+		{
+			"en":	"Tip of the day",
+			"fr":	"Astuce du jour",
+			"de":	"Tipp des Tages"
+		},
+		{
+			"en":	"More tips and tutorials",
+			"fr":	"Plus d’astuces et tutoriels",
+			"de":	"Mehr Tipps und Einführungen"
+		},
+		
+		{
+			"en":	"Newsletter",
+			"fr":	"Lettre info",
+			"de":	"Rundbrief"
+		},
+		{
+			"en":	"Subscribe to our free newsletter so that you never miss any important news. Five to eight welcome tips get you started.",
+			"fr":	"Abonnez-vous à notre lettre d’informations pour ne jamais rien rater d’important. 5-8 astuces pour commencer.",
+			"de":	"Abonnieren Sie unseren Rundbrief und fünf bis acht E-Mail-Tipps, die Sie mit diesem Programm vertraut machen."
+		},
+		{
+			"en":	"Your email address",
+			"fr":	"Votre adresse e-mail",
+			"de":	"Ihre E-Mail-Adresse"
+		},
+		{
+			"en":	"Successfully subscribed!",
+			"fr":	"Abonnement réussi",
+			"de":	"Erfolgreich abonniert!"
+		},
+		{
+			"en":	"You will get <b>automatically</b> unsubscribed from the welcome tips as soon as you have received the last tips.",
+			"fr":	"Vous serez <b>automatiquement</b> désabonné des astuces au démarrage une fois la dernière astuce reçue.",
+			"de":	"Das Abonnement der der E-Mail-Tipps erlischt <b>automatisch</b>, wenn Sie den letzten Tipp erhalten haben."
+		},
+		{
+			"en":	"Close this message",
+			"fr":	"Refermer ce message",
+			"de":	"Diese Nachricht schließen"
+		},
+		{
+			"en":	"Your Mac is offline. Many functions are not available.",
+			"fr":	"Votre Mac est déconnecté. Plusieur fonctions pas disponible.",
+			"de":	"Ihr Mac ist offline. Viele Funktionen sind nicht verfügbar."
+		}
+	]
+}

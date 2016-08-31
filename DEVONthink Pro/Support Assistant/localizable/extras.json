@@ -1,0 +1,55 @@
+{
+	"strings":
+	[
+		{
+			"en":	"Install <span class=\"app\">*Meep*</span> Extras",
+			"fr":	"Installer des extras <span class=\"app\">*Meep*</span>",
+			"de":	"Extras für <span class=\"app\">*Meep*</span> installieren"
+		},
+		{
+			"en":	"Welcome",
+			"fr":	"Bienvenue",
+			"de":	"Willkommen"
+		},
+		{
+			"en":	"Get Support",
+			"fr":	"Support",
+			"de":	"Kundendienst"
+		},
+		{
+			"en":	"Setup",
+			"fr":	"Configurer",
+			"de":	"Programm einrichten"
+		},
+		{
+			"en":	"Tips &amp; Tutorials",
+			"fr":	"Astuces &amp; tutoriels",
+			"de":	"Tipps &amp; Einführungen"
+		},
+		{
+			"en":	"No extras available for this app at the moment. Sorry.",
+			"fr":	"Aucun extra dispo. pour cette app. pour l'instant. Désolé.",
+			"de":	"Zurzeit gibt es leider noch keine Extras für dieses Programm."
+		},
+		{
+			"en":	"Install",
+			"fr":	"Installer",
+			"de":	"Install."
+		},
+		{
+			"en":	"Reinstall",
+			"fr":	"Réinstall.",
+			"de":	"Neu inst."
+		},
+		{
+			"en":	"Remove",
+			"fr":	"Enlever",
+			"de":	"Entfern."
+		},
+		{
+			"en":	"In",
+			"fr":	"En",
+			"de":	"In"
+		}
+	]
+}

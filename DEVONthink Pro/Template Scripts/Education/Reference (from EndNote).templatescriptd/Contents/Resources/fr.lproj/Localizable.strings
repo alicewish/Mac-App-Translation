@@ -1,0 +1,18 @@
+/* Localized Strings */
+
+"Reference" = "Référence";
+
+/* Text blocks */
+
+"vol." = "vol.";
+"issue" = "no.";
+
+/* Placeholders in the text */
+
+"Click here to view reference in EndNote" = "Cliquez ici pour voir cette référence en EndNote";
+"Type here." = "Tapez ici.";
+
+/* Error messages*/
+
+"Please open an EndNote database and make sure that an EndNote window with at least one selected reference is open. Then try again." = "S'il vous plaît, ouvrez une base de données EndNote et faire en sorte qu'un fenêtre avec au moins une référence choisie est ouvert. Puis essayez à nouveau.";
+"An error occured when adding the reference." = "Une erreur etait produite quand la nouvelle référence a été crée.";

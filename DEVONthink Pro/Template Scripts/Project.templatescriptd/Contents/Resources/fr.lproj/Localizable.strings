@@ -1,0 +1,21 @@
+/* Localized Strings */
+
+"New Project" = "Nouveau Projet";
+"About this project" = "Sur ce projet";
+
+/* UI strings */
+"Please enter a name for this project" = "Entrez le titre pour le projet, s'il vous plaît";
+"Cancel" = "Annuler";
+"OK" = "OK";
+
+/* Template strings */
+"Type your name here" = "Votre nom";
+"my@email.com" = "my@email.fr";
+"Type dept. name here" = "Votre division";
+"123-456-7890" = "12.34.56.78";
+
+/* Error messages */
+"An error occured when creating the new project structure" = "Une erreur etait produite quand la nouvelle structure du projet a été crée";
+"An error occured when accessing the address book." = "Une erreur etait produite pendant l'accès au carnet d'adresses.";
+"An error occured when accessing your Contacts card." = "Une erreur etait produite pendant l'accès au votre fiche.";
+"Please select your address card in Contacts and mark it as your card (via the menu command Card > Make This My Card). Then try again to use this template." = "S'il vous plaît sélectionnez votre fiche dans Contacts, marquez-votre fiche avec Fiche > Faire de cette fiche ma fiche personelle. Ensuite, essayez à nouveau d'utiliser ce modèle.";

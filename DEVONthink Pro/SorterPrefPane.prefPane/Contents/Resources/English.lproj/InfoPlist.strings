@@ -1,0 +1,10 @@
+﻿/* 
+   SorterPrefPane-InfoPlist.strings
+   Slate
+
+   Created by Annard Brouwer on 29/10/2008.
+   Copyright 2008 DEVONtechnologies, LLC. All rights reserved.
+ */
+
+NSHumanReadableCopyright = "Copyright © 2008-2010, DEVONtechnologies, LLC.";
+NSPrefPaneIconLabel = "分类器";

@@ -1,0 +1,4 @@
+/* Localized Strings */
+
+"%choice prompt end%" = "";
+"OmniFocus is not available. You may need to update to OmniFocus Pro to use this script." = "OmniFocus is not available. You may need to update to OmniFocus Pro to use this script.";

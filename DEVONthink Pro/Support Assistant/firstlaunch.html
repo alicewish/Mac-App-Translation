@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+
+DEVONTECHNOLOGIES SUPPORT ASSISTANT
+© 2011–2012 DEVONtechnologies, LLC
+
+Version 2.1
+Written by Eric Böhnisch-Volkmann, Feb 17, 2010
+Rewritten by Eric Böhnisch-Volkmann in April 2011
+Updated by Eric Böhnisch-Volkmann, Sep 12, 2012
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Welcome</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/firstlaunch.css"/>
+		<link rel="stylesheet" type="text/css" href="css/scrollable.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+
+ 		<script type="text/javascript" src="javascript/jsapi.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery-ui.js"></script>
+		<script type="text/javascript" src="javascript/jquery.tools.min.js"></script>
+		<script type="text/javascript" src="javascript/jquery.form.js"></script>
+		<script type="text/javascript" src="javascript/basics.js"></script>
+		<script type="text/javascript" src="javascript/localization.js"></script>
+		<script type="text/javascript">
+			var steps;
+		
+			$(document).ready(function()
+			{
+				initLocalization("localizable/firstlaunch.json", "pageDidLoadWithLocalization");
+			});
+
+			function pageDidLoadWithLocalization()
+			{
+				FORM_DATA = createRequestObject();
+				localize();
+				
+				// Set the correct images etc.
+				switch (FORM_DATA["app"])
+				{
+				case "DEVONthink Pro":
+					$("#firstlaunch-icon > img:nth-of-type(1)").attr("src", "images/apps/devonthink-pro.png");
+					break;
+				case "DEVONthink Pro Office":
+					$("#firstlaunch-icon > img:nth-of-type(1)").attr("src", "images/apps/devonthink-pro-office.png");
+				}		
+
+				// Start animations
+				$("#firstlaunch-icon > img").addClass("animated-step1");											// Show the image
+				setTimeout('$("#firstlaunch-icon > h1").addClass("animated-step1");', 1000);				// Show the headline
+				setTimeout('$("#firstlaunch-icon > img").addClass("animated-step2");', 2000);				// Hide the image
+				setTimeout('$("#firstlaunch-icon > h1").addClass("animated-step2");', 2500);				// Move the headline to the top
+				setTimeout('$("#firstlaunch-step-container").addClass("animated-step1");', 3000);		// Show the main content
+			}
+
+			// Localize
+			function localize()
+			{
+				var welcomeString = localizedString("欢迎使用 %app%");
+				welcomeString = welcomeString.replace("%app%", FORM_DATA["app"]);
+				$("#firstlaunch-icon > h1").html(welcomeString);
+				$("#bottombar-firstlaunch > div > p").html(localizedString("完成 !"));
+
+				steps = [
+					$("#firstlaunch-step-container > .firstlaunch-step:nth-of-type(1)"),
+					$("#firstlaunch-step-container > .firstlaunch-step:nth-of-type(2)"),
+					$("#firstlaunch-step-container > .firstlaunch-step:nth-of-type(3)")
+				];
+				steps[0].children("h2").html(localizedString("第一步"));
+				steps[1].children("h2").html(localizedString("第一步"));
+				steps[2].children("h2").html(localizedString("第三步"));
+				
+				switch (FORM_DATA["app"])
+				{
+				case "DEVONthink Pro":
+				case "DEVONthink Pro Office":
+				default:
+					steps[0].children("a:eq(0)").attr("href", "x-devonthink://new-database");
+					steps[1].children("a:eq(0)").attr("href", "x-devonthink://install-add-ons");
+					steps[2].children("a:eq(0)").attr("href", "x-devonthink://open-preferences");
+					steps[0].children("h1").html(localizedString("创建数据库"));
+					steps[1].children("h1").html(localizedString("安装插件"));
+					steps[2].children("h1").html(localizedString("自定义"));
+					steps[0].children("p:eq(0)").html(FORM_DATA["app"] + " " + localizedString("将文档存储到数据库中. 收件箱数据库已在等待您. 马上为您的文档作一次处理."));
+					steps[0].children("p:eq(1)").html("<a href='x-devonthink://new-database'>" + localizedString("创建一个新的数据库") + " &#x25B8;</a>");
+					steps[1].children("p:eq(0)").html(localizedString("浏览扩展功能、脚本和与您 MAC 其余的部分服务集成") + " " + FORM_DATA["app"] + " " + localizedString(". 不需要全部安装它们."));
+					steps[1].children("p:eq(1)").html("<a href='x-devonthink://install-add-ons'>" + localizedString("安装插件") + " &#x25B8;</a>");
+					steps[2].children("p:eq(0)").html(FORM_DATA["app"] + " " + localizedString("是高度定制并适用于您的个人工作流程. 调整偏好设置以适合您的需求."));
+					steps[2].children("p:eq(1)").html("<a href='x-devonthink://open-preferences'>" + localizedString("打开偏好设置") + " &#x25B8;</a>");
+				}
+			}
+		</script>
+	</head>
+	
+	<!-- The actual body -->
+
+	<body> <!--oncontextmenu="return false;"-->
+
+		<div id="firstlaunch">
+		
+			<div id="firstlaunch-icon">
+				<img src="images/apps/devonthink-pro-office.png" />
+				<h1>欢迎使用此应用程序</h1>
+			</div>
+		
+			<div id="firstlaunch-step-container">
+				<div class="firstlaunch-step">
+					<a href="http://www.devontechnologies.com/redirect.php?id=support"><img src="images/misc/firstlaunch-step1.jpg" /></a>
+					<h2>Step 1</h2>
+					<h1>Headline 1</h1>
+					<p>Instructions step 1</p>
+					<p>Link 1 &#x25B8;</p>
+				</div>
+				<div class="firstlaunch-step">
+					<a href="http://www.devontechnologies.com/redirect.php?id=forum"><img src="images/misc/firstlaunch-step2.jpg" /></a>
+					<h2>Step 2</h2>
+					<h1>Headline 2</h1>
+					<p>Instructions step 2</p>
+					<p>Link 2 &#x25B8;</p>
+				</div>
+				<div class="firstlaunch-step">
+					<a href="http://www.devontechnologies.com/redirect.php?id=contact"><img src="images/misc/firstlaunch-step3.jpg" /></a>
+					<h2>Step 3</h2>
+					<h1>Headline 3</h1>
+					<p>Instructions step 3</p>
+					<p>Link 3 &#x25B8;</p>
+				</div>
+				<div class="bottombar" id="bottombar-firstlaunch">
+					<div id="clickfortutorials" class="clicktoplaybutton" onclick="switchTo('welcome.html'); return false;"><p>完成!</p></div>
+				</div>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

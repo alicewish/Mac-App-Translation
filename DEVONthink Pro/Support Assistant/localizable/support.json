@@ -1,0 +1,220 @@
+{
+	"strings":
+	[
+		{
+			"en":	"Welcome",
+			"fr":	"Bienvenue",
+			"de":	"Willkommen"
+		},
+		{
+			"en":	"Setup",
+			"fr":	"Configurer",
+			"de":	"Programm einrichten"
+		},
+		{
+			"en":	"Install Extras",
+			"fr":	"Installer des extras",
+			"de":	"Extras installieren"
+		},
+		{
+			"en":	"Tips &amp; Tutorials",
+			"fr":	"Astuces &amp; tutoriels",
+			"de":	"Tipps &amp; Einführungen"
+		},
+		{
+			"en":	"Step 1",
+			"fr":	"Étape 1",
+			"de":	"Schritt 1"
+		},
+		{
+			"en":	"Step 2",
+			"fr":	"Étape 2",
+			"de":	"Schritt 2"
+		},
+		{
+			"en":	"Step 3",
+			"fr":	"Étape 3",
+			"de":	"Schritt 3"
+		},
+		{
+			"en":	"Read the FAQ",
+			"fr":	"Lire la FAQ",
+			"de":	"FAQ lesen"
+		},
+		{
+			"en":	"Visit the forum",
+			"fr":	"Visiter le forum",
+			"de":	"Forum besuchen"
+		},
+		{
+			"en":	"Contact us",
+			"fr":	"Contactez-nous",
+			"de":	"Kundendienst"
+		},
+		{
+			"en":	"Retrieve your license",
+			"fr":	"Récupérez votre lic.",
+			"de":	"Lizenz verloren?"
+		},
+		{
+			"en":	"Get all licenses on file for your email address resent.",
+			"fr":	"Réexpédier toutes les licences pour cette adresse e-mail.",
+			"de":	"Lassen Sie sich alle Ihre Lizenzen erneut zusenden."
+		},
+		{
+			"en":	"Your email address",
+			"fr":	"Votre adresse e-mail",
+			"de":	"Ihre E-Mail-Adresse"
+		},
+		{
+			"en":	"Get a trial extension",
+			"fr":	"Étendre la démo",
+			"de":	"Mehr Testzeit?"
+		},
+		{
+			"en":	"Test-drive <span class=\"app\">*Meep*</span> for another 30 days.",
+			"fr":	"Testez <span class=\"app\">*Meep*</span> 30 jours de plus.",
+			"de":	"Testen Sie <span class=\"app\">*Meep*</span> für weitere 30 Tage."
+		},
+		{
+			"en":	"All license codes stored for the email address you have entered have been resent.",
+			"fr":	"Tous les codes de licence pour l’adresse entrée ont été réenvoyés.",
+			"de":	"Alle Lizenzkodes mit der eingegebenen E-Mail-Adresse wurden erneut zugesendet."
+		},
+		{
+			"en":	"Unfortunately we have found no record for the entered email address. Sorry.",
+			"fr":	"Nous n’avons malheureusement pas trouvé trace de votre adresse e-mail. Désolé.",
+			"de":	"Leider konnten wir keinen Kunden mit der eingegebenen E-Mail-Adresse finden."
+		},
+		{
+			"en":	"Close message",
+			"fr":	"Refermer le message",
+			"de":	"Nachricht ausblenden"
+		},
+		{
+			"en":	"A 30-day trial license for <span class=\"app\">*Meep*</span> has been sent to the entered email address.",
+			"fr":	"Une licence de démo de 30 jours pour <span class=\"app\">*Meep*</span> a été envoyée à votre adresse e-mail.",
+			"de":	"Eine 30-Tages-Testlizenz für <span class=\"app\">*Meep*</span> wurde an Ihre E-Mail-Adresse versendet."
+		},
+		{
+			"en":	"You have already requested two trial extensions for this product. Sorry.",
+			"fr":	"Vous avez déjà demandé 2 extensions de la démo pour ce produit. Déoslé.",
+			"de":	"Sie haben bereits zwei Testlizenzen für dieses Produkt angefordert."
+		},
+		{
+			"en":	"An error has occured when creating your trial extension. Please contact our support.",
+			"fr":	"Erreur à la création de votre extension de démo. Veuillez contacter le support.",
+			"de":	"Beim Erstellen Ihrer Lizenz ist ein Fehler aufgetreten. Bitte kontaktieren Sie uns."
+		},
+		{
+			"en":	"A 30-day trial license for this app has also been sent to the entered email address.",
+			"fr":	"Une licence de démo de 30 jours a auddi été envoyée à votre adresse e-mail.",
+			"de":	"Eine 30-Tages-Testlizenz für dieses Produkt wurde auch per E-Mail an Sie versendet."
+		},
+		{
+			"en":	"Let us know",
+			"fr":	"Faites-nous savoir",
+			"de":	"Neue Adresse?"
+		},
+		{
+			"en":	"Have you changed your email address recently and would like us to update our records?",
+			"fr":	"Avez-vous changé votre adresse récemment et voulez-vous la mettre à jour chez nous ?",
+			"de":	"Sie haben Ihre E-Mail-Adresse geändert und möchten uns dies mitteilen?"
+		},
+		{
+			"en":	"Send new details",
+			"fr":	"Envoyer de nouveaux détails",
+			"de":	"Neue Adresse mitteilen"
+		},
+		{
+			"en":	"Buy an upgrade",
+			"fr":	"Acheter & mettre à jour",
+			"de":	"Upgrade kaufen"
+		},
+		{
+			"en":	"Check your upgrade options and buy a higher edition or later version with a discount.",
+			"fr":	"Rechercher les options de mise à niveau et acheter une édition sup. avec une réduction.",
+			"de":	"Prüfen Sie Ihre Lizenz und kaufen Sie eine höhere Edition oder neuere Version."
+		},
+		{
+			"en":	"Check upgrade options",
+			"fr":	"Options de m. à niveau",
+			"de":	"Upgradeoptionen prüfen"
+		},
+		{
+			"en":	"Buy a license",
+			"fr":	"Acheter une licence",
+			"de":	"Lizenz kaufen"
+		},
+		{
+			"en":	"Remove the trial restrictions and support us by purchasing a software license.",
+			"fr":	"Retirez les restrictions d’essai et soutenez-nous en achetant une licence.",
+			"de":	"Unterstützen Sie uns und schalten Sie alle Demo-Einschränkungen aus."
+		},
+		{
+			"en":	"Visit the shop",
+			"fr":	"Aller sur le magasin",
+			"de":	"Besuchen Sie den Shop"
+		},
+		{
+			"en":	"Read our blog",
+			"fr":	"Lire notre blog",
+			"de":	"Lesen Sie unser Blog"
+		},
+		{
+			"en":	"Tips, comments, and news from behind the curtain directly from our President.",
+			"fr":	"Conseils, commentaires et nouvelles en direct du président de DEVONtechnologies.",
+			"de":	"Tipps, Tricks und Neuigkeiten aus unserem Softwarelabor, direkt vom Geschäftsführer."
+		},
+		{
+			"en":	"Visit the Balcony",
+			"fr":	"Visiter le balcon",
+			"de":	"Zum Blog"
+		},
+		{
+			"en":	"Get extras",
+			"fr":	"Obtenir des extras",
+			"de":	"Kostenlose Extras"
+		},
+		{
+			"en":	"Pimp this app with script and other additions provided by its makers or fellow users.",
+			"fr":	"Améliorez l’appli. avec des scripts et autres additions crées par des utilisateurs ou les auteurs.",
+			"de":	"Erweitern Sie <span class=\"app\">*Meep*</span> mit Skripten, Plugins und anderen Extras."
+		},
+		{
+			"en":	"Download extras",
+			"fr":	"Télécharger des extras",
+			"de":	"Extras herunterladen"
+		},
+		{
+			"en":	"Get our free apps",
+			"fr":	"Obtenez nos freewares",
+			"de":	"Kostenlose Apps"
+		},
+		{
+			"en":	"You like <span class=\"app\">*Meep*</span>? Try our freeware applications and services for the Mac.",
+			"fr":	"Aimez-vous <span class=\"app\">*Meep*</span> ? Essayez nos freeware et services pour Mac.",
+			"de":	"Sie mögen <span class=\"app\">*Meep*</span>? Testen Sie unsere kostenlosen Programme."
+		},
+		{
+			"en":	"Download freeware",
+			"fr":	"Téléchargez le freeware",
+			"de":	"Freware herunterladen"
+		},
+		{
+			"en":	"Try our other apps",
+			"fr":	"Essayez nos autres app",
+			"de":	"Andere Apps"
+		},
+		{
+			"en":	"Visit our web site to learn more about all the other apps we offer for Mac and iOS.",
+			"fr":	"Visiter notre site et en apprendre plus sur toutes nos autres app pour Mac et iOS.",
+			"de":	"Besuchen Sie unsere Webseite und lernen Sie unsere anderen Programme kennen."
+		},
+		{
+			"en":	"Visit our web site",
+			"fr":	"Visitez notre site Web",
+			"de":	"Zu unserer Website"
+		}
+	]
+}

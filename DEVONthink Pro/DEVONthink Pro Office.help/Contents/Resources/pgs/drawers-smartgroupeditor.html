@@ -1,0 +1,142 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Drawers &amp; sheets : Smart group editor</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox">
+<a name="drawers-smartgroupeditor"> </a>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Smart group editor</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>The Smart Group Editor appears as a sheet when you either create a new smart group using <em>
+<a href="menus-data.html#new">Data &gt; New &gt; Smart Group</a>
+</em>, when you right-click a smart group and choose <em>Edit</em> from the contextual menu, or when you double-click a smart group.</p>
+<p class="image">
+<img src="../gfx/drawers/smartgroupeditor.png" srcset="../gfx/drawers/smartgroupeditor.png 1x, ../gfx/drawers/smartgroupeditor@2x.png 2x" alt="" />
+</p>
+<p>In this sheet you set up a new smart group or edit an existing one:</p>
+<ul>
+<li>
+<span class="pname">Search in:</span> Select where you want this smart group to search.</li>
+<li>
+<span class="pname">List of search predicates:</span> Build your list of search criteria (in search speak: "predicates") here. See below.</li>
+<li>
+<span class="pname">Ignore Diacritics:</span> Check this to treat letters with diacritics, e.g., umlauts or accented characters, the same as their regular counterparts.</li>
+<li>
+<span class="pname">Fuzzy:</span> Check this to search "unsharp" terms, e.g., ignoring simple typos so that instances of "Merkel" and "Merkle" are both found.</li>
+</ul>
+<p>The list of predicates consists of a list of blocks, each beginning with "All" or "Any", defining whether all (Boolean AND) or any (Boolean OR) of the contained predicates need to be true for the document to be returned as a result. Predicates themselves consist of the field to search (like "Content" or "Tag"), and the condition and the data that needs to be matched.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>In most predicates you can use wildcards, Boolean operators, phrases, and parenthesis, too. <a href="appendix-operators.html#">Read more...</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>Use the <em>+</em> and <em>-</em> buttons to add more predicates to your smart group or to delete them. Hold the &#8997; modifier key and click a <em>...</em> button to create a "compound predicate," also called "branch". Predicates can be in/outdented and rearranged via drag-and-drop.</p>
+<p>By adding more lines to a search and choosing between "All" and "Any" you graphically create a nested Boolean query with ANDs, ORs, and parenthesis.</p>
+<div class="examplebox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname example">Example: </span>To find all Microsoft Excel files use the condition <em>Filename ... ends in ... xslx</em>. To find items created in the last 7 days use the condition <em>Date created ... is ... Last Week.</em>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="predefined"> </a>
+<p class="subsection">Predefined smart groups</p>
+<p>When you create a new database, DEVONthink Pro Office adds a number of predefined smart groups for your convenience:</p>
+<ul>
+<li>
+<span class="pname">All Images:</span> Shows all images.</li>
+<li>
+<span class="pname">All PDF Documents:</span> Shows all PDF documents.</li>
+<li>
+<span class="pname">Duplicates:</span> Lists all duplicates.</li>
+<li>
+<span class="pname">Recently Added:</span> Lists all documents added this week.</li>
+<li>
+<span class="pname">To Do:</span> Shows all documents with visible but unchecked state.</li>
+</ul>
+<p>By default, the following smart groups are added to the <em>
+<a href="windows-main.html#sidebar">sidebar</a>
+</em>:</p>
+<ul>
+<li>
+<span class="pname">Today:</span> Shows all documents added or modified today.</li>
+<li>
+<span class="pname">Yesterday:</span> Shows all documents added yesterday.
+				</li>
+<li>
+<span class="pname">Unread:</span> Shows all documents marked as unread.</li>
+</ul>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>Smart groups also filtering for date ranges are shown with a clock icon.</p>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="drawers-concordance.html">&#8592; Concordance</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right" />
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

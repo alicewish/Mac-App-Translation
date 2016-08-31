@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+
+DEVONTECHNOLOGIES SUPPORT ASSISTANT
+© 2011 DEVONtechnologies, LLC
+
+Version 2.0.2
+Written by Eric Böhnisch-Volkmann, Feb 17, 2010
+Rewritten by Eric Böhnisch-Volkmann in April 2011
+Updated by Eric Böhnisch-Volkmann, Nov 29, 2011
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Welcome</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script type="text/javascript" src="javascript/jquery.js"></script>
+		<script type="text/javascript" src="javascript/basics.js"></script>
+		<script type="text/javascript" src="javascript/localization.js"></script>
+		<script type="text/javascript">
+		
+			$(document).ready(function()
+			{
+				initLocalization("localizable/index.json", "pageDidLoadWithLocalization");
+			});
+			
+			function pageDidLoadWithLocalization()
+			{
+				localize();
+			
+				FORM_DATA = createRequestObject();
+
+				if (FORM_DATA["app"] == undefined)
+				{
+					// No "app" tag set: something went wrong here
+					$("#noapp").css("display", "table");
+				}
+				else
+				{
+					// Redirect
+					var target = "welcome.html";
+					if (FORM_DATA["page"] != undefined)
+					{
+						// Just make sure we target a page that really exists
+						switch (FORM_DATA["page"])
+						{
+							case "welcome":
+							case "support":
+							case "extras":
+							case "academy":
+							case "firstlaunch":
+								target = FORM_DATA["page"] + ".html";
+						}
+					}
+					if (navigator.onLine == false && target != "welcome.html")
+					{
+						// If there is no online connection and we are NOT visit the welcome page, show error message
+						$("#noapp > div > p").text(localizedString("您的 Mac 不能连接到 Internet."));
+						$("#noapp").css("display", "table");
+					}
+					else
+					{
+						// Switch to new page
+						switchTo(target);
+					}
+				}
+			}
+			
+			function localize()
+			{
+				$("#noapp > div > h1:first").text(localizedString("哎呀!"));
+				$("#noapp > div > p:first").text(localizedString("出问题了."));
+			}
+
+		</script>
+	</head>
+	
+	<!-- The actual body -->
+	
+	<body oncontextmenu="return false;">
+
+		<div class="redirect" id="noapp" style="display:none">
+			<div>
+				<h1>Oops!</h1>
+				<p>Something went wrong.</p>
+			</div>
+		</div>
+
+		<noscript>
+			<div class="redirect">
+				<div>
+					<h1>JavaScript not enabled</h1>
+					<p>Please enable JavaScript in Safari (Preferences, Security tab) to use the assistant functionality.</p>
+				</div>
+			</div>
+		</noscript>
+
+	</body>
+
+</html>

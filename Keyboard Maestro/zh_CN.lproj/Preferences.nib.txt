@@ -6956,7 +6956,7 @@ BgAAAA==
 <integer>171</integer>
 </dict>
 </dict>
-<string>Login with this username and password to access any macro you have defined.
+<string>用这个用户名和密码登录才能访问您所定义的宏。</string>
 Public Web triggered macros will be available to anyone who can connect to your Mac.</string>
 <dict>
 <key>$class</key>
@@ -7297,7 +7297,7 @@ Public Web triggered macros will be available to anyone who can connect to your 
 <integer>171</integer>
 </dict>
 </dict>
-<string>Web server is enabled for public, authenticated and iOS access.</string>
+<string>Web服务器启用公开、认证和iOS访问。</string>
 <dict>
 <key>$class</key>
 <dict>

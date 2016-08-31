@@ -1,0 +1,369 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+
+DEVONTECHNOLOGIES SUPPORT ASSISTANT
+© 2011 DEVONtechnologies, LLC
+
+Version 2.0.2
+Written by Eric Böhnisch-Volkmann, Feb 17, 2010
+Rewritten by Eric Böhnisch-Volkmann in April 2011
+Updated by Eric Böhnisch-Volkmann, Nov 29, 2011
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Welcome</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/extras.css"/>
+		<link rel="stylesheet" type="text/css" href="css/scrollable.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+
+ 		<script type="text/javascript" src="javascript/jsapi.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery-ui.js"></script>
+		<script type="text/javascript" src="javascript/jquery.form.js"></script>
+		<script type="text/javascript" src="javascript/formvalidation.js"></script>
+		<script type="text/javascript" src="javascript/basics.js"></script>
+		<script type="text/javascript" src="javascript/localization.js"></script>
+		<script type="text/javascript" src="javascript/rss.js"></script>
+		<script type="text/javascript" src="javascript/jquery.tools.min.js"></script>
+		<script type="text/javascript">
+			
+			// Some constants
+			var PLACEHOLDER_NONE = 0;
+			var PLACEHOLDER_TEXT = 1;
+			var PLACEHOLDER_ACTIVITYINDICATOR = 2;
+			
+			// Global variables
+			var installedExtras = new Array();
+			
+			$(document).ready(function()
+			{
+				// Initialize the localization
+				initLocalization("localizable/extras.json", "pageDidLoadWithLocalization");
+			});
+			
+			function pageDidLoadWithLocalization()
+			{
+				// Localize static strings
+				localize();
+
+				// Get relevant URL parameters
+				FORM_DATA = createRequestObject();
+				$(".app").html(normalizedAppName(FORM_DATA["app"]));
+				if (FORM_DATA["extras"] != undefined)
+				{
+					installedExtras = FORM_DATA["extras"].split(";");
+					for (i = 0; i < installedExtras.length; i++)
+					{
+						installedExtras[i] = encodeURIComponent(installedExtras[i]);
+					}
+				}
+
+				showPlaceholder(PLACEHOLDER_ACTIVITYINDICATOR);
+				var testflag = (FORM_DATA["test"] != undefined) ? true : false;
+				loadMaterialsFeed(RSS_SUPPORTMATERIALS, normalizedAppName(FORM_DATA["app"]), "processFeed", testflag);
+			}
+			
+			function localize()
+			{
+				$("#extras > h1").html(localizedString("安装  <span class=\"app\">*Meep*</span> 扩展功能"));
+				$("#bottombar-home").html(localizedString("欢迎"));
+				$("#bottombar-firstlaunch").html(localizedString("安装"));
+				$("#bottombar-support").html(localizedString("获取支持"));
+				$("#bottombar-academy").html(localizedString("提示与教程"));
+				$("#placeholder-text").html(localizedString("当前没有可用于此应用程序的扩展功能. 抱歉."));
+			}
+
+			// Load and process materials
+
+			var feed = new Array();
+			function processFeed(data)
+			{
+				feed = data;  // Save feed for later
+				if (feed)
+				{
+					var foundExtras = 0;
+					foundExtras += processExtras([RSS_CATEGORY_PLUGINS]);
+					foundExtras += processExtras([RSS_CATEGORY_SCRIPTS]);
+					foundExtras += processExtras([RSS_CATEGORY_TEMPLATES]);
+
+					$(".materialpane").css("display", "block");
+					$(".materialpane").css("opacity", "1.0");
+					var api = $("ul.tabs").data("tabs");
+
+					// Add placeholders and initialize tabs and scrollables
+					if (foundExtras == 0)
+					{
+						showPlaceholder(PLACEHOLDER_TEXT);
+					}
+					else
+					{
+						showPlaceholder(PLACEHOLDER_NONE);
+						$("#tabs").tabs("div.panes > div");  // Important!
+					}
+					$(".scrollable").scrollable();  // Important!
+					
+					// Select a tab if asked to do so
+					switchToTab(FORM_DATA["tab"]);
+
+					// Scroll to extra if an extraID is given
+					if (FORM_DATA["extraID"] != undefined)
+					{
+						scrollToExtra(FORM_DATA["extraID"]);
+					}
+				}
+			}
+			
+			// Activate tab with a given name
+			function switchToTab(name)
+			{
+				if (name != undefined)
+				{
+					var tabAPI = $("#tabs").data("tabs")
+					var tabs = tabAPI.getTabs();
+					for (i = 0; i < tabs.length; i++)
+					{
+						var tabName = tabs[i].innerHTML;
+						if (tabName == name)
+						{
+							tabAPI.click(i);
+						}
+					}
+				}
+			}
+
+			function scrollToExtra(extraID)
+			{
+				console.log("Scrolling to extra with UUID " + extraID);
+
+				// Search for an extra with the given ID and if found, open its tab and scroll to it
+				var tabs = $("#tabs").data("tabs").getTabs();
+				for (tabIndex = 0; tabIndex < tabs.length; tabIndex++)
+				{
+					var thisTab = jQuery(tabs[tabIndex]);
+					var tabName = thisTab.html();
+					var scrollableID = tabName + "-browsable";
+					var blocks = $("#" + scrollableID + " .items > div");
+					for (blockIndex = 0; blockIndex < blocks.length; blockIndex++)
+					{
+						var thisBlock = jQuery(blocks[blockIndex]);
+						var items = thisBlock.children(".materialitem");
+						for (itemIndex = 0; itemIndex < items.length; itemIndex++)
+						{
+							var item = jQuery(items[itemIndex]);
+							if (item.attr("id") == extraID)
+							{
+								$("#tabs").data("tabs").click(tabIndex);
+								$("#" + scrollableID).data("scrollable").seekTo(blockIndex, 0);
+							}
+						}
+					}
+				}
+			}
+
+			function processExtras(categories)
+			{
+				// Get items for given categeries, construct DIV
+				var indices = indicesForCategories(feed, categories);
+				console.log(categories + ": " + indices.length + " items");
+				
+				var stringInstallButton = localizedString("安装");  // Fewer lookups, faster applet
+				var stringRemoveButton = localizedString("移除");
+				
+				if (indices.length > 0)
+				{
+					var targetID = categories[0] + "-browsable";
+					var newPane = "<div class='materialpane' style='opacity:0.0'>";
+					newPane += "<div>";  // Logical enclosure
+					newPane += "<a class='prev browse left'></a>";
+					newPane += "<div class='scrollable' id='" + targetID + "'>";
+					newPane += "<div class='items'><div>";
+					var blockCounter = 0;
+					var pageCount = 1;
+					for (i = 0; i < indices.length; i++)
+					{
+						newPane += "<div class='materialitem' style='background-image:url(images/icons/" + rssArticleCategory(feed, indices[i]) + "-64.png)' id='" + rssArticleUUID(feed, indices[i]) + "'>";
+						newPane += "<h1>" + rssArticleTitle(feed, indices[i]) + "</h1>";
+						newPane += "<p class='materialdescription'>" + shortenString(rssArticleDescription(feed, indices[i]), 70) + "</p>";
+						var installLocation = rssArticleEnclosureInstallLocation(feed, indices[i]);
+						if (installLocation == null)
+						{
+							// Alternative with size and date
+							newPane += "<p class='materialdateline materialdate'>" + bytesToSize(rssArticleEnclosureSize(feed,indices[i]), 1) + ", " + rssArticleDate(feed, indices[i]).toLocaleDateString() + "</p>";						}
+						else
+						{
+							newPane += "<p class='materialdateline materiallocation'>&#9656; " + installLocation + "</p>";
+						}
+						if ($.inArray(rssArticleEnclosureFilename(feed, indices[i]), installedExtras) < 0)
+						{
+							newPane += "<p class='installbutton'><a class='modernbutton' href='" + rssArticleEnclosureURL(feed, indices[i]) + "'>" + stringInstallButton + "</a></p>";
+						}
+						else
+						{
+							newPane += "<p class='installbutton'><a class='modernbutton buttongrey' href='" + rssArticleEnclosureURLWithoutParameters(feed, indices[i]) + "?remove'>" + stringRemoveButton + "</a></p>";
+						}
+						newPane += "</div>";
+						
+						blockCounter++;
+						if (blockCounter == 9 && i < indices.length-1)
+						{
+							newPane += "</div><div>";
+							blockCounter = 0;
+							pageCount++;
+						}
+					}
+					if (blockCounter < 9)
+					{
+						for (i = 0; i < 9 - blockCounter; i++)
+						{
+							newPane += "<div class='materialitem' style='background-image: none;'></div>";
+						}
+					}
+
+					newPane += "</div>";  // materialitem
+					newPane += "</div>";  // items
+					newPane += "</div>";  // scrollable
+					newPane += "<a class='next browse right'></a>";
+					newPane += "<div class='navi' id='" + targetID + "-navi" + "'></div>";
+					newPane += "</div>";  // logical enclosure
+					newPane += "</div>";  // materialpane
+				
+					// Add constructed pane to panes DIV
+					$("#panes").append(newPane);
+					
+					// Add navigational tab
+					var tabs = $("#tabs").html();
+					$("#tabs").html(tabs + "<li><a href='#'>" + categories[0] + "</a></li>");
+
+					// Initialize navigator
+					$("#"+ targetID).parent().scrollable().navigator();
+				}
+				return (indices.length);
+			}
+			
+			function newExtraInstalled(filename)
+			{
+				if (filename != undefined)
+				{
+					var encodedFilename = encodeURIComponent(filename);
+					installedExtras.push(encodedFilename);
+					console.log("Extra installed: " + filename);
+					reloadTabs();
+
+					// Scroll to installed extra
+					var indices = indicesForCategories(feed, null);
+					for (i = 0; i < indices.length; i++)
+					{
+						if (rssArticleEnclosureFilename(feed, indices[i]) == encodedFilename)
+						{
+							scrollToExtra(rssArticleUUID(feed, indices[i]));
+						}
+					}
+					return true;
+				}
+				return false;
+			}
+			
+			function extraRemoved(filename)
+			{
+				if (filename != undefined)
+				{
+					var index = installedExtras.indexOf(encodeURIComponent(filename));
+					if (index >= 0)
+					{
+						installedExtras.splice(index, 1);
+						console.log("Extra removed: " + filename);
+						reloadTabs();
+						return true;
+					}
+				}
+
+				return false;
+			}
+			
+			function reloadTabs()
+			{
+				// Remember last used tab index
+				var lastUsedTab = 0;
+				var tabAPI = $("#tabs").data("tabs");
+				var tabs = tabAPI.getTabs();
+				for (i = 0; i < tabs.length; i++)
+				{
+					if (tabs[i].getAttribute('class') == 'current')
+					{
+						lastUsedTab = i;
+					}
+				}
+
+				$("#panes").html("");
+				$("#tabs").html("");
+				
+				processFeed(feed);
+
+				// Switch to last used tab
+				tabAPI = $("#tabs").data("tabs");
+				tabAPI.click(lastUsedTab);				
+			}
+			
+			function showPlaceholder(selector)
+			{
+				switch (selector)
+				{
+					case PLACEHOLDER_NONE:
+						$("#placeholder").css("opacity", "0.0");
+						setTimeout("$('#placeholder').css('display', 'none');", 1000);
+						break;
+					case PLACEHOLDER_TEXT:
+						$("#placeholder-text").css("opacity", "1.0");
+						$("#placeholder-activityindicator").css("opacity", "0.0");
+						break;
+					case PLACEHOLDER_ACTIVITYINDICATOR:
+						$("#placeholder-activityindicator").css("opacity", "1.0");
+						$("#placeholder-text").css("opacity", "0.0");
+				}
+			}
+
+		</script>
+	</head>
+	
+	<!-- The actual body -->
+	
+	<!-- <body oncontextmenu="return false;">-->
+	<body>
+
+		<div id="extras">
+		
+			<h1>安装<span class="app"></span> 扩展</h1>
+
+			<ul class="tabs" id="tabs">
+				<!-- Filled programmatically -->
+			</ul>
+
+			<div class="panes" id="panes">
+				<!-- Filled programmatically -->
+			</div>
+
+			<div id="placeholder">
+				<h1 id="placeholder-activityindicator"><img src='images/ui/progressindicator.gif' /></h1>
+				<h1 id="placeholder-text">当前没有此应用程序的可用扩展. 抱歉.</h1>
+			</div>
+		
+			<div class="bottombar">
+				<p>
+					<a id="bottombar-home" href="index.html" onclick="switchTo('welcome.html'); return false;">主页</a>&emsp;|&emsp;
+					<a id="bottombar-support" href="support.html" onclick="switchTo('support.html'); return false;">支持</a>&emsp;|&emsp;
+					<a id="bottombar-academy" href="academy.html" onclick="switchTo('academy.html'); return false;">学院</a>
+				</p>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

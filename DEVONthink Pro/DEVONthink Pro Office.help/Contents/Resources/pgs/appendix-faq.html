@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Appendix : FAQ (product-specific)</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="appendix-faq"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="appendix-faq.html#general" class="quicklinks">General</a>
+<br />
+<a href="appendix-faq.html#databases" class="quicklinks">Databases</a>
+<br />
+<a href="appendix-faq.html#sync" class="quicklinks">Synchronizing</a>
+<br />
+<a href="appendix-faq.html#scanning" class="quicklinks">Scanning &amp; OCR</a>
+<br />
+<a href="appendix-faq.html#emailarchive" class="quicklinks">Email archiving</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">FAQ (product-specific)</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<a name="general"> </a>
+<p class="subsection">General</p>
+<p>
+<span class="intro">What is the difference between the various editions?</span>While all three editions of DEVONthink, as well as DEVONnote, share many features, there are some noticible differences. For instance, DEVONthink Pro is able to deal with more than one database; features tables, forms, and categories; and comes with full AppleScript support. DEVONthink Pro Office also comes with plugins for pro-grade email archiving, paper capture, and Web sharing. You can find a complete listing of all differences on the <a href="http://www.devontechnologies.com/redirect.php?id=product-dt-comparison" target="_blank" class="weblink">feature comparison page.</a>
+</p>
+<p>
+<span class="intro">Which languages does DEVONthink Pro Office support?</span>DEVONthink Pro Office supports multilingual documents and Unicode and so supports all Asian languages including Chinese, Japanese, and Korean, as well as non-Latin scripts such as Cyrillic, Hebrew, and Arabic (including writing from right to left). Use <em>
+<a href="menus-format.html#">Format &gt; Alignment &gt; Writing Direction</a>
+</em> to adjust the writing direction.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>Asian languages, however, do not use word separators such as white space or punctuation. When searching, you need to use wildcards. Use ~word or *word* in the search field or search window. The built-in ABBYY OCR engine does not support Asian languages, Arabic, or Hebrew due to licensing restrictions.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<span class="intro">How do I completely uninstall DEVONthink Pro Office?</span>To completely remove DEVONthink Pro Office from your Mac, see the instructions in the <a href="readme-installing.html#">Read Me.</a>
+</p>
+<a name="databases"> </a>
+<p class="subsection">Databases</p>
+<p>
+<span class="intro">Can I use more than one database?</span>Yes, DEVONthink Pro Office databases are stored in packages instead of a central folder. You can double-click these packages like regular files to open the database, copy the database over the local network (LAN) or back up hard drive, or burn them to a CD-R or DVD.</p>
+<p>
+<span class="intro">How are my documents stored?</span>DEVONthink Pro Office stores all documents in a package, a folder that looks like a file that you can double-click or otherwise manipulate like a regular file in the Finder.</p>
+<p>Inside the "Files.noindex" folder the actual documents are stored in sub-folders for their respective type and further sub-folders that help DEVONthink Pro Office to quickly locate them. Documents are never altered when you copied them into the database. The file name of each document is exactly the same as the corresponding document name that you see in DEVONthink Pro Office.</p>
+<p>In addition, the database package contains a set of ten index files named with the suffix ".dtMeta" as well as a "Settings.plist" file containing database-specific preferences. Finally, the database package can contain one or multiple folders named "Backup ...". They contain backups of the index files and are created automatically by DEVONthink Pro Office's backup function. They do not contain copies of all actual documents.</p>
+<p>
+<span class="intro">How can I move my database to another computer?</span>Your database is a file with the suffix ".dtBase2" and is probably stored in your Documents folder. It can be copied to that location or to another desired location on the other computer. If you cannot locate your database, search for it using Spotlight, using the search term "dtBase2".</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>In general, DEVONthink Pro Office databases are self-contained, so one can move a database to another computer, open it and start using it. But if some of the content has been indexed instead of imported, it will be necessary to also move the externally linked files to the other computer. This must be done in such a way that the Paths to the external files remain valid. If everything is in your Documents folder on the first computer, copying the externally linked folders and files to the Documents folder of the second computer will probably work. Always quit the DEVONthink Pro Office application before copying or moving a database, as copying an open database may result in an incomplete or damaged copy.
+			</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+<span class="intro">Can I put my databases on my server?</span>Theoretically, yes. However, as DEVONthink Pro Office is not yet multi-user capable, only one copy of DEVONthink Pro Office can access a database at a time. DEVONthink Pro Office uses a "lock file" to keep other copies of the software from accessing the database at the same time. If you use a setup like this, DO NOT override the warning message or you will create database corruption.</p>
+<p>Alternatively, consider using <a href="inandout-websharing.html#">Web sharing</a> to give other users on the network access to the shared databases via a standard Web browser.</p>
+<p>
+<span class="intro">Can I share my DEVONthink database using WebDAV or DropBox?</span>You can, but it is definitely not recommended as WebDAV servers do not fully support all properties of real hard disks. See below.</p>
+<p>
+<span class="intro">Can I synchronize databases between multiple computers?</span>Yes. <a href="inandout-sync.html#">Read more...</a>
+</p>
+<a name="sync"> </a>
+<p class="subsection">Synchronizing</p>
+<p>
+<span class="intro">How many licenses do I need?</span>Our software licenses only can be used on Macs (or user accounts) used by you. If you are synchronizing your data between multiple work places and team members, every team member needs her or his own license. We offer attractive volume discounts that you can find in our <a href="http://www.devontechnologies.com/redirect.php?id=shop" target="_blank" class="weblink">online shop.</a> We do not offer group or site licenses.</p>
+<p>
+<span class="intro">Is everyone using the same global inbox?</span>Yes, everyone synchronizing with the same sync store uses the same synchronized global inbox. When you synchronize for the first time, new items in the inbox are downloaded from the sync store and the items in your inbox are transferred to the sync store. The local inboxes in each database are only shared with persons synchronizing this database.</p>
+<p>
+<span class="intro">Can I use my own file server?</span>You can create sync stores on every volume that you can mount. These can be USB sticks, hard drives, or file servers. DEVONthink Pro Office can use SANs, NAS, AFP, and even SMB volumes, as well as almost any file system.</p>
+<p>
+<span class="intro">How can my Windows-using colleagues take part?</span>Synchronization is designed to keep DEVONthink Pro Office databases updated. To share data with people using Windows- or Linux-PCs, consider using <a href="inandout-websharing.html#">web sharing.</a>
+</p>
+<p>
+<span class="intro">How do I restrict access for certain user groups?</span>To restrict access to a database, open its properties and set a user name and password. Share these credentials only with those people who should have access to this database. Use a separate database for each group or users that you want to keep separate from other groups.</p>
+<p>
+<span class="intro">Can I share my databases as read-only?</span>No, synchronization is by default bi-directional. To share data read-only on the local network, consider using <a href="inandout-websharing.html#">web sharing.</a>
+</p>
+<a name="scanning"> </a>
+<p class="subsection">Scanning &amp; OCR</p>
+<p>
+<span class="intro">Does DEVONthink Pro Office support the Fujitsu ScanSnap?</span>Yes, DEVONthink Pro Office comes with an auto-configuration plugin that makes the ScanSnap send all incoming scans directly to your database. OCR makes the scans searchable.</p>
+<p>
+<span class="intro">My scanner is not supported by Mac OS X. Does it support TWAIN?</span>If your scanner does not come with an Image-Capture-compliant scanner driver, you might want to check if it works with the <a href="http://www.ellert.se/twain-sane/" target="_blank" class="weblink">TWAIN SANE bridge.</a>
+</p>
+<p>
+<span class="intro">Which OCR engine do you use?</span>DEVONthink Pro Office is equipped with the latest <a href="http://www.abbyy.com/sdk/" target="_blank" class="weblink">ABBYY FineReader engine.</a> It converts PDFs and image files to PDFs with an invisible text layer behind the actual image. DEVONthink, as well as other applications, use this text layer to access the textual information and allow you select and copy text. During the conversion, the image is re-rendered according to the OCR settings. The ABBYY engine used in DEVONthink Pro Office supports most languages and uses latin characters as well as Hebrew; Asian languages and Arabic are not yet supported.</p>
+<a name="emailarchive"> </a>
+<p class="subsection">Email archiving</p>
+<p>
+<span class="intro">Does DEVONthink Pro Office decrypt GPG encrypted email?</span>No, unfortunately, it doesn't. GPG is not as integrated into the Apple Mail to the level necessary for DEVONthink Pro Office to decrypt GPG encrypted messages.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="appendix-glossary.html">&#8592; Glossary</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="appendix-icons.html">Iconology &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* Localized Strings */
+
+"Reminder" = "Rappel";
+
+"Choose list" = "Choisir une liste";
+"Set reminder" = "Programmer le rappel";
+"Please choose when you want to get reminded of the item" = "S'il vous plaît choisissez le moment de vous rappeler du document";
+"%choice prompt end%" = "";
+"No due date" = "Pas de rappel";
+"Tomorrow" = "Demain";
+"In two days" = "Dans deux jours";
+"In three days" = "Dans trois jours";
+"In one week" = "Dans une semaine";
+"In two weeks" = "Dans deux semaines";
+"In one month" = "Dans un mois";
+"In two months" = "Dans deux mois";
+"In three months" = "Dans trois mois";
+"In six months" = "Dans six mois";
+"In one year" = "Dans un an";
+
+"Please select a document or group, then try again." = "S'il vous plaît sélectionnez un document ou un groupe, puis essayez à nouveau.";
+"Please select only one document or group, then try again." = "S'il vous plaît sélectionnez un seul document ou groupe, puis essayez à nouveau.";
+"Error when adding item to Reminders" = "Une erreur se produit lorsque vous ajoutez un élément à Rappels.";
+"Please set up at least one list in Reminders." = "S'il vous plaît créez au moins une list dans Rappels.";

@@ -1,0 +1,17 @@
+/* Localized Strings */
+
+"Event" = "Termin";
+"scheduled" = "Festgelegt für";
+"scheduled for" = "Festgelegt für";
+"from" = "von";
+"Cancel" = "Abbrechen";
+"Looking up event in iCal" = "Suche Termin in iCal";
+"Looking up event in Calendar" = "Suche Termin im Kalender";
+"Calendar: " = "Kalender: ";
+"No event on the clipboard. Please select an event in iCal and select Edit > Copy or press Command-C to copy it to the clipboard. Then try again to use this template." = "Kein Termin in der Zwischenablage. Bitte wählen Sie einen Termin in iCal aus und verwenden Sie Bearbeiten > Kopieren oder drücken Sie Befehl-C um ihn in die Zwischenablage zu kopieren. Versuchen Sie dann nochmals, diese Vorlage zu verwenden.";
+"No event on the clipboard. Please select an event in Calendar and select Edit > Copy or press Command-C to copy it to the clipboard. Then try again to use this template." = "Kein Termin in der Zwischenablage. Bitte wählen Sie einen Termin im Kalender aus und verwenden Sie Bearbeiten > Kopieren oder drücken Sie Befehl-C um ihn in die Zwischenablage zu kopieren. Versuchen Sie dann nochmals, diese Vorlage zu verwenden.";
+"iCal is not open. Please open iCal and select an event, then try again." = "iCal ist nicht geöffnet. Bitte öffnen Sie iCal und versuchen es dann noch einmal.";
+"Calendar is not open. Please open Calendar and select an event, then try again." = "Der Kalender ist nicht geöffnet. Bitte öffnen Sie den Kalender und versuchen es dann noch einmal.";
+"Error when accessing iCal." = "Fehler beim Zugriff auf iCal.";
+"Error when accessing Calender." = "Fehler beim Zugriff auf den Kalender.";
+"An error occured when adding the event" = "Fehler beim Hinzufügen des Ereignisses";

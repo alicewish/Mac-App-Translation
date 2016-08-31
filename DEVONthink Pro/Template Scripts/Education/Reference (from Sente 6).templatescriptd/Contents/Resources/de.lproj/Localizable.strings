@@ -1,0 +1,7 @@
+/* Localized Strings */
+
+"Reference" = "Literaturverweis";
+"Click here to view reference in Sente" = "Diesen Literaturverweis in Sente zeigen";
+"No citation identifier provided by Sente" = "Keine ID für diesen Literaturverweis in Sente verfügbar";
+"An error occured when adding the reference." = "Beim Hinzufügen des Literaturverweises ist ein Fehler aufgetreten.";
+"Please select one or more references in Sente, then try again." = "Bitte wählen Sie einen oder mehrer Literaturverweise in Sente aus und versuchen Sie es dann noch einmal.";

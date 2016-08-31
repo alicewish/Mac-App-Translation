@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Scripts : Automator</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="scripts-automator"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="scripts-automator.html#overview" class="quicklinks">Overview</a>
+<br />
+<a href="scripts-automator.html#filemanagement" class="quicklinks">File Management</a>
+<br />
+<a href="scripts-automator.html#webmanagement" class="quicklinks">Web Management</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Automator</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>DEVONthink Pro Office also comes with a bundle of integrated Automator actions that you can use to create your own workflows.</p>
+<p>To see which actions DEVONthink Pro Office provides, open a new workflow in Automator and click the Actions button, then search for DEVONthink Pro Office in the Library. Automator then displays all actions contained in the application. Select any action to show a short description about what the action does.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>Cannot find the Automator action you need for your workflow? <a href="http://www.devontechnologies.com/redirect.php?id=contact" target="_blank" class="weblink">We're open to suggestions!</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="overview"> </a>
+<p class="subsection">Overview</p>
+<p>We have created some workflow examples that show you how to use Automator and DEVONthink Pro Office together. This document explains what the workflow examples are supposed to do, and how you can adapt them for your specific use. The examples presented here are grouped around common functionality.</p>
+<a name="filemanagement"> </a>
+<p class="subsection">File Management</p>
+<p>Managing files with DEVONthink Pro Office is one of its best features. Here are different ways to work with the information in the database.</p>
+<p>
+<span class="pname">Move existing files: </span>You have a folder with files that you think are in control by DEVONthink Pro Office, but you want to move the files in the database to a different folder (let's say "Archive"). This workflow will solve this problem for you. For the given files/directories, it will find all files, and ask the database if items exist with these paths. For the ones that are found to exist, move these to a specified folder.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>The exact locations have not been defined in this workflow, that is up to you. DEVONthink Pro Office will keep track of the moved files so you don't have to change anything in the database.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>To improve your workflow, specify a specific database to use by preceding the <em>Filter Items</em> action with an <em>Open Database</em> action. In general, it's a good idea to specify the database a workflow has to act on.</p>
+<p>
+<span class="pname">Add and move missing files: </span>Find out what files are not in the database by changing the value in the <em>Filter Items</em> to <em>Missing</em> in the previous workflow. Then the <em>Move Finder Items</em> action places these files in their rightful place in the folder hierarchy. These files will be sent to the <em>Add Items to Current Group</em> action after setting the destination group; this will index the files into the database.</p>
+<p>To improve the workflow, specify a database to use by preceding the <em>Filter Items</em> action with a <em>Open Database</em> action. In general, it's a good idea to specify the database you want a workflow to act on.</p>
+<p>
+<span class="pname">Start workday: </span>This workflow is something you'd start every day when you're ready for work. It is rather complicated but shows off what you can do. Let's go through the steps:</p>
+<ul>
+<li>
+<span class="pname">Step 1 to 2:</span> We create the "Today: To Do" group in the example database. This way we can be sure that the next step has a group to work on.</li>
+<li>
+<span class="pname">Step 3:</span> Then we run another workflow: Clean Today's To Do. Here we completely clean the contents of the "Today: To Do" group. By the way, you may want to switch off the confirmation to delete every record in Step 4 of this workflow, as long as you don't add items by hand to this group!</li>
+<li>
+<span class="pname">Step 4:</span> Here you can specify the different records throughout the database you're working on.</li>
+<li>
+<span class="pname">Step 5:</span> We only get the records not marked as ready ('unchecked').</li>
+<li>
+<span class="pname">Steps 6 to 7:</span> These are replicated to "Today: To Do" list. This will also open a new window with the items you want to work on today.</li>
+<li>
+<span class="pname">Step 8:</span> Get every record including the ones in sub-groups.</li>
+<li>
+<span class="pname">Step 9:</span> Get the file paths from these records.</li>
+<li>
+<span class="pname">Step 10:</span> Open the external files in the Finder. You're ready to start working!</li>
+</ul>
+<p>
+<span class="pname">End workday: </span>At the end of your day, you'd like to make sure that the database is updated with the modified contents of the files you've been working on. That's the goal of this workflow. It synchronizes every record in your "Today: To Do" group.</p>
+<a name="webmanagement"> </a>
+<p class="subsection">Web Management</p>
+<p>Dealing with the web is where DEVONthink Pro Office really shines. Here are a few workflows that will help you manage the information you're gathering from the Internet.</p>
+<p>
+<span class="pname">Capture Safari Page: </span>Another take on getting information from Safari. If you save this example as an application and put it into your <em>Dock</em>, you can very easily get the information from the current web page in Safari into your database. This is because the <em>Add Items to Current Group</em> workflow will actually download the given URL so that its contents are available for searching.</p>
+<p>
+<span class="pname">Convert URLs to Webarchive: </span>This workflow shows how you can convert URLs to webarchives. Let's go through the steps:</p>
+<ul>
+<li>
+<span class="pname">Step 1-2:</span> Make sure to select the records with URLs that you want to replace inside DEVONthink Pro Office.</li>
+<li>
+<span class="pname">Step 3:</span> We download the URLs in DEVONthink Pro Office.</li>
+<li>
+<span class="pname">Step 4:</span> We want to use temporary files so we store them in a variable to refer to them later.</li>
+<li>
+<span class="pname">Step 5:</span> Back in DEVONthink Pro Office, we create a "Converted Web Pages" group.</li>
+<li>
+<span class="pname">Step 6:</span> Here we import the files. Note that we import them because we regard the documents as temporary files in Step 3. DEVONthink Pro Office will copy the files to the database file folder for its own safe keeping.</li>
+<li>
+<span class="pname">Step 7-8:</span> We retrieve the list of files and send them to the Finder's Trash.</li>
+</ul>
+<p>
+<span class="pname">Gather Information from Safari: </span>The next two workflows are not great for our bottom line, yet we've decided to present these helpful hints free of charge!</p>
+<p>The first in the series is a script that gets all the links (within the domain of the starting page) from Safari's open web pages and puts them into a special group called "Temporary Safari Links". For each entry in this group, you can see its status. The contents will be indexed (so loading these may take a while).</p>
+<p>Now you can go and do some searching for information you want. For the records in this group that match your criteria, you will set the state to "checked."</p>
+<p>
+<span class="pname">Store Information from Safari: </span>The second and last workflow in this series will clear up the mess we made. It gathers all the checked records and asks to move these to a group you specify. (Note that for this action we specified that the action has to be shown.)</p>
+<p>Also, take a look at Step 8. Here we have to <em>Ignore Result from Previous Action</em>, because we don't want you to delete the work that you spend so much time on! The remaining records in the temporary group will then be deleted.</p>
+<p>Now, why are these two workflows bad for our bottom line? Because they compete with DEVONagent Pro. (Although, truth be told, DEVONagent Pro does a much better job at this then we can emulate with a couple of Automator workflows).</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="scripts-examples.html">&#8592; More examples</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right" />
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

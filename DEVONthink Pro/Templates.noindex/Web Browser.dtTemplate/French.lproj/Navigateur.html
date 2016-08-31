@@ -1,0 +1,88 @@
+<html>
+
+	<head>
+		<title>DEVONthink as a Web Browser</title>
+		<style>
+			.head
+			{
+				text-align:center;
+				font-weight: bold;
+				font-family: "Lucida Grande", sans-serif;
+				font-size: 16pt;
+				color: #999;
+				vertical-align:middle;
+			}
+			.body {text-align:center}
+			.center
+			{
+				position: relative;
+				top: 25%;
+			}
+		</style>
+		<script language="JavaScript">
+			/* A simple localization function */
+			function localizeString(stren, strfr, strde)
+			{
+				var language = "";
+				var localizedstring = stren;
+			
+				/* Find out which language the user uses */
+				if (navigator.appName == "Microsoft Internet Explorer")
+				{
+					var language = navigator.userLanguage.slice(0, 2);
+				}
+				else
+				{
+					var language = navigator.language;
+					language = language.slice(0, 2);
+				}
+				
+				/* Select the correct string for the user's language */
+				switch (language)
+				{
+					case "de":
+						localizedstring = strde;
+						break;
+					case "fr":
+						localizedstring = strfr;
+						break;
+					default:
+						localizedstring = stren;	
+				}
+				if (localizedstring == "") localizedstring = stren;
+				
+				return localizedstring;
+			}
+
+			function goToURL()
+			{
+				var targetURL = document.getElementById("urlfield").value;
+				if (targetURL.substr(0, 7) != "http://")
+				{
+					targetURL = "http://" + targetURL;
+				}
+				document.location.href = targetURL;
+				return true;
+			}
+			function init()
+			{
+				document.title = localizeString("DEVONthink as a Web Browser", "DEVONthink comme navigateur Web", "DEVONthink als Webbrowser");
+				document.getElementById("heading").innerHTML = localizeString("Browse the Web", "Naviguer le Web", "Webseite besuchen");
+				document.getElementById("gobutton").value = localizeString("Go to address", "Aller à l'adresse", "Gehe zu Adresse");
+				document.getElementById("urlfield").focus();
+			}
+		</script>
+	</head>
+
+	<body onload="init()" style="margin: 0px; padding: 20px;">
+		<div class="center">
+			<p class="head" id="heading">Browse the Web</p>
+			<p class="body">
+				<form class="body" onsubmit="goToURL(); return false;">
+				<input id="urlfield" type="text" style="width:400px; border: 1px solid #bbb; padding: 3px; margin: 0px; height: 20px;" placeholder="Type URL here" value="http://" /><input id="gobutton" type="button" name="go" style="margin-left: 10px" value="Go to URL" onclick="goToURL();" />
+				</form>
+			</p>
+		</div>
+	</body>
+
+</html>

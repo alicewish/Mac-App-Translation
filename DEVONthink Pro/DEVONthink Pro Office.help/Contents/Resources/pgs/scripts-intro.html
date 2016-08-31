@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Scripts : Introduction</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="scripts-intro"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="scripts-intro.html#examples" class="quicklinks">Example scripts</a>
+<br />
+<a href="scripts-intro.html#menuextra" class="quicklinks">Integrating other applications</a>
+<br />
+<a href="scripts-intro.html#dictionary" class="quicklinks">DEVONthink Pro Office's dictionary</a>
+<br />
+<a href="scripts-intro.html#identifier" class="quicklinks">Talking to DEVONthink Pro Office</a>
+<br />
+<a href="scripts-intro.html#learningapplescript" class="quicklinks">Learning AppleScript</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Introduction</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>DEVONthink Pro Office features one of the largest AppleScript dictionaries of all Mac OS X applications. These scripts make it possible to automate nearly every aspect of the application, and to integrate the application with almost every other application supporting AppleScript.</p>
+<a name="examples"> </a>
+<p class="subsection">Example scripts</p>
+<p>To make it easier for you to start with scripting, we deliver a slew of scripts with DEVONthink Pro Office that you can access in the <em>
+<a href="menus-scripts.html#">Scripts</a>
+</em> menu (which shows a stylized <em>S</em> symbol as its title instead of the word Scripts). These scripts interact directly with a selected group or document, or create documents themselves. In addition, the <a href="appendix-templates.html#">smart template</a> are based on AppleScript scripts. All scripts delivered with DEVONthink Pro Office are useable in everyday work, and are not simple example templates that need to be tinkered with first.</p>
+<p>Other ways to use AppleScript for extending and integrating DEVONthink Pro Office are triggered scripts, folder actions, droplets, and PDF Services scripts. You will find descriptions of the scripts that come with DEVONthink Pro Office in the corresponding sections of this chapter.</p>
+<a name="menuextra"> </a>
+<p class="subsection">Integrating other applications</p>
+<p>In addition to the scripts that you use inside DEVONthink Pro Office, Mac OS X features a global scripts menu that gives you access to certain scripts from any application on your Mac. When activated, it appears at the right side of the menu bar (along with other menu extras such as the <em>AirPort signal strength</em> or the <em>Spotlight</em> icon). It appears with a black stylized <em>S</em> icon.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>By using folders named after applications inside the "~/Library/Scripts/Applications" directory, it is also possible to make scripts application-specific. Such scripts will appear at the top level of the global script menu when that application is active in the desktop window. This removes clutter and shows only scripts that make sense in the current application.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>DEVONthink Pro Office already comes with a number of scripts that you can access conveniently from the global script menu. DEVONthink Pro Office asks to install them whenever you update the application, or you can (re-)install them manually by selecting <em>
+<a href="menus-application.html#addons">DEVONthink Pro Office &gt; Install Add-ons</a>
+</em>. They will be installed in "~/Library/Scripts/Applications/&lt;TargetApp&gt;" and only apply for the user currently logged in. Also, they only show up in the script menu when the application for which they are designed is the front-most application (the one that currently populates the menu bar).</p>
+<p>To activate the global script menu, do the following:</p>
+<ul>
+<li>Open the AppleScript Utility (located in "/Applications/AppleScript").</li>
+<li>Check <em>Show Script Menu in menu bar.</em>
+</li>
+<li>Uncheck <em>Show Library scripts</em> if you only want to see the scripts you have installed yourself.</li>
+</ul>
+<p>To install your own scripts (such as the scripts that come with DEVONthink Pro Office), copy them into the folder "~/Library/Scripts". You can use sub-folders to structure them in any way you like.</p>
+<a name="dictionary"> </a>
+<p class="subsection">DEVONthink Pro Office's dictionary</p>
+<p>DEVONthink Pro Office includes a large dictionary with commands, objects, and methods you can use for writing scripts that interact or extend DEVONthink Pro Office. To view the dictionary, open the Script Editor application (by default located in "/Applications/AppleScript"), select <em>File &gt; Open Dictionary</em> and choose DEVONthink Pro Office in the appearing window.</p>
+<p>You can also add DEVONthink Pro Office to your Script Editor library. Select <em>Window &gt; Library</em>, click the <em>+</em> button and choose DEVONthink Pro Office. This way you keep DEVONthink Pro Office's dictionary at hand.</p>
+<a name="identifier"> </a>
+<p class="subsection">Talking to DEVONthink Pro Office</p>
+<p>In AppleScript you "talk" to programs like DEVONthink Pro Office using a "tell" statement, referring to the application either by its name or its bundle identifier. This might become incompatible with a future version of DEVONthink Pro Office so we strongly recommend to refer to this application using the ID "DNtp", like in the following statement:</p>
+<p class="sourcecode">tell application id "DNtp" [...] end tell</p>
+<a name="learningapplescript"> </a>
+<p class="subsection">Learning AppleScript</p>
+<p>This documentation is not an AppleScript language guide. Please refer to <a href="http://www.apple.com/applescript" target="_blank" class="weblink">Apple's AppleScript web site</a>, other online resources, or introduction and reference books for more information on the AppleScript language. Here are some links for you:</p>
+<ul>
+<li>
+<a href="http://mac.appstorm.net/how-to/applescript/the-ultimate-beginners-guide-to-applescript/" target="_blank" class="weblink">The Ultimate Beginner's Guide to AppleScript</a>
+</li>
+<li>
+<a href="http://www.macosxautomation.com/applescript/" target="_blank" class="weblink">AppleScript, the Language of Automation</a>
+</li>
+<li>
+<a href="http://macscripter.net" target="_blank" class="weblink">MacScripter</a>
+</li>
+<li>
+<a href="http://www.scriptweb.org" target="_blank" class="weblink">ScriptWeb</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="http://www.tecsoft.com/ascourse.html" target="_blank" class="weblink">TECsoft Hands-On Trainings</a>
+</li>
+<li>
+<a href="http://www.scriptingmatters.com" target="_blank" class="weblink">Scripting Matters Trainings</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="http://www.devontechnologies.com/redirect.php?id=download-ebook-as4as" target="_blank" class="weblink">AppleScript for Absolute Starters (free PDF book)</a>
+</li>
+<li>
+<a href="http://www.amazon.com/exec/obidos/tg/detail/-/0596008503/qid=1121266897/sr=8-1/ref=pd_bbs_ur_1/002-5709247-5091254?v=glance&amp;s=books&amp;n=507846" target="_blank" class="weblink">AppleScript: The Missing Manual</a>
+</li>
+<li>
+<a href="http://www.amazon.com/exec/obidos/tg/detail/-/0596005571/qid=1121266897/sr=8-2/ref=pd_bbs_ur_2/002-5709247-5091254?v=glance&amp;s=books&amp;n=507846" target="_blank" class="weblink">AppleScript: The Definitive Guide</a>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left" />
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="scripts-installation.html">Installation &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>CFBundleDevelopmentRegion</key>
+<string>en_US</string>
+<key>CFBundleIdentifier</key>
+<string>com.devontechnologies.devonthinkprooffice.help</string>
+<key>CFBundlePackageType</key>
+<string>BNDL</string>
+<key>CFBundleInfoDictionaryVersion</key>
+<string>6.0</string>
+<key>CFBundleShortVersionString</key>
+<string>2.8.9</string>
+<key>CFBundleVersion</key>
+<string>2.8.9</string>
+<key>CFBundleSignature</key>
+<string>hbwr</string>
+<key>CFBundleName</key>
+<string>DEVONthink Pro Office.help</string>
+<key>HPDBookAccessPath</key>
+<string>DEVONthink Pro Office.html</string>
+<key>HPDBookIconPath</key>
+<string>shrd/gfx/appicon_64.png</string>
+<key>HPDBookIndexPath</key>
+<string>DEVONthink Pro Office.helpindex</string>
+<key>HPDBookRemoteURL</key>
+<string>http://s3.amazonaws.com/DTWebsiteSupport/download/devonthink/2.8.9/DEVONthink Pro Office.help/Contents/Resources/</string>
+<key>HPDBookTitle</key>
+<string>DEVONthink Pro Office Help</string>
+<key>HPDBookType</key>
+<string>3</string>
+</dict>
+</plist>

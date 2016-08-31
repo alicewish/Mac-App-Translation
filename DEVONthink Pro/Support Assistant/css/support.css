@@ -1,0 +1,66 @@
+/*
+
+	DEVONtechnologies SUPPORT ASSISTANT
+	© 2011–2014 DEVONtechnologies, LLC
+
+	Written by Eric Böhnisch-Volkmann, Apr 7, 2011
+	Updated by Eric Böhnisch-Volkmann, Aug 13, 2014
+	
+	CSS for the support page
+
+*/
+
+#support
+{
+	position:				relative;
+	top:					0px;
+	left:					0px;
+	width:				860px;
+	height:				480px;
+	padding:				30px 50px 30px 50px;
+	font-size:			10pt;
+	font-family:			"Lucida Grande", Arial;
+	color:					#444;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.37, white), color-stop(0.37, rgb(230, 230, 230)), color-stop(0.6, white), to(white));
+}
+
+.support-step-container { width: 530px; height: 240px; margin: 40px auto 0px auto; }
+.support-step { float: left; width: 33.33%; text-align: center; }
+.support-step > h1 { font-size: 15pt; font-weight: normal; }
+.support-step > h2 { font-size: 13pt; font-weight: normal; color: #999; margin: 20px 0px 5px 0px; }
+.support-step > a { display: block; width: 160px; height: 160px; background: white; display: inline-block; }
+.support-step > a > img:hover { opacity: 1.0; -webkit-transition: opacity 0.25s linear; }
+.support-step > a > img
+{
+	width: 160px;
+	height: 160px;
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(0.8, transparent), to(rgba(255, 255, 255, 0.3)));
+	opacity: 0.6;
+	-webkit-transition: opacity 0.25s linear;
+}
+
+.support-box-container { width: 100%; height: 130px; margin: 30px auto 0px auto; text-align: center; padding-top: 20px; }
+.support-box { float: left; width: 18.9%; height: 100%; text-align: left; margin: 0px 0px 0px 0px; border-right: 1px solid #eee; padding: 0px 3% 0px 3%; }
+.support-box:last-child { border-right: none; }
+.support-box h1 { font-size: 12pt; text-align: left; margin: 0px 0px 10px 0px; }
+.support-box p, .support-box-overlay p { font-size: 8pt; color: #999; margin-bottom: 0px; }
+.support-box .spinner { background-color: #fff; }
+.support-box-frame { position: relative; }
+.support-box-overlay
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	width: 100%;
+	height: 100%;
+	margin: -5px;
+	padding: 5px;
+	-webkit-transition: opacity .25s linear, visibility 1s linear;
+}
+.support-box-overlay > p { margin-top: 0px; }
+
+p.support-link { color: #006600; margin-top: 0px; }
+p.support-link > a { color: #006600; text-decoration: none; }
+p.support-link:hover { text-decoration: underline; cursor: pointer; }
+p.support-link:after { content: " \25B8"; }

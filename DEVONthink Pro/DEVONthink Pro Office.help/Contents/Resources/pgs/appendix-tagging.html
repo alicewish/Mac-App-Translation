@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Appendix : Tagging</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="appendix-tagging"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="appendix-tagging.html#intro" class="quicklinks">Introduction</a>
+<br />
+<a href="appendix-tagging.html#tagsgroup" class="quicklinks">The Tags group</a>
+<br />
+<a href="appendix-tagging.html#use" class="quicklinks">Using tags</a>
+<br />
+<a href="appendix-tagging.html#aliases" class="quicklinks">Aliases and excluding from tagging</a>
+<br />
+<a href="appendix-tagging.html#openmeta" class="quicklinks">OpenMeta</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Tagging</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>DEVONthink Pro Office supports tagging in a way that makes groups and tags interchangeable. While this concept may sound a bit strange at first, you will soon discover why it is a smart way to approach tags and group and to bring both together.</p>
+<a name="intro"> </a>
+<p class="subsection">Introduction</p>
+<p>Technically, tags and groups are identical: both are simply entries in a table that are somehow "attached" to an item, usually a group or document. The difference is that tags are visualized as "labels attached TO the item while groups are visualized as groups CONTAINING the item." They are presented differently, but internally they are the same.</p>
+<p>DEVONthink Pro Office treats groups as tags and tags as groups. When it shows you the tags associated with an item, it presents you with a list of all groups that the item is part of and that have not been excluded from tagging.</p>
+<div class="examplebox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname example">Example: </span>A document is located in the group "Science &gt; Paleontology &gt; Dinosaurs". Consequently, its tags are "Science," "Paleontology," and "Dinosaurs." Now you create a sub-group of "Dinosaurs" named "Land-living" and move the document into the new folder. Automatically it is now tagged with "Science," "Paleontology," "Dinosaurs," and "Land-living."</p>
+</td>
+</tr>
+</table>
+</div>
+<p>The same happens when you replicate the document into multiple groups: It is tagged with the names of all enclosing groups (not excluded from tagging) of all its replicants.</p>
+<p>When you assign a tag using DEVONthink Pro Office's user interface, move a document, or replicate it to another group, this is what happens:</p>
+<ul>
+<li>
+<span class="pname">Assign a tag:</span> The item is replicated to the <a href="appendix-tagging.html#tagsgroup">Tags group.</a>
+</li>
+<li>
+<span class="pname">Removing a tag:</span> The item's replicate in the Tags group is deleted.</li>
+<li>
+<span class="pname">Adding an item to a group:</span> The group's name and the names of all groups containing the group appear as tags attached to the item.</li>
+<li>
+<span class="pname">Moving an item:</span> The new group's name and the names of all groups containing it appear as tags attached to the item.</li>
+<li>
+<span class="pname">Replicating an item:</span> The new group's name and the names of all groups containing it appear as tags attached to the item, too.</li>
+<li>
+<span class="pname">(Auto-) Classifying an item:</span> This places the item into a new group and replaces all assigned tags.</li>
+</ul>
+<p>Tags represented by a regular group are called "group tags"; tags created without an existing group are called "ordinary tags." <a href="appendix-glossary.html#tags">Read more...</a>
+</p>
+<a name="tagsgroup"> </a>
+<p class="subsection">The Tags group</p>
+<p>Every DEVONthink Pro Office database contains a top-level group named "Tags." It is used whenever you add a tag to an item, e.g., through the tag bar, for which a group does not yet exist. In this case, DEVONthink Pro Office creates a group for the tag in the Tags group and places a replicant into it.</p>
+<p>When you rename a group here all items associated with it, (means: that have a replicant here) this option will show the change.</p>
+<a name="use"> </a>
+<p class="subsection">Using tags</p>
+<p>To use tags for selecting and finding documents or browsing tags, DEVONthink Pro Office offers the following options:</p>
+<ul>
+<li>
+<span class="pname">Tags view:</span> The tags view allows you to browse your documents by tags. In the tags view, select a tag to display all items which have this tag assigned. Choose multiple tags, e.g., by clicking anothe one with &#8984; held, which shows all items carrying the selected tags.</li>
+<li>
+<span class="pname">Smart groups:</span> Use smart groups to search for items with given tags.</li>
+</ul>
+<p>Wherever tags are shown, "ordinary tags" (tags created in the special Tag group) appear blue, and tags that are also regular groups appear grey. Tags,  in the Tag bar also show a pop-up menu when you click their downward triangle. The menu shows related tags that can be added to the item, and reveals tags represented by a group.</p>
+<a name="aliases"> </a>
+<p class="subsection">Aliases and excluding from tagging</p>
+<p>DEVONthink Pro Office also honors aliases added to groups. You can add "alternative names" to a group using <a href="windows-info.html#">Info panel</a> and later use these alternative names as a tag.</p>
+<div class="examplebox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname example">Example: </span>In the Info panel of the group "Dinosaurs" you have added "Dinos" as an alias. You can now tag items with "Dinos" and they automatically will be moved or replicated to the "Dinosaurs" group.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>Groups that you don't want to use as tags can be excluded from tagging. Select the group and open the <a href="windows-info.html#">Info panel.</a> Check <em>Exclude from &#8230; Tagging</em> and the group's name will no longer be shown as a tag for items contained in it.</p>
+<a name="openmeta"> </a>
+<p class="subsection">OpenMeta</p>
+<p>
+<a href="http://code.google.com/p/openmeta/" target="_blank" class="weblink">OpenMeta</a> is an open standard for storing tags with files in the file system. Using OpenMeta applications can add tags to files and let other <a href="http://code.google.com/p/openmeta/wiki/OpenMetaApplications" target="_blank" class="weblink">compliant applications</a> read them.</p>
+<p>DEVONthink Pro Office supports OpenMeta when importing and exporting files. Files stored in the database are not tagged in OpenMeta-style, though assigned tags will be added to the files as soon as you export them. On OS X Mavericks, Mavericks tags take precendence over OpenMeta tags. On OS X Yosemite and later OpenMeta is no longer supported.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="appendix-shortcuts.html">&#8592; Keyboard shortcuts</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="appendix-fileformats.html">File formats &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

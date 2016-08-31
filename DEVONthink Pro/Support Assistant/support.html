@@ -1,0 +1,475 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--
+
+DEVONTECHNOLOGIES SUPPORT ASSISTANT
+© 2011 DEVONtechnologies, LLC
+
+Version 2.0.2
+Written by Eric Böhnisch-Volkmann, Feb 17, 2010
+Rewritten by Eric Böhnisch-Volkmann in April 2011
+Updated by Eric Böhnisch-Volkmann, Nov 29, 2011
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>Welcome</title>
+
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/support.css"/>
+		<link rel="stylesheet" type="text/css" href="css/scrollable.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tabs.css"/>
+
+ 		<script type="text/javascript" src="javascript/jsapi.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery.js"></script>
+ 		<script type="text/javascript" src="javascript/jquery-ui.js"></script>
+		<script type="text/javascript" src="javascript/jquery.tools.min.js"></script>
+		<script type="text/javascript" src="javascript/jquery.form.js"></script>
+		<script type="text/javascript" src="javascript/basics.js"></script>
+		<script type="text/javascript" src="javascript/localization.js"></script>
+		<script type="text/javascript" src="javascript/formvalidation.js"></script>
+		<script type="text/javascript" src="javascript/rss.js"></script>
+		<script type="text/javascript" src="javascript/userinterface.js"></script>
+		<script type="text/javascript">
+			google.setOnLoadCallback(function()
+			{
+				$(function()
+				{
+					// Attach the jQuery form plugin to the lost license form
+					var optionsLostLicense =
+					{  
+						url: 'http://www.devontechnologies.com/fileadmin/templates/filemaker/resend.php',
+						success: showResponseLostLicense,
+						error: showErrorLostLicense,
+						resetForm: true, 
+						type: 'post'
+					}; 
+					$('#lostlicense-form').submit(function(e)
+					{
+						enteredEmail = $("#lostlicense-email").val();
+						showSpinner($(this).parents(), true);
+						e.preventDefault();
+						$(this).ajaxSubmit(optionsLostLicense);
+					});
+					$('#lostlicense-submit').click(function()
+					{
+						$(this).parents().filter("form").trigger("submit");
+					});
+	
+					// Attach the jQuery form plugin to the trial license form
+					var optionsTrialExtension =
+					{  
+						url: 'http://www.devontechnologies.com/fileadmin/templates/filemaker/trialextension.php',
+						success: showResponseTrialExtension,
+						error: showErrorTrialExtension,
+						resetForm: true, 
+						type: 'post'
+					}; 
+					$('#trialextension-form').submit(function(e)
+					{ 
+						showSpinner($(this).parents(), true);
+						e.preventDefault();
+						$(this).ajaxSubmit(optionsTrialExtension);
+					});
+					$('#trialextension-submit').click(function()
+					{
+						$(this).parents().filter("form").trigger("submit");
+					});
+
+					// Perform post-submission tasks for lost license form
+					function showErrorLostLicense(jqXHR, textStatus, errorThrown)
+					{
+						console.log("Error: " + jqXHR.status);
+						var errorText = "";
+						switch (jqXHR.status)
+						{
+							case 404:
+								errorText = localizedString("Unfortunately we have found no record for the entered email address. Sorry.");
+								break;
+							case 418:
+								errorText = localizedString("All license codes stored for the email address you have entered have been resent.");
+								break;
+							default:
+								errorText = localizedString("Error: ") + errorThrown;
+						}
+						showOverlay("#lostlicense-form", errorText);
+					}
+					
+					function showResponseLostLicense(responseText, statusText, jqXHR)
+					{
+						if (responseText != "" && responseText != undefined && enteredEmail == FORM_DATA["email"])
+						{
+							var licenseURL = unescapeHTML(responseText);
+							console.log("Calling " + licenseURL);
+							window.open(licenseURL);
+						}
+						showOverlay("#lostlicense-form", localizedString("All license codes stored for the email address you have entered have been resent."));
+					}
+					
+					// Perform post-submission tasks for trial license form
+					function showErrorTrialExtension(jqXHR, textStatus, errorThrown)
+					{
+						console.log("Error: " + jqXHR.status);
+						var errorText = "";
+						switch (jqXHR.status)
+						{
+							case 406:
+								errorText = localizedString("You have already requested two trial extensions for this product. Sorry.");
+								break;
+							default:
+								errorText = localizedString("An error (" + jqXHR.status + ") has occured when creating your trial extension. Please contact our support.");
+						}
+						showOverlay("#trialextension-form", errorText);
+					}
+					
+					function showResponseTrialExtension(responseText, statusText)
+					{
+						if (responseText != "" && responseText != undefined)
+						{
+							var licenseURL = unescapeHTML(responseText);
+							console.log("Calling " + licenseURL);
+							window.open(licenseURL);
+						}
+						showOverlay("#trialextension-form", localizedString("A 30-day trial license for this app has also been sent to the entered email address."));
+					}
+					
+					function showOverlay(formID, message)
+					{
+						showSpinner($(formID).parents(), false);
+						$(formID).parents().children("div.support-box-overlay").children("p:first").html(message);	
+						$(formID).parents().children(".support-box-overlay").css("visibility", "visible");
+						$(formID).parents().children(".support-box-overlay").css("opacity", "1.0");
+					}
+				});
+		 	});
+
+			$(document).ready(function()
+			{
+				initLocalization("localizable/support.json", "pageDidLoadWithLocalization");
+			});
+
+			function pageDidLoadWithLocalization()
+			{
+				localize();
+			
+				// Attach click action to overlay close links
+				$(".support-box-overlay-closelink").click(function() { hideSuccessOverlays(); });
+				
+				// Suppress the Enter key for form submission
+				$("form").bind("keypress", function(e)
+				{
+					if (e.keyCode == 13) { return false; }
+				});
+
+				// Set help book URLs
+				FORM_DATA = createRequestObject();
+				switch (normalizedAppName(FORM_DATA["app"]))
+				{
+					case "DEVONthink Pro Office":
+						$("#faq-link").attr("href", "help:anchor=_faq bookID=DEVONthink%20Pro%20Office%20Help");
+						break;
+					case "DEVONthink Pro":
+						$("#faq-link").attr("href", "help:anchor=_faq bookID=DEVONthink%20Pro%20Help");
+						break;
+					case "DEVONthink Personal":
+						$("#faq-link").attr("href", "help:anchor=_faq bookID=DEVONthink%20Help");
+						break;
+					case "DEVONagent":
+					case "DEVONagent Pro":
+						$("#faq-link").attr("href", "help:anchor=_faq bookID=DEVONagent%20Help");
+						break;
+					case "DEVONnote":
+						$("#faq-link").attr("href", "help:anchor=_faq bookID=DEVONnote%20Help");
+				}
+					
+				// Set forum links and add bottom bar link if necessary
+				switch (normalizedAppName(FORM_DATA["app"]))
+				{
+					case "DEVONthink Pro Office":
+					case "DEVONthink Pro":
+						$("#bottombar-extras").before("<a id=\"bottombar-firstlaunch\" href=\"firstlaunch.html\" onclick=\"switchTo('firstlaunch.html'); return false;\">" + localizedString("Setup") + "</a>&emsp;|&emsp;");
+					case "DEVONthink Personal":
+					case "DEVONnote":
+						$("#forum-link").attr("href", "http://www.devontechnologies.com/redirect.php?id=forum-dt");
+						break;
+					case "DEVONagent":
+					case "DEVONagent Pro":
+						$("#forum-link").attr("href", "http://www.devontechnologies.com/redirect.php?id=forum-da");
+				}
+				
+				// If an email address was given, add it
+				initEmailAddressesAndNames();
+
+				// Build upgrade URL for this application and licensing; or switch to a simple Buy link
+				var upgradeURL = "http://www.devontechnologies.com/redirect.php?id=inappupgrade&app=" + normalizedAppName(FORM_DATA["app"]);
+				if (FORM_DATA["email"] != undefined  && checkemail(FORM_DATA["email"]))
+				{
+					upgradeURL += "&email=" + FORM_DATA["email"];
+				}
+				if (FORM_DATA["code"] != undefined)
+				{
+					upgradeURL += "&code=" + FORM_DATA["code"];
+					$("#upgrade-link").attr("href", upgradeURL);
+				}
+				else
+				{
+					$("#box4-header").html(localizedString("Buy a license"));
+					$("#box4-body").html(localizedString("Remove the trial restrictions and support us by purchasing a software license."));
+					$("#upgrade-link").html(localizedString("Visit the shop"));
+					switch (normalizedAppName(FORM_DATA["app"]))
+					{
+						default:
+						case "DEVONthink Pro Office":
+						case "DEVONthink Pro":
+						case "DEVONthink Personal":
+							$("#upgrade-link").attr("href", "http://www.devontechnologies.com/redirect.php?id=buy-list-dt");
+							break;
+						case "DEVONagent":
+						case "DEVONagent Pro":
+							$("#upgrade-link").attr("href", "http://www.devontechnologies.com/redirect.php?id=buy-da");
+							break;
+						case "DEVONnote":
+							$("#upgrade-link").attr("http://www.devontechnologies.com/redirect.php?id=buy-dn");
+							break;
+					}
+				}
+					
+				// Swap out unneeded blocks for Mac App Store and if a license code is present
+				var blockSet = 0;
+				if (FORM_DATA["appstore"] == 1) blockSet = "appstore";
+				if (FORM_DATA["code"] != undefined) blockSet = "code";
+				switch (blockSet)
+				{
+				case "appstore":
+					// First block
+					$("#box1-header").html(localizedString("Read our blog"));
+					$("#box1-body").html(localizedString("Tips, comments, and news from behind the curtain directly from our President."));
+					$("#box1-link").html("<a href='#'>" + localizedString("Visit the Balcony") + "</a>");
+					$("#box1-link").css("display", "inline");
+					$("#lostlicense-form").css("display", "none");
+
+					// Third block
+					$("#box3-header").html(localizedString("Get our free apps"));
+					$("#box3-body").html(localizedString("You like <span class=\"app\">*Meep*</span>? Try our freeware applications and services for the Mac."));
+					$("#box3-link").html("<a href='http://www.devontechnologies.com/redirect.php?id=product-freeapps'>" + localizedString("Download freeware") + "</a>");
+
+					// Fourth block
+					$("#box4-header").html(localizedString("Try our other apps"));
+					$("#box4-body").html(localizedString("Visit our web site to learn more about all the other apps we offer for Mac and iOS."));
+					$("#box4-link").html("<a href='http://www.devontechnologies.com/redirect.php?id=products'>" + localizedString("Visit our web site") + "</a>");
+				
+				case "code":
+					// Second block
+					$("#box2-header").html(localizedString("Get extras"));
+					$("#box2-body").html(localizedString("Pimp this app with script and other additions provided by its makers or fellow users."));
+					$("#box2-link").html("<a href='extras.html' onclick='switchTo(\"extras.html\"); return false;'>" + localizedString("Download extras") + "</a>");
+					$("#box2-link").css("display", "inline");
+					$("#trialextension-form").css("display", "none");
+				}
+				
+				// Add app name to wherever it is needed
+				$('.app').html(normalizedAppName(FORM_DATA["app"]));
+				$('.app-input').val(normalizedAppName(FORM_DATA["app"]));
+				
+				// Add Mac serial number to trial form
+				$('#trialextension-mac').val(FORM_DATA["mac"]);
+
+				// Start timers
+				validatetyping();
+			}
+
+			// Localize
+
+			function localize()
+			{
+				$("#bottombar-home").html(localizedString("Welcome"));
+				$("#bottombar-extras").html(localizedString("Install Extras"));
+				$("#bottombar-academy").html(localizedString("Tips &amp; Tutorials"));
+
+				$("#support-step-1 > h2").html(localizedString("Step 1"));
+				$("#support-step-2 > h2").html(localizedString("Step 2"));
+				$("#support-step-3 > h2").html(localizedString("Step 3"));
+				$("#support-step-1 > h1").html(localizedString("Read the FAQ"));
+				$("#support-step-2 > h1").html(localizedString("Visit the forum"));
+				$("#support-step-3 > h1").html(localizedString("Contact us"));
+				
+				$("#box1-header").html(localizedString("Retrieve your license"));
+				$("#box1-body").html(localizedString("Get all licenses on file for your email address resent."));
+				$("#lostlicense-form > p.inputline-description > span:first").html(localizedString("Your email address"));
+				$("#box1 > div.support-box-frame > div.support-box-overlay > p:first").html(localizedString("All license codes stored for the email address you have entered have been resent."));
+				$("#box1 > div.support-box-frame > div.support-box-overlay > p.support-box-overlay-closelink").html(localizedString("Close message"));
+
+				$("#box2-header").html(localizedString("Get a trial extension"));
+				$("#box2-body").html(localizedString("Test-drive <span class=\"app\">*Meep*</span> for another 30 days."));
+				$("#trialextension-form > p.inputline-description > span:first").html(localizedString("Your email address"));
+				$("#box2 > div.support-box-frame > div.support-box-overlay > p:first").html(localizedString("A 30-day trial license for <span class=\"app\">*Meep*</span> has been sent to the entered email address."));
+				$("#box2 > div.support-box-frame > div.support-box-overlay > p.support-box-overlay-closelink").html(localizedString("Close message"));
+
+				$("#box3-header").html(localizedString("Let us know"));
+				$("#box3-body").html(localizedString("Have you changed your email address recently and would like us to update our records?"));
+				$("#box3-link > a").html(localizedString("Send new details"));
+
+				$("#box4-header").html(localizedString("Buy an upgrade"));
+				$("#box4-body").html(localizedString("Check your upgrade options and buy a higher edition or later version with a discount."));
+				$("#box4-link > a").html(localizedString("Check upgrade options"));
+			}
+
+			// Hide all overlays
+			function hideSuccessOverlays()
+			{
+				$(".support-box-overlay").css("visibility", "hidden");
+				$(".support-box-overlay").css("opacity", "0.0");
+				initEmailAddressesAndNames();
+			}
+
+			// INIT
+
+			function initEmailAddressesAndNames()
+			{
+				// Insert email addresses if given
+				if (FORM_DATA["email"] != undefined)
+				{
+					$("#lostlicense-email").val(FORM_DATA["email"]);
+					$("#trialextension-email").val(FORM_DATA["email"]);
+				}
+				
+				if (FORM_DATA["name"] != undefined)
+				{
+					$("#trialextension-name").val(FORM_DATA["name"]);
+				}
+			}
+
+			// FORM VALIDATION
+
+			function validatetyping()
+			{
+				// Email addresses
+				if ($('#lostlicense-email').val() ==" " ||
+				    !checkemail($('#lostlicense-email').val()) ||
+				    FORM_DATA["app"] == undefined)
+				{
+					$('#lostlicense-submit').addClass("inactive");
+					$('#lostlicense-submit').attr("disabled", "disabled");
+				}
+				else
+				{
+					$('#lostlicense-submit').removeClass("inactive");
+					$('#lostlicense-submit').removeAttr("disabled");
+				}
+
+				if ($('#trialextension-email').val() ==" " ||
+				    !checkemail($('#trialextension-email').val()) ||
+				    FORM_DATA["app"] == undefined)
+				{
+					$('#trialextension-submit').addClass("inactive");
+					$('#trialextension-submit').attr("disabled", "disabled");
+				}
+				else
+				{
+					$('#trialextension-submit').removeClass("inactive");
+					$('#trialextension-submit').removeAttr("disabled");
+				}
+			
+				setTimeout("validatetyping()", 100);
+			}
+		</script>
+	</head>
+	
+	<!-- The actual body -->
+
+	
+	<body oncontextmenu="return false;">
+
+		<div id="support">
+		
+			<div class="support-step-container">
+				<div class="support-step" id="support-step-1">
+					<a id="faq-link" href="http://www.devontechnologies.com/redirect.php?id=support"><img src="images/misc/step1.jpg" /></a>
+					<h2>第 1 步</h2>
+					<h1>阅读常见问题</h1>
+				</div>
+				<div class="support-step" id="support-step-2">
+					<a id="forum-link" href="http://www.devontechnologies.com/redirect.php?id=forum"><img src="images/misc/step2.jpg" /></a>
+					<h2>第 2 步</h2>
+					<h1>访问论坛</h1>
+				</div>
+				<div class="support-step" id="support-step-3">
+					<a href="http://www.devontechnologies.com/redirect.php?id=contact"><img src="images/misc/step3.jpg" /></a>
+					<h2>第 3 步</h2>
+					<h1>联系我们</h1>
+				</div>
+			</div>
+
+			<div class="support-box-container">
+				<div class="support-box" id="box1">
+					<h1 id="box1-header">检索您的许可证</h1>
+					<div class="support-box-frame">
+						<p id="box1-body">获取文件中的所有许可证用您的 Email 地址重新发送.</p>
+						<p id="box1-link" class="support-link" style="display:none"><a href="#"></a></p>
+						<form method="post" action="http://www.devontechnologies.com/fileadmin/templates/filemaker/resend.php" name="lostlicense-form" id="lostlicense-form">
+							<input type="text" id="lostlicense-email" style="width:97%" class="inputline" placeholder="you@somewhere.com" name="email"/>
+							<input type="hidden" name="authentication" value="3ZxXPULuVF5trEzR" />
+							<input type="hidden" name="fromassistant" value="yes" />
+							<input type="hidden" name="productname" class="app-input" value=""/>
+							<p class="inputline-description"><span>您的 Email 地址</span>
+								<span id="lostlicense-submit" class="accept-button" style="float: right"></span>
+							</p>
+						</form>
+						<div class="support-box-overlay" style="visibility:hidden; opacity:0.0;">
+							<p>所有许可证代码用您输入的 Email 地址重新发送.</p>
+							<p class="support-link support-box-overlay-closelink">关闭消息</p>
+						</div>
+						<div class="spinner" style="visibility:hidden; opacity:0.0;">
+						</div>
+					</div>
+				</div>
+				<div class="support-box" id="box2">
+					<h1 id="box2-header">延长试用期</h1>
+					<div class="support-box-frame">
+						<p id="box2-body">用另外的 30天试用 <span class="app">此应用程序</span>.</p>
+						<p id="box2-link" class="support-link" style="display:none"><a href="#"></a></p>
+						<form method="post" action="http://www.devontechnologies.com/fileadmin/templates/filemaker/trialextension.php" name="trialextension-form" id="trialextension-form">
+							<input type="text" id="trialextension-email" style="width:97%" class="inputline" placeholder="you@somewhere.com" name="email" />
+							<input type="hidden" id="trialextension-name" name="name" value="" />
+							<input type="hidden" name="authentication" value="3ZxXPULuVF5trEzR" />
+							<input type="hidden" name="fromassistant" value="yes" />
+							<input type="hidden" name="productname" class="app-input" value=""/>
+							<input type="hidden" id="trialextension-mac" name="mac" value="" />
+							<p class="inputline-description"><span>您的 Email 地址</span>
+								<span id="trialextension-submit" class="accept-button" style="float: right"></span>
+							</p>
+						</form>
+						<div class="support-box-overlay" style="visibility:hidden; opacity:0.0;">
+							<p>一个30天的试用许可<span class="app">*Meep*</span> 已发送到输入的 Email 地址.</p>
+							<p class="support-link support-box-overlay-closelink">Close message</p>
+						</div>
+						<div class="spinner" style="visibility:hidden; opacity:0.0;">
+						</div>
+					</div>
+				</div>
+				<div class="support-box" id="box3">
+					<h1 id="box3-header">让我们知道</h1>
+					<p id="box3-body">您最近是否更改 Email 地址并希望我们更新记录吗?</p>
+					<p id="box3-link" class="support-link"><a href="http://www.devontechnologies.com/redirect.php?id=support">发送新的详细信息</a></p>
+				</div>
+				<div class="support-box" id="box4">
+					<h1 id="box4-header">购买升级</h1>
+					<p id="box4-body">检查您的升级选项，并用优惠价格购买最高版本或最新版本.</p>
+					<p id="box4-link" class="support-link"><a href="#" target="_blank" id="upgrade-link">检查升级选项</a></p>
+				</div>
+			</div>
+
+			<div class="bottombar">
+				<p>
+					<a id="bottombar-home" href="index.html" onclick="switchTo('welcome.html'); return false;">欢迎</a>&emsp;|&emsp;<a id="bottombar-extras" href="extras.html" onclick="switchTo('extras.html'); return false;">安装扩展</a>&emsp;|&emsp;<a id="bottombar-academy" href="academy.html" onclick="switchTo('academy.html'); return false;">学院</a>
+				</p>
+			</div>
+
+		</div>
+
+	</body>
+
+</html>

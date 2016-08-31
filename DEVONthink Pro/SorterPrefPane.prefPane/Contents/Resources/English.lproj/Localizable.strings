@@ -1,0 +1,60 @@
+/* Label text describing the Start at login checkbox */
+"Availability:" = "可用性:";
+
+/* Button title for error alert */
+"Cancel" = "取消";
+
+/* Button title for error alert */
+"Check" = "选中";
+
+/* Label text for hotkey selector */
+"Copy Selection Hotkey:" = "拷贝所选热键:";
+
+/* Error message when Sorter login item can't be added */
+"Could not add the login item." = "无法添加登录项.";
+
+/* Error message when Sorter login item can't be removed */
+"Could not remove the login item." = "无法移除登录项.";
+
+/* Checkbox title that describes that the tab is fully opaque */
+"Full" = "完全";
+
+/* Button for quitting the Sorter */
+"Quit" = "退出";
+
+/* Title of button that does what it says */
+"Reset Fullscreen Settings" = "重置全屏设置";
+
+/* Button for showing the Sorter */
+"Show" = "显示";
+
+/* Label that indicates a restart is required (after hot key changes) */
+"Sorter needs to restart." = "分类器需要重新启动.";
+
+/* Title of checkbox that sets the Sorter as a login item */
+"Start Sorter at login" = "登录时启动分类器";
+
+/* Label text for hotkey selector */
+"Take Note Hotkey:" = "做笔记热键:";
+
+/* Label text describing functionality of Sorter helper app */
+"The Sorter helps to collect information from any application to specified groups even if a database is not available.\n\nThe Sorter appears as a `DEVONthink' tab attached to a screen border." = "分类器帮您从任意应用程序收集信息到指定分组, 即使在数据库不可用时.\n\n分类器显示为 “DEVONthink”标签附着在屏幕边缘.";
+
+/* Partial error message when hot keys collide */
+"this combination is used for the `Copy Selection' hot key" = "此组合用于 “拷贝选区” 热键";
+
+/* Partial error message when hot keys collide */
+"this combination is used for the `Take Note' hot key" = "此组合用于 “做笔记” 热键";
+
+/* Label text for checkbox that makes tab more or less visible */
+"Visibility:" = "可见性:";
+
+/* Recovery message when Sorter login item can't be added/removed */
+"You may not have permissions to change the `Login Items'. Do you want to check this in the System Preferences > Accounts preferences?" = "您可能没有权限更改 '登录项'. 您想在系统偏好设置>帐户偏好设置中进行检查吗?";
+
+/* Label for the application hide list */
+"Hide Sorter in Full Screen:" = "在全屏时隐藏分类器:";
+
+/* Label for the application hide table headings */
+"Application" = "应用程序";
+"Hide" = "隐藏";

@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>In &amp; out : Synchronizing</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="inandout-sync"> </a>
+<a name="_sync"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="inandout-sync.html#concepts" class="quicklinks">Important concepts</a>
+<br />
+<a href="inandout-sync.html#settingup" class="quicklinks">Setting up a database for synchronizing</a>
+<br />
+<a href="inandout-sync.html#directconnections" class="quicklinks">Setting up direct connections</a>
+<br />
+<a href="inandout-sync.html#importing" class="quicklinks">Importing a database from a sync store</a>
+<br />
+<a href="inandout-sync.html#oldiossync" class="quicklinks">Synchronizing with DEVONthink To Go 1.x</a>
+<br />
+<a href="inandout-sync.html#troubleshooting" class="quicklinks">Troubleshooting</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Synchronizing</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>Synchronizing keeps multiple copies of a database updated so that all contain the most recent set of documents. It makes sure that you can use the synchronized databases on your office Mac, your home iMac, or your MacBook Air. It also can be used to distribute new documents or other changes among your team members. A future version of DEVONthink To Go will use the same technology to automatically receive all changes you make to your document collection.</p>
+<p>You can synchronize your database either directly from one Mac to another or indirectly using a "sync store" on a server:</p>
+<ul>
+<li>Direct connection between two Macs</li>
+<li>Via Dropbox</li>
+<li>Via WebDAV</li>
+<li>Via any mountable volume, e.g., a file server or a USB stick</li>
+</ul>
+<p>Synchronizing directly is much faster than using a sync store, but requires both machines to be connected to your local network, switched on, and have DEVONthink open at the same time. On the other hand, using sync store allows you to synchronize your database(s) at any time and, in the case of Dropbox, WebDAV, or a file server available over the Internet, from anywhere in the world. Both metadata and content in a sync store is encrypted.</p>
+<a name="concepts"> </a>
+<p class="subsection">Important concepts</p>
+<ul>
+<li>
+<span class="pname">Synchronizing:</span> The process of updating two databases, or one database and a sync store, so that both copies of the database contain the most recent versions of your documents.</li>
+<li>
+<span class="pname">Encryption:</span> All data in a sync store is always encrypted using a unique key and, if entered, the database's password.</li>
+<li>
+<span class="pname">Location:</span> Another Mac or service capable to sychronize a database.</li>
+<li>
+<span class="pname">Sync store:</span> A folder containing one or more databases in a special syncable format; sync stores can reside on any mountable volume, e.g., a hard disk, a file server, or even a USB stick, or on services such as Dropbox or WebDAV.</li>
+<li>
+<span class="pname">Local sync store:</span> A sync store located on a local drive or file server.</li>
+<li>
+<span class="pname">Direct connection:</span> A direct link between two instances of DEVONthink, usually on two Macs. Synchronizing through direct connections does not require sync stores, but requires both devices to be switched on and running DEVONthink.</li>
+<li>
+<span class="pname">Importing a database:</span> Downloading a database from a sync store to this Mac.</li>
+<li>
+<span class="pname">Schedule:</span> A schedule that defines when a database should be synchronized with the locations assigned to it.</li>
+<li>
+<span class="pname">UUID:</span> Universally unique identifier; a unique ID that identifies a database even if it has a different name etc.</li>
+</ul>
+<p>Indexed files, i.e. documents whose files reside outside of the database package, are synchronized to the exact same locations on all computers. Example: A document's file is located at "~/Documents/SomeFile.txt" (where "~" represents your home folder). The file will also appear in the synchronizing user's "Document" folder on other Macs.</p>
+<a name="settingup"> </a>
+<p class="subsection">Setting up a database for synchronizing</p>
+<p class="image">
+<img src="../gfx/preferences/sync.png" srcset="../gfx/preferences/sync.png 1x, ../gfx/preferences/sync@2x.png 2x" alt="" />
+</p>
+<p>You set up which databases are synchronized, at which times, and with which locations in <em>
+<a href="preferences-sync.html#">Preferences, Sync tab</a>
+</em>.</p>
+<ul>
+<li>
+<span class="pname">Step 1:</span> Select the database you want to set up.</li>
+<li>
+<span class="pname">Step 2:</span> Choose when you want to sync this database automatically, or just leave <em>Manually</em> selected.</li>
+<li>
+<span class="pname">Step 3:</span> Check all locations to which you want to sync this database.</li>
+<li>
+<span class="pname">Step 4:</span> Click <em>Sync</em> to start the first synchronization.</li>
+</ul>
+<p>If you haven't already set up the location, click the <em>+</em> button below the (empty) list of locations. From the pop-up menu that appears, choose the type of location and then follow the further instructions on the screen. <em>Add new local sync store</em> creates a new sync store on a mounted disk, <em>Add existing local sync store</em> lets you choose an already existing sync store, e.g., from a USB stick that you from a colleague. For WebDAV locations, the the path is the folder within the WebDAV root directory where you want to keep the sync store. In most cases, this can be left blank.</p>
+<p>Should your database (identified by its unique ID) already exist in the location, DEVONthink Pro Office will ask if you want to merge the two.</p>
+<p>Synchronizing requires temporary disk space. Make sure to have adequate free space available, especially when importing a database.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>If you are using Dropbox and the Dropbox app, it is advisable to exclude the "DEVONthink" folder inside the "Apps" folder from being synchronized with your Mac. This keeps the Dropbox app from wasting valuable disk space re-downloading all changes you've made to your databases, and from spamming you with notifications. To do this, click the Dropbox icon in your menubar, choose <em>Preferences</em>, switch to the <em>Advanced</em> tab, click <em>Change Settings</em>, and select the <em>Apps</em> folder, and uncheck the <em>DEVONthink</em> folder inside of it. Click <em>Update</em> to confirm your change. If you change your Dropbox email address, you'll need to remove and re-add the Dropbox location.</p>
+</td>
+</tr>
+</table>
+</div>
+<a name="directconnections"> </a>
+<p class="subsection">Setting up direct connections</p>
+<p>For the most part, direct connections are treated like other locations. The main difference is that for every connection one Mac serves as the host and the other Mac connects as a client. You can connect to the host from as many Macs as you like, e.g., to use the same research database in a team.</p>
+<p>You set up your Mac as potential host or add direct connections as locations in <em>
+<a href="preferences-sync.html#">Preferences, Sync tab</a>
+</em>.</p>
+<ul>
+<li>
+<span class="pname">Step 1:</span> On the host, click <em>Incoming Connections.</em>
+</li>
+<li>
+<span class="pname">Step 2:</span> Check <em>Allow other computers on the network to sync with my databases</em> to allow incoming connections from other computers.</li>
+<li>
+<span class="pname">Step 3:</span> If necessary, change the port number on which your Mac is listening for incoming connections. The default port is 10191, but you can change it to whatever works on your network.</li>
+<li>
+<span class="pname">Step 4:</span> On the client, click the <em>+</em> button below the list of locations and add a new direct connection.</li>
+<li>
+<span class="pname">Step 5:</span> Choose the host in the list (requires Bonjour to be available on the network) or enter its IP address or host name. Click <em>UK</em> to add it. You will need to enter the PIN shown in the host on the client side in order to permanently pair the two instances.</li>
+<li>
+<span class="pname">Step 6:</span> Done. You can now proceed, e.g., import the desired database from the host (see below).</li>
+</ul>
+<a name="importing"> </a>
+<p class="subsection">Importing a database from a sync store</p>
+<p>If you synchronized a database with a sync store and want to make it available on another Mac, the easiest way is to directly get it from the sync store. If the database is hosted on another Mac to which you have added a direct connection, you also can import it from there.</p>
+<ul>
+<li>
+<span class="pname">Step 1:</span> Set up the location containing your database.</li>
+<li>
+<span class="pname">Step 2:</span> Click the button <em>Import Database.</em>
+</li>
+<li>
+<span class="pname">Step 3:</span> Select a location.</li>
+<li>
+<span class="pname">Step 4:</span> Select the database to import; DEVONthink Pro Office only shows databases not yet available on this Mac.</li>
+</ul>
+<p>After downloading, DEVONthink Pro Office will ask you where you want to save the database and open the database. An imported database is automatically also set up for synchronizing with the location it came from.</p>
+<a name="oldiossync"> </a>
+<p class="subsection">Synchronizing with DEVONthink To Go 1.x</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>DEVONthink To Go 2, planned for release in 2013, will use the sync mechanism described above. Version 1.x, however, uses its own proprietary sync mechanism. The information below will become obsolete with the release of version 2.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>DEVONthink Pro Office has the ability to synchronize its databases with <a href="otherproducts-devonthink.html#">DEVONthink To Go</a>, its companion app for iPhone, iPad, and iPod touch devices.</p>
+<p>
+<span class="pname">Synchronizing with the device: </span>DEVONthink Pro Office uses a special group named <em>Sync</em> to let you decide what data you want to share with your iOS device. The <em>Sync</em> group appears on the top group level of all databases and has a special icon that makes it stand out from other groups. To select the items in your database that you want to take with you on your device, either move or <a href="menus-data.html#duplicate">replicate</a> them into its <em>Sync</em> group. You replicate items by dragging them with the &#8984; and &#8997; keys held. In the global inbox there is no <em>Sync</em> group; it is always synchronized as a whole. You can add documents as well as whole groups to the <em>Sync</em> group. Smart groups are not yet supported, and will be ignored during synchronization.</p>
+<p>Make sure your device is on the same WiFi network as this computer. Open the DEVONthink To Go app on the device, tap the sync button on the app's home screen, and follow the instructions.</p>
+<p>
+<span class="pname">Visit the App Store: </span>If you do not yet have DEVONthink To Go installed on your device, <a href="otherproducts-devonthink.html#">learn more</a> about it or <a href="http://www.devontechnologies.com/redirect.html?id=buy-dttg" target="_blank" class="weblink">visit the App Store</a>.</p>
+<a name="troubleshooting"> </a>
+<p class="subsection">Troubleshooting</p>
+<p>If you have problems synchronizing DEVONthink Pro Office databases between Macs <a href="troubleshooting-sync.html#">click here.</a> If you have problems synchronizing with DEVONthink To Go 1.x <a href="troubleshooting-devonthinktogo2.html#">click here.</a>
+</p>
+<p>If you experience other problems not covered in this documentation, please <a href="http://www.devontechnologies.com/redirect.php?id=forum" target="_blank" class="weblink">visit our online forum</a> or <a href="http://www.devontechnologies.com/redirect.php?id=contact" target="_blank" class="weblink">contact our support team</a>.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="inandout-dockmenu.html">&#8592; Dock menu</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="inandout-bookmarklets.html">Extensions and bookmarklets &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

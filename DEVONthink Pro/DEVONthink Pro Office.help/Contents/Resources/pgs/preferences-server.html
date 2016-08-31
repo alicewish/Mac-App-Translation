@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta content="text/html;charset=utf-8" http-equiv="content-type" />
+<title>Preferences : Server</title>
+<meta name="dategen" content="Wednesday, February 03, 2016 04:55:11 PM" />
+<meta content="DEVONtech HS 1.1" name="generator" />
+<link media="all" rel="stylesheet" href="../shrd/sty/help.css" />
+</head>
+<body>
+<div id="headbar" style="">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="header header-left">
+<a href="../DEVONthink Pro Office.html" class="header">Home</a>
+</p>
+</td>
+<td>
+<p class="header header-right">
+<a href="appendix-glossary.html">Glossary</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="mainbox" style="margin-top: 0px">
+<a name="preferences-server"> </a>
+<a name="_preferences-server"> </a>
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<table class="quicklinks" cellpadding="0" cellspacing="0" border="0">
+<tr align="right">
+<td class="quicklinks" align="right" valign="top">Quick links:</td>
+<td style="width: 8px">&#160;</td>
+<td class="quicklinks" align="left" valign="top">
+<a href="preferences-server.html#incomingfiles" class="quicklinks">Incoming Files</a>
+<br />
+<a href="preferences-server.html#bonjour" class="quicklinks">Bonjour Name</a>
+<br />
+<a href="preferences-server.html#domain" class="quicklinks">Bonjour Domain, Port</a>
+<br />
+<a href="preferences-server.html#user" class="quicklinks">User, Password</a>
+<br />
+<a href="preferences-server.html#launch" class="quicklinks">Start on Launch</a>
+<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mainbox-head" cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr valign="bottom">
+<td style="width: 3px; height: 32px;">&#160;</td>
+<td style="width: 32px; height: 32px;">
+<img width="32" height="32" alt="Application Icon" srcset="../shrd/gfx/appicon_32.png 1x, ../shrd/gfx/appicon_32@2x.png 2x" src="../shrd/gfx/appicon_32.png" />
+</td>
+<td style="width: 8px; height: 32px;">&#160;</td>
+<td style="height: 32px" valign="middle">
+<span class="topic">Server</span>
+</td>
+</tr>
+</table>
+<table id="mainbox-body" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p class="image">
+<img src="../gfx/preferences/server.png" srcset="../gfx/preferences/server.png 1x, ../gfx/preferences/server@2x.png 2x" alt="" />
+</p>
+<p>DEVONthink Pro Office features a built-in web server that allows you to share documents on your local area network and over the Internet with just one click. As soon as the Web server starts, other users can use a standard Web browser to search your database, view documents, and download them.</p>
+<p>Enter all necessary details (see below) and click the <em>Start</em> button to start the Web server, which makes all documents in every shared database (You switch on sharing in the <a href="windows-properties.html#">Database Properties</a> panel.) available for searching. If you or others have problems accessing your DEVONthink Pro Office database with a Web browser, click the <em>Log</em> button to check the log for error messages and other information that could be helpful in solving the problem.</p>
+<div class="taskbox">
+<table cellpadding="9" cellspacing="0" border="0" width="100%">
+<tr>
+<td>
+<p>
+<span class="pname note">Note: </span>When you switch to another database, the server will automatically switch off to safeguard your data unless you have checked <em>
+<a href="preferences-server.html#launch">Start on Launch</a>
+</em>.</p>
+</td>
+</tr>
+</table>
+</div>
+<p>As soon as the server starts, DEVONthink Pro Office shows the name and two URLs for your database at the bottom of the window. Use either the Bonjour services list of the Safari Bookmarks view or enter the listed URLs into the address field of your Web browser to access your database. Use the numeric address if the Bonjour does not work for your network.</p>
+<p>To learn more about using web sharing, the iPhone web application, and how best to make your database available from the "outside" Internet, please <a href="inandout-websharing.html#">read on here</a>.</p>
+<a name="incomingfiles"> </a>
+<p class="subsection">Incoming Files</p>
+<p>If desired, check the option <em>Convert images &amp; PDF documents to searchable PDF</em> to automatically convert all images and non-OCR'd PDF documents added from web sharing users to searchable PDFs.</p>
+<a name="bonjour"> </a>
+<p class="subsection">Bonjour Name</p>
+<p>Enter a distinct name for your computer here that identifies it on the local network using Bonjour. This name will be shown in the list of Bonjour services on other Macs on your network. Switch to the Bookmarks view in Safari or your preferred browser and select <em>Bonjour</em> in the sidebar.</p>
+<a name="domain"> </a>
+<p class="subsection">Bonjour Domain, Port</p>
+<p>These settings define the Bonjour domain and the TCP/IP port number it uses.</p>
+<ul>
+<li>
+<span class="pname">Bonjour Domain:</span> Set the Bonjour domain if necessary. Leave this field empty unless you know what you're doing!</li>
+<li>
+<span class="pname">Port:</span> Change the port number to your needs. This is only necessary if you are sharing your database on the WAN/Internet or if you are using a firewall. If so, enter a free port number here and open this port on your firewall to allow incoming access. If no port number is entered here, and you are only person using Bonjour, DEVONthink Pro Office automatically assigns a random port number and publishes it on Bonjour. There is no need to communicate the port number to other users on your network. Note: This is the recommended operation. Only set a port when you want to access the web server programatically or want to connect it to an outside port.</li>
+</ul>
+<a name="user"> </a>
+<p class="subsection">User, Password</p>
+<p>To protect your database with a user name and password, enter a user name and password here. Anyone wanting to search your database using a web browser would need to enter the correct user name and password to gain access to your documents. If you have set individual passwords for your databases, these are used instead.</p>
+<a name="launch"> </a>
+<p class="subsection">Start on Launch</p>
+<p>To automatically start DEVONthink Pro Office's web server as soon as you launch DEVONthink Pro Office, check this checkbox.</p>
+</td>
+</tr>
+</table>
+</div>
+<div id="footbar">
+<table id="mainbox-nav" cellpadding="3" cellspacing="0" border="0" width="100%">
+<tr>
+<td style="width: 50%; text-align: left">
+<p class="footer footer-left">
+<a href="preferences-rss.html">&#8592; RSS</a>
+</p>
+</td>
+<td style="width: 50%; text-align: right">
+<p class="footer footer-right">
+<a href="preferences-email.html">Email &#8594;</a>
+</p>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
